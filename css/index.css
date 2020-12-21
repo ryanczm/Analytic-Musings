@@ -1,0 +1,251 @@
+.flexbox {
+    display: flex;
+}
+
+.sidebar-nav {
+    height: 100%;
+    width: 380px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(18, 28, 46);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.contentblock {
+    position: absolute;
+    top: 500px;
+    left: 50px;
+}
+
+.sidebaritems {
+    padding: 5px;
+}
+
+.sidebar-nav #blogtitle {
+    color: white;
+    text-decoration: none;
+    font-family: "Cambria";
+    line-height: 100%;
+    font-size: 55px;
+    position: relative;
+    top: -80px;
+    left: 2.5px;
+}
+
+.sidebar-nav #caption {
+    color: grey;
+    text-decoration: none;
+    font-family: 'Arial';
+    line-height: 100%;
+    font-size: 25px;
+    position: relative;
+    top: -60px;
+    left: 2.5px;
+    font-family: "cambria";
+    font-style: oblique;
+}
+
+.sidebar-nav img {
+    position: relative;
+    top: -30px;
+    left: 6px;
+}
+
+.sidebar-nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-family: 'Arial';
+    line-height: 40px;
+    font-size: 25px;
+    transition: 0.1s;
+    position: relative;
+    top: -15px;
+    border-color: white;
+    border-radius: 60px;
+    color: white;
+    width: 70%;
+    padding-left: 5px;
+}
+
+.sidebar-nav #homelogo {
+    margin-left: 5px;
+}
+
+.sidebar-nav .active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.sidebar-nav a:hover {
+    text-decoration: underline;
+    border-style: solid;
+    border-color: white;
+    border-radius: 60px;
+    color: white;
+    width: 70%;
+    padding-left: 5px;
+}
+
+.sidebar-nav #credits {
+    display: block;
+    color: grey;
+    text-decoration: none;
+    font-family: 'Arial';
+    line-height: 25px;
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+}
+
+
+/* Page content */
+
+main {
+    margin-left: 25%;
+    margin-right: 35%;
+    margin-top: 2.5%;
+    font-size: 17px;
+}
+
+main h1 {
+    color: rgb(13, 0, 87);
+    font-size: 2.5vw;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main h2 {
+    color: rgb(13, 0, 87);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+main p {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+main .older-newer {
+    position: absolute;
+    bottom: 5%;
+}
+
+main .older {
+    margin-right: 25px;
+}
+
+
+/* media query */
+
+@media(max-width:600px) {
+    .flexbox {
+        display: flex;
+    }
+    .flexbox-item-1 {
+        flex: 1;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    /* sidebar media query */
+    .sidebar-nav {
+        width: 100vw;
+        height: 30vh;
+        position: absolute;
+    }
+    .sidebar-nav #blogtitle {
+        position: relative;
+        top: -430px;
+        left: 100px;
+        width: 30%;
+        height: 30%;
+        font-size: 5vw;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+    }
+    .sidebar-nav #caption {
+        position: absolute;
+        top: -380px;
+        left: 100px;
+        width: 50%;
+        height: 50%;
+        font-size: 4vw;
+    }
+    .sidebar-nav #logo {
+        position: relative;
+        top: -440px;
+        left: 90px;
+        width: 40%;
+        height: 40%;
+        margin: auto;
+        display: none;
+    }
+    .sidebar-nav a {
+        font-size: 3.1vw;
+        line-height: 20px;
+        position: relative;
+        top: -500px;
+        left: 140px;
+        width: 50%;
+        margin: auto;
+        text-align: right;
+    }
+    .sidebar-nav #credits {
+        position: relative;
+        top: -580px;
+        left: -100px;
+        width: 30%;
+        font-size: 2.5vw;
+        line-height: 15px;
+        margin: auto;
+        text-align: left;
+    }
+    .sidebar-nav a:hover {
+        text-decoration: underline;
+        border-style: solid;
+        border-color: white;
+        border-radius: 60px;
+        color: white;
+        width: 70%;
+        padding-left: 5px;
+    }
+    /* main body media query */
+    main {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 70%;
+        padding: 0;
+        font-size: 3vw;
+    }
+    main h1 {
+        font-size: 7vw;
+        font-weight: bold;
+        padding-top: 5px;
+    }
+    main h2 {
+        font-size: 3.5vw;
+        font-weight: bold;
+        padding-top: 5px;
+    }
+    main .post-metadata {
+        font-size: 3.5vw;
+    }
+    .read-more {
+        font-size: 3.5vw;
+    }
+    .teaser {
+        font-size: 3.2vw;
+    }
+    main .older-newer {
+        position: static;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    main .older {
+        margin-right: 25px;
+    }
+}
