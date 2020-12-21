@@ -170,7 +170,7 @@ img {
         left: 100px;
         width: 30%;
         height: 30%;
-        font-size: 5vw;
+        font-size: 6vw;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-weight: bold;
     }
@@ -180,7 +180,7 @@ img {
         left: 100px;
         width: 50%;
         height: 50%;
-        font-size: 4vw;
+        font-size: 6vw;
     }
     .sidebar-nav #logo {
         position: relative;
@@ -192,7 +192,7 @@ img {
         display: none;
     }
     .sidebar-nav a {
-        font-size: 3.3vw;
+        font-size: 4vw;
         line-height: 20px;
         position: relative;
         top: -500px;
@@ -206,7 +206,7 @@ img {
         top: -580px;
         left: -100px;
         width: 30%;
-        font-size: 2.5vw;
+        font-size: 3vw;
         line-height: 15px;
         margin: auto;
         text-align: left;
