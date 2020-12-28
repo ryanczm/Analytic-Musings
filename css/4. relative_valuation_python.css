@@ -1,7 +1,3 @@
-.flexbox {
-    display: flex;
-}
-
 .sidebar-nav {
     height: 100%;
     width: 380px;
@@ -108,9 +104,9 @@
     font-size: 18px;
 }
 
-#jupyter-content-lmao {
+main {
     margin-left: 20%;
-    margin-right: 35%;
+    margin-right: 30%;
     margin-top: 2.5%;
     font-size: 18px;
 }
@@ -151,6 +147,12 @@ main .older-newer {
 
 main .older {
     margin-right: 25px;
+}
+
+#impliedshareprices {
+    position: relative;
+    left: -5px;
+    top: 5px;
 }
 
 
@@ -218,9 +220,6 @@ main>.section-nav {
 /* media query */
 
 @media(max-width:600px) {
-    .flexbox {
-        display: flex;
-    }
     .flexbox-item-1 {
         flex: 1;
         flex-direction: row;
@@ -291,14 +290,14 @@ main>.section-nav {
     }
     /* main body media query  */
     main {
-        margin-left: 5%;
-        margin-right: 5%;
+        margin-left: -15%;
+        margin-right: 0%;
         margin-top: 70%;
         padding: 0;
         font-size: 3vw;
     }
     main h1 {
-        font-size: 10vw;
+        font-size: 5px;
         font-weight: bold;
         padding-top: 5px;
         margin-bottom: 0px;
@@ -327,6 +326,16 @@ main>.section-nav {
         margin-bottom: 10vw;
         width: 90%;
         font-size: 4vw;
+        top: 100px;
         display: none;
+    }
+    .jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput li {
+        font-size: 15px;
+    }
+    blockquote {
+        font-size: 15px;
+    }
+    main .hl-ipython3 {
+        font-size: 15px;
     }
 }
