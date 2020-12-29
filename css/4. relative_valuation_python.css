@@ -6,13 +6,13 @@
     top: 0;
     left: 0;
     background-color: rgb(18, 28, 46);
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     padding-top: 20px;
 }
 
 .contentblock {
     position: absolute;
-    top: 500px;
+    top: 450px;
     left: 50px;
 }
 
@@ -105,8 +105,8 @@
 }
 
 main {
-    margin-left: 20%;
-    margin-right: 30%;
+    margin-left: 25%;
+    margin-right: 25%;
     margin-top: 2.5%;
     font-size: 18px;
 }
