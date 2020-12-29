@@ -249,6 +249,11 @@
             width: 70%;
             padding-left: 5px;
         }
+        .contentblock {
+            position: absolute;
+            top: 500px;
+            left: 50px;
+        }
         /* main body media query */
         main {
             margin-left: 5%;
@@ -266,6 +271,11 @@
             font-size: 5.5vw;
             font-weight: bold;
             padding-top: 5px;
+        }
+        .contentblock {
+            position: absolute;
+            top: 500px;
+            left: 50px;
         }
         /* toc media query */
         main>.section-nav {

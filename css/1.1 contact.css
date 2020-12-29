@@ -196,6 +196,11 @@ main p {
         margin: auto;
         text-align: left;
     }
+    .contentblock {
+        position: absolute;
+        top: 500px;
+        left: 50px;
+    }
     /* main body media query */
     main {
         margin-left: 5%;

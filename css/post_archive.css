@@ -216,6 +216,11 @@ main .older {
         width: 70%;
         padding-left: 5px;
     }
+    .contentblock {
+        position: absolute;
+        top: 500px;
+        left: 50px;
+    }
     /* main media query */
     main {
         margin-left: 5%;
