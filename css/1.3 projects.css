@@ -146,6 +146,10 @@ img {
     border-radius: 10px;
 }
 
+main li {
+    margin-top: 20px;
+}
+
 
 /* main body media query */
 
