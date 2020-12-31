@@ -149,7 +149,7 @@ img {
 
 /* main body media query */
 
-@media(max-width:600px) {
+@media(max-width:800px) {
     .flexbox {
         display: flex;
     }
@@ -259,5 +259,25 @@ img {
     img {
         height: 65vw;
         margin: auto;
+    }
+}
+
+@media(max-width:1400px) and (min-width:800px) {
+    .flexbox {
+        display: flex;
+    }
+    .sidebar-nav {
+        height: 100%;
+        width: 280px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(18, 28, 46);
+        /* overflow-x: hidden; */
+        padding-top: 20px;
+    }
+    main {
+        margin-right: 20%;
     }
 }

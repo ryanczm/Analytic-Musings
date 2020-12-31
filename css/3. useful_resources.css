@@ -208,7 +208,7 @@ main>.section-nav {
 
 /* media query */
 
-@media(max-width:600px) {
+@media(max-width:800px) {
     .flexbox {
         display: flex;
     }
@@ -323,5 +323,26 @@ main>.section-nav {
         margin-bottom: 10vw;
         width: 90%;
         font-size: 4vw;
+    }
+}
+
+@media(max-width:1400px) and (min-width:800px) {
+    .sidebar-nav {
+        height: 100%;
+        width: 280px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(18, 28, 46);
+        /* overflow-x: hidden; */
+        padding-top: 20px;
+    }
+    main {
+        margin-left: 35%;
+        margin-right: 5%;
+    }
+    main>.section-nav {
+        display: none;
     }
 }
