@@ -109,9 +109,9 @@
 
 main {
     margin-left: 30%;
-    margin-right: 20%;
+    margin-right: 30%;
     margin-top: 2.5%;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 main h1 {
@@ -125,7 +125,7 @@ main h1 {
 main h2 {
     color: rgb(13, 0, 87);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold;
+    font-size: 1.1vw;
 }
 
 main p {
@@ -242,8 +242,7 @@ img {
         margin-bottom: 5px;
     }
     main h2 {
-        font-size: 3.5vw;
-        font-weight: bold;
+        font-size: 4.5vw;
         padding-top: 5px;
     }
     main li {
@@ -258,7 +257,7 @@ img {
         margin-right: 25px;
     }
     img {
-        height: 60px;
+        height: 40px;
     }
 }
 
