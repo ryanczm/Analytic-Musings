@@ -259,6 +259,9 @@ img {
     img {
         height: 40px;
     }
+    p {
+        font-size: 3.5vw;
+    }
 }
 
 @media(max-width:1400px) and (min-width:800px) {
