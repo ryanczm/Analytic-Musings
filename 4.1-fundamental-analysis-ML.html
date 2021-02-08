@@ -16104,15 +16104,28 @@ Adapted from GitHub theme
     <link rel="stylesheet" href="custom.css">
 
     <!-- Loading mathjax macro -->
-    <!-- Load mathjax -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML"></script>
-    <!-- MathJax configuration -->
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({ tex2jax: { inlineMath: [ ['$','$'], ["\\(","\\)"] ], displayMath: [ ['$$','$$'], ["\\[","\\]"] ], processEscapes: true, processEnvironments: true }, // Center justify equations in code and markdown cells. Elsewhere // we use CSS to
-        left justify single line equations in code cells. displayAlign: 'center', "HTML-CSS": { styles: {'.MathJax_Display': {"margin": 0}}, linebreaks: { automatic: true } } });
-    </script>
-    <!-- End of mathjax configuration -->
-</head>
+<!-- Load mathjax -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS_HTML"></script>
+<!-- MathJax configuration -->
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true,
+        processEnvironments: true
+    },
+    // Center justify equations in code and markdown cells. Elsewhere
+    // we use CSS to left justify single line equations in code cells.
+    displayAlign: 'center',
+    "HTML-CSS": {
+        styles: {'.MathJax_Display': {"margin": 0}},
+        linebreaks: { automatic: true }
+    }
+});
+</script>
+<!-- End of mathjax configuration -->
+    /head>
 
 <body>
 
@@ -16194,6 +16207,7 @@ Adapted from GitHub theme
                                     <li> Geron's Sklearn Book and Eli Steven's PyTorch book
 
                                 </ul>
+
                             </div>
                         </div>
                     </div>
@@ -16261,7 +16275,7 @@ Adapted from GitHub theme
                                     <p>In this project, I apply a a <code>bagging model (RF)</code> (backed up with $L2$ Ridge Regression) and a <code>neural network (ANN)</code> to fundamental data as the $X_i^n$ features (financial ratios &amp; the the
                                         like) to predict stock prices and returns as the $Y^n$ variables modelled as a regression problem, to investigate the below hypothesis. (I also discover, to my detriment, that modelling is 90% data cleaning and
                                         10% actual modelling... I am considering just using an online dataset instead of making my own for my next project..)</p>
-                                    <p>Disclaimer: Sadly, one thing works, but another breaks. I was quite pleased that my MathJax TeX markdown issue has been solved, but now my dynamic ToC on the right is broken. It no longer highlights which segment of
+                                    <p>Disclaimer: Sadly, one thing works, but another breaks. I was quite pleased that my MathJax $\LaTeX$ markdown issue has been solved, but now my dynamic ToC on the right is broken. It no longer highlights which segment of
                                         the page you are on, even though it's literally the same code from the last post. I'll have to figure this one out... Also, I realize due to outliers and fat tails I should have tried quantile regression, but it
                                         was too late.
                                     </p>
