@@ -1,0 +1,411 @@
+.sidebar-nav {
+    height: 100%;
+    width: 380px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(18, 28, 46);
+    /* overflow-x: hidden; */
+    padding-top: 20px;
+}
+
+.contentblock {
+    position: absolute;
+    top: 450px;
+    left: 50px;
+}
+
+.sidebaritems {
+    padding: 5px;
+}
+
+.sidebar-nav #blogtitle {
+    color: white;
+    text-decoration: none;
+    font-family: "Cambria";
+    line-height: 100%;
+    font-size: 55px;
+    position: relative;
+    top: -80px;
+    left: 2.5px;
+}
+
+.sidebar-nav #caption {
+    color: grey;
+    text-decoration: none;
+    font-family: 'Arial';
+    line-height: 100%;
+    font-size: 25px;
+    position: relative;
+    top: -60px;
+    left: 2.5px;
+    font-family: "cambria";
+    font-style: oblique;
+}
+
+.sidebar-nav img {
+    position: relative;
+    top: -30px;
+    left: 6px;
+}
+
+.sidebar-nav a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-family: 'Arial';
+    line-height: 40px;
+    font-size: 25px;
+    transition: 0.1s;
+    position: relative;
+    top: -15px;
+    border-color: white;
+    border-radius: 60px;
+    color: white;
+    width: 70%;
+    padding-left: 5px;
+}
+
+.sidebar-nav #homelogo {
+    margin-left: 5px;
+}
+
+.sidebar-nav .active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.sidebar-nav a:hover {
+    text-decoration: underline;
+    border-style: solid;
+    border-color: white;
+    border-radius: 60px;
+    color: white;
+    width: 70%;
+    padding-left: 5px;
+}
+
+.sidebar-nav #credits {
+    display: block;
+    color: grey;
+    text-decoration: none;
+    font-family: 'Arial';
+    line-height: 25px;
+    font-size: 20px;
+    position: relative;
+    top: 5px;
+}
+
+
+/* Page content */
+
+.hl-ipython3 {
+    font-size: 15.8px;
+}
+
+.output_subarea {
+    margin: auto;
+}
+
+main {
+    margin-left: 22.5%;
+    margin-right: 25%;
+    margin-top: 2.5%;
+    font-size: 17px;
+}
+
+main h1 {
+    color: rgb(13, 0, 87);
+    font-size: 2.5vw;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 100px;
+}
+
+main h2 {
+    color: rgb(13, 0, 87);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin-bottom: 35px;
+    margin-top: 55px;
+}
+
+main h3 {
+    color: rgb(13, 0, 87);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+main p {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    line-height: 23px;
+    font-size: 1.60vh;
+}
+
+main li {
+    font-size: 1.60vh;
+}
+
+main .older-newer {
+    position: absolute;
+    bottom: 5%;
+}
+
+main .older {
+    margin-right: 25px;
+}
+
+#impliedshareprices {
+    position: relative;
+    left: -5px;
+    top: 5px;
+}
+
+
+/* actual dynamic sidebar */
+
+
+/* 1. Enable smooth scrolling */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* 2. Make nav sticky */
+
+main>.section-nav>p {
+    position: relative;
+    font-style: italic;
+    left: 20px;
+}
+
+main>.section-nav {
+    position: fixed;
+    top: 5%;
+    right: 3%;
+    align-self: start;
+    font-size: 17px;
+}
+
+.section-nav li {
+    margin-top: 3px;
+}
+
+
+/* 3. ScrollSpy active styles (see JS tab for activation) */
+
+.section-nav li.active>a {
+    color: #333;
+    font-weight: 500;
+}
+
+
+/* Sidebar Navigation */
+
+.section-nav {
+    padding-left: 0;
+    border-left: 1px solid #efefef;
+}
+
+.section-nav a {
+    text-decoration: none;
+    display: block;
+    padding: .125rem 0;
+    color: #ccc;
+    transition: all 50ms ease-in-out;
+    /* 💡 This small transition makes setting of the active state smooth */
+}
+
+.section-nav a:hover,
+.section-nav a:focus {
+    color: #666;
+}
+
+
+/* media query */
+
+@media(max-width:800px) {
+    .output_execute_result {
+        margin: auto;
+        padding: none;
+        border: none;
+    }
+    #Industry-Fundamental-Analysis-with-Sklearn-and-PyTorch {
+        margin: auto;
+        position: relative;
+        top: -17px;
+    }
+    .flexbox-item-1 {
+        flex: 1;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    /* sidebar media query */
+    .sidebar-nav {
+        width: 100vw;
+        height: 30vh;
+        position: absolute;
+    }
+    .sidebar-nav #blogtitle {
+        position: relative;
+        top: -430px;
+        left: 100px;
+        width: 30%;
+        height: 30%;
+        font-size: 6vw;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+    }
+    .sidebar-nav #caption {
+        position: absolute;
+        top: -380px;
+        left: 100px;
+        width: 50%;
+        height: 50%;
+        font-size: 6vw;
+    }
+    .sidebar-nav #logo {
+        position: relative;
+        top: -440px;
+        left: 90px;
+        width: 40%;
+        height: 40%;
+        margin: auto;
+        display: none;
+    }
+    .sidebar-nav a {
+        font-size: 4vw;
+        line-height: 20px;
+        position: relative;
+        top: -500px;
+        left: 140px;
+        width: 50%;
+        margin: auto;
+        text-align: right;
+    }
+    .sidebar-nav #credits {
+        position: relative;
+        top: -580px;
+        left: -100px;
+        width: 30%;
+        font-size: 3vw;
+        line-height: 15px;
+        margin: auto;
+        text-align: left;
+    }
+    .sidebar-nav a:hover {
+        text-decoration: underline;
+        border-style: solid;
+        border-color: white;
+        border-radius: 60px;
+        color: white;
+        width: 70%;
+        padding-left: 5px;
+    }
+    .contentblock {
+        position: absolute;
+        top: 500px;
+        left: 50px;
+    }
+    /* main body media query  */
+    main {
+        margin-left: -3%;
+        margin-right: -3%;
+        margin-top: 70%;
+        padding: 0;
+        font-size: 3vw;
+    }
+    main h1 {
+        font-size: 5px;
+        font-weight: bold;
+        padding-top: 5px;
+        margin-bottom: 0px;
+    }
+    main h2 {
+        font-size: 5.5vw;
+        font-weight: bold;
+        padding-top: 5px;
+        margin-top: 20px;
+    }
+    main h3 {
+        font-size: 5vw;
+    }
+    main p {
+        line-height: 20px;
+        font-size: 3.8vw;
+    }
+    main li {
+        font-size: 3.8vw;
+    }
+    .content-list {
+        font-size: 4vw;
+    }
+    main>.section-nav {
+        position: relative;
+        top: 0.5%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10vw;
+        width: 90%;
+        font-size: 4vw;
+        top: 100px;
+        display: none;
+    }
+    .jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput li {
+        font-size: 15px;
+    }
+    blockquote {
+        font-size: 15px;
+    }
+    main .hl-ipython3 {
+        font-size: 15.4px;
+    }
+    #ratios {
+        width: 100%;
+    }
+    div.output_area img,
+    div.output_area svg {
+        max-width: 100 %;
+        margin: auto;
+        height: auto;
+    }
+    /* div.output_area {
+        border: none;
+        padding: none;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    } */
+    div.output_subarea {
+        border: none;
+        padding: none;
+        margin: auto;
+        max-width: 105%;
+    }
+}
+
+@media(max-width:1400px) and (min-width:800px) {
+    .sidebar-nav {
+        height: 100%;
+        width: 280px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(18, 28, 46);
+        /* overflow-x: hidden; */
+        padding-top: 20px;
+    }
+    main {
+        margin-right: 5%;
+    }
+    main>.section-nav {
+        display: none;
+    }
+}

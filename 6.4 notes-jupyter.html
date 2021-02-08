@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notes Python</title>
+    <title>Jupyter Embed Guide</title>
 
 
     <!-- navbar css -->
@@ -64,24 +64,31 @@
 
 
 
-            <h1 class="page-title">Python Notes</h1>
-            <p>Last updated: 25 Dec 2020 » Python notes »
-                <a href="files/python.xlsx"><img src="images/logos/1. excel-4.svg" height=35> Link to notes</a>
-            </p>
-            <br>
+            <h1 class="page-title">Jupyter embedding as HTML in website:</h1>
 
-            <h2>Progress:</h2>
-            <p>Did this at the start of Dec 2020, for half a week to a week. </p>
-            <br>
-            <h2>Review:</h2>
-            <p>Corey Schafer’s playlist is really extremely comprehensive. So is Derek Banas’ YouTube channel, for the aforementioned packages. Corey Schafer's YouTube playlist (setup, basics, fundamentals, elementary OOP, skipped web-app frameworks like
-                Django & Flask- for next time), Derek Banas' Numpy/Pandas playlist, MatPlotLib, SeaBorn, PlotNine, Plotly, BS4, Requests, SciKit-Learn. </p>
-            <br>
-            <h2>Likes:</h2>
-            <p>Very easy to understand. Just really intuitive explanation. Goes in depth yet covers the basics.</p>
-            <br>
-            <h2>To do:</h2>
-            <p>Learn Django & Flask (web-app dev framework), learn ML/deep learning APIs</p>
+            <p>Last updated: 7 Jan 2020 » Guide to embedding Jupyter as HTML in website »
+
+            </p>
+
+            <p>Important CSS selectors to ctrl-f and modify:</p>
+            <ol>
+                <li><b>Pre-export:</b> <br>
+                    <a href="https://stackoverflow.com/questions/44298864/how-can-i-eliminate-the-gray-border-around-jupyter-ipython-notebooks-in-my-brows"> Stackoverflow: How do I remove gray border around Jupyter Notebook in HTML?</a></li>
+                <li><b>Adjust/remove border:</b> #notebook-container </li>
+                <li><b>Adjust image sizing in mobile:</b> div.output_area img, div.output_area svg AND div.output_subarea (controls image region)</li>
+                <li><b>Adjust Python code font:</b> .hl-ipython3</li>
+                <li><b>Adjust H1-5:</b> in-line styling</li>
+
+                <li><b>MathJax:</b> ctrl-f MathJax. Disable JS-CSS-HTML formatter extension to disable auto indent on save. It turns out that this extension's auto indent collapses the mathjax block into a single bar, thus undoing the effect. To remedy, I
+                    should get the correctly indented block and replace the collapsed block.</li>
+                <li>H1/H2/H3: font-weight and font-size: vh. In-line styling only.</li>
+                <li>Structure: body --> flexbox --> sidebar and main --> under main: navbar and content.</li>
+
+
+            </ol>
+
+
+
 
 
 
