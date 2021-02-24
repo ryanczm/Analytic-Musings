@@ -17855,7 +17855,7 @@ MathJax.Hub.Config({
                             <div class="text_cell_render border-box-sizing rendered_html">
                                 <h2 id="3.2">3.2 Training the Ridge Regressor<a class="anchor-link" href="#3.2">&#182;</a></h2>
                                 <ul>
-                                    <li>So now I want to replicate the same thing, but with Ridge Regression, mainly to check out the <b>coefficients</b>, since the feature importances of the RF do not tell us whether it is $+ve$ or $-ve$ values of features
+                                    <li>So now I want to replicate the same thing, but with $L2$ Ridge Regression, mainly to check out the <b>coefficients</b>, since the feature importances of the RF do not tell us whether it is $+ve$ or $-ve$ values of features
                                         that contribute to higher returns.</li>
                                 </ul>
 
@@ -18576,7 +18576,7 @@ True
                         </div>
                         <div class="inner_cell">
                             <div class="text_cell_render border-box-sizing rendered_html">
-                                <p>From the results, the <code>Random Forest</code> and <code>ANN</code> are far more optimistic than the <code>Ridge</code>. This is likely due to the regularization/shrinking effect of the coefficients. Interestingly, the
+                                <p>From the results, the <code>Random Forest</code> and <code>ANN</code> are far more optimistic than the <code>Ridge</code>. This is likely due to the regularization/shrinking effect of the coefficients added to the cost function: $\lambda \sum_{i=1}^{n} \theta^2_i$. Interestingly, the
                                     <code>ANN</code> shows far more varied results than the <code>RF</code>, perhaps it being better able to interpret nonlinear relationships in the data.</p>
 
                             </div>
