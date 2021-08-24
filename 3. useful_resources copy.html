@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Useful Resources</title>
+
+
+
+    <link rel="stylesheet" href="css/3. useful_resources.css">
+
+    <!-- icon -->
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.PNG" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+
+    <div class="flexbox">
+
+
+
+        <!-- navbar -->
+        <div id="mySidenav" class="sidebar-nav flexbox-item-1">
+
+            <div class="contentblock">
+
+                <div class="sidebar-nav-item" id="blogtitle">Ryan's blog</div>
+                <div class="sidebar-nav-item" id="caption">A journey of learning</div>
+                <img class="sidebar-nav-item" id="logo" src="images/R.png" height=90>
+
+
+                <div class="sidebaritems">
+                    <a class="sidebar-nav-item" href="index.html">Home<i class="fa fa-home" aria-hidden="true" id="homelogo"></i></a>
+                    <a class="sidebar-nav-item" href="post_archive.html">Post Archive</a>
+                    <a class="sidebar-nav-item" href="1.2 notesreviews.html">Notes/Reviews</a>
+                    <a class="sidebar-nav-item" href="1.3 projects.html">Projects</a>
+                    <a class="sidebar-nav-item" href="1. about.html">About</a>
+                    <a class="sidebar-nav-item" href="1.1 contact.html">Contact</a>
+                    <p class="sidebar-nav-item" id="credits">© Ryan Chew 2020. Website in progress.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Camel casing for ID's if not the damn thing won't work! -->
+        <main class="flexbox-item-2">
+
+            <h1>A Collection Of Useful Resources</h1>
+
+            <nav class="section-nav">
+                <p>Table of Contents</p>
+                <ol>
+                    <li><a href="#introduction">Introduction</a></li>
+                    <li><a href="#keyThemes">Key Themes</a></li>
+                    <li><a href="#finance">Finance</a>
+                        <ul>
+                            <li class=""><a href="#corpFin">Corporate Finance & Valuation</a></li>
+                            <li class=""><a href="#generalMarkets">General Markets/Random</a></li>
+                            <li class=""><a href="#courses">Courses</a></li>
+                        </ul>
+                    </li>
+                    <li class=""><a href="#programming">Programming</a>
+                        <ul>
+                            <li class=""><a href="#python">Python</a></li>
+                            <li class=""><a href="#r">R</a></li>
+                            <li class=""><a href="#sql">DBMS/SQL</a></li>
+                            <li class=""><a href="#frontEnd">Front-End</a></li>
+                            <li class=""><a href="#roadmaps">Roadmaps</a></li>
+                            <li class=""><a href="#cscourses">Courses</a></li>
+                            <li class=""><a href="#mitocwcs">MIT OCW CS Roadmap</a></li>
+                            <li class=""><a href="#csbooks">CS Books: To Read</a></li>
+                        </ul>
+                    </li>
+                    <li class=""><a href="#ds">Data Science</a>
+
+                        <ul>
+                            <li class="">
+                                <a href="#dscourses">Courses</a>
+                            </li>
+                            <li class="">
+                                <a href="#books">Books</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class=""><a href="#maths">Maths and Stats</a>
+                        <ul>
+                            <li class="">
+                                <a href="#mathRoadmaps">Roadmaps</a>
+                            </li>
+                            <li class="">
+                                <a href="#mathMisc">Misc</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class=""><a href="#closing">Closing</a></li>
+                </ol>
+            </nav>
+
+
+            <section id="introduction">
+                <h2>Introduction</h2>
+
+                <p><b>Note/Disclaimer</b> - <b style = "font-family:georgia,garamond,serif";>10<sup>th</sup> April 2021</b>: As of quite a while already (past 5 months), I have stopped using this post as a reference of stuff I need to look at, having been replaced by the list on the <a href="1.3 projects.html">Projects</a> page. This originally was made when I wanted to start my self-learning journey in Dec 2020, and is remarkably amateurish, disorganized, and shallow (despite being rather organized). I will probably try to update this page to be in sync with the official one I use at <a href="1.3 projects.html">Projects</a> page. </p>
+
+                <p>The new version of <a href="3. useful_resources.html">here</a>. I wanted to make a central reference for myself. Unfortunately, my degree does not cover much of the fields I’d like to learn, and thus the onus is to figure out,
+                    how best to self-learn these topics. So, I set out to find resources online that I could use, related to finance, data science, and math (in general) and categorized them like so.
+                </p>
+            </section>
+            <section id="keyThemes">
+                <h2>Key Themes</h2>
+                <ol class="content-list">
+                    <li>Roadmaps for technical subjects are important, as you need to build up from the basics.</li>
+                    <li>The challenge is to find not just the resources themselves, but a guide that tells you in which order to learn concepts. This is important if the field is in-depth and concepts are built upon a lot of foundational concepts.</li>
+                    <li>Different fields require different ways of thinking, or “metacognition”- being aware of your thought process, so the challenge is to configure your thought process to make it optimal for that particular subject, and be able to “switch”
+                        between modes of thought processes.</li>
+                    <li>Doing this will take a lot of time.</li>
+                </ol>
+            </section>
+        
+            <section id="finance">
+                <h2>Finance</h2>
+                <section id="corpFin">
+                    <h3>Corporate Finance & Valuation</h3>
+
+                    <ol class="content-list">
+                        <li><a href="https://www.amazon.com/Investment-Banking-Valuation-Leveraged-Acquisitions/dp/1118656210">Investment Banking: Valuation, Leveraged Buyouts, and Mergers and Acquisitions </a>(Joshua Rosenbaum) 2009</li>
+                        <li><a href="https://www.amazon.com/Financial-Modeling-Valuation-Practical-Investment/dp/1118558766">Leveraged Buyouts </a>(Paul Pignataro) 2013</li>
+                        <li>
+                            <a href="https://www.elsevier.com/books/investment-banks-hedge-funds-and-private-equity/stowell/978-0-12-804723-1">An Introduction to Investment Banks, Hedge Funds, and Private Equity </a>(David Stowell) 2009
+                        </li>
+                        <li>
+                            <a href="https://www.wiley.com/en-sg/Investment+Valuation%3A+Tools+and+Techniques+for+Determining+the+Value+of+Any+Asset%2C+3rd+Edition-p-9781118011522">Investment Valuation</a> (Aswath Damodaran) 1995
+                        </li>
+                        <li>
+                            <a href="https://www.amazon.com/Best-Practices-Equity-Research-Analysts-ebook/dp/B004G090FG">Best Practices for Equity Research Analysts </a>(James Valentine) 2011
+                        </li>
+                        <li>
+                            <a href="https://www.mckinsey.com/business-functions/strategy-and-corporate-finance/our-insights/valuation-measuring-and-managing-the-value-of-companies#">McKinsey: Valuation </a>(Tim Koller) 1990
+                        </li>
+                        <li>
+                            <a href="https://www.wiley.com/en-sg/Financial+Modelling+in+Practice%3A+A+Concise+Guide+for+Intermediate+and+Advanced+Level-p-9780470997444">Financial Modelling in Practice</a> (Michael Rees) 1990
+                        </li>
+                    </ol>
+
+
+
+                </section>
+                <section id="generalMarkets">
+                    <h3>General Markets/Random:</h3>
+                    <ol class="content-list">
+                        <li><a href="https://www.amazon.sg/Alchemy-Finance-Reading-Mind-Market/dp/0471445495">The Alchemy of Finance</a> (George Soros) 1994</li>
+                        <li><a href="https://www.amazon.sg/Random-Walk-Down-Wall-Street/dp/0393330338">A Random Walk Down Wall Street </a> (Burton Malkiel) 1973</li>
+                        <li><a href="https://www.amazon.sg/Intelligent-Investor-Benjamin-Graham-Book/dp/0060555661">The Intelligent Investor </a>(Benjamin Graham) 1949</li>
+                        <li><a href="https://www.amazon.com/Stock-Market-Wizards-Interviews-Americas/dp/0066620597">Stock Market Wizards </a>(Jack Schwager) 1949</li>
+
+                    </ol>
+                </section>
+                <section id="courses">
+                    <h3>Courses:</h3>
+                    <p>Most of these finance courses are behind a hefty paywall, which is something I've noticed of Finance courses in general compared to others.</p>
+                    <ol class="content-list">
+                        <li><a href="https://breakingintowallstreet.com/biws/breaking-into-wall-street-courses/">Breaking Into Wall Street</a> (Brian DeChesare)</li>
+                        <li><a href="https://www.wallstreetoasis.com/courses">Wall Street Oasis Course </a>(Patrick Curtis)</li>
+                        <li><a href="https://www.wallstreetprep.com/">Wall Street Prep </a>(Matan Feldman)</li>
+                        <li><a href="https://ocw.mit.edu/courses/sloan-school-of-management/">MIT Sloan OCW </a> Unfortunately these are quite old, almost 10 years ago.</li>
+                    </ol>
+                </section>
+
+            </section>
+            <section id="programming">
+                <h2>Programming:</h2>
+                <section id="python">
+                    <h3>Python</h3>
+                    <ol class="content-list">
+                        <li><a href="https://www.youtube.com/watch?v=YYXdXT2l-Gg&list=PL-osiE80TeTt2d9bfVyTiXJA-UTHn6WwU&ab_channel=CoreySchafer">Corey Schafer's playlist </a> is quite comprehensive for an introduction. There are 143 videos. I've only done
+                            like a third so far.</li>
+                        <li><a href="https://www.youtube.com/user/derekbanas">Derek Banas’ YouTube channel </a>for the common visualization libraries and packages (Numpy, Pandas, MPL, SNS, Plotly, etc)</li>
+                        <li>Books: I feel like it’s quite easy to find books on Python, so I didn’t bother searching for any.</li>
+                    </ol>
+                </section>
+                <section id="r">
+                    <h3>R:</h3>
+                    <ol class="content-list">
+                        <li>Books on R by <a href="https://rstudio-education.github.io/hopr/">Garrett Grolemond</a> and <a href="https://www.amazon.com/Data-Science-Transform-Visualize-Model/dp/1491910399">Hadley Wickham</a> (Tidyverse creator) and
+                            <a href="http://www.cs.uni.edu/~jacobson/4772/week11/R_in_Action.pdf">Robert Kabacoff</a>. I feel like books are better to learn for R, for some reason.</p>
+                    </ol>
+                </section>
+
+                <section id="sql">
+                    <h3>DBMS/SQL:</h3>
+                    <ol class="content-list">
+                        <li>Stanford's Jennifer Widom's <a href="https://www.edx.org/bio/jennifer-widom">DBMS/SQL</a> courses on EDX were highly recommended.</li>
+                        <li><a href="https://www.amazon.sg/Database-Systems-Complete-Hector-Garcia-Molina/dp/0131873253">The Worlds of Database Systems</a>: the book Widom wrote.</li>
+                    </ol>
+                </section>
+
+
+                <section id="frontEnd">
+                    <h3>Front-End:</h3>
+
+                    <ol class="content-list">
+                        <li><a href="https://www.udemy.com/course/the-web-developer-bootcamp/">Colt Steele's </a> web developer course is the one I'm currently doing.</li>
+                        <li><a href="https://www.udemy.com/course/understand-javascript/">Anthony Alicea's</a> JS course (expensive)</li>
+                        <li><a href="https://www.udemy.com/course/advanced-css-and-sass/">Jonas Schmedtmann's</a> CSS course (expensive)</li>
+                        <li><a href="https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA">Brad Traversy's</a> YouTube channel</li>
+                        <li><a href="https://www.youtube.com/channel/UCqrILQNl5Ed9Dz6CGMyvMTQ">Clever Programmer's</a> YouTube channel</li>
+                        <li><a href="https://www.youtube.com/user/killerphp">Stefan Mischook's</a> YouTube channel</li>
+                    </ol>
+                </section>
+                <section id="roadmaps">
+                    <h3>Programming Roadmaps:</h3>
+                    <p>I always found the amount of concepts and tools confusing, so I found these roadmaps which seem to tie things together in a coherent, progressive manner.</p>
+
+                    <ol class="content-list">
+                        <li><a href="https://roadmap.sh/">Roadmap</a> website</li>
+                        <li><a href="https://roadmap.sh/frontend">Front End</a> roadmap</li>
+                        <li><a href="https://roadmap.sh/backend">Back End</a> roadmap</li>
+                        <li><a href="https://roadmap.sh/devops">DevOps </a> roadmap</li>
+                    </ol>
+
+                </section>
+                <section id="cscourses">
+                    <h3>General Courses:</h3>
+                    <ol class="content-list">
+                        <li><a href="https://ocw.mit.edu/courses/find-by-topic/#cat=engineering&subcat=computerscience">MIT OCW CS</a> syllabus</li>
+                        <li><a href="https://online-learning.harvard.edu/course/cs50-introduction-computer-science?delta=0">CS50</a> by Harvard's David Malan's </li>
+                    </ol>
+                </section>
+                <section id="mitocwcs">
+                    <h3>MIT OCW CS Roadmap:</h3>
+                    <ol class="content-list">
+                        <li><a href="https://ocw.mit.edu/courses/mit-curriculum-guide/#map">MIT OCW Syllabus Roadmap</a></li>
+                    </ol>
+                </section>
+
+                <section id="csbooks">
+                    <h3>CS Books:</h3>
+                    <p>TO READ- IMPORTANT</p>
+                    <ol class="content-list">
+                        <li><b>Elements of Computing Systems</b> (nand2Tetris) - Noam Nisham. Bottom-up from hardware to abstraction of a computer.</li>
+                        <li><b>Computer Networks- A Top-Down Approach</b> Kurose and Ross. Computer Networks and the Internet</li>
+                        <li><b>Introduction To Algorithms</b> Thomas H. Cormen. Data structures and Algorithms.</li>
+                        <li><b>Computer Systems</b> Bryant and O'Halloran. The alternative of EOCS.</li>
+                        <li><b>Structure and Interpretation of Computer Programs</b> SICP - Sussman and Abelson. Teaches core programming concepts. Apparently a godly book.</li>
+                        <li><b>Introduction to Computation and Programming Using Python</b> Python book. Guttag is an MIT CS professor, so by definition is this a good book.</li>
+                
+                    </ol>
+                </section>
+
+            </section>
+
+
+            <section id="ds">
+                <h2>Data Science:</h2>
+
+
+                <section id="dscourses">
+                    <h3>Courses:</h3>
+                    <ol class="content-list">
+                        <li>Andrew Ng's<a href="https://www.coursera.org/learn/machine-learning"> Coursera</a> course</li>
+                        <li>Tom Howard's<a href="https://course18.fast.ai/ml"> Fast AI </a> course</li>
+                        <li>Tom Mitchell's<a href="http://www.cs.cmu.edu/~ninamf/courses/601sp15/index.html"> CMU course</a></li>
+                        <li>Stanfords's <a href="http://cs229.stanford.edu/"> CS229</a> course and <a href="https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU"> YouTube</a></li>
+                        <li>
+                            Andrew Ng's<a href="https://www.deeplearning.ai/"> Deeplearning.ai</a> course
+                        </li>
+                        <li>
+                            This list of <a href="https://www.blog.confetti.ai/post/best-online-machine-learning-courses-2020-edition">best online ML courses</a>.
+                        </li>
+
+                    </ol>
+                </section>
+                <section id="books">
+                    <h3>Books:</h3>
+                    <p>Code-based</p>
+
+                    <ol class="content-list">
+                        <li><a href="https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/">Hands-On Machine Learning</a> (Aurelion Geron)</li>
+                        <li>Deep Learning (apparently a famous DL book by Bengio and Goodfellow, but probably way too advanced, but nonetheless)</li>
+                        <li><a href="https://www.amazon.sg/Approaching-Almost-Machine-Learning-Problem/dp/8269211508">Approaching almost any Machine Learning Problem</a> (Abhishek Thakur)</li>
+                        <li><a href="https://b-ok.asia/book/5782949/4c55d6">Speech and Language Processing: An Introduction to Natural Language Processing</a> NLP (Jurafsky Daniel)</li>
+                    </ol>
+
+                    <p>Theory-based</p>
+                    <ol class="content-list">
+                        <li><a href="https://www.amazon.com/Machine-Learning-Probabilistic-Perspective-Computation/dp/0262018020">Machine Learning- A Probabalistic Perspective</a> (Kevin Murphy). Bit too hard now, covers everything.</li>
+                        <li><a href="https://www.amazon.sg/Introduction-Statistical-Learning-Applications-103/dp/1461471370">Introduction to/Elements of Statistical Learning</a> (Hastie & Tibshirani). ISL and ESL.</li>
+                        <li> Pattern Recognition and Machine Learning. Bishop's famous PRML. Apparently easier than Murphy.</li>
+                        <li> Deep Learning by Bengio, Goodfellow, and Courville. The comprehensive DL book. Will I ever get to this point? Hopefully..</li>
+                    </ol>
+                    <p>Forecasting</p>
+                    <ol class="content-list">
+                        <li><a href="https://otexts.com/fpp3/">Forecasting: Principles & Practice </a> (Hyndman George). Written in R and apparently simple, so maybe not.</li>
+                        <li> Time Series by Shumway and Stoffer. Apparently easier than Hamilton and so more accessible for this topic.</li>
+                        <li> Time Series by Hamilton Apparently the bible for TS, but not accessible.</li>
+                        <li> Intro to Time Series Forecasting with Python by Brownlee. Just a simpler, code-oriented book to teach simple forecasting in Python.</li>
+                        <li> I know TS is usually regarded as statistics, not ML per se.</li>
+                    </ol>
+                    <br>
+                </section>
+            </section>
+
+            <section id="maths">
+                <h2>Maths and Stats:</h2>
+
+                <section id="mathRoadmaps">
+                    <h3>Roadmaps:</h3>
+                    <ol class="content-list">
+                        <li><a href="https://github.com/TalalAlrawajfeh/mathematics-roadmap">Roadmap of Mathematics</a> by Talal Alrawajfeh</li>
+                        <li><a href="https://ocw.mit.edu/courses/mit-curriculum-guide/#map">MIT OCWs roadmap/graph </a> as per previously mentioned</li>
+                        <li><a href="https://www.youtube.com/watch?v=pTnEG_WGd2Q&ab_channel=TheMathSorcerer">Learn Math from the Start </a> Math Sorcerer's roadmap. Need to reference this</li>
+
+                    </ol>
+                    <h3>Math bois:</h3>
+                    <ol class="content-list">
+                        <li><a href="http://calculus123.com/wiki/Linear_Algebra_by_Messer">Linear Algebra</a> (Robert Messer's)</li>
+                        <li><a href="https://www.amazon.sg/Elementary-Linear-Algebra-Howard-Anton/dp/1118677307">Elementary Linear Algebra</a> (Howard Anton's)</li>
+                        <li><a href="https://b-ok.asia/s/spivak%20calculus">Calculus</a> (Spivak's). Need to relook again to get a better grasp.</li>
+                        <li>Hubbard's <i>Vector Calculus</i></li>
+                        <li>Tenebaum and Pollards <i>Ordinary Differential Equations</i></li>
+                        <li>Susanna's/Kolman Busby & Ross <i>Discrete Math</i></li>
+                        <li>Halmos' <i>Naive Set Theory</i></li>
+                        <li>Gould's <i>graph theory</i></li>
+                        <li>Real analysis book. Which one? What prerequisites before trying? How to learn?</li>
+                        <li>Functional analysis book. As above. </li>
+                        <li><i>Mathematical Proofs: A Transition to Advanced Mathematics</i> by Chartrand. I have struggled greatly with proofs ever since the beginning which makes sense as a newcomer with no formal education.</li>
+                       
+                    </ol>
+
+                    <h3>Stats bois:</h3>
+                    <ol class="content-list">
+                        
+                        <li><i>Probability Distributions</i> by Thomopoulous </li>
+                        <li><i>Statistical Distributions</i> by Peacock and Hastings</li>
+                        <li>Rencher, Schaalje's <i>Linear Models in Statistics</i></li>
+                        <li>Gelman and Hill's <i>Data Analysis Using Regression and Multilevel Hierarchical Models</i></li>
+                        <li>Neter and Li's <i>Applied Linear Models</i></li>
+                        <li>Hoff's <i>A First Course in Bayesian Statistical Methods</i></li>
+                        <li>Gelman's <i>Bayesian Data Analysis</i></li>
+                       
+                    </ol>
+
+            
+                  
+                </section>
+            </section>
+
+            <section id="closing">
+                <h2>Closing</h2>
+                <p>And that’s it! If anyone knows any resources to add, or any more roadmaps that are out there, please let me know. It was fun collating and going through everything, and it’s nice to have the references and links all in one place, rather
+                    than scattered in bookmarks and different directories. You can get almost all of these books for free on Libgen.</p>
+            </section>
+
+
+
+
+        </main>
+        <!-- partial -->
+        <script src="js/3. useful_resources.js"></script>
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>
