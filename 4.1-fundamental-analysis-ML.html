@@ -16275,11 +16275,8 @@ MathJax.Hub.Config({
 
                                     <h2 id="1.1" style="font-weight:bold; font-size: 3.3vh">1. Introduction/thesis<a class="anchor-link" href="#1.1">&#182;</a></h2>
                                     <p>In this project, I apply a a <code>bagging model (RF)</code> (backed up with $L2$ Ridge Regression) and a <code>neural network (ANN)</code> to fundamental data as the $X_i^n$ features (financial ratios &amp; the the
-                                        like) to predict stock prices and returns as the $Y^n$ variables modelled as a regression problem, to investigate the below hypothesis. (I also discover, to my detriment, that modelling is 90% data cleaning and
-                                        10% actual modelling... I am considering just using an online dataset instead of making my own for my next project..)</p>
-                                    <p><b>Disclaimer:</b> Sadly, one thing works, but another breaks. I was quite pleased that my MathJax $\LaTeX$ markdown issue has been solved, but now my ToC on the right is broken. It no longer highlights which segment of
-                                        the page you are on. I'll have to figure this one out... Also, I realize due to outliers and fat tails I should have tried quantile regression, but it
-                                        was too late. After reading <i>Agresti's Linear Models</i>, I realized this post is somewhat lacking. I did not bother to formally test the data if they fit the assumptions of OLS (1 out of 3 methods), e.g normality of data (Jarque-Bera, Komolgorov-Smirnov, QQ plots), homoskedasticity (White) and independence (Durbin-Watson) of residuals, multicollinearity (VIF), F and T tests etc. My bad.
+                                        like) to predict stock prices and returns as the $Y^n$ variables modelled as a regression problem, to investigate the below hypothesis. </p>
+                                    <p> After reading <i>Agresti's Linear Models</i>, I realized I did not test the data for the assumptions of linear regression, which somewhat invalidates the whole point. I'm sure it is highly unlikely that the errors are Gaussian in nature. Also, tree/splitting based methods cannot extrapolate.
                                     </p>
                                     <p><b>Hypothesis</b>:</p>
                                     <blockquote>Can machine learning algorithms be applied to fundamental analysis to predict returns? On an a priori basis, we already know the value of a stock is the sum of future discounted cash flows, so common sense would say
