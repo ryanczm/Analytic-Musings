@@ -209,15 +209,20 @@
 
                 <p><strong>Nodes:</strong></p>
                 <p>We define two types of atomic nodes: <b>concepts</b> and <b>measurements</b>. By the syntactic prompt assumption, they can be represented with words (or symbols):</p>
+               
                 <ul>
+                <blockquote>
                 <li><b>Concept</b> - An abstract concept. </li>
-                <li><b>Measurement</b> - A physical variable, with a physical property represented by numbers. </li>
+                <li><b>Measurement</b> - A physical variable, with a physical property represented by numbers. </li>            
+                </blockquote>
                 </ul>
                 <p>Whereby a measurement is a special type of concept with physical correspondence in reality. Its physical property could be a location, a size, direction - parametrized by numbers.</p>
                 <p><strong>Edges:</strong></p>
                 <p>We can then <b>connect</b> concepts or measurements to each other:</p>
                 <ul>
-                <li><b>Connection</b> - Connect concepts to each other.</li>
+                <blockquote>
+                    <li><b>Connection</b> - Connect concepts to each other.</li>
+                </blockquote>
                 </ul>
                 <p>A connection can be <em>direct</em> or <em>latent</em>.</p>
                 <ul>
@@ -264,20 +269,29 @@
                 <p><strong>Nodes</strong></p>
                 <p>For semi-deterministic phenomena, the key node is the <strong>abstraction</strong>. Likewise to concepts and measurements, they can also be represented by words:</p>
                 <ul>
+                <blockquote>
                 <li><strong>Abstraction</strong> - An abstraction takes inputs and produces outputs (an input-output relation). They can be constructed, via <em>interactions</em>, to form other abstractions.</li>
+                </blockquote>
                 </ul>
                 <p><strong>Edges</strong></p>
                 <p>The key edge is the <strong>interaction</strong>.</p>
                 <ul>
+                <blockquote>
                 <li><strong>Interaction</strong> - An abstraction can interact with other abstractions by exchanging data via inputs or outputs (e.g the output of one abstraction is input to another).</li>
+                </blockquote>
                 </ul>
                 <p>We can then define an <strong>abstraction layer</strong>:</p>
                 <ul>
+                <blockquote>
                 <li><strong>Abstraction Layer</strong> - A set of interacting abstractions, visualised as a graph.</li>
+                </blockquote>
                 </ul>
                 <p>Which can be composed to form a <strong>system</strong>:</p>
                 <ul>
+                <blockquote>
                 <li><strong>System</strong> - An entity composed of different abstraction layers. Each level in the system is one abstraction layer. The <b><span style="color : purple">abstractions in the layer above are constructed from abstractions in the current layer.</span></b></li>
+                <li><strong>Composition/Decomposition</strong>- We can <b>break down</b> a problem (entity) into smaller parts (abstractions), and keep recursively breaking it down, which translates into going down layers of abstraction from a <b>top-down</b> approach.</li>    
+                </blockquote>
                 </ul>
                 <p>The key idea is to be able to <b>jump between different abstraction layers</b>, decomposing an abstraction into its component abstractions, or composing abstractions into higher-level ones. Notice whether an
                     abstraction (node) is a system is a matter of perspective: if we take the input and output of a system, then the system is a single abstraction node too! 
@@ -311,14 +325,18 @@
                 <p><strong>Nodes</strong></p>
                 <p>In humanistic phenomena, the key node is the <strong>actor</strong>.</p>
                 <ul>
-                <li><strong>Actor</strong> - A person or collective entity. Actors have a utility function, a perspective and can perform actions. The perspective is derived from processing information.</li>
+                <blockquote>
+                    <li><strong>Actor</strong> - A person or collective entity. Actors have a utility function, a perspective and can perform actions. The perspective is derived from processing information.</li>
+                </blockquote>
                 </ul>
                 <p>Note information refers to the collective perspectives of all actors in a context. A context is simply a set of relevant actors.</p>
                 <p><strong>Edges</strong></p>
                 <p>There are two types of edges in which actors can interact with one another: <strong>actions</strong> and <strong>propagations</strong>.</p>
                 <ul>
+                    <blockquote>
                     <li><strong>Action</strong> - An actor processes information, forms a perspective and performs an action in accordance with his utility function. This action involves interacting with other actors. </li>
                     <li><strong>Propagation</strong> - An indirect effect of the action that involves influencing other actors that were not directly interacted with in the initial action.</li>
+                </blockquote>
                 </ul>
                 
                 <!-- <p><b>[GRAPHIC HERE - nodes as actors and actions propagating]</b></p> -->
@@ -348,9 +366,9 @@
                 <h3 id="precise-visualisation">Precise Visualisation</h3>
                 <p>Precise visualisation is a technique for deterministic phenomena. In short, we try to visualize the concepts or measurements and their interplay by simulating each node in a visual space. For example, visualising a vector with a specific length and direction in a coordinate space. There are several parameters to precise visualisation:</p>
                 <ul>
-                <li>Nodes: concepts/measurements</li>
-                <li>Location: headspace/non-headspace</li>
-                <li>Orientation: scale/zoom/perspective.</li>
+                <li><b>Nodes</b>: concepts/measurements</li>
+                <li><b>Location</b>: headspace/non-headspace</li>
+                <li><b>Orientation</b>: scale/zoom/perspective.</li>
                 </ul>
                 <p>For <em>location</em>, there is an idea of visualising something in headspace - which refers to building the visualisation in your head. The converse is non-headspace - which refers to visualizing something outside your headspace, say in front of you, and in reality. The interesting thing is that I believe non-headspace is key to visualising measurements, because you are trying to simulate the physical aspect of it.</p>
                 <p>For <em>orientation</em>, there is a notion of scale or perspective - whereby we can zoom in to a very microscopic scale to try and visualize microscopic phenomena, for example zooming in to visualise the shape of orbitals in front of you. Another idea is perspective - which involves imagining you are an observer near the region of interest, and visualize things from that point of view. </p>
