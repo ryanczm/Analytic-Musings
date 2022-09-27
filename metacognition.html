@@ -267,47 +267,49 @@
 
                 <h3>Semideterministic Framework</h3>
                 <p><strong>Nodes</strong></p>
-                <p>For semi-deterministic phenomena, the key node is the <strong>abstraction</strong>. Likewise to concepts and measurements, they can also be represented by words:</p>
+                <p>For semi-deterministic phenomena, the key node is the <strong>abstraction/computation</strong>. Likewise to concepts and measurements, they can also be represented by words:</p>
                 <ul>
                 <blockquote>
-                <li><strong>Abstraction</strong> - An abstraction takes inputs and produces outputs (an input-output relation). They can be constructed, via <em>interactions</em>, to form other abstractions.</li>
+                <li><strong>Computation</strong> - A computation (abstraction) takes inputs and produces outputs (an input-output relation). They can be constructed, via <em>interactions</em>, to form other computations (abstractions).</li>
                 </blockquote>
                 </ul>
                 <p><strong>Edges</strong></p>
                 <p>The key edge is the <strong>interaction</strong>.</p>
                 <ul>
                 <blockquote>
-                <li><strong>Interaction</strong> - An abstraction can interact with other abstractions by exchanging data via inputs or outputs (e.g the output of one abstraction is input to another).</li>
+                <li><strong>Interaction</strong> - An computation (abstraction) can interact with other computations by exchanging data via inputs or outputs (e.g the output of one computation is input to another).</li>
                 </blockquote>
                 </ul>
-                <p>We can then define an <strong>abstraction layer</strong>:</p>
+                <p>We can then define an <strong> (computation layer) abstraction layer</strong>:</p>
                 <ul>
                 <blockquote>
-                <li><strong>Abstraction Layer</strong> - A set of interacting abstractions, visualised as a graph.</li>
+                <li><strong>Abstraction Layer</strong> - A set of interacting computations (abstractions), visualised as a graph.</li>
                 </blockquote>
                 </ul>
                 <p>Which can be composed to form a <strong>system</strong>:</p>
                 <ul>
                 <blockquote>
-                <li><strong>System</strong> - An entity composed of different abstraction layers. Each level in the system is one abstraction layer. The <b><span style="color : purple">abstractions in the layer above are constructed from abstractions in the current layer.</span></b></li>
+                <li><strong>System</strong> - An entity composed of different computation layers. Each level in the system is one computation layer. The <b><span style="color : purple">computations in the layer above are constructed from abstractions in the current layer.</span></b></li>
                 <li><strong>Composition/Decomposition</strong>- We can <b>break down</b> a problem (entity) into smaller parts (abstractions), and keep recursively breaking it down, which translates into going down layers of abstraction from a <b>top-down</b> approach.</li>    
                 </blockquote>
                 </ul>
-                <p>The key idea is to be able to <b>jump between different abstraction layers</b>, decomposing an abstraction into its component abstractions, or composing abstractions into higher-level ones. Notice whether an
-                    abstraction (node) is a system is a matter of perspective: if we take the input and output of a system, then the system is a single abstraction node too! 
+                <p>The key idea is to be able to <b>jump between different abstraction layers</b>, decomposing an abstraction into its component computations (abstractions), or composing computations (abstractions) into higher-level ones. Notice whether an
+                    abstraction/computation (node) is a system is a matter of perspective: if we take the input and output of a system, then the system is a single computation/abstraction node too! 
                 </p>
+                <p>Originally, I called the node an <i>abstraction</i>, but changed it to <i>computation</i> because I felt it better embodied this idea of input → system (computation) → output. I have no evidence of this, but given the syntactic prompt assumption, motivated by 
+                Poincaré himself, I feel like choice of words is extremely important to invoke the right 'economy of thought' - and computation works better than abstraction.</p>
                 
                 <img src="images/Page3.png" height=370 class="center"> 
                 <h3>Semideterministic Evidence</h3>
-                <p><strong>Abstractions</strong></p>
-                <p>As mentioned, the abstraction is a unit that takes input, performs something, and produces output. Abstractions can interact with one another. The core idea comes from this video from George Hotz&#39; livestream:</p>
+                <p><strong>Computations/Abstractions</strong></p>
+                <p>As mentioned, the computation/abstraction is a unit that takes input, performs something, and produces output. Computations/abstractions can interact with one another. The core idea comes from this video from George Hotz&#39; livestream:</p>
                 <blockquote>
                 <p><b>Input → system (computation) → output</b>. This is my core paradigm for understanding anything.</p>
                 </blockquote>
                 <figcaption>—George Hotz, <cite><a href="https://www.youtube.com/watch?v=N2bXEUSAiTI&ab_channel=georgehotzarchive&t=3240">What is Programming? (Noob Lessons!) (54:00)</a></cite></figcaption>
-                <p>Hotz&#39; states the idea clearly here - it&#39;s all about thinking in terms of inputs and outputs. And hence, the idea of the abstraction as the node was born. </p>
-                <p><strong>Abstraction Layers</strong></p>
-                <p>Next, they interact to form abstraction layers. These are sets of abstractions on a given level. Again, the task is to combine or construct abstractions to form more abstractions. Jim Keller and Donald Knuth both express this idea independently:</p>
+                <p>Hotz&#39; states the idea clearly here - it&#39;s all about thinking in terms of inputs and outputs. And hence, the idea of the computation/abstraction as the node was born. </p>
+                <p><strong>Computation/Abstraction Layers</strong></p>
+                <p>Next, they interact to form computation/abstraction layers. These are sets of computations/abstractions on a given level. Again, the task is to combine or construct computations/abstractions to form more abstractions. Jim Keller and Donald Knuth both express this idea independently:</p>
                 <blockquote>
                 <p>There's a relatively good understanding of <b>abstraction layers</b>. Atoms, silicon, transistors, logic gates, functional units, processing elements, instruction sets, languages - abstraction layers from the atom to the datacenter. </p>
                 </blockquote>
