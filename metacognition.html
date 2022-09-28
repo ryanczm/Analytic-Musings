@@ -270,8 +270,8 @@
                 <p>For semi-deterministic phenomena, the key node is the <strong>building block/abstraction/computation</strong>. Likewise to concepts and measurements, they can also be represented by words:</p>
                 <ul>
                 <blockquote>
-                <li><strong>Computation</strong> - A computation (abstraction) takes inputs, does some operation or storage, and produces outputs (an input-output relation). They can be constructed, via <em>interactions</em>, to form other computations (abstractions).
-                Note the idea of memory or storage is simply the identity computation! (E.g take inputs and do nothing.) 
+                <li><strong>Computation</strong> - A building block takes inputs, does some operation (computation) or storage, and produces outputs (an input-output relation). Building blocks interact with each other to form more building blocks.
+                Note the idea of memory or storage is simply the identity computation! 
                 </li>
                 </blockquote>
                 </ul>
@@ -279,31 +279,30 @@
                 <p>The key edge is the <strong>interaction</strong>.</p>
                 <ul>
                 <blockquote>
-                <li><strong>Interaction</strong> - An computation (abstraction) can interact with other computations by exchanging data via inputs or outputs (e.g the output of one computation is input to another) in a <b>many-to-one</b> fashion.</li>
+                <li><strong>Interaction</strong> - A building block can interact with other blocks by exchanging data via inputs or outputs (e.g the output of one b.b is input to another) in a <b>many-to-one</b> fashion.</li>
                 </blockquote>
                 </ul>
-                <p>We can then define an <strong> (computation layer) abstraction layer</strong>:</p>
+                <p>We can then define an <strong> abstraction layer</strong>:</p>
                 <ul>
                 <blockquote>
-                <li><strong>Abstraction Layer</strong> - A set of interacting computations (abstractions), visualised as a graph.</li>
+                <li><strong>Abstraction Layer</strong> - A set of interacting building blocks at the same level of abstraction, visualised as a graph.</li>
                 </blockquote>
                 </ul>
                 <p>Which can be composed to form a <strong>system</strong>:</p>
                 <ul>
                 <blockquote>
-                <li><strong>System</strong> - An entity composed of different computation layers. Each level in the system is one computation layer. The <b><span style="color : purple">computations in the layer above are constructed from abstractions in the current layer.</span></b></li>
-                <li><strong>Composition/Decomposition</strong>- We can <b>break down</b> a problem (entity) into smaller parts (abstractions), and keep recursively breaking it down, which translates into going down layers of abstraction from a <b>top-down</b> approach. It is similar to <b>one-to-many connection</b> in the deterministic sense.</li>    
+                <li><strong>System</strong> - An entity composed of different abstraction layers. Each level in the system is one abstraction layer. The <b><span style="color : purple">building blocks in the layer above are constructed from those in the current layer.</span></b></li>
+                <li><strong>Composition/Decomposition</strong>- We can <b>break down</b> a building block into smaller parts, and keep recursively breaking it down, which translates into going down layers of abstraction from a <b>top-down</b> approach. It is similar to <b>one-to-many connection</b> in the deterministic sense.</li>    
                 </blockquote>
                 </ul>
-                <p>The key idea is to be able to <b>jump between different abstraction layers</b>, decomposing an abstraction into its component computations (abstractions), or composing computations (abstractions) into higher-level ones. Notice whether an
-                    abstraction/computation (node) is a system is a matter of perspective: if we take the input and output of a system, then the system is a single computation/abstraction node too! 
+                <p>The key idea is to be able to <b>jump between different abstraction layers</b>, decomposing an block into its component blocks, or composing blocks into higher-level ones. Notice whether an
+                    building/blockabstraction/computation (node) is a system is a matter of perspective: if we take the input and output of a system, then the system is a single computation/abstraction node too! 
                 </p>
-                <p>Originally, I called the node an <i>abstraction</i>, but changed it to <i>computation</i> because I felt it better embodied this idea of input → system (computation) → output. I have no evidence of this, but given the syntactic prompt assumption, motivated by 
-                Poincaré himself, I feel like choice of words is extremely important to invoke the right 'economy of thought' - and computation works better than abstraction.</p>
+                <p>I can't decide between the term for the semideterministic node - <i>building block</i>, <i>abstraction</i> or <i>computation</i>. Which one invokes the 'correct' economy of thought as per Poincaré?</p>
                 
                 <img src="images/Page3.png" height=370 class="center"> 
                 <h3>Semideterministic Evidence</h3>
-                <p><strong>Computations/Abstractions</strong></p>
+                <p><strong>Building Block/Computations/Abstractions</strong></p>
                 <p>As mentioned, the computation/abstraction is a unit that takes input, performs something, and produces output. Computations/abstractions can interact with one another. The core idea comes from this video from George Hotz&#39; livestream:</p>
                 <blockquote>
                 <p><b>Input → system (computation) → output</b>. This is my core paradigm for understanding anything.</p>
