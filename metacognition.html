@@ -277,7 +277,7 @@
                 <p>The key edge is the <strong>interaction</strong>.</p>
                 <ul>
                 <blockquote>
-                <li><strong>Interaction</strong> - An computation (abstraction) can interact with other computations by exchanging data via inputs or outputs (e.g the output of one computation is input to another).</li>
+                <li><strong>Interaction</strong> - An computation (abstraction) can interact with other computations by exchanging data via inputs or outputs (e.g the output of one computation is input to another) in a <b>many-to-one</b> fashion.</li>
                 </blockquote>
                 </ul>
                 <p>We can then define an <strong> (computation layer) abstraction layer</strong>:</p>
@@ -290,7 +290,7 @@
                 <ul>
                 <blockquote>
                 <li><strong>System</strong> - An entity composed of different computation layers. Each level in the system is one computation layer. The <b><span style="color : purple">computations in the layer above are constructed from abstractions in the current layer.</span></b></li>
-                <li><strong>Composition/Decomposition</strong>- We can <b>break down</b> a problem (entity) into smaller parts (abstractions), and keep recursively breaking it down, which translates into going down layers of abstraction from a <b>top-down</b> approach.</li>    
+                <li><strong>Composition/Decomposition</strong>- We can <b>break down</b> a problem (entity) into smaller parts (abstractions), and keep recursively breaking it down, which translates into going down layers of abstraction from a <b>top-down</b> approach. It is similar to <b>one-to-many connection</b> in the deterministic sense.</li>    
                 </blockquote>
                 </ul>
                 <p>The key idea is to be able to <b>jump between different abstraction layers</b>, decomposing an abstraction into its component computations (abstractions), or composing computations (abstractions) into higher-level ones. Notice whether an
@@ -452,6 +452,9 @@
                 </blockquote>
                 <figcaption>—Richard Feynman, <cite><a href="https://www.youtube.com/watch?v=P1ww1IXRfTA&ab_channel=ChristopherSykes&t=3403">Fun to Imagine (56:43)</a></cite></figcaption>
                 <br>
+
+                <p>As for the frameworks, I am quite happy with deterministic and humanistic ones - I think they make sense and work well - but I am not quite comfortable with the semi-deterministic framework - it's not very elegant and quite messy. I
+                hope to come up with a simpler alternative soon. </p>
                 
                 <br>
                 <br>
