@@ -184,7 +184,7 @@ blockquote {
     }
     /* sidebar media query */
     .sidebar-nav {
-        width: 100vw;
+        width: 105vw;
         height: 30vh;
         position: absolute;
     }
