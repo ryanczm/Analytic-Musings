@@ -1,3 +1,7 @@
+.flexbox {
+    display: flex;
+}
+
 .sidebar-nav {
     height: 100%;
     width: 380px;
@@ -8,6 +12,7 @@
     background-color: rgb(18, 28, 46);
     /* overflow-x: hidden; */
     padding-top: 20px;
+    max-width: 380px;
 }
 
 .contentblock {
@@ -99,20 +104,16 @@
 
 
 /* Page content */
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     /* width: 50%; */
   }
-
-.hl-ipython3 {
-    font-size: 17px;
-}
-
 main {
-    margin-left: 30%;
-    margin-right: 20%;
+    margin-left: 27.5%;
+    margin-right: 22.5%;
     margin-top: 2.5%;
     font-size: 15px;
 }
@@ -157,15 +158,6 @@ main p {
     line-height: 28px;
 }
 
-main .older-newer {
-    position: absolute;
-    bottom: 5%;
-}
-
-main .older {
-    margin-right: 25px;
-}
-
 blockquote {
     background: #f9f9f9;
     border-left: 5px solid #ccc;
@@ -178,74 +170,12 @@ blockquote {
   }
 
 
-/* actual dynamic sidebar */
-
-
-/* 1. Enable smooth scrolling */
-
-html {
-    scroll-behavior: smooth;
-}
-
-
-/* 2. Make nav sticky */
-
-main>.section-nav>p {
-    position: relative;
-    font-style: italic;
-    left: 20px;
-}
-
-main>.section-nav {
-    position: fixed;
-    top: 5%;
-    right: 3%;
-    align-self: start;
-    font-size: 15px;
-}
-
-.section-nav li {
-    margin-top: 3px;
-}
-
-
-/* 3. ScrollSpy active styles (see JS tab for activation) */
-
-.section-nav li.active>a {
-    color: #333;
-    font-weight: 500;
-}
-
-
-
-
-/* Sidebar Navigation */
-
-.section-nav {
-    padding-left: 0;
-    border-left: 1px solid #efefef;
-}
-
-.section-nav a {
-    text-decoration: none;
-    display: block;
-    padding: .125rem 0;
-    color: #ccc;
-    transition: all 50ms ease-in-out;
-    /* 💡 This small transition makes setting of the active state smooth */
-}
-
-.section-nav a:hover,
-.section-nav a:focus {
-    color: #666;
-}
-
-
-
-
 /* media query */
 
 @media(max-width:800px) {
+    .flexbox {
+        display: flex;
+    }
     .flexbox-item-1 {
         flex: 1;
         flex-direction: row;
@@ -319,56 +249,53 @@ main>.section-nav {
         top: 500px;
         left: 50px;
     }
-    /* main body media query  */
+    /* main body media query */
     main {
-        margin-left: -15%;
-        margin-right: 0%;
+        margin-left: 5%;
+        margin-right: 5%;
         margin-top: 70%;
         padding: 0;
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
     main h1 {
-        font-size: 5px;
+        font-size: 7vw;
         font-weight: bold;
         padding-top: 5px;
-        margin-bottom: 0px;
     }
     main h2 {
-        font-size: 5.5vw;
+        font-size: 6vw;
         font-weight: bold;
         padding-top: 5px;
-        margin-top: 20px;
     }
-    main h3 {
-        font-size: 5vw;
+    main .post-metadata {
+        font-size: 3.5vw;
     }
-    main p {
-        line-height: 20px;
-        font-size: 4vw;
+    .read-more {
+        font-size: 3.5vw;
     }
-    .content-list {
-        font-size: 4vw;
+    .teaser {
+        font-size: 3.5vw;
     }
-    main>.section-nav {
-        position: relative;
-        top: 0.5%;
-        margin: auto;
-        margin-top: 10px;
-        margin-bottom: 10vw;
-        width: 90%;
-        font-size: 4vw;
-        top: 100px;
-        display: none;
+    main .older-newer {
+        position: static;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
-    .jp-RenderedHTMLCommon.jp-RenderedMarkdown.jp-MarkdownOutput li {
-        font-size: 15px;
+    main .older {
+        margin-right: 25px;
     }
-    main .hl-ipython3 {
-        font-size: 15px;
-    }
+    img {
+        max-width: 100%;
+        height: auto;
+      }
+      .section-nav {
+        display: none;    }
 }
 
 @media(max-width:1400px) and (min-width:800px) {
+    .flexbox {
+        display: flex;
+    }
     .sidebar-nav {
         height: 100%;
         width: 280px;
@@ -380,10 +307,72 @@ main>.section-nav {
         /* overflow-x: hidden; */
         padding-top: 20px;
     }
-    main {
-        margin-right: 5%;
-    }
-    main>.section-nav {
-        display: none;
+    .flexbox-item-2 {
+        margin-right: 15%;
     }
 }
+
+
+
+/* actual dynamic sidebar */
+
+
+/* 1. Enable smooth scrolling */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* 2. Make nav sticky */
+
+main>.section-nav>p {
+    position: relative;
+    font-style: italic;
+    left: 20px;
+}
+
+main>.section-nav {
+    position: fixed;
+    top: 5%;
+    right: 3%;
+    align-self: start;
+    font-size: 15px;
+}
+
+.section-nav li {
+    margin-top: 3px;
+}
+
+
+/* 3. ScrollSpy active styles (see JS tab for activation) */
+
+.section-nav li.active>a {
+    color: #333;
+    font-weight: 500;
+}
+
+
+
+
+/* Sidebar Navigation */
+
+.section-nav {
+    padding-left: 0;
+    border-left: 1px solid #efefef;
+}
+
+.section-nav a {
+    text-decoration: none;
+    display: block;
+    padding: .125rem 0;
+    color: #ccc;
+    transition: all 50ms ease-in-out;
+    /* 💡 This small transition makes setting of the active state smooth */
+}
+
+.section-nav a:hover,
+.section-nav a:focus {
+    color: #666;
+}
+
