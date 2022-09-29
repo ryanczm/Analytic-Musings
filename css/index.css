@@ -104,6 +104,19 @@
 
 
 /* Page content */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+  }
+
+  .column {
+    float: center;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
 
 main {
     margin-left: 30%;
