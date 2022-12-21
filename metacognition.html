@@ -267,40 +267,30 @@
 
                 <h3>Semideterministic Framework</h3>
                 <p><strong>Nodes</strong></p>
-                <p>For semi-deterministic phenomena, the key node is the <strong>building block/abstraction/computation</strong>. Likewise to concepts and measurements, they can also be represented by words:</p>
+                <p>For semi-deterministic phenomena, the key node is (a unit of) <strong>data</strong>.</p>
                 <ul>
                 <blockquote>
-                <li><strong>Building Block</strong> - A building block takes <b>input data representation</b>, does some operation (computation) or storage, and produces some <b>output</b> in another <b>data representation</b>. Building blocks interact with each other to form more building blocks.
-                A building block has a <b>name</b> (what it is), which we associate with the <b>set of operations</b> it can do. By identifying the name of a building block we can recall how it interacts.</b>.
+                <li><strong>Data</strong> - Data is the fundamental unit. We can visualize it as a circle (node)</b>.
                 </li>
                 </blockquote>
                 </ul>
                 <p><strong>Edges</strong></p>
-                <p>The key edge is the <strong>interaction</strong>.</p>
+                <p>The key edge is the <strong>some computation or operation</strong>. This transforms data from one unit to another.</p>
+                <ul>
+                </ul>
+                <p>We can then define a <strong> graph</strong>:</p>
                 <ul>
                 <blockquote>
-                <li><strong>Interaction</strong> - A building block can interact with other blocks in two ways: <b>by exchanging data via inputs or outputs</b> (e.g the output of one b.b is input to another) in a <b>many-to-one</b> fashion.
-                or <b>combine with other building blocks to do something</b> - but I haven't found a good word to capture that idea that yet.</li>
+                <li><strong>Graph</strong> - Some data being transformed by computation from one form to another, as a series of nodes and edges.</li>
                 </blockquote>
                 </ul>
-                <p>We can then define an <strong> abstraction layer</strong>:</p>
-                <ul>
-                <blockquote>
-                <li><strong>Abstraction Layer</strong> - A set of interacting building blocks at the same level of abstraction, visualised as a graph.</li>
-                </blockquote>
-                </ul>
-                <p>Which can be composed to form a <strong>system</strong>:</p>
-                <ul>
-                <blockquote>
-                <li><strong>System</strong> - An entity composed of different abstraction layers. Each level in the system is one abstraction layer. The <b><span style="color : purple">building blocks in the layer above are constructed from those in the current layer.</span></b></li>
-                <li><strong>Composition/Decomposition</strong>- We can <b>break down</b> a building block into smaller parts, and keep recursively breaking it down, which translates into going down layers of abstraction from a <b>top-down</b> approach. It is similar to <b>one-to-many connection</b> in the deterministic sense.</li>    
-                </blockquote>
-                </ul>
-                <p>The key idea is to be able to <b>jump between different abstraction layers</b>, decomposing an block into its component blocks, or composing blocks into higher-level ones. Notice whether an
-                    building/blockabstraction/computation (node) is a system is a matter of perspective: if we take the input and output of a system, then the system is a single computation/abstraction node too! 
+                <p>However, like deterministic phenomena, in which we stopped at a graph, we have to add two other types of mental operations - <b>abstraction</b> and <b>(de)composition</b>. Abstraction refers to the process of traversing levels of abstraction (e.g from software to hardware)
+                and decomposition refers to composing or breaking down a node or edge into another graph (set of nodes) and edges.</p>
+                <p>To sum, it does seem like deterministic and semideterministic phenomena are have unique, different ways of being learnt, and would explain why ability in the sciences does not necessarily correlate with ability in computing.
                 </p>
-                <p>Hence, the difference between the deterministic & semi-deterministic way of thinking is as such: the former is linear - we make connections slowly in a linear, left-to-right fashion. The latter is 
-                    top-down - we break down our problem into smaller steps (subproblems), recursively, like going down the depths of the child nodes of a tree. This is the key heuristic I want to capture to aid in cognitive polymorphism (defined later).
+                <p>Thus, to understand s.d phenomena, we would have to think in terms of graphs, but also practice jumping through <b>different levels of abstraction</b> and <b>decomposing nodes or edges recursively</b>. </p>
+                <p>If this argument sounds weaker compared to the previous one, that's because it is. I suspect the magic happens via the last two mental operations which I defined. But the definitions are not as convincing
+                    as I would like.
                 </p>
                 
                 <img src="images/Page3.png" height=370 class="center"> 
@@ -311,7 +301,7 @@
                 <p><b>Input → system (computation) → output</b>. This is my core paradigm for understanding anything.</p>
                 </blockquote>
                 <figcaption>—George Hotz, <cite><a href="https://www.youtube.com/watch?v=N2bXEUSAiTI&ab_channel=georgehotzarchive&t=3240">What is Programming? (Noob Lessons!) (54:00)</a></cite></figcaption>
-                <p>Hotz&#39; states the idea clearly here - it&#39;s all about thinking in terms of inputs and outputs. And hence, the idea of the building/block as the node was born. </p>
+                <p>Hotz&#39; states the idea clearly here - it&#39;s all about thinking in terms of inputs and outputs. And hence, the idea of data being input into some computation, which outputs another form of data. </p>
                 <p><strong>Computation/Abstraction Layers</strong></p>
                 <p>Next, they interact to form computation/abstraction layers. These are sets of computations/abstractions on a given level. Again, the task is to combine or construct computations/abstractions to form more abstractions. Jim Keller and Donald Knuth both express this idea independently:</p>
                 <blockquote>
