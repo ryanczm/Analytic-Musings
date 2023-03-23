@@ -173,16 +173,15 @@
                     <p>Given this, a potential strategy would be to rerun this model at a fixed interval, e.g quarterly, on a lagged window of data, then and rebalancing your portfolio to trade the best performing same-sector pairs (based on the backtest) each quarter. However, given that I did not account for transaction costs in the backtest, these numbers are probably unrealistic.</p>
                 <h3>Learning Points</h3>
                     <p>From this exercise, I’ve definitely got some practice to analyzing and handling financial data, and practicing my visualisation skills as well. However, there are many things I should do that I did not manage to do in this post:</p>
+                    <ul>
+                        <li>Simulate and understand the impact of transaction costs and liquidity (commissions, market impact) which is especially important in a small-margins strategy like pairs trading.</li>
+                        <li>Simulate running a strategy in a periodic fashion (e.g rerunning the models every quarter) to rebalance the portfolio of pairs trade</li>
+                        <li>Aspects of portfolio optimization or weight allocation</li>
+                        <li>Simulate risk management measures (e.g exit rule if pair doesn’t close after x weeks).</li>
+                      </ul>
+                    <p>Again, if this seems amateurish, please do remember I am still learning and wanted to practice and try things out. I hope to experiment further and even try out a live trading strategy some time (not with pairs trading of course)!</p>
             </section>
-            <p>From this exercise, I’ve definitely got some practice to analyzing and handling financial data, and practicing my visualisation skills as well. However, there are many things I should do that I did not manage to do in this post: </p>
-            <ul>
-                <li>Simulate and understand the impact of transaction costs and liquidity (commissions, market impact) which is especially important in a small-margins strategy like pairs trading.</li>
-                <li>Simulate running a strategy in a periodic fashion (e.g rerunning the models every quarter) to rebalance the portfolio of pairs trade</li>
-                <li>Aspects of portfolio optimization or weight allocation</li>
-                <li>Simulate risk management measures (e.g exit rule if pair doesn’t close after x weeks).</li>
-              </ul>
-            <p>Again, if this seems amateurish, please do remember I am still learning and wanted to practice and try things out. I hope to experiment further and even try out a live trading strategy some time (not with pairs trading of course)!</p>
-        </main>
+                    </main>
     </div>
 
 
