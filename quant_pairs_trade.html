@@ -124,7 +124,7 @@
                     <img src="images/quant_pairs_trade/intl_qcom_z.png", height="400", width="1000" class="center">
                     <p>Which is then reflected on the actual spread itself:</p>
                     <img src="images/quant_pairs_trade/intl_qcom_spread.png", height="400", width="1000" class="center">
-                    <p>Which we can track positions taken.`</p>
+                    <p>Which we can track positions taken.</p>
                     <img src="images/quant_pairs_trade/trades.png", height="400" class="center">
                     <p>We can run this simulation for all pairs in a chosen set and get the cumulative value/return for the out-of-sample period to analyze. I separated into in-sample/out-sample and same-sector/all pairs. The idea is to only screen for same-sector pairs based on a higher likelihood of some economic relationship. We'll investigate this later. In total, we have ~4000 possible pairs, but ~400 cointegrated ones according to the test statistic and 90 of those from the same-sector.</p>
             </section>
@@ -170,7 +170,7 @@
             <section id="Conclusion">
                 <h2>Conclusion</h2>
                 <h3>A Proper Strategy</h3>
-                    <p>Given this, a potential strategy would be to rerun this model at a fixed interval, e.g quarterly, on a lagged window of data, then and rebalancing your portfolio to trade the best performing same-sector pairs (based on the backtest) each quarter. However, given that I did not account for transaction costs in the backtest, these numbers are probably unrealistic.</p>
+                    <p>Given this, a potential strategy would be to rerun this model at a fixed interval, e.g quarterly, on a lagged window of data, then and rebalancing your portfolio to trade the best performing same-sector pairs (based on the backtest) each quarter. However, given that I did not account for several critical aspects of the process: market impact, transaction costs and survivorship bias in the backtest with the former two being particularly key, these numbers are probably unrealistic. But it was still a great chance to practice.</p>
                 <h3>Learning Points</h3>
                     <p>From this exercise, I’ve definitely got some practice to analyzing and handling financial data, and practicing my visualisation skills as well. However, there are many things I should do that I did not manage to do in this post:</p>
                     <ul>
