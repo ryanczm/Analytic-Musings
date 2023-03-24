@@ -119,11 +119,11 @@
                 <h3>Single Pair Demonstration</h3>
                     <p>To illustrate, I chose an arbitrary same-sector from the backtest, INTC vs QCOM, with out-sample Sharpe of 1.467 (75th percentile) and a I.R of 0.78 (75th percentile).</p>
                     <p>Here is the price chart for the pair:</p>
-                    <img src="images/quant_pairs_trade/intl_qcom_prices.png", height="400", width="1000" class="center">
+                    <img src="images/quant_pairs_trade/intl_qcom_prices.png", height="400", width="900" class="center">
                     <p>The z-scored spread defines the entry and exit times:</p>
-                    <img src="images/quant_pairs_trade/intl_qcom_z.png", height="400", width="1000" class="center">
+                    <img src="images/quant_pairs_trade/intl_qcom_z.png", height="400", width="900" class="center">
                     <p>Which is then reflected on the actual spread itself:</p>
-                    <img src="images/quant_pairs_trade/intl_qcom_spread.png", height="400", width="1000" class="center">
+                    <img src="images/quant_pairs_trade/intl_qcom_spread.png", height="400", width="900" class="center">
                     <p>Which we can track positions taken.</p>
                     <img src="images/quant_pairs_trade/trades.png", height="400" class="center">
                     <p>We can run this simulation for all pairs in a chosen set and get the cumulative value/return for the out-of-sample period to analyze. I separated into in-sample/out-sample and same-sector/all pairs. The idea is to only screen for same-sector pairs based on a higher likelihood of some economic relationship. We'll investigate this later. In total, we have ~4000 possible pairs, but ~400 cointegrated ones according to the test statistic and 90 of those from the same-sector.</p>
@@ -156,7 +156,7 @@
                 <h3>Cointegration Trends by Sector</h3>
                     <p><i>Does same sector mean more likely to be cointegrated?</i> We can look in-sample at the empirical distributions of p-values for all pairs vs same-sector pairs:</p>
                     <img src="images/quant_pairs_trade/pval_comparison.png", height="400", class="center">
-                    <p>Unfortunately, the difference seems to be very marginal. The KDE plots show only very minor differences. Which means that the proportion of cointegration is roughly the same!</p>
+                    <p>Unfortunately, the difference seems to be very marginal. The KDE plots show only very minor differences. Which means that the proportion of cointegration is roughly the same! (Edit: I have recently been made aware of the danger of treating p-values as a continuous variable instead of a cutoff, I will investigate on this)</p>
                     <p>We can also analyze, in-sample, how cointegration trends differ across sectors. The number of pairs per sector is disproportionate, since NDX is heavily comprised of technology stocks. However, it seems industrials and consumer staples have a greater proportion of cointegrated stocks.</p>
                     <img src="images/quant_pairs_trade/pval_sector.png", height="300", class="center">
                 <h3>Cointegration as an Alpha Factor</h3>
@@ -164,6 +164,7 @@
                         <img src="images/quant_pairs_trade/pval_vs_sharpe.png", height="500", class="center">
                     <p>I would have expected a stronger correlation. However (not shown here) I think the high Sharpe ratios of non-cointegrated pairs seem to be due to the power of the Kalman filter and my very simplistic backtest. When I plotted spreads of least cointegrated pairs, they all looked quite stationary, so I am attributing this to the Kalman filter.</p>
                 <h3>Cointegration Decay & Transfer Coefficient </h3>
+                    <p> Having ascertained that cointegration does imply Sharpe to some extent, we can now ask the extent to which in-sample cointegration implies out-sample cointegration without any spurious confounders in the way.</p>
                 <h3>Best vs Worst Pairs Analysis </h3>
             </section>
 
