@@ -168,21 +168,21 @@
                 <h3>Cointegration Decay & Transfer Coefficient </h3>
                     <p>To what extent does in-sample cointegration imply out-sample cointegration? Unfortunately, there is little to no relationship as demonstrated by the scatterplot:</p>
                     <img src="images/quant_pairs_trade/pval_is_vs_oos.png", height="500", class="center">
-                    <p>This implies that cointegration is highly non-stationary, and cointegration is determined by factors/variables that are external to price data itself. This is similar to the weak form efficient markets hypothesis but for cointegration. Thus, I would try to find external variables that are <b><i>leading indicators of cointegration</i></b>, which would help predict future cointegration for a period, rather than rely on tests themselves.</p>
+                    <p>This implies that cointegration is highly non-stationary, and cointegration is determined by factors/variables that are external to price data itself, similar to the weak form of EMH. Thus, I would try to find external variables that are <b><i>leading indicators of cointegration</i></b>, which would help predict future cointegration for a period, rather than rely on tests themselves.</p>
             </section>
 
             <section id="Conclusion">
                 <h2>Conclusion</h2>
                 <h3>Problems with Predicting Cointegration - Possible Ideas</h3>
                     <!-- <p>Another approach would be to shrink the in-sample/out-sample windows, e.g quarterly, then rebalancing your pairs every quarter. This would ensure 'decay' for cointegration is improved, if you are continuously testing every few months. However, this would not solve the main problem:</p> -->
-                    <p>The main problem is that <i>in-sample cointegration is a very poor predictor of out-sample cointegration</i>. Thus, we should do research to find variables as leading indicators of cointegration. For example, if certain indicators for certain stocks predicted future cointegration, then we could decide which assets were likely to be cointegrated in the future and allocate weight towards them. E.g:</p>
+                    <p>So unfortunately, it does seem that <i>in-sample cointegration is a very poor predictor of out-sample cointegration</i>. So, my guess would be to try and find other kinds of predictors. For example, if certain indicators for certain stocks predicted future cointegration, then we could decide which assets were likely to be cointegrated in the future and allocate weight towards them. E.g:</p>
                     <ol>
-                        <li>Set up the time windows for the problem, say some set of variables available currently (e.g March) to predict next month's cointegration for the next 3 months (e.g April-Jun) for some stocks (e.g one subsector).</li>
-                        <li>Convert p-values to binary outcomes, turning it into a binary classification problem. This avoids the problem of treating p-values as continuous.</li>
-                        <li>Train a classifier to predict future cointegration - something simple like logistic regression.</li>
+                        <li>Choose predictors based off prior economic hypotheses, say some set of variables available currently (e.g March) to predict next month's cointegration for the next 3 months (e.g April-Jun) for some stocks (e.g one subsector).</li>
+                        <li>Convert p-values to binary outcomes to get a binary classification problem. This avoids the problem of treating p-values as continuous.</li>
+                        <li>Train a classifier to predict lookahead cointegration - e.g a random forest or logistic regression.</li>
                         <li>If it works (e.g sufficient accuracy or some metric), examine feature importances/coefficients for the variables to find out which ones are key.</li>
-                        <li>Repeat this process for different sets of variables and historical time windows until something sticks or some pattern is noticed.</li>
-                        <li>Use these variables to identify future cointegrated pairs and prepare to trade them, rerunning the classifier every now and then (e.g quarterly).</li>
+                        <li>Repeat this process for different sets of variables and historical time windows and refine hypotheses as to why they have predictive power.</li>
+                        <li>Use these variables to identify future cointegrated pairs to and trade them, rerunning the classifier every now and then (e.g quarterly).</li>
                       </ol>
                               
                 <h3>Learning Points</h3>
