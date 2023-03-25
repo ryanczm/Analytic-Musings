@@ -97,7 +97,7 @@
                     <ul>
                         <li><i>Survivorship Bias</i> – The in-sample period starts from 2018 so I should have simulated the strategy using the historical index constituents of the NASDAQ 100 in 2018, but finding these was surprisingly non-trivial.</li>
                         <li><i>Transaction Costs</i> – The backtest does not simulate broker commissions.</li>
-                        <li><i>Liquidity, Market Impact & Scaling</i> – The backtest does not simulate market impact. Low liquidity would mean trades filling at execution prices too far from the theoretical order price, especially with larger notionals.</li>
+                        <li><i>Liquidity, Market Impact & Slippage</i> – The backtest does not simulate market impact. Low liquidity would mean more slippage which would chip away at returns, especially with larger notionals.</li>
                         <li><i>Spurious/Decaying Cointegration</i> – Cointegration could be spurious or decay quickly.</li>
                         <li><i>In-sample Cointegration does not predict Out-Sample Cointegration</i> – The main problem, sort of a weak-form EMH for cointegration, which I find out later in this post, and offer some possible solutions to overcome this problem.</li>
                     </ul>
