@@ -179,7 +179,7 @@
                     <ol>
                         <li>Choose predictors based off prior economic hypotheses, say some set of variables available currently (e.g March) to predict next month's cointegration for the next 3 months (e.g April-Jun) for some stocks (e.g one subsector).</li>
                         <li>Convert p-values to binary outcomes to get a binary classification problem. This avoids the problem of treating p-values as continuous.</li>
-                        <li>Train a classifier to predict lookahead cointegration - e.g a random forest or logistic regression.</li>
+                        <li>Train a classifier to predict lookahead cointegration - e.g a random forest or logistic regression. In-sample cointegration can be used as a feature too.</li>
                         <li>If it works (e.g sufficient accuracy or some metric), examine feature importances/coefficients for the variables to find out which ones are key.</li>
                         <li>Repeat this process for different sets of variables and historical time windows and refine hypotheses as to why they have predictive power.</li>
                         <li>Use these variables to identify future cointegrated pairs to and trade them, rerunning the classifier every now and then (e.g quarterly).</li>
