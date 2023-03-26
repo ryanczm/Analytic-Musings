@@ -181,7 +181,7 @@
                         <li>Train a classifier to predict lookahead cointegration - e.g a random forest or logistic regression. In-sample cointegration can be used as a feature too.</li>
                         <li>If it works (e.g sufficient accuracy or some metric), examine feature importances/coefficients for the variables to find out which ones are key.</li>
                         <li>Repeat this process for different sets of variables and historical time windows and refine hypotheses as to why they have predictive power.</li>
-                        <li>Use these variables to identify future cointegrated pairs to and trade them, rerunning the classifier every now and then (e.g quarterly).</li>
+                        <li>Use these variables to identify future cointegrated pairs to and trade them (weights allocated by prediction strength for example), rerunning the model batch-style.</li>
                       </ol>
                               
                 <h3>Learning Points</h3>
