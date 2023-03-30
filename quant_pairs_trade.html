@@ -177,12 +177,17 @@
                     <p>So unfortunately, it does seem that <i>in-sample cointegration is a very poor predictor of out-sample cointegration</i>. So, my guess would be to try and find other kinds of predictors. For example, if certain indicators for certain stocks predicted future cointegration, then we could decide which assets were likely to be cointegrated in the future and allocate weight towards them. E.g:</p>
                     <ol>
                         <li>Choose predictors based off prior economic hypotheses, say some set of variables available currently (e.g March) to predict next month's cointegration for the next 3 months (e.g April-Jun) for some stocks (e.g one subsector).</li>
-                        <li>Convert p-values to binary outcomes to get a binary classification problem. This avoids the problem of treating p-values as continuous.</li>
-                        <li>Train a classifier to predict lookahead cointegration - e.g a random forest or logistic regression. In-sample cointegration can be used as a feature too.</li>
-                        <li>If it works (e.g sufficient accuracy or some metric), examine feature importances/coefficients for the variables to find out which ones are key.</li>
-                        <li>Repeat this process for different sets of variables and historical time windows and refine hypotheses as to why they have predictive power.</li>
+                        <li>Convert p-values to binary outcomes. This avoids the problem of treating p-values as continuous.</li>
+                        <li>Train a classifier to predict lookahead cointegration - e.g a boosting model.</li>
+                        <li>If it works (e.g sufficient predictive power), examine feature importances/coefficients for the variables and flag interesting ones..</li>
+                        <li>Repeat this process for different sets of variables and historical time windows and refine hypotheses.</li>
                         <li>Use these variables to identify future cointegrated pairs to and trade them (weights allocated by prediction strength for example), rerunning the model batch-style.</li>
                       </ol>
+
+                    <p>What kind of predictors or data might we use? We could have <i>cointegration-adjacent features</i>, like those used in distance approaches. We could have <i>event-based features</i> (if x event happens then these stocks a and b tend to move together after that event for a while).
+                        We could have <i>macro/sector-wide/market-wide features</i> (e.g if this macro indicator or market indicator increases, stocks a and b tend co-move more or less). Historically, we could also look at periods where assets were <i>cointegrated then suddenly diverged</i>, and investigate what could have 'caused' that
+                        by way of causal analysis, e.g looking at a change in a key variable that caused the divergence. Do I have any idea what I am talking about? No, I don't.
+                    </p>
                               
                 <h3>Learning Points</h3>
                     <p>From this exercise, I’ve definitely got some practice to analyzing and handling financial data, and practicing my visualisation skills as well. However, there are many things I should do that I did not manage to do in this post:</p>
