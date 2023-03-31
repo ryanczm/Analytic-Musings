@@ -181,12 +181,12 @@
                         <li>Train a classifier to predict lookahead cointegration - e.g a boosting model.</li>
                         <li>If it works (e.g sufficient predictive power), examine feature importances/coefficients for the variables and flag interesting ones..</li>
                         <li>Repeat this process for different sets of variables and historical time windows and refine hypotheses.</li>
-                        <li>Use these variables to identify future cointegrated pairs to and trade them (weights allocated by prediction strength for example), rerunning the model batch-style.</li>
+                        <li>Use these variables to identify future cointegrated pairs to and trade them, rerunning the model batch-style.</li>
                       </ol>
 
                     <p>What kind of predictors or data might we use? We could have <i>cointegration-adjacent features</i>, like those used in distance approaches. We could have <i>event-based features</i> (if x event happens then these stocks a and b tend to move together after that event for a while).
                         We could have <i>macro/sector-wide/market-wide features</i> (e.g if this macro indicator or market indicator increases, stocks a and b tend co-move more or less). Historically, we could also look at periods where assets were <i>cointegrated then suddenly diverged</i>, and investigate what could have 'caused' that
-                        by way of causal analysis, e.g looking at a change in a key variable that caused the divergence. Do I have any idea what I am talking about? No, I don't.
+                        by way of causal analysis, e.g looking at a change in a variable ex-ante and ex-post. Do I have any idea what I am talking about? No, I don't.
                     </p>
                               
                 <h3>Learning Points</h3>
