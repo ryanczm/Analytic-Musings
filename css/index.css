@@ -119,8 +119,8 @@
   
 
 main {
-    margin-left: 30%;
-    margin-right: 35%;
+    margin-left: 28.5%;
+    margin-right: 32.5%;
     margin-top: 2.5%;
     font-size: 16px;
 }
@@ -152,6 +152,19 @@ main .older-newer {
 main .older {
     margin-right: 25px;
 }
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 
 /* media query */
