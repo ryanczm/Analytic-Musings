@@ -263,30 +263,29 @@
                 <p>For semi-deterministic phenomena, the basic unit is <strong>data</strong>.</p>
                 <ul>
                 <blockquote>
-                <li><strong>Unit: Data</strong> - A unit. Can be data/information/problem. Can be decomposed or broken down into further parts</b>.</li>
+                <li><strong>Unit: Data</strong> - A unit. Can be data/information/problem</b>.</li>
                 </blockquote>
                 </ul>
-                <p>Then, we connect units together via <strong>connections</strong>. In other words, given some data as input, produce some output data.</p>
+                <p>Then, we connect units together via <strong>an input-output relation</strong>. In other words, given some data as input, produce some output data.</p>
 
                 <ul>
                     <blockquote>
-                    <li><strong>Edge: Operation (Input to Output)</strong> - Produce output data from input data via some series of computations.</b>.</li>
+                    <li><strong>Edge: Input-Output Relation</strong> - Produce output data from input data via some series of computations.</b>.</li>
                     </blockquote>     
                 </ul>
-                <p>Composing these together, we get:</p>
+                <p>Now come two additional operations:</p>
                 <ul>
                     <blockquote>
-                    <li><strong>Breaking Down: Parts/Subproblems </strong> - Breaking down a unit/problem into parts/subproblems recursively. Visualize a circle, then add multiple connections (lines) radiating out to smaller circles (subproblems). Do this recursively.</li>
+                    <li><strong>Decomposition</strong> - Breaking down an input-output relation into intermediate steps, or intermediate components, themselves also input-output relations. This can be done recursively.</li>
                     </blockquote>
                 </ul>
                 <ul>
                 <blockquote>
-                <li><strong>Graph: Algorithm, program, etc</strong> - How do we combine both of the above? I suspect we <b>take some desired output</b>, and <b>break it down/decompose it into subproblems/parts</b>. We do this recursively.
-                We then work in <b>backwards</b> to create the graph to connect output to input. Thus, we understand how to use computation to achieve the desired output given our inputs.</li>
+                <li><strong>Composition</strong> - Composing elementary input-output relations into intermediate, more complex ones.</li>
                 </blockquote>
                 </ul>
 
-                 <p>I suspect a key way to do this is to visualise graphs in a general sense.</p>   
+                 <p>Visually speaking, this involves visualising a graph in your head. The idea being to solve a computational problem: producing a set of desired output from a set of given inputs.</p>   
                 <img src="images/metacognition/Page3.png" height=370 class="center">   
              
                 <h3>Semideterministic Evidence</h3>
