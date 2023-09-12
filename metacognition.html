@@ -260,17 +260,17 @@
 
                 <h3>Semideterministic Framework</h3>
         
-                <p>For semi-deterministic phenomena, the basic unit is <strong>data</strong>.</p>
+                <p>For semi-deterministic phenomena, the basic unit is <strong>state</strong>.</p>
                 <ul>
                 <blockquote>
-                <li><strong>Unit: Data</strong> - A unit. Can be data/information/problem</b>.</li>
+                <li><strong>Unit: State</strong> - A state. Can be data/information/problem</b>.</li>
                 </blockquote>
                 </ul>
-                <p>Then, we connect units together via <strong>an input-output relation</strong>. In other words, given some data as input, produce some output data.</p>
+                <p>Then, we connect states together via <strong>an input-output relation</strong>. In other words, given some state as input, perform some computation, and create the output state.</p>
 
                 <ul>
                     <blockquote>
-                    <li><strong>Edge: Input-Output Relation</strong> - Produce output data from input data via some series of computations.</b>.</li>
+                    <li><strong>Edge: Input-Output Relation</strong> - Create output state from input state via some series of computations. Yet in computer science, the computations are also state itself!</b>.</li>
                     </blockquote>     
                 </ul>
                 
@@ -278,12 +278,12 @@
         
                 <ul>
                 <blockquote>
-                <li><strong>Composition/Decomposition</strong> - <b>Connecting/using the output of one or more relation(s) as input to one or more relations(s)</b>. In composition, this results in building something, in decomposition, this results in breaking something down.</li>
+                <li><strong>Composition/Decomposition</strong> - <b>Connecting/using the output of one or more relation(s) as input to one or more relations(s)</b>. In composition, this results in building something complex, in decomposition, this results in breaking something down.</li>
                 </blockquote>
                 </ul>
                 <ul>
                     <blockquote>
-                    <li><strong>Abstraction Level</strong> - The level of abstraction you decompose/compose input-output relations at. E.g the code level, the memory level, the transistor level.</li>
+                    <li><strong>Abstraction Level</strong> - And yet, we can invoke abstraction by viewing a state change or production as-is, not bothering about the finer steps of how it happened, but taking it for granted. We know we can produce B from A, but not exactly how, just how to invoke it.</li>
                     </blockquote>
                 </ul>
 
