@@ -260,30 +260,30 @@
 
                 <h3>Semideterministic Framework</h3>
         
-                <p>For semi-deterministic phenomena, the basic unit is <strong>state</strong>.</p>
+                <p>For semi-deterministic phenomena, the basic unit (node) is <strong>data</strong>.</p>
                 <ul>
                 <blockquote>
-                <li><strong>Unit: State</strong> - A state. A basic building block</b>.</li>
+                <li><strong>Unit: Data</strong> - Data, memory</b>.</li>
                 </blockquote>
                 </ul>
-                <p>Then, we connect states together to form more composite states via <strong>an input-output relation</strong>. In other words, given some state as input, perform some computation, and create the output state.</p>
+                <p>Then, we can create and compose more complex data from <strong>operations</strong>. In other words, given some data as input, perform some computation, and create the output data.</p>
 
                 <ul>
                     <blockquote>
-                    <li><strong>Edge: Input-Output Relation</strong> - Create output state from input state via some series of computations. Yet in computer science, the computations are also state itself!</b>.</li>
+                    <li><strong>Edge: Operation</strong> - Create output data from input data via some series of computations</b>.</li>
                     </blockquote>     
                 </ul>
                 
-                <p>Now comes the main idea:</p>
+                <p>Now comes the main idea: data or operations can always be broken down into their respective simpler parts. And this can be done, each time going down a level of abstraction.</p>
         
                 <ul>
                 <blockquote>
-                <li><strong>Composition/Decomposition</strong> - <b>Connecting/using the output of one or more relation(s) as input to one or more relations(s)</b>. In composition, this results in building something complex, in decomposition, this results in breaking something down.</li>
+                <li><strong>Decomposition/Breaking Down</strong> - <b>Decomposing an operation into simpler parts/problems</b>. This seems to be the key skill required. It is a one-to-many relationship, like a tree.</li>
                 </blockquote>
                 </ul>
                 <ul>
                     <blockquote>
-                    <li><strong>Abstraction Level</strong> - And yet, we can invoke abstraction by viewing a state change or production as-is, not bothering about the finer steps of how it happened, but taking it for granted. We know we can produce B from A, but not exactly how, just how to invoke it.</li>
+                    <li><strong>Abstraction Level</strong> - And yet, we can invoke abstraction by taking an operation for granted. We know we can produce B from A, but not exactly how, just how to invoke it.</li>
                     </blockquote>
                 </ul>
 
