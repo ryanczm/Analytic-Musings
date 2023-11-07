@@ -272,33 +272,32 @@
                 <p>For semi-deterministic phenomena, the basic unit (node) is <strong>data</strong>.</p>
                 <ul>
                 <blockquote>
-                <li><strong>Unit: Data</strong> - Data, memory. Visualise as a circle, node..</b></li>
+                <li><strong>Unit: Data</strong> - Data, memory. This can be visualised as anything, really. E.g a circle, an array, a range of memory addresses, whatever. Be creative.</b>.</li>
                 </blockquote>
                 </ul>
                 <p>Well, what do we do with it? We put in into a black box, called an operation, and out comes another node!</p>
 
                 <ul>
                     <blockquote>
-                    <li><strong>Edge: Operation/Black Box</strong> - Visualise as an arrow with a black box in between two circles from <b>left to right</b>. The key phrase/prompt here is <b><i>"what it does/how it works"</i></b>💭.</li>
+                    <li><strong>Edge: Operation/Black Box</strong> - Visualise as a black box with any number of inputs and outputs. The job of the box is to take in some inputs and produce some outputs.
+                        Note, it doesn't always have to create a new output, it can simply modify the input data in-place (arrow out from the box back into the input). 
+                        It doesn't need to be 1-to-1, it could be many-to-many. The key phrase/prompt here is <b><i>"what it does/how it works"</i></b>💭.</li>
                     </blockquote>     
                 </ul>
                 
                 <p>Now comes the problematic part. I suspect, that the computer science way of thinking is fundamentally different from the sciency/math way of thinking. Applying one to another just won't work. 
                     At the risk of sounding crazy, I suspect that in science/math style (deterministic), we start with fundamental building blocks, and go bottom up. In computer science style (semi-deterministic),
-                    we start from the top: a simple black box connecting two nodes (input → system → output). Simply one connection. We then expand the black box into further complexity, and do this recursively. So, TOP DOWN.
+                    we start from the top: a simple black box connecting inputs to output. We can then break down the box into a set of further parts.
                 </p>
         
                 <ul>
                 <blockquote>
-                <li><strong>Decomposition/Breaking Down</strong> - Peering inside a black box and breaking it into simpler parts/problems/black boxes. <b><i>"This can be broken down into"</b></i>💭. </li>
-                </blockquote>
-                <blockquote>
-                    <li><strong>Abstraction Level</strong> - This simply refers to the type of input/output of the black boxes we are looking at.</li>
+                <li><strong>Decomposition/Breaking Down</strong> - Peering inside a black box and breaking it into more data and black boxes. The prompt is <b><i>"This can be broken down into"</b></i>💭. </li>
                 </blockquote>
                 </ul>
 
-                 <p>So, we start with a given problem, how to take some inputs and get some output we want. There's the black box. We peer deeper into it, it turns out to be more black boxes with arrows. We do this again and again.
-                    What about computer science that encourages this style of thinking? Well, because we can tell a computer to do something without knowing how it actually does it. That's our black box. So to reiterate, top-down.
+                 <p>So, we start with a given problem, how to take some inputs and get some outputs we want. There's the black box, from the top-down approach. We then break it down into smaller pieces, and those smaller pieces into smaller pieces, 
+                    so on and so forth, in a <i>top-down</i> fashion.
                  </p>   
                 <!-- <img src="images/metacognition/Page3.png" height=370 class="center">    -->
              
