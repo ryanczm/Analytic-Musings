@@ -272,32 +272,35 @@
                 <p>For semi-deterministic phenomena, the basic unit (node) is <strong>data</strong>.</p>
                 <ul>
                 <blockquote>
-                <li><strong>Unit: Data</strong> - Data, memory. Visualise as a circle, node. It has a type (what kind of operations/interactions are valid for this unit).</b></li>
+                <li><strong>Unit: Data</strong> - Data, memory. Visualise as a circle, node..</b></li>
                 </blockquote>
                 </ul>
-                <p>Then, we can create and compose more complex data from <strong>operations</strong>. In other words, given some data as input, perform some computation, and create the output data.</p>
+                <p>Well, what do we do with it? We put in into a black box, called an operation, and out comes another node!</p>
 
                 <ul>
                     <blockquote>
-                    <li><strong>Edge: Operation/Step</strong> - Create output data from input data via some series of computations. Visualise as an arrow between two circles from <b>left to right</b>. The key phrase/prompt here is <b><i>"what this step does"</i></b>💭.</li>
+                    <li><strong>Edge: Operation/Black Box</strong> - Visualise as an arrow with a black box in between two circles from <b>left to right</b>. The key phrase/prompt here is <b><i>"what it does/how it works"</i></b>💭.</li>
                     </blockquote>     
                 </ul>
                 
-                <p>Now comes the main idea: data (circles) or operations (arrows) can always be broken down into simpler parts: more circles and arrows together.</p>
+                <p>Now comes the problematic part. I suspect, that the computer science way of thinking is fundamentally different from the sciency/math way of thinking. Applying one to another just won't work. 
+                    At the risk of sounding crazy, I suspect that in science/math style (deterministic), we start with fundamental building blocks, and go bottom up. In computer science style (semi-deterministic),
+                    we start from the top: a simple black box connecting two nodes (input → system → output). Simply one connection. We then expand the black box into further complexity, and do this recursively. So, TOP DOWN.
+                </p>
         
                 <ul>
                 <blockquote>
-                <li><strong>Composition</strong> - Composing simpler building blocks/operations to form a another operation unit. The key phrase/prompt here is <b><i>"how it works is"</b></i> 💭 .</li>
-                <li><strong>Decomposition/Breaking Down</strong> - Decomposing an operation (arrow) into simpler parts/problems (bunch of circles and arrows). <b><i>"This can be broken down into"</b></i>💭. </li>
+                <li><strong>Decomposition/Breaking Down</strong> - Peering inside a black box and breaking it into simpler parts/problems/black boxes. <b><i>"This can be broken down into"</b></i>💭. </li>
                 </blockquote>
                 <blockquote>
-                    <li><strong>Abstraction Level</strong> - And yet, we can invoke abstraction by taking an operation for granted. We know we can produce B from A, but not exactly how, just how to invoke it. What goes on <b><i>"under the hood"</i></b>?💭</li>
+                    <li><strong>Abstraction Level</strong> - This simply refers to the type of input/output of the black boxes we are looking at.</li>
                 </blockquote>
                 </ul>
 
-                 <p>The essence is, any computational problem can be framed as such: given some input data and some desired output data, find/construct the right set/graph of operations to do so. 💭<b>In your head, go step by step, constructing operations on data in a left-to-right fashion</b>. This visual
-                heuristic of left-to-right seems the most natural to me.</p>   
-                <img src="images/metacognition/Page3.png" height=370 class="center">   
+                 <p>So, we start with a given problem, how to take some inputs and get some output we want. There's the black box. We peer deeper into it, it turns out to be more black boxes with arrows. We do this again and again.
+                    What about computer science that encourages this style of thinking? Well, because we can tell a computer to do something without knowing how it actually does it. That's our black box. So to reiterate, top-down.
+                 </p>   
+                <!-- <img src="images/metacognition/Page3.png" height=370 class="center">    -->
              
                 <h2>Semideterministic Evidence</h2>
                 <p><strong>Data</strong></p>
