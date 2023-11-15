@@ -274,22 +274,22 @@
                 <p>For semi-deterministic phenomena, the basic unit (node) is <strong>data</strong>.</p>
                 <ul>
                 <blockquote>
-                <li><strong>Unit: Data</strong> - Data, memory. This can be visualised as anything, really. For obvious purposes, I suspect visualising a very long memory array representing the memory of a computer works.</li>
+                <li><strong>Unit: Data</strong> - Data, memory. This can be visualised as anything, really. Arrays, nodes, boxes, whatever.</li>
                 </blockquote>
                 </ul>
-                <p>Well, what do we do with it? We put in into a black box, called an operation, and out comes another node!</p>
+                <p>Well, what do we do with it? It interacts with a black box, called an operation, which interacts with another node of data!</p>
 
                 <ul>
                     <blockquote>
-                    <li><strong>Edge: Operation/Black Box</strong> - Visualise as a black box with any number of inputs and outputs. The job of the box is to take in some inputs and produce some outputs.
-                        While previously this was a <i>connection</i>, now it is an <i>arrow/transformation</i>. 
-                        It doesn't need to be 1-to-1, it could be many-to-many. The key phrase/prompt here is <b><i>"what it does/how it works"</i></b>💭.</li>
+                    <li><strong>Edge: Interaction/Black Box</strong> - Visualise as a black box with any number of inputs and outputs. The job of the box is to take in some inputs and produce some outputs.
+                        The key idea is it connects two or more nodes of data together via an interaction.
+                        It doesn't need to be 1-to-1, it could be many-to-many. The key phrase/prompt here is <b><i>"this interacts with"</i></b>💭.</li>
                     </blockquote>     
                 </ul>
                 
                 <p>Now comes the problematic part. I suspect, that the computer science way of thinking is fundamentally different from the sciency/math way of thinking. Applying one to another just won't work. 
                     At the risk of sounding crazy, I suspect that in science/math style (deterministic), we start with fundamental building blocks, and go bottom up. In computer science style (semi-deterministic),
-                    we start from the top: a simple black box connecting inputs to output. We can then break down the box into a set of further parts.
+                    we start from the top: a simple black box/interaction connecting input data to output data. We can then break down the box into a set of further parts.
                 </p>
         
                 <ul>
