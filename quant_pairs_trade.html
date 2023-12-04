@@ -63,8 +63,7 @@
                     <a class="sidebar-nav-item" href="https://github.com/ryanczm/Quant" target="_blank"> Github <i class="fa fa-github" style="font-size:24px"></i></a>
                     <a class="sidebar-nav-item" href="post_archive.html">Post Archive</a>
                     <a class="sidebar-nav-item" href="about.html">About</a>
-                    <a class="sidebar-nav-item" href="contact.html">Contact</a>
-                    <a class="sidebar-nav-item" href="metacognition.html" target="_blank"> Meta-Cognitive Framework <i class="fa fa-star" style="font-size:24px"></i></a>
+                    <a class="sidebar-nav-item" href="metacognition.html" target="_blank"> Thinking about Thinking <i class="fa fa-star" style="font-size:24px"></i></a>
                     <!-- <p class="sidebar-nav-item" id="credits">© Ryan Chew 2020. Website In Progress</p> -->
                 </div>
             </div>
@@ -83,7 +82,7 @@
 
             </nav>
 
-            <h1>A First Foray into Quant Analysis: An Elementary Pairs Trading Strategy Implementation & Evaluation on NDX Equities</h1>
+            <h1>A First Foray into Quant Analysis: An Elementary Pairs Trading Strategy </h1>
             <div class="post-metadata">
                 <span style="display: inline" class="post-date">23 March 2023 &middot;  15 min read</span> &emsp;
                 <span style="display:inline">[ Quantitative Finance ]</span>
@@ -92,16 +91,8 @@
             <section id="Strategy Overview">
                 <h2>Strategy Overview</h2>
          
-                <h3>Introduction</h3>
-                    <p>For those of you who have actual experience as a QR or QT, this post might seem painfully amateurish. And that’s because it is. In this post I implement a simple pairs trading strategy based on bivariate cointegration tests in the selection phase on NASDAQ 100 equities. The selection phase will be based on data from 2018-2021. The trading & evaluation phase will be from 2021-2023. I then analyze further trends between cointegration, returns and sector in the data, and provide possible solutions to overcome the problem of cointegration tests having low power. The repo is <a href="https://github.com/ryanczm/qr/blob/master/pairs_trading_nasdaq.ipynb"> <i class="fa fa-github"></i> here</a>. No third party backtesting or analysis libraries were used.</p>
-                <h3>Caveats and Assumptions</h3>
-                    <p>Certain implementation aspects were not addressed that would make such a strategy impractical live: </p>
-                    <ul>
-                        <li><i>Survivorship Bias</i> – The in-sample period starts from 2018 so I should have simulated the strategy using the historical index constituents of the NASDAQ 100 in 2018, but finding these was surprisingly non-trivial.</li>
-                        <li><i>T-costs, Liquidity & Market Impact</i> – Wide spreads mean higher t-costs for more frequent trades (in addition to commission), and low book depth means slippage for larger trade sizes. </li>
-                        <li><i>Spurious/Decaying Cointegration</i> – Cointegration could be spurious or decay quickly.</li>
-                        <li><i>In-sample Cointegration does not predict Out-Sample Cointegration</i> – The main problem, sort of a weak-form EMH for cointegration, which I find out later in this post, and offer some possible solutions to overcome this problem.</li>
-                    </ul>
+                    <p>In this post I implement a simple pairs trading strategy based on bivariate cointegration tests in the selection phase on NASDAQ 100 equities. The selection phase will be based on data from 2018-2021. The trading & evaluation phase will be from 2021-2023. The repo is <a href="https://github.com/ryanczm/qr/blob/master/pairs_trading_nasdaq.ipynb"> <i class="fa fa-github"></i> here</a>. </p>
+                    <p>This project exposed me to the concepts of survivorship bias and p-hacking/data dredging.</p>
             </section>
 
             <section id="Selection & Trading Phase">
@@ -154,10 +145,8 @@
           
             <section id="Cointegration, Returns & Sector Analysis">
                 <h2>Cointegration, Returns & Sector Analysis</h2>
-                    <p>I wanted to analyze the relationships between sector, cointegration and return. Note - <i> These analyses are built on the assumption that p-values are continuous and a measure of 'strength of evidence' - in this case, a measure of the strength of cointegration</i>. </p> 
-                    <p>There seems to be some debate in statistics whether p-values should be interpreted as binary outcomes (effect or no effect) or as a continuous measure (strength of effect). I don't claim to understand the details, but it seems the debate leans towards that p-values <b>should not</b> (<a href="https://theoreticalecology.wordpress.com/2021/12/08/can-p-values-be-interpreted-as-continuous-measures-of-evidence-for-an-effect/">see here</a>) be treated as a continuous variable indicating strength of evidence. If this is the case, then <b>unfortunately, this section is not that useful</b>.</p>
                 <h3>Cointegration Trends by Sector</h3>
-                    <p><i>Does same sector mean more likely to be cointegrated?</i> We can look in-sample at the empirical distributions of p-values for all pairs vs same-sector pairs:</p>
+                    <p><i>Does same sector mean more likely to be cointegrated?</i> This analysis assumes p-values are a measure of strength of effect, i.e the lower the p-value, the more significant an effect. I do not have enough knowledge in statistics to comment on this, so I just take it for granted. We can look in-sample at the empirical distributions of p-values for all pairs vs same-sector pairs:</p>
                     <img src="images/quant_pairs_trade/pval_comparison.png", height="400", class="center">
                     <p>Unfortunately, the difference seems to be very marginal. The KDE plots show only very minor differences. Which means that the proportion of cointegration is roughly the same! </p>
                     <!-- <p>We can also analyze, in-sample, how cointegration trends differ across sectors. The number of pairs per sector is disproportionate, since NDX is heavily comprised of technology stocks. However, it seems industrials and consumer staples have a greater proportion of cointegrated stocks.</p>
@@ -174,33 +163,17 @@
 
             <section id="Conclusion">
                 <h2>Conclusion</h2>
-                <h3>Problems with Predicting Cointegration - Possible Ideas</h3>
                     <!-- <p>Another approach would be to shrink the in-sample/out-sample windows, e.g quarterly, then rebalancing your pairs every quarter. This would ensure 'decay' for cointegration is improved, if you are continuously testing every few months. However, this would not solve the main problem:</p> -->
-                    <p>So unfortunately, it does seem that <i>in-sample cointegration is a very poor predictor of out-sample cointegration</i>. So, my guess would be to try and find other kinds of predictors. For example, if certain indicators for certain stocks predicted future cointegration, then we could decide which assets were likely to be cointegrated in the future and allocate weight towards them. E.g:</p>
-                    <ol>
-                        <li>Choose predictors based off prior economic hypotheses, say some set of variables available currently (e.g March) to predict next month's cointegration for the next 3 months (e.g April-Jun) for some stocks (e.g one subsector).</li>
-                        <li>Convert p-values to binary outcomes. This avoids the problem of treating p-values as continuous.</li>
-                        <li>Train a classifier to predict lookahead cointegration - e.g a boosting model.</li>
-                        <li>If it works (e.g sufficient predictive power), examine feature importances/coefficients for the variables and flag interesting ones..</li>
-                        <li>Repeat this process for different sets of variables and historical time windows and refine hypotheses.</li>
-                        <li>Use these variables to identify future cointegrated pairs to and trade them, rerunning the model batch-style.</li>
-                      </ol>
-
-                    <!-- <p>What kind of predictors or data might we use? We could have <i>cointegration-adjacent features</i>, like those used in distance approaches. We could have <i>event-based features</i> (if x event happens then these stocks a and b tend to move together after that event for a while).
-                        We could have <i>macro/sector-wide/market-wide features</i> (e.g if this macro indicator or market indicator increases, stocks a and b tend co-move more or less). Historically, we could also look at periods where assets were <i>cointegrated then suddenly diverged</i>, and investigate what could have 'caused' that
-                        by way of causal analysis, e.g looking at a change in a variable ex-ante and ex-post. Do I have any idea what I am talking about? No, I don't.
-                    </p> -->
+                    <p>So unfortunately, it does seem that <i>in-sample cointegration is a very poor predictor of out-sample cointegration</i>, as seen by the scatter which looks like literally a 2D uniform random vector. It didn't even have the courtesy to look like white noise 😠 (e.g 2D Gaussian)! </p>
                               
-                <h3>Learning Points</h3>
-                    <p>From this exercise, I’ve definitely got some practice to analyzing and handling financial data, and practicing my visualisation skills as well. However, there are many things I should do that I did not manage to do in this post:</p>
-                    <ul>
-                        <li>Simulate and understand the impact of transaction costs and liquidity (commissions, market impact) which is especially important in a small-margins strategy like pairs trading.</li>
-                        <li>Simulate running a strategy in a periodic fashion (e.g rerunning the models every quarter) to rebalance the portfolio of pairs trade</li>
-                        <li>Aspects of portfolio optimization or weight allocation</li>
-                        <li>Simulate risk management measures (e.g exit rule if pair doesn’t close after x weeks).</li>
-                      </ul>
-                    <p>Again, if this seems amateurish, please do remember I am still learning and wanted to practice and try things out. I hope to experiment further and even try out a live trading strategy some time (not with pairs trading of course because it just seems too complicated for a single retail trader to execute well)!</p>
-            </section>
+                    <p>This project has let me get basic exposure to quant trading and practicing what I have learned, it is amateurish but the main objective is to keep learning and improving consistently.</p>
+
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </section>
                     </main>
     </div>
 
