@@ -150,11 +150,11 @@
                     <p>Unfortunately, the difference seems to be very marginal. The KDE plots show only very minor differences. Which means that the proportion of cointegration is roughly the same! </p>
                     <!-- <p>We can also analyze, in-sample, how cointegration trends differ across sectors. The number of pairs per sector is disproportionate, since NDX is heavily comprised of technology stocks. However, it seems industrials and consumer staples have a greater proportion of cointegrated stocks.</p>
                     <img src="images/quant_pairs_trade/pval_sector.png", height="300", class="center"> -->
-                <h3>Cointegration as an Alpha Factor</h3>
+                <h3>Cointegration and Sharpe</h3>
                     <p><i>How well does cointegration imply Sharpe?</i> Ideally, we would run the strategy for all pairs (~4000), calculate their in-sample Sharpes, then compute the Spearman rank or Pearson correlation coefficient with p-values. Due to computation, I did this for the top and bottom deciles of p-value (<0.10 and >0.80) as a form of pseudo-quantile analysis.</p>
                         <img src="images/quant_pairs_trade/pval_vs_sharpe.png", height="500", class="center">
                     <p>I would have expected a stronger correlation. However (not shown here) I think the high Sharpe ratios of non-cointegrated pairs seem to be due to the power of the Kalman filter and my very simplistic backtest. When I plotted spreads of least cointegrated pairs, they all looked quite stationary, so I am attributing this to the Kalman filter.</p>
-                <h3>Cointegration Decay & Transfer Coefficient </h3>
+                <h3>Cointegration Out-of-Sample </h3>
                     <p>To what extent does in-sample cointegration imply out-sample cointegration? Unfortunately, there is little to no relationship as demonstrated by the scatterplot:</p>
                     <img src="images/quant_pairs_trade/pval_is_vs_oos.png", height="500", class="center">
                     <p>There is no correlation, sadly, which does invalidate this whole project, since we are just trading random pairs that have no guarantee of being cointegrated. I suppose a better idea would be to try to predict future cointegration for a certain lookahead window (e.g features to predict the target which is a cointegration p-value) then trade pairs.</p>
