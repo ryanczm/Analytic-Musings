@@ -92,17 +92,17 @@
                 <h2>Strategy Overview</h2>
          
                     <p>In this post I implement a simple pairs trading strategy based on bivariate cointegration tests in the selection phase on NASDAQ 100 equities. The selection phase will be based on data from 2018-2021. The trading & evaluation phase will be from 2021-2023. The repo is <a href="https://github.com/ryanczm/qr/blob/master/pairs_trading_nasdaq.ipynb"> <i class="fa fa-github"></i> here</a>. </p>
-                    <p>This project exposed me to the concepts of survivorship bias and p-hacking/data dredging.</p>
+                    <p>I am aware of the many gaps and things not done (e.g proper screening, more creative alpha/strat, etc), but this is a basic project for learning. This project exposed me to the concepts of survivorship bias and p-hacking/data dredging.</p>
             </section>
 
             <section id="Selection & Trading Phase">
                 <h2>Selection & Trading Phase</h2>
                     
                 <h3>Universe & Cointegration Tests</h3>
-                    <p>The data used was daily OHLCV from yfinance. I didn’t adjust for corporate actions (share buybacks, dividend payouts). I then select pairs based off the bivariate Engle-Granger cointegration test on the in-sample period (2018-2021) From my understanding, this test first regresses one series against the other to get the beta coefficient, creates the spread/residual series from the linear combination of the two, then performs a unit root test on the spread:</p>
+                    <p>The data used was daily data from yfinance. I didn’t adjust for corporate actions. I then select pairs based off the bivariate Engle-Granger cointegration test on the in-sample period. This regresses one series against the other to get the beta coefficient, creates the spread/residual series off it, then performs a unit root test to check for stationarity.</p>
                     <img src="images/quant_pairs_trade/1_code_cointegration.png", height="400", class="center">
                     <p>This lets us select pairs which are cointegrated for the in-sample period (2018 to Jan 2021). However, more pairs and tests exposes us to <i><a href="https://www.quantrocket.com/codeload/quant-finance-lectures/quant_finance_lectures/Lecture23-p-Hacking-and-Multiple-Comparisons-Bias.ipynb.html">multiple comparison bias</a></i>, which
-                    invalides the interpretation of p-values as the number of tests increase. To adjust this, we can use the Bonferroni correction, which adjusts our statistically significant p-value cutoff. I didn't do that here.</p>
+                    invalides the interpretation of p-values as the number of tests increase.</p>
                     <img src="images/quant_pairs_trade/cointegration_heatmap.png", height="950", class="center">
                 <h3>Trading Phase</h3>
                     <p>Once pairs are selected, we compute a spread for each pair. Then, we smooth it out, and set entry/exit thresholds. The spread is computed off a dynamic hedge ratio, evolved in online, recursive fashion via a Kalman filter (which turns out to be surprisingly effective at keeping a spread stationary even if the underlying assets are not as cointegrated!) </p>
@@ -145,7 +145,6 @@
           
             <section id="Cointegration, Returns & Sector Analysis">
                 <h2>Cointegration, Returns & Sector Analysis</h2>
-                <h3>Cointegration Trends by Sector</h3>
                     <p><i>Does same sector mean more likely to be cointegrated?</i> This analysis assumes p-values are a measure of strength of effect, i.e the lower the p-value, the more significant an effect. I do not have enough knowledge in statistics to comment on this, so I just take it for granted. We can look in-sample at the empirical distributions of p-values for all pairs vs same-sector pairs:</p>
                     <img src="images/quant_pairs_trade/pval_comparison.png", height="400", class="center">
                     <p>Unfortunately, the difference seems to be very marginal. The KDE plots show only very minor differences. Which means that the proportion of cointegration is roughly the same! </p>
@@ -158,7 +157,7 @@
                 <h3>Cointegration Decay & Transfer Coefficient </h3>
                     <p>To what extent does in-sample cointegration imply out-sample cointegration? Unfortunately, there is little to no relationship as demonstrated by the scatterplot:</p>
                     <img src="images/quant_pairs_trade/pval_is_vs_oos.png", height="500", class="center">
-                    <p>This implies that cointegration is highly non-stationary, and cointegration is determined by factors/variables that are external to price data itself, similar to the weak form of EMH. Thus, I would try to find external variables that are <b><i>leading indicators of cointegration</i></b>, which would help predict future cointegration for a period, rather than rely on tests themselves.</p>
+                    <p>There is no correlation, sadly, which does invalidate this whole project, since we are just trading random pairs that have no guarantee of being cointegrated. I suppose a better idea would be to try to predict future cointegration for a certain lookahead window (e.g features to predict the target which is a cointegration p-value) then trade pairs.</p>
             </section>
 
             <section id="Conclusion">
