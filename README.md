@@ -1,6 +1,6 @@
 # AnalyticalMusings
 
-[https://analytical-musings.com](https://analytical-musings.com)
+[https://analytic-musings.com](https://analytic-musings.com)
 
 ## Contents
 
