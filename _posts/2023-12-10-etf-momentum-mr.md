@@ -7,7 +7,7 @@ excerpt: "In this post, I formulate & backtest a momentum/mean-reversion strateg
 ---
 <!-- In this post, I formulate & backtest a momentum/mean-reversion strategy on several weeks of second-tick TSE ETF bid-ask data. It consists of two strategies: one to capture a lunchbreak momentum effect, and a Bollinger-Band/MAC strategy to capture noticed stationarity in the afternoon trading sessions. -->
 
-I adapted this post from a HFT firm take-home test. Given a week of high frequency orderbook data of Japanese ETFs (1357, 1570, 1571), I was to formulate & backtest a strategy in a single afternoon via forecasting/predicting mid (1/3/5s) ahead. However, I sooned learned: predicting mid is hard (prices are martingales), and prices don't move enough in such a short time horizon to cover spread costs. 
+I adapted this post from a HFT firm take-home test. Given a week of high frequency orderbook data of Japanese ETFs (1357, 1570, 1571), I was to formulate & backtest a strategy in a single afternoon via forecasting/predicting mid (1/3/5s) ahead. However, I sooned learned: predicting mid is difficult and prices didn't move enough in such a short time horizon to cover spread costs. 
 
 
 <!-- <div class="image-container">
@@ -22,9 +22,9 @@ I adapted this post from a HFT firm take-home test. Given a week of high frequen
   <img src="{{ site.imageurl }}/JapaneseEtfStrat/tweets/tweet_cephalopod_1.png" alt="First Image" class="side-by-side" height="220">
 </center>
 
-So as post-mortem, I revamped my approach to something much simpler/ML-free (exponential/simple moving averages), based off QuantTwit wisdom above. I analyze the data, uncover two patterns/effects, then backtest two strategies based off these patterns. One performs well, the other performs poorly. I then takeaway some learning points.
+As post-mortem, I revamped my approach to something much simpler/ML-free (exponential/simple moving averages), based off QuantTwit wisdom above. I analyze the data, uncover two patterns/effects, then backtest two strategies based off these patterns. One performs well, the other performs poorly. I then takeaway some learning points.
 
-The code for the project is here.
+The repo/code for the project is [here](https://github.com/ryanczm/Quant/tree/master/A.%20TSE%20ETF%20Mean-Reversion%20Momentum%20Strategy).
 
 ## Data Analyis 
 

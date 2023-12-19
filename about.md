@@ -7,7 +7,7 @@ order: 4
 I'm Ryan. I graduated from NUS studying Business Analytics & Finance. I'm interested in quantitative and data analytics roles in the finance and commodities sector. I like learning and 
 [meta-learning](_posts/2022-09-24-thinking-about-thinking.md) (improving my learning systems).
 
-I enjoy all things data - cleaning, building, analyzing, modelling. My motto is to always keep learning and improving.
+I enjoy all things data - cleaning, building, analyzing, modelling. I am currently self-learning in: computer science, mathematics, statistics, econometrics and quantitative finance. My motto is below:
 
 <p class="message" style="text-align: center;">
 Always learning. Always improving.

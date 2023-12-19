@@ -18,12 +18,12 @@ I decided to make a webpage to act as both a portfolio to demonstrate some of my
 
 ## Content
 
-Lorem
+Posts adapted from take-home technical projects and my own musings.
 
 ## Theme
 
 The site is built from Ruby's [Hyde/Jekyll](https://github.com/poole/hyde). I recently migrated over to Ruby from a hacky, manually made static site (writing HTML and CSS is cumbersome).
 
-Jekyll lets you write posts in markdown, which I find much more intuitive, especially using Atom. 
+Using markdown to write posts is more intuitive which is something Jekyll lets you do.
 
-This idea of Jekyll migration was copied (with permission) from one of the smartest people I know, who also uses Jekyll for his academic blog.
+This idea to Jekyll migration was copied (with permission) from one of the smartest people I know, who also uses Jekyll for his academic blog.
