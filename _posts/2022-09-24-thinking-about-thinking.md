@@ -186,5 +186,5 @@ The second proposition is that these imperfect views can influence the situation
 <h2>Conclusion </h2>
 
 <p>To sum up this post, I propose we can classify subjects into: deterministic (natural sciences), semi-deterministic (computation), humanistic (humanities). Each type has an optimal way of thinking, different from the other,
-which we can distill by observing experts in each subject and extrapolating their thought process via the correct syntax.   </p>
+which we can distill by observing experts in each subject and extrapolating their thought process via the correct syntax. Am I nuts? Probably.  </p>
 
