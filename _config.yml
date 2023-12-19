@@ -10,7 +10,7 @@ categories: "quant|finance|maths|physics|crypto|programming|machine-learning"
 permalink:        /:year/:month/:day/:title/
 
 # Setup
-title:            Analytical Musings
+title:            Analytic Musings
 tagline:          'Always learning. Always improving'
 description:      'Always learning. Always improving'
 url:               'https://analytic-musings.com'
