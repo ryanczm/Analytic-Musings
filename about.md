@@ -1,30 +1,16 @@
 ---
 layout: page
 title: About
+order: 4
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+I'm Ryan. I graduated from NUS studying Business Analytics & Finance. I'm interested in quantitative and data analytics roles in the finance and commodities sector. I like learning and 
+[meta-learning](_posts/2022-09-24-thinking-about-thinking.md) (improving my learning systems). I enjoy analyzing data & crunching numbers, using statistical tools and models to uncover insights. Python and SQL are my preferred languages.
+
+I regret not choosing a pure STEM subject (mathematics/physics) as my degree, but given this context, it is apt to introduce my motto below:
+
+<p class="message" style="text-align: center;">
+Always learning. Always improving.
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
-
-There are currently two themes built on Poole:
-
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
-
-Learn more and contribute on [GitHub](https://github.com/poole).
-
-## Setup
-
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+Outside of work, I enjoy sports - floorball (I play competitively in SG's div 2) and football (recreationally). I have been branching out my interests to learn dance - Kizomba and Bachata.
