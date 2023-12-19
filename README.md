@@ -1,6 +1,6 @@
 # AnalyticalMusings
 
-[https://reasonabledeviations.com](https://reasonabledeviations.com)
+[https://analytical-musings.com](https://analytical-musings.com)
 
 ## Contents
 
