@@ -7,7 +7,7 @@ excerpt: "In this post, I formulate & backtest a momentum/mean-reversion strateg
 ---
 <!-- In this post, I formulate & backtest a momentum/mean-reversion strategy on several weeks of second-tick TSE ETF bid-ask data. It consists of two strategies: one to capture a lunchbreak momentum effect, and a Bollinger-Band/MAC strategy to capture noticed stationarity in the afternoon trading sessions. -->
 
-I adapted this post from a HFT firm take-home test (I advanced to the next round). Given a week of high frequency orderbook data of Japanese ETFs (1357, 1570, 1571), I was to formulate & backtest a strategy in a single afternoon via forecasting/predicting mid (1/3/5s) ahead. However, I sooned learned: predicting mid is hard (prices are martingales), and prices don't move enough in such a short time horizon to cover spread costs. 
+I adapted this post from a HFT firm take-home test. Given a week of high frequency orderbook data of Japanese ETFs (1357, 1570, 1571), I was to formulate & backtest a strategy in a single afternoon via forecasting/predicting mid (1/3/5s) ahead. However, I sooned learned: predicting mid is hard (prices are martingales), and prices don't move enough in such a short time horizon to cover spread costs. 
 
 
 <!-- <div class="image-container">
@@ -33,16 +33,16 @@ The code for the project is here.
 
 <center>
   <img src="{{ site.imageurl }}/JapaneseEtfStrat/graphs/1_spreads.png">
-  <figcaption>The red lines show the 90th percentile of the spread value: -5 to 5.</figcaption>
+  <figcaption>Price movements at different interval lengths for the morning session (9.30-11.30am) of the 1570.T ETF on the Tokyo Stock Exchange</figcaption>
 </center>
 
 
 After some data cleaning, price changes at different intervals are plotted. This showcased the variance scaling property of Brownian motion $dW_t \propto \sqrt{dt}$  $\space $ or $\space$    $Var[W_{t+s}-W_t]=s$: variance in price between two points in time increases proportionally with the length of time passed.
 
-This meant a directional strategy at short horizons would be unprofitable as any round trip profit would be negated by the cost of crossing the spread. While the firm knew this, they prompted me to do a directional strategy as I had no MM experience.
+This meant a directional strategy at short horizons would be unprofitable as any round trip profit would be negated by the cost of crossing the spread. This is seen by the red lines at -5 and 5 (the 90th percentile of spread values). At 5s intervals, majority of price movements are within $\pm$ yen. While the firm knew this, they prompted me to do a directional strategy as I had no MM experience.
 
 
-The data is split into in-sample (first 4 trading days: 12-14 & 18 July) and out-of-sample (last 5 trading days: 19-25 July) periods. There are significant jumps from close of previous day to the open of next, and the inverse ETF effect is noticeable:
+The data is split into in-sample (first 4 trading days: 12-14 & 18 July) and out-of-sample (last 5 trading days: 19-24 July) periods. There are significant jumps from close of previous day to the open of next, and the inverse ETF effect is noticeable:
 
 <center>
   <img src="{{ site.imageurl }}/JapaneseEtfStrat/graphs/2_overall_price.png">

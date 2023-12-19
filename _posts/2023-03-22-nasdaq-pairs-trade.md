@@ -170,6 +170,6 @@ As mentioned several times throughout the post, blindly running a large amount o
 
 <!-- As seen by the example of letters in the winning word of the Scripps spelling bee being related to the number of people killed by venomous spiders.  -->
 
-I can understand why the Kalman-filter/ADF/cointegration approach is a running meme in QuantTwit. While being unawware of it at the time of starting the project, you learn from your mistakes.
+I can understand why the Kalman-filter/ADF/cointegration approach is a running meme in QuantTwit. While being unaware of it at the time of starting the project, you learn from your mistakes.
 
 From a data science/analytics perspective, being aware of statistical biases/fallacies is an extremely important skill to have.
