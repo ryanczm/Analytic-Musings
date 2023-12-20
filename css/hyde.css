@@ -245,3 +245,17 @@ a.sidebar-nav-item:focus {
 } */
 
 
+.exp {
+  display: flex;
+  align-items: center;
+  /* margin-bottom: 20px; */
+
+  vertical-align: top;
+}
+
+.exp2 {
+  /* width: 100px; */
+  /* height: 100px; */
+  margin-right: 20px;
+  margin-top: 30px;
+}
