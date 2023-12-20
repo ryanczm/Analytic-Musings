@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Post archive
+title: Post Archive
 order: 1
 ---
 
