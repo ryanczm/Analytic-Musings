@@ -33,7 +33,7 @@ The repo/code for the project is [here](https://github.com/ryanczm/Quant/blob/ma
 
 <center>
   <img src="{{ site.imageurl }}/JapaneseEtfStrat/graphs/1_spreads.png">
-  <figcaption>Price movements at different interval lengths for the morning session (9.30-11.30am) of the 1570.T ETF on the Tokyo Stock Exchange</figcaption>
+  <figcaption>Price movements at different interval lengths for the morning session (9.30-11.30am) on 12th July of the 1570.T ETF on the Tokyo Stock Exchange</figcaption>
 </center>
 
 
@@ -156,4 +156,4 @@ To conclude, analysis was done to notice patterns within the dataset: afternoon 
 1. Choosing parameters by optimizing via a grid search is an easy way out, but the more you do it, the higher the chance of overfitting, as seen by the Bollinger band strategy.
 2. It seems better to have evidence-backed rationales for making a decision/choosing parameters than just using brute force, as seen by the lunch-break strategy.
 
-The code for this project can be found here.
+The code for this project can be found [here](https://github.com/ryanczm/Quant/blob/master/1.%20TSE%20ETF%20Mean-Reversion%20Momentum%20Strategy/strategy.ipynb).
