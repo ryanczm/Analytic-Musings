@@ -5,7 +5,7 @@ category: quant
 ---
 
 In this post, I come up with a strategy to beat the benchmark of long S&P by constructing a long-short portfolio consisting of the S&P 500, Gold, and US10Y treasury bonds. This post was adapted from the take-home project from AVM Capital, a quant macro hedge fund.
-<!--more-->The [repo](https://github.com/ryanczm/qr/blob/master/economic_regime_avm.ipynb) to my project is on Github.
+<!--more-->The [repo](https://github.com/ryanczm/Quant/tree/master/3.%20S%26P%20Macro%20Regime%20Strategy) to my project is on Github.
 
 
 The data given to me was daily close of S&P, quarterly close of Gold, daily yields of US10Y bonds, quarterly GDP YoY change figures and monthly CPI YoY change figures, from 1970 to 2020. 

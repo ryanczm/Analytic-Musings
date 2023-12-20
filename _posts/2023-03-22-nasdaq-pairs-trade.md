@@ -8,7 +8,7 @@ excerpt: "In this post, I implement a simple pairs trading strategy based on biv
 
 In this post, I implement a simple pairs trading strategy based on bivariate cointegration tests in the selection phase on NASDAQ 100 equities. . After doing the project, I realized why this was a commonly memed-on approach on QuantTwit: brute-force cointegration tests is a form of multiple comparison bias.
 
-The repo/code for this project is [here](https://github.com/ryanczm/Quant/tree/master/B.%20NASDAQ%20Pairs%20Trade%20Strategy).
+The repo/code for this project is [here](https://github.com/ryanczm/Quant/tree/master/2.%20NASDAQ%20Pairs%20Trade%20Strategy).
 
 By brute-forcing over many pairs, we end up finding randomly cointegrated stocks in-sample (by pure chance), without any economic/financial rationale/edge as to why. An example of such is below:
 <br>
