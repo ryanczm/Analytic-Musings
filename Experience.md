@@ -9,8 +9,7 @@ order: 2
         <h3> Energy Analyst [at] General Index</h3>
         <p>
         As an analyst, I was responsible for the daily price assessment process for middle (jet fuel, diesel) and heavy distillates (marine fuel). 
-        </p>
-        <p>I used Python to automate data parsing and price assessments, formulating assessment/market rules as a constraint programming/optimization problem, resulting in a more objective assessment process with significant time savings. 
+        Using Python to automate data parsing and price assessments, I formulated assessment/market rules as a constraint programming/optimization problem, resulting in a more objective assessment process with significant time savings. 
         </p>
     </div>
 </div>
