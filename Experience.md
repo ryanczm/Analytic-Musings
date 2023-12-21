@@ -21,7 +21,7 @@ order: 2
         <p>
         As a junior data scientist, I built Question-Answering (QA) systems for internal policy documents via the Retrieval Augmented Generation (RAG) LLM paradigm.
         I also forecasted ATM usage/demand islandwide with econometrics and classical ML methods in order to optimize refills. 
-
+        </p>
     </div>
 </div>
 
