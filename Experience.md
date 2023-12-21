@@ -20,8 +20,7 @@ order: 2
         <h3> Junior Data Scientist [at] UOB</h3>
         <p>
         As a junior data scientist, I built Question-Answering (QA) systems for internal policy documents via the Retrieval Augmented Generation (RAG) LLM paradigm.
-        I also forecasted ATM usage/demand islandwide with econometrics and classical ML methods in order to optimize refills. Shortly after I left, OpenAI released custom GPTs. 
-        </p>
+        I also forecasted ATM usage/demand islandwide with econometrics and classical ML methods in order to optimize refills. 
 
     </div>
 </div>
