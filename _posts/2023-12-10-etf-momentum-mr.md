@@ -24,7 +24,7 @@ I adapted this post from a HFT firm take-home test. Given 2 weeks of second-tick
 
 As post-mortem, I revamped my approach to something much simpler/ML-free (exponential/simple moving averages), based off QuantTwit wisdom above. I analyze the data, uncover two patterns/effects, then backtest two strategies based off these patterns. One performs well, the other performs poorly. I then takeaway some learning points.
 
-The repo/code for the project is [here](https://github.com/ryanczm/Quant/blob/master/1.%20TSE%20ETF%20Mean-Reversion%20Momentum%20Strategy/strategy.ipynb). Challenging parts were: 1. Coding up a stoploss, 2. Parallelizing backtest logic to ensure each each day's prices were kept separate in the backtest and 3. Ensuring signals were converted to positions in correct fashion.
+The repo/code for the project is [here](https://github.com/ryanczm/Quant/blob/master/1.%20TSE%20ETF%20Mean-Reversion%20Momentum%20Strategy/_strategy_backtest.ipynb). Challenging parts were: 1. Coding up a stoploss, 2. Parallelizing backtest logic to ensure each each day's prices were kept separate in the backtest and 3. Ensuring signals were converted to positions in correct fashion.
 
 ## Data Analyis 
 
@@ -156,4 +156,4 @@ To conclude, analysis was done to notice patterns within the dataset: afternoon 
 1. Choosing parameters by optimizing via a grid search is an easy way out, but the more you do it, the higher the chance of overfitting, as seen by the Bollinger band strategy.
 2. It seems better to have evidence-backed rationales for making a decision/choosing parameters than just using brute force, as seen by the lunch-break strategy.
 
-The code for this project can be found [here](https://github.com/ryanczm/Quant/blob/master/1.%20TSE%20ETF%20Mean-Reversion%20Momentum%20Strategy/strategy.ipynb).
+The code for this project can be found [here](https://github.com/ryanczm/Quant/blob/master/1.%20TSE%20ETF%20Mean-Reversion%20Momentum%20Strategy/_strategy_backtest.ipynb).
