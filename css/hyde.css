@@ -207,17 +207,20 @@ a.sidebar-nav-item:focus {
 /* Themes */
 
 /* Purple */
-.theme-base-purpz .sidebar {
-  background-color: #2f0857;
+.theme-base-not-purpz .sidebar {
+  /* background-color: #2f0857; */
   background-color: rgb(18, 28, 46);
 }
 /* pww 2014-12-17 - moved from poole.css to each theme */
-.theme-base-purpz .content a,
-.theme-base-purpz h1, h2, h3, h4, h5, h6,
-.theme-base-purpz .related-posts li a:hover {
+.theme-base-not-purpz .content a,
+.theme-base-not-purpz h1, h2, h3, h4, h5, h6,
+.theme-base-not-purpz .related-posts li a:hover {
   /* color: #5c14a4; */
   color: rgb(122, 122, 130);
+  /* color: rgb(59, 50, 133) */
+
 }
+
 
 
 /*
