@@ -216,8 +216,8 @@ a.sidebar-nav-item:focus {
 .theme-base-not-purpz h1, h2, h3, h4, h5, h6,
 .theme-base-not-purpz .related-posts li a:hover {
   /* color: #5c14a4; */
-  color: rgb(122, 122, 130);
-  /* color: rgb(59, 50, 133) */
+  /* color: rgb(122, 122, 130); */
+  color: rgb(18, 28, 46)
 
 }
 
