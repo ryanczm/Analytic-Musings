@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Thinking About Thinking
+title: Thinking About Thinking (Metacognition)
 category: productivity
 ---
 
@@ -44,12 +44,7 @@ I propose that each phenomena can be thought of in two ways: a <i>primal form</i
 
 <h3>Primal Form: Graphs</h3>
 
-<p>The idea is that regardless of the type of phenomena, knowledge can be represented as a <i>graph</i>. The nodes are individual elements, and edges are connections. The understanding is the graph formed. So we have:</p>
-<ul>
-<li><i>Nodes | Units | Atoms </i> - Individual pieces of understanding. The atomic building block for that phenomena.</li>
-<li><i>Edges | Connections | Molecules</i> - Connections between the nodes.</li>
-</ul>
-<p> The key idea is that the nature of nodes and edges are <i>different</i> for each type of phenomenon. We first cover on the primal form below.</p>
+<p>My idea is that understanding is about linking things together, but each field dields with different things, and how they are linked are different. </p>
 <br>
 <h2>Deterministic Framework</h2>
 <p>Example Fields: Mathematics, natural sciences, engineering.</p>
