@@ -44,7 +44,7 @@ I propose that each phenomena can be thought of in two ways: a <i>primal form</i
 
 <h3>Primal Form: Graphs</h3>
 
-<p>My idea is that understanding is about linking things together, but each field dields with different things, and how they are linked are different. </p>
+<p>My idea is that understanding is about linking things together, but each field has with different things, and how they are linked are different. Hence, we must examine both things and links. In graph theory, things are nodes and links are edges. </p>
 <br>
 <h2>Deterministic Framework</h2>
 <p>Example Fields: Mathematics, natural sciences, engineering.</p>
