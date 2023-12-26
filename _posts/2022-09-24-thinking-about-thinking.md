@@ -44,7 +44,7 @@ I propose that each phenomena can be thought of in two ways: a <i>primal form</i
 
 <h3>Primal Form: Graphs</h3>
 
-<p>My idea is that understanding complexity is about linking things together, but each field has with different things, and how they are linked are different. Hence, we must examine both things and links. The more complex/detailed your internal model is of things and links, the better your understanding.</p>
+<p>My idea is that understanding complexity is about linking things together, but each field has different <i>things</i>, and each thing has it's own type of <i>link</i>.</p>
 <br>
 <h2>Deterministic Framework</h2>
 <p>Example Fields: Mathematics, natural sciences, engineering.</p>
