@@ -24,7 +24,7 @@ I adapted this post from a HFT firm take-home test. Given 2 weeks of second-tick
 
 As post-mortem, I revamped my approach to something much simpler/ML-free (exponential/simple moving averages), based off QuantTwit wisdom above. I analyze the data, uncover two patterns/effects, then backtest two strategies based off these patterns. One performs well, the other performs poorly. I then takeaway some learning points.
 
-The repo/code for the project is [here](https://github.com/ryanczm/Quant/blob/master/1.%20TSE%20ETF%20Mean-Reversion%20Momentum%20Strategy/_strategy_backtest.ipynb). Challenging parts were: 1. Coding up a stoploss, 2. Parallelizing backtest logic to ensure each each day's prices were kept separate in the backtest and 3. Ensuring signals were converted to positions in correct fashion.
+The repo/code for the project is [here](https://github.com/ryanczm/TSE-ETF-Mean-Reversion-Momentum). Challenging parts were: 1. Coding up a stoploss, 2. Parallelizing backtest logic to ensure each each day's prices were kept separate in the backtest and 3. Ensuring signals were converted to positions in correct fashion.
 
 ## Data Analyis 
 
