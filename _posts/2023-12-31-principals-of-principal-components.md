@@ -70,7 +70,7 @@ Having established a link between PCs and yield curve movements, we turn to the 
 <!-- <figcaption>Treasury yields, 2012-2022</figcaption> -->
 </center>
 
-If an investor expect curvature to hump more, he expects the belly (5s) yields go up and wing (2s, 10s) yields go down, thus one sells the belly and buys the wings. However, weights for each leg must be determined.
+If an investor expect curvature to hump more, he expects the belly (5s) yields go up and wing (2s, 10s) yields go down, thus one is long the belly and short the wings. However, weights for each leg must be determined.
 
 ### PCAs as Weights
 
