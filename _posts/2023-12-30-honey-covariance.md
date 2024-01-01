@@ -8,12 +8,12 @@ In this post, I replicate Wolf & Ledoit's -  _Honey: I Shrunk the Covariance Mat
 <!--more-->
 
 <center>
-<img src="{{ site.imageurl }}/LedoitWolf/c_hoffstein_tweet.png" style="width:50%;"/>
+<img src="{{ site.imageurl }}/LedoitWolf/c_hoffstein_tweet.png" style="width:40%;"/>
 </center>
 
-<center>
+<!-- <center>
 <img src="{{ site.imageurl }}/LedoitWolf/cosine_tgt.png" style="width:80%;"/>
-</center>
+</center> -->
 
 To understand the methodology, I looked at selected chapters of Grinold & Kahn's _Active Portfolio Management_ (1972). In this paper, Ledoit & Wolf generate monthly portfolios of different sizes on US stocks from 1983 with randomized excess return forecasts, using a shrunk covariance matrix and a sample covariance matrix, then plot the realized information ratio over different runs. 
 <center>
