@@ -83,7 +83,7 @@ To make do, we took 400 S&P 'survivors': stocks that remained in the S&P through
 <figcaption>The original boxplot in the paper.</figcaption>
 </center>
 
-We notice our plot compared to the original is slightly different, IRs decrease as $N$ increases but the opposite happens for ours. I attribute this to our different replication process with an improvsied benchmark, due to data constraints.
+We notice our plot compared to the original is slightly different, IRs decrease as $N$ increases but the opposite happens for ours. I attribute this to our different replication process with an improvised benchmark, due to data constraints.
 
 
 ## Sample vs Shrunk Covariance
@@ -115,6 +115,6 @@ Thus, we can empirically verify that shrinkage has better alignment with alphas 
 
 # Conclusion
 
-In conclusion, this post replicates Ledoit & Wolf's _Honey I Shrunk the Covariance Matrix_ 2003 paper. We code up the portfolio optimization procedures on data from 2005-2022 and replicate the ex-ante information ratio boxplots to understand why shrinkage leads to better IRs. We then verify that the sample weights deviate further from the alphas and have higher turnover than shrunk weights.
+In conclusion, this post replicates Ledoit & Wolf's _Honey I Shrunk the Sample Covariance Matrix_ 2003 paper. We code up the portfolio optimization procedures on data from 2005-2022 and replicate the ex-ante information ratio boxplots to understand why shrinkage leads to better IRs. We then verify that the sample weights deviate further from the alphas and have higher turnover than shrunk weights.
 
 While the paper is focused on risk, my next paper project aims to be one covering expected returns and factor investing (eg Fama/Asness). For a first paper in equities, I think this one was a good place to start.

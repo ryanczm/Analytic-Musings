@@ -165,7 +165,7 @@ However, these weights are no longer a butterfly, as the signs of the trade are 
 
 # Conclusion
 
-In conclusion, this post replicates the butterfly trades aspect of the Principals of Principal Components by Salomon Brothers.
+In conclusion, this post replicates the butterfly trades aspect of the 2003 paper: _Principles of Principal Components_ch by Salomon Brothers.
 
 It is clear yield curve dynamics are very different now as compared to 20 years ago. As such, the rolling PCA risk weights failed to give us a stationary spread to trade. Nonetheless, this was a significant milestone for me - my first paper replication. From reading up on relevant material (Jha) to understand concepts, to finally digesting the paper, to deciphering how to code out the research and replicating it, I have learnt a great deal about fixed income basics and PCA.
 
