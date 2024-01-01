@@ -17,7 +17,7 @@ Being quite clueless on bonds and rates, I picked up Jha's _Interest Rates Marke
 
 The paper is divided into three parts: explaining how PCA on the yield curve works, using PCs to construct a replicating portfolio, and using PCs as weights for butterfly trades. I focus on the first & third parts.
 
-The repo is [here](https://github.com/ryanczm/Principles-of-Principal-Components)
+The repo is [here](https://github.com/ryanczm/Principles-of-Principal-Components).
 
 
 ## PCA to model the yield curve

@@ -7,9 +7,9 @@ category: quant
 In this post, I replicate Wolf & Ledoit's -  _Honey: I Shrunk the Covariance Matrix (2003)_ paper, which showed how shrinking covariance matrices increases realized information ratios & decreases tracking error in active portfolio management/portfolio optimization. I replicate the results on modern data: US stock returns from 2005-2022.
 <!--more-->
 
-<!-- <center>
+<center>
 <img src="{{ site.imageurl }}/LedoitWolf/c_hoffstein_tweet.png" style="width:50%;"/>
-</center> -->
+</center>
 
 <center>
 <img src="{{ site.imageurl }}/LedoitWolf/cosine_tgt.png" style="width:80%;"/>
@@ -23,7 +23,7 @@ To understand the methodology, I looked at selected chapters of Grinold & Kahn's
 
 The portfolios generated were _active portfolios_. In active management, the manager forecasts excess returns. The goal is to deviate from the benchmark weights to harvest excess returns, but not too far that risk is a problem.
 
-The repo is [here](https://github.com/ryanczm/Honey-I-Shrunk-the-Covariance-Matrix)
+The repo is [here](https://github.com/ryanczm/Honey-I-Shrunk-the-Covariance-Matrix).
 
 ## Portfolio Optimization
 
