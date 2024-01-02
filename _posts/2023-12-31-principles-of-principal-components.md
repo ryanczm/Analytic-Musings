@@ -107,7 +107,7 @@ The code above does steps 1 to 3:
 4. Plot out the fly over time, check if stationary.
 5. Generate signals/positions and backtest (!)
  
- Regarding point 5, Jha states taht weights in a butterfly are treated as _risk weights_ or _duration dollar_ weights. They must be converted to _notional weights_ via a DV01 calculation to determine how much to trade. The paper does not state if the PCA weights are to be treated as risk or notional weights.
+ Regarding point 5, Jha states that weights in a butterfly are usually expressed as _risk weights_: the DV01 weightings across the trade. They must be converted to _notional weights_ via backing out DV01 to determine how much to trade. The paper does not state if the PCA weights are to be treated as risk or notional weights.
  
  However, calculating DV01/duration requires historical _bond prices/coupon rates_ which are only accessible with a Bloomberg terminal. Furthermore, the PnL calculation is quite tricky. Hence, I chose not to backtest in the interests of time (and also because I've coded up backtests for the past 2 projects). We then plot out the butterfly for 1-5Y rolling PCA weights:
 
