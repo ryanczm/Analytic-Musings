@@ -161,12 +161,25 @@ The new "butterfly" spread with z-scored weights then looks quite stationary:
 
 However, these weights are no longer a butterfly, as the signs of the trade are no longer $-, +, -$. Instead, we have $+,+,+$, $-,+,+$ and $+,+,-$. Also, by modifying weights, they are no longer in theory level and slope-neutral. An interesting tweak nonetheless.
 
+### Investigating Non-Stationarity
+
+Given the butterfly spread was mean-reverting back in 1989-1999 (the time period of data the authors backtested their strategy on), somehow ours is not.
+
+Recall, the scatterplots from the original paper showed correlation of the butterfly againt the belly yield and long minus short wing yield as proxies for exposure to level and slope movements, and that the correlation was close to 0 for both for the period of 1997-1998.
+
 <center>
-<img src="{{ site.imageurl }}/SalomonBrothers/perf.png" style="width:100%;"/>
-<figcaption>The authors recorded performance/PnL for different configurations of the strategy.</figcaption>
+<img src="{{ site.imageurl }}/SalomonBrothers/13_rolling_corr_level.png" style="width:70%;"/>
 </center>
 
-The authors iterate through various parameters: the exit/entry levels, rolling window length, levels vs changes in yields for PCA, maximum holding periods, and tabulate the results. As mentioned, we do not do this, due to 1. Our butterfly spreads not being stationary and 2. time constraints.
+Our correlations seem to fluctate.
+
+<center>
+<img src="{{ site.imageurl }}/SalomonBrothers/14_rolling_corr_slope.png" style="width:70%;"/>
+</center>
+
+This implies that on modern data, a rolling PCA window butterfly spread is no longer level and slope neutral like in the original paper. The macroeconomic conditions are probably too different from 2012-present as compared to 1989-1999.
+
+<!-- The authors iterate through various parameters: the exit/entry levels, rolling window length, levels vs changes in yields for PCA, maximum holding periods, and tabulate the results. As mentioned, we do not do this, due to 1. Our butterfly spreads not being stationary and 2. time constraints. -->
 
 # Conclusion
 
