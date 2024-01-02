@@ -136,7 +136,7 @@ Comparing the two, we see how the butterfly yield for various PCA window lengths
 <!-- <figcaption>Treasury yields, 2012-2022</figcaption> -->
 </center>
 
-The high correlation coefficients are in constrast to the zero to no correlation in the original paper, likely due to the short window. The authors state a choice of window is very important. A long window captures longer term changes in yield curves, but if yield regimes/policies change over time, then we end up using irrelevant information.
+This looks somewhat mean reverting, but only over a very long period, unlike the original paper's chart. The high correlation coefficients are in constrast to the zero to no correlation in the original paper, likely due to the short window. The authors state a choice of window is very important. A long window captures longer term changes in yield curves, but if yield regimes/policies change over time, then we end up using irrelevant information.
 
 The 1Y PCA rolling window weights look like this:
 
@@ -145,7 +145,7 @@ The 1Y PCA rolling window weights look like this:
 <!-- <figcaption>Treasury yields, 2012-2022</figcaption> -->
 </center>
 
-However, I try an alternative: what if we z-score the weights (over time) over a rolling window? The resultant weights would look like this.
+However, I try an alternative: what if we z-score the current weights (over time) over a rolling window? The resultant weights would look like this.
 
 <center>
 <img src="{{ site.imageurl }}/SalomonBrothers/12_zw.png" style="width:60%;"/>
@@ -159,17 +159,18 @@ The new "butterfly" spread with z-scored weights then looks quite stationary:
 <!-- <figcaption>Treasury yields, 2012-2022</figcaption> -->
 </center>
 
-However, these weights are no longer a butterfly, as the signs of the trade are no longer $-, +, -$. Instead, we have $+,+,+$ and $-,+,+$. An interesting tweak nonetheless.
-
-
-
-# Conclusion
-
-In conclusion, this post replicates the butterfly trades aspect of the 2003 paper: _Principles of Principal Components_ch by Salomon Brothers.
-
-It is clear yield curve dynamics are very different now as compared to 20 years ago. As such, the rolling PCA risk weights failed to give us a stationary spread to trade. Nonetheless, this was a significant milestone for me - my first paper replication. From reading up on relevant material (Jha) to understand concepts, to finally digesting the paper, to deciphering how to code out the research and replicating it, I have learnt a great deal about fixed income basics and PCA.
+However, these weights are no longer a butterfly, as the signs of the trade are no longer $-, +, -$. Instead, we have $+,+,+$, $-,+,+$ and $+,+,-$. Also, by modifying weights, they are no longer in theory level and slope-neutral. An interesting tweak nonetheless.
 
 <center>
 <img src="{{ site.imageurl }}/SalomonBrothers/perf.png" style="width:100%;"/>
 <figcaption>The authors recorded performance/PnL for different configurations of the strategy.</figcaption>
 </center>
+
+The authors iterate through various parameters: the exit/entry levels, rolling window length, levels vs changes in yields for PCA, maximum holding periods, and tabulate the results. As mentioned, we do not do this, due to 1. Our butterfly spreads not being stationary and 2. time constraints.
+
+# Conclusion
+
+In conclusion, this post replicates the butterfly trades aspect of _Principles of Principal Components_ by Salomon Brothers.
+
+It is clear yield curve dynamics are very different now as compared to 20 years ago. As such, the rolling PCA risk weights failed to give us a stationary spread to trade. Nonetheless, this was a significant milestone for me - my first paper replication. From reading up on relevant material (Jha) to understand concepts, to finally digesting the paper, to deciphering how to code out the research and replicating it, I have learnt a great deal about fixed income basics and PCA.
+
