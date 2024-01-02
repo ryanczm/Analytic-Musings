@@ -36,7 +36,7 @@ The authors used 120 data points along the yield curve (interpolated at 90-day i
 </center>
 
 
-PC1 is level, PC2 is slope, and PC3 is curvature. To link each PCA to the correct movement: note the sign - the first PC (level) never changes sign. The second (slope) changes sign once, and third (curvature) changes sign twice. Projecting our yields in PC space is simply $\textbf{X}\mathbf{\Lambda}_{[1,2,3]}=\textbf{P}$.
+PC1 is level, PC2 is slope, and PC3 is curvature. To link each PCA to the correct movement: note the sign - the first PC (level) never changes sign. The second (slope) changes sign once, and third (curvature) changes sign twice. Projecting our yields in PC space is simply $\textbf{X}\textbf{\Q}_{[1,2,3]}=\textbf{P}$, where $\textbf{Q}$ is our eigenvector/PC matrix.
 
 <center>
 <img src="{{ site.imageurl }}/SalomonBrothers/2_treasury_yields_in_pc.png" style="width:100%;"/>
