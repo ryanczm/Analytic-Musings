@@ -39,7 +39,7 @@ $$ \begin{align*}
 & \textbf{x} \leq c\mathbf{1} - \textbf{w}_B
 \end{align*}$$
 
-The main body of the code is as such:
+The main body of the code with `cvxpy` is as such:
 <center>
 <img src="{{ site.imageurl }}/LedoitWolf/code_3.png" style="width:95%;"/>
 </center>
@@ -49,11 +49,11 @@ In this context, alpha is a cross-sectional forecast of expected excess returns.
 
 $$\alpha = Vol \cdot IC \cdot score$$ 
 
-Scores are created from raw forecasts: $scores=e_t + \epsilon$. Hence, $e_t$ is the realized excess return for the current month. This is z-scored (cross-sectionally across stocks). Random noise $\epsilon$ is added from a standard normal to get raw scores. $Vol$ is rolling historical vol of excess returns. From the Fundamental Law of Active Management we have
+Scores are created from raw forecasts: $scores=e_t + \epsilon$. Hence, $e_t$ is the realized return for the current month. This is z-scored (cross-sectionally across stocks). Random noise $\epsilon$ is added from a standard normal to get raw scores. $Vol$ is rolling historical vol of excess returns. From the Fundamental Law of Active Management we have
 
 $$IR \approx IC \cdot \sqrt{breadth}$$
 
-Breadth is the annualized number of bets, or $12\cdot N$. The _ex-ante_ informatio ratio is fixed at 1.5, to which we then back out the information coefficient IC: the _ex-post_ correlation between alphas and realized returns. The better an alpha historically predicts excess returns, the more weight it has. We scale by vol because it 'amplifies' the IC. We plug these into the formula to calculate our $\alpha$ vector to be fed.
+Breadth is the annualized number of bets, or $12\cdot N$. The _ex-ante_ informatio ratio is fixed at 1.5, to which we then back out the information coefficient IC: the assumed correlation between alphas and realized returns. The better an alpha historically predicts excess returns, the more weight it has. We scale by vol because it 'amplifies' the IC. We plug these into the formula to calculate our $\alpha$ vector to be fed.
 
 <center>
 <img src="{{ site.imageurl }}/LedoitWolf/code_2.png" style="width:70%;"/>
@@ -94,7 +94,9 @@ $$\hat{\Sigma}_{\text{Shrink}} = \delta^* F + (1 - \delta^*) S$$
 
 Where $S$ is sample covariance and $F$ is a structured estimator: the sample constant correlation matrix. We take a convex combination between $S$ and $F$ weighted by $\delta$.
 
-From my understanding, when  $P \gg N$, aka large number of stocks with a small rolling window, the sample covariance matrix $\hat{\Sigma}$ is singular (proof skipped). This gives problems in the optimizer: the weight vectors $\textbf{x}$ produced deviate from the alphas.
+From my understanding, when  $P \gg N$, aka large number of stocks with a small rolling window, the sample covariance matrix $\hat{\Sigma}$ is singular. This relates to rank: $rank(\textbf{X})=rank(\textbf{X}^T)=rank(\textbf{X}^T\textbf{X})$. Since $\textbf{X}$ is $n \times p$, it's rank is at most $\min(n,p)$ and so is $\textbf{X}^T\textbf{X}$. 
+
+Somehow, this is bad for the optimizer (I don't know enough about the internals to comment how this works) and so the weight vectors $\textbf{x}$ produced deviate from the alphas.
 
 To empirically verify this, we take the cosine similarity of $\alpha$ with $\textbf{x}$ over the months, for both sample and Ledoit-Wolf covariance matrices.
 
@@ -115,6 +117,6 @@ Thus, we can empirically verify that shrinkage has better alignment with alphas 
 
 # Conclusion
 
-In conclusion, this post replicates Ledoit & Wolf's _Honey I Shrunk the Sample Covariance Matrix_ 2003 paper. We code up the portfolio optimization procedures on data from 2005-2022 and replicate the ex-ante information ratio boxplots to understand why shrinkage leads to better IRs. We then verify that the sample weights deviate further from the alphas and have higher turnover than shrunk weights.
+In conclusion, this post replicates Ledoit & Wolf's _Honey I Shrunk the Sample Covariance Matrix_ 2003 paper. We code up the portfolio optimization procedures on data from 2005-2022 and replicate the _ex-post_ information ratio boxplots to understand why shrinkage leads to better IRs. We then verify that the sample weights deviate further from the alphas and have higher turnover than shrunk weights.
 
 While the paper is focused on risk, my next paper project aims to be one covering expected returns and factor investing (eg Fama/Asness). For a first paper in equities, I think this one was a good place to start.

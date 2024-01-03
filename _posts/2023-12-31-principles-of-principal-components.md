@@ -36,7 +36,7 @@ The authors used 120 data points along the yield curve (interpolated at 90-day i
 </center>
 
 
-PC1 is level, PC2 is slope, and PC3 is curvature. To link each PCA to the correct movement: note the sign - the first PC (level) never changes sign. The second (slope) changes sign once, and third (curvature) changes sign twice. Projecting our yields in PC space is simply $\textbf{X}\textbf{\Q}_{[1,2,3]}=\textbf{P}$, where $\textbf{Q}$ is our eigenvector/PC matrix.
+PC1 is level, PC2 is slope, and PC3 is curvature. To link each PCA to the correct movement: note the sign - the first PC (level) never changes sign. The second (slope) changes sign once, and third (curvature) changes sign twice. Projecting our yields in PC space is simply $\textbf{X}\textbf{Q}_{[1,2,3]}=\textbf{P}$, where $\textbf{Q}$ is our eigenvector/PC matrix.
 
 <center>
 <img src="{{ site.imageurl }}/SalomonBrothers/2_treasury_yields_in_pc.png" style="width:100%;"/>
@@ -107,9 +107,13 @@ The code above does steps 1 to 3:
 4. Plot out the fly over time, check if stationary.
 5. Generate signals/positions and backtest (!)
  
- Regarding point 5, Jha states that weights in a butterfly are usually expressed as _risk weights_: the DV01 weightings across the trade. They must be converted to _notional weights_ via backing out DV01 to determine how much to trade. The paper does not state if the PCA weights are to be treated as risk or notional weights.
+ Regarding point 5, Jha states that weights in a butterfly are usually expressed as _risk weights_: the DV01 weightings across the trade. They must be converted to _notional weights_ via backing out DV01 to determine how much to trade. 
  
- However, calculating DV01/duration requires historical _bond prices/coupon rates_ which are only accessible with a Bloomberg terminal. Furthermore, the PnL calculation is quite tricky. Hence, I chose not to backtest in the interests of time (and also because I've coded up backtests for the past 2 projects). We then plot out the butterfly for 1-5Y rolling PCA weights:
+ Stefanica writes: $D= \sum^n_{i=1}t_ic_ie^{-yt_i}/B$, where $y$ is yield and $c$ is coupon, and $B$ is price. Modified duration is then $D_{mod}=D/(1+y/n)$. DV01 is then $B*D_{mod}/1e4$. 
+ 
+ The paper does not state if the PCA weights are to be treated as risk or notional weights.
+ 
+ From above, calculating DV01/duration requires historical _bond prices/coupon rates_ which are only accessible with a Bloomberg terminal. Furthermore, the PnL calculation is quite tricky. Hence, I chose not to backtest in the interests of time (and also because I've coded up backtests for the past 2 projects). We then plot out the butterfly for 1-5Y rolling PCA weights:
 
 <center>
 <img src="{{ site.imageurl }}/SalomonBrothers/10_butterfly.png" style="width:95%;"/>
