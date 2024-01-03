@@ -23,7 +23,7 @@ To understand the methodology, I looked at selected chapters of Grinold & Kahn's
 
 The portfolios generated were _active portfolios_. In active management, the manager forecasts excess returns. The goal is to deviate from the benchmark weights to harvest excess returns, but not too far that risk is a problem.
 
-The repo is [here](https://github.com/ryanczm/Honey-I-Shrunk-the-Covariance-Matrix).
+The Github repo is [<i class="fa fa-github" aria-hidden="true"></i> here](https://github.com/ryanczm/Honey-I-Shrunk-the-Covariance-Matrix).
 
 ## Portfolio Optimization
 
