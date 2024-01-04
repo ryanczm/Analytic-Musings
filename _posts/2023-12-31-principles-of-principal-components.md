@@ -13,7 +13,7 @@ In this post, I replicate  _Salomon Brother's Principles of Principal Components
 <figcaption>Treasury yields, 2012-2022</figcaption>
 </center>
 
-Being quite clueless on bonds and rates, I picked up Jha's _Interest Rates Markets_, and read through selected chapters. I also read Gregory Gundersen's excellent [article on PCA](https://gregorygundersen.com/blog/2022/09/17/pca/) to refresh myself on how it works.
+Being quite clueless on bonds and rates, I picked up Siddharta Jha's _Interest Rates Markets_, and read through selected chapters. I also read Gregory Gundersen's excellent [article on PCA](https://gregorygundersen.com/blog/2022/09/17/pca/) to refresh myself on how it works.
 
 The paper is divided into three parts: explaining how PCA on the yield curve works, using PCs to construct a replicating portfolio, and using PCs as weights for butterfly trades. I focus on the first & third parts.
 
@@ -56,7 +56,7 @@ Now we can plot yields over time:
 <!-- <figcaption>Treasury yields, 2012-2022</figcaption> -->
 </center>
 
-Note flattening of the curve from 2014-2019 and a sharp drop in yield across all tenors in 2020 due to Covid and aggressive Fed rate cuts. If we go back to our PCs over time plot, we can see from 2014-2019 how PC2 dipped and how PC3 skyrocketed in 2019-2021.
+Note flattening of the curve from 2014-2019 and a sharp drop in yield across all tenors in 2020 due to Covid and aggressive Fed rate cuts. If we go back to our PCs over time plot, we can see from 2014-2019 how PC2 dipped and how PC1s skyrocketed in 2019-2021.
 
 
 ## PCA for Butterfly Trades
