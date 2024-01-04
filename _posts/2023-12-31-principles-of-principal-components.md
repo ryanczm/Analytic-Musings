@@ -13,7 +13,7 @@ In this post, I replicate  _Salomon Brother's Principles of Principal Components
 <figcaption>Treasury yields, 2012-2022</figcaption>
 </center>
 
-Being quite clueless on bonds and rates, I picked up Jha's _Interest Rates Markets_ and read through selected chapters.
+Being quite clueless on bonds and rates, I picked up Jha's _Interest Rates Markets_, and read through selected chapters. I also read Gregory Gundersen's excellent [article on PCA](https://gregorygundersen.com/blog/2022/09/17/pca/) to refresh myself on how it works.
 
 The paper is divided into three parts: explaining how PCA on the yield curve works, using PCs to construct a replicating portfolio, and using PCs as weights for butterfly trades. I focus on the first & third parts.
 
