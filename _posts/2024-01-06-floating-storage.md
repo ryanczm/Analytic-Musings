@@ -102,7 +102,7 @@ He states this problem of _optimal stopping_ is akin to calculating the value of
 
 Returning back to the main paper, rather than analytically model the choice with options, they use AIS data from MarineTraffic from 2014-2016. They then manually categorize tankers on time-charter into _storage only_, _storage & voyage_ and _transport_. A tanker is assigned _storage & voyage_ if it is laden & stationary. They measure this by labelling vessels with draught above 15m and speed below 6 knots as stationary. Plugging in the numbers into the excess profit formula, they calculate the profit for each vessel.
 
-We can see it does look like positive excess profits over the alternative voyage-charter strategy still happens. 
+We can see it does look like positive excess profits over the alternative voyage-charter strategy still happens. Clearly, profits are to be made, and the question for firms is how to predict such opportunities in advance to get ahead of the competition.
 
 
 ## Conclusion
