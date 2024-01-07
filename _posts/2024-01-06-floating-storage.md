@@ -15,11 +15,11 @@ In this post, I analyze  Regli's - Crude Oil Contango Arbitrage and the Floating
 As per my previous post, due to time constraints (did this in 2 days) I did not _replicate_ the paper _per se_, e.g getting the data, coding and evaluating the results (soon!). Is is difficult for me to get access to commodity and freight data.
 
 
-The paper is divided into several parts: it explains formulas a floating storage trade & the no-arbitrage condition, then simulates the profitability of floating storage from 2006-2018, and analyses excess profits over a FFA-hedged time-charter strategy (using the vessel for transport instead of storage).
+The paper is divided into several parts: it explains formulas for floating storage trade & the no-arbitrage condition, then simulates the profitability of floating storage from 2006-2018, and analyses excess profits over a FFA-hedged time-charter strategy (using the vessel for transport instead of storage).
 
 # The Floating Storage Trade
 
-A floating storage trade is a "cash-and-carry" trade to exploit the contango structure of the forward curve of crude. Intuitively, this makes sense: if contango is caused by oversupply of stocks in the short term, the market incentivizes participants to 'correct' the oversupply by storing stocks for future consumption.
+A floating storage trade is a "cash-and-carry" trade to exploit the contango structure of the forward curve of crude. Intuitively, this makes sense: if contango is caused by oversupply of stocks in the short term, the market incentivizes participants to 'correct' the oversupply by storing stocks for future consumption. One buys a short term and shorts a long term future, receives and holds the commodity till delivery.
 
 The authors state a similar equation to the past paper, with continuous compounding for the profit:
 
@@ -79,7 +79,11 @@ From reading, the oil glut was caused by the North American shale boom causing o
 
 ## The Floating Storage Decision
 
-The authors then argue that a more accurate assessment involves looking at _excess profits_ over a FFA hedged time-charter strategy - using the time-charter tanker to earn revenue from the voyage charter market instead of just holding crude.
+The authors then argue that a more accurate assessment involves looking at _excess profits_ over a FFA hedged time-charter strategy - using the time-charter tanker to earn revenue from the voyage charter market instead of just holding crude. The formula for excess profit is given by adding an additional term to account for profit from using the ship for transport:
+
+$$\pi^{Excess}_{t} = \pi - \max\{e^{r(T-t)}(T - t)(FFA_{t,T} - TC_{t,T}), 0\} \geq 0$$
+
+
 
 This idea of _optionality_ is explored in Ellefsen's [_Commodity Market Modeling & Physical Trading Strategies_](https://dspace.mit.edu/bitstream/handle/1721.1/61602/704383331-MIT.pdf) 2011 paper, in which the author formulates a model to decide on optimal routing for _cross Atlantic crude oil arbitrage with possibility of floating storage_. 
 
@@ -96,14 +100,14 @@ He states this problem of _optimal stopping_ is akin to calculating the value of
 <!-- <figcaption>Brent during the oil glut.</figcaption> -->
 </center>
 
-Returning back to the main paper, rather than analytically model the choice with options, they use AIS data from MarineTraffic from 2014-2016. They then manually categorize tankers on time-charter into _storage only_, _storage & voyage_ and _transport_. A tanker is assigned _storage & voyage_ if it is laden & stationary. They measure this by labelling vessels with draught above 15m and speed below 6 knots as stationary.
+Returning back to the main paper, rather than analytically model the choice with options, they use AIS data from MarineTraffic from 2014-2016. They then manually categorize tankers on time-charter into _storage only_, _storage & voyage_ and _transport_. A tanker is assigned _storage & voyage_ if it is laden & stationary. They measure this by labelling vessels with draught above 15m and speed below 6 knots as stationary. Plugging in the numbers into the excess profit formula, they calculate the profit for each vessel.
 
 We can see it does look like positive excess profits over the alternative voyage-charter strategy still happens. 
 
 
 ## Conclusion
 
-To conclude, this post analyzes Regli's _Crude oil contango arbitrage and the floating storage decision_ 2019 paper. While not actually drawing any novel conclusion, the paper has exposed me to a framework of modelling floating storage arbitrage decisions in oil. 
+To conclude, this post analyzes Regli's _Crude Oil Contango Arbitrage and the Floating Storage Decision_ 2019 paper. While not actually drawing any novel conclusion, the paper has exposed me to a framework of modelling floating storage arbitrage decisions.
 
 It has also made me more familiar with forward curve term structure and elementary freight concepts. I especially liked the part on using satellite data to classify ship behavior.
 
