@@ -4,10 +4,10 @@ title: About
 order: 4
 ---
 
-I'm Ryan. I graduated from NUS studying Business Analytics & Finance. I'm interested in data science, data analytics & quantitative finance. I like learning and 
+I'm Ryan. I graduated from NUS studying Business Analytics & Finance. I'm interested in commodities, data science, data analytics & quantitative finance. I like learning and 
 [meta-learning]({{ site.url }}/2022/09/24/thinking-about-thinking/) (improving my learning systems).
 
-I enjoy all things data - cleaning, building, analyzing, modelling. I am currently self-learning in: computer science, mathematics, statistics, econometrics and quantitative finance. My motto is below:
+I enjoy all things data - cleaning, building, analyzing, modelling. I am currently self-learning in: computer science, mathematics, statistics, econometrics, commodities and quantitative finance. My motto is below:
 
 <p class="message" style="text-align: center;">
 Always learning. Always improving.
