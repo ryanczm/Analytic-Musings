@@ -6,7 +6,7 @@ excerpt: "In this post, I implement a simple pairs trading strategy based on biv
 
 ---
 
-In this post, I implement a simple pairs trading strategy based on bivariate cointegration tests in the selection phase on NASDAQ 100 equities. . After doing the project, I realized why this was a commonly memed-on approach on QuantTwit: brute-force cointegration tests is the fastest route to multiple comparison bias.
+In this post, I implement a simple pairs trading strategy based on bivariate cointegration tests in the selection phase on NASDAQ 100 equities. After doing the project, I realized why this was a commonly memed-on approach on QuantTwit: brute-force cointegration tests is the fastest route to multiple comparison bias.
 
 The repo/code for this project is [here](https://github.com/ryanczm/Pairs-Trade-Nasdaq).
 

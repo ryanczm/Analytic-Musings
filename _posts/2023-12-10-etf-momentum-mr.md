@@ -1,6 +1,6 @@
 ---
 layout: post
-title: An Intraday Momentum/Mean-Reversion Strategy on TSE ETFs.
+title: An Intraday Momentum/Mean-Reversion Strategy on Japanese ETFs.
 category: quant
 excerpt: "In this post, I formulate & backtest a momentum/mean-reversion strategy on several weeks of second-tick TSE ETF bid-ask data. It consists of two strategies: one to capture a lunchbreak momentum effect, and a Bollinger-Band/MAC strategy to capture noticed stationarity in the afternoon trading sessions." 
 
