@@ -109,13 +109,15 @@ To investigate, the authors backtest the results of the Brent and Bonny trades a
 <figcaption>Brent panel.</figcaption>
 </center>
 
-If one squints hard enough, the Bonny trades are significantly more profitable than the Brent trades, on a per-trade basis. They conclude Bonny is ideal for this trade. The dataset spans 1992-2001: 9 years. For Bonny, the average number of trade is ~20, thus ~2 trades a year. The average profit for Brent trades is 0.16m, while for Bonny it is ~0.59m. The authors mention the Brent trade uses an Aframax carrying `5e5` barrels while the Bonny trade uses Suezmax carrying `1e6` barrels per trade. Multiplying the Brent trade profit by 2, Bonny is more profitable by 0.17m per trade.
+If one squints hard enough, the Bonny trades are significantly more profitable than the Brent trades, on a per-trade basis. They conclude Bonny is ideal for this trade. The dataset spans 1992-2001: 9 years. For Bonny, the average number of trade is ~20, thus ~2 trades a year. The average profit for Brent trades is 0.16m, while for Bonny it is ~0.59m. The authors mention the Brent trade uses an Aframax carrying 0.5mn barrels while the Bonny trade uses Suezmax carrying 1mn` barrels per trade. Multiplying the Brent trade profit by 2, Bonny is more profitable by 0.17m per trade.
 
 <center>
 <img src="{{ site.imageurl }}/TransatlanticWTIArbitrage/res2.png" style="width:80%;"/>
 <figcaption>Bonny panel.</figcaption>
 </center>
-To further investigate, we could find data showing the proportions of different grades of crude delivered against WTI at Cushing over time. We could also lag the futures-imported crude spread and plot a scatterplot against the freight rate. Having said that, while futures & spot crude data is easily available, the correct freight data is not. Similar to my other [post](https://analytic-musings.com/2023/12/31/principles-of-principal-components/), it is possible the alpha for this trade has decayed over the years.
+To further investigate, we could find data showing the proportions of different grades of crude delivered against WTI at Cushing over time. We could also lag the futures-imported crude spread and plot a scatterplot against the freight rate, for different lags. This would reveal any trend. On a related note, it is puzzling why the authors conducted Granger causality tests between WTI futures, Brent/Bonny and freight, but did not test the actual futures-physical spread against freight.
+
+his would  Having said that, while futures & spot crude data is easily available, the correct freight data is not. Similar to my other [post](https://analytic-musings.com/2023/12/31/principles-of-principal-components/), it is possible the alpha for this trade has decayed over the years.
 
 ## Conclusion
 
