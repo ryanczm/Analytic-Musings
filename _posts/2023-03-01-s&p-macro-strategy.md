@@ -4,7 +4,7 @@ title: An S&P Macro Rebalancing Strategy
 category: quant
 ---
 
-In this post, I come up with a strategy to beat the benchmark of long S&P by constructing a long-short portfolio consisting of the S&P 500, Gold, and US10Y treasury bonds. This post was adapted from the take-home project from AVM Capital, a quant macro hedge fund.
+In this post, I come up with a strategy to beat the benchmark of long S&P by constructing a long-short portfolio consisting of the S&P 500, Gold, and US10Y treasury bonds, with rebalancing conditioned on different economic regimes.
 <!--more-->The [repo](https://github.com/ryanczm/SnP-Macro-Regime-Strategy) to my project is on Github.
 
 
