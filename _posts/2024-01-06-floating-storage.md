@@ -68,14 +68,14 @@ While difficult to see on the above plot, the authors note that profits with sho
 <figcaption>Physical WTI during the GFC.</figcaption>
 </center>
 
-In the GFC, oil fell from a high of 133.88 in June 2008 to a low of 39.09 in February 2009. This was a demand shock, as a result of a recession, lower consumer, industrial, air travel and shipping activity activity. The supply of crude is inelastic in the short term. They argue there was low demand across time-charter term structure (flat and low). Since supply didn't decrease as much, there was less need for additional capacity in the form of floating storage. Coupled with the rapid drop in price, it would be better to store for a shorter term.
+In the GFC, oil fell from a high of 133.88 in June 2008 to a low of 39.09 in February 2009. This was a demand shock: as a result of a recession with lower consumer, industrial, air travel and shipping activity. The supply of crude is inelastic in the short term. They argue there was low demand across time-charter term structure (flat and low). Since supply didn't decrease as much, there was less need for additional capacity in the form of floating storage. Coupled with the rapid drop in price, it would be better to store for a shorter term.
 
 <center>
 <img src="{{ site.imageurl }}/FloatingStorage/og.jpg" style="width:60%;"/>
 <figcaption>Brent during the oil glut.</figcaption>
 </center>
 
-From reading, the oil glut was caused by the North American shale boom causing oversupply, China's economy slowing down, and the Saudi/OPEC bid to kill off shale by increasing output (production costs of shale very high, requiring a high minimum price to be profitable). This was a supply shock. The authors argue the term structure for TCs was downward sloping as the increased supply led to an increase in demand for floating storage. Thus, only long term holding periods exploiting the far end of the TC curve would be profitable.
+From reading, the oil glut was caused by the North American shale boom causing oversupply, China's economy slowing down, and the Saudi/OPEC bid to kill off shale by increasing output (the production costs of are shale high - requiring a high minimum price to be profitable). This was a supply shock. The authors argue the term structure for TCs was downward sloping as the increased supply led to an increase in demand for floating storage with inland capacity at its limits. Thus, only long term holding periods exploiting the far end of the TC curve would be profitable.
 
 ## The Floating Storage Decision
 
