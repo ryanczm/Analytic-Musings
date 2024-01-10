@@ -27,7 +27,7 @@ future: TRUE
 version:          2.1.0
 
 github:
-  repo:           https://github.com/ryanczm/quant
+  repo:           https://github.com/ryanczm
 
 social:
     linkedin: https://www.linkedin.com/in/ryan-chew-49272a19a/
