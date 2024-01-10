@@ -29,7 +29,7 @@ The Github repo is [<i class="fa fa-github" aria-hidden="true"></i> here](https:
 
 Ledoit & Wolf conduct the study as follows. At the beginning of the month, they form a value-weighted index of $N$ largest stocks (the benchmark). They feed benchmark weights $W_B$, alphas $\hat{\alpha}$, the covariance matrix $\hat{\Sigma}$ of the last $T=60$ monthly returns, a gain $g$, and an upper bound $c$ into a quadratic optimizer.  
 
-This produces an (active) weight vector $\textbf{x}$. Excess returns are computed as $\textbf{x}^T\textbf{y}$ where $\textbf{y}$ is stock returns. Over the months (1983-2002), they compute the (annualized) _ex-post_ informatio ratio. The expected excess returns $\hat{\alpha}$ are random, so they repeat the experiment 50 times for any $N$. They then plot IR statistics. The optimization problem is:
+This produces an (active) weight vector $\textbf{x}$. Excess returns are computed as $\textbf{x}^T\textbf{y}$ where $\textbf{y}$ is stock returns. Over the months (1983-2002), they compute the (annualized) _ex-post_ informatio ratio. The alphas $\hat{\alpha}$ are random by choice, so they repeat the experiment 50 times for any $N$. They then plot IR statistics. The optimization problem is:
 
 $$ \begin{align*}
 \text{Minimize:} \quad & \textbf{x}^T \Sigma \textbf{x} \\
