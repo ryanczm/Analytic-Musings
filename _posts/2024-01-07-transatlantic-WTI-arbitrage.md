@@ -85,20 +85,22 @@ The authors plot F1WTI (contract closest to expiry), Bonny and Brent to notice a
 <figcaption>WTI futures (near month), physical Brent and Bonny, 1992-2001</figcaption>
 </center>
 
-They then perform a myriad of stationarity tests and a normality test on the logged prices/diffs series to verify the $I(1)$ property (differenced series is stationary) needed for cointegration tests. Then, they use the Johanssen cointegration test to derive cointegrating vectors, then plug them into a VECM model:
+They then perform a myriad of stationarity tests and a normality test on the logged prices/diffs series to verify that all series (futures, physical, freight) have the $I(1)$ property: the first difference is stationary, which is needed for cointegration tests. Then, they use the Johanssen cointegration test to derive cointegrating vectors, then plug them into a VECM model:
 
 $$\Delta X_t = \sum_{i=1}^{p-1}\Gamma_i \Delta X_{t-i}+ \Pi X_{t-1}+\epsilon_t$$
 
-The $\Delta X_t$ is a first-differenced vector of WTI futures, Brent (or Bonny), and the corresponding freight rate. To fully understand the paper, we would need to _learn the logic of cointegration tests, VECM & Granger causality tests (I don't claim to!)_ which would take _a lot_ of time. I will mark this as todo in the future.
+The $\Delta X_t$ is a first-differenced vector of WTI futures, Brent (or Bonny), and the corresponding freight rate. To fully understand the paper, we would need to _learn the logic of cointegration tests, VECM & Granger causality tests (I don't claim to yet)_ which would take _a lot_ of time. I will mark this as todo in the future.
 <center>
 <img src="{{ site.imageurl }}/TransatlanticWTIArbitrage/panel.png" style="width:80%;"/>
 <figcaption>Panel of VECM/GC tests for WTI, Brent, Freight.</figcaption>
 
 </center>
 
-While the authors provide several analyses, the most important point states:
+The authors then state this important conclusion as below:
 
 > The level of freight rates were not affected by the differential of WTI futures with either Brent or Bonny.
+
+This was derived from interpreting the VECM model and GC tests. However, the line of reasoning is not clear as to how this conclusion was derived. While the authors conducted GC tests amongst futures, physical and freight, they did not test the futures-physical differential against the freight rate directly, which is confusing to me.
  
 In theory, if the WTI futures-imported crude spread increases, Brent is cheaper to deliver, and traders would charter ships to bring imported crude to the USA to arbitrage, causing freight rates to increase. But clearly, this was not the case! A referee then pointed out tanker freight rates not responding to the spread movements could be due to excess capacity. Nonetheless, this still implies arbitrage is possible.
 
@@ -109,17 +111,23 @@ To investigate, the authors backtest the results of the Brent and Bonny trades a
 <figcaption>Brent panel.</figcaption>
 </center>
 
-If one squints hard enough, the Bonny trades are significantly more profitable than the Brent trades, on a per-trade basis. They conclude Bonny is ideal for this trade. The dataset spans 1992-2001: 9 years. For Bonny, the average number of trade is ~20, thus ~2 trades a year. The average profit for Brent trades is 0.16m, while for Bonny it is ~0.59m. The authors mention the Brent trade uses an Aframax carrying 0.5mn barrels while the Bonny trade uses Suezmax carrying 1mn` barrels per trade. Multiplying the Brent trade profit by 2, Bonny is more profitable by 0.17m per trade.
+If one squints hard enough, the Bonny trades are significantly more profitable than the Brent trades, on a per-trade basis. They conclude Bonny is ideal for this trade. The dataset spans 1992-2001: 9 years. For Bonny, the average number of trade is ~20, thus ~2 trades a year. The average profit for Brent trades is 0.16m, while for Bonny it is ~0.59m. The authors mention the Brent trade uses an Aframax carrying `0.5mn` barrels while the Bonny trade uses Suezmax carrying `1mn` barrels per trade. Multiplying the Brent trade profit by 2, Bonny is more profitable by 0.17m per trade.
 
 <center>
 <img src="{{ site.imageurl }}/TransatlanticWTIArbitrage/res2.png" style="width:80%;"/>
 <figcaption>Bonny panel.</figcaption>
 </center>
-To further investigate, we could find data showing the proportions of different grades of crude delivered against WTI at Cushing over time. We could also lag the futures-imported crude spread and plot a scatterplot against the freight rate, for different lags. This would reveal any trend. 
 
-On a final note, it is puzzling why the authors conducted Granger causality tests between WTI futures, Brent/Bonny and freight, but did not test the actual spread in question against freight.
+### Implications
 
-Having said that, while futures & spot crude data is easily available, the correct freight data is not. Similar to my other [post](https://analytic-musings.com/2023/12/31/principles-of-principal-components/), it is possible the alpha for this trade has decayed over the years.
+We could first find data showing the proportions of different grades of crude delivered against at Cushing over time, the price spreads, ship movement data and freight rates. If the hypothesis were true, then:
+
+* The number of tankers from Bonny to USAC should Granger cause the proportion of Bonny to WTI delivered.
+* The spread of WTI-imported crude should Granger cause the freight rate in question.
+
+We could then lag these two predictors and scatter it against their target values for different lags to see any patterns.
+
+However, testing this in a modern context would require one to get updated routes and freight data given the routes mentioned in the paper no longer exist.
 
 ## Conclusion
 
