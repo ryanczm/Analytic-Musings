@@ -107,7 +107,7 @@ In theory, if the WTI futures-imported crude spread increases, Brent is cheaper 
 
 <center>
 <img src="{{ site.imageurl }}/TransatlanticWTIArbitrage/jcurve.png" style="width:110%;"/>
-<figcaption>The J-shaped freight supply curve, from Stopford's Maritime Economics. The exponential shape comes from fleet response as rates increase.</figcaption>
+<figcaption>From Stopfords' Maritime Economics.</figcaption>
 </center>
 
 
