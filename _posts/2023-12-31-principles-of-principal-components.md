@@ -36,14 +36,14 @@ The authors used 120 data points along the yield curve (interpolated at 90-day i
 </center>
 
 
-PC1 is level, PC2 is slope, and PC3 is curvature. To link each PCA to the correct movement: note the sign - the first PC (level) never changes sign. The second (slope) changes sign once, and third (curvature) changes sign twice. Projecting our yields in PC space is simply $\textbf{X}\textbf{Q}_{[1,2,3]}=\textbf{P}$, where $\textbf{Q}$ is our eigenvector/PC matrix.
+PC1 is level, PC2 is slope, and PC3 is curvature. To link each PCA to the correct movement: note the sign - the first PC (level) never changes sign. The second (slope) changes sign once, and third (curvature) changes sign twice. Projecting our yields in PC space is simply $\textbf{X}\textbf{Q}_{[1,2,3]}=\textbf{P}$, where $\textbf{Q}$ is our truncated eigenvector/PC matrix.
 
 <center>
 <img src="{{ site.imageurl }}/SalomonBrothers/2_treasury_yields_in_pc.png" style="width:100%;"/>
 <!-- <figcaption>Treasury yields, 2012-2022</figcaption> -->
 </center>
 
-We can reexpress our yield curve data in PC space as show above. Furthemore, if we plot the z-scored the 10Y-2Y spread (slope proxy) against PC2, we can see it closely matches the slope.
+We can reexpress our yield curve data in PC space as shown above. Furthemore, if we plot the z-scored the 10Y-2Y spread (slope proxy) against PC2, we can see it closely matches the slope.
 
 <center>
 <img src="{{ site.imageurl }}/SalomonBrothers/3_z_scored_slope.png" style="width:65%;"/>
@@ -56,7 +56,7 @@ Now we can plot yields over time:
 <!-- <figcaption>Treasury yields, 2012-2022</figcaption> -->
 </center>
 
-Note flattening of the curve from 2014-2019 and a sharp drop in yield across all tenors in 2020 due to Covid and aggressive Fed rate cuts. If we go back to our PCs over time plot, we can see from 2014-2019 how PC2 dipped and how PC1s skyrocketed in 2019-2021.
+Note flattening of the curve from 2014-2019 and a sharp drop in yield across all tenors in 2020 due to Covid and aggressive Fed rate cuts. If we go back to our PCs over time plot, we can see from 2014-2019 how PC2 dipped and how PC1 skyrocketed in 2019-2021.
 
 
 ## PCA for Butterfly Trades
@@ -140,7 +140,7 @@ Comparing the two, we see how the butterfly yield for various PCA window lengths
 <!-- <figcaption>Treasury yields, 2012-2022</figcaption> -->
 </center>
 
-This looks somewhat mean reverting, but only over a very long period, unlike the original paper's chart. The high correlation coefficients are in constrast to the zero to no correlation in the original paper, likely due to the short window. The authors state a choice of window is very important. A long window captures longer term changes in yield curves, but if yield regimes/policies change over time, then we end up using irrelevant information.
+This looks somewhat mean reverting, but only _over a very long period_, unlike the original paper's chart (one year). The high correlation coefficients to slope and level are in constrast to the zero to no correlation in the original paper, likely due to the short window. The authors state a choice of window is very important. A long window captures longer term changes in yield curves, but if yield regimes/policies change over time, then we end up using irrelevant information.
 
 The 1Y PCA rolling window weights look like this:
 
@@ -149,7 +149,7 @@ The 1Y PCA rolling window weights look like this:
 <!-- <figcaption>Treasury yields, 2012-2022</figcaption> -->
 </center>
 
-However, I try an alternative: what if we z-score the current weights (over time) over a rolling window? The resultant weights would look like this.
+However, we try an alternative: what if we z-score the current weights (over time) over a rolling window? The resultant weights would look like this.
 
 <center>
 <img src="{{ site.imageurl }}/SalomonBrothers/12_zw.png" style="width:60%;"/>
@@ -163,7 +163,7 @@ The new "butterfly" spread with z-scored weights then looks quite stationary:
 <!-- <figcaption>Treasury yields, 2012-2022</figcaption> -->
 </center>
 
-However, these weights are no longer a butterfly, as the signs of the trade are no longer $-, +, -$. Instead, we have $+,+,+$, $-,+,+$ and $+,+,-$. Also, by modifying weights, they are no longer in theory level and slope-neutral. An interesting tweak nonetheless.
+However, these weights are no longer a butterfly, as the signs of the trade are no longer $-, +, -$. Instead, we have $+,+,+$, $-,+,+$ and $+,+,-$. Also, by modifying weights, they are no longer in theory level and slope-neutral. An interesting tweak nonetheless that creates a more stationary spread.
 
 ### Investigating Non-Stationarity
 

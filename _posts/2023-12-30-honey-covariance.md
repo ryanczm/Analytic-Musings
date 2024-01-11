@@ -29,7 +29,7 @@ The Github repo is [<i class="fa fa-github" aria-hidden="true"></i> here](https:
 
 Ledoit & Wolf conduct the study as follows. At the beginning of the month, they form a value-weighted index of $N$ largest stocks (the benchmark). They feed benchmark weights $W_B$, alphas $\hat{\alpha}$, the covariance matrix $\hat{\Sigma}$ of the last $T=60$ monthly returns, a gain $g$, and an upper bound $c$ into a quadratic optimizer.  
 
-This produces an (active) weight vector $\textbf{x}$. Excess returns are computed as $\textbf{x}^T\textbf{y}$ where $\textbf{y}$ is stock returns. Over the months (1983-2002), they compute the (annualized) _ex-post_ informatio ratio. The alphas $\hat{\alpha}$ are random by choice, so they repeat the experiment 50 times for any $N$. They then plot IR statistics. The optimization problem is:
+This produces an (active) weight vector $\textbf{x}$. Excess returns are computed as $\textbf{x}^T\textbf{y}$ where $\textbf{y}$ is stock returns. Over the months (1983-2002), they compute the (annualized) _ex-post_ information ratio. The alphas $\hat{\alpha}$ are random by choice, so they repeat the experiment 50 times for any $N$. They then plot IR statistics. The optimization problem is:
 
 $$ \begin{align*}
 \text{Minimize:} \quad & \textbf{x}^T \Sigma \textbf{x} \\
@@ -53,7 +53,7 @@ Scores are created from raw forecasts: $scores=e_t + \epsilon$. Hence, $e_t$ is 
 
 $$IR \approx IC \cdot \sqrt{breadth}$$
 
-Breadth is the annualized number of bets, or $12\cdot N$. The _ex-ante_ informatio ratio is fixed at 1.5, to which we then back out the information coefficient IC: the assumed correlation between alphas and realized returns. The better an alpha historically predicts excess returns, the more weight it has. We scale by vol because it 'amplifies' the IC. We plug these into the formula to calculate our $\alpha$ vector to be fed.
+Breadth is the annualized number of bets, or $12\cdot N$. The _ex-ante_ information ratio is fixed at 1.5, to which we then back out the information coefficient IC: the assumed correlation between alphas and realized returns. The better an alpha historically predicts excess returns, the more weight it has. We scale by vol because it 'amplifies' the IC. We plug these into the formula to calculate our $\alpha$ vector to be fed.
 
 <center>
 <img src="{{ site.imageurl }}/LedoitWolf/code_2.png" style="width:70%;"/>

@@ -102,9 +102,17 @@ The authors then state this important conclusion as below:
 
 This was derived from interpreting the VECM model and GC tests. However, the line of reasoning is not clear as to how this conclusion was derived. While the authors conducted GC tests amongst futures, physical and freight, they did not test the futures-physical differential against the freight rate directly, which is confusing to me.
  
-In theory, if the WTI futures-imported crude spread increases, Brent is cheaper to deliver, and traders would charter ships to bring imported crude to the USA to arbitrage, causing freight rates to increase. But clearly, this was not the case! A referee then pointed out tanker freight rates not responding to the spread movements could be due to excess capacity. Nonetheless, this still implies arbitrage is possible.
+In theory, if the WTI futures-imported crude spread increases, Brent is cheaper to deliver, and traders would charter ships to bring imported crude to the USA to arbitrage, causing freight rates to increase. But clearly, this was not the case! A referee then pointed out tanker freight rates not responding to the spread movements could be due to _excess capacity_ (equilibrium is at the flat region of the J-shaped supply curve):
 
-To investigate, the authors backtest the results of the Brent and Bonny trades across various parameters and tabulate the results. They use the spot price of Brent 3,4,5 weeks prior to maturity of the front WTI futures contract: delivery to Sullom Voe takes up to 2 weeks, loading takes 4 days, shipping takes 9, and discharging takes 4.
+
+<center>
+<img src="{{ site.imageurl }}/TransatlanticWTIArbitrage/jcurve.png" style="width:110%;"/>
+<figcaption>The J-shaped freight supply curve, from Stopford's Maritime Economics. The exponential shape comes from fleet response as rates increase.</figcaption>
+</center>
+
+
+
+Nonetheless, the findings imply arbitrage opportunities exist. To investigate, the authors backtest the results of the Brent and Bonny trades across various parameters and tabulate the results. They use the spot price of Brent 3,4,5 weeks prior to maturity of the front WTI futures contract: delivery to Sullom Voe takes up to 2 weeks, loading takes 4 days, shipping takes 9, and discharging takes 4.
 
 <center>
 <img src="{{ site.imageurl }}/TransatlanticWTIArbitrage/res.png" style="width:80%;"/>
