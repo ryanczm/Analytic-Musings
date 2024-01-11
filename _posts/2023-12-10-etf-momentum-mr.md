@@ -2,7 +2,7 @@
 layout: post
 title: An Intraday Momentum/Mean-Reversion Strategy on Japanese ETFs
 category: quant
-excerpt: "In this post, I formulate & backtest a momentum/mean-reversion strategy on several weeks of second-tick TSE ETF bid-ask data. It consists of two strategies: one to capture a lunchbreak momentum effect, and an emwa-crossover to capture noticed stationarity in the afternoon trading sessions." 
+excerpt: "In this post, I formulate & backtest a momentum/mean-reversion strategy on several weeks of second-tick TSE ETF bid-ask data. It consists of two strategies: one to capture a lunchbreak momentum effect, and an EWMA crossover to capture noticed stationarity in the afternoon trading sessions." 
 
 ---
 In this post, I formulate & backtest a momentum/mean-reversion strategy on several weeks of second-tick TSE ETF bid-ask data. It consists of two strategies: one to capture a lunchbreak momentum effect, and an EWMA crossover to capture noticed stationarity in the afternoon trading sessions.
