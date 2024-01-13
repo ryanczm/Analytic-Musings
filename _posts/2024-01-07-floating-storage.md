@@ -16,6 +16,8 @@ As per my previous post, due to time constraints (did this in 2 days) I did not 
 
 The paper is divided into several parts: it explains formulas for floating storage trade & the no-arbitrage condition, then simulates the profitability of floating storage from 2006-2018, and analyses excess profits over a FFA-hedged time-charter strategy (using the vessel for transport instead of storage).
 
+_Regli, F., & Adland, R. (2019). Crude oil contango arbitrage and the Floating Storage Decision. Transportation Research Part E: Logistics and Transportation Review, 122, 100–118. [https://doi.org/10.1016/j.tre.2018.11.007](https://doi.org/10.1016/j.tre.2018.11.007)_ 
+
 # The Floating Storage Trade
 
 A floating storage trade is a "cash-and-carry" trade to exploit the contango structure of the forward curve of crude. Intuitively, this makes sense: if contango is caused by oversupply of stocks in the short term, the market incentivizes participants to 'correct' the oversupply by storing stocks for future consumption. One buys a short term and shorts a long term future, receives and holds the commodity till delivery.

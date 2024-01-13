@@ -15,7 +15,9 @@ In this post, I analyze  Alizadeh's Cost of Carry, Causality & Arbitrage between
 Mainly due to time constraints (did this in 2 days) I did not _replicate_ the paper _per se_, e.g getting the data, coding and evaluating the results. We will do that in due time.
 
 
-The paper is divided into several parts: it first explains the cost-of-carry model for the WTI Futures Contract, then performs a VECM/cointegration/Granger causality analysis on WTI futures, Brent or Bonny spot, and freight rates data, then 'backtests' to calculate the arbitrage profit. 
+The paper is divided into several parts: it first explains the cost-of-carry model for the WTI Futures Contract, then performs a VECM/cointegration/Granger causality analysis on WTI futures, Brent or Bonny spot, and freight rates data, then 'backtests' to calculate the arbitrage profit when the futures-physical spread divergences sufficiently.
+
+_Alizadeh, A. H., & Nomikos, N. K. (2004). Cost of carry, causality and arbitrage between oil futures and tanker freight markets. Transportation Research Part E: Logistics and Transportation Review, 40(4), 297–316. [https://doi.org/10.1016/j.tre.2004.02.002](https://doi.org/10.1016/j.tre.2004.02.002)_ 
 
 # The Cost of Carry Model
 

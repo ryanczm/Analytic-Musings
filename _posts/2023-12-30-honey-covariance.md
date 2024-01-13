@@ -2,14 +2,15 @@
 layout: post
 title: "Paper Replication: Honey I Shrunk the Covariance Matrix (Ledoit & Wolf)"
 category: quant
-
+excerpt: "In this post, I replicate Wolf & Ledoit's -  Honey: I Shrunk the Sample Covariance Matrix (2003) paper, which showed how shrinking covariance matrices increases realized information ratios & decreases tracking error in active portfolio management/portfolio optimization, & replicate the results on US stocks from 2005-2022."
 ---
-In this post, I replicate Wolf & Ledoit's -  _Honey: I Shrunk the Sample Covariance Matrix (2003)_ paper, which showed how shrinking covariance matrices increases realized information ratios & decreases tracking error in active portfolio management/portfolio optimization. I replicate the results on historical S&P constituents from 2005-2022.
-<!--more-->
 
-<center>
+
+In this post, I replicate Wolf & Ledoit's -  _Honey: I Shrunk the Sample Covariance Matrix (2003)_ paper, which showed how shrinking covariance matrices increases realized information ratios & decreases tracking error in active portfolio management then replicate the results on US stocks from 2005-2022.
+
+<!-- <center>
 <img src="{{ site.imageurl }}/LedoitWolf/c_hoffstein_tweet.png" style="width:40%;"/>
-</center>
+</center> -->
 
 <!-- <center>
 <img src="{{ site.imageurl }}/LedoitWolf/cosine_tgt.png" style="width:80%;"/>
@@ -24,6 +25,9 @@ To understand the methodology, I looked at selected chapters of Grinold & Kahn's
 The portfolios generated were _active portfolios_. In active management, the manager forecasts excess returns. The goal is to deviate from the benchmark weights to harvest excess returns, but not too far that risk is a problem.
 
 The Github repo is [<i class="fa fa-github" aria-hidden="true"></i> here](https://github.com/ryanczm/Honey-I-Shrunk-the-Covariance-Matrix).
+
+_Ledoit, O., & Wolf, M. (2004). Honey, I shrunk the sample covariance matrix. The Journal of Portfolio Management, 30(4), 110–119. [https://doi.org/10.3905/jpm.2004.110](https://doi.org/10.3905/jpm.2004.110)_
+
 
 ## Portfolio Optimization
 
