@@ -4,7 +4,7 @@ title: "Paper Replication: Honey I Shrunk the Covariance Matrix (Ledoit & Wolf)"
 category: quant
 
 ---
-In this post, I replicate Wolf & Ledoit's -  _Honey: I Shrunk the Sample Covariance Matrix (2003)_ paper, which showed how shrinking covariance matrices increases realized information ratios & decreases tracking error in active portfolio management/portfolio optimization. I replicate the results on modern data: US stock returns from 2005-2022.
+In this post, I replicate Wolf & Ledoit's -  _Honey: I Shrunk the Sample Covariance Matrix (2003)_ paper, which showed how shrinking covariance matrices increases realized information ratios & decreases tracking error in active portfolio management/portfolio optimization. I replicate the results on historical S&P constituents from 2005-2022.
 <!--more-->
 
 <center>
@@ -94,7 +94,7 @@ $$\hat{\Sigma}_{\text{Shrink}} = \delta^* F + (1 - \delta^*) S$$
 
 Where $S$ is sample covariance and $F$ is a structured estimator: the sample constant correlation matrix. We take a convex combination between $S$ and $F$ weighted by $\delta$.
 
-From my understanding, when  $P \gg N$, aka large number of stocks with a small rolling window, the sample covariance matrix $\hat{\Sigma}$ is singular. This relates to rank: $rank(\textbf{X})=rank(\textbf{X}^T)=rank(\textbf{X}^T\textbf{X})$. Since $\textbf{X}$ is $n \times p$, it's rank is at most $\min(n,p)$ and so is $\textbf{X}^T\textbf{X}$. 
+From my understanding, when  $P \gg N$, aka large number of stocks with a small rolling window, the sample covariance matrix $\hat{\Sigma}$ is singular. This relates to rank (denoted by $r$): $r(\textbf{X})=r(\textbf{X}^T)=r(\textbf{X}^T\textbf{X})$. Since $\textbf{X}$ is $n \times p$, it's rank is at most $\min(n,p)$ and so is $\textbf{X}^T\textbf{X}$. 
 
 Somehow, this is bad for the optimizer (I don't know enough about the internals to comment how this works) and so the weight vectors $\textbf{x}$ produced deviate from the alphas.
 

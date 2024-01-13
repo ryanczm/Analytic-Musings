@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Paper Replication: Cost of Carry, Causality & Arbitrage in Oil Futures & Tanker Freight Markets (Alizadeh)"
+title: "Paper Replication: Cost of Carry & Arbitrage in Oil Futures & Tanker Freight Markets (Alizadeh)"
 category: commodities
 
 ---
-In this post, I analyze  Alizadeh's - Cost of Carry, Causality & Arbitrage between Oil Futures & Tanker Freight Markets 2003 paper, which investigates the existence of excess profits from transatlantic arbitrage by delivering Brent or Bonny  against the WTI futures contract at Cushing due to possible regional supply-demand imbalances. 
+In this post, I analyze  Alizadeh's Cost of Carry, Causality & Arbitrage between Oil Futures & Tanker Freight Markets 2003 paper, which investigates the existence of excess profits from transatlantic arbitrage by delivering Brent or Bonny  against the WTI futures contract at Cushing due to possible regional supply-demand imbalances. 
 <!--more-->
 <center>
 <img src="{{ site.imageurl }}/TransatlanticWTIArbitrage/trafigura_commodities_demystified.jpg" style="width:15%;"/>

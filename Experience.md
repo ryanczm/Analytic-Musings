@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Experience
-order: 2
+order: 3
 ---
 <div class="exp">
     <img class="exp2" src="{{ site.imageurl }}/Logos/GX1.png" width='120px' height='50px'>

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Paper Replication: Crude Oil Contango Arbitrage and the Floating Storage Decision (Regli & Adland)"
+title: "Paper Replication: Crude Oil Contango Arbitrage & the Floating Storage Decision (Regli)"
 category: commodities
 
 ---
-In this post, I analyze  Regli's - Crude Oil Contango Arbitrage and the Floating Storage Decision 2019 paper, which investigates and models historical floating storage arbitrage opportunities (GFC, 2008 and the Oil Glut, 2015) when the crude oil curve is in contango.
+In this post, I analyze  Regli's - Crude Oil Contango Arbitrage and the Floating Storage Decision 2019 paper, which investigates and models historical floating storage arbitrage opportunities (GFC, 2008 and the Oil Glut, 2015) when the crude oil curve is in contango, and models excess profits of storage over an FFA-hedged time-charter strategy.
 <!--more-->
 <center>
 <img src="{{ site.imageurl }}/FloatingStorage/profits.png" style="width:55%;"/>
@@ -12,8 +12,7 @@ In this post, I analyze  Regli's - Crude Oil Contango Arbitrage and the Floating
 </center>
 
 <!-- Given my background as an Energy Analyst, it was quite surprising that my time there did not equip me with skills to understand commodity markets. -->
-As per my previous post, due to time constraints (did this in 2 days) I did not _replicate_ the paper _per se_, e.g getting the data, coding and evaluating the results (soon!). Is is difficult for me to get access to commodity and freight data.
-
+As per my previous post, due to time constraints (did this in 2 days) I did not _replicate_ the paper _per se_, e.g getting the data, coding and evaluating the results (soon!). While historical Brent forward curves might be easier to find, historical FFA and freight rates are not.
 
 The paper is divided into several parts: it explains formulas for floating storage trade & the no-arbitrage condition, then simulates the profitability of floating storage from 2006-2018, and analyses excess profits over a FFA-hedged time-charter strategy (using the vessel for transport instead of storage).
 
@@ -54,6 +53,8 @@ Assuming a 1Y holding period, the authors plot the weekly PnL from storing 2 mil
 <!-- <figcaption>Plot from Ellefsen's Commodity Market Modeling & Physical Trading Strategies</figcaption> -->
 </center>
 
+### Demand vs Supply Shocks & Holding Period Length
+
 Interestingly, they vary the storage period, with 2M, 6M, 1Y, 18M and 2Y storages, via interpolating their time-charter rate data. This leads to a rather hard to read plot:
 
 <center>
@@ -61,7 +62,7 @@ Interestingly, they vary the storage period, with 2M, 6M, 1Y, 18M and 2Y storage
 <!-- <figcaption>Plot from Ellefsen's Commodity Market Modeling & Physical Trading Strategies</figcaption> -->
 </center>
 
-While difficult to see on the above plot, the authors note that profits with shorter holding periods were higher than longer ones during the financial crisis, but the reverse effect occured in the oil glut. They attribute this effect to the nature of the shock itself affecting time-charter term structure differently.
+While difficult to see on the above plot, the authors note that profits with _shorter holding periods_ were higher than longer ones during the financial crisis, but the _reverse effect_ occured in the oil glut. They attribute this effect to the nature of the shock itself affecting time-charter term structure differently.
 
 <center>
 <img src="{{ site.imageurl }}/FloatingStorage/gfc.jpg" style="width:45%;"/>
@@ -79,13 +80,23 @@ From reading, the oil glut was caused by the North American shale boom causing o
 
 ## The Floating Storage Decision
 
-The authors then argue that a more accurate assessment involves looking at _excess profits_ over a FFA hedged time-charter strategy - using the time-charter tanker to earn revenue from the voyage charter market instead of just holding crude. The formula for excess profit is given by adding an additional term to account for profit from using the ship for transport:
+The authors then argue that a more accurate assessment involves looking at _excess profits_ over a FFA hedged time-charter strategy where the charterer:
 
-$$\pi^{Excess}_{t} = \pi - \max\{e^{r(T-t)}(T - t)(FFA_{t,T} - TC_{t,T}), 0\} \geq 0$$
+1. Time-charters a vessel and pays the time-charter rate.
+2. Employs it in the voyage-charter market and earns the voyage charter freight rate(s).
+3. Hedges the voyage charter freight rates with FFAs.
 
+ The formula for excess profit is given by adding an additional term to account for profit from using the ship for transport:
 
+$$\pi^{Excess}_{t} = \pi - \max\{e^{r(T-t)}(T - t)(FFA_{t,T} - FR.Baltic_{t,T} - TC_{t,T} + FR_{t,T}), 0\} \geq 0$$
 
-This idea of _optionality_ is explored in Ellefsen's [_Commodity Market Modeling & Physical Trading Strategies_](https://dspace.mit.edu/bitstream/handle/1721.1/61602/704383331-MIT.pdf) 2011 paper, in which the author formulates a model to decide on optimal routing for _cross Atlantic crude oil arbitrage with possibility of floating storage_. 
+Where $FR$ is the averaged out daily voyage charter revenue. $FR.Baltic$ is the average of _time-charter equivalent settlement rates_ for Baltic Exchange FFAs. Voyage charter rates are paid at spot, so in theory, $FR.Baltic$ and $FR$ cancel out (assuming no basis risk from say, different routes or vessel characteristics).
+
+Then, the charterer earns the _FFA TC_ basis: $FFA - TC$. This was tricky for me to rationalize, but the idea is that the charterer hedges his spot exposure from voyage-charter via a TCE FFA, not a voyage-charter FFA, which nets against the time-charter rate.
+
+### The Ellefsen Paper
+
+On a side note, this idea of _optionality_ is explored in Ellefsen's [_Commodity Market Modeling & Physical Trading Strategies_](https://dspace.mit.edu/bitstream/handle/1721.1/61602/704383331-MIT.pdf) 2011 paper, in which the author formulates a model to decide on optimal routing for _cross Atlantic crude oil arbitrage with possibility of floating storage_. 
 
 
 <center>
@@ -93,21 +104,30 @@ This idea of _optionality_ is explored in Ellefsen's [_Commodity Market Modeling
 <!-- <figcaption>Brent during the oil glut.</figcaption> -->
 </center>
 
-He states this problem of _optimal stopping_ is akin to calculating the value of an _American option_, which gives the owner the right to exercise any time before it's expiry date. This was the original paper I wished to replicate, but was unable to do so due the heavy focus on stochastic calculus and PDEs.
+He states this problem of _optimal stopping_ is akin to calculating the value of an _American option_, which gives the owner the right to exercise any time before it's expiry date. This was the original paper I wished to replicate, but was unable to do so (yet!) due the heavy focus on stochastic calculus/PDEs.
+
+
+## Using AIS Data to Track Tankers in 2015
+
+
+
+Returning back to the main paper, rather than analytically model the choice with American options, they use AIS (Automatic Identification System) data from MarineTraffic of all dirty tankers on time-charter from October 2014 to August 2016. AIS is a tracking system via radio transceivers that tracks location and other key information about a ship, for fleet tracking, maritime security, and other purposes.
 
 <center>
 <img src="{{ site.imageurl }}/FloatingStorage/scatter.png" style="width:80%;"/>
 <!-- <figcaption>Brent during the oil glut.</figcaption> -->
 </center>
 
-Returning back to the main paper, rather than analytically model the choice with options, they use AIS data from MarineTraffic from 2014-2016. They then manually categorize tankers on time-charter into _storage only_, _storage & voyage_ and _transport_. A tanker is assigned _storage & voyage_ if it is laden & stationary. They measure this by labelling vessels with draught above 15m and speed below 6 knots as stationary. Plugging in the numbers into the excess profit formula, they calculate the profit for each vessel.
+The authors then manually categorize tankers on time-charter into _storage only_, _storage & voyage_ and _transport_. A tanker is assigned _storage & voyage_ if it has a draught above 15m (a laden tanker displaces more water) and a speed below 6 knots.
+They then plug numbers into calculate $\pi^{Excess}_{t}$ for each tanker and plot the results above.
 
-We can see it does look like positive excess profits over the alternative voyage-charter strategy still happens. Clearly, profits are to be made, and the question for firms is how to predict such opportunities in advance.
+
+We can see it does look like positive excess profits over the alternative voyage-charter strategy still happens. Clearly, profits are to be made, and the question for firms is how to predict such opportunities, aka predicting contango term structure in advance.
 
 ## Conclusion
 
 To conclude, this post analyzes Regli's _Crude Oil Contango Arbitrage and the Floating Storage Decision_ 2019 paper. While not actually drawing any novel conclusion, the paper has exposed me to a framework of modelling floating storage arbitrage decisions.
 
-It has also made me more familiar with forward curve term structure and elementary freight concepts. I especially liked the part on using satellite data to classify ship behavior.
+It has also made me more familiar with forward curve term structure and elementary freight concepts like using FFAs to hedge risk (even though no numbers were mentioned in the paper). I especially liked the part on using satellite data to classify ship behavior.
 
 
