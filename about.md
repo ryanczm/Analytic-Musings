@@ -14,3 +14,5 @@ I enjoy all things data - cleaning, building, analyzing, modelling and using it 
 </p>
 
 Outside of work, I enjoy sports - floorball (I play competitively in SG's div 2) and football (recreationally). I have been branching out my interests to learn dance - Kizomba and Bachata.
+
+Here is my [<i class="fa fa-github" aria-hidden="true"></i> Github](https://github.com/ryanczm/).
