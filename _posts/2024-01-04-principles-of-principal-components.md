@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Replication: Principles of Principal Components (Salomon Brothers)"
+title: "Principles of Principal Components (Salomon Brothers)"
 category: quant
 
 ---
