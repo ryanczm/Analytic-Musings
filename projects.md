@@ -38,7 +38,7 @@ This is a list of paper replications (I started this in Dec 2023). The aim is to
 
 ## HFT
 
-* 🔲 _A Stochastic Model for Order Book Dynamics_, Cont, Stoikov & Talreja 2008 _(593)_
+* 🔲 _High Frequency Trading in a Limit Order Book_, Avellaneda & Stoikov 2006 _(552)_
 
 
 
