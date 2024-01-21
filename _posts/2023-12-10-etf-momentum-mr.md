@@ -37,7 +37,7 @@ The repo/code for the project is [here](https://github.com/ryanczm/TSE-ETF-Mean-
 </center>
 
 
-After some data cleaning, price changes at different intervals are plotted. This showcased the variance scaling property of Brownian motion $dW_t \propto \sqrt{dt}$  $\space $ or $\space$    $Var[W_{t+s}-W_t]=s$: variance in price between two points in time increases proportionally with the length of time passed.
+After some data cleaning, price changes at different intervals are plotted. This reflect's Bachelier's observation: price variations $p_{t+\tau}-p_t$ grow like the square root of lag $\tau$.
 
 This meant a directional strategy at short horizons would be unprofitable as any round trip profit would be negated by the cost of crossing the spread. This is seen by the red lines at -5 and 5 (the 90th percentile of spread values). At 5s intervals, majority of price movements are within $\pm$ yen. While the firm knew this, they prompted me to do a directional strategy as I had no MM experience.
 
