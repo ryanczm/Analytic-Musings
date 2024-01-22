@@ -34,7 +34,7 @@
  */
 
  html {
-  zoom: 0.95; 
+  zoom: 0.99; 
   /* -moz-transform: scale(0.8); */
   /* -webkit-transform: scale(0.8); */
   /* transform: scale(0.99); */
@@ -352,7 +352,7 @@ tbody tr:nth-child(odd) th {
 
 .page,
 .post {
-  margin-bottom: 1.5em;
+  margin-bottom: 1.3em;
 }
 
 /* Blog post or page title */
