@@ -172,11 +172,11 @@ abbr[title] {
 /* Code */
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: Consolas;
 }
 code {
   padding: .25em .5em;
-  font-size: .8rem;
+  font-size: .7rem;
   color: #bf616a;
   background-color: #f9f9f9;
   border-radius: 3px;
@@ -196,7 +196,7 @@ pre {
 }
 pre code {
   padding: 0;
-  font-size: 100%;
+  font-size: 90%;
   color: inherit;
   background-color: transparent;
 }
