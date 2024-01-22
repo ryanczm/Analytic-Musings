@@ -1,11 +1,10 @@
 ---
 layout: post
-title: "Paper Replication: Principles of Principal Components (Salomon Brothers)"
+title: "Paper Replication: Principles of Principal Components"
 category: quant
 
 ---
-In this post, I replicate  _Salomon Brother's Principles of Principal Components_ 2000 paper on modern data (yields from 2012-2022), which showed how PCA on the yield curve can be used in bond relative value analysis: to structure curve-neutral butterfly trades free of level and slope bias via rolling PC weights to create a stationary butterfly spread.
-<!-- After establishing a link between the first 3 PCs and level, slope and curve, we replicate the PCA-weighted butterfly spreads and examine their performance. -->
+In this post, I replicate  Salomon Brother's 2000 paper which showed how PCA on the yield curve can be used to quantify yield curve movements & structure curve-neutral butterfly trades free of level and slope directional bias. I replicate the (no longer stationary) PCA-weighted butterfly spreads on treasury yields from 2012-2022 in Python.
 <!--more-->
 
 <center>
