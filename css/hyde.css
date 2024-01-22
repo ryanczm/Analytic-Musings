@@ -38,12 +38,7 @@ html {
   font-display: swap;
 }
 
-html {
-  zoom: 0.99; 
-  /* -moz-transform: scale(0.8); */
-  /* -webkit-transform: scale(0.8); */
-  /* transform: scale(0.99); */
-}
+
 
 @media (min-width: 48em) {
   html {
