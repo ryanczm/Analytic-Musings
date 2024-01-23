@@ -1,5 +1,8 @@
 # Dependencies
-plugins: [jekyll-paginate]
+plugins: 
+  - jekyll-paginate
+  - jekyll-seo-tag
+
 
 # Features
 excerpt_separator: <!--more-->
