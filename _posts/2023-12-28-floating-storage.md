@@ -6,17 +6,18 @@ category: commodities
 ---
 In this post, I analyze  Regli's - Crude Oil Contango Arbitrage and the Floating Storage Decision 2019 paper, which investigates and models historical floating storage arbitrage opportunities (GFC, 2008 and the Oil Glut, 2015) when the crude oil curve is in contango, and models excess profits of storage over an FFA-hedged time-charter strategy.
 <!--more-->
+
+The paper is divided into several parts: it explains formulas for floating storage trade & the no-arbitrage condition, then simulates the profitability of floating storage from 2006-2018, and analyses excess profits over a FFA-hedged time-charter strategy (using the vessel for transport instead of storage).
+
+_Regli, F., & Adland, R. (2019). Crude oil contango arbitrage and the Floating Storage Decision. Transportation Research Part E: Logistics and Transportation Review, 122, 100–118. [https://doi.org/10.1016/j.tre.2018.11.007](https://doi.org/10.1016/j.tre.2018.11.007)_ 
+
+
 <center>
 <img src="{{ site.imageurl }}/FloatingStorage/profits.png" style="width:55%;"/>
 <!-- <figcaption>Required reading.</figcaption> -->
 </center>
 
-<!-- Given my background as an Energy Analyst, it was quite surprising that my time there did not equip me with skills to understand commodity markets. -->
-As per my previous post, due to time constraints (did this in 2 days) I did not _replicate_ the paper _per se_, e.g getting the data, coding and evaluating the results (soon!). While historical Brent forward curves might be easier to find, historical FFA and freight rates are not.
 
-The paper is divided into several parts: it explains formulas for floating storage trade & the no-arbitrage condition, then simulates the profitability of floating storage from 2006-2018, and analyses excess profits over a FFA-hedged time-charter strategy (using the vessel for transport instead of storage).
-
-_Regli, F., & Adland, R. (2019). Crude oil contango arbitrage and the Floating Storage Decision. Transportation Research Part E: Logistics and Transportation Review, 122, 100–118. [https://doi.org/10.1016/j.tre.2018.11.007](https://doi.org/10.1016/j.tre.2018.11.007)_ 
 
 # The Floating Storage Trade
 

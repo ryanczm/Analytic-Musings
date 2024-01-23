@@ -18,13 +18,12 @@ I adapted this post from a HFT firm take-home test. Given 2 weeks of second-tick
 <!-- <center>
   <img src="{{ site.imageurl }}/JapaneseEtfStrat/tweets/tweet_cephalopod_1.png" alt="First Image" class="side-by-side" height="175">
 </center> -->
-<center>
-  <img src="{{ site.imageurl }}/JapaneseEtfStrat/tweets/tweet_cephalopod_1.png" alt="First Image" class="side-by-side" height="220">
-</center>
 
 As post-mortem, I revamped my approach to something much simpler/ML-free (exponential/simple moving averages), based off QuantTwit wisdom above. I analyze the data, uncover two patterns/effects, then backtest two strategies based off these patterns. One performs well, the other performs poorly. I then takeaway some learning points.
 
-The repo/code for the project is [here](https://github.com/ryanczm/TSE-ETF-Mean-Reversion-Momentum). Challenging parts were: 1. Coding up a stoploss, 2. Parallelizing backtest logic to ensure each each day's prices were kept separate in the backtest and 3. Ensuring signals were converted to positions in correct fashion.
+Challenging parts were: 1. Coding up a stoploss, 2. Parallelizing backtest logic to ensure each each day's prices were kept separate in the backtest and 3. Ensuring signals were converted to positions in correct fashion.
+
+Here is the [<i class="fa fa-github" aria-hidden="true"></i> Github repo & code](https://github.com/ryanczm/TSE-ETF-Mean-Reversion-Momentum).
 
 ## Data Analyis 
 

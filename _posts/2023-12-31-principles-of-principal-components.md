@@ -7,17 +7,18 @@ category: quant
 In this post, I replicate  Salomon Brother's 2000 paper which showed how PCA on the yield curve can be used to quantify yield curve movements & structure curve-neutral butterfly trades free of level and slope directional bias. I replicate the (no longer stationary) PCA-weighted butterfly spreads on treasury yields from 2012-2022 in Python.
 <!--more-->
 
-<center>
-<img src="{{ site.imageurl }}/SalomonBrothers/4_treasury_yields.png" style="width:75%;"/>
-<figcaption>Treasury yields, 2012-2022</figcaption>
-</center>
 
-Being quite clueless on bonds and rates, I picked up Siddharta Jha's _Interest Rates Markets_, and read through selected chapters. I also read Gregory Gundersen's excellent [article on PCA](https://gregorygundersen.com/blog/2022/09/17/pca/) to refresh myself on how it works.
+Being quite clueless on bonds and rates, I picked up Siddharta Jha's _Interest Rates Markets_, and read through selected chapters. I also read Gregory Gundersen's excellent [article on PCA](https://gregorygundersen.com/blog/2022/09/17/pca/).
 
 The paper is divided into three parts: explaining how PCA on the yield curve works, using PCs to construct a replicating portfolio, and using PCs as weights for butterfly trades. I focus on the first & third parts.
 
-The Github repo is [<i class="fa fa-github" aria-hidden="true"></i> here](https://github.com/ryanczm/Principles-of-Principal-Components).
+Here is the [<i class="fa fa-github" aria-hidden="true"></i> Github repo & code](https://github.com/ryanczm/Principles-of-Principal-Components).
 
+<center>
+<img src="{{ site.imageurl }}/SalomonBrothers/10_butterfly.png" style="width:70%;"/>
+<!-- <figcaption>Treasury yields, 2012-2022</figcaption> -->
+</center>
+ 
 
 ## PCA to model the yield curve
 
@@ -88,15 +89,43 @@ These charts seem confusing, but focus on the _left column_. In the first row, t
 
 For our project, we experiment with different rolling window lengths for the 2s-5s-10s trade from 2017-2022.  The code replicates this procedure:
 
-<center>
-<img src="{{ site.imageurl }}/SalomonBrothers/code_1.png" style="width:95%;"/>
-<!-- <figcaption>Treasury yields, 2012-2022</figcaption> -->
-</center>
+```python
+def rolling_pca(yields, n):
+    results = []
+    for i in range(n, len(yields)):
+        window = yields.iloc[i - n:i]
+        pca = PCA(n_components=3)
+        pca.fit(window)
+        results.append(pca.components_[2])
 
-<center>
-<img src="{{ site.imageurl }}/SalomonBrothers/code_2.png" style="width:95%;"/>
-<!-- <figcaption>Treasury yields, 2012-2022</figcaption> -->
-</center>
+    evolving_third_pc = pd.DataFrame(results, columns=yields.columns, index=yields.iloc[n:,:].index)
+
+def create_butterfly(yields, n, m1, m2, m3, z, ew=False):
+
+    # extract the desired butterfly tenors from yield data
+    m1, m2, m3 = str(m1*12), str(m2*12), str(m3*12)
+    yields = yields.loc[:,[m1,m2,m3]]
+
+    # compute rolling 3rd PC values
+    raw = rolling_pca(yields, n)
+
+    # normalize by belly. Try normal and z-scored weights
+    weights = raw.div(raw[m2],axis=0)
+    z_weights = weights.sub(weights.rolling(z).mean()).div(weights.rolling(z).std()).iloc[z:].fillna(1)
+
+    # adjust for rolling window
+    yields = yields.iloc[n:,:]
+    z_yields = yields.iloc[z:,:]
+
+    # compute butterfly spread
+    fly = (yields * weights).sum(axis=1)
+    z_fly = (z_yields * z_weights).sum(axis=1)
+
+    if ew:
+        fly = (yields * np.array([-0.5,1,-0.5])).sum(axis=1)
+
+    return yields, weights, fly, z_yields, z_weights, z_fly
+```
 
 The code above does steps 1 to 3:
 

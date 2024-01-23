@@ -5,19 +5,19 @@ category: quant
 ---
 
 In this post, I come up with a strategy to beat the benchmark of long S&P by constructing a long-short portfolio consisting of the S&P 500, Gold, and US10Y treasury bonds, with rebalancing conditioned on different economic regimes.
-<!--more-->The [repo](https://github.com/ryanczm/SnP-Macro-Regime-Strategy) to my project is on Github.
+<!--more-->This was adapted off a take-home project from a quant/discretionary macro fund.
 
 
 The data given to me was daily close of S&P, quarterly close of Gold, daily yields of US10Y bonds, quarterly GDP YoY change figures and monthly CPI YoY change figures, from 1970 to 2020. 
 
-The in-sample period is from 1970 to 2012 and the out-sample period is from 2013-2020. I then evaluate the out-sample performance based on the rolling Sharpe, rolling information ratio and tracking error.
+The in-sample period is from 1970 to 2012 and the out-sample period is from 2013-2020. I then evaluate the out-sample performance based on the rolling Sharpe, rolling information ratio and tracking error. I was to rebalance the portfolio quarterly based on the current regime the quarter was in, determined by whether growth or inflation was rising/falling from the previous quarter: 
+
+Here is the [<i class="fa fa-github" aria-hidden="true"></i> Github repo & code](https://github.com/ryanczm/SnP-Macro-Regime-Strategy).
 
 <center>
-<img src="{{ site.imageurl }}/SPMacro/plots/graph_macro_indicators.png">
-<figcaption>Henri Poincaré 1854-1912</figcaption>
+<img src="{{ site.imageurl }}/SPMacro/plots/graph_macro_indicators.png" style="width:75%;">
 </center>
 
-I was to rebalance the portfolio quarterly based on the current regime the quarter was in, determined by whether growth or inflation was rising/falling from the previous quarter. 
 
 
 ## Regimes
@@ -85,7 +85,6 @@ This is a simple method of creating an alpha that uses a summary statistic (Shar
 
 <center>
 <img src="{{ site.imageurl }}/SPMacro/plots/graph_weights.png">
-<figcaption>Henri Poincaré 1854-1912</figcaption>
 </center>
 
 <h2>Performance</h2>

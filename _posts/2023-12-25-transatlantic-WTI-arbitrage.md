@@ -4,16 +4,9 @@ title: "Cost of Carry & Arbitrage in Oil Futures & Freight Markets (Alizadeh)"
 category: commodities
 
 ---
-In this post, I analyze  Alizadeh's Cost of Carry, Causality & Arbitrage between Oil Futures & Tanker Freight Markets 2003 paper, which investigates the existence of excess profits from transatlantic arbitrage by delivering Brent or Bonny  against the WTI futures contract at Cushing due to possible regional supply-demand imbalances. 
+In this post, I analyze  Alizadeh's Cost of Carry, Causality & Arbitrage between Oil Futures & Tanker Freight Markets 2003 paper, which investigates the existence of excess profits from transatlantic arbitrage by delivering Brent or Bonny  against the WTI futures contract at Cushing due to possible regional supply-demand imbalances.
+ 
 <!--more-->
-<center>
-<img src="{{ site.imageurl }}/TransatlanticWTIArbitrage/trafigura_commodities_demystified.jpg" style="width:15%;"/>
-<figcaption>Required reading.</figcaption>
-</center>
-
-<!-- Given my background as an Energy Analyst, it was quite surprising that my time there did not equip me with skills to understand commodity markets. -->
-Mainly due to time constraints (did this in 2 days) I did not _replicate_ the paper _per se_, e.g getting the data, coding and evaluating the results. We will do that in due time.
-
 
 The paper is divided into several parts: it first explains the cost-of-carry model for the WTI Futures Contract, then performs a VECM/cointegration/Granger causality analysis on WTI futures, Brent or Bonny spot, and freight rates data, then 'backtests' to calculate the arbitrage profit when the futures-physical spread divergences sufficiently.
 

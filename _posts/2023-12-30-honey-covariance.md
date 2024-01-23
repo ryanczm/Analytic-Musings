@@ -8,25 +8,14 @@ excerpt: "In this post, I replicate Wolf & Ledoit's -  Honey: I Shrunk the Sampl
 
 In this post, I replicate Wolf & Ledoit's -  _Honey: I Shrunk the Sample Covariance Matrix (2003)_ paper, which showed how shrinking covariance matrices increases realized information ratios & decreases tracking error in active portfolio management then replicate the results on US stocks from 2005-2022.
 
-<!-- <center>
-<img src="{{ site.imageurl }}/LedoitWolf/c_hoffstein_tweet.png" style="width:40%;"/>
-</center> -->
+In this paper, Ledoit & Wolf generate monthly portfolios of different sizes on US stocks from 1983 with randomized excess return forecasts, using a shrunk covariance matrix and a sample covariance matrix, then plot the realized information ratio over different runs. 
 
-<!-- <center>
-<img src="{{ site.imageurl }}/LedoitWolf/cosine_tgt.png" style="width:80%;"/>
-</center> -->
-
-To understand the methodology, I looked at selected chapters of Grinold & Kahn's _Active Portfolio Management_ (1972). In this paper, Ledoit & Wolf generate monthly portfolios of different sizes on US stocks from 1983 with randomized excess return forecasts, using a shrunk covariance matrix and a sample covariance matrix, then plot the realized information ratio over different runs. 
-<center>
-<img src="{{ site.imageurl }}/LedoitWolf/apm.png" style="width:20%;"/>
-
-</center>
-
-The portfolios generated were _active portfolios_. In active management, the manager forecasts excess returns. The goal is to deviate from the benchmark weights to harvest excess returns, but not too far that risk is a problem.
-
-The Github repo is [<i class="fa fa-github" aria-hidden="true"></i> here](https://github.com/ryanczm/Honey-I-Shrunk-the-Covariance-Matrix).
+Here is the [<i class="fa fa-github" aria-hidden="true"></i> Github repo & code](https://github.com/ryanczm/Honey-I-Shrunk-the-Covariance-Matrix).
 
 _Ledoit, O., & Wolf, M. (2004). Honey, I shrunk the sample covariance matrix. The Journal of Portfolio Management, 30(4), 110–119. [https://doi.org/10.3905/jpm.2004.110](https://doi.org/10.3905/jpm.2004.110)_
+<center>
+<img src="{{ site.imageurl }}/LedoitWolf/apm.png" style="width:15%;"/>
+</center>
 
 
 ## Portfolio Optimization
@@ -44,9 +33,51 @@ $$ \begin{align*}
 \end{align*}$$
 
 The main body of the code with `cvxpy` is as such:
-<center>
-<img src="{{ site.imageurl }}/LedoitWolf/code_3.png" style="width:95%;"/>
-</center>
+
+```python
+def calculate_active_performance(stocks, benchmark, weights, cutoff=False, shrinkage=True, reduce=True):
+  """
+  performs singular run using one random alpha vector of portfolio optimization
+  """
+  T, n, breadth, ir = 60, stocks.shape[1], stocks.shape[1] * 12, 1.5
+  active_holdings, active_returns, alpha_list = [], [], []
+  df = stocks.iloc[T:]
+
+  for idx, (date, rets) in enumerate(df.iterrows()):
+      window = stocks.iloc[idx:idx+T,:]
+      vol = window.std() * np.sqrt(12)
+      
+      """alpha"""
+      benchmark_rets = benchmark.iloc[idx+T]
+      excess = rets - benchmark_rets.values
+      alphas = generate_alphas(excess, ir, breadth, vol)
+      
+      """covariance matrix"""
+      if shrinkage:
+        lw = LedoitWolf()
+        lw.fit(window)
+        cov = lw.covariance_
+      else:
+        cov = np.cov(window.T)
+
+      """quadratic optimizer"""
+      g = (1+300/1e4)**(1/12) - 1 # monthly gain from 300bps annualized gain
+      c = 0.10 # max total holdings
+      a, w_b = np.array(alphas).flatten(), np.array(weights).flatten()
+
+      x = cp.Variable(n)
+      constraints = [
+                      a.T @ x >= g,  # Portfolio's expected return should be at least g
+                      cp.sum(x) == 0,  # Active weights are dollar neutral
+                      x + w_b >= 0,  # Total positions are long only
+                      x <= c * np.ones(n) - w_b  # Upper bound on the total weight
+                    ]   
+      objective = cp.Minimize(cp.quad_form(x, cov))
+      problem = cp.Problem(objective, constraints)
+      problem.solve()
+      x_optimal = x.value
+      """..."""
+```
 
 
 In this context, alpha is a cross-sectional forecast of expected excess returns. It's formula comes from Grinold & Kahn: 
@@ -58,10 +89,17 @@ Scores are created from raw forecasts: $scores=e_t + \epsilon$. Hence, $e_t$ is 
 $$IR \approx IC \cdot \sqrt{breadth}$$
 
 Breadth is the annualized number of bets, or $12\cdot N$. The _ex-ante_ information ratio is fixed at 1.5, to which we then back out the information coefficient IC: the assumed correlation between alphas and realized returns. The better an alpha historically predicts excess returns, the more weight it has. We scale by vol because it 'amplifies' the IC. We plug these into the formula to calculate our $\alpha$ vector to be fed.
-
-<center>
-<img src="{{ site.imageurl }}/LedoitWolf/code_2.png" style="width:70%;"/>
-</center>
+```python
+def generate_alphas(excess, ir, breadth, vol):
+      # z-score and add noise to get raw scores
+      excess = excess.sub(excess.mean()).div(excess.std())
+      raw = excess + np.random.standard_normal()
+      # calculate information coeff
+      ic = ir / np.sqrt(breadth)
+      # convert scale raw scores by IC and historical vol to get alphas
+      alphas = ic * raw * vol
+      return alphas
+```
 
 
 Other constraints include the portfolio being long only ($\textbf{x} \geq -\textbf{w}_B$), the active weights summing to ($\textbf{x}^T \mathbf{1} = 0$). 
@@ -76,14 +114,23 @@ Just like the paper, we run the simulations 50 times each for $N=20, 100, 225, 4
 
 Our replication was not exact, as I didn't have access to historical market cap data & historical S&P constituents/weights - only historical prices. This meant I couldn't dynamically construct the benchmark indices across time for different $N$.
 
-<center>
-<img src="{{ site.imageurl }}/LedoitWolf/code_1.png" style="width:75%;"/>
-</center>
+```python
+def choose_top_n(stocks, weights, n):
+  """
+  Simulate the large N stocks in Ledoit's paper
+  Returns chosen stocks and custom index values based off N stocks
+  """
+  weights = weights.sort_values('weights',ascending=0)
+  weights = weights.iloc[:n,:]
+  weights = weights.div(weights.sum())
+  stocks = stocks.loc[:,stocks.columns[stocks.columns.isin(weights.index)]]
+  return stocks, stocks.dot(weights), weights
+```
 
 To make do, we took 400 S&P 'survivors': stocks that remained in the S&P throughout 2005 to 2022, the current S&P benchmark weight composition, and normalized them to sum to 1, then computed a 'custom' S&P index to use as our benchmark.
 
 <center>
-<img src="{{ site.imageurl }}/LedoitWolf/realized_ir.png" style="width:100%;"/>
+<img src="{{ site.imageurl }}/LedoitWolf/realized_ir.png" style="width:90%;"/>
 <figcaption>The original boxplot in the paper.</figcaption>
 </center>
 
