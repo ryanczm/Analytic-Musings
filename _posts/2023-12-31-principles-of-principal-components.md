@@ -15,7 +15,7 @@ The paper is divided into three parts: explaining how PCA on the yield curve wor
 Here is the [<i class="fa fa-github" aria-hidden="true"></i> Github repo & code](https://github.com/ryanczm/Principles-of-Principal-Components).
 
 <center>
-<img src="{{ site.imageurl }}/SalomonBrothers/linkedin1.png" style="width:90%;"/>
+<img src="{{ site.imageurl }}/SalomonBrothers/linkedin1.png" style="width:80%;"/>
 </center>
  
 
