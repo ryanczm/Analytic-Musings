@@ -15,7 +15,7 @@ The paper is divided into three parts: explaining how PCA on the yield curve wor
 Here is the [<i class="fa fa-github" aria-hidden="true"></i> Github repo & code](https://github.com/ryanczm/Principles-of-Principal-Components).
 
 <center>
-<img src="{{ site.imageurl }}/SalomonBrothers/10_butterfly.png" style="width:70%;"/>
+<img src="{{ site.imageurl }}/SalomonBrothers/linkedin.png" style="width:90%;"/>
 <!-- <figcaption>Treasury yields, 2012-2022</figcaption> -->
 </center>
  
