@@ -14,7 +14,7 @@ Here is the [<i class="fa fa-github" aria-hidden="true"></i> Github repo & code]
 
 _Ledoit, O., & Wolf, M. (2004). Honey, I shrunk the sample covariance matrix. The Journal of Portfolio Management, 30(4), 110–119. [https://doi.org/10.3905/jpm.2004.110](https://doi.org/10.3905/jpm.2004.110)_
 <center>
-<img src="{{ site.imageurl }}/LedoitWolf/linkedin2.png" style="width:100%;"/>
+<img src="{{ site.imageurl }}/LedoitWolf/linkedin2.png" style="width:97%;"/>
 </center>
 
 
