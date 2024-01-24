@@ -16,7 +16,6 @@ Here is the [<i class="fa fa-github" aria-hidden="true"></i> Github repo & code]
 
 <center>
 <img src="{{ site.imageurl }}/SalomonBrothers/linkedin.png" style="width:90%;"/>
-<!-- <figcaption>Treasury yields, 2012-2022</figcaption> -->
 </center>
  
 
