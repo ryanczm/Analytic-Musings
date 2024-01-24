@@ -17,3 +17,7 @@ Outside of work, I enjoy sports - floorball (I play competitively in SG's div 2)
 
 Here is my [<i class="fa fa-github" aria-hidden="true"></i> Github](https://github.com/ryanczm/).
 
+<center>
+<img src="{{ site.imageurl }}/LedoitWolf/linkedin2.png" style="width:100%;"/>
+<figcaption>Recent photo of me, in front of Canton Tower in Guangzhou.</figcaption>
+</center>
