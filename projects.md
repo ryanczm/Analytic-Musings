@@ -4,20 +4,9 @@ title: Projects
 order: 2
 ---
 
-This is a list of paper replications (I started this in Dec 2023). The aim is to showcase to employers the interest and learn relevant skills/concepts in the field. In my case, _commodities, finance and data science_. Many papers use data from research databases or paywalled sources (e.g CRISPR/Compustat, Clarksons, LOBSTER) so we have to make do with trial/free data.
+This is a list of paper replications (I started this in Dec 2023). The aim is to showcase to employers the interest and learn relevant skills/concepts in the field. In my case, _commodities, finance and data science_. Many papers use data from research databases or paywalled sources so we have to make do with trial/free data.
 
-<!-- Papers are subject to _concept constraints_ and _data constraints_. If concepts are tough, it takes longer, but can still be done. However, if data is not available publicly (e.g CRISPR/Compustat, LOBSTER, Bloomberg, Clarksons), then we must make do.
-
-1. Pick a paper with good citations and by reputable, well-known figures in the field.
-2. Find out concept and data constraints. 
-3. Figure out what textbooks are needed.
-4. Figure out what data is used and how to get it. 
-5. Read the textbook(s)/materials with ChatGPT.
-6. Slowly piece together the paper, connecting the dots.
-7. Figure out how to replicate the code.
-8. Writeup.
- -->
-
+I understand there is _public knowledge_ (textbooks, papers) and _proprietary knowledge_ (accessible only by working in a firm using that knowledge). Obviously, the latter is not possible for me to cover. To get there, we need to be selected for the interview process (event 1), then pass it (event 2). So, I hope this website increases the probability of event 1 occuring. There isn't much point optimizing for event 2, given p(E2|E1=0)=0.
 ## Commodities
 
 
