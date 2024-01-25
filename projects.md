@@ -18,7 +18,7 @@ I understand there is _public knowledge_ (textbooks, papers) and _proprietary kn
 
 * ✅ (Risk) [_Honey I Shrunk the Sample Covariance Matrix_](https://analytic-musings.com/2023/12/30/honey-covariance/), Ledoit & Wolf 2000 _(1592)_
 * 🔲 (P Opt.) _60 Years of Portfolio Optimization: Practical Challenges and Current Trends_, Kolm, Tutuncu & Fabozzi 2013 _(661)_
-* 🔲 (Style) _Betting Against Beta_, Frazzini & Pedersen 2013 _(2632)_ (next)
+* 🔲 (Style) _Betting Against Beta_, Frazzini & Pedersen 2013 _(2632)_ __(next)__
 
 
 ## Fixed Income
