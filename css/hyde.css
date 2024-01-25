@@ -34,6 +34,7 @@
 
 html {
   font-family: "Crimson Text", Times, serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
   text-align: justify;
   font-display: swap;
 }
@@ -47,7 +48,7 @@ html {
 }
 @media (min-width: 58em) {
   html {
-    font-size: 20px;
+    font-size: 19px;
   }
 }
 
