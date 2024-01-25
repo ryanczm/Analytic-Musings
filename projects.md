@@ -21,15 +21,15 @@ This is a list of paper replications (I started this in Dec 2023). The aim is to
 ## Commodities
 
 
-* ✅ (Physical) [_Cost of Carry, Causality & Arbitrage between Oil Futures & Tanker Freight Markets_](https://analytic-musings.com/2024/01/06/transatlantic-WTI-arbitrage/), Alizadeh & Kavussanos, 2003 _(55)_
-* ✅ (Physical) [_Crude Oil Contango Arbitrage & Floating Storage_](https://analytic-musings.com/2024/01/07/floating-storage/), Regli, 2019 _(8)_
+* ✅ (Physical) [_Cost of Carry, Causality & Arbitrage between Oil Futures & Tanker Freight Markets_](https://analytic-musings.com/2023/12/25/transatlantic-WTI-arbitrage/), Alizadeh & Kavussanos, 2003 _(55)_
+* ✅ (Physical) [_Crude Oil Contango Arbitrage & Floating Storage_](https://analytic-musings.com/2023/12/28/floating-storage/), Regli, 2019 _(8)_
 * 🔲 (Power) _Architecture of Power Markets_, Wilson, 2003 _(823)_
 
 ## Equities
 
 * ✅ (Risk) [_Honey I Shrunk the Sample Covariance Matrix_](https://analytic-musings.com/2023/12/30/honey-covariance/), Ledoit & Wolf 2000 _(1592)_
 * 🔲 (P Opt.) _60 Years of Portfolio Optimization: Practical Challenges and Current Trends_, Kolm, Tutuncu & Fabozzi 2013 _(661)_
-* 🔲 (Style) _Betting Against Beta_, Frazzini & Pedersen 2013 _(2632)_
+* 🔲 (Style) _Betting Against Beta_, Frazzini & Pedersen 2013 _(2632)_ (next)
 
 
 ## Fixed Income
@@ -38,7 +38,7 @@ This is a list of paper replications (I started this in Dec 2023). The aim is to
 
 ## HFT
 
-* 🔲 _High Frequency Trading in a Limit Order Book_, Avellaneda & Stoikov 2006 _(552)_
+* 🔲 [_High Frequency Trading in a Limit Order Book_](https://analytic-musings.com/2024/01/22/hft-in-lob/), Avellaneda & Stoikov 2006 _(552)_
 
 
 
