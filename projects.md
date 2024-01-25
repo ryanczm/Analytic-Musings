@@ -27,7 +27,7 @@ I understand there is _public knowledge_ (textbooks, papers) and _proprietary kn
 
 ## HFT
 
-* 🔲 [_High Frequency Trading in a Limit Order Book_](https://analytic-musings.com/2024/01/22/hft-in-lob/), Avellaneda & Stoikov 2006 _(552)_
+* ✅ [_High Frequency Trading in a Limit Order Book_](https://analytic-musings.com/2024/01/22/hft-in-lob/), Avellaneda & Stoikov 2006 _(552)_
 
 
 
