@@ -13,7 +13,7 @@ _Regli, F., & Adland, R. (2019). Crude oil contango arbitrage and the Floating S
 
 
 <center>
-<img src="{{ site.imageurl }}/FloatingStorage/profits.png" style="width:55%;"/>
+<img src="{{ site.imageurl }}/FloatingStorage/linkedin.png" style="width:55%;"/>
 <!-- <figcaption>Required reading.</figcaption> -->
 </center>
 
