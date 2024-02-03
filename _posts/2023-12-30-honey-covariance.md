@@ -149,7 +149,8 @@ Where $S$ is sample covariance and $F$ is a structured estimator: the sample con
 
 From my understanding, when  $P \gg N$, aka large number of stocks with a small rolling window, the sample covariance matrix $\hat{\Sigma}$ is singular. This relates to rank (denoted by $r$): $r(\textbf{X})=r(\textbf{X}^T)=r(\textbf{X}^T\textbf{X})$. Since $\textbf{X}$ is $n \times p$, it's rank is at most $\min(n,p)$ and so is $\textbf{X}^T\textbf{X}$. 
 
-Somehow, this is bad for the optimizer (I don't know enough about the internals to comment how this works) and so the weight vectors $\textbf{x}$ produced deviate from the alphas.
+If so, small eigenvalues will reduce the determinant size, and the inverse matrix will get scaled up. Given the portfolio weights vector has a closed form analytical solution involving the inverse, this would propagate the errors to the weights.
+
 
 To empirically verify this, we take the cosine similarity of $\alpha$ with $\textbf{x}$ over the months, for both sample and Ledoit-Wolf covariance matrices.
 
