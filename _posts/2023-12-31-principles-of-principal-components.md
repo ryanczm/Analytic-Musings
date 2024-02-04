@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Project: Principles of Principal Components"
+title: "Paper Replication: Principles of Principal Components"
 category: quant
 
 ---

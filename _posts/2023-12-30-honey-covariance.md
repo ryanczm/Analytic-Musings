@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Project: Honey I Shrunk the Sample Covariance Matrix"
+title: "Paper Replication: Honey I Shrunk the Sample Covariance Matrix"
 category: quant
 excerpt: "This post details a project based off  Wolf & Ledoit's -  Honey: I Shrunk the Sample Covariance Matrix (2003) paper, which showed how shrinking covariance matrices increases realized information ratios & decreases tracking error. I perform the same runs of optimization on US stock data from 2005-2022 using the SCM and Ledoit-Wolf estimators and plot ex-post IRs."
 ---
