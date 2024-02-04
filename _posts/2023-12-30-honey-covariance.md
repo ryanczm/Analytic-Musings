@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Paper Replication: Honey I Shrunk the Sample Covariance Matrix"
+title: "Project: Honey I Shrunk the Sample Covariance Matrix"
 category: quant
-excerpt: "In this post, I replicate Wolf & Ledoit's -  Honey: I Shrunk the Sample Covariance Matrix (2003) paper, which showed how shrinking covariance matrices increases realized information ratios & decreases tracking error. I perform the same runs of optimization on US stock data from 2005-2022 using the SCM and Ledoit-Wolf estimators and plot ex-post IRs."
+excerpt: "This post details a project based off  Wolf & Ledoit's -  Honey: I Shrunk the Sample Covariance Matrix (2003) paper, which showed how shrinking covariance matrices increases realized information ratios & decreases tracking error. I perform the same runs of optimization on US stock data from 2005-2022 using the SCM and Ledoit-Wolf estimators and plot ex-post IRs."
 ---
 
 
-In this post, I replicate Wolf & Ledoit's -  _Honey: I Shrunk the Sample Covariance Matrix (2003)_ paper, which showed how shrinking covariance matrices increases realized information ratios & decreases tracking error in active portfolio management then replicate the results on US stocks from 2005-2022.
+In this post, I outline my project based off Wolf & Ledoit's -  _Honey: I Shrunk the Sample Covariance Matrix (2003)_ paper, which showed how shrinking covariance matrices increases realized information ratios & decreases tracking error in active portfolio management then replicate the results on US stocks from 2005-2022.
 
 In this paper, Ledoit & Wolf generate monthly portfolios of different sizes on US stocks from 1983 with randomized excess return forecasts, using a shrunk covariance matrix and a sample covariance matrix, then plot the realized information ratio over different runs. 
 
