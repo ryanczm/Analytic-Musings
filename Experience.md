@@ -8,8 +8,13 @@ order: 3
     <div>
         <h3> Energy Analyst [at] General Index</h3>
         <p>
-        As an analyst, I was responsible for the daily price assessment process for middle (jet fuel, diesel) and heavy distillates (marine fuel). 
-        Using Python to automate data parsing and price assessments, I formulated assessment/market rules as a constraint programming/optimization problem, resulting in a more objective, algorithmic assessment process with significant time savings. 
+        As an analyst, I was responsible for the daily price assessment process for middle (jet fuel, diesel) and heavy distillates (marine fuel). I had to learn the fundamentals and technicals of these markets, the product specifications, the end-to-end process from extraction, transporting to a refinery, then selling the distillate and the specifications/mechanisms of the various contracts.
+        </p>
+        <p> 
+        Using Python to automate data parsing and price assessments, I formulated assessment/market rules as a constraint programming/optimization problem, resulting in a more objective, algorithmic assessment process with significant time savings. The data was bids, offers and trades from the Platts e-window or brokers & forward curves for benchmarks, for paper and physical contracts of various maturities. 
+        </p>
+        <p>
+        Previously, the assessment process was done in spreadsheets. These price assessments would serve as the basis for derivative contracts to be settled against (spot price of physical cargo).
         </p>
     </div>
 </div>
@@ -19,7 +24,7 @@ order: 3
     <div>
         <h3> Junior Data Scientist [at] UOB</h3>
         <p>
-        As a junior data scientist, I built Question-Answering (QA) systems for internal policy documents via the Retrieval Augmented Generation (RAG) LLM paradigm.
+        As a junior data scientist, I built Question-Answering (QA) systems for internal policy documents via the Retrieval Augmented Generation (RAG) LLM paradigm. Soon after, ChatGPT released custom GPTs.
         I also forecasted ATM usage/demand islandwide with econometrics and classical ML methods in order to optimize refills. 
         </p>
     </div>
@@ -30,7 +35,10 @@ order: 3
     <div>
         <h3> Data Science Intern [at] GIC</h3>
         <p>
-        As a data science intern, I created topic modelling/keyword extraction pipelines to extract investment themes from reports to assist portfolio managers in making investment decisions.
+        As a data science intern, I created topic modelling/keyword extraction pipelines to extract investment themes from reports to assist portfolio managers in making investment decisions. This was done with classical and deep learning techniques. 
+        </p>
+        <p>
+        I also created dashboards to track key performance and usage metrics of GIC's various databases to determine usage patterns.
         </p>
     </div>
 </div>
@@ -40,7 +48,13 @@ order: 3
     <div>
         <h3> Data Science Intern [at] Real Estate Analytics</h3>
         <p>
-         As a data science intern, I performed regression modelling to value residential properties, exploring impact of various features on property pricing. I also did classification to predict en bloc probabilities of various projects, and assisted in dashboarding via SQL queries to extract data/insights from various databases & schemas.
+        I interned at proptech firm called Real Estate Analytics (8PROP). This firm was a property analytics provide that provided residential property valuation and analytics services via web-app/API that real estate developers, agents and investors could subscribe to. 
+        </p>
+        <p>
+        The bread and butter of my internship was to tune the regression models that predicted property value which was the main product of the web app. This included tweaking the existing codebase, trying out different regression models, brainstorming and testing additional features against historical prices. I also used SQL for adhoc queries and extracting data.
+        </p>
+        <p>
+        Another interesting thing I did was to predict en-bloc probabilities. This is a feature of the local property market in Singapore where a developer buys out an existing plot of land with a property (usually an old one), demolishes it, pays the residents a compensation fee, and redevelops the land. This was done using clustering (en-bloc properties are similar in feature space). This is of interest to home-owners as buyouts are often profitable.
         </p>
     </div>
 </div>
