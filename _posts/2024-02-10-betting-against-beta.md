@@ -2,12 +2,12 @@
 layout: post
 title: "Paper Replication: Betting against Beta (Frazzini & Pedersen)"
 category: quant
-excerpt: "This post is a project based off Frazzini & Pedersen's 2006 paper, which demonstrates the Betting against Beta factor - a factor that is long low-beta and short high-beta stocks - to exploit the empirical flatness of the Capital Market Line. I reconstruct the BAB factors and do some basis analysis, learning introductory concepts in factor investing."
+excerpt: "This post is a project based off Frazzini & Pedersen's 2013 paper, which demonstrates the Betting against Beta factor - a factor that is long low-beta and short high-beta stocks - to exploit the empirical flatness of the Capital Market Line. I reconstruct the BAB factors and do some basis analysis, learning introductory concepts in factor investing."
 
 ---
 
 
-This post is a project based off Frazzini & Pedersen's 2006 paper, which demonstrates the Betting against Beta factor - a factor that is long low-beta and short high-beta stocks - to exploit the empirical flatness of the Capital Market Line. I reconstruct the BAB factors and do some basic analysis, learning introductory concepts in factor investing. The code is  [here](https://github.com/ryanczm/Betting-Against-Beta).
+This post is a project based off Frazzini & Pedersen's 2013 paper, which demonstrates the Betting against Beta factor - a factor that is long low-beta and short high-beta stocks - to exploit the empirical flatness of the Capital Market Line. I reconstruct the BAB factors and do some basic analysis, learning introductory concepts in factor investing. The code is  [here](https://github.com/ryanczm/Betting-Against-Beta).
 
 To be honest, it is difficult to do anything innovate over what the paper has already covered, and I think I have enough confidence to turn to trading projects already.
 
