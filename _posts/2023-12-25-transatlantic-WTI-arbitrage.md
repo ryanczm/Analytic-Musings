@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cost of Carry & Arbitrage in Oil Futures & Freight Markets (Alizadeh)"
+title: "Paper Replication: Cost of Carry & Arbitrage in Oil Futures & Freight Markets"
 category: commodities
 
 ---

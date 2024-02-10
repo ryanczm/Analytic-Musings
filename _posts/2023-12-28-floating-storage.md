@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Crude Oil Contango Arbitrage & the Floating Storage Decision (Regli)"
+title: "Paper Replication: Crude Oil Contango Arbitrage & Floating Storage"
 category: commodities
 
 ---

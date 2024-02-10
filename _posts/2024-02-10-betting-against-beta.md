@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Paper Replication: Betting against Beta (Frazzini & Pedersen)"
+title: "Paper Replication: Betting against Beta"
 category: quant
 excerpt: "This post is a project based off Frazzini & Pedersen's 2013 paper, which demonstrates the Betting against Beta factor - a factor that is long low-beta and short high-beta stocks - to exploit the empirical flatness of the Capital Market Line, and constrained investors bidding up high beta stocks. I reconstruct the BAB factors and do some basic analysis, learning introductory concepts in factor investing."
 
