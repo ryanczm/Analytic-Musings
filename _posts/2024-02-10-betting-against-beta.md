@@ -14,6 +14,7 @@ To be honest, it is difficult to do anything innovate over what the paper has al
 
 <center>
 <img src="{{ site.imageurl }}/BAB/0.png" style="width:105%;"/>
+<figcaption>Left: BAB vs FF5 factor returns. Right: Theoretical vs Observed CML.</figcaption>
 </center>
 
 # Paper Overview
@@ -38,6 +39,7 @@ First off, Novy-Marx states that this paper built upon Black's 1972 argument tha
 
 <center>
 <img src="{{ site.imageurl }}/BAB/1.png" style="width:80%;"/>
+<figcaption>Theoretical vs Observed CML.</figcaption>
 </center>
 
 
@@ -50,6 +52,7 @@ Rather than estimating $\beta$ via a regression directly, FP use the rolling 5Y 
 Then, a low-beta and high-beta portfolio are constructed. The betas are ranked cross-sectionally and a long-short portfolio is formed with stocks above and below median beta with the formula given by Novy-Marx.
 <center>
 <img src="{{ site.imageurl }}/BAB/2.png" style="width:80%;"/>
+<figcaption>BAB portfolio rank-weights.</figcaption>
 </center>
 
 In other words, rank-weights are formed, taking the ranked distance from median rank divided by the sum of ranked distances. The weights are normalized via leverage by dividing the return or weights by the total portfolio beta at that point in time.
@@ -62,6 +65,7 @@ So, the long portfolio is overleveraged by a factor of $\sim 1/0.8\approx 1.25$ 
 <center>
     <div style="display: flex; justify-content: center;">
         <img src="{{ site.imageurl }}/BAB/3.png" style="margin-right: 5px; width:50%">
+        <figcaption></figcaption>
         <img src="{{ site.imageurl }}/BAB/4.png" style="width:50%">
     </div>
 </center>
@@ -134,12 +138,19 @@ Does this imply that low beta stocks have higher operating profit and and invest
 
 <center>
     <img src="{{ site.imageurl }}/BAB/6.png" style="width:75%">
+    <figcaption>Returns of BAB and FF5 factor model.</figcaption>
 </center>
 
 Given the rank-weights are adjusted via leverage to make BAB have zero beta, it should have a fairly flat slope when regressed against market returns, which checks out.
 
 <center>
 <img src="{{ site.imageurl }}/BAB/7.png" style="width:75%">
+<figcaption>BAB vs Market returns scatterplot.</figcaption>
+</center>
+
+<center>
+<img src="{{ site.imageurl }}/BAB/7b.png" style="width:75%">
+<figcaption>Correlations between Factor Returns.</figcaption>
 </center>
 
 # Overweight in Small Cap Stocks
