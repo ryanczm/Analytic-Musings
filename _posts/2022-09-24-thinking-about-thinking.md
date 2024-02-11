@@ -65,8 +65,8 @@ So, let's try to find the right words to express the _things_ and their _links_.
 
 # Semideterministic Framework
 
-<p>For semi-deterministic fields, the thing is <i>computation</i>. This takes some input and produces some output. To <i>link</i> computations, we pass in outputs from one as input to another.</p>
-<p>The difference is, the thing (computations) can be broken down recursively into more things (computations) in a top-down manner. Unlike in deterministic fields, where things are atomic.</p>
+<p>For semi-deterministic fields, the thing is <i>information</i>. The connection <i>computation</i>. To <i>link</i> computations, we take information, send it to a computation, get new information, then send it through another computation, so on and so forth.</p>
+<p>The difference is, these things/connections (information/connection) can be broken down recursively into more things in a top-down manner. Unlike in deterministic fields, where things are atomic.</p>
 
 <blockquote>
 Input → system (computation) → output. This is my core paradigm for understanding anything.
