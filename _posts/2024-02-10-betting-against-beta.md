@@ -43,7 +43,7 @@ First off, Novy-Marx states that this paper built upon Black's 1972 argument tha
 </center>
 
 
-As expected, the $R^2$ is low implying a flat naive line (predicting $\mu$) would be almost an equally good fit. I then calculate the betas according to FP's methodology:
+As expected, the $R^2$ is low implying a flat naive line (predicting $\mu$) would be almost an equally good fit. I then calculate the betas according to FP's methodology: using the fact that the beta (slope of line of best fit) of a regression is the correlation of two series, scaled by the ratio of their volatilities:
 
 $$\hat{\beta}^{ts}_{i}=\hat{\rho}\frac{\hat{\sigma}_i}{\hat{\sigma}_m}$$
 
