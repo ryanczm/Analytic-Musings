@@ -27,7 +27,7 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
 
 # Sources (Populate)
 
-### Macrocephalopod
+## Macrocephalopod
 
 * Twitter
     * [$TRB trading story](https://twitter.com/macrocephalopod/status/1741822159935185308) (Jan '24)
@@ -47,7 +47,7 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
 
 
 
-### RobotJames
+## RobotJames
 
 * Twitter
     * [VIX commentary](https://twitter.com/therobotjames/status/1756812150084157805) (Feb '24)
@@ -68,7 +68,7 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
     * [Basics of edge extraction](https://www.youtube.com/watch?v=iDxMhUxnXsg&t=5221s&ab_channel=RobotWealth) (Nov '22)
 
 
-### Corey Hoffstein
+## Corey Hoffstein
 
 * Twitter
     * [Binary vs Continuous Signal: Cocoa Futures](https://twitter.com/choffstein/status/1755982427720126771) (Feb '24)
@@ -100,20 +100,20 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
 
 
 
-### El Python Quantador
+## El Python Quantador
 
 * Twitter
     * [Tweaking a signal](https://twitter.com/ThePythonQuant/status/1752750066652123167) (Feb '24)
     * [Comparing hypothetical strategy with vol](https://twitter.com/ThePythonQuant/status/1744495480493502613) (Jan '24)
     * [How to scale “things” under what a distribution ”might” look like](https://twitter.com/ThePythonQuant/status/1608607521278918662) (Dec '22)
 
-### QuantyMacro
+## QuantyMacro
 
 * Blog
     * [All my homies hate LASSO](https://www.quantymacro.com/all-my-homies-hate-lasso/) (Feb '24)
     * [Combining positions or signals](https://www.quantymacro.com/combinepositionsorsignals2/) (Jan '24)
 
-### Robert Martin
+## Robert Martin
 
 * Twitter
     * [Given a fixed expected value, what hit rate to choose for betting?](https://twitter.com/robertmartin88/status/1566097258805854215) (Sep '22)
@@ -125,7 +125,7 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
     * [Hypothesis testing in quant finance](https://reasonabledeviations.com/2021/06/17/hypothesis-testing-quant/)(Jun '21)
 
 
-### Picotrades
+## Picotrades
 
 * Twitter
     * [Jr Quant ML interview question](https://twitter.com/picotrades/status/1688939629867577344) (Aug '23)
@@ -134,18 +134,18 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
     * [Strategy with negative markouts](https://twitter.com/picotrades/status/1675778268320989185) (Jul '23)
 
 
-### Andrew Mack
+## Andrew Mack
 
 * Twitter
     * [Predicting NFL games](https://twitter.com/Gingfacekillah/status/1327833028987654145) (Nov '20)
 
-# Bookdepth
+## Bookdepth
 
 * Twitter
     * [Relationship between MMs and retail brokerages](https://twitter.com/bookdepth/status/1443728950056919042) (Oct '21)
 
 
-# BeaverQuant
+## BeaverQuant
 
 * Twitter
     * [HFT signals for price prediction](https://twitter.com/idro___/status/1690343065859297280) (Aug '23)
