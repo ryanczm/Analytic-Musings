@@ -107,6 +107,19 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
     * [Comparing hypothetical strategy with vol](https://twitter.com/ThePythonQuant/status/1744495480493502613) (Jan '24)
     * [How to scale “things” under what a distribution ”might” look like](https://twitter.com/ThePythonQuant/status/1608607521278918662) (Dec '22)
 
+
+
+## Max Dama
+
+* Booklet
+    * Alpha
+    * Simulation
+    * Risk
+    * Execution
+    * Programming
+
+
+
 ## QuantyMacro
 
 * Blog
