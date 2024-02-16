@@ -27,6 +27,9 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
 
 # Sources (Populate)
 
+
+
+
 ## Macrocephalopod
 
 * Twitter
@@ -44,8 +47,6 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
     * [Quant reversion strategy](https://twitter.com/macrocephalopod/status/1370349076525514752) (Mar '21)
     * [Factor models](https://twitter.com/macrocephalopod/status/1356731277337108482) (Feb '21)
     * [BTC with SPX coupling](https://twitter.com/macrocephalopod/status/1656294685780975617) (Feb '21) 
-
-
 
 ## RobotJames
 
@@ -107,19 +108,6 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
     * [Comparing hypothetical strategy with vol](https://twitter.com/ThePythonQuant/status/1744495480493502613) (Jan '24)
     * [How to scale “things” under what a distribution ”might” look like](https://twitter.com/ThePythonQuant/status/1608607521278918662) (Dec '22)
 
-
-
-## Max Dama
-
-* Booklet
-    * Alpha
-    * Simulation
-    * Risk
-    * Execution
-    * Programming
-
-
-
 ## QuantyMacro
 
 * Blog
@@ -163,3 +151,21 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
 * Twitter
     * [HFT signals for price prediction](https://twitter.com/idro___/status/1690343065859297280) (Aug '23)
     * [Bigger trades more informed than smaller trades](https://twitter.com/idro___/status/1691739648937091371) (Aug '23)
+
+
+## Senior Powerpoint Engineer
+
+* Twitter
+    * [Regression thread](https://twitter.com/ryxcommar/status/1718432880831909939) (Oct '23)
+    * [Correlation & regression question](https://twitter.com/ryxcommar/status/1429879645156093967) (Aug '21)
+
+
+
+## Max Dama
+
+* Booklet
+    * Alpha
+    * Simulation
+    * Risk
+    * Execution
+    * Programming
