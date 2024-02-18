@@ -8,25 +8,33 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
 
 
 
-# Plan
+## Plan
 
 * Idea
     * QuantTwit contains a lot of alpha, wisdom by experienced quants.
     * I will scrape, manually, label, clean, whatever, then systematically go through them (need to decide how), learn, and write blogposts to internalize.
-* Plan:
-    * Search by media: look at all pictures.
+    * Twitter scrape all threads, label with keyword extraction/topic modelling, put in Dataframe
+    * Problem: Twitter API Basic plan is $100USD/month
+* New Plan:
+    * Search by media: look at all pictures, pick out quanty looking ones (basically plots)
     * Search by keyword: EWMA/EMA, Regression, Correlation, Covariance, Filter, Signal, Noise/noisy, Sharpe, Alpha, Scatter, Predict, Adverse Selection, Inference, Statistical, Volatility
-* Labels
+* Label (TODO)
     * Subcategory/topic
-    * Difficulty: * < ** < ***
-    * Alpha level/importance: * < ** < ***
-    * Analysis: put in dataframe and do some data cleaning.
-* Post Ideation 
-    * Try and connect or ideate if we can build a post off it: wider context.
+        * General strategy
+        * Actual
+        * Domain-specific
+    * Difficulty: * | ** | ***
+    * Alpha level/density/importance: * | ** | ***
+* Post Ideation (TODO)
+    * Try and connect or ideate if we can build a post off it: wider context?
+* Order
+    * L1: Robotjames, ElPythonQuantador
+    * L2: Macrocephalopod, Corey Hoffstein 
+    * L3: QM, RM, Pico, BQ/BP
+    * L4: Dama 
 
 
-# Sources (Populate)
-
+## Sources (Populate)
 
 
 
@@ -40,13 +48,19 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
     * [Strategy naming](https://twitter.com/macrocephalopod/status/1746581174049251453) (Jan '24)
     * [EMA decomposition](https://twitter.com/macrocephalopod/status/1732097293686354262) (Dec '23)
     * [EMA breakdown](https://twitter.com/macrocephalopod/status/1731986693102633301) (Dec '23)
+    * [Forecast for basket into forecast for constituents](https://twitter.com/macrocephalopod/status/1647332293529452546) (Apr '23)
     * [11 days of backtest errors](https://twitter.com/macrocephalopod/status/1598823745681903616) (Dec '22)
     * [Trend following explained](https://twitter.com/macrocephalopod/status/1587591578331250691) (Nov '22)
+    * [Trading that amateur traders seem to care alot but ignored/trivial by practictioners](https://twitter.com/macrocephalopod/status/1529771509639786496) (May '22)
     * [Discrete vs Continuous Trading](https://twitter.com/macrocephalopod/status/1535386885408833536) (Jun '22)
+    * [(Portfolio) Optimization in finance, gap between non-experts & practitioners](https://twitter.com/macrocephalopod/status/1459525032128954369) (Nov '21)
     * [Non-overlapping periods](https://twitter.com/macrocephalopod/status/1460308963845677057) (Nov '21)
+    * [Zillow adverse selection](https://twitter.com/macrocephalopod/status/1455887352371597312) (Nov' 21)
     * [Quant reversion strategy](https://twitter.com/macrocephalopod/status/1370349076525514752) (Mar '21)
+    * [Momentum as a risk factor](https://twitter.com/macrocephalopod/status/1369418204263706626) (Mar '21)
     * [Factor models](https://twitter.com/macrocephalopod/status/1356731277337108482) (Feb '21)
     * [BTC with SPX coupling](https://twitter.com/macrocephalopod/status/1656294685780975617) (Feb '21) 
+
 
 ## RobotJames
 
@@ -72,6 +86,7 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
 ## Corey Hoffstein
 
 * Twitter
+    * [Jensen's Inequality in Portfolio Construction](https://twitter.com/choffstein/status/1453375458574229510) (Oct '21)
     * [Binary vs Continuous Signal: Cocoa Futures](https://twitter.com/choffstein/status/1755982427720126771) (Feb '24)
     * [Paper link: correlation between assets & portfolio risk](https://twitter.com/choffstein/status/1752040834361393430/photo/1) (Feb '24)
     * [Paper link: Quantica trend following breakdonw](https://twitter.com/choffstein/status/1750604861073142219) (Feb '24)
@@ -113,6 +128,8 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
 * Blog
     * [All my homies hate LASSO](https://www.quantymacro.com/all-my-homies-hate-lasso/) (Feb '24)
     * [Combining positions or signals](https://www.quantymacro.com/combinepositionsorsignals2/) (Jan '24)
+    * [FX Eurodollar dominance strategy](https://www.quantymacro.com/fx-euro-dollar-dominance/) (Mar '23)
+    * [FX European commodities mean reversion strategy](https://www.quantymacro.com/fx-european-commodities-mean-reversion/) (Mar '23)
 
 ## Robert Martin
 
@@ -169,3 +186,13 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
     * Risk
     * Execution
     * Programming
+
+## Barra Handbook
+
+* Booklet (Factor Modelling)
+    * Multiple-factor models
+    * Equity risk
+    * Fixed income risk
+    * Interest rate risk
+    * Specific risk
+    * Currency risk
