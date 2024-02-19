@@ -23,8 +23,8 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
         * General strategy
         * Actual
         * Domain-specific
-    * Difficulty: * | ** | ***
-    * Alpha level/density/importance: * | ** | ***
+    * Difficulty
+    * Content
 * Post Ideation (TODO)
     * Try and connect or ideate if we can build a post off it: wider context?
 * Order
