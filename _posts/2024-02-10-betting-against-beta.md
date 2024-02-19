@@ -23,7 +23,7 @@ The paper is based on the quantifying the behavior of certain investors: leverag
 
 Another paper by Novy-Marx called _Betting against Betting against Beta_ in 2016 then explained the profitability of BAB was inflated due to the fact the BAB factor portfolios overweight micro and nano-weighted stocks significantly (due to the construction methodology) - which are difficult to trade, and hence very large transaction costs should reduce profitability.
 
-
+---
 # Factors and Exposures
 
 First, I had to gain some intuition on what these mysterious factors were. From my understanding, a factor is a time series, that is associated with a particular characteristic (a driver of return). These can be constructed in a variety of ways. Given a stock, there exists a loading or exposure that _couples_ the stock to that factor. Then, depending on what factors chosen, a stock's returns can be expressed as the factor returns and their couplings. This extends to a portfolio.
@@ -32,7 +32,7 @@ First, I had to gain some intuition on what these mysterious factors were. From 
 
 From my understanding, given these factors, one can then rebalance/construct portfolios to control the factor exposures: to reduce (risk) or increase (return) exposure to certain factors based on certain investment objectives, using lots of linear algebra and optimization.
 
-
+---
 # Constructing the BAB Factor
 
 First off, Novy-Marx states that this paper built upon Black's 1972 argument that the capital market line was too flat: empirically, stocks have lower returns than the CAPM suggests. Using returns and beta estimated from 2005-2023:
@@ -74,7 +74,7 @@ So, the long portfolio is overleveraged by a factor of $\sim 1/0.8\approx 1.25$ 
 Again, because I did not have access to historical index constituents, I use the S&P 'survivors' (never left the index) from 2005. Of course, survivorship bias inflates performance. I also tried to replicate the value-weighted (market cap) BAB factor as per Novy-Marx.
 
 
-```Python
+```python
 # function to calculate rolling betas 
 def calc_fp_betas(stock_returns, market_returns):
     """apply, column wise"""
@@ -112,7 +112,7 @@ def process_ranked_beta_row(row):
     return rank_minus_median
 ```
 
-
+---
 # Performance vs Fama-French 5 Factor Model
 
 My objective was to implement the factor construction methodology in code, and having done that, from now on, I switch back to the original BAB factor provided by AQR. 
@@ -153,6 +153,8 @@ Given the rank-weights are adjusted via leverage to make BAB have zero beta, it 
 <figcaption>Correlations between Factor Returns.</figcaption>
 </center>
 
+
+---
 # Overweight in Small Cap Stocks
 
 Novy-Marx explains that the returns are unrealistic as the factor overweights small cap stocks. Using my own S&P BAB, and a scraped market capitalization turnover dataframe from [companiesmarketcap.com](https://companiesmarketcap.com), we can take the total turnover, per market cap decile:
@@ -167,7 +169,7 @@ Novy-Marx explains that the returns are unrealistic as the factor overweights sm
 
 While this looks even, plotting the decile breakpoints shows how much BAB trades in small cap stocks. As per Novy-Marx, there is significant overweight in the lower decile sized stocks which would incur large transaction costs. To adjust for this, they suggest a value-weighted BAB factor.
 
-
+---
 # Seasonality
 
 I then explore some seasonality patterns by looking at the monthly Sharpe. For whatever reason, there seems to be a strong performance during the midyear period and the first and last months.
@@ -178,6 +180,7 @@ I then explore some seasonality patterns by looking at the monthly Sharpe. For w
     </div>
 </center>
 
+---
 # Relation to Funding Constraints via TED Spread    
 
 Lastly, the TED spread is the spread of the 3M Treasury bill and the 3M LIBOR. While it has been discontinued, my understanding is that LIBOR represents the rate banks lend to each other. So a high TED spread indicates banks charge higher rates, which occurs when they expect greater level of risk and want to be compensated fairly. I run a regression on the lagged spread and we see that there is a slightly negative coefficient.
@@ -191,6 +194,7 @@ Lastly, the TED spread is the spread of the 3M Treasury bill and the 3M LIBOR. W
 
 The authors argue that in times of credit risk, constrained investors (e.g pension funds, mutual funds) have less leverage to use. Thus, the extent to which the behavioural pattern occurs (bidding up high beta stocks) is less, and the BAB effect is reduced, leading to a lower return.
 
+---
 # Conclusion
 
 In conclusion, this is just a quick post for me to get some basic exposure to what factors are. But of course, given all these factors, how are they utilized in an investment strategy? This is something I have yet to learn.
