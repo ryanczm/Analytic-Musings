@@ -133,14 +133,19 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
 
 ## Robert Martin
 
+
 * Twitter
     * [Given a fixed expected value, what hit rate to choose for betting?](https://twitter.com/robertmartin88/status/1566097258805854215) (Sep '22)
     * [Option smiles modelling](https://twitter.com/robertmartin88/status/1532433672162398218) (Jun '22) 
     * [Altcoin beta](https://twitter.com/robertmartin88/status/1461078662233608196) (Nov '21)
     * [Combining signals](https://twitter.com/macrocephalopod/status/1459166928816287751) (Nov '21)
     * [Testing signals/strats on random data](https://twitter.com/robertmartin88/status/1388203875597967361) (May '21)
+
 * Blog
+    * [Probability matching and Kelly betting](https://reasonabledeviations.com/2022/01/10/probability-matching-kelly/) (Jan '22)
     * [Hypothesis testing in quant finance](https://reasonabledeviations.com/2021/06/17/hypothesis-testing-quant/)(Jun '21)
+    * [Greenblatt's Magic Formula](https://reasonabledeviations.com/2020/06/08/greenblatt-magic-formula/) (Jun '20)
+    * [Stat arb in closed end funds](https://reasonabledeviations.com/2020/05/10/stat-arb-cefs/) (May '20)
 
 
 ## Picotrades
