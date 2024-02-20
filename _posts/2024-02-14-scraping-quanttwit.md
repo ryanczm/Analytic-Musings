@@ -68,16 +68,16 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
     * [VIX commentary](https://twitter.com/therobotjames/status/1756812150084157805) (Feb '24)
     * [What is a Signal?](https://twitter.com/therobotjames/status/1678290394310934529) (Jul '23)
     * [Log returns intuition](https://twitter.com/therobotjames/status/1678259655842344960) (Jul '23)
-    * [Artifical data sampling effect](https://twitter.com/therobotjames/status/1671015119575461889) (Jun '23)
-    * [Treasury note returns analysis](https://twitter.com/therobotjames/status/1663784977279115265) (May '23)
     * [How to make money trading](https://twitter.com/therobotjames/status/1638292311435034624) (Mar '23)
-    * [Equity risk premium timing](https://twitter.com/therobotjames/status/1620331269958815745) (Jan '23)
-    * [Scatterplot diagnosis: PE and forward returns](https://twitter.com/therobotjames/status/1460313659381407746) (Nov '21)
     * [Analysing predictive signals](https://twitter.com/therobotjames/status/1332131740580683776) (Nov' 20)
     * [How HFT works](https://twitter.com/therobotjames/status/1513851852953354240) (Apr '22)
     * [Option pricing for degenerate gamblers](https://twitter.com/therobotjames/status/1444832778768379904) (Oct '21)
 * Robotwealth Blog
-    * [Crypto Stat Arb Series](https://robotwealth.com/quantifying-and-combining-crypto-alphas/) (Feb '24)
+    * [Stat Arb Series - Modeling features as expected returns](https://robotwealth.com/how-to-model-features-as-expected-returns/) (Feb '24)
+    * [Stat Arb Series - Reducing turnover](https://robotwealth.com/a-simple-effective-way-to-manage-turnover-and-not-get-killed-by-costs/) (Feb '24)
+    * [Stat Arb Series - Quantifying and Combining Crypto Alphas](https://robotwealth.com/quantifying-and-combining-crypto-alphas/) (Feb '24)
+    * [Stat Arb Series - Braintstorming crypto stat arb features](https://robotwealth.com/quantifying-and-combining-crypto-alphas/) (Feb '24)
+
 * RobotJames YouTube  
     * [Data analysis for traders](https://www.youtube.com/watch?v=Nbq5eyVk-0w&t=4288s&ab_channel=RobotWealth) (Dec '22)
     * [Basics of edge extraction](https://www.youtube.com/watch?v=iDxMhUxnXsg&t=5221s&ab_channel=RobotWealth) (Nov '22)
