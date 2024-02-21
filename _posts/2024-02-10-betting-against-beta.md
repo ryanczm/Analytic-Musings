@@ -153,6 +153,30 @@ Given the rank-weights are adjusted via leverage to make BAB have zero beta, it 
 <figcaption>Correlations between Factor Returns.</figcaption>
 </center>
 
+----
+# Factor Performance
+
+Given what I learned in RobotJames' tweet thread ["What is a Signal?"](https://twitter.com/therobotjames/status/1678290394310934529), we can bucket the factor into deciles, then see how each decile performs via _factor plots_.
+
+So, we take our original calculated betas, assign them their decile ranks, and calculate their mean (vol-normalized), 1 month forward return (since higher beta stocks have higher volatility). Then we z-score across deciles. 
+
+<center>
+<img src="{{ site.imageurl }}/BAB/6c.png" style="width:85%">
+<!-- <figcaption>Correlations between Factor Returns.</figcaption> -->
+</center>
+
+Interestingly, the effect is linear only after the 4th decile. An interesting anomaly, but probably due to the biased stock universe of S&P survivors due to data limitations. But otherwise, it does show low beta stocks have higher risk-adjusted returns in general and the factor effect.
+
+Now we can look at how the signal _decays_ by plotting the information coefficient for different forward return forecast periods. This should be fairly robust and decay slowly (a priori). The IC is the correlation of the signal with the forward return, in this case, beta. Since correlation is scale and shift invariant, we don't need to scale it.
+
+<center>
+<img src="{{ site.imageurl }}/BAB/6d.png" style="width:85%">
+<!-- <figcaption>Correlations between Factor Returns.</figcaption> -->
+</center>
+
+We do so and somehow: the IC goes up to a peak of 5 months, then drops down. So it turns out the beta factor has the most predictive power predicting 5 month forward returns! Why? I have no idea ... (from that tweet, I've only seen decays that look like exponential distributions).
+
+
 
 ---
 # Overweight in Small Cap Stocks
