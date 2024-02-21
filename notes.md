@@ -109,8 +109,8 @@ order: 4
 * Content
     * Ideas for Crypto Stat Arb Features - Brainstorms crypto stat arb features on crypto perpetual futures. Momo (xs), carry (xs), breakout (ts).
     * Quantifying and Combining Crypto Alphas - Creates signals, evaluates how good they are (IC, quantile plots, decay). Decides on weighting scheme.
-    * A Simple, Effective Way to Manage Turnover - Backtests the strategy (daily rebalance), performance, then uses Cephalopod's trade buffer tweet to bring down turnover rates.
-    * How to Model Features as Expected Returns - Does some pretty complex stuff, but runs rolling regressions on signals to get coefficients (?).
+    * A Simple, Effective Way to Manage Turnover - Backtests the strategy, performance, then uses Cephalopod's trade buffer tweet to bring down turnover rates. (⚠️ How are signals translated to weights? E.g daily carry/momentum decile rank)
+    * How to Model Features as Expected Returns - Does some pretty complex stuff, but runs rolling regressions on signals to get coefficients (⚠️ How are signals translated to weights? E.g daily carry/momentum decile rank)
 
 #### Tweaking signals
 
