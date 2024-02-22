@@ -7,25 +7,14 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
 ---
 
 
-
 ## Plan
 
 * Idea
     * QuantTwit contains a lot of alpha, wisdom by experienced quants.
     * I will scrape, manually, label, clean, whatever, then systematically go through them (need to decide how), learn, and write blogposts to internalize.
-    * Twitter scrape all threads, label with keyword extraction/topic modelling, put in Dataframe
-    * Problem: Twitter API Basic plan is $100USD/month
-* New Plan:
     * Search by media: look at all pictures, pick out quanty looking ones (basically plots)
-    * Search by keyword: EWMA/EMA, Regression, Correlation, Covariance, Filter, Signal, Noise/noisy, Sharpe, Alpha, Scatter, Predict, Adverse Selection, Inference, Statistical, Volatility
-* Label (TODO)
-    * Subcategory/topic
-        * General strategy
-        * Actual
-        * Domain-specific
-    * Difficulty
-    * Content
-* Post Ideation (TODO)
+    * Search by keyword: EWMA/EMA, Regression, Correlation, Covariance, Filter, Signal, Noise/noisy, Sharpe, Alpha, Scatter, Predict, Adverse Selection, Inference, Statistical, Vol
+* Post Ideation
     * Try and connect or ideate if we can build a post off it: wider context?
 * Order
     * L1: Robotjames, ElPythonQuantador
@@ -33,10 +22,7 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
     * L3: QM, RM, Pico, BQ/BP
     * L4: Dama 
 
-
-## Sources (Populate)
-
-
+---
 
 ## Macrocephalopod
 
@@ -45,32 +31,34 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
     * [Short volatility](https://twitter.com/macrocephalopod/status/1747672425586655541) (Jan '24)
     * [Ridge regression tricks](https://twitter.com/macrocephalopod/status/1745040541371322668) (Jan '24)
     * [Trend crossover trick](https://twitter.com/macrocephalopod/status/1750111877265322470) (Jan '24)
-    * [Strategy naming](https://twitter.com/macrocephalopod/status/1746581174049251453) (Jan '24)
+    * [Strategy naming](https://twitter.com/macrocephalopod/status/1746581174049251453) (Jan '24) ✅
     * [EMA decomposition](https://twitter.com/macrocephalopod/status/1732097293686354262) (Dec '23)
     * [EMA breakdown](https://twitter.com/macrocephalopod/status/1731986693102633301) (Dec '23)
     * [Forecast for basket into forecast for constituents](https://twitter.com/macrocephalopod/status/1647332293529452546) (Apr '23)
     * [11 days of backtest errors](https://twitter.com/macrocephalopod/status/1598823745681903616) (Dec '22)
-    * [Trend following explained](https://twitter.com/macrocephalopod/status/1587591578331250691) (Nov '22)
-    * [Trading that amateur traders seem to care alot but ignored/trivial by practictioners](https://twitter.com/macrocephalopod/status/1529771509639786496) (May '22)
-    * [Discrete vs Continuous Trading](https://twitter.com/macrocephalopod/status/1535386885408833536) (Jun '22)
-    * [(Portfolio) Optimization in finance, gap between non-experts & practitioners](https://twitter.com/macrocephalopod/status/1459525032128954369) (Nov '21)
-    * [Non-overlapping periods](https://twitter.com/macrocephalopod/status/1460308963845677057) (Nov '21)
-    * [Zillow adverse selection](https://twitter.com/macrocephalopod/status/1455887352371597312) (Nov' 21)
-    * [Quant reversion strategy](https://twitter.com/macrocephalopod/status/1370349076525514752) (Mar '21)
-    * [Momentum as a risk factor](https://twitter.com/macrocephalopod/status/1369418204263706626) (Mar '21)
+    * [Trend following explained](https://twitter.com/macrocephalopod/status/1587591578331250691) (Nov '22) ✅
+    * [Trading that amateur traders care about but practitioners disregard](https://twitter.com/macrocephalopod/status/1529771509639786496) (May '22) ✅
+    * [Discrete vs Continuous Trading](https://twitter.com/macrocephalopod/status/1535386885408833536) (Jun '22) ✅
+    * [(Portfolio) Optimization in finance, gap between non-experts & practitioners](https://twitter.com/macrocephalopod/status/1459525032128954369) (Nov '21) ✅
+    * [Non-overlapping periods](https://twitter.com/macrocephalopod/status/1460308963845677057) (Nov '21) ✅
+    * [Zillow adverse selection](https://twitter.com/macrocephalopod/status/1455887352371597312) (Nov' 21) ✅
+    * [Reducing turnover with trading buffer](https://twitter.com/macrocephalopod/status/1373236950728052736) (Mar '21) ✅
+    * [Quant reversion strategy](https://twitter.com/macrocephalopod/status/1370349076525514752) (Mar '21) ✅
+    * [Momentum as a risk factor](https://twitter.com/macrocephalopod/status/1369418204263706626) (Mar '21) 
     * [Factor models](https://twitter.com/macrocephalopod/status/1356731277337108482) (Feb '21)
-    * [BTC with SPX coupling](https://twitter.com/macrocephalopod/status/1656294685780975617) (Feb '21) 
+    * [BTC with SPX coupling](https://twitter.com/macrocephalopod/status/1656294685780975617) (Feb '21) ✅
 
 
 ## RobotJames
 
 * Twitter
     * [VIX commentary](https://twitter.com/therobotjames/status/1756812150084157805) (Feb '24)
-    * [What is a Signal?](https://twitter.com/therobotjames/status/1678290394310934529) (Jul '23)
-    * [Log returns intuition](https://twitter.com/therobotjames/status/1678259655842344960) (Jul '23)
-    * [How to make money trading](https://twitter.com/therobotjames/status/1638292311435034624) (Mar '23)
-    * [Analysing predictive signals](https://twitter.com/therobotjames/status/1332131740580683776) (Nov' 20)
-    * [How HFT works](https://twitter.com/therobotjames/status/1513851852953354240) (Apr '22)
+    * [What is a Signal?](https://twitter.com/therobotjames/status/1678290394310934529) (Jul '23) ✅ 
+    * [Log returns intuition](https://twitter.com/therobotjames/status/1678259655842344960) (Jul '23) ✅
+    * [Artifical data sampling effect](https://twitter.com/therobotjames/status/1671015119575461889) (Jun '23) ✅
+    * [How to make money trading](https://twitter.com/therobotjames/status/1638292311435034624) (Mar '23) ✅
+    * [Analysing predictive signals](https://twitter.com/therobotjames/status/1332131740580683776) (Nov' 20) ✅
+    * [How HFT works](https://twitter.com/therobotjames/status/1513851852953354240) (Apr '22) ✅
     * [Option pricing for degenerate gamblers](https://twitter.com/therobotjames/status/1444832778768379904) (Oct '21)
 * Robotwealth Blog
     * [Stat Arb Series - Modeling features as expected returns](https://robotwealth.com/how-to-model-features-as-expected-returns/) (Feb '24)
@@ -79,8 +67,8 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
     * [Stat Arb Series - Braintstorming crypto stat arb features](https://robotwealth.com/quantifying-and-combining-crypto-alphas/) (Feb '24)
 
 * RobotJames YouTube  
-    * [Data analysis for traders](https://www.youtube.com/watch?v=Nbq5eyVk-0w&t=4288s&ab_channel=RobotWealth) (Dec '22)
-    * [Basics of edge extraction](https://www.youtube.com/watch?v=iDxMhUxnXsg&t=5221s&ab_channel=RobotWealth) (Nov '22)
+    * [Data analysis for traders](https://www.youtube.com/watch?v=Nbq5eyVk-0w&t=4288s&ab_channel=RobotWealth) (Dec '22) ✅
+    * [Basics of edge extraction](https://www.youtube.com/watch?v=iDxMhUxnXsg&t=5221s&ab_channel=RobotWealth) (Nov '22) ✅
 
 
 ## Corey Hoffstein
@@ -119,9 +107,9 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
 ## El Python Quantador
 
 * Twitter
-    * [Tweaking a signal](https://twitter.com/ThePythonQuant/status/1752750066652123167) (Feb '24)
-    * [Comparing hypothetical strategy with vol](https://twitter.com/ThePythonQuant/status/1744495480493502613) (Jan '24)
-    * [How to scale “things” under what a distribution ”might” look like](https://twitter.com/ThePythonQuant/status/1608607521278918662) (Dec '22)
+    * [Tweaking a signal](https://twitter.com/ThePythonQuant/status/1752750066652123167) (Feb '24) ✅
+    * [Comparing hypothetical strategy with vol](https://twitter.com/ThePythonQuant/status/1744495480493502613) (Jan '24) ✅
+    * [How to scale “things” under what a distribution ”might” look like](https://twitter.com/ThePythonQuant/status/1608607521278918662) (Dec '22) ✅
 
 ## QuantyMacro
 
@@ -132,7 +120,6 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
     * [FX European commodities mean reversion strategy](https://www.quantymacro.com/fx-european-commodities-mean-reversion/) (Mar '23)
 
 ## Robert Martin
-
 
 * Twitter
     * [Given a fixed expected value, what hit rate to choose for betting?](https://twitter.com/robertmartin88/status/1566097258805854215) (Sep '22)
@@ -146,6 +133,7 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
     * [Hypothesis testing in quant finance](https://reasonabledeviations.com/2021/06/17/hypothesis-testing-quant/)(Jun '21)
     * [Greenblatt's Magic Formula](https://reasonabledeviations.com/2020/06/08/greenblatt-magic-formula/) (Jun '20)
     * [Stat arb in closed end funds](https://reasonabledeviations.com/2020/05/10/stat-arb-cefs/) (May '20)
+
 
 
 ## Picotrades
