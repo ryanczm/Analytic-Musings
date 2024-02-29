@@ -7,22 +7,36 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
 ---
 
 
+
 ## Plan
 
 * Idea
     * QuantTwit contains a lot of alpha, wisdom by experienced quants.
     * I will scrape, manually, label, clean, whatever, then systematically go through them (need to decide how), learn, and write blogposts to internalize.
+    * Twitter scrape all threads, label with keyword extraction/topic modelling, put in Dataframe
+    * Problem: Twitter API Basic plan is $100USD/month
+* New Plan:
     * Search by media: look at all pictures, pick out quanty looking ones (basically plots)
-    * Search by keyword: EWMA/EMA, Regression, Correlation, Covariance, Filter, Signal, Noise/noisy, Sharpe, Alpha, Scatter, Predict, Adverse Selection, Inference, Statistical, Vol
-* Post Ideation
+    * Search by keyword: EWMA/EMA, Regression, Correlation, Covariance, Filter, Signal, Noise/noisy, Sharpe, Alpha, Scatter, Predict, Adverse Selection, Inference, Statistical, Volatility
+* Label (TODO)
+    * Subcategory/topic
+        * General strategy
+        * Actual
+        * Domain-specific
+    * Difficulty
+    * Content
+* Post Ideation (TODO)
     * Try and connect or ideate if we can build a post off it: wider context?
 * Order
-    * L1: Robotjames, ElPythonQuantador
-    * L2: Macrocephalopod, Corey Hoffstein 
+    * L1: RJ, EPQ
+    * L2: MC, CH, Kris
     * L3: QM, RM, Pico, BQ/BP
     * L4: Dama 
 
----
+
+## Sources (Populate)
+
+
 
 ## Macrocephalopod
 
@@ -103,7 +117,6 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
 * FWM Podcast
 
 
-
 ## El Python Quantador
 
 * Twitter
@@ -118,6 +131,35 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
     * [Combining positions or signals](https://www.quantymacro.com/combinepositionsorsignals2/) (Jan '24)
     * [FX Eurodollar dominance strategy](https://www.quantymacro.com/fx-euro-dollar-dominance/) (Mar '23)
     * [FX European commodities mean reversion strategy](https://www.quantymacro.com/fx-european-commodities-mean-reversion/) (Mar '23)
+
+## Kris Sidial
+
+* Blog (Moontower)
+    * [My Grandma is $24.05 bid](https://moontowermeta.com/my-grandma-is-24-05-bid-stop-embarrassing-yourself/) (Feb '24)
+    * [Getting Paid to Flip Million Dollar Coins](https://moontower.substack.com/p/getting-paid-to-flip-million-dollar) (Feb '24)
+    * [Thinking in N not T](https://moontower.substack.com/p/thinking-in-n-not-t) (Jan '24)
+    * [A Simple Demonstration of Return Vs Volatility](https://moontowermeta.com/a-simple-demonstration-of-return-vs-volatility/) (Oct '23)
+    * [Understanding Risk-Neutral Probability](https://moontowermeta.com/outline-of-the-risk-neutral-probability-lessons/) (Sep '23)
+    * [On Active Management and Private Investments](https://moontowermeta.com/on-active-management-and-private-investments/) (Sep '23)
+    * [Why Put Call Parity is Such a Deep Concept](https://moontower.substack.com/p/why-put-call-parity-is-such-a-deep) (Jul '23)
+    * [Expectation: Well What did You Expect?](https://moontowermeta.com/well-what-did-you-expect/) (Feb '23)
+    * [Understanding Implied Forwards](https://moontowermeta.com/understanding-implied-forwards/) (Jan '23)
+    * [Portfolio Theory In The Wild: Funding YouTube Creators](https://moontowermeta.com/portfolio-theory-in-the-wild-funding-youtube-creators/) (Nov '22)
+    * [Bet Sizing is Not Intuitive](https://moontowermeta.com/bet-sizing-is-not-intuitive/) (Sep '22)
+    * [Commodities As Risk Transfer Markets](https://moontowermeta.com/commodities-as-risk-transfer-markets/) (Aug '22)
+    * [The Gamma Of Levered ETFs](https://moontowermeta.com/the-gamma-of-levered-etfs/) (May '22)
+    * [What is Hedging](https://moontowermeta.com/if-you-make-money-every-day-youre-not-maximizing/) (Mar '22)
+    * [There's Gold in Them Tails](https://moontowermeta.com/theres-gold-in-them-thar-tails-part-1/) (Feb '22)
+    * [Jensen’s Inequality As An Intuition Tool](https://moontowermeta.com/jensens-inequality-as-an-intuition-tool/) (Sep '21)
+    * [The Widowmaker Trade](https://moontowermeta.com/what-the-widowmaker-can-teach-us-about-trade-prospecting-and-fools-gold/) (Oct '21)
+    * [Why Investing Feels Like Astrology](https://moontowermeta.com/why-investing-feels-like-astrology/) (May '21)
+    * [Understanding Edge](https://moontowermeta.com/understanding-edge/) (Apr '21)
+    * [Path: How Compounding Alters Return Distributions](https://moontowermeta.com/path-how-compounding-alters-return-distributions/) (Oct '20)
+    * [Straddles, Vol and Win Rates](https://moontowermeta.com/straddles-volatility-and-win-rates/) (Aug '20)
+    * [Where Does Convexity Come From?](https://moontowermeta.com/where-does-convexity-come-from/) (Jun '20)
+    * [You Can Mock Trade With A Deck Of Cards](https://moontowermeta.com/you-can-mock-trade-with-a-deck-of-cards/) (Jun '20)
+    * [Why You Don’t Get Paid For Diversifiable Risks](https://moontowermeta.com/why-you-dont-get-paid-for-diversifiable-risks/) (May '20)
+    * [How Tails Constrain Investment Allocations](https://moontowermeta.com/how-tails-constrain-investment-allocations/) (Feb' 20)
 
 ## Robert Martin
 
@@ -168,7 +210,6 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
 * Twitter
     * [Regression thread](https://twitter.com/ryxcommar/status/1718432880831909939) (Oct '23)
     * [Correlation & regression question](https://twitter.com/ryxcommar/status/1429879645156093967) (Aug '21)
-
 
 
 ## Max Dama
