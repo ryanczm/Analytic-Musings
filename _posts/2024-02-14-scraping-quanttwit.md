@@ -13,19 +13,9 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
 * Idea
     * QuantTwit contains a lot of alpha, wisdom by experienced quants.
     * I will scrape, manually, label, clean, whatever, then systematically go through them (need to decide how), learn, and write blogposts to internalize.
-    * Twitter scrape all threads, label with keyword extraction/topic modelling, put in Dataframe
-    * Problem: Twitter API Basic plan is $100USD/month
-* New Plan:
     * Search by media: look at all pictures, pick out quanty looking ones (basically plots)
     * Search by keyword: EWMA/EMA, Regression, Correlation, Covariance, Filter, Signal, Noise/noisy, Sharpe, Alpha, Scatter, Predict, Adverse Selection, Inference, Statistical, Volatility
-* Label (TODO)
-    * Subcategory/topic
-        * General strategy
-        * Actual
-        * Domain-specific
-    * Difficulty
-    * Content
-* Post Ideation (TODO)
+* Post Ideation
     * Try and connect or ideate if we can build a post off it: wider context?
 * Order
     * L1: RJ, EPQ
