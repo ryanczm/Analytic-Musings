@@ -123,11 +123,16 @@ order: 4
 * Project
     * Short project replicating his signal tweaking.
 
-#### Scaling by Vol
+#### Option Pricing for Degenerate Gamblers
 
 * Content
-    * Compares BTC returns to hypothetical, 20% vol strat. BTC is much better. 
-    * However, scaled by vol, both the same (vol ratio). Then shows a plot of leveraged 6x strat 
+    * RJ visualises the stock price over time. Current time $t$. Option expiry time $t+n$ (vertical line). Horizontal mark on the strike price.
+    * Option prices reflect a view of _probability distribution of prices at expiry_. 
+    * _Fair value of a bet_ is the sum of probability of outcomes * payoff if it happens. Price you don't expect to make money if you're long or short.
+    * Visualises delta. Visualises theta. Visualises vega.
+    * The edge in options is ability to estimate the purple probability histogram, more accurately, than the aggregate markets.
+* Learnings
+    * Key intuition is that we can have a view on a range of outcomes with no fixed certainty. It's about estimating over a range of possible futures, not one.
 
 ---
 ### Level 2: MC/CH

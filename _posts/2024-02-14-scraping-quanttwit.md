@@ -34,7 +34,7 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
     * [$TRB trading story](https://twitter.com/macrocephalopod/status/1741822159935185308) (Jan '24)
     * [Short volatility](https://twitter.com/macrocephalopod/status/1747672425586655541) (Jan '24)
     * [Ridge regression tricks](https://twitter.com/macrocephalopod/status/1745040541371322668) (Jan '24)
-    * [Trend crossover trick](https://twitter.com/macrocephalopod/status/1750111877265322470) (Jan '24)
+    * [Trend crossover trick](https://twitter.com/macrocephalopod/status/1750111877265322470) (Jan '24) ✅
     * [Strategy naming](https://twitter.com/macrocephalopod/status/1746581174049251453) (Jan '24) ✅
     * [EMA decomposition](https://twitter.com/macrocephalopod/status/1732097293686354262) (Dec '23)
     * [EMA breakdown](https://twitter.com/macrocephalopod/status/1731986693102633301) (Dec '23)
