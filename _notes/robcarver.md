@@ -3,15 +3,18 @@ layout: default
 title: "Rob Carver"
 ---
 
-# Single Instrument Basics
+# Basic Directional Strategies
 
 * Back-adjustment
     * Stitching together continuous futures price series creates gap on roll dates.
     * Use back-adjustment (Panama canal method) to create continuous series, but trade on original series.
 * Risk of Single Contract
-    * $\$N \cdot \sigma_{\%y}=\sigma_{\$y}$ where $N$ is notional, $\sigma_{\% y}$ is annualized standard deviation in percentage points. Gives dollar risk of single contract $\sigma_{\$y}$.
+    * $ P \cdot M \cdot \sigma_{\%}=\sigma_{p}$. Dollar risk is the notional times percentage risk
+    * Percentage risk is tricky.
+    * Carver defines it as $\sigma_{\%}=0.3(10Y \space avg)+0.7(\sigma_{\%})$
+    * The larger weight is on a 10Y average of annualized risk. The shorter weight is a EWMA32 of returns.
 * Trend Strength
-    * $R = \frac{T}{\sigma_{\$d}}= \frac{T}{P \times \sigma_{\% y} \div 16}$. The raw forecast is the trend divided by the daily dollar risk
+    * $R = \frac{T}{\sigma_{p}}= \frac{T}{P \times \sigma_{\%} \div 16}$. The raw forecast is the trend divided by the daily dollar risk
     * $S = R \times 10 \times scalar$ where the scaled forecast is multiplied by 10 and the forecast scalar (absolute value of raw forecast).
     * $\hat{S} = cap(S)$ Carver caps the scaled forecast at $\pm 20$
 * Position Scaling
