@@ -8,14 +8,25 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
 
 
 
+
 ## Plan
 
 * Idea
     * QuantTwit contains a lot of alpha, wisdom by experienced quants.
     * I will scrape, manually, label, clean, whatever, then systematically go through them (need to decide how), learn, and write blogposts to internalize.
+    * Twitter scrape all threads, label with keyword extraction/topic modelling, put in Dataframe
+    * Problem: Twitter API Basic plan is $100USD/month
+* New Plan:
     * Search by media: look at all pictures, pick out quanty looking ones (basically plots)
     * Search by keyword: EWMA/EMA, Regression, Correlation, Covariance, Filter, Signal, Noise/noisy, Sharpe, Alpha, Scatter, Predict, Adverse Selection, Inference, Statistical, Volatility
-* Post Ideation
+* Label (TODO)
+    * Subcategory/topic
+        * General strategy
+        * Actual
+        * Domain-specific
+    * Difficulty
+    * Content
+* Post Ideation (TODO)
     * Try and connect or ideate if we can build a post off it: wider context?
 * Order
     * L1: RJ, EPQ
@@ -36,8 +47,8 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
     * [Ridge regression tricks](https://twitter.com/macrocephalopod/status/1745040541371322668) (Jan '24)
     * [Trend crossover trick](https://twitter.com/macrocephalopod/status/1750111877265322470) (Jan '24) ✅
     * [Strategy naming](https://twitter.com/macrocephalopod/status/1746581174049251453) (Jan '24) ✅
-    * [EMA decomposition](https://twitter.com/macrocephalopod/status/1732097293686354262) (Dec '23)
-    * [EMA breakdown](https://twitter.com/macrocephalopod/status/1731986693102633301) (Dec '23)
+    * [EMA decomposition](https://twitter.com/macrocephalopod/status/1732097293686354262) (Dec '23) ✅
+    * [EMA breakdown](https://twitter.com/macrocephalopod/status/1731986693102633301) (Dec '23) ✅
     * [Forecast for basket into forecast for constituents](https://twitter.com/macrocephalopod/status/1647332293529452546) (Apr '23)
     * [11 days of backtest errors](https://twitter.com/macrocephalopod/status/1598823745681903616) (Dec '22)
     * [Trend following explained](https://twitter.com/macrocephalopod/status/1587591578331250691) (Nov '22) ✅
@@ -63,7 +74,7 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
     * [How to make money trading](https://twitter.com/therobotjames/status/1638292311435034624) (Mar '23) ✅
     * [Analysing predictive signals](https://twitter.com/therobotjames/status/1332131740580683776) (Nov' 20) ✅
     * [How HFT works](https://twitter.com/therobotjames/status/1513851852953354240) (Apr '22) ✅
-    * [Option pricing for degenerate gamblers](https://twitter.com/therobotjames/status/1444832778768379904) (Oct '21)
+    * [Option pricing for degenerate gamblers](https://twitter.com/therobotjames/status/1444832778768379904) (Oct '21) ✅
 * Robotwealth Blog
     * [Stat Arb Series - Modeling features as expected returns](https://robotwealth.com/how-to-model-features-as-expected-returns/) (Feb '24)
     * [Stat Arb Series - Reducing turnover](https://robotwealth.com/a-simple-effective-way-to-manage-turnover-and-not-get-killed-by-costs/) (Feb '24)
@@ -122,7 +133,7 @@ excerpt: "QuantTwit contains a lot of alpha, wisdom by experienced quants. I wil
     * [FX Eurodollar dominance strategy](https://www.quantymacro.com/fx-euro-dollar-dominance/) (Mar '23)
     * [FX European commodities mean reversion strategy](https://www.quantymacro.com/fx-european-commodities-mean-reversion/) (Mar '23)
 
-## Kris Sidial
+## Kris Abdel Messih
 
 * Blog (Moontower)
     * [My Grandma is $24.05 bid](https://moontowermeta.com/my-grandma-is-24-05-bid-stop-embarrassing-yourself/) (Feb '24)
