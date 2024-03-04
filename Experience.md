@@ -6,7 +6,7 @@ order: 3
 <div class="exp">
     <img class="exp2" src="{{ site.imageurl }}/Logos/GX1.png" width='120px' height='50px'>
     <div>
-        <h3> Energy Analyst [at] General Index</h3>
+        <h3> Energy/Pricing Analyst [at] General Index</h3>
         <p>
         As an analyst, I was responsible for the daily price assessment process for middle (jet fuel, diesel) and heavy distillates (marine fuel). I had to learn the fundamentals and technicals of these markets, the product specifications, the end-to-end process from extraction, transporting to a refinery, then selling the distillate and the specifications/mechanisms of the various contracts.
         </p>
@@ -37,7 +37,7 @@ order: 3
 <div class="exp">
     <img class="exp2" src="{{ site.imageurl }}/Logos/REA.png" width='120px' height='50px'>
     <div>
-        <h3> Data Science Intern [at] Real Estate Analytics</h3>
+        <h3> Data Science Intern [at] 8PROP Real Estate Analytics</h3>
         <p>
         I interned at proptech firm called Real Estate Analytics (8PROP). This firm was a property analytics provide that provided residential property valuation and analytics services via web-app/API that real estate developers, agents and investors could subscribe to. 
         </p>
