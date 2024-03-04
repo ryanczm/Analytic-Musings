@@ -11,24 +11,15 @@ order: 3
         As an analyst, I was responsible for the daily price assessment process for middle (jet fuel, diesel) and heavy distillates (marine fuel). I had to learn the fundamentals and technicals of these markets, the product specifications, the end-to-end process from extraction, transporting to a refinery, then selling the distillate and the specifications/mechanisms of the various contracts.
         </p>
         <p> 
-        Using Python to automate data parsing and price assessments, I formulated assessment/market rules as a constraint programming/optimization problem, resulting in a more objective, algorithmic assessment process with significant time savings. The data was bids, offers and trades from the Platts e-window or brokers & forward curves for benchmarks, for paper and physical contracts of various maturities. 
+        Using Python to automate data parsing and price assessments, I implemented systematic price assessment algorithms of daily index values for paper and physical distillate forward markets with constraint programming/constrained optimization, resulting in a more objective, algorithmic assessment process with significant time savings. The data came from order flow from the Platts e-window and various brokers.
         </p>
         <p>
-        Previously, the assessment process was done in spreadsheets. These price assessments would serve as the basis for derivative contracts to be settled against (spot price of physical cargo).
+        Previously, the assessment process was done in spreadsheets. These price assessments would serve as the physical spot price for various forward contracts to be settled against.
         </p>
     </div>
 </div>
 
-<div class="exp">
-    <img class="exp2" src="{{ site.imageurl }}/Logos/UOB.png" width='120px' height='50px'>
-    <div>
-        <h3> Junior Data Scientist [at] UOB</h3>
-        <p>
-        As a junior data scientist, I built Question-Answering (QA) systems for internal policy documents via the Retrieval Augmented Generation (RAG) LLM paradigm. Soon after, ChatGPT released custom GPTs.
-        I also forecasted ATM usage/demand islandwide with econometrics and classical ML methods in order to optimize refills. 
-        </p>
-    </div>
-</div>
+
 
 <div class="exp">
     <img class="exp2" src="{{ site.imageurl }}/Logos/GIC.png" width='120px' height='50px'>

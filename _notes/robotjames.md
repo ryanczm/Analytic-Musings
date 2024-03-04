@@ -2,9 +2,10 @@
 layout: default
 title: "RobotJames"
 ---
+# RobotJames
 
-
-## Summary
+---
+### #Summary
 
 * What is a signal - Framework of how to evaluate how 'good' a signal is.
 * Log returns intuition - As it says
@@ -13,7 +14,7 @@ title: "RobotJames"
 * Evaluating predictive signals - Are cheap stocks expensive?
 * Crypto stat arb series - Comprehensive, R-code walkthrough of strategy. Do this one.
 
-## Projects
+### #Projects
 
 * Small
     * TLT replication 
@@ -21,7 +22,10 @@ title: "RobotJames"
 * Big
     * Crypto stat arb replication. Very hefty!
 
-## What is a Signal?
+---
+
+
+### What is a Signal?
 
 * Content
     * Signal - A _signal_ is something that predicts the price of a thing at $t+n$, at now $t$, over a forecast horizon, using/function of information. __(signal chart)__
@@ -35,7 +39,7 @@ title: "RobotJames"
 * Project/Ideation
     * Can we do a project where we construct signals and evaluate them with these techniques? Look at info, info decay, goodness of fit, jumpiness, time decay.
 
-##  Intuition of Log Returns
+###  Intuition of Log Returns
 
 * Content
     * Log returns - Log return is the logged ratio of prices. Linear returns are the ratio of prices minus 1.
@@ -44,7 +48,7 @@ title: "RobotJames"
 * Learnings
     * The logged ratio of two values, the log return, is the same as applying compounding it by that value many times.
 
-## How to Make Money Trading/Basics of Edge Extraction
+### How to Make Money Trading/Basics of Edge Extraction
 
 * Content
     * Trading
@@ -70,7 +74,7 @@ title: "RobotJames"
     * To identify edge, need understanding of how market rules work.
    
 
-## Data Analysis for Traders
+### Data Analysis for Traders
 
 * Content
     * Framework
@@ -85,7 +89,7 @@ title: "RobotJames"
 * Project
     * Replicating the TLT analysis exercise.
 
-## Evaluating Predictive Features
+### Evaluating Predictive Features
 
 * Content
     * Exploring a signal with no edge.
@@ -96,7 +100,7 @@ title: "RobotJames"
 * Projects
     * Using economic intuition and EDA to explore a simple factor, then discovering it is a proxy for another factor with well known edge
 
-## Crypto Stat Arb Series
+### Crypto Stat Arb Series
 
 * Content
     * Ideas for Crypto Stat Arb Features - Brainstorms crypto stat arb features on crypto perpetual futures. Momo (xs), carry (xs), breakout (ts).
@@ -104,7 +108,7 @@ title: "RobotJames"
     * A Simple, Effective Way to Manage Turnover - Backtests the strategy, performance, then uses Cephalopod's trade buffer tweet to bring down turnover rates. (⚠️ How are signals translated to weights? E.g daily carry/momentum decile rank)
     * How to Model Features as Expected Returns - Does some pretty complex stuff, but runs rolling regressions on signals to get coefficients (⚠️ How are signals translated to weights? E.g daily carry/momentum decile rank)
 
-## Tweaking signals
+### Tweaking signals
 
 * Content
     * Shows how simple tweaks on a simple signal can change PnL profile/results of a backtest
@@ -115,7 +119,7 @@ title: "RobotJames"
 * Project
     * Short project replicating his signal tweaking.
 
-## Option Pricing for Degenerate Gamblers
+### Option Pricing for Degenerate Gamblers
 
 * Content
     * RJ visualises the stock price over time. Current time $t$. Option expiry time $t+n$ (vertical line). Horizontal mark on the strike price.

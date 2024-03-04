@@ -16,8 +16,10 @@ I enjoy all things data - cleaning, building, analyzing, modelling and using it 
 Outside of work, I enjoy sports - floorball (I play competitively in SG's div 2) and football (recreationally).
 
 Here is my [<i class="fa fa-github" aria-hidden="true"></i> Github](https://github.com/ryanczm/).
+ 
 
-<center>
+
+<!-- <center>
 <img src="{{ site.imageurl }}/Logos/me.JPG" style="width:60%;"/>
 <figcaption>Recent photo of me, at Guangzhou's Canton Tower, November 23.</figcaption>
-</center>
+</center>  -->

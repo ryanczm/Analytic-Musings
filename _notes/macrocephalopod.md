@@ -3,7 +3,11 @@ layout: default
 title: "Macrocephalopod"
 ---
 
-#### Projects
+# Macrocephalopod
+
+---
+
+### Projects
 
 * Small
     * Zillow adverse selection replication
@@ -14,8 +18,12 @@ title: "Macrocephalopod"
 * Big
     * RobotJames' crypto stat arb
 
+---
 
-#### Discrete vs Continuous Trading
+
+### Equity Factor Model Megathread
+
+### Discrete vs Continuous Trading
 
 * Content
     * Rather than use signal as entry/exits, discretizing throws away information. 
@@ -24,17 +32,16 @@ title: "Macrocephalopod"
 * Learnings
     * Think of signals as rebalancing rather than discrete entry/exit.
 
-#### Trading Stuff Amateurs Care but Practitioners Disregard
+### Trading Stuff Amateurs Care but Practitioners Disregard
 
 * Content
     * Stationarity tests, cointegration, vol forecasting, exit signals, stop losses.
     * First two are pointless because any such relationship will not last in the future and is just chance.
     * Last two are pointless because those problems arising from discrete trading, not continuous.
 
-#### Equity Factor Model Megathread
 
 
-#### Trend Following Breakdown
+### Trend Following Breakdown
 
 * Content
     * Trends exist. No need to know 'why'. Can be exploited systematically. Components of a trend-following strategy:
@@ -52,7 +59,7 @@ title: "Macrocephalopod"
 * Learnings
     * Professional breakdown of trend-following in futures strategies. Across diff sectors. Careful sizing, simple signal.
 
-#### Trade Buffer
+### Trade Buffer
 
 * Content
     * Once you have decent alpha the skill in systematic strategy is to reduce turnover.
@@ -65,7 +72,7 @@ title: "Macrocephalopod"
 * Learnings
     * A simple non-optimization rule to reduce turnover given enough skill in alpha.
 
-#### Portfolio Optimization: Non-Experts vs Practitioners
+### Portfolio Optimization: Non-Experts vs Practitioners
 
 * Content
     * Naive view of portfolio optimization - vector of alphas, cov matrix, costs, constraints, current pos, maximize objective. This gives bad results!
@@ -73,7 +80,7 @@ title: "Macrocephalopod"
 * Learnings
     * Focus on simple solutions before complex solutions.
 
-#### Zillow Adverse Selection Thread
+### Zillow Adverse Selection Thread
 
 * Content
     * Even if Zillow's model was more accurate than local agent valuations, local agents win on average because they choose which houses to sell
@@ -85,7 +92,7 @@ title: "Macrocephalopod"
     * Only transaction where Zillow forecasts wrongly will occur because agent will only choose to sell when Z valuation is much higher.
     * Very interesting thread on adverse selection in transaction. Works because agents sit on houses waiting for offers, they have choice to transact or not.
 
-#### Non-Overlapping Periods
+### Non-Overlapping Periods
 
 * Content
     * Scatterplot of cyclically adjusted P/E ratio and 10Y forward returns. Shows R2 of 0.65, super strong correlation.
@@ -94,7 +101,7 @@ title: "Macrocephalopod"
 * Learnings
     * Data hygiene in how you analyze scatterplots. Don't overlap returns too much!
 
-#### Strategy Naming/Dichotomy
+### Strategy Naming/Dichotomy
 
 * Content
     * Quantitative/systematic/automating trading are not same thing.
