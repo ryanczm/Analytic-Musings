@@ -4,6 +4,12 @@ title: "Rob Carver"
 ---
 # Rob Carver
 
+## Projects
+
+* Systematic futures strategy
+    * From his book, select a weighted portfolio of diversified futures. Do something and backtest. 
+
+
 ### Summary
 
 * __Basic Directional Strategies__

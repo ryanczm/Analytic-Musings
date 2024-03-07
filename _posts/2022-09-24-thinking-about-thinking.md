@@ -95,7 +95,13 @@ The second proposition is that these imperfect views can influence the situation
 </blockquote>
 <figcaption>—George Soros, <cite><a href="https://www.georgesoros.com/2014/01/13/fallibility-reflexivity-and-the-human-uncertainty-principle-2/">Fallibility, Reflexivity, and the Human Uncertainty Principle</a></cite></figcaption>
 
-Straightaway, we notice Soros mentioned actions and participants and their views. It is clear his thoughts are very relevant, given his track record.
+Interestingly, another aspect of taking an _action_ is the _payoff_. Taking an action produces a payoff distribution of outcomes (think of a histogram). Then, when deciding to take an action, you should:
+
+1. Try and get a sense of the payoff distribution, by estimating probabilities
+2. Discount or shift the distribution left by the costs/opportunity costs.
+
+If it's positive, then you should do it. Of course, the tough part is that estimating the payoff histogram can be very difficult and downright impossible sometimes! But nonetheless, you should still try and do this before deciding on an action. If an action is generally positive EV with very little cost, then you should do it to take a small easy win.
+
 
 <h2>Visualisation: Dual form</h2>
 
