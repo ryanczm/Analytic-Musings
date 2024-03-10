@@ -66,7 +66,8 @@ So, let's try to find the right words to express the _things_ and their _links_.
 # Semideterministic Framework
 
 <p>For semi-deterministic fields, the thing is <i>information</i>. The connection <i>computation</i>. To <i>link</i> computations, we take information, send it to a computation, get new information, then send it through another computation, so on and so forth.</p>
-<p>The difference is, these things/connections (information/connection) can be broken down recursively into more things in a top-down manner. Unlike in deterministic fields, where things are atomic.</p>
+<p>Information/data is the node. It has a type: which defines the allowable operations/computations that it can undergo or link with. Hence, when doing anything computing related, it is very important to keep track of the data you work with and their types.</p>
+<p>Computations and data can be broken down recursively into more computations in a top-down manner. This style of thinking seems very important. </p>
 
 <blockquote>
 Input → system (computation) → output. This is my core paradigm for understanding anything.
