@@ -2,7 +2,7 @@
 layout: post
 title: "Crypto Stat Arb Series I: Quantifying & Combining Alphas"
 category: quant
-excerpt: "This is a trading project from RobotJames/Kris, originally in R, translated to Python. A crypto stat arb strategy, with a net l/s tilt, based on carry/momo/breakout on the top most liquid by rolling volume perps. In the first part, signals are explored and researched, like factor decile plots, IC, decay, etc, then blended into weights/returns to simulate a frictionless trading strategy. I am very thankful this free resource exists and have learnt tons."
+excerpt: "This is a trading project from RobotJames/Kris, originally in R, translated to Python. A crypto stat arb strategy, with a net l/s tilt, based on carry/momo/breakout on the most liquid perps by rolling volume. In the first part, signals are explored and researched: factor decile plots, IC, decay, etc; then blended into weights/returns to simulate a frictionless trading strategy. "
 
 ---
 
