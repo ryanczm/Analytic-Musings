@@ -2,25 +2,25 @@
 layout: post
 title: "Crypto Stat Arb Series I: Quantifying & Combining Alphas"
 category: quant
-excerpt: "This is a trading project from RobotJames/Kris, originally in R, translated to Python. A crypto stat arb strategy, with a net l/s tilt, based on carry/momo/breakout on the most liquid perps by rolling volume. In the first part, signals are explored and researched: factor decile plots, IC, decay, etc; then blended into weights/returns to simulate a frictionless trading strategy. "
+excerpt: "This is a trading project from RobotJames/Kris, originally in R, translated to Python. A crypto stat arb strategy, with a net l/s tilt, based on cross-sectional carry/momo/breakout of the top 30 perpetuals by rolling volume out of ~200 tickers from 2019 to 2024. In the first part, these signals are quantified: factor decile plots, IC, decay, then blended into weights to simulate a frictionless trading strategy. "
 
 ---
 
 <!-- This is a trading project from RobotJames/Kris, who originally published it in R, translated to Python. A crypto stat arb strategy based on carry/momo/breakout on the top most liquid by rolling volume perps. In the first part, signals are explored and researched, like their factor decile plots, IC, decay, etc, then blended into weights, then refined into expected returns with rolling regressions to improve Sharpe. -->
 
-Having done several paper replications and realizing they are too theoretical, I decided to implement a proper trading project. RobotJames/Kris are well-known quants in the Twitter community, and they have a 5-part series, recently published, end-to-end trading strategy project on their blog RobotWealth in R - with clean code and data available - something I am very grateful for.
+Having done several paper replications and realizing they are too theoretical, I decided to implement a proper trading project. RobotJames/Kris are well-known quants in the Twitter community, and they have a [_5-part series_](https://robotwealth.com/quantifying-and-combining-crypto-alphas/), recently published, end-to-end trading strategy project on their blog [_RobotWealth_](https://robotwealth.com/blog/) (in R) - with clean [_code_](https://github.com/Robot-Wealth/trader-tales) and data available - something I am very grateful for.
 
 I decided to challenge myself to reimplement this in Python, to get familiar with basic concepts & workflow of research & backtesting a strategy. It turned out to be a good decision, taking me a week, but I've learned lots - time well-invested. It let me cross-check to confirm if my code was correct. I split this two separate posts, research and backtest. 
 
-In particular, I've learned Pandas techniques to do quant work on cross-sectional data of a dynamic universe of stocks/tickers. While I did use GPT heavily to translate R code to Python, the underlying techniques and concepts are the same in either language.
-
+In particular, I've learned Pandas techniques to do quant work on cross-sectional data of a dynamic universe of stocks/tickers. While I did use GPT heavily to translate R code to Python, the underlying techniques and concepts are the same in either language. My code can be found [_here_](https://github.com/).
 
 ## Universe Selection
 
-The data, available here is of Crypto perpetual futures from 2019 to last month. It is in long form, ordered by ticker and date:
+The data, available on their [repo](https://github.com/Robot-Wealth/trader-tales/tree/master/quantifying-combining-alphas) is of Crypto perpetual futures from 2019 to last month on Binance. It is in long form, ordered by ticker and date:
 
-$$Data\space Snapshot$$
-
+<center>
+<img src="{{ site.imageurl }}/CryptoStatArb/images_research/0_perps.png" style="width:100%;"/>
+</center>
 The first step is to remove Stablecoins:
 
 ```python
@@ -72,11 +72,7 @@ features = universe.groupby('ticker') \
     .dropna()
 ```
 
-Again, grouping by ticker and calculating the features separately within each group. We have to lag the features relative to returns. 
-
-$$Raw \space Features$$
-
-Then, we plot their distributions. Breakout is even, but momo and carry significant have positive skew.
+Again, grouping by ticker and calculating the features separately within each group. We have to lag the features relative to returns. Then, we plot their distributions. Breakout is even, but momo and carry significant have positive skew.
 
 <center>
 <img src="{{ site.imageurl }}/CryptoStatArb/images_research/2_raw_features.png" style="width:100%;"/>
@@ -102,7 +98,21 @@ scaled_features = features.groupby('date').
 )).reset_index(drop=True)
 ```
 
-We do the same workflow, but `qcut` on ranked data to ensure equal sized buckets. 
+We do the same workflow, but `qcut` on ranked data to ensure equal sized buckets. At this point, this is what our `scaled_features` dataframe looks like:
+
+```python
+scaled_features.columns
+----
+>> Index(['ticker', 'date', 'open', 'high', 'low', 'close', 'dollar_volume',
+       'num_trades', 'taker_buy_volume', 'taker_buy_quote_volumne',
+       'funding_rate', 'trail_volume', 'volume_rank', 'is_universe', 'rets',
+       'log_rets', 'breakout', 'momo', 'carry', 'demeaned_rets', 'z_carry',
+       'decile_carry', 'z_momo', 'decile_momo', 'demeaned_rets_2',
+       'demeaned_rets_3', 'demeaned_rets_4', 'demeaned_rets_5',
+       'demeaned_rets_6', 'demeaned_rets_7', 'log_rets_2', 'log_rets_3',
+       'log_rets_4', 'log_rets_5', 'log_rets_6', 'log_rets_7'],
+      dtype='object')
+```
 
 ## Exploring Features
 
@@ -225,8 +235,9 @@ Then, the combined weight is scaled by dividing by the absolute sum of combined 
 x.assign(scaled_weight = np.where(x.combined_weight==0,0,
             x.combined_weight/x.combined_weight.abs().sum()))) \
 ```
-
-$$Model \space DF$$
+<center>
+<img src="{{ site.imageurl }}/CryptoStatArb/images_research/0_model_df.png" style="width:100%;"/>
+</center>
 
 Initially, there was confusion on why the time-series feature would tilt the portfolio net long or short. However, this is because of the way the signals are calculated: momo and carry were bucketed cross-sectionally then centered, so -4.5 to 4.5 uniformly with zero mean.
 
@@ -261,7 +272,7 @@ plt.ylabel('Cumulative return')
 <img src="{{ site.imageurl }}/CryptoStatArb/images_research/13_rets.png" style="width:100%;"/>
 </center>
 
-To conclude, I've learnt some basic quant workflows to do universe selection and signal evaluation off RobotJames & Kris' post, which is a __lifesaver__ because the code, data and results are there for me to evaluate if I did mine correctly. The return series is slightly different from the original post, because I flipped the sign of momentum and calculated it slightly differently (I've asked Kris on this and am awaiting his response).
+To conclude, I've learnt some basic quant workflows to do universe selection and signal evaluation off RobotJames & Kris' post, which is a __lifesaver__ because the code, data and results are there for me to evaluate if I did mine correctly. The return series is slightly different from the original post, because I flipped the sign of momentum weight (Kris used it as mean-reversion) and calculated it slightly differently (I've asked Kris on this and am awaiting his response).
 
 
 ## Return Attribution
