@@ -261,7 +261,7 @@ plt.ylabel('Cumulative return')
 <img src="{{ site.imageurl }}/CryptoStatArb/images_research/13_rets.png" style="width:100%;"/>
 </center>
 
-To conclude, I've learnt some basic quant workflows to do universe selection and signal evaluation off RobotJames & Kris' post, which is a __lifesaver__ because the code, data and results are there for me to evaluate if I did mine correctly.
+To conclude, I've learnt some basic quant workflows to do universe selection and signal evaluation off RobotJames & Kris' post, which is a __lifesaver__ because the code, data and results are there for me to evaluate if I did mine correctly. The return series is slightly different from the original post, because I flipped the sign of momentum and calculated it slightly differently (I've asked Kris on this and am awaiting his response).
 
 
 ## Return Attribution
