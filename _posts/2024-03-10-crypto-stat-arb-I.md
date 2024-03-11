@@ -300,6 +300,6 @@ In conclusion, this post was my first trading project, which I am very thankful 
 
 While from reading their R code I do notice the elegance of R's functional programming workflow with `%>%` and plotting capability with `ggplot`. I learned some Python tricks to emulate this.
 
-In the next post, I adapt and translate code from James and Kris' backtesting framework in R, `Rsims`, to implement the backtest in Python with trading costs and a _trading buffer_ heuristic to reduce turnover, in place of portfolio optimization. This lets us properly evaluate the strategy with deployed capital.
+In the next post, I adapt and translate code from James and Kris' backtesting framework in R, `Rsims`, to implement the backtest in Python with trading costs and a _trading buffer_ heuristic to reduce turnover, in place of portfolio optimization. This lets us properly evaluate the strategy with deployed capital, and compare the simple 0.5/0.2/0.3 weighting scheme to a dynamic one based off estimating expected returns with regressions.
 
 See you in the next post!
