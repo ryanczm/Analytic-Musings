@@ -212,3 +212,24 @@ Further zooming in on turnover of a randomly chosen week:
 </center>
 
 ## Backtesting a Dynamically Weighted Strategy
+
+In this article, [How to Model Features as Expected Returns](https://robotwealth.com/how-to-model-features-as-expected-returns/), Kris shows how to convert the raw signals into returns. He regresses momentum and carry weights on a historical 90 day window of demeaned returns, and breakout on the same window of returns. The model coefficients are used recalculated every 10 days to capture the changing relationship between deciles and returns. 
+
+<center>
+<img src="{{ site.imageurl }}/CryptoStatArb/images_research/16_carry_dec_year.png" style="width:100%;"/>
+</center>
+
+For example, examining carry deciles against cross-sectional returns over the years reveals a more nuanced trend, but the relationship is still visible.
+
+<center>
+<img src="{{ site.imageurl }}/CryptoStatArb/images_research/15_momo_dec_year.png" style="width:100%;"/>
+</center>
+
+Momentum looks even noisier with no visible relationship.
+
+
+<center>
+<img src="{{ site.imageurl }}/CryptoStatArb/images_research/17_breakout_dec_year.png" style="width:100%;"/>
+</center>
+
+Kris regresses momentum and carry on cross-sectional returns to estimate it, but does not use the linear model for the breakout feature. Instead, we will estimate cross-sectional returns with momentum, carry and breakout, then blend the coefficients times weights + intercept for the return estimate, and that will be our weights.
