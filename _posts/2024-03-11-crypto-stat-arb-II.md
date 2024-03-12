@@ -2,7 +2,7 @@
 layout: post
 title: "Crypto Stat Arb Series II: Backtesting with a Trade Buffer"
 category: quant
-excerpt: "Part II trading project from RobotJames/Kris, originally in R, in Python. I code up a backtest in Python based off RJ/Kris' R backtesting framework Rsims to implement a trading buffer as a heuristic to manage turnover. I then backtest the 0.3/0.2/0.5 carry/momentum/breakout weighted strategy from Part I versus a dynamically weighted version modelling expected returns, finding the trade buffer value for optimal Sharpe."
+excerpt: "Part II of a trading project from RobotJames/Kris, originally in R, in Python. I code up a backtest in Python based off RJ/Kris' R backtesting framework Rsims to implement a trading buffer as a heuristic to manage turnover. I then backtest the 0.3/0.2/0.5 carry/momentum/breakout weighted strategy from Part I versus a dynamically weighted version modelling expected returns, finding the trade buffer value for optimal Sharpe."
 
 ---
 
@@ -14,11 +14,9 @@ We want to simulated our strategy in the previous post via a backtest. RobotJame
 
 # Data Preparation
 
-Recall our weights were stored in `model_df`:
+Recall from the previous post our weights were stored in `model_df`, which is in long form sorted by ticker and date.
 
-$$Model \space DF$$
-
-Where the absolute values of ticker weights in the universe at any day sums to one. Rather than code up a backtest from scratch and fumbling around, I decided to use `rsims` as a framework. However, I leave out the margin aspects - in the original post, there was no margin calls anyway.
+The absolute values of ticker weights in the universe at any day sum to one. Rather than code up a backtest from scratch and fumbling around, I decided to use `rsims` as a framework. However, I leave out the margin aspects - in the original post, there was no margin calls anyway.
 
 First, the weights dataframe must be converted from long to wide format: where the rows are the date index and columns are all tickers that were ever in the universe.
 
@@ -28,14 +26,17 @@ close = model_df.pivot(index='date', columns='ticker', values='close').fillna(0)
 funding = model_df.pivot(index='date', columns='ticker', values='funding_rate').fillna(0).reset_index()
 ```
 
-$$Weights$$
+<center>
+<img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/0_weights.png" style="width:100%;"/>
+</center>
 
 # Structure of the Backtest
 
-The function `fixed_commission_backtest_with_funding` expects the `weights`, `close` and `funding` in the format mentioned above. It assumes we can trade fractional positions, and starts with 10000 initial cash that is not reinvested - we always rebalance with 10000 or less each day.
+The main code of the backtest is in this function: `fixed_commission_backtest_with_funding`. It expects the `weights`, `close` and `funding` in the format mentioned above. It assumes we can trade fractional positions, and starts with 10000 initial cash that is not reinvested - we always rebalance with 10000 or less each day.
 
 ```python
-def fixed_commission_backtest_with_funding(prices, target_weights, funding_rates, trade_buffer=0.0, initial_cash=10000, commission_pct=0, reinvest=True):
+def fixed_commission_backtest_with_funding(prices, target_weights, funding_rates, 
+                                    trade_buffer=0.0, initial_cash=10000, commission_pct=0):
 
     # Get tickers for later
     tickers = prices.columns[1:]
@@ -63,12 +64,13 @@ def fixed_commission_backtest_with_funding(prices, target_weights, funding_rates
         # PnL for the period: price change + funding
         period_pnl = current_positions * (current_prices.values - previous_prices)
         period_pnl = np.where(period_pnl == np.nan, 0, period_pnl) + funding
-        # Update cash balance - includes adding back yesterday's margin and deducting today's margin
+        # Update cash balance with period_pnl
         cash += np.sum(period_pnl)
         # Update equity
         cap_equity = min(initial_cash, cash) if not reinvest else cash
         # Update positions based on no-trade buffer
-        target_positions = positions_from_no_trade_buffer(current_positions, current_prices, current_target_weights, cap_equity, trade_buffer)
+        target_positions = positions_from_no_trade_buffer(current_positions, current_prices, 
+                                          current_target_weights, cap_equity, trade_buffer)
         # Calculate position deltas, trade values, and commissions
         trades = target_positions - current_positions
 
@@ -104,15 +106,15 @@ def fixed_commission_backtest_with_funding(prices, target_weights, funding_rates
     return result_df, total_eq, sharpe
 ```
 
-We start off by creating initial state: the `cash`, and `current_positions` Numpy array. In the backtest loop, we fetch the current data: the `current_date`, `current_prices`, `current_target_weights` and `current_funding_rates`. 
+We start off by creating initial state: the `cash`, and `current_positions` array amongst others. In the backtest loop, we fetch the current data: the `current_date`, `current_prices`, `current_target_weights` and `current_funding_rates`. 
 
 The `equity` for the day can be split into three components: the
 
-* `funding` - The total value of carry from our positions. 
+* `funding` - The total value of carry from our positions in our selected universe.
 * `period_pnl` - The PnL from price change of our positions from the current close to yesterday's close. 
 * `commissions` - A percentage of the dollar amount traded or `trade_value`, which is simulated to include spread costs and broker commissions.
 
-At the end of each iteration, the calculated data is appended to a list, later to be converted into a `DataFrame`. Most importantly, we set `target_positions` to `current_positions` and `current_prices` to `previous_prices` for use in the next iteration of the loop.
+At the end of each iteration, the calculated data is appended to a list, later to be converted into dataframes. Most importantly, we set `target_positions` to `current_positions` and `current_prices` to `previous_prices` for use in the next iteration of the loop.
 
 ## The No-Trade Buffer
 
@@ -134,7 +136,8 @@ def positions_from_no_trade_buffer(current_positions, current_prices, target_wei
         elif current_weights[j] > target_weights[j] + trade_buffer:
             target_positions[j] = (target_weights[j] + trade_buffer) 
             * cap_equity / current_prices[j]
-
+        else:
+            target_positions[j] = current_positions[j]
     return target_positions
 
 ```
@@ -142,3 +145,70 @@ def positions_from_no_trade_buffer(current_positions, current_prices, target_wei
 The trade buffer is a no-trade region of `2b` around target weight `y`. If our current weight `x` is in the interval of the buffer, we do nothing and do not trade. If it is outside, we trade till the edge of the buffer. Kris references Macrocephalopod's explanation: the idea is to only trade on large enough weight deviations to prevent needless small trades and chip away at equity with transaction costs and fees. 
 
 For example, if our buffer is `0.04`, with current weight `0.12` and target `0.15`, we do nothing since it's still in range. If the target weight is `0.20`, we trade by buying `0.04` of our `cap_equity` for that ticker so our weights are now `0.16`. So, from Monday to Friday, if our weights for a ticker went from `0.16` > `0.18` > `0.15` > `0.12` > `0.14`, we would not trade at all. 
+
+## Picking a Trade Buffer Value
+
+How do we pick a trade buffer value? We can backtest across different values, then pick the value that maximizes Sharpe ratio or that achieves a particular average daily turnover of the book.
+
+<center>
+<img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/ceph.png" style="width:55%;"/>
+</center>
+
+We optimize over values from `0.00` to `0.08`. With `0.00` meaning no trade buffer and `0.08` meaning the ticker weight must change by at least that amount for a trade to occur.
+
+```python
+buff_sharpes = np.array([])
+for buffer in [0.00, 0.01,0.02, 0.03,0.04,0.05,0.06,0.07]:
+    _,_, buff_sharpe = fixed_commission_backtest_with_funding(close, weights,funding,
+    trade_buffer=buffer,
+    initial_cash=10000, commission_pct=0.0015,reinvest=False)
+    buff_sharpes = np.append(buff_sharpes, buff_sharpe)
+
+pd.Series(buff_sharpes,index=[0.01,0.02, 0.03,0.04,0.05,0.06,0.07])
+        .plot(marker='o', figsize=(10,4), title='Sharpe across trading buffer values')
+```
+<center>
+<img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/1_sharpe_buffer.png" style="width:85%;"/>
+</center>
+
+Clearly, `0.05` buffer maximizes our Sharpe ratio. We can see that without the trading buffer, transaction costs significantly negate our edge leading to a Sharpe of `1.1`.
+
+## Backtesting the 0.5/0.2/0.3 Strategy
+
+Now we can feed in our data of our 0.5/0.2/0.3 carry/momentum/breakout strategy into the backtest function to produce our results with a buffer of `0.05` and a comission percentage of `0.15%`, with no reinvesting capital of `10000`.
+```python
+result_df, total_eq, sharpe = fixed_commission_backtest_with_funding(
+                                    close, weights,funding, trade_buffer=0.05,
+                                    initial_cash=10000, commission_pct=0.0015, reinvest=False)
+
+resulting_dfs = split_column_lists(result_df, weights.columns[1:].tolist())
+close_df = resulting_dfs['Close']
+position_df = resulting_dfs['Position']
+value_df = resulting_dfs['Value']
+funding_df = resulting_dfs['Funding']
+periodpnl_df = resulting_dfs['PeriodPnL']
+trades_df = resulting_dfs['Trades']
+tradevalue_df = resulting_dfs['TradeValue']
+commission_df = resulting_dfs['Commission']
+```
+
+```python
+plot_equity(total_eq,sharpe)
+```
+<center>
+<img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/2_equity_curve.png" style="width:100%;"/>
+</center>
+
+A Sharpe of 1.67, similar to the original post. Let's look at turnover. We can see that with a trade buffer of `0.05` the turnover on average hits `~4%` of the trading capital per day, with extremes of turning over `~15%` of the book.
+
+<center>
+<img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/4_turnover.png" style="width:100%;"/>
+</center>
+
+Further zooming in on turnover of a randomly chosen week:
+
+<center>
+<img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/5_daily_turnover.png" style="width:70%;"/>
+</center>
+
+## Backtesting a Dynamically Weighted Strategy

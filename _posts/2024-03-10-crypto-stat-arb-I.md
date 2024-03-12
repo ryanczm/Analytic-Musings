@@ -297,7 +297,7 @@ model_df.groupby('date')['carry_rets','momo_rets','breakout_rets']
 </center>
 
 * Carry - High cumulative factor return, low volatility, but bulk of growth comes from first two years.
-* Breakout - High factor cumulative return, but very volatile. What happened in April 2022?
+* Breakout - High factor cumulative return, but very volatile. Did very well in the FTX crash in April 2022.
 * Momo - Weakest cumulative return as per lowest IC.
 
 In the next post, Kris plots the factor decile plots per year, noting the relationship changes over time. To capture this, he models the weights directly as expected returns via rolling regressions - fitting rolling 90 day returns as linear combinations of signals. 
