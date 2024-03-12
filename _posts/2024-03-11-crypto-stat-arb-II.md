@@ -327,7 +327,7 @@ Unfortunately, performance of this strategy is worse than the simple, static 0.5
 
 ## Summary
 
-And thus, we have backtested the carry/breakout/momentum strategy using signals created in [Part I](https://analytic-musings.com/2024/03/10/crypto-stat-arb-I/), using the rough outline of RobotJames and Kris `rsims` R backtesting library to construct a Python event-based back test.
+And thus, we've backtested the carry/breakout/momentum strategy using signals created in [Part I](https://analytic-musings.com/2024/03/10/crypto-stat-arb-I/), We've constructed a Python event-based backtest using RobotJames and Kris `rsims` backtesting library as a guide. We've backtested two variants of the strategy, and evaluated their equity curves, Sharpe ratios, optimal trading buffer values, return characteristics and turnover.
 
 One criticism of course, is that in the backtest, I sort of removed the code responsible for margin related rebalancing. Another issue is that my formula for momentum is different from Kris', and the weights of the momentum are -0.2 instead of 0.2 (my momentum factor plots shows a linear trend). And lastly, I didn't exactly replicate the methodology for modelling expected returns - I used all 3 features as cross-sectional return estimates, with different window/skip lengths (30/1 instead of 90/10), while the original post used only momentum/carry for xs and breakout for ts.
 
