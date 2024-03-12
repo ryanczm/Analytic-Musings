@@ -309,7 +309,7 @@ This would mean instead of using a static 0.5/0.2/0.3 blending scheme, the weigh
 
 In conclusion, this post was my first trading project, which I am very thankful to RobotJames and Kris for putting this out there for free in R. As an aspiring quant, I am very grateful such good free learning resources - complete with code, data and results exist, for us to learn.
 
-While from reading their R code I do notice the elegance of R's functional programming workflow with `%>%` and plotting capability with `ggplot`. I learned some Python tricks to emulate this.
+We've constructed basic signals, both cross-sectional and time series, evaluated their characteristics and their returns. We've done so using some Pandas workflows to evaluate a dynamic universe of instruments in a cross-sectional manner, in the spirit of R's functional programming paradigm with `%>%`.
 
 In the next post, I adapt and translate code from James and Kris' backtesting framework in R, `Rsims`, to implement the backtest in Python with trading costs and a _trading buffer_ heuristic to reduce turnover, in place of portfolio optimization. This lets us properly evaluate the strategy with deployed capital, and compare the simple 0.5/0.2/0.3 weighting scheme to a dynamic one based off estimating expected returns with regressions.
 

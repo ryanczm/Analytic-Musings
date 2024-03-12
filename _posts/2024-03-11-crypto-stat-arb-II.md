@@ -2,11 +2,11 @@
 layout: post
 title: "Crypto Stat Arb Series II: Backtesting with a Trade Buffer"
 category: quant
-excerpt: "Part II of a trading project from RobotJames/Kris, originally in R, in Python. I code up a backtest in Python based off RJ/Kris' R backtesting framework Rsims to implement a trading buffer as a heuristic to manage turnover. I then backtest the 0.3/0.2/0.5 carry/momentum/breakout weighted strategy from Part I versus a dynamically weighted version modelling expected returns, finding the trade buffer value for optimal Sharpe."
+excerpt: "Part II of a trading project from RobotJames/Kris, originally in R, in Python. I code up a backtest in Python based off RJ/Kris' event-based R backtesting framework Rsims to implement a trading buffer as a heuristic to manage turnover. I then backtest the 0.3/0.2/0.5 carry/momentum/breakout weighted strategy from Part I versus a dynamically weighted version modelling expected returns, finding the trade buffer value for optimal Sharpe."
 
 ---
 
-Part II trading project from RobotJames/Kris, originally in R, in Python. I code up a backtest in Python based off RJ/Kris' R backtesting framework [Rsims](https://github.com/Robot-Wealth/rsims) to implement a trading buffer as a heuristic to manage turnover. I then backtest the 0.3/0.2/0.5 weighted strategy from Part I versus a dynamically weighted version of the strategy from modelling expected returns.
+Part II trading project from RobotJames/Kris, originally in R, in Python. I code up a backtest in Python based off RJ/Kris' event-based R backtesting framework [Rsims](https://github.com/Robot-Wealth/rsims) to implement a trading buffer as a heuristic to manage turnover. I then backtest the 0.3/0.2/0.5 weighted strategy from Part I versus a dynamically weighted version of the strategy from modelling expected returns.
 
 We want to simulated our strategy in the previous post via a backtest. RobotJames and Kris cover this in this part of their Crypto stat arb series. They have a backtesting library in R, `rsims`, that they use and demonstrate in their post. We are going to implement a simpler version of `fixed_comission_with_funding.R` in Python. To quote their post:
 
@@ -33,6 +33,8 @@ funding = model_df.pivot(index='date', columns='ticker', values='funding_rate').
 # Structure of the Backtest
 
 The main code of the backtest is in this function: `fixed_commission_backtest_with_funding`. It expects the `weights`, `close` and `funding` in the format mentioned above. It assumes we can trade fractional positions, and starts with 10000 initial cash that is not reinvested - we always rebalance with 10000 or less each day.
+
+The `15 bps` costs is quoted from the original psot as a "reasonable approximation of actual Binance costs (spreads + market impact + commission)".
 
 ```python
 def fixed_commission_backtest_with_funding(prices, target_weights, funding_rates, 
@@ -199,21 +201,31 @@ plot_equity(total_eq,sharpe)
 <img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/2_equity_curve.png" style="width:100%;"/>
 </center>
 
-A Sharpe of 1.67, similar to the original post. Let's look at turnover. We can see that with a trade buffer of `0.05` the turnover on average hits `~4%` of the trading capital per day, with extremes of turning over `~15%` of the book.
+A Sharpe of 1.67, similar to the original post. Let's look at turnover. We can see that with a trade buffer of `0.05` the turnover on average hits `~4%` of the trading capital per day, with extremes of turning over `~15%` of the book. Interestingly, the strategy returns have negative skew.
+
 
 <center>
 <img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/4_turnover.png" style="width:100%;"/>
 </center>
 
-Further zooming in on turnover of a randomly chosen week:
 
 <center>
-<img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/5_daily_turnover.png" style="width:70%;"/>
+<img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/3_rets_dist.png" style="width:90%;"/>
 </center>
+
+We can also plot the turnover of a randomly chosen week:
+
+
+<center>
+<img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/5_daily_turnover.png" style="width:90%;"/>
+</center>
+
 
 ## Backtesting a Dynamically Weighted Strategy
 
 In this article, [How to Model Features as Expected Returns](https://robotwealth.com/how-to-model-features-as-expected-returns/), Kris shows how to convert the raw signals into returns. He regresses momentum and carry weights on a historical 90 day window of demeaned returns, and breakout on the same window of returns. The model coefficients are used recalculated every 10 days to capture the changing relationship between deciles and returns. 
+
+We can then blend our carry/momentum/breakout into a single weight for a ticker for a day by taking the model coefficients multiplied by the feature deciles plus the intercept. 
 
 <center>
 <img src="{{ site.imageurl }}/CryptoStatArb/images_research/16_carry_dec_year.png" style="width:100%;"/>
@@ -232,4 +244,91 @@ Momentum looks even noisier with no visible relationship.
 <img src="{{ site.imageurl }}/CryptoStatArb/images_research/17_breakout_dec_year.png" style="width:100%;"/>
 </center>
 
-Kris regresses momentum and carry on cross-sectional returns to estimate it, but does not use the linear model for the breakout feature. Instead, we will estimate cross-sectional returns with momentum, carry and breakout, then blend the coefficients times weights + intercept for the return estimate, and that will be our weights.
+Kris regresses momentum and carry on cross-sectional returns to estimate it, but does not use the linear model for the breakout feature. Instead, we will estimate cross-sectional returns with momentum, carry and breakout with rolling 30 day window then blend the coefficients times weights + intercept for the return estimate, and that will be our weights.
+
+I first rank breakout weights cross-sectionally then use `qcut` to produce our quantiles, then shift it so breakout is on a scale of -4.5 to 4.5:
+
+```python
+exp_return_df = model_df.copy()
+exp_return_df = exp_return_df.groupby('date').apply(lambda x:x.assign(
+                        breakout_weight = pd.qcut(x.breakout_weight.rank(method='first')
+                        , q=10, labels=False, duplicates='drop') + 1 - 5.5,
+                        )).reset_index(drop=True)
+```
+Then, we can code up the rolling regressions with `rolling_ols`. We first group by date, then use the length of the grouped data and skip length in our for loop. We store the model coefficients at each interval, then `.resample('D').ffill()` to get daily coefficients.
+
+```python
+
+import statsmodels.api as sm
+def rolling_ols(data, target_col, feature_cols, window_size=30, skip_size=1):
+    
+    label = 'xs' if target_col == 'demeaned_rets' else 'ts'
+    results = pd.DataFrame(columns=['date'] + 
+    [f'coef_{col}' for col in feature_cols] + [f'{label}_intercept'] + [f'{label}_r2'])
+    # Group the data by 'date'
+    grouped_data = data.groupby('date')
+    # Iterate through the unique dates with the rolling window and skip
+    for i in range(0, len(grouped_data), skip_size):
+        # Select the unique dates for the current window
+        selected_dates = list(grouped_data.groups.keys())[i:i+window_size]
+        # Extract rows for the selected dates
+        window_data = data[data['date'].isin(selected_dates)]
+        # Fit the OLS model
+        y = window_data[target_col]
+        X = sm.add_constant(window_data[feature_cols])
+        model = sm.OLS(y, X).fit()
+        # Extract and store the results
+        results = results.append({'date': window_data.iloc[-1]['date'],
+                                    **{f'coef_{col}': model.params[col] for col in feature_cols},
+                                    f'{label}_intercept': model.params['const'],
+                                    f'{label}_r2': model.rsquared},
+                                    ignore_index=True)
+
+    results.set_index('date', inplace=True)
+    results.index = pd.to_datetime(results.index)
+    return results.groupby(results.index).last()
+```
+We can then inner join our regression coefficients and intercept to our data.
+
+```python
+xs_coeffs = rolling_ols(df, 'demeaned_rets', ['carry_weight','momo_weight','breakout_weight'])
+            .resample('D').ffill()
+exp_return_df['date'] = pd.to_datetime(exp_return_df['date'])
+exp_return_df = pd.merge(exp_return_df,xs_coeffs,on='date',how='inner')
+```
+```python
+xs_coeffs[['coef_carry_weight','coef_momo_weight','coef_breakout_weight']]
+.plot(figsize=(10,4),title='Rolling linear model coefficients')
+```
+
+<center>
+<img src="{{ site.imageurl }}/CryptoStatArb/images_research/18_ts_lm_coeffs.png" style="width:100%;"/>
+</center>
+
+Similar to the statically weighted strategy, we can run it through the backtest to optimize for the buffer.
+
+<center>
+<img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/1_ts_sharpe_buffer.png" style="width:80%;"/>
+</center>
+
+<center>
+<img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/2_ts_equity_curve.png" style="width:100%;"/>
+</center>
+
+<center>
+<img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/4_ts_turnover.png" style="width:100%;"/>
+</center>
+
+<center>
+<img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/3_ts_rets_dist.png" style="width:90%;"/>
+</center>
+
+Unfortunately, performance of this strategy is worse than the simple, static 0.5/0.2/0.3 weighting, with 2x as much turnover for the same trading buffer value. However, the skew profile is positive compared to to the previous strategy.
+
+## Summary
+
+And thus, we have backtested the carry/breakout/momentum strategy using signals created in [Part I](https://analytic-musings.com/2024/03/10/crypto-stat-arb-I/), using the rough outline of RobotJames and Kris `rsims` R backtesting library to construct a Python event-based back test.
+
+One criticism of course, is that in the backtest, I sort of removed the code responsible for margin related rebalancing. Another issue is that my formula for momentum is different from Kris', and the weights of the momentum are -0.2 instead of 0.2 (my momentum factor plots shows a linear trend). And lastly, I didn't exactly replicate the methodology for modelling expected returns - I used all 3 features as cross-sectional return estimates, with different window/skip lengths (30/1 instead of 90/10), while the original post used only momentum/carry for xs and breakout for ts.
+
+This concludes a small 2 part series of a trading project. I have no original trading ideas, so the best I can do for now is to copy good projects to learn the workflows.
