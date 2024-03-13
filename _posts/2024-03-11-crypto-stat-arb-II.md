@@ -6,7 +6,7 @@ excerpt: "Part II of a trading project from RobotJames/Kris, originally in R, in
 
 ---
 
-Part II trading project from RobotJames/Kris, originally in R, in Python. I code up a backtest in Python based off RJ/Kris' event-based R backtesting framework [Rsims](https://github.com/Robot-Wealth/rsims) to implement a trading buffer as a heuristic to manage turnover. I then backtest the 0.3/0.2/0.5 weighted strategy from Part I versus a dynamically weighted version of the strategy from modelling expected returns.
+Part II trading project from RobotJames/Kris, originally in R, in Python. I code up a backtest in Python based off RJ/Kris' event-based R backtesting framework [Rsims](https://github.com/Robot-Wealth/rsims) to implement a trading buffer as a heuristic to manage turnover. I then backtest the 0.3/0.2/0.5 weighted strategy from Part I versus a dynamically weighted version of the strategy from modelling expected returns. My code can be found [_here_](https://github.com/ryanczm/Crypto-Stat-Arb).
 
 We want to simulated our strategy in the previous post via a backtest. RobotJames and Kris cover this in this part of their Crypto stat arb series. They have a backtesting library in R, `rsims`, that they use and demonstrate in their post. We are going to implement a simpler version of `fixed_comission_with_funding.R` in Python. To quote their post:
 

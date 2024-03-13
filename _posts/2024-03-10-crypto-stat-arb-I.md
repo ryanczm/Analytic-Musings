@@ -12,7 +12,7 @@ Having done several paper replications and realizing they are too theoretical, I
 
 I decided to challenge myself to reimplement this in Python, to get familiar with basic concepts & workflow of research & backtesting a strategy. It turned out to be a good decision, taking me a week, but I've learned lots - time well-invested. It let me cross-check to confirm if my code was correct. I split this two separate posts, research and backtest. 
 
-In particular, I've learned Pandas techniques to do quant work on cross-sectional data of a dynamic universe of stocks/tickers. While I did use GPT heavily to translate R code to Python, the underlying techniques and concepts are the same in either language. My code can be found [_here_](https://github.com/).
+In particular, I've learned Pandas techniques to do quant work on cross-sectional data of a dynamic universe of stocks/tickers. While I did use GPT heavily to translate R code to Python, the underlying techniques and concepts are the same in either language. My code can be found [_here_](https://github.com/ryanczm/Crypto-Stat-Arb).
 
 ## Universe Selection
 
