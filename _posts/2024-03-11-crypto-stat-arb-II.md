@@ -1,5 +1,5 @@
 ---
-image: "{{ site.imageurl }}/CryptoStatArb/images_backtest/6_rolling_sharpe.png"
+image: "/./assets/images/CryptoStatArb/images_backtest/6_rolling_sharpe.png"
 layout: post
 title: "Crypto Stat Arb Series II: Backtesting with a Trade Buffer"
 category: quant
@@ -27,7 +27,7 @@ funding = model_df.pivot(index='date', columns='ticker', values='funding_rate').
 ```
 
 <center>
-<img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/0_weights.png" style="width:100%;"/>
+<img src="/./assets/images/CryptoStatArb/images_backtest/0_weights.png" style="width:100%;"/>
 </center>
 
 # Structure of the Backtest
