@@ -210,9 +210,12 @@ plot_equity(total_eq,sharpe)
 <img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/6_rolling_vol.png" style="width:100%;"/>
 </center>
 
+<center>
+<img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/6_drawdown.png" style="width:100%;"/>
+</center>
 
-A Sharpe of 1.67, similar to the original post. Let's look at turnover. We can see that with a trade buffer of `0.05` the turnover on average hits `~4%` of the trading capital per day, with extremes of turning over `~15%` of the book. Interestingly, the strategy returns have negative skew.
 
+A Sharpe of 1.67, similar to the original post. Let's look at turnover. We can see that with a trade buffer of `0.05` the turnover on average hits `~4%` of the trading capital per day, with extremes of turning over `~15%` of the book. Interestingly, the strategy returns have negative skew. We can also notice that the strategy performs better in more recent years with higher rolling Sharpe ratios and shorter drawdown periods.
 
 <center>
 <img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/4_turnover.png" style="width:100%;"/>
@@ -336,6 +339,10 @@ Similar to the statically weighted strategy, we can run it through the backtest 
 </center>
 
 <center>
+<img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/6_ts_drawdown.png" style="width:100%;"/>
+</center>
+
+<center>
 <img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/4_ts_turnover.png" style="width:100%;"/>
 </center>
 
@@ -343,7 +350,7 @@ Similar to the statically weighted strategy, we can run it through the backtest 
 <img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/3_ts_rets_dist.png" style="width:90%;"/>
 </center>
 
-Unfortunately, performance of this strategy is worse than the simple, static 0.5/0.2/0.3 weighting, with 2x as much turnover for the same trading buffer value. However, the skew profile is positive compared to to the previous strategy.
+Unfortunately, performance of this strategy is worse than the simple, static 0.5/0.2/0.3 weighting, with 2x as much turnover for the same trading buffer value, a Sharpe ratio of `1.12` for the optimal trading buffer value, and with a very bad and long drawdown for the entirety of 2022. However, the skew profile is positive compared to to the previous strategy.
 
 ## Summary
 

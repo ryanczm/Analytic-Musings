@@ -17,7 +17,7 @@ In particular, I've learned Pandas techniques to do quant work on cross-sectiona
 
 ## Universe Selection
 
-The data, available on their [repo](https://github.com/Robot-Wealth/trader-tales/tree/master/quantifying-combining-alphas) is of ~200 Crypto perpetual futures from 2019 to last month on Binance. It is in long form, ordered by ticker and date:
+The data, available on their [repo](https://github.com/Robot-Wealth/trader-tales/tree/master/quantifying-combining-alphas) is of ~260 Crypto perpetual futures from 2019 to last month on Binance. It is in long form, ordered by ticker and date:
 
 <center>
 <img src="{{ site.imageurl }}/CryptoStatArb/images_research/0_perps.png" style="width:100%;"/>
