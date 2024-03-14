@@ -1,4 +1,8 @@
 ---
+image:
+  path: {{ site.imageurl }}/CryptoStatArb/images_backtest/0_weights.png
+  height: 100
+  width: 100
 layout: post
 title: "Crypto Stat Arb Series II: Backtesting with a Trade Buffer"
 category: quant
@@ -198,8 +202,18 @@ commission_df = resulting_dfs['Commission']
 plot_equity(total_eq,sharpe)
 ```
 <center>
-<img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/2_equity_curve.png" style="width:100%;"/>
+<img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/2_equity_curve.png" style="width:110%;"/>
 </center>
+
+
+<center>
+<img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/6_rolling_sharpe.png" style="width:100%;"/>
+</center>
+
+<center>
+<img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/6_rolling_vol.png" style="width:100%;"/>
+</center>
+
 
 A Sharpe of 1.67, similar to the original post. Let's look at turnover. We can see that with a trade buffer of `0.05` the turnover on average hits `~4%` of the trading capital per day, with extremes of turning over `~15%` of the book. Interestingly, the strategy returns have negative skew.
 
@@ -207,6 +221,7 @@ A Sharpe of 1.67, similar to the original post. Let's look at turnover. We can s
 <center>
 <img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/4_turnover.png" style="width:100%;"/>
 </center>
+
 
 
 <center>
@@ -305,14 +320,23 @@ xs_coeffs[['coef_carry_weight','coef_momo_weight','coef_breakout_weight']]
 <img src="{{ site.imageurl }}/CryptoStatArb/images_research/18_ts_lm_coeffs.png" style="width:100%;"/>
 </center>
 
-Similar to the statically weighted strategy, we can run it through the backtest to optimize for the buffer.
+Similar to the statically weighted strategy, we can run it through the backtest to optimize for the buffer. This time, we get higher volatility and lower return with a lower Sharpe ratio of 1.08.
 
 <center>
 <img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/1_ts_sharpe_buffer.png" style="width:80%;"/>
 </center>
 
+
 <center>
 <img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/2_ts_equity_curve.png" style="width:100%;"/>
+</center>
+
+<center>
+<img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/6_ts_rolling_sharpe.png" style="width:100%;"/>
+</center>
+
+<center>
+<img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/6_ts_rolling_vol.png" style="width:100%;"/>
 </center>
 
 <center>
