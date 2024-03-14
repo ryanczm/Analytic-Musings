@@ -319,7 +319,7 @@ xs_coeffs[['coef_carry_weight','coef_momo_weight','coef_breakout_weight']]
 <img src="{{ site.imageurl }}/CryptoStatArb/images_research/18_ts_lm_coeffs.png" style="width:100%;"/>
 </center>
 
-Similar to the statically weighted strategy, we can run it through the backtest to optimize for the buffer. This time, we get higher volatility and lower return with a lower Sharpe ratio of 1.08.
+Similar to the statically weighted strategy, we can run it through the backtest to optimize for the buffer. This time, we get higher volatility and lower returns.
 
 <center>
 <img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/1_ts_sharpe_buffer.png" style="width:80%;"/>
@@ -350,7 +350,7 @@ Similar to the statically weighted strategy, we can run it through the backtest 
 <img src="{{ site.imageurl }}/CryptoStatArb/images_backtest/3_ts_rets_dist.png" style="width:90%;"/>
 </center>
 
-Unfortunately, performance of this strategy is worse than the simple, static 0.5/0.2/0.3 weighting, with 2x as much turnover for the same trading buffer value, a Sharpe ratio of `1.12` for the optimal trading buffer value, and with a very bad and long drawdown for the entirety of 2022. However, the skew profile is positive compared to to the previous strategy.
+Unfortunately, performance of this strategy is worse than the simple, static 0.5/0.2/0.3 weighting, with 2x as much turnover for the same trading buffer value, a Sharpe ratio of `1.12` for the optimal trading buffer value, and with a very bad and long drawdown for the entirety of 2022. However, the skew profile is positive compared to to the previous strategy. But it definitely seems like keeping thing simple is a much better way to go - especially since the rolling regression coefficients introduces more degrees of freedom into the strategy.
 
 ## Summary
 
