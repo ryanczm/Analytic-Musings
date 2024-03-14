@@ -1,4 +1,5 @@
 ---
+image: "/./assets/images/CryptoStatArb/images_research/9_xs_decay.png"
 layout: post
 title: "Crypto Stat Arb Series I: Quantifying & Combining Alphas"
 category: quant
