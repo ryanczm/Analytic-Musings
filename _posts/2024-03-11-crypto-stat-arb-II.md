@@ -1,5 +1,5 @@
 ---
-image: "/./assets/images/CryptoStatArb/images_backtest/6_rolling_sharpe.png"
+image: "/./assets/images/CryptoStatArb/images_backtest/preview_ts.png"
 layout: post
 title: "Crypto Stat Arb Series II: Backtesting with a Trade Buffer"
 category: quant
