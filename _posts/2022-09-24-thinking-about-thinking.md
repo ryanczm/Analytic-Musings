@@ -65,9 +65,10 @@ So, let's try to find the right words to express the _things_ and their _links_.
 
 # Semideterministic Framework
 
-<p>For semi-deterministic fields, the thing is <i>information</i>. The connection <i>computation</i>. To <i>link</i> computations, we take information, send it to a computation, get new information, then send it through another computation, so on and so forth.</p>
-<p>Information/data is the node. It has a type: which defines the allowable operations/computations that it can undergo or link with. Hence, when doing anything computing related, it is very important to keep track of the data you work with and their types.</p>
-<p>Computations and data can be broken down recursively into more computations in a top-down manner. This style of thinking seems very important. </p>
+For semi-deterministic fields, this is pretty difficult. I believe the best way to approach computation is via _systems_. What is a system? A system consists of a bunch of systems. Or parts. The key skill, I believe is breaking down a system into the respective systems, and doing this in a recursive manner to unlock complexity. Parts interact with each other by passing inputs and output amongst another, being data. This area is tough because I think it's hard to quantify exactly the mental model needed compared to other frameworks, but I believe this is the most effective way.
+
+The idea of _breaking a system down into more systems/parts_ and doing it _recursively_ is not _linear_, unlike the deterministic framework. It takes into account everything at once. That is the key distinction between the semideterministic framework and deterministic way of thinking.
+
 
 <blockquote>
 Input → system (computation) → output. This is my core paradigm for understanding anything.
