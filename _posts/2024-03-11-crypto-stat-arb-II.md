@@ -3,7 +3,7 @@ image: "/./assets/images/CryptoStatArb/images_backtest/preview_ts.png"
 layout: post
 title: "Crypto Stat Arb Series II: Backtesting with a Trade Buffer"
 category: quant
-excerpt: "Part II of a trading project from RobotJames/Kris, originally in R, in Python. I code up a backtest in Python based off RJ/Kris' event-based R backtesting framework Rsims to implement a trading buffer as a heuristic to manage turnover. I then backtest the 0.3/0.2/0.5 carry/momentum/breakout weighted strategy from Part I versus a dynamically weighted version modelling expected returns, finding the trade buffer value for optimal Sharpe, calculating turnover, equity curves and return characteristics of each."
+excerpt: "Part II of the crypto stat arb series. I code up a backtest in Python based off the Rsims backtesting framework in R (duh) to implement a trading buffer to manage turnover. Then, we backtest the fixed weight combination of carry/momentum/breakout strategy from Part I versus a dynamically weighted version using regressions. With the backtest, we can find an optimal trading buffer value that maximizes Sharpe or turns over a desired portion of the book daily. "
 ---
 
 Part II trading project from RobotJames/Kris, originally in R, in Python. I code up a backtest in Python based off RJ/Kris' event-based R backtesting framework [Rsims](https://github.com/Robot-Wealth/rsims) to implement a trading buffer as a heuristic to manage turnover. I then backtest the 0.3/0.2/0.5 weighted strategy from Part I versus a dynamically weighted version of the strategy from modelling expected returns. My code can be found [_here_](https://github.com/ryanczm/Crypto-Stat-Arb).

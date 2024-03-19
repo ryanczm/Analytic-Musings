@@ -4,7 +4,7 @@ title: "Paper Replication: Crude Oil Contango Arbitrage & Floating Storage"
 category: commodities
 
 ---
-In this post, I analyze  Regli's - Crude Oil Contango Arbitrage and the Floating Storage Decision 2019 paper, which investigates and models historical floating storage arbitrage opportunities (GFC, 2008 and the Oil Glut, 2015) when the crude oil curve is in contango, and models excess profits of storage over an FFA-hedged time-charter strategy.
+I analyze  Regli's - Crude Oil Contango Arbitrage and the Floating Storage Decision 2019 paper, which investigates and models historical floating storage arbitrage opportunities (GFC, 2008 and the Oil Glut, 2015) when the crude oil curve is in contango. Basically the idea is in supply-shock crises you are better off storing your crude for a long time. Something something freight rate term structure blah blah.
 <!--more-->
 
 The paper is divided into several parts: it explains formulas for floating storage trade & the no-arbitrage condition, then simulates the profitability of floating storage from 2006-2018, and analyses excess profits over a FFA-hedged time-charter strategy (using the vessel for transport instead of storage).

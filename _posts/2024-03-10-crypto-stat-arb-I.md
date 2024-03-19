@@ -3,7 +3,7 @@ image: "/./assets/images/CryptoStatArb/images_research/preview.png"
 layout: post
 title: "Crypto Stat Arb Series I: Quantifying & Combining Alphas"
 category: quant
-excerpt: "This is a trading project from RobotJames/Kris, originally in R, translated to Python. A crypto stat arb strategy, with a net l/s tilt, based on cross-sectional carry/momo/breakout of the top 30 perpetuals by rolling volume out of ~200 tickers from 2019 to 2024. In the first part, these signals are quantified: factor decile plots, IC, decay, then blended into weights to simulate a frictionless trading strategy. "
+excerpt: "I look at some alphas for a crypto stat arb strategy. We use momentum, carry and breakout - simple price action features. I evaluate how 'good' they are: looking their mean returns across deciles, the info coefficients and how they decay over time. Then I combine these with 'hardcoded' weights to see the hypothetical returns of trading these signals frictionlessly. "
 
 ---
 
