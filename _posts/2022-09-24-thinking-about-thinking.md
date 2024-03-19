@@ -71,6 +71,8 @@ The idea of _breaking a system down into more systems/parts_ and doing it _recur
 
 * What system is this part a part of?
 * What does this compose of? What can this be broken down into?
+* What is going on under the hood?
+
 
 
 <blockquote>
