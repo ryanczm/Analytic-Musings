@@ -39,7 +39,7 @@ So, let's try to find the right words to express the _things_ and their _links_.
 
 <p>Example Fields: Mathematics, natural sciences, engineering.</p>
 
-<p>There are two fundamental things: <i>concepts (abstraction)</i> and <i>measurements (physical variable)</i>. They can be represented with words (or symbols):</p>
+<p>There are two fundamental things: <i>concepts (abstraction)</i> and <i>physical objects (physical variable)</i>. They can be represented with words (or symbols):</p>
 <p>They are linked via connections. These can be direct or latent. Direct connections are obvious. Latent ones are sudden inspirations between seemingly unrelated things. The idea is to build up a dense, well-connected network of things in your head.</p>
 
 <blockquote>
@@ -67,7 +67,10 @@ So, let's try to find the right words to express the _things_ and their _links_.
 
 For semi-deterministic fields, this is pretty difficult. I believe the best way to approach computation is via _systems_. What is a system? A system consists of a bunch of systems. Or parts. The key skill, I believe is breaking down a system into the respective systems, and doing this in a recursive manner to unlock complexity. Parts interact with each other by passing inputs and output amongst another, being data. This area is tough because I think it's hard to quantify exactly the mental model needed compared to other frameworks, but I believe this is the most effective way.
 
-The idea of _breaking a system down into more systems/parts_ and doing it _recursively_ is not _linear_, unlike the deterministic framework. It takes into account everything at once. That is the key distinction between the semideterministic framework and deterministic way of thinking.
+The idea of _breaking a system down into more systems/parts_ and doing it _recursively_ is not _linear_, unlike the deterministic framework. It takes into account everything at once. That is the key distinction between the semideterministic framework and deterministic way of thinking. So here are some prompts:
+
+* What system is this part a part of?
+* What does this compose of? What can this be broken down into?
 
 
 <blockquote>
@@ -83,13 +86,15 @@ Being able to see something at lots of levels and <i>go between them smoothly</i
 </blockquote>
 <figcaption>—Donald Knuth, <cite><a href="https://www.youtube.com/watch?v=2BdBfsXbST8&ab_channel=LexFridman&t=553">Donald Knuth | Lex Fridman Podcast #62 (9:13)</a></cite></figcaption>
 
-<p>So, the <i>thing</i> is defined by Hotz. The idea of breaking down a thing into more things is shown by Keller and Knuth.</p>
 <br>
 <h2>Humanistic Framework</h2>
 
-These fields encompass finance, economics, history, etc. In here, the _thing_ is an action that expresses a _view_ (someone does something). 
+These fields encompass finance, economics, history, etc. In here, the key unit is the actor/person/entity. These actors will perform actions based off a perspective or view. The key prompts can be based on asking _why_:
 
-This propagates and influences what others think, causing them to do something. Actions are _linked_ when the action of one party causes other parties to react in kind.
+1. Who are the actors/people involved in this situation?
+2. Why did they act like this or think like this?
+
+Then, we can understand the situation historically, by connecting the dots by asking why someone did this or why someone has this view. Or we can project it forward, by understanding how it will evolve in the future after understanding the historical evolution.
 
 <blockquote>
 <p>My framework is built on two propositions. The first is that in situations that have thinking <i>participants</i>, the participants’ <i>views</i> of the world never perfectly correspond to the actual state of affairs.
@@ -97,12 +102,6 @@ The second proposition is that these imperfect views can influence the situation
 </blockquote>
 <figcaption>—George Soros, <cite><a href="https://www.georgesoros.com/2014/01/13/fallibility-reflexivity-and-the-human-uncertainty-principle-2/">Fallibility, Reflexivity, and the Human Uncertainty Principle</a></cite></figcaption>
 
-Interestingly, another aspect of taking an _action_ is the _payoff_. Taking an action produces a payoff distribution of outcomes (think of a histogram). Then, when deciding to take an action, you should:
-
-1. Try and get a sense of the payoff distribution, by estimating probabilities
-2. Discount or shift the distribution left by the costs/opportunity costs.
-
-If it's positive, then you should do it. Of course, the tough part is that estimating the payoff histogram can be very difficult and downright impossible sometimes! But nonetheless, you should still try and do this before deciding on an action. If an action is generally positive EV with very little cost, then you should do it to take a small easy win.
 
 
 <h2>Visualisation: Dual form</h2>
