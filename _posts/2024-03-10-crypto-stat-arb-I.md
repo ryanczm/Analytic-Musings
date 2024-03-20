@@ -7,13 +7,11 @@ excerpt: "I look at some alphas for a crypto stat arb strategy. We use momentum,
 
 ---
 
-<!-- This is a trading project from RobotJames/Kris, who originally published it in R, translated to Python. A crypto stat arb strategy based on carry/momo/breakout on the top most liquid by rolling volume perps. In the first part, signals are explored and researched, like their factor decile plots, IC, decay, etc, then blended into weights, then refined into expected returns with rolling regressions to improve Sharpe. -->
+I look at some alphas for a crypto stat arb strategy on Crypto perpetual futures on Binance. We use momentum, carry and breakout - simple price action features. I evaluate how 'good' they are: looking their mean returns across deciles, the info coefficients and how they decay over time. Then I combine these with 'hardcoded' weights to see the hypothetical returns of trading these signals frictionlessly. 
 
-Having done several paper replications and realizing they are too theoretical, I decided to implement a proper trading project. RobotJames/Kris are well-known quants in the Twitter community, and they have a [_5-part series_](https://robotwealth.com/quantifying-and-combining-crypto-alphas/), recently published, end-to-end trading strategy project on their blog [_RobotWealth_](https://robotwealth.com/blog/) (in R) - with clean [_code_](https://github.com/Robot-Wealth/trader-tales) and data available - something I am very grateful for.
+Having done several paper replications and realizing they are too theoretical, I decided to implement a trading project in Python, to get familiar with basic concepts & workflow of research & backtesting a strategy. I split this two separate posts, research and backtest. 
 
-I decided to challenge myself to reimplement this in Python, to get familiar with basic concepts & workflow of research & backtesting a strategy. It turned out to be a good decision, taking me a week, but I've learned lots - time well-invested. It let me cross-check to confirm if my code was correct. I split this two separate posts, research and backtest. 
-
-In particular, I've learned Pandas techniques to do quant work on cross-sectional data of a dynamic universe of stocks/tickers. While I did use GPT heavily to translate R code to Python, the underlying techniques and concepts are the same in either language. My code can be found [_here_](https://github.com/ryanczm/Crypto-Stat-Arb).
+In particular, I've learned Pandas techniques to do quant work on cross-sectional data of a dynamic universe of stocks/tickers. My code can be found [_here_](https://github.com/ryanczm/Crypto-Stat-Arb). This project is adapted off a [series](https://robotwealth.com/quantifying-and-combining-crypto-alphas/) by RobotJames & Kris: two well-known quants in the QuantTwit community.
 
 ## Universe Selection
 
@@ -301,17 +299,13 @@ model_df.groupby('date')['carry_rets','momo_rets','breakout_rets']
 * Breakout - High factor cumulative return, but very volatile. Did very well in April 2022.
 * Momo - Weakest cumulative return as per lowest IC.
 
-In the next post, Kris plots the factor decile plots per year, noting the relationship changes over time. To capture this, he models the weights directly as expected returns via rolling regressions - fitting rolling 90 day returns as linear combinations of signals. 
-
-This would mean instead of using a static 0.5/0.2/0.3 blending scheme, the weights for each signal are dynamic. This was replicated and Sharpe was improved (demonstrated in the next post).
+In the next post, we can see how to combine these signals in a dynamic fashion with weights from rolling regressions to estimate expected returns. But for now, we've combined them in a fixed manner, with static weights, based off eyeballing our analysis above and noting the higher IC of the carry factor.
 
 
 ## Conclusion
 
-In conclusion, this post was my first trading project, which I am very thankful to RobotJames and Kris for putting this out there for free in R. As an aspiring quant, I am very grateful such good free learning resources - complete with code, data and results exist, for us to learn.
+In conclusion, this post was my first trading project. We've constructed basic signals, both cross-sectional and time series, evaluated their characteristics and their returns. We've done so using some Pandas workflows to evaluate a dynamic universe of instruments in a cross-sectional manner.
 
-We've constructed basic signals, both cross-sectional and time series, evaluated their characteristics and their returns. We've done so using some Pandas workflows to evaluate a dynamic universe of instruments in a cross-sectional manner, in the spirit of R's functional programming paradigm with `%>%`.
-
-In the next post, I adapt and translate code from James and Kris' backtesting framework in R, `Rsims`, to implement the backtest in Python with trading costs and a _trading buffer_ heuristic to reduce turnover, in place of portfolio optimization. This lets us properly evaluate the strategy with deployed capital, and compare the simple 0.5/0.2/0.3 weighting scheme to a dynamic one based off estimating expected returns with regressions.
+In the next post, I adapt and translate code from RobotJames and Kris' backtesting framework in R, `Rsims`, to implement the backtest in Python with trading costs and a _trading buffer_ heuristic to reduce turnover, in place of portfolio optimization. This lets us properly evaluate the strategy with deployed capital, and compare the simple 0.5/0.2/0.3 weighting scheme to a dynamic one based off estimating expected returns with regressions.
 
 See you in the next post!

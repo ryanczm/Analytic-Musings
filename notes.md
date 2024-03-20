@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: 
 title: Notes
 order: 4
 ---

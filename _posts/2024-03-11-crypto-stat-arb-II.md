@@ -6,11 +6,8 @@ category: quant
 excerpt: "Part II of the crypto stat arb series. I code up a backtest in Python based off the Rsims backtesting framework in R (duh) to implement a trading buffer to manage turnover. Then, we backtest the fixed weight combination of carry/momentum/breakout strategy from Part I versus a dynamically weighted version using regressions. With the backtest, we can find an optimal trading buffer value that maximizes Sharpe or turns over a desired portion of the book daily. "
 ---
 
-Part II trading project from RobotJames/Kris, originally in R, in Python. I code up a backtest in Python based off RJ/Kris' event-based R backtesting framework [Rsims](https://github.com/Robot-Wealth/rsims) to implement a trading buffer as a heuristic to manage turnover. I then backtest the 0.3/0.2/0.5 weighted strategy from Part I versus a dynamically weighted version of the strategy from modelling expected returns. My code can be found [_here_](https://github.com/ryanczm/Crypto-Stat-Arb).
+Part II of the crypto stat arb series. I code up a backtest in Python based off the Rsims backtesting framework in R (duh) to implement a trading buffer to manage turnover. Then, we backtest the fixed weight combination of carry/momentum/breakout strategy from Part I versus a dynamically weighted version using regressions. With the backtest, we can find an optimal trading buffer value that maximizes Sharpe or turns over a desired portion of the book daily. My code can be found [_here_](https://github.com/ryanczm/Crypto-Stat-Arb).
 
-We want to simulated our strategy in the previous post via a backtest. RobotJames and Kris cover this in this part of their Crypto stat arb series. They have a backtesting library in R, `rsims`, that they use and demonstrate in their post. We are going to implement a simpler version of `fixed_comission_with_funding.R` in Python. To quote their post:
-
->This time we’ll consider costs and constrain the universe so that it would be operationally feasible to trade. And we’ll use an accurate backtest to explore the various trade offs.
 
 # Data Preparation
 
@@ -354,8 +351,6 @@ Unfortunately, performance of this strategy is worse than the simple, static 0.5
 
 ## Summary
 
-And thus, we've backtested the carry/breakout/momentum strategy using signals created in [Part I](https://analytic-musings.com/2024/03/10/crypto-stat-arb-I/), We've constructed a Python event-based backtest using RobotJames and Kris `rsims` backtesting library as a guide. We've backtested two variants of the strategy, and evaluated their equity curves, Sharpe ratios, optimal trading buffer values, return characteristics and turnover.
-
-One criticism of course, is that in the backtest, I sort of removed the code responsible for margin related rebalancing. Another issue is that my formula for momentum is different from Kris', and the weights of the momentum are -0.2 instead of 0.2 (my momentum factor plots shows a linear trend). And lastly, I didn't exactly replicate the methodology for modelling expected returns - I used all 3 features as cross-sectional return estimates, with different window/skip lengths (30/1 instead of 90/10), while the original post used only momentum/carry for xs and breakout for ts.
+And thus, we've backtested the carry/breakout/momentum strategy using signals created in [Part I](https://analytic-musings.com/2024/03/10/crypto-stat-arb-I/), We've constructed a Python event-based backtest using RobotJames and Kris `rsims` backtesting library as a guide. We've backtested two variants of the strategy: one with combining signals in a fixed manner, another with combining signals via estimating expected returns. We've evaluated their equity curves, Sharpe ratios, optimal trading buffer values, return characteristics and turnover.
 
 This concludes a small 2 part series of a trading project. I have no original trading ideas, so the best I can do for now is to copy good projects to learn the workflows.
