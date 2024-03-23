@@ -91,12 +91,9 @@ Being able to see something at lots of levels and <i>go between them smoothly</i
 <br>
 <h2>Humanistic Framework</h2>
 
-These fields encompass finance, economics, history, etc. In here, the key unit is the actor/person/entity. These actors will perform actions based off a perspective or view. The key prompts can be based on asking _why_:
+These fields encompass finance, economics, history, etc. In here, the key node is a composite of a behavior, an entity/actor, and a view. We draw connections to build a _situation_ to other nodes. A cheap heuristic would be to ask _who_, _what_ and _why_.
 
-1. Who are the actors/people involved in this situation?
-2. Why did they act like this or think like this?
-
-Then, we can understand the situation historically, by connecting the dots by asking why someone did this or why someone has this view. Or we can project it forward, by understanding how it will evolve in the future after understanding the historical evolution.
+An example is fundamental analysis. In this case, one tries to forecast how a _situation_ will play out, by constructing a graph of actors/behaviors, analyzing how a situation has evolved to a current point, then taking a view on how it will evolve into the future. This basically means trying to correctly predict human behavior in a low-dimensional fashion: so-and-so thinks this way, so he/she will do this. 
 
 <blockquote>
 <p>My framework is built on two propositions. The first is that in situations that have thinking <i>participants</i>, the participants’ <i>views</i> of the world never perfectly correspond to the actual state of affairs.
