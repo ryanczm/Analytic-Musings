@@ -39,7 +39,7 @@ So, let's try to find the right words to express the _things_ and their _links_.
 
 <p>Example Fields: Mathematics, natural sciences, engineering.</p>
 
-<p>There are two fundamental things: <i>concepts (abstraction)</i> and <i>physical objects (physical variable)</i>. They can be represented with words (or symbols):</p>
+<p>There are two fundamental things: <i>concepts (abstraction)</i> and <i>physical objects (physical variable)</i>. On the underlying side, they are just numbers, quantities that can vary, basically. But what they represent are two different things.</p>
 <p>They are linked via connections. These can be direct or latent. Direct connections are obvious. Latent ones are sudden inspirations between seemingly unrelated things. The idea is to build up a dense, well-connected network of things in your head.</p>
 
 <blockquote>
@@ -84,7 +84,7 @@ There's a relatively good understanding of <i>abstraction layers</i>. Atoms, sil
 </blockquote>
 <figcaption>—Jim Keller, <cite><a href="https://www.youtube.com/watch?v=Nb2tebYAaOA&ab_channel=LexFridman&t=250">Jim Keller | Lex Fridman Podcast #70 (4:10)</a></cite></figcaption>
 <blockquote>
-Being able to see something at lots of levels and <i>go between them smoothly</i> seems to be more pronounced in people that resonate with computing
+Being able to see something at lots of levels and <i>go between them smoothly</i> seems to be more pronodunced in people that resonate with computing
 </blockquote>
 <figcaption>—Donald Knuth, <cite><a href="https://www.youtube.com/watch?v=2BdBfsXbST8&ab_channel=LexFridman&t=553">Donald Knuth | Lex Fridman Podcast #62 (9:13)</a></cite></figcaption>
 
