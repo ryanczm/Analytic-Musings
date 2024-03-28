@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Learning Fundamental Analysis from Commods Twit"
+title: "Learning Fundamental Analysis off CommodsTwit"
 category: commods
-excerpt: "We are going to bootstrap learning fundamental analysis of commodity markets by Commods Twitter."
+excerpt: "We are going to bootstrap learning fundamental analysis of commodity markets by Commods Twitter. Project ideas come from here. #OOTT. Let's go."
 
 ---
 
@@ -20,12 +20,13 @@ excerpt: "We are going to bootstrap learning fundamental analysis of commodity m
     * We will systematically gather interesting Twitter threads, then do a writeup on selected ones.
 * The Desired Result
     * In this process, we will learn how they think in terms of fundamental analysis. We will have some projects or articles analyzing plays.
-    * Then, we put on resume to improve chances of landing/impressing in a commods trading analyst interview.
+    * The rule is that there must be no quantitative, programming, or statistical analysis involved. Purely discretionary.
 * Commodity Framework
-    * Who 
+    * Who
     * Where: location
     * How much: quantity and price
     * What: form and usage
+    * Why: why this event or decision is occuring.
 
 ## Freight
 
@@ -41,15 +42,17 @@ excerpt: "We are going to bootstrap learning fundamental analysis of commodity m
 ## Oil 
 
 * Big Orrin (XXXX) - Goat tier, long form views
-    * 
+    * TMX pipeline
+    * US crude export
+    * Russian price cap
 * Crudehead (XXX) - Views
 * Oil Bandit (XXX) - Charts analysis, interactive Oil dashboard tool on Looker
 * Gurgen Ayvazyan (XXX) - Charts analysis, with very interesting insights.
 * Anton Likhodedov (XXX) - Charts analysis, with very interesting insights
 * Kpler (XXX) - Charts
+* Shubham Garg (XX) - Charts analysis
 * Eric Nutall (XX) - Views
 * Ted Cross (XX) - E&P
-* Shubham Garg (XX) - Charts analysis
 * Javier Blas (X) - Reposter. potential new source identifier.
 
 
