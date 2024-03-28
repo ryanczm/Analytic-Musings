@@ -83,7 +83,7 @@ While the Middle East produces the most crude by far, the story of this chart is
 <img src="{{ site.imageurl }}/BPStatReview/8.png" style="width:100%;"/>
 </center>
 
-I was pretty surprised to learn that China produced more crude than Iran and further solidifies the power of the US as the top producer. Clearly, a country might have reserves, but economic, technological and political factors determine the ability to access and extract them.
+I was pretty surprised to learn that China produced more crude than Iran and further solidifies the power of the US as the top producer. Clearly, a country might have reserves, but economic, technological and political factors determine the ability to access and extract them (Kashagan, I'm looking at you!).
 
 <center>
 <img src="{{ site.imageurl }}/BPStatReview/9.png" style="width:100%;"/>
