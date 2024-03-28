@@ -1,5 +1,5 @@
 ---
-image: "/./assets/images/CryptoStatArb/images_backtest/preview_ts.png"
+image: "/./assets/images/BPStatreview/cover.png"
 layout: post
 title: "Understanding Crude & Product Trade Flows: Visualising the BP Statistical Review of World Energy"
 category: commods
