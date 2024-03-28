@@ -172,7 +172,9 @@ But what accounts for these flows?
 
 ## The Platts Periodic Table and Refinery Specs
 
-I soon realized the key was to understand the refinery diets and crude characteristics of each region. Platts provides a [_periodic table_]() of crude grades worldwide. I wanted to visualise this: so I manually scraped the data. Red and blue lines are API gravity thresholds for light (>34) and medium (>25). Here is the __interactive plot__ to play around with. The markers are scaled by field production levels. Hovering over a grade, we can see the location, specs and production levels. The text indicates grades that are used in a benchmark (e.g WAF, Urals, WTI, Dated Brent).
+I soon realized the key was to understand the refinery diets and crude characteristics of each region. Platts provides a [_periodic table_]() of crude grades worldwide. I wanted to visualise this: so I manually scraped the data. Red and blue lines are API gravity thresholds for light (>34) and medium (>25).\
+
+Here is the __interactive plot__ to play around with. The markers are scaled by field production levels. Hovering over a grade, we can see the location, specs and production levels. The text indicates grades that are used in a benchmark (e.g WAF, Urals, WTI, Dated Brent). Note: `plotly` doesn't do very well on iPhone/iPad so it's best viewed on desktop.
 
 {% include html_assets/platts.html %}
 
