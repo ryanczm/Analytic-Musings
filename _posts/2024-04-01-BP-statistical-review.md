@@ -139,14 +139,15 @@ Analyzing the trade flows, we can see the patterns emerge:
 
 * Exports
     * Heavy sours from Canada (oil sands), Mexico, South America into the US.
-    * US exports (presumably light sweet) to neighbours but majority to Europe, and other Asia Pacific (Japan?). Smaller amounts to China and India (presumably distance related?)
+    * US exports (presumably light sweet) to neighbours but majority to Europe, and other Asia Pacific (Japan?). Smaller amounts to China and India (presumably distance/grade related?)
     * South American crudes are to US, Europe and China.
     * Russian and Middle East crude, flow to Europe and APAC. However, with the Ukraine war, exports have reduced since the previous yesterday.
     * North and West Africa flows to Europe and APAC
+    * It's interesting to see the political impact of the Ukraine war, dependence on Russian crude imports has shrunk since 2021 across the board but still remain significant.
 * Imports
-    * Heavier, sourer crudes from Canada and South America into US.
     * Europe imports from all regions.
-    * APAC (China and India) mostly import from the ME, CIS and some from South America.
+    * China relies heavily on crude from CIS, SA and ME with minority imports from NA, implying its refineries are not well-equipped to handle light sweet crudes.
+    * India imports from the same regions as China except for twice as much from the US. My guess that American crudes are geographically far to import to China compared to India, incurring added cost. 
 
 <center>
 <img src="{{ site.imageurl }}/BPStatReview/18.png" style="width:100%;"/>
@@ -164,14 +165,14 @@ Unfortunately, the data in the report does not show flows by product, so we have
 * Excess gasoline from European refineries who process light sweet flows to meet US consumption while US refineries in turn ship excess diesel to meet heavy demand in Europe due to processing heavier crudes.
 * Strong refining capacity means the US imports heavier crudes from SA and ships the product back to them. Why does the US export so much back to central and SA? This would imply refining capacity in SA is insufficient to meet domestic demand, or the product prices are cheaper.
 * Other notable product flows are Russian product to Europe and Europe product to Africa (?)
-* On the import side, we can notice Singapore being a regional hub in Southeast Asia for refined products, and India being a strong exporter of product.
+* On the import side, we can notice Singapore being a regional hub in Southeast Asia for refined products, and India being a strong exporter of product - presumably excess refining capacity.
 
 
 But what accounts for these flows? 
 
 ## The Platts Periodic Table and Refinery Specs
 
-I soon realized the key was to understand the refinery diets and crude characteristics of each region. Platts provides a [_periodic table_]() of crude grades worldwide. I wanted to visualise this: so I manually scraped the data. Red and blue lights are API gravity thresholds for light (>34) and medium (>25). Here is the __interactive plot__:
+I soon realized the key was to understand the refinery diets and crude characteristics of each region. Platts provides a [_periodic table_]() of crude grades worldwide. I wanted to visualise this: so I manually scraped the data. Red and blue lines are API gravity thresholds for light (>34) and medium (>25). Here is the __interactive plot__ to play around with. The markers are scaled by field production levels. Hovering over a grade, we can see the location, specs and production levels. The text indicates grades that are used in a benchmark (e.g WAF, Urals, WTI, Dated Brent).
 
 {% include html_assets/platts.html %}
 
@@ -186,7 +187,7 @@ I soon realized the key was to understand the refinery diets and crude character
 
 Referencing the crude trade flows, it's clear US exports it's light sweet crude from the shale fields to Europe while taking in heavy Canadian and South American/Mexican crudes. The [EIA FAQ]() states that as of Jan 1 2023, there were 129 operable refineries in the US. Only 7 were built after 2010. However, the flow of grades is not specified.
 
-Since refineries are complex and difficult to re-configure, processing light and sweet shale oil domestically would mean operating at lower capacities since the distillation columns lighter sections would fill up faster, leaving the heavier sections, and further on, the cracking/coking units are then underutilized. 
+Since refineries are complex and difficult to re-configure, processing light and sweet shale oil domestically would mean operating at lower capacities since the distillation columns lighter sections would fill up faster, leaving the heavier sections, and their cracking/coking units to be underutilized and total throughput decreased. While the average gravity of American throughput is slowly increasing, the rate is extremely slow.
 
 Thus, it's reasonable to expect Asian refineries, to be geared towards the medium-sour from Middle East and possibly Urals from Russia?
 
