@@ -141,7 +141,7 @@ Analyzing the trade flows, we can see the patterns emerge:
     * Heavy sours from Canada (oil sands), Mexico, South America into the US.
     * US exports (presumably light sweet) to neighbours but majority to Europe, and other Asia Pacific (Japan?). Smaller amounts to China and India (presumably distance related?)
     * South American crudes are to US, Europe and China.
-    * Russian and Middle East crude, flow to Europe and APAC.
+    * Russian and Middle East crude, flow to Europe and APAC. However, with the Ukraine war, exports have reduced since the previous yesterday.
     * North and West Africa flows to Europe and APAC
 * Imports
     * Heavier, sourer crudes from Canada and South America into US.
