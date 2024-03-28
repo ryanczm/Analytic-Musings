@@ -198,3 +198,5 @@ At least, this is my understanding from reading _Leffler_ and _Gary_'s nontechni
 I still have parsed the natural gas data and plotted charts, but we'll leave that for another time. To conclude, this post visualises the BP Statistical Review for World Energy charts and the Platts Periodic table of crudes. I've got a decent geographic feel of how things flow at a high level. 
 
 This will be a foundational project to start off for commodities/oil & gas. I've planned two more successive projects: __analyzing a recent market view from a purely discretionary perspective (off an oil analyst's Twitter thread)__ and __building a balance for a product and doing some forecasting/analytics__. This project was done first to give me that basic understanding of oil & gas flows as pre-requisite. See you in the next post!
+
+Lastly, I'm aware this project may seem amateurish to those with experience. All I can ask is, give me time and effort (and feedback or criticism is hugely appreciated!). We'll get there in the end.
