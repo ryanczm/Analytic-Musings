@@ -185,7 +185,7 @@ I soon realized the key was to understand the refinery diets and crude character
 * NA crudes are light and sweet with the exception of Maya and West Canada Select.
 
 
-Referencing the crude trade flows, it's clear US exports it's light sweet crude from the shale fields to Europe while taking in heavy Canadian and South American/Mexican crudes. The [EIA FAQ]() states that as of Jan 1 2023, there were 129 operable refineries in the US. Only 7 were built after 2010. However, the flow of grades is not specified.
+Referencing the crude trade flows, it's clear US exports it's light sweet crude from the shale fields to Europe while taking in heavy Canadian and South American/Mexican crudes. The [EIA FAQ]() states that as of Jan 1 2023, there were 129 operable refineries in the US. Only 7 were built after 2010 (post-shale boom). However, the flow of grades is not specified, but it is safe to conclude the majority of US refineries were not built in mind to process the light sweet grades.
 
 Since refineries are complex and difficult to re-configure, processing light and sweet shale oil domestically would mean operating at lower capacities since the distillation columns lighter sections would fill up faster, leaving the heavier sections, and their cracking/coking units to be underutilized and total throughput decreased. While the average gravity of American throughput is slowly increasing, the rate is extremely slow.
 
