@@ -3,14 +3,14 @@ image: "/./assets/images/BPStatReview/cover.png"
 layout: post
 title: "Understanding Crude & Product Trade Flows: Visualising the BP Statistical Review of World Energy"
 category: commods
-excerpt: "Every year since 1952, BP publishes a report called the BP Statistical Review of World Energy. In it contains historic data on world energy markets: facts & figures on global energy markets from 1960 to 2022. I visualise and analyze the data via charts. My aim is to gain an intuitive geographic feel of global crude and product flows. Who are the biggest exporters? Importers? Producers? Consumers? Where are the sweet/sour/light/heavy crude regions? What are the (inferred) refinery slates across regions? Where does oil flow from country to country and why? After much wrangling, I produced charts how I see fit to describe the data. For each category, we will understand the sequence of events leading up to the story told in the chart."
+excerpt: "Every year since 1952, BP publishes a report called the BP Statistical Review of World Energy. In it contains historic data on world energy markets: facts & figures on global energy markets from 1960 to 2022. I visualise and analyze the data via charts. My aim is to gain an intuitive geographic feel of global crude and product flows. Who are the biggest exporters? Importers? Producers? Consumers? Where are the sweet/sour/light/heavy crude regions? What are the (inferred) refinery slates across regions? Where does crude & product flow from country to country and why? After much wrangling, I produced charts how I see fit to describe the data. For each category, we will understand the sequence of events leading up to the story told in the chart."
 ---
 
 Every year since 1952, BP publishes a report called the _BP Statistical Review of World Energy_. As of 2022, the custodian is now the Energy Institute, which has taken over BP. In it contains historic data on world energy markets: a facts and figures of the yearly production & consumption of energy and various commodities, from 1960/70 to 2022.
 
 At my past role at General Index, I never had a chance to get a feel of markets, flows and players for oil. What is the geographical distribution of crude, product and gas? Hence, I decided to take the data to produce some charts. From there, I could analyze selected ones, understanding the _who_, _what_, _where_ and _why_ of energy.
 
-My goal is to gain _intuitive geographical feel_ of the global energy markets, focusing on crude, product and natural gas. Who are the biggest exporters? Importers? Producers? Consumers? Where and why are the sweet/sour/light/heavy crude regions? What are the (inferred) refinery slates across regions? Where and from who does oil and gas flow from country to country? Can we explain the trade flows we see by understanding crude specs/refinery diets & geography?
+My goal is to gain _intuitive geographical feel_ of the global energy markets, focusing on crude, product and natural gas. Who are the biggest exporters? Importers? Producers? Consumers? Where and why are the sweet/sour/light/heavy crude regions? What are the (inferred) refinery slates across regions? Where and from who does oil and gas flow from country to country? Can we explain the trade flows we see by understanding the history of crude specs/refinery diets & geography?
 
 The data is found [here](). After much wrangling, I produced charts how I see fit to best explain the data. For each category, we will try and understand what the sequence of events leading up to the story told in the chart. We'll build up with simple, boring stuff to more exciting, interesting stuff.
 
@@ -162,7 +162,7 @@ Putting it together, we can see the rough geographic structure of crude flows. T
 Unfortunately, the data in the report does not show flows by product, so we have to guess:
 
 * Excess gasoline from European refineries who process light sweet flows to meet US consumption while US refineries in turn ship excess diesel to meet heavy demand in Europe due to processing heavier crudes.
-* Strong refining capacity means the US imports heavier crudes from SA and ships the product back to them.
+* Strong refining capacity means the US imports heavier crudes from SA and ships the product back to them. Why does the US export so much back to central and SA? This would imply refining capacity in SA is insufficient to meet domestic demand, or the product prices are cheaper.
 * Other notable product flows are Russian product to Europe and Europe product to Africa (?)
 * On the import side, we can notice Singapore being a regional hub in Southeast Asia for refined products, and India being a strong exporter of product.
 
