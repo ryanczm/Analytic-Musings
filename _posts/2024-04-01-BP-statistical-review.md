@@ -12,7 +12,7 @@ At my past role at General Index, I never had a chance to get a feel of markets,
 
 My goal is to gain _intuitive geographical feel_ of the global energy markets, focusing on crude, product and natural gas. Who are the biggest exporters? Importers? Producers? Consumers? Where and why are the sweet/sour/light/heavy crude regions? What are the (inferred) refinery slates across regions? Where and from who does oil and gas flow from country to country? Can we explain the trade flows we see by understanding the history of crude specs/refinery diets & geography?
 
-The data is found [here](). After much wrangling, I produced charts how I see fit to best explain the data. For each category, we will try and understand what the sequence of events leading up to the story told in the chart. We'll build up with simple, boring stuff to more exciting, interesting stuff.
+The raw data (from BP/Energy Institute) is found [here](https://www.energyinst.org/__data/assets/excel_doc/0007/1055545/EI-stats-review-all-data.xlsx). After much wrangling, I produced charts how I see fit to best explain the data. For each category, we will try and understand what the sequence of events leading up to the story told in the chart. We'll build up with simple, boring stuff to more exciting, interesting stuff.
 
 ## Table of Contents
 
@@ -26,6 +26,7 @@ The data is found [here](). After much wrangling, I produced charts how I see fi
 - [Capacity (K BBL D)](#capacity-k-bbl-d)
 - [Crude and Product Trade Flows (MN TN)](#crude-and-product-trade-flows-mn-tn)
 - [The Platts Periodic Table and Refinery Specs](#the-platts-periodic-table-and-refinery-specs)
+- [The Cost Curve](#the-cost-curve)
 - [Conclusion](#conclusion)
 
 <!-- /TOC -->
@@ -180,22 +181,24 @@ Here is the __interactive plot__ to play around with. The markers are scaled by 
 
 {% include html_assets/platts.html %}
 
-* African crudes are medium-light and sweet with some sour outliers. We should expect flows into Europe.
-* Asian crudes are medium and sweet.
-* CIS crudes are light and sweet except for the benchmark crude Urals which is medium sour.
+* African crudes are generally medium-light and sweet with some sour outliers from North Africa. We should expect flows into Europe. 
+* Asian crudes are medium and sweet in general. Some Chinese crudes tend to be on the heavy side.
+* CIS crudes are light and sweet except for the benchmark Russian crude Urals which is medium sour.
 * EU crudes are light and sweet.
-* ME crudes are medium sour.
+* ME crudes are generally medium sour.
 * SA crudes are sour and heavy.
-* NA crudes are light and sweet with the exception of Maya and West Canada Select.
+* NA crudes are generally light and sweet with the exception of Mexican and Canadian oil sand grades.
 
 
 Referencing the crude trade flows, it's clear US exports it's light sweet crude from the shale fields to Europe while taking in heavy Canadian and South American/Mexican crudes. The [EIA FAQ]() states that as of Jan 1 2023, there were 129 operable refineries in the US. Only 7 were built after 2010 (post-shale boom). However, the flow of grades is not specified, but it is safe to conclude the majority of US refineries were not built in mind to process the light sweet grades.
 
 Since refineries are complex and difficult to re-configure, processing light and sweet shale oil domestically would mean operating at lower capacities since the distillation columns lighter sections would fill up faster, leaving the heavier sections, and their cracking/coking units to be underutilized and total throughput decreased. While the average gravity of American throughput is slowly increasing, the rate is extremely slow.
 
-Thus, it's reasonable to expect Asian refineries, to be geared towards the medium-sour from Middle East and possibly Urals from Russia?
+Thus, it's reasonable to expect Asian refineries, to be geared towards the medium-sour grades from Middle East and possibly Urals from Russia?
 
 At least, this is my understanding from reading _Leffler_ and _Gary_'s nontechnical refining books. 
+
+## The Cost Curve
 
 ## Conclusion
 
