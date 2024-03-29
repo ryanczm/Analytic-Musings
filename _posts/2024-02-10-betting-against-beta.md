@@ -9,21 +9,16 @@ excerpt: "This post is a project based off Frazzini & Pedersen's 2013 paper, whi
 
 This post is a project based off Frazzini & Pedersen's 2013 paper, which demonstrates the Betting against Beta factor - a factor that is long low-beta and short high-beta stocks - to exploit the empirical flatness of the Capital Market Line. I reconstruct the BAB factors and do some basic analysis, learning introductory concepts in factor investing. The code is  [here](https://github.com/ryanczm/Betting-Against-Beta).
 
-To be honest, it is difficult to do anything innovate over what the paper has already covered, and I think I have enough confidence to turn to trading projects already.
-
-
 <center>
 <img src="{{ site.imageurl }}/BAB/0.png" style="width:105%;"/>
 <figcaption>Left: BAB vs FF5 factor returns. Right: Theoretical vs Observed CML.</figcaption>
 </center>
 
-# Paper Overview
-
 The paper is based on the quantifying the behavior of certain investors: leverage-constrained investors (e.g pension funds, mutual funds) bid up high-beta assets to harvest greater returns (in accordance with CAPM), causing high-beta assets to be overvalued beyond their intrinsic value and having lower returns. When funding constraints tighten (cannot leverage as much), this behavior lessens, and is less exploitable. Thus, the return of the BAB factor is negatively correlated to funding constraints. 
 
 Another paper by Novy-Marx called _Betting against Betting against Beta_ in 2016 then explained the profitability of BAB was inflated due to the fact the BAB factor portfolios overweight micro and nano-weighted stocks significantly (due to the construction methodology) - which are difficult to trade, and hence very large transaction costs should reduce profitability.
 
----
+
 # Factors and Exposures
 
 First, I had to gain some intuition on what these mysterious factors were. From my understanding, a factor is a time series, that is associated with a particular characteristic (a driver of return). These can be constructed in a variety of ways. Given a stock, there exists a loading or exposure that _couples_ the stock to that factor. Then, depending on what factors chosen, a stock's returns can be expressed as the factor returns and their couplings. This extends to a portfolio.
@@ -32,7 +27,6 @@ First, I had to gain some intuition on what these mysterious factors were. From 
 
 From my understanding, given these factors, one can then rebalance/construct portfolios to control the factor exposures: to reduce (risk) or increase (return) exposure to certain factors based on certain investment objectives, using lots of linear algebra and optimization.
 
----
 # Constructing the BAB Factor
 
 First off, Novy-Marx states that this paper built upon Black's 1972 argument that the capital market line was too flat: empirically, stocks have lower returns than the CAPM suggests. Using returns and beta estimated from 2005-2023:
@@ -112,7 +106,6 @@ def process_ranked_beta_row(row):
     return rank_minus_median
 ```
 
----
 # Performance vs Fama-French 5 Factor Model
 
 My objective was to implement the factor construction methodology in code, and having done that, from now on, I switch back to the original BAB factor provided by AQR. 
@@ -153,7 +146,6 @@ Given the rank-weights are adjusted via leverage to make BAB have zero beta, it 
 <figcaption>Correlations between Factor Returns.</figcaption>
 </center>
 
-----
 # Factor Performance
 
 Given what I learned in RobotJames' tweet thread ["What is a Signal?"](https://twitter.com/therobotjames/status/1678290394310934529), we can bucket the factor into deciles, then see how each decile performs via _factor plots_.
@@ -178,7 +170,6 @@ We do so and somehow: the IC goes up to a peak of 5 months, then drops down. So 
 
 
 
----
 # Overweight in Small Cap Stocks
 
 Novy-Marx explains that the returns are unrealistic as the factor overweights small cap stocks. Using my own S&P BAB, and a scraped market capitalization turnover dataframe from [companiesmarketcap.com](https://companiesmarketcap.com), we can take the total turnover, per market cap decile:
@@ -193,18 +184,6 @@ Novy-Marx explains that the returns are unrealistic as the factor overweights sm
 
 While this looks even, plotting the decile breakpoints shows how much BAB trades in small cap stocks. As per Novy-Marx, there is significant overweight in the lower decile sized stocks which would incur large transaction costs. To adjust for this, they suggest a value-weighted BAB factor.
 
----
-# Seasonality
-
-I then explore some seasonality patterns by looking at the monthly Sharpe. For whatever reason, there seems to be a strong performance during the midyear period and the first and last months.
-<center>
-    <div style="display: flex; justify-content: center;">
-        <img src="{{ site.imageurl }}/BAB/10a.png" style="margin-right: 5px; width:53%">
-        <img src="{{ site.imageurl }}/BAB/10b.png" style="width:53%">
-    </div>
-</center>
-
----
 # Relation to Funding Constraints via TED Spread    
 
 Lastly, the TED spread is the spread of the 3M Treasury bill and the 3M LIBOR. While it has been discontinued, my understanding is that LIBOR represents the rate banks lend to each other. So a high TED spread indicates banks charge higher rates, which occurs when they expect greater level of risk and want to be compensated fairly. I run a regression on the lagged spread and we see that there is a slightly negative coefficient.
