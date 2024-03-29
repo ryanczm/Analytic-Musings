@@ -26,7 +26,6 @@ The raw data (from BP/Energy Institute) is found [here](https://www.energyinst.o
 - [Capacity (K BBL D)](#capacity-k-bbl-d)
 - [Crude and Product Trade Flows (MN TN)](#crude-and-product-trade-flows-mn-tn)
 - [The Platts Periodic Table and Refinery Specs](#the-platts-periodic-table-and-refinery-specs)
-- [The Cost Curve](#the-cost-curve)
 - [Conclusion](#conclusion)
 
 <!-- /TOC -->
@@ -190,15 +189,14 @@ Here is the __interactive plot__ to play around with. The markers are scaled by 
 * NA crudes are generally light and sweet with the exception of Mexican and Canadian oil sand grades.
 
 
-Referencing the crude trade flows, it's clear US exports it's light sweet crude from the shale fields to Europe while taking in heavy Canadian and South American/Mexican crudes. The [EIA FAQ]() states that as of Jan 1 2023, there were 129 operable refineries in the US. Only 7 were built after 2010 (post-shale boom). However, the flow of grades is not specified, but it is safe to conclude the majority of US refineries were not built in mind to process the light sweet grades.
+Referencing the crude trade flows, it's clear US exports it's light sweet crude from the shale fields to Europe while taking in heavy Canadian and South American/Mexican crudes. The [EIA FAQ]() states that as of Jan 1 2023, there were 129 operable refineries in the US. Only 7 were built after 2010 (post-shale boom). However, the flow of grades is not specified, but it is safe to conclude the majority of US refineries were not built in mind to process light sweet grades.
 
-Since refineries are complex and difficult to re-configure, processing light and sweet shale oil domestically would mean operating at lower capacities since the distillation columns lighter sections would fill up faster, leaving the heavier sections, and their cracking/coking units to be underutilized and total throughput decreased. While the average gravity of American throughput is slowly increasing, the rate is extremely slow.
+Since refineries are complex and difficult to re-configure, processing light and sweet shale oil domestically would mean operating at lower capacities since the distillation columns lighter sections would fill up faster, leaving the heavier sections, and their cracking/coking units to be underutilized and total throughput decreased. 
 
 Thus, it's reasonable to expect Asian refineries, to be geared towards the medium-sour grades from Middle East and possibly Urals from Russia?
 
 At least, this is my understanding from reading _Leffler_ and _Gary_'s nontechnical refining books. 
 
-## The Cost Curve
 
 ## Conclusion
 
