@@ -4,7 +4,7 @@ title: "Paper Replication: Cost of Carry & Arbitrage in Oil Futures & Freight Ma
 category: commodities
 
 ---
-In this post, I analyze  Alizadeh's Cost of Carry, Causality & Arbitrage between Oil Futures & Tanker Freight Markets 2003 paper, which investigates the existence of excess profits from transatlantic arbitrage by delivering Brent or Bonny  against the WTI futures contract at Cushing. Well there was back then! Since freight rates didn't move in tandem with the Brent/WTI futures spread. At least in 2003 it didn't. Can't replicate this because I can't get my hands on the data, oh well.
+In this post, I analyze  Alizadeh's Cost of Carry, Causality & Arbitrage between Oil Futures & Tanker Freight Markets 2003 paper, which investigated the existence of excess profits from transatlantic arbitrage by delivering Brent or Bonny against the WTI futures contract at Cushing.
  
 <!--more-->
 
