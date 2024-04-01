@@ -178,7 +178,17 @@ Here is the __interactive plot__ to play around with. The markers are scaled by 
 
 (Note: `plotly` doesn't do very well on smaller viewports so it's best viewed in desktop)
 
-{% include html_assets/platts.html %}
+<!-- Embed the wider viewport version -->
+<div class="wide-plot">
+    <!-- Embed the wider viewport version -->
+    {% include html_assets/platts.html %}
+</div>
+
+<!-- Embed the smaller viewport version -->
+<div class="small-plot">
+    <!-- Embed the smaller viewport version -->
+    {% include html_assets/platts_small.html %}
+</div>
 
 * African crudes are generally medium-light and sweet with some sour outliers from North Africa. We should expect flows into Europe. 
 * Asian crudes are medium and sweet in general. Some Chinese crudes tend to be on the heavy side.

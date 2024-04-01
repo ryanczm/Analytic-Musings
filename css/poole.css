@@ -63,6 +63,29 @@ body {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .wide-plot {
+      display: block;
+  }
+  .small-plot {
+      display: none;
+  }
+}
+/* Styles for smaller viewports */
+@media screen and (max-width: 767px) {
+  .wide-plot {
+      display: none;
+  }
+  .small-plot {
+      display: block;
+  }
+} 
+
+
+
+
+
+
 body {
   color: #2b2b2b;
   background-color: #fff;
