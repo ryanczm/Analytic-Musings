@@ -93,7 +93,12 @@ Being able to see something at lots of levels and <i>go between them smoothly</i
 
 These fields encompass finance, economics, history, etc. In here, the key node is a composite of a behavior, an entity/actor, and a view. We draw connections to build a _situation_ to other nodes. A cheap heuristic would be to ask _who_, _what_ and _why_.
 
-An example is fundamental analysis. In this case, one tries to forecast how a _situation_ will play out, by constructing a graph of actors/behaviors, analyzing how a situation has evolved to a current point, then taking a view on how it will evolve into the future. This basically means trying to correctly predict human behavior in a low-dimensional fashion: so-and-so thinks this way, so he/she will do this. 
+1. Who are the players in this situation?
+2. What are their actions or behaviors?
+3. Why are they doing this action or behavior?
+
+Then, we can ask historically how a situation has evolved and how it will play out in the future.
+
 
 <blockquote>
 <p>My framework is built on two propositions. The first is that in situations that have thinking <i>participants</i>, the participants’ <i>views</i> of the world never perfectly correspond to the actual state of affairs.
