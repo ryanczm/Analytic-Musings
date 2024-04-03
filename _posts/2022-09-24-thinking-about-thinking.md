@@ -93,10 +93,7 @@ Being able to see something at lots of levels and <i>go between them smoothly</i
 
 These fields encompass finance, economics, history, etc. In here, the key node is a composite of a behavior, an entity/actor, and a view. We draw connections to build a _situation_ to other nodes. A cheap heuristic would be to ask _who_, _what_ and _why_.
 
-1. Who are the players in this situation?
-2. What are their objectives/motivations/perspectives/situation?
-3. What are their actions or behaviors?
-4. Why are they doing this action or behavior?
+A _situation_ is a complex interplay of different actors/parties. The trick is to hold multiple actors in your head and connect their interactions together by asking who and why.
 
 Then, we can ask historically how a situation has evolved and how it will play out in the future.
 
