@@ -20,10 +20,10 @@ The raw data (from BP/Energy Institute) is found [here](https://www.energyinst.o
 <!-- TOC -->
 - [Table of Contents](#table-of-contents)
 - [Energy Consumption (EJ Y)](#energy-consumption-ej-y)
-- [Oil Reserves (BN BBL)](#oil-reserves-bn-bbl)
-- [Oil Production (K BBL D)](#oil-production-k-bbl-d)
-- [Oil and Product Consumption (K BBL D)](#oil-and-product-consumption-k-bbl-d)
-- [Capacity (K BBL D)](#capacity-k-bbl-d)
+- [Oil Reserves (BNbl)](#oil-reserves-bnbl)
+- [Oil Production (kbld)](#oil-production-kbld)
+- [Oil and Product Consumption (kbld)](#oil-and-product-consumption-kbld)
+- [Capacity (kbld)](#capacity-kbld)
 - [Crude and Product Trade Flows (MN TN)](#crude-and-product-trade-flows-mn-tn)
 - [The Platts Periodic Table and Refinery Specs](#the-platts-periodic-table-and-refinery-specs)
 - [Conclusion](#conclusion)
@@ -61,7 +61,7 @@ Lastly, we can break down consuption by oil, gas, coal, nuclear, hydro and other
 
 
 
-## Oil Reserves (BN BBL)
+## Oil Reserves (BNbl)
 
 
 <center>
@@ -72,7 +72,7 @@ Interesting or major discoveries were: Gharais field, Saudi Arabia, 1985. Orinic
 <img src="{{ site.imageurl }}/BPStatReview/6.png" style="width:100%;"/>
 </center>
 
-## Oil Production (K BBL D)
+## Oil Production (kbld)
 
 <center>
 <img src="{{ site.imageurl }}/BPStatReview/7.png" style="width:100%;"/>
@@ -93,7 +93,7 @@ I was pretty surprised to learn that China produced more crude than Iran and fur
 </center>
 
 
-## Oil and Product Consumption (K BBL D)
+## Oil and Product Consumption (kbld)
 <center>
 <img src="{{ site.imageurl }}/BPStatReview/11.png" style="width:100%;"/>
 </center>
@@ -116,7 +116,7 @@ We can further breakdown consumption of product by category to reveal regional d
 </center>
 APAC is big on petchems, and diesel, presumably due to industrialization. NA has huge gasoline appetite, due to the heavy use of gasoline cars. Europe is huge on diesel. When I investigated, I realized this was due to policymaking in the 90s where European governments subsidized diesel, leading to an adoption of diesel cars over gasoline.
 
-## Capacity (K BBL D)
+## Capacity (kbld)
 
 Lastly, we can examine refining capacity. No surprise to see US and China dominate.
 
