@@ -97,6 +97,8 @@ A _situation_ is a complex interplay of different actors/parties. The trick is t
 
 Then, we can ask historically how a situation has evolved and how it will play out in the future.
 
+So, the first step in any similar situation is to ask 'who'. Who are the parties in this situation? Remember, the denser/more nodes there are in your situation, the better your understanding. Then, you ask 'what'. What are they doing and why are they doing it? Then you try to piece together more information that a node or party has, to emulate their perspective and context. Then you have some clue as to why they did what.
+
 
 <blockquote>
 <p>My framework is built on two propositions. The first is that in situations that have thinking <i>participants</i>, the participants’ <i>views</i> of the world never perfectly correspond to the actual state of affairs.
