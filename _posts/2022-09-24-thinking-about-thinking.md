@@ -63,7 +63,7 @@ So, let's try to find the right words to express the _things_ and their _links_.
 
 <br> 
 
-# Semideterministic Framework
+## Semideterministic Framework
 
 For semi-deterministic fields, this is pretty difficult. I believe the best way to approach computation is via _systems_. What is a system? A system consists of a bunch of systems. Or parts. The key skill, I believe is breaking down a system into the respective systems, and doing this in a recursive manner to unlock complexity. Parts interact with each other by passing inputs and output amongst another, being data. This area is tough because I think it's hard to quantify exactly the mental model needed compared to other frameworks, but I believe this is the most effective way.
 
@@ -91,13 +91,13 @@ Being able to see something at lots of levels and <i>go between them smoothly</i
 <br>
 <h2>Humanistic Framework</h2>
 
-These fields encompass finance, economics, history, etc. In here, the key node is a composite of a behavior, an entity/actor, and a view. We draw connections to build a _situation_ to other nodes. A cheap heuristic would be to ask _who_, _what_ and _why_.
+These fields encompass finance, economics, history, etc. In here, the key node is a composite of a player. A player has a view/context and behaviors stem from it. We draw connections to build a _situation_ to other nodes. A cheap heuristic would be to ask _who_, _what_ and _why_.
 
-A _situation_ is a complex interplay of different actors/parties. The trick is to hold multiple actors in your head and connect their interactions together by asking who and why.
+A _situation_ is a complex interplay of different players. The trick is to hold multiple actors in your head and connect their interactions together by asking who and why.
 
 Then, we can ask historically how a situation has evolved and how it will play out in the future.
 
-So, the first step in any similar situation is to ask 'who'. Who are the parties in this situation? Remember, the denser/more nodes there are in your situation, the better your understanding. Then, you ask 'what'. What are they doing and why are they doing it? Then you try to piece together more information that a node or party has, to emulate their perspective and context. Then you have some clue as to why they did what.
+So, the first step in any similar situation is to ask 'who'. Who are the players? What are their actions? Why did they did it? And there 
 
 
 <blockquote>
