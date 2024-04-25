@@ -35,11 +35,14 @@ I argue each field can be thought of in two ways: a <i>primal form</i>, involvin
 
 So, let's try to find the right words to express the _things_ and their _links_.
 
+A `textual representation` is how the concept appears on text, or on paper. Aka how we learn. An `innate representation` is what we need to connect the textual representation to.
+
 <h2>Deterministic Framework</h2>
 
 <p>Example Fields: Mathematics, natural sciences, engineering.</p>
 
-<p>There are two fundamental things: <i>concepts (abstraction)</i> and <i>physical objects (physical variable)</i>. On the underlying side, they are just numbers, quantities that can vary, basically. But what they represent are two different things. Their representation is a `symbol`. </p> 
+There are two fundamental things: <i>concepts (abstraction)</i> and <i>physical objects (physical variable)</i>. On the underlying side, they are just numbers, quantities that can vary, basically. But what they represent are two different things. Their textual representation is a `symbol` and innate representation is a `visual`. 
+
 <p>They are linked via connections. These can be direct or latent. Direct connections are obvious. Latent ones are sudden inspirations between seemingly unrelated things. The idea is to build up a dense, well-connected network of things in your head.</p>
 
 <blockquote>
@@ -65,7 +68,7 @@ So, let's try to find the right words to express the _things_ and their _links_.
 
 ## Semideterministic Framework
 
-For semi-deterministic fields, this is pretty difficult. I believe the best way to approach computation is via _systems_. What is a system? A system consists of a bunch of systems. Or parts. The key skill, I believe is breaking down a system into the respective systems, and doing this in a recursive manner to unlock complexity. Parts interact with each other by passing inputs and output amongst another, being data. Their representation is a `word` (in code).
+For semi-deterministic fields, this is pretty difficult. I believe the best way to approach computation is via _systems_. What is a system? A system consists of a bunch of systems. Or parts. The key skill, I believe is breaking down a system into the respective systems, and doing this in a recursive manner to unlock complexity. Parts interact with each other by passing inputs and output amongst another, being data. Their textual representation is a `token` and innate representation is `memory`.
 
 The idea of _breaking a system down into more systems/parts_ and doing it _recursively_ is not _linear_, unlike the deterministic framework. It takes into account everything at once. That is the key distinction between the semideterministic framework and deterministic way of thinking. So here are some prompts:
 
