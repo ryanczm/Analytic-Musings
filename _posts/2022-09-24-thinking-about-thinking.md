@@ -68,13 +68,11 @@ There are two fundamental things: <i>concepts (abstraction)</i> and <i>physical 
 
 ## Semideterministic Framework
 
-For semi-deterministic fields, this is pretty difficult. I believe the best way to approach computation is via _systems_. What is a system? A system consists of a bunch of systems. Or parts. The key skill, I believe is breaking down a system into the respective systems, and doing this in a recursive manner to unlock complexity. Parts interact with each other by passing inputs and output amongst another, being data. Their textual representation is a `token` and innate representation is `memory`.
+For semi-deterministic fields, basically computation, I would argue there are two "views". This is the best way I can put it. It's not unified and elegant like the others, but until then, this works.
 
-The idea of _breaking a system down into more systems/parts_ and doing it _recursively_ is not _linear_, unlike the deterministic framework. It takes into account everything at once. That is the key distinction between the semideterministic framework and deterministic way of thinking. So here are some prompts:
+The first view is the _graph view_. In this, we must build graphs whereby we have nodes (elementary units) that take in inputs from other nodes and produce outputs from various nodes. We can go down layers of abstraction within a node recursively or connect more nodes together.
 
-* What system is this part a part of?
-* What does this compose of? What can this be broken down into?
-* What is going on under the hood?
+The second view is the _memory view_. In this, we have to imagine some layout of memory or data and visualise how it gets written to, read from, and interacts. 
 
 
 
