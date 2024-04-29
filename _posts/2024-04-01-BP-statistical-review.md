@@ -18,20 +18,21 @@ The raw data (from BP/Energy Institute) is found [here](https://www.energyinst.o
 
 
 <!-- TOC -->
+
 - [Table of Contents](#table-of-contents)
-- [Energy Consumption (EJ Y)](#energy-consumption-ej-y)
-- [Oil Reserves (BNbl)](#oil-reserves-bnbl)
-- [Oil Production (kbld)](#oil-production-kbld)
-- [Oil and Product Consumption (kbld)](#oil-and-product-consumption-kbld)
-- [Capacity (kbld)](#capacity-kbld)
+- [Oil Reserves (MMMbl)](#oil-reserves-mmmbl)
+- [Oil Production (mbld)](#oil-production-mbld)
+- [Oil and Product Consumption (mbld)](#oil-and-product-consumption-mbld)
+- [Capacity (mbld)](#capacity-mbld)
 - [Crude and Product Trade Flows (MN TN)](#crude-and-product-trade-flows-mn-tn)
 - [The Platts Periodic Table and Refinery Specs](#the-platts-periodic-table-and-refinery-specs)
+- [Gas Reserves (TN CMs)](#gas-reserves-tn-cms)
+- [Gas Production (BN CM Y)](#gas-production-bn-cm-y)
+- [Gas Consumption (BN CM Y)](#gas-consumption-bn-cm-y)
+- [LNG and Pipeline Flows (BN CM Y)](#lng-and-pipeline-flows-bn-cm-y)
 - [Conclusion](#conclusion)
 
 <!-- /TOC -->
-
-## Energy Consumption (EJ Y)
-
 One ExaJoule, or $10^{18}J$ is equivalent to $174M$ barrels of oil. In 2022, world energy consumption was $604$ ExaJoules. Our first chart tells the story of energy consumption by region from 1960 to 2022. The main story is that APAC has outstripped the growth rates of all other regions which have remained fairly stagnant. 
 
 <center>
@@ -61,7 +62,7 @@ Lastly, we can break down consuption by oil, gas, coal, nuclear, hydro and other
 
 
 
-## Oil Reserves (BNbl)
+## Oil Reserves (MMMbl)
 
 
 <center>
@@ -72,7 +73,7 @@ Interesting or major discoveries were: Gharais field, Saudi Arabia, 1985. Orinic
 <img src="{{ site.imageurl }}/BPStatReview/6.png" style="width:100%;"/>
 </center>
 
-## Oil Production (kbld)
+## Oil Production (mbld)
 
 <center>
 <img src="{{ site.imageurl }}/BPStatReview/7.png" style="width:100%;"/>
@@ -93,7 +94,7 @@ I was pretty surprised to learn that China produced more crude than Iran and fur
 </center>
 
 
-## Oil and Product Consumption (kbld)
+## Oil and Product Consumption (mbld)
 <center>
 <img src="{{ site.imageurl }}/BPStatReview/11.png" style="width:100%;"/>
 </center>
@@ -116,14 +117,14 @@ We can further breakdown consumption of product by category to reveal regional d
 </center>
 APAC is big on petchems, and diesel, presumably due to industrialization. NA has huge gasoline appetite, due to the heavy use of gasoline cars. Europe is huge on diesel. When I investigated, I realized this was due to policymaking in the 90s where European governments subsidized diesel, leading to an adoption of diesel cars over gasoline.
 
-## Capacity (kbld)
+## Capacity (mbld)
 
 Lastly, we can examine refining capacity. No surprise to see US and China dominate.
 
 <center>
 <img src="{{ site.imageurl }}/BPStatReview/16.png" style="width:100%;"/>
 </center>
-In Asia, China dominates by a large margin followed by India. There is relatively less refining capacity in the Middle East, implying that these countries prefer to focus on producing. In Europe, Germany, Italy and Spain are the top players. Singapore's heavy investment into refienry despite it's small size clearly shows. Okay now on to the interesting stuff!
+In Asia, China dominates by a large margin followed by India. There is relatively less refining capacity in the Middle East, implying that these countries prefer to focus on producing. In Europe, Germany, Italy and Spain are the top players. Singapore's heavy investment into refining and it's status as a bunkering hub in Asia clearly shows. Okay now on to the interesting stuff!
 
 ## Crude and Product Trade Flows (MN TN)
 
@@ -205,7 +206,79 @@ Since refineries are complex and difficult to re-configure, processing light and
 
 Thus, it's reasonable to expect Asian refineries, to be geared towards the medium-sour grades from Middle East and possibly Urals from Russia?
 
-At least, this is my understanding from reading _Leffler_ and _Gary_'s nontechnical refining books. 
+
+## Gas Reserves (TN CMs)
+
+Moving on to natural gas, let's take a look at the countries with the highest gas reserves. 
+
+<center>
+<img src="{{ site.imageurl }}/BPStatReview/20.png" style="width:100%;"/>
+</center>
+
+Cool. Russia, Iran and Qatar dominate, followed by Turkmenistan, the US and China.
+
+## Gas Production (BN CM Y)
+
+But we already known reserves and production have weak correlation. Let's look at the top gas producing countries:
+
+<center>
+<img src="{{ site.imageurl }}/BPStatReview/21.png" style="width:100%;"/>
+</center>
+
+The US dominates every other country by far, with almost 80% more times production than Russia. Then a steep drop off and its between Iran, China, Canada, etc. I didn't know China produces so much gas. Pretty interesting. There is quite a lot of gas production in Asia.
+
+
+<center>
+<img src="{{ site.imageurl }}/BPStatReview/22.png" style="width:100%;"/>
+</center>
+
+Now we can see the rapid rise in production from 2000s in the US, CIS and ME to present era.
+
+## Gas Consumption (BN CM Y)
+
+The US consumes more gas than any other country in the world by a large margin. An interesting outlier is Iran. Somehow, Iran really loves natural gas for energy consumption.
+
+<center>
+<img src="{{ site.imageurl }}/BPStatReview/23.png" style="width:100%;"/>
+</center>
+
+## LNG and Pipeline Flows (BN CM Y)
+
+Now for the most informative part: flows. As above, rows are exports, columns are imports, and marginals are at the edges. Lets look at LNG (seaborne) flows first. We notice flows are alot more sparse than crude: meaning less interconnected.
+
+<center>
+<img src="{{ site.imageurl }}/BPStatReview/24.png" style="width:100%;"/>
+</center>
+
+* Exports:
+    * On the marginals, the US, Qatar and Russia export the most LNG. 
+    * There is a trade flow of LNG cross-atlantic from US to Europe, given the lack of gas fields in Europe.
+    * Another noticeable flow is out of Qatar/ME, some to EU, but to Asia. So LNG flows West to East: from US to Europe and ME to Asia.
+  * Imports:
+    * China gets most of its LNG from Qatar, and some from SEA: Australia and Malaysia, an intra-Asia flow up from SEA into China.
+    * Japan gets most of its LNG from Australia and Malaysia. Thus we can see another intra-Asian flow up North from SEA into Japan and China.
+
+While the BP report does provide a flowchart, this one seems nicer, albeit in 2020.
+
+
+<center>
+<img src="{{ site.imageurl }}/BPStatReview/25.png" style="width:100%;"/>
+<figcaption>https://www.researchgate.net/figure/Major-liquefied-natural-gas-flows-and-markets-globally-IEA-2020b_fig2_352341547</figcaption>
+</center>
+
+So there are two sinks of LNG: Europe and China/Japan. Waterborne flows come from the US, ME and SEA. Now for pipeline flows:
+
+<center>
+<img src="{{ site.imageurl }}/BPStatReview/26.png" style="width:100%;"/>
+</center>
+
+* Exports
+  * Russian pipeline flows (and Azerbaijan, and Algeria) to Europe, and some to China.
+  * Norway supplies Europe.
+* Imports
+  * The US exports gas to Mexico and Canada (a small amount) but somehow receives a large import flow (over ~4 times) as much pipeline gas from Canada. This seems confusing, but my guess its to do with geography and pipeline infrastructure along the border.
+
+At this point, I realized data about product trade flows would be much more informative. Unfortunately, the BP report does not have country-to-country trade flows data by product. Which is sad, because I really would have liked to repeat it and see much more nuanced flows.
 
 
 ## Conclusion
