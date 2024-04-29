@@ -70,9 +70,11 @@ There are two fundamental things: <i>concepts (abstraction)</i> and <i>physical 
 
 For semi-deterministic fields, basically computation, I would argue there are two "views". This is the best way I can put it. It's not unified and elegant like the others, but until then, this works.
 
-The first view is the _graph view_. In this, we must build graphs whereby we have nodes (elementary units) that take in inputs from other nodes and produce outputs from various nodes. We can go down layers of abstraction within a node recursively or connect more nodes together.
+The first view is the _graph view_. In this, we must build graphs whereby we have _nodes_ or _objects_ (elementary units) that take in inputs from other nodes and produce outputs from various nodes. We can go down layers of abstraction within a node recursively or connect more nodes together. To make connections between nodes, we have to ask our selves about _input_ and _output_. What input(s) does it take? What output(s) does it produce? And so, you go along, building your graph as you connect the input-output sequences together.
 
-The second view is the _memory view_. In this, we have to imagine some layout of memory or data and visualise how it gets written to, read from, and interacts. 
+In doing so, we must not 'question' how the node works internally, viewing it as an opaque object. Or rather, we cannot be handicapped by not having a full understanding of the internals of this opaque object to prevent us from still using it effectively. This is being _comfortable with abstraction_. Because at a fundamental level, if programming is just a series of keystrokes or words, then we have to take what the word can do for granted.
+
+The second view is the _memory view_. In this, we have to imagine some layout of memory or data and visualise how it gets written to, read from, and interacts. So, this involves going into the internals of an opaque object to try and figure out what's going on. And we can do this repeatedly, going deeper and deeper. The problem is that it is not humanly possible to truly visualise or understand what goes on at the lowest level of abstraction because computers are so fast. Hence, we need to be _comfortable with abstraction_.
 
 
 
