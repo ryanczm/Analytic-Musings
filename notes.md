@@ -1,29 +1,20 @@
 ---
-layout: 
+layout: page
 title: Notes
-order: 4
+order: 3
 ---
 
-## Scraping QuantTwit for Wisdom
+There is a large amount of alpha on social media with good domain-specific insights, in the form of podcasts, substacks, and books. For example, for commodity substacks/articles, we have _Ed Finley Richardson_, _Rory Johnston_, _Makai Research_, _Sparta_, etc. 
 
-### Level 1:
+My aim is to slowly go through them and continuously learn, and have my notes here as an easily accessible resource for myself. As of May 2024, most of these are empty. 
 
-* [__RobotJames__]({{ site.url }}/notes/robotjames)
-    * The basics. What is an edge, what is a signal, how to evaluate predictive signals, what an option is.
-    * Simple with good intuition.
-    * Replicate the crypto stat arb strategy end-to-end.
+## Commodities
 
-### Level 2:
+#### Podcasts
+#### Articles
+#### Books
+#### Reports
 
-* [__Macrocephalopod__]({{ site.url }}/notes/macrocephalopod)
-    * Higher level quant trading fundamentals. 
-    * General stuff: EWMA primers, ridge regression tricks, trade buffering, 11 days of backtest errors, continuous trading.
-    * Specific stuff: Equity factor model thread.  
-* Corey Hoffstein
-    * Factor and macro investing.
-* Kris Abdel Messih
-    * Game theory, betting, market-making/options side of quant.
-* [__RobCarver__]({{ site.url }}/notes/robcarver)
-    * Futures strategies. Builds up from simple to complex. Foundational. Very precise with numerics.
-    * Did only first chapter. Learnt lots.
+## Quant
 
+#### Podcasts
