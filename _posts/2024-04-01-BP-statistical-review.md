@@ -1,7 +1,7 @@
 ---
 image: "/./assets/images/BPStatReview/cover.png"
 layout: post
-title: "Understanding Crude & Product Trade Flows: Visualising the BP Statistical Review of World Energy"
+title: "Understanding Crude & Product Trade Flows: Visualising the BP Review of World Energy"
 category: commods
 excerpt: "Every year since 1952, BP publishes a report called the BP Statistical Review of World Energy 🛢️. In it contains historic data on world energy markets: facts & figures on global energy markets from 1960 to 2022. I visualise and analyze the data via charts. My aim is to gain an intuitive geographic feel of global crude and product flows. Who are the biggest exporters? Importers? Producers? Consumers? Where are the sweet/sour/light/heavy crude regions? What are the (inferred) refinery slates across regions? Where does crude & product flow from country to country and why? After much wrangling, I produced charts how I see fit to describe the data. For each category, we will understand the sequence of events leading up to the story told in the chart."
 ---
@@ -20,16 +20,16 @@ The raw data (from BP/Energy Institute) is found [here](https://www.energyinst.o
 <!-- TOC -->
 
 - [Table of Contents](#table-of-contents)
-- [Oil Reserves (MMMbl)](#oil-reserves-mmmbl)
-- [Oil Production (mbld)](#oil-production-mbld)
-- [Oil and Product Consumption (mbld)](#oil-and-product-consumption-mbld)
-- [Capacity (mbld)](#capacity-mbld)
-- [Crude and Product Trade Flows (MN TN)](#crude-and-product-trade-flows-mn-tn)
+- [Oil Reserves MMMbl](#oil-reserves-mmmbl)
+- [Oil Production mbld](#oil-production-mbld)
+- [Oil and Product Consumption mbld](#oil-and-product-consumption-mbld)
+- [Capacity mbld](#capacity-mbld)
+- [Crude and Product Trade Flows MN TN](#crude-and-product-trade-flows-mn-tn)
 - [The Platts Periodic Table and Refinery Specs](#the-platts-periodic-table-and-refinery-specs)
-- [Gas Reserves (TN CMs)](#gas-reserves-tn-cms)
-- [Gas Production (BN CM Y)](#gas-production-bn-cm-y)
-- [Gas Consumption (BN CM Y)](#gas-consumption-bn-cm-y)
-- [LNG and Pipeline Flows (BN CM Y)](#lng-and-pipeline-flows-bn-cm-y)
+- [Gas Reserves TN CMs](#gas-reserves-tn-cms)
+- [Gas Production BN CM Y](#gas-production-bn-cm-y)
+- [Gas Consumption BN CM Y](#gas-consumption-bn-cm-y)
+- [LNG and Pipeline Flows BN CM Y](#lng-and-pipeline-flows-bn-cm-y)
 - [Conclusion](#conclusion)
 
 <!-- /TOC -->

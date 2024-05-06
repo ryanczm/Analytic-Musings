@@ -1,7 +1,7 @@
 ---
 image: "/./assets/images/CryptoStatArb/images_backtest/preview_ts.png"
 layout: post
-title: "Crypto Stat Arb Series II: Backtesting with a Trade Buffer"
+title: "Crypto Stat Arb II: Backtesting with a Trade Buffer"
 category: finance
 excerpt: "Part II of the crypto stat arb series. I code up a backtest in Python based off the Rsims backtesting framework in R (duh) to implement a trading buffer to manage turnover. Then, we backtest the fixed weight combination of carry/momentum/breakout strategy from Part I versus a dynamically weighted version using regressions. With the backtest, we can find an optimal trading buffer value that maximizes Sharpe 📈 or turns over a desired portion of the book daily. "
 ---
