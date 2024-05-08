@@ -12,8 +12,14 @@ My aim is to slowly go through them and continuously learn, and have my notes he
 
 #### Coffee Chats
 
-* [Chat with my friend, a Trafigura Oil Analyst (Apr 24)]({{ site.url }}/notes/commods/coffee/trafi-analyst)
+* [Chat with a Trafigura Oil Analyst (Apr 24)]({{ site.url }}/notes/commods/coffee/trafi-analyst)
 
 #### Podcasts
 #### Articles
 #### Books
+
+## Quant
+
+#### Podcasts
+
+* [Flirting with Models S6E5 - Macrocephalopod]({{ site.url }}/notes/quant/podcasts/FWM-Macrocephalopod)

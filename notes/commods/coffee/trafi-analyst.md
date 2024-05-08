@@ -105,11 +105,11 @@ So my take is that you can give yourself an edge by with strong technical knowle
 
 The key takeaways:
 
-* The key skill or responsibility of a market analyst is to form views based on data, in a discretionary fashion, by understanding the market.
+* The key skill or responsibility of a market analyst is to _form views based on data, in a discretionary fashion, by understanding the market_.
 * This process can take a while, and brew over weeks.
 * This skill is built by getting exposure to the real data then grinding it out.
 * These views need to translate into arbs.
 * Quantitative techniques might fail when there are drastic regime changes that render past data irrelevant.
-* You can develop an edge over others by being stronger at technicals, all things being equal.
+* There is a _real edge/alpha over other analysts by having a deeper understanding of the technicals than they do_.
 
 And some other stuff, which I don't want to share due to privacy reasons as mentioned above.
