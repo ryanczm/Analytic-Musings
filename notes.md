@@ -10,11 +10,10 @@ My aim is to slowly go through them and continuously learn, and have my notes he
 
 ## Commodities
 
+#### Coffee Chats
+
+* [Chat with my friend, a Trafigura Oil Analyst (Apr 24)]({{ site.url }}/notes/commods/coffee/trafi-analyst)
+
 #### Podcasts
 #### Articles
 #### Books
-#### Reports
-
-## Quant
-
-#### Podcasts
