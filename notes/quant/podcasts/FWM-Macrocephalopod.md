@@ -7,7 +7,7 @@ title: Flirting with Models - Macrocephalopod (Apr 24)
 <!-- omit in toc -->
 ## Background
 
-Macrocephalopod's interview on Flirting with Models podcast by Corey Hoffstein. [S6E5](https://www.youtube.com/watch?v=5qo5gxmGEt8&t=1502s&ab_channel=FlirtingwithModels), 31-May-2023.
+Macrocephalopod's interview on Flirting with Models podcast by Corey Hoffstein. [S6E5](https://www.youtube.com/watch?v=5qo5gxmGEt8&t=1502s&ab_channel=FlirtingwithModels), 31-May-2023. 
 
 [❓] represents something I need to investigate and learn about.
 
