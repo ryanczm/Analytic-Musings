@@ -4,6 +4,18 @@ title: Experience
 order: 3
 ---
 <div class="exp">
+    <img class="exp2" src="{{ site.imageurl }}/Logos/blanksquare.jpg" width='120px' height='50px'>
+    <div>
+        <h3> Trading Analyst [at] Commodity Hedge Fund</h3>
+        <p>
+        Thanks to OOTT, I am currently working remotely as a trading analyst for a Swiss commodity hedge fund, looking at shiptracking & weather data to extract possible trading signals on energy and ags for lower freq quantamental strats.
+        </p>
+    </div>
+</div>
+
+
+
+<div class="exp">
     <img class="exp2" src="{{ site.imageurl }}/Logos/GX1.png" width='120px' height='50px'>
     <div>
         <h3> Energy/Pricing Analyst [at] General Index</h3>
