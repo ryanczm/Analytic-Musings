@@ -4,21 +4,15 @@ title: Chat with Trafigura Oil Analyst (Apr 24)
 
 ---
 
-<!-- omit in toc -->
-# Chat with Trafigura Oil Analyst
+<!-- TOC -->
 
-This details my takeaways from a coffee chat with my friend, a Trafigura Oil Analyst. We met at APPEC in last September and stayed in contact. Lately, I've reached out to him for advice on self-starter commodity projects and ran through my two past projects for feedback (BP Stat Review + TMX), and he's been very kind to critique and advise me. We met in April for a chat. I'll try to respect his privacy and not disclose any details.
-
-<!-- omit in toc -->
-## Background
-
-He's been at Trafigura for a couple years, going through the rotations in ops, risk and being a product market analyst, where he has been for a while. He's gone through the grinder at Trafigura and excelled there. Having been rejected by Trafi myself for a freight analyst role, it was a no-brainer to meet up.
-
-I wanted to ask him more about how physical commodity trading works and to share his experiences at Trafigura, especially on _understanding markets_.
-
----
-
-## On his Job
+- [Chat with Trafigura Oil Analyst](#chat-with-trafigura-oil-analyst)
+    - [Background](#background)
+    - [On his Job](#on-his-job)
+    - [On Projects and Self-Starter Ideas](#on-projects-and-self-starter-ideas)
+    - [On Market 'Sense'](#on-market-sense)
+    - [On Technicals as an Edge](#on-technicals-as-an-edge)
+- [Conclusion](#conclusion)
 
 <!-- /TOC -->
 > What is Physical Commodity Trading?
@@ -96,9 +90,13 @@ He then said once you look at the data enough, you kind of get a sensing of how 
 
 ## On Technicals as an Edge
 
-You'd be surprised at how many analysts don't know refinery technicals. Majority of analysts don't even know the residual desulfurization unit doesn't just turn FO into LSFO, it gives you diesel and naphtha.
+"You'd be surprised at how many analysts don't know refinery technicals. Majority of analysts don't even know the residual desulfurization unit doesn't just turn FO into LSFO, it gives you diesel and naphtha."
 
-So my take is that you can give yourself an edge by with strong technical knowledge. And obviously this can work for any commods. E.g for oil, refinery technicals, for power, you have understanding power, grid, and weather technicals, for ags, you have understanding how crop cycles work, how weather impacts diff crops, etc.
+So my take is that you can give yourself an edge by with strong technical knowledge (this is me speaking). 
+
+"Yes".
+
+Anyway, technicals can be classified into production, processing, storage, transport, distribution, consumption - across all different classes of commodities. 
 
 
 # Conclusion
