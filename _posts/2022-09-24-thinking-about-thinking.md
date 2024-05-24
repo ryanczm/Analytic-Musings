@@ -68,10 +68,13 @@ There are two fundamental things: <i>concepts (abstraction)</i> and <i>physical 
 
 ## Semideterministic Framework
 
-For semi-deterministic fields, or essentially computing, I _don't have a good framework yet_. I think about it occasionally from time to time. Maybe I should interview my CS/SWE/quant dev friends for inspiration.
+For semi-deterministic fields, or essentially computing, I _don't have a good framework yet_. Ideally, good means _domain-agnostic_ and _generalizable_. So this framework isn't _good per se_. But I believe that perhaps the key in computer science is to have a _good understanding of memory_. After all, the only thing a processor can do is manipulate memory, read it and write to it. 
 
-George Hotz mentioned (below) has core paradigm for understanding anything is _Input → system (computation/instruction) → output_. Can we use this? Well, it might be possible to think about it as a graph in a left-to-right fashion, where inputs/outputs are edges and systems (instructions) are nodes. The x-axis is time. On the y-axis, we can divide lower to different layers of abstraction in _memory_. There are two ways of expanding the graph, either on the current level or taking it down a level(s) of abstraction. To expand it on the current level, you fill in what happens in the system, which turns out to be more systems, in a recursive fashion.
+So a _good understanding of memory_ is paramount. Then, it is also about _breaking down a system into its parts_ (recursively), and going to _lower levels of abstraction_. Where do these abstractions and systems live? In memory, of course!
 
+One concept I struggle with is data and instructions are both memory (same binary representation). For now, I'll just assume they are blended together and are the same thing. An example of applying these principles (above) is thinking about a process. We can break down the process into the different parts of memory in process space. I guess that's just a simple example.
+
+Notice how by definition of _good_ this framework uses a domain-specific term (memory). I'm trying to generalize this but for now this will have to do till I figure out something.
 
 <blockquote>
 Input → system (computation) → output. This is my core paradigm for understanding anything.
