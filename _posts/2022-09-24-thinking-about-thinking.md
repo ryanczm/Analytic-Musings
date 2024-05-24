@@ -68,7 +68,9 @@ There are two fundamental things: <i>concepts (abstraction)</i> and <i>physical 
 
 ## Semideterministic Framework
 
-For semi-deterministic fields, basically computating related stuff, I think its best to abandon the graph idea for now until I find something. The key skill is to inspect a system or _understand a system at different levels of abstraction_, or what goes on "under the hood". This involves breaking something into its parts or internals and doing this recursively. And the connections are made between different levels of abstraction.
+For semi-deterministic fields, or essentially computing, I _don't have a good framework yet_. I think about it occasionally from time to time. Maybe I should interview my CS/SWE/quant dev friends for inspiration.
+
+George Hotz mentioned (below) has core paradigm for understanding anything is _Input → system (computation) → output_. Can we use this? Well, it might be possible to think about it as a graph in a left-to-right fashion, where inputs/outputs are edges and systems are nodes. The x-axis is time. On the y-axis, we can divde lower to different layers of abstraction in _memory_.
 
 
 <blockquote>
