@@ -70,7 +70,7 @@ There are two fundamental things: <i>concepts (abstraction)</i> and <i>physical 
 
 For semi-deterministic fields, or essentially computing, I _don't have a good framework yet_. I think about it occasionally from time to time. Maybe I should interview my CS/SWE/quant dev friends for inspiration.
 
-George Hotz mentioned (below) has core paradigm for understanding anything is _Input → system (computation) → output_. Can we use this? Well, it might be possible to think about it as a graph in a left-to-right fashion, where inputs/outputs are edges and systems are nodes. The x-axis is time. On the y-axis, we can divde lower to different layers of abstraction in _memory_.
+George Hotz mentioned (below) has core paradigm for understanding anything is _Input → system (computation) → output_. Can we use this? Well, it might be possible to think about it as a graph in a left-to-right fashion, where inputs/outputs are edges and systems are nodes. The x-axis is time. On the y-axis, we can divide lower to different layers of abstraction in _memory_. There are two ways of expanding the graph, either on the current level or taking it down a level(s) of abstraction. To expand it on the current level, you fill in what happens in the system, which turns out to be more systems, in a recursive fashion.
 
 
 <blockquote>
