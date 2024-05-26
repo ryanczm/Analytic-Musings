@@ -68,13 +68,13 @@ There are two fundamental things: <i>concepts (abstraction)</i> and <i>physical 
 
 ## Semideterministic Framework
 
-For semi-deterministic fields, or essentially computing, I _don't have a good framework yet_. Ideally, good means _domain-agnostic_ and _generalizable_. So this framework isn't _good per se_. But I believe that perhaps the key in computer science is to have a _good understanding of memory_. After all, the only thing a processor can do is manipulate memory, read it and write to it. 
+For semi-deterministic fields, or essentially computing, I don't have a good framework yet. I believe there are some prompts one can use to help them think computationally:
 
-So a _good understanding of memory_ is paramount. Then, it is also about _breaking down a system into its parts_ (recursively), and going to _lower levels of abstraction_. Where do these abstractions and systems live? In memory, of course!
+1. 'Under the hood, what's really going on / how this works' (decomposition/level of abstraction)
+2. 'What this does' (input/output)
+3. 'What this is' (type of interaction)
 
-One concept I struggle with is data and instructions are both memory (same binary representation). For now, I'll just assume they are blended together and are the same thing. An example of applying these principles (above) is thinking about a process. We can break down the process into the different parts of memory in process space. I guess that's just a simple example.
-
-Notice how by definition of _good_ this framework uses a domain-specific term (memory). I'm trying to generalize this but for now this will have to do till I figure out something.
+From the evidence below, it seems to be about breaking down a system into its parts and formalizing how the parts interact with one another. It also seems to be about input > system > output. But I can't find a good mental framework to capture these in an elegant, generalized fashion. Until I do, I'll just put these _verbal prompts_ as the framework.
 
 <blockquote>
 Input → system (computation) → output. This is my core paradigm for understanding anything.
