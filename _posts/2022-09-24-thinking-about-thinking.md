@@ -68,11 +68,11 @@ There are two fundamental things: <i>concepts (abstraction)</i> and <i>physical 
 
 ## Semideterministic Framework
 
-For semi-deterministic fields, which is computing, I believe it is about *understanding complex systems of interacting components that modify state at different levels of abstraction and perspective*. 
+For semi-deterministic fields, which is computing, I believe it is about breaking down a system into its parts from a top-down fashion. This is the key trick. Look at the system from the highest level, then go down, recursively.
 
 A _system_ can be broken down into its _components_, recursively (that every _component_ can be viewed as _system_ in itself). _Components_ are differ by _type_, which specifies the types of computations/interactions it can perform, and the nature of the type of input and type of output of an interaction. We could even argue an interaction is defined by the type of input it allows and the type of output it generates.
 
-The _level of abstraction_ refers to how fine-grained/granular the _perspective_ is, how close or far away from the metal. And according to Don Knuth below, a good programmer must be _comfortable switching his/her level of abstraction_ of _understanding a system or component_ when needed. Of course, how to do so, I have no idea.
+The _input_ and _output_ is more of modifying state.
 
 So to summarize:
 
