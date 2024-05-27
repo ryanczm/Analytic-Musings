@@ -72,15 +72,17 @@ For semi-deterministic fields, which is computing, I believe it is about breakin
 
 A _system_ can be broken down into its _components_, recursively (that every _component_ can be viewed as _system_ in itself). _Components_ are differ by _type_, which specifies the types of computations/interactions it can perform, and the nature of the type of input and type of output of an interaction. We could even argue an interaction is defined by the type of input it allows and the type of output it generates.
 
-The _input_ and _output_ is more of modifying state.
+Anyway, the key is to break a system down or have a _graphical view_ of the system, similar to those systems architecture diagrams we see. To do so, you either write it down on paper/screen or have it in your head. Obviously, unless you are a genius and have memory like von Neumann, then writing it down is the way to go. 
+
+Another view is _memory view_. This would be visualising on a lower level of abstraction what is going on.
 
 So to summarize:
 
 1. Think in terms of systems and components. 
-2. Think in terms of types of inputs and outputs (interactions between components).
-3. Choose the correct abstraction level for the situation at hand.
+2. Graphical thinking: draw out a graphical view of the system. 
+3. Memory view: at lower levels, envision what the memory is doing.
 
-However, if you notice the problem with this framework compared to the one above and below it, is the words used aren't as rigorous or clear. And that's the problem I face right now. It would be cool to examine or observe more computer scientists/programmers to see how they think and really distill out a better framework.
+Not very elegant, but I think this works for now. I'll be practicing graphical view understanding the codebase at my current role.
 
 
 <blockquote>
