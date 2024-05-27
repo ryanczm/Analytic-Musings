@@ -68,13 +68,20 @@ There are two fundamental things: <i>concepts (abstraction)</i> and <i>physical 
 
 ## Semideterministic Framework
 
-For semi-deterministic fields, or essentially computing, I don't have a good framework yet. I believe there are some prompts one can use to help them think computationally:
+For semi-deterministic fields, which is computing, I believe it is about *understanding complex systems of interacting components that modify state at different levels of abstraction and perspective*. 
 
-1. 'Under the hood, what's really going on / how this works' (decomposition/level of abstraction)
-2. 'What this does' (input/output)
-3. 'What this is' (type of interaction)
+A _system_ can be broken down into its _components_, recursively (that every _component_ can be viewed as _system_ in itself). _Components_ are differ by _type_, which specifies the types of computations/interactions it can perform, and the nature of the type of input and type of output of an interaction. We could even argue an interaction is defined by the type of input it allows and the type of output it generates.
 
-From the evidence below, it seems to be about breaking down a system into its parts and formalizing how the parts interact with one another. It also seems to be about input > system > output. But I can't find a good mental framework to capture these in an elegant, generalized fashion. Until I do, I'll just put these _verbal prompts_ as the framework.
+The _level of abstraction_ refers to how fine-grained/granular the _perspective_ is, how close or far away from the metal. And according to Don Knuth below, a good programmer must be _comfortable switching his/her level of abstraction_ of _understanding a system or component_ when needed. Of course, how to do so, I have no idea.
+
+So to summarize:
+
+1. Think in terms of systems and components. 
+2. Think in terms of types of inputs and outputs (interactions between components).
+3. Choose the correct abstraction level for the situation at hand.
+
+However, if you notice the problem with this framework compared to the one above and below it, is the words used aren't as rigorous or clear. And that's the problem I face right now. It would be cool to examine or observe more computer scientists/programmers to see how they think and really distill out a better framework.
+
 
 <blockquote>
 Input → system (computation) → output. This is my core paradigm for understanding anything.
@@ -94,7 +101,7 @@ Being able to see something at lots of levels and <i>go between them smoothly</i
 
 These fields encompass finance, economics, history, etc. In here, the key node is a composite of a player. A player has a view/context and behaviors stem from it. We draw connections to build a _situation_ to other nodes. A cheap heuristic would be to ask _who_, _what_ and _why_. Their representation is a `player`.
 
-A _situation_ is a complex interplay of different players. The trick is to hold multiple actors in your head and connect their interactions together by asking who and why.
+A _situation_ is a complex interplay of different players. The trick is to hold multiple actors in your head and connect their interactions together by asking who and why, _from their perspective_.
 
 Then, we can ask historically how a situation has evolved and how it will play out in the future.
 
