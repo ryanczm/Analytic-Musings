@@ -68,11 +68,13 @@ There are two fundamental things: <i>concepts (abstraction)</i> and <i>physical 
 
 ## Semideterministic Framework
 
-For semi-deterministic fields, which is computing, I believe it is about breaking down a system into its parts from a top-down fashion. This is the key trick. Look at the system from the highest level, then go down, recursively.
+For semi-deterministic fields, which is computing, I believe it is about breaking down a system into its parts from a top-down fashion. This is the key trick. Look at the system from the highest level, then go down, recursively. So we would have one input > system > output, then you would break it down recursively from there.
 
-A _system_ can be broken down into its _components_, recursively (that every _component_ can be viewed as _system_ in itself). _Components_ are differ by _type_, which specifies the types of computations/interactions it can perform, and the nature of the type of input and type of output of an interaction. We could even argue an interaction is defined by the type of input it allows and the type of output it generates.
+A _system_ can be broken down into its _components_, recursively (that every _component_ can be viewed as _system_ in itself). _Components_ could be _data_ or _computation_. _Components_ are differ by _type_, which specifies the types of computations/interactions it can perform, and the nature of the type of input and type of output of an interaction. We could even argue an interaction is defined by the type of input it allows and the type of output it generates.
 
 Anyway, the key is to break a system down or have a _graphical view_ of the system, similar to those systems architecture diagrams we see. To do so, you either write it down on paper/screen or have it in your head. Obviously, unless you are a genius and have memory like von Neumann, then writing it down is the way to go. 
+
+Viewing it as a graph, then we can either look at data as nodes (and edges as computation) or computation as nodes and the data travelling between them as edges. Your choice really.
 
 Another view is _memory view_. This would be visualising on a lower level of abstraction what is going on.
 
