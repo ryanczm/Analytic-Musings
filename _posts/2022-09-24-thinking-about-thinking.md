@@ -76,7 +76,7 @@ Anyway, the key is to break a system down or have a _graphical view_ of the syst
 
 To make connections within the system, we have to be wary of the _types_ of _components_ and _data_, since only certain types of data can be read or processed by certain types of components. 
 
-Another view is _memory view_. This would be visualising on a lower level of abstraction what is going on. 
+Another view is _memory view_. This would be visualising on a lower level of abstraction what is going on. In terms of input-system-output, we can abstract a _system_ or _component_ as a _copy transformation of memory_: it takes some memory, copies it (or modifies in place), then modifies the structure of memory (or copy).
 
 So to summarize:
 
