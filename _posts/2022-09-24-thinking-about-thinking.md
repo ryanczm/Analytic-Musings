@@ -70,13 +70,14 @@ There are two fundamental things: <i>concepts (abstraction)</i> and <i>physical 
 
 For semi-deterministic fields, which is computing, I believe it is about breaking down a system into its parts from a top-down fashion. This is the key trick. Look at the system from the highest level, then go down, recursively. So we would have one input > system > output, then you would break it down recursively from there. I'll call this operation _decomposition_.
 
-A _system_ can be broken down into its _components_, recursively (that every _component_ can be viewed as _system_ in itself). _Components_ could be _data_ or _computation_. _Components_ are differ by _type_, which specifies the types of computations/interactions it can perform, and the nature of the type of input and type of output of an interaction. We could even argue an interaction is defined by the type of input it allows and the type of output it generates.
 
-Anyway, the key is to break a system down or have a _graphical view_ of the system, similar to those systems architecture diagrams we see. To do so, you either write it down on paper/screen or have it in your head. Obviously, unless you are a genius and have memory like von Neumann, then writing it down is the way to go. 
+A _system_ can be broken down into its _components_, recursively (that every _component_ can be viewed as _system_ in itself). _Components_ could be _data_ or _computation_. The nodes are data. A _computation_ arrow is defined by the type(s) of data it receives and type(s) of data it produces. We could even argue an interaction is defined by the type of input it allows and the type of output it generates.
+
+Anyway, the key is to break a system down or have a _graphical view_ of the system, similar to those systems architecture diagrams we see. To do so, you either write it down on paper/screen or have it in your head.
 
 To make connections within the system, we have to be wary of the _types_ of _components_ and _data_, since only certain types of data can be read or processed by certain types of components. 
 
-Another view is _memory view_. This would be visualising on a lower level of abstraction what is going on. In terms of input-system-output, we can abstract a _system_ or _component_ as a _copy transformation of memory_: it takes some memory, copies it (or modifies in place), then modifies the structure of memory (or copy).
+Another view is _memory view_. This would be visualising on a lower level of abstraction what is going on. In terms of input-system-output, we can abstract a _computation_ as a _copy transformation of memory_: it takes some memory, copies it (or modifies in place), then modifies the structure of memory (or copy).
 
 So to summarize:
 
