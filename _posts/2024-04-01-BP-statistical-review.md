@@ -20,16 +20,16 @@ The raw data (from BP/Energy Institute) is found [here](https://www.energyinst.o
 <!-- TOC -->
 
 - [Table of Contents](#table-of-contents)
-- [Oil Reserves MMMbl](#oil-reserves-mmmbl)
-- [Oil Production mbld](#oil-production-mbld)
-- [Oil and Product Consumption mbld](#oil-and-product-consumption-mbld)
-- [Capacity mbld](#capacity-mbld)
-- [Crude and Product Trade Flows MN TN](#crude-and-product-trade-flows-mn-tn)
+- [Oil Reserves (MMMbl)](#oil-reserves-mmmbl)
+- [Oil Production (mbld)](#oil-production-mbld)
+- [Oil and Product Consumption (mbld)](#oil-and-product-consumption-mbld)
+- [Capacity (mbld)](#capacity-mbld)
+- [Crude and Product Trade Flows (MN TN)](#crude-and-product-trade-flows-mn-tn)
 - [The Platts Periodic Table and Refinery Specs](#the-platts-periodic-table-and-refinery-specs)
-- [Gas Reserves TN CMs](#gas-reserves-tn-cms)
-- [Gas Production BN CM Y](#gas-production-bn-cm-y)
-- [Gas Consumption BN CM Y](#gas-consumption-bn-cm-y)
-- [LNG and Pipeline Flows BN CM Y](#lng-and-pipeline-flows-bn-cm-y)
+- [Gas Reserves (TN CMs)](#gas-reserves-tn-cms)
+- [Gas Production (BN CM Y)](#gas-production-bn-cm-y)
+- [Gas Consumption (BN CM Y)](#gas-consumption-bn-cm-y)
+- [LNG and Pipeline Flows (BN CM Y)](#lng-and-pipeline-flows-bn-cm-y)
 - [Conclusion](#conclusion)
 
 <!-- /TOC -->
@@ -285,6 +285,4 @@ At this point, I realized data about product trade flows would be much more info
 
 I still have parsed the natural gas data and plotted charts, but we'll leave that for another time. To conclude, this post visualises the BP Statistical Review for World Energy charts and the Platts Periodic table of crudes. I've got a decent geographic feel of how things flow at a high level. 
 
-This will be a foundational project to start off for commodities/oil & gas. I've planned two more successive projects: __analyzing a recent market view from a purely discretionary perspective (off an oil analyst's Twitter thread)__ and __building a balance for a product and doing some forecasting/analytics__. This project was done first to give me that basic understanding of oil & gas flows as pre-requisite. See you in the next post!
-
-Lastly, I'm aware this project may seem amateurish to those with experience. All I can ask is, give me time and effort (and feedback or criticism is hugely appreciated!). We'll get there in the end.
+Edit: As I've realized, fundamental flows are available out there from data providers, but are expensive, so we have to resort to scraping tables and charts off a free PDF. Nonetheless, this was a good exercise to get some geographic intuition of crude, distillate and gas flows.

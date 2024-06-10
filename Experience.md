@@ -8,7 +8,7 @@ order: 3
     <div>
         <h3> Trading Analyst [at] Commodity Hedge Fund</h3>
         <p>
-        Thanks to OOTT, I am currently working remotely as a trading analyst for a Swiss commodity hedge fund, looking at shiptracking & weather data to extract possible trading signals on energy and ags for lower freq quantamental strats.
+        Thanks to OOTT, I am currently working remotely as a trading analyst for a Swiss commodity hedge fund, looking at shiptracking flows & weather data to extract possible trading signals on energy and ags for lower freq quantamental strats. I am also working on minor, incremental aspects of the codebase, like scraping fundamental data and market data processing.
         </p>
     </div>
 </div>
@@ -20,13 +20,12 @@ order: 3
     <div>
         <h3> Energy/Pricing Analyst [at] General Index</h3>
         <p>
-        As an analyst, I was responsible for the daily price assessment process for middle (jet fuel, diesel) and heavy distillates (marine fuel). I had to learn the fundamentals and technicals of these markets, the product specifications, the end-to-end process from extraction, transporting to a refinery, then selling the distillate and the specifications/mechanisms of the various contracts.
+        As an analyst, I was responsible for the daily price assessment process for middle (jet fuel, diesel) and heavy distillates (marine fuel). I had to learn the fundamentals and technicals of these markets, the product specifications, the end-to-end process from extraction, transporting to a refinery, then selling the distillate and the specifications/mechanisms of the various contracts. Actually that's cap, I managed to learn none of that while there. I learn it by myself now through sheer hustle and grit. The whole swaps complex still confuses me.
         </p>
         <p> 
-        Using Python to automate data parsing and price assessments, I implemented systematic price assessment algorithms of daily index values for paper and physical distillate forward markets with constraint programming/constrained optimization, resulting in a more objective, algorithmic assessment process with significant time savings. The data came from order flow from the Platts e-window and various brokers.
+        Using Python to automate data parsing and price assessments, I implemented price assessment algorithms of daily index values for paper and physical markets with constraint programming/constrained optimization, resulting in a more objective assessment process with time savings. Okay I made it sound fancy but the reality it is just running a simple cpmpy script ...
         </p>
         <p>
-        Previously, the assessment process was done in spreadsheets. These price assessments would serve as the physical spot price for various forward contracts to be settled against.
         </p>
     </div>
 </div>
@@ -56,9 +55,9 @@ order: 3
         <p>
         The bread and butter of my internship was to tune the regression models that predicted property value which was the main product of the web app. This included tweaking the existing codebase, trying out different regression models, brainstorming and testing additional features against historical prices. I also used SQL for adhoc queries and extracting data.
         </p>
-        <p>
+        <!-- <p>
         Another interesting thing I did was to predict en-bloc probabilities. This is a feature of the local property market in Singapore where a developer buys out an existing plot of land with a property (usually an old one), demolishes it, pays the residents a compensation fee, and redevelops the land. This was done using clustering (en-bloc properties are similar in feature space). This is of interest to home-owners as buyouts are often profitable.
-        </p>
+        </p> -->
     </div>
 </div>
 

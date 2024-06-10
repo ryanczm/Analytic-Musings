@@ -4,17 +4,18 @@ title: Chat with Trafigura Oil Analyst (Apr 24)
 
 ---
 
-<!-- TOC -->
+<!-- omit in toc -->
+# Coffee Chat with Trafigura Oil Analyst (Apr 24)
 
-- [Chat with Trafigura Oil Analyst](#chat-with-trafigura-oil-analyst)
-    - [Background](#background)
-    - [On his Job](#on-his-job)
-    - [On Projects and Self-Starter Ideas](#on-projects-and-self-starter-ideas)
-    - [On Market 'Sense'](#on-market-sense)
-    - [On Technicals as an Edge](#on-technicals-as-an-edge)
-- [Conclusion](#conclusion)
+Below details my chat with a friend whom I met at APPEC last year at the Trafigura party when I was a clueless analyst at General Index. He is not Singaporean, so while being near my age he is a young veteran of the phys commods game, having been through the various rotations at Trafi from ops to risk to research - a well-rounded tour. Anyway, my main objective was to understand, from his perspective, what phys commods analyst roles was like and what they do. I cover:
 
-<!-- /TOC -->
+* What a market analyst does
+* On market 'sense'
+* Technicals as an edge
+
+So here are the questions I asked. This was recorded in a noisy Starbucks then manually written out so expect some loss of signal :) I will do chats in quiet places from now.
+
+
 > What is Physical Commodity Trading?
 
 * Doing arbs. That's it.
