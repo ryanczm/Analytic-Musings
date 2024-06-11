@@ -20,7 +20,7 @@ order: 3
     <div>
         <h3> Energy/Pricing Analyst [at] General Index</h3>
         <p>
-        As an analyst, I was responsible for the daily price assessment process for middle (jet fuel, diesel) and heavy distillates (marine fuel). I had to learn the fundamentals and technicals of these markets, the product specifications, the end-to-end process from extraction, transporting to a refinery, then selling the distillate and the specifications/mechanisms of the various contracts. Actually that's cap, I managed to learn none of that while there. I learn it by myself now through sheer hustle and grit. The whole swaps complex still confuses me.
+        As an analyst, I was responsible for the daily price assessment process for middle (jet fuel, diesel) and heavy distillates (marine fuel). I had to learn the fundamentals and technicals of these markets, the product specifications, the end-to-end process from extraction, transporting to a refinery, then selling the distillate and the specifications/mechanisms of the various contracts. Actually that's cap, I managed to learn none of that while there. I learn it by myself now through sheer hustle and grit.
         </p>
         <p> 
         Using Python to automate data parsing and price assessments, I implemented price assessment algorithms of daily index values for paper and physical markets with constraint programming/constrained optimization, resulting in a more objective assessment process with time savings. Okay I made it sound fancy but the reality it is just running a simple cpmpy script ...
