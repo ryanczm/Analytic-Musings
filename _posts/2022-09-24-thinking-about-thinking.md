@@ -77,15 +77,19 @@ Anyway, the key is to break a system down or have a _graphical view_ of the syst
 
 To make connections within the system, we have to be wary of the _types_ of _components_ and _data_, since only certain types of data can be read or processed by certain types of components. 
 
-Another view is _memory view_. This would be visualising on a lower level of abstraction what is going on. In terms of input-system-output, we can abstract a _computation_ as a _copy transformation of memory_: it takes some memory, copies it (or modifies in place), then modifies the structure of memory (or copy).
+Lastly, we can generalize the notion of _decomposition_ by _layers of abstraction_. The trick to understanding things in computer science might be to be able to work in linear fashion down the levels of abstraction, understanding how each one works in a top-to-bottom fashion.
+
+For example, to understand how a particular snippet of Python library code, we might have to traverse the abstractions, from the snippet code, to the library source code in Python, to the low-level language source code (say a C file for Numpy), then the compiler level, then the processor level, then the memory level, then the transistor level etc (to take the limit in silly example). Of course, there are too many levels, and there is a depth of abstraction below which the human mind cannot possibly visualise, so the idea would be to get as far down as possible. 
+
+One could also 'skip levels' to get a 'intuitive feel', similar to how one might have an intuitive feel of an outline of a proof in mathematics instead of deriving the entire thing. This would allow one to get calibrate his level of understanding to something good enough, given time constraints.
 
 So to summarize:
 
 1. Think in terms of systems and components. 
 2. Graphical thinking: draw out a graphical view of the system. 
-3. Memory view: at lower levels, envision what the memory is doing.
+3. Abstraction layers: from top to bottom. Linear.
 
-Not very elegant, but I think this works for now. I'll be practicing graphical view understanding the codebase at my current role.
+Not very elegant, but I think this works for now. I'll be practicing this style of thinking working on the codebase at my current role.
 
 
 <blockquote>
