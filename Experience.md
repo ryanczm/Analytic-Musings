@@ -8,7 +8,7 @@ order: 3
     <div>
         <h3> Trading Analyst [at] Commodity Hedge Fund</h3>
         <p>
-        I am currently working remotely as a trading analyst for a Swiss commodity hedge fund, looking at shiptracking flows, weather & demand/supply data to extract signals on energy & ags to add lower frequency, quantamental context to existing strategies in a systematic manner. 
+        I am currently working remotely as a trading analyst for a Swiss commodity hedge fund, looking at shiptracking flows, weather & demand/supply data to extract trading signals for energy & ags.
         </p>
         <p>
         I am also working on various small incremental aspects of the codebase - systematic scraping, live market data processing, job scheduling and profiling.
