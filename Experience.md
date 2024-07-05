@@ -8,7 +8,10 @@ order: 3
     <div>
         <h3> Trading Analyst [at] Commodity Hedge Fund</h3>
         <p>
-        Thanks to OOTT, I am currently working remotely as a trading analyst for a Swiss commodity hedge fund, looking at shiptracking flows & weather data to extract possible trading signals on energy and ags for lower freq quantamental strats. I am also working on minor, incremental aspects of the codebase, like scraping fundamental data and market data processing.
+        I am currently working remotely as a trading analyst for a Swiss commodity hedge fund, looking at shiptracking flows, weather & demand/supply data to extract signals on energy & ags to add lower frequency, quantamental context to existing strategies in a systematic manner. 
+        </p>
+        <p>
+        I am also working on various small incremental aspects of the codebase - systematic scraping, live market data processing, job scheduling and profiling.
         </p>
     </div>
 </div>
@@ -20,10 +23,10 @@ order: 3
     <div>
         <h3> Energy/Pricing Analyst [at] General Index</h3>
         <p>
-        As an analyst, I was responsible for the daily price assessment process for middle (jet fuel, diesel) and heavy distillates (marine fuel). I had to learn the fundamentals and technicals of these markets, the product specifications, the end-to-end process from extraction, transporting to a refinery, then selling the distillate and the specifications/mechanisms of the various contracts. Actually that's cap, I managed to learn none of that while there. I learn it by myself now through sheer hustle and grit.
+        As an analyst, I was responsible for the daily price assessment process for middle (jet fuel, diesel) and heavy distillates (marine fuel). I had to learn the fundamentals and technicals of these markets, the product specifications, the end-to-end process from extraction, transporting to a refinery, then selling the distillate and the specifications/mechanisms of the various contracts. Actually that's cap, I managed to learn none of that while there. I learn it by myself now.
         </p>
         <p> 
-        Using Python to automate data parsing and price assessments, I implemented price assessment algorithms of daily index values for paper and physical markets with constraint programming/constrained optimization, resulting in a more objective assessment process with time savings. Okay I made it sound fancy but the reality it is just running a simple cpmpy script ...
+        Using Python to automate data parsing and price assessments, I implemented price assessment algorithms of daily index values for paper and physical markets with constraint programming/constrained optimization, resulting in a more objective assessment process with time savings.
         </p>
         <p>
         </p>
