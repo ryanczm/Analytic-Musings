@@ -4,11 +4,11 @@ title: Experience
 order: 3
 ---
 <div class="exp">
-    <img class="exp2" src="{{ site.imageurl }}/Logos/blanksquare.jpg" width='120px' height='50px'>
+    <img class="exp2" src="{{ site.imageurl }}/Logos/blanksquare.jpg" width='90px' height='50px'>
     <div>
         <h3> Trading Analyst [at] Commodity Hedge Fund</h3>
         <p>
-        I am currently working remotely as a trading analyst for a Swiss commodity hedge fund, looking at shiptracking flows, weather & demand/supply data to extract trading signals for energy & ags.
+        I am currently working remotely as a trading analyst for a Swiss commodity hedge fund, looking at shiptracking flows, weather & supply/demand data to extract trading signals for energy & ags.  🛢️⛈️🌾 
         </p>
         <p>
         I am also working on various small incremental aspects of the codebase - systematic scraping, live market data processing, job scheduling and profiling.
