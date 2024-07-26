@@ -71,7 +71,7 @@ There are two fundamental things: <i>concepts (abstraction)</i> and <i>physical 
 For semi-deterministic fields, which is computing, I believe it is about breaking down a system into its parts from a top-down fashion. This is the key trick. Look at the system from the highest level, then go down, recursively. So we would have one input > system > output, then you would break it down recursively from there. I'll call this operation _decomposition_.
 
 
-A _system_ can be broken down into its _components_, recursively (that every _component_ can be viewed as _system_ in itself). _Components_ could be _data_ or _computation_. The nodes are data. A _computation_ arrow is defined by the type(s) of data it receives and type(s) of data it produces. We could even argue an interaction is defined by the type of input it allows and the type of output it generates.
+A _system_ can be broken down into its _tools/components_, recursively (that every _component_ can be viewed as _system_ in itself). _Tools could be _data_ or _computation_. The nodes are data. A _computation_ arrow is defined by the type(s) of data it receives and type(s) of data it produces. We could even argue an interaction is defined by the type of input it allows and the type of output it generates.
 
 Anyway, the key is to break a system down or have a _graphical view_ of the system, similar to those systems architecture diagrams we see. To do so, you either write it down on paper/screen or have it in your head.
 
@@ -79,7 +79,7 @@ To make connections within the system, we have to be wary of the _types_ of _com
 
 Lastly, we can generalize the notion of _decomposition_ by _layers of abstraction_. The trick to understanding things in computer science might be to be able to work in linear fashion down the levels of abstraction, understanding how each one works in a top-to-bottom fashion.
 
-For example, to understand how a particular snippet of Python library code, we might have to traverse the abstractions, from the snippet code, to the library source code in Python, to the low-level language source code (say a C file for Numpy). Now you have another whole set of abstractions, computations and data transformations (the language of C) to learn, without questioning how it gets compiled to machine code or how the compiler works. Then the compiler level, then the processor level, then the memory level, then the transistor level etc (to take the limit in silly example). Of course, there are too many levels, and there is a depth of abstraction below which the human mind cannot possibly visualise, so the idea would be to get as far down as possible. 
+For example, to understand how a particular snippet of Python library code, we might have to traverse the abstractions, from the snippet code, to the library source code in Python, to the low-level language source code (say a C file for Numpy). Now you have another whole set of abstractions, computations and data transformations (the language of C) to learn, without questioning how it gets compiled to machine code or how the compiler works. Then the compiler level, then the processor level, then the memory level, then the transistor level etc (to take the limit in silly example). Of course, there are too many levels, and there is a depth of abstraction below which the human mind cannot possibly visualise, so the idea would be to get as far down as possible.
 
 One could also 'skip levels' to get a 'intuitive feel', similar to how one might have an intuitive feel of an outline of a proof in mathematics instead of deriving the entire thing. This would allow one to get calibrate his level of understanding to something good enough, given time constraints.
 
@@ -89,8 +89,7 @@ So to summarize:
 2. Graphical thinking: draw out a graphical view of the system. 
 3. Abstraction layers: from top to bottom. Linear.
 
-Not very elegant, but I think this works for now. I'll be practicing this style of thinking working on the codebase at my current role.
-
+The idea is that at a given level of abstraction, you have a set of tools or computations to work with that form a system, and you jump between abstraction levels to connect the dots.
 
 <blockquote>
 Input → system (computation) → output. This is my core paradigm for understanding anything.
@@ -114,7 +113,7 @@ A _situation_ is a complex interplay of different players. The trick is to hold 
 
 Then, we can ask historically how a situation has evolved and how it will play out in the future.
 
-So, the first step in any similar situation is to ask 'who'. Who are the players? What are their actions? Why did they did it? And there 
+So, the first step in any similar situation is to ask 'who'. Who the players in a scenario are, what their perspectives are (again, the keyword trigger _from their perspective_), and from there, we can understand their actions. And this is where history comes in, whereby we examine the historical scenarios that have played out to infer the perspectives and actions of actors in the present/future.
 
 
 <blockquote>
