@@ -113,7 +113,9 @@ A _situation_ is a complex interplay of different players. The trick is to hold 
 
 Then, we can ask historically how a situation has evolved and how it will play out in the future.
 
-So, the first step in any similar situation is to ask 'who'. Who the players in a scenario are, what their perspectives are (again, the keyword trigger _from their perspective_), and from there, we can understand their actions. And this is where history comes in, whereby we examine the historical scenarios that have played out to infer the perspectives and actions of actors in the present/future.
+So, the first step in any similar situation is to ask __'who'__. Who the players in a scenario are, what __their perspectives__ are (again, the keyword trigger _from their perspective_), and from there, we can understand their actions. And this is where history comes in, whereby we examine the historical scenarios that have played out to infer the perspectives and actions of actors in the present/future.
+
+Thus, the key skill is putting yourself in the shoes of another entity, and figure out what their situation is like, and from there, logically connect their actions. And this skill seems to be the most 'relevant' to everyday life in terms of social interactions since it deals with people. And there's an interesting extension of this that can maybe connect to _deterministic_ thinking, that is, to put yourself in the perspective of a physical object, say an electron or cell, and see what happens. But I'll have to explore this.
 
 
 <blockquote>
