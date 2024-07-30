@@ -41,7 +41,11 @@ A `textual representation` is how the concept appears on text, or on paper. Aka 
 
 <p>Example Fields: Mathematics, natural sciences, engineering.</p>
 
-There are two fundamental things: <i>concepts (abstraction)</i> and <i>physical objects (physical variable)</i>. On the underlying side, they are just numbers, quantities that can vary, basically. But what they represent are two different things. Their textual representation is a `symbol` and innate representation is a `visual`. 
+There are two fundamental things: <i>concepts (abstraction)</i> and <i>physical objects (physical variable/parameter)</i>. On the underlying side, they are just numbers, quantities that can vary, basically. But what they represent are two different things. Their textual representation is a `symbol` and innate representation is a `visual`. 
+
+A concept (more towards the field of mathematics) and a variable/parameter (more towards the field of physics) are the two main players. The difference is in their treatment: both can be visualised, but the former exists in abstract space whereas the latter exists in physical space (e.g our physical reality).
+
+And so we can connect concepts together or variables together. But for the latter, we have to visualise them precisely or build a visual simulation.
 
 <p>They are linked via connections. These can be direct or latent. Direct connections are obvious. Latent ones are sudden inspirations between seemingly unrelated things. The idea is to build up a dense, well-connected network of things in your head.</p>
 
@@ -71,7 +75,7 @@ There are two fundamental things: <i>concepts (abstraction)</i> and <i>physical 
 For semi-deterministic fields, which is computing, I believe it is about breaking down a system into its parts from a top-down fashion. This is the key trick. Look at the system from the highest level, then go down, recursively. So we would have one input > system > output, then you would break it down recursively from there. I'll call this operation _decomposition_.
 
 
-A _system_ can be broken down into its _tools/components_, recursively (that every _component_ can be viewed as _system_ in itself). _Tools could be _data_ or _computation_. The nodes are data. A _computation_ arrow is defined by the type(s) of data it receives and type(s) of data it produces. We could even argue an interaction is defined by the type of input it allows and the type of output it generates.
+A _system_ can be broken down into its _tools/components_, recursively (that every _component_ can be viewed as _system_ in itself). Tools could be _data_ or _computation_. The nodes are data. A _computation_ arrow is defined by the type(s) of data it receives and type(s) of data it produces. We could even argue an interaction is defined by the type of input it allows and the type of output it generates.
 
 Anyway, the key is to break a system down or have a _graphical view_ of the system, similar to those systems architecture diagrams we see. To do so, you either write it down on paper/screen or have it in your head.
 
@@ -89,7 +93,7 @@ So to summarize:
 2. Graphical thinking: draw out a graphical view of the system. 
 3. Abstraction layers: from top to bottom. Linear.
 
-The idea is that at a given level of abstraction, you have a set of tools or computations to work with that form a system, and you jump between abstraction levels to connect the dots.
+The idea is that at a given level of abstraction, you have a set of _tools_ to work with that form a system, and you jump between abstraction levels to connect the dots.
 
 <blockquote>
 Input → system (computation) → output. This is my core paradigm for understanding anything.
