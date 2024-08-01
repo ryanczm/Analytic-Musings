@@ -47,6 +47,8 @@ A concept (more towards the field of mathematics) and a variable/parameter (more
 
 And so we can connect concepts together or variables together. But for the latter, we have to visualise them precisely or build a visual simulation.
 
+Another idea is that of _dependency_, whereby to understand or make connections of certain concepts, there must be a backlog graph of existing concepts that you have to build in sequential fashion, aka prerequisites.
+
 <p>They are linked via connections. These can be direct or latent. Direct connections are obvious. Latent ones are sudden inspirations between seemingly unrelated things. The idea is to build up a dense, well-connected network of things in your head.</p>
 
 <blockquote>
