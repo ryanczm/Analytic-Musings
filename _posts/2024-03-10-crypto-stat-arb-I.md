@@ -3,7 +3,7 @@ image: "/./assets/images/CryptoStatArb/images_research/preview.png"
 layout: post
 title: "Crypto Stat Arb I: Quantifying & Combining Alphas"
 category: finance
-excerpt: "I look at some alphas for a crypto stat arb strategy. We use momentum, carry and breakout - simple price action features. I evaluate how 'good' they are: looking their mean returns across deciles, the info coefficients and how they decay over time. Then I combine these with 'hardcoded' weights to see the hypothetical returns of trading these signals frictionlessly. 💡 "
+excerpt: "I look at some alphas for a crypto stat arb strategy. We use momentum, carry and breakout - simple price action features. I evaluate how 'good' they are: looking their mean returns across deciles, the info coefficients and how they decay over time. Then I combine these with 'hardcoded' weights to see the hypothetical returns of trading these signals frictionlessly. 📊 "
 
 ---
 
