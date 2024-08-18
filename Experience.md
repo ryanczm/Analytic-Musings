@@ -14,7 +14,7 @@ order: 3
         I am also working on various small incremental aspects of the codebase - systematic scraping, live market data processing, job scheduling and profiling.
         </p>
         <p>
-        I landed this role by reaching out on X/Twitter, showing my projects/portfolio with an earnest desire to learn, and found a willing mentor who agreed to let me work at his firm. To that, I am eternally grateful for the kindness he showed me.
+        I landed this role by reaching out on X/Twitter, showing my projects/portfolio with an earnest desire to learn, and found a willing mentor who agreed to let me work at his firm. To that, I am eternally grateful for the kindness he showed me, and I strove to repay it with hard work and grit.
         </p>
     </div>
 </div>
