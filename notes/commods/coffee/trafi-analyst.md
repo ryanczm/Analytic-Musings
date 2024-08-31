@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Chat with Trafigura Oil Analyst (Apr 24)
+title: Chat with Trafigura Oil Analyst 
 
 ---
 

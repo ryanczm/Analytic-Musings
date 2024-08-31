@@ -16,8 +16,7 @@ There is a large amount of alpha on social media with good domain-specific insig
 #### Articles
 #### Books
 
-## Quant
+## Other
 
-#### Podcasts
-
-* [Flirting with Models S6E5 - Macrocephalopod 🦑]({{ site.url }}/notes/quant/podcasts/FWM-Macrocephalopod)
+* [Data vs Memory]({{ site.url }}/notes/other/data-vs-memory)
+* [Math and Programming]({{ site.url }}/notes/other/math-&-cs)
