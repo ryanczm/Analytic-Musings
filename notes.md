@@ -20,3 +20,4 @@ There is a large amount of alpha on social media with good domain-specific insig
 
 * [Data vs Memory]({{ site.url }}/notes/other/data-vs-memory)
 * [Math and Programming]({{ site.url }}/notes/other/math-&-cs)
+* [Discretionary vs Quantitative Modelling]({{ site.url }}/notes/other/discretionary-modelling)
