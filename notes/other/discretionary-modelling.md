@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Math & Programming
+title: Discretionary vs Quantitative Modelling
 
 ---
 
@@ -17,7 +17,7 @@ title: Math & Programming
 
 </style>
 
-# Discretionary Modelling
+# Discretionary vs Quantitatives Modelling
 
 Some thoughts on discretionary vs quantitative modelling. In both cases, you have some data or situation and want to deduce a likely outcome.
 
