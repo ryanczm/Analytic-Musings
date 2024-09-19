@@ -113,15 +113,15 @@ Being able to see something at lots of levels and <i>go between them smoothly</i
 <br>
 <h2>Humanistic Framework</h2>
 
-These fields encompass finance, economics, history, etc. In here, the key node is a composite of a player. A player has a view/context and behaviors stem from it. We draw connections to build a _situation_ to other nodes. A cheap heuristic would be to ask _who_, _what_ and _why_. Their representation is a `player`.
+These fields encompass finance, economics, history, etc, any kind of field where the modelling is driven by actors behavior. How can we model humanistic framework? Using a Graph! Actors are nodes. Actions are edges. 
 
-A _situation_ is a complex interplay of different players. The trick is to hold multiple actors in your head and connect their interactions together by asking who and why, _from their perspective_.
+Job is to have a discretionary model of how graph evolves/plays out in future time, close to the true outcomes. History tells us how the graph/situation played out previously.
 
-Then, we can ask historically how a situation has evolved and how it will play out in the future.
+The [⛓️‍💥 Commodity Value Chain]({{ site.url }}/notes/commods/commodity-value-chain) is an example of a graph via humanistic framework.
 
-So, the first step in any similar situation is to ask __'who'__. Who the players in a scenario are, what __their perspectives__ are (again, the keyword trigger _from their perspective_), and from there, we can understand their actions. And this is where history comes in, whereby we examine the historical scenarios that have played out to infer the perspectives and actions of actors in the present/future.
+So, the first step in any similar situation is to build the graph. Ask __'who'__. Who the players in a scenario are, what __their perspectives__. And this is where history comes in, we can examine how the graph has played out previously.
 
-Thus, the key skill is putting yourself in the shoes of another entity, and figure out what their situation is like, and from there, logically connect their actions. And this skill seems to be the most 'relevant' to everyday life in terms of social interactions since it deals with people. And there's an interesting extension of this that can maybe connect to _deterministic_ thinking, that is, to put yourself in the perspective of a physical object, say an electron or cell, and see what happens. But I'll have to explore this.
+And there's an interesting extension of this that can maybe connect to _deterministic_ thinking, that is, to put yourself in the perspective of a physical object, say an electron or cell, and see what happens. But I'll have to explore this.
 
 
 <blockquote>

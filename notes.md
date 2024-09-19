@@ -8,16 +8,16 @@ There is a large amount of alpha on social media with good domain-specific insig
 
 ## Commodities
 
-#### Coffee Chats
+* [🛢️ Trafigura Oil Analyst - Coffee Chat (2024-04)]({{ site.url }}/notes/commods/trafi-analyst)
+* [⛓️‍💥 The Commodity Value Chain - A Discretionary Model (2024-09)]({{ site.url }}/notes/commods/commodity-value-chain)
 
-* [Chat with a Trafigura Oil Analyst (Apr 24) 🛢️]({{ site.url }}/notes/commods/trafi-analyst)
+## Quant
 
-#### Thoughts
+* [🧙🏽 Systematic LS: My Career Alphas - Article Review (2024-06)]({{ site.url }}/notes/quant/sls-career-alphas)
+* [🔮 Types of Modelling - Statistical vs Discretionary (2024-09)]({{ site.url }}/notes/quant/types-of-modelling)
 
 
 ## Other
 
-* [Data vs Memory]({{ site.url }}/notes/other/data-vs-memory)
-* [Math and Programming]({{ site.url }}/notes/other/math-&-cs)
-<!-- * [Computing - Core Dumped]({{ site.url }}/notes/other/computing-core-dumped)  -->
-* [Discretionary vs Quantitative Modelling]({{ site.url }}/notes/other/discretionary-modelling)
+* [🛤️ Math and Programming (2024-05)]({{ site.url }}/notes/other/math-&-cs)
+* [🔟 Core Dumped - How Processors Run Conditions and Loops (2024-09)]({{ site.url }}/notes/other/processor)

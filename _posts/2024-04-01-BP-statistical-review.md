@@ -1,9 +1,9 @@
 ---
 image: "/./assets/images/BPStatReview/cover.png"
 layout: post
-title: "Understanding Crude & Product Trade Flows: Visualising the BP Review of World Energy"
+title: "🛢️Understanding Crude & Product Trade Flows: Visualising the BP Review of World Energy"
 category: commods
-excerpt: "Every year since 1952, BP publishes a report called the BP Statistical Review of World Energy. In it contains historic data on world energy markets: facts & figures on global energy markets from 1960 to 2022. I visualise and analyze the data via charts. My aim is to gain an intuitive geographic feel of global crude and product flows. 🛢️ "
+excerpt: "Every year since 1952, BP publishes a report called the BP Statistical Review of World Energy. In it contains historic data on world energy markets: facts & figures on global energy markets from 1960 to 2022. I visualise and analyze the data via charts. My aim is to gain an intuitive geographic feel of global crude and product flows."
 ---
 
 Every year since 1952, BP publishes a report called the _BP Statistical Review of World Energy_. As of 2022, the custodian is now the Energy Institute, which has taken over BP. In it contains historic data on world energy markets: a facts and figures of the yearly production & consumption of energy and various commodities, from 1960/70 to 2022.
