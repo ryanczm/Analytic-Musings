@@ -117,11 +117,8 @@ These fields encompass finance, economics, history, etc, any kind of field where
 
 Job is to have a discretionary model of how graph evolves/plays out in future time, close to the true outcomes. History tells us how the graph/situation played out previously.
 
-The [⛓️‍💥 Commodity Value Chain]({{ site.url }}/notes/commods/commodity-value-chain) is an example of a graph via humanistic framework.
+So, the first step in any similar situation is to build the graph. Ask __'who'__. Who the players in a scenario are, what __their perspectives__. And this is where history comes in, we can examine how the graph has played out previously. Any piece of information involving people doing something can be modelled by this kind of thinking.
 
-So, the first step in any similar situation is to build the graph. Ask __'who'__. Who the players in a scenario are, what __their perspectives__. And this is where history comes in, we can examine how the graph has played out previously.
-
-And there's an interesting extension of this that can maybe connect to _deterministic_ thinking, that is, to put yourself in the perspective of a physical object, say an electron or cell, and see what happens. But I'll have to explore this.
 
 
 <blockquote>
