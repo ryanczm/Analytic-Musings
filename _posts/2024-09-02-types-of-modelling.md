@@ -10,13 +10,13 @@ So this recently occurred to me while trying to apply statistical modelling to a
 
 This got me thinking, what are the different types of modelling approaches? What even is a definition of model? 
 
-### Modelling - What is it Anyway?
+## Modelling - What is it Anyway?
 
 I guess this is a fairly safe definition. To model is to make some __prediction about the future, given past data__. I suppose there are 3 main types of models: statistical, discretionary, and numerical.  Statistical modelling refers to exactly what it says on the tin: your regressions, ML, econometrics, whatever. Discretionary modelling refers to constructing an argument or thesis about what someone will do in the future. And numerical refers to simulating a system with known rules/laws forward in time and generating a result. 
 
 With that in mind, we can come up with a nice table:
 
-### A Classification of Models
+## A Classification of Models
 
 
 | Name                                       | Data                                                                                                    | Mechanism                                                                                                                            | Models                             | 
@@ -42,3 +42,13 @@ Some thoughts:
 * For predictions that are frequent over short horizons, statistical modelling works better. For predictions that are infrequent over long horizons, discretionary works better. This is just repackaging the _fundamental law of active management_.
 * If actors consider past information to act, statistical modelling works better. If actors only consider current and future information to act, statistical approaches fail (past doesn't predict future). Discretionary works better. 
 * If there are lots of exogenous random shocks that influence outcomes (e.g geopolitical events, natural disasters, unplanned disruptions) that are current and are hard to be predicted via statistical modelling, then discretionary works better.
+* Numerical modelling is what we see in applied math/physics, when we build out a set of laws then derive some model (by simulation or theory) to see how a situation or measurements evolve across a time horizon.
+
+## Integrating Discretionary Views in Statistical Modelling 
+
+Is it possible to blend or combine discretionary views in statistical modelling in a sensible fashion? Perhaps. One could, get a discretionary analyst to create a feature representing his view of some event as a numerical scale (e.g 1-10), then incorporate it into a statistical model.
+
+In a regression, for example, this would let us quantify the impact in terms of the beta of the feature, as well as the correlation to other features. 
+
+But of course, by definition, a discretionary view is something that is difficult to quantify, hence discretionary, so the scale would be inherently imprecise. But that's about the best way I could see it being done. 
+
