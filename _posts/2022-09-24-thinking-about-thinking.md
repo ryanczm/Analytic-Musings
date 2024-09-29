@@ -117,9 +117,9 @@ These fields encompass markets, finance, economics, history, etc, any kind of fi
 
 I believe the key skill is the ability to build graphs explaining how situations between actors play out. First, you build a historical graph of past situations, aka by reading history, and connecting the dots by asking 'why'. 
 
-'Why did X do Y'? Basically. And then once you connect the dots of history in your head, you can now have a better idea of how the situation will play out in the future. 
+'Why did X do Y'? Basically. And then once you connect the dots of history in your head, you can now have a better idea of how the situation will play out in the future.  And akin to connecting to concepts/variables in the deterministic framework, we connect actions to actions in the humanistic framework. The atomic unit is the action, aka someone did something.
 
-And akin to connecting to concepts/variables in the deterministic framework, we connect actions to actions in the humanistic framework. The atomic unit is the action, aka someone did something.
+Another skill would be _grouping_ or _categorizing_. In this case, we can sort actors into groups according to similar contexts/circumstances/actions. We can do this in a hierarchical fashion. And this lets us look at things in the aggregate. 
 
 
 <blockquote>
