@@ -113,12 +113,13 @@ Being able to see something at lots of levels and <i>go between them smoothly</i
 <br>
 <h2>Humanistic Framework</h2>
 
-These fields encompass finance, economics, history, etc, any kind of field where the modelling is driven by actors behavior. How can we model humanistic framework? Using a Graph! Actors are nodes. Actions are edges. 
+These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's. In this case, the nodes are actors and their edges are decisions.
 
-Job is to have a discretionary model of how graph evolves/plays out in future time, close to the true outcomes. History tells us how the graph/situation played out previously.
+Now the key skill here is to ask _who_. The ability to put yourself in the perspective of an actor to understand his/her decisions, to understand the context/circumstance they are in that drives their decision-making.
 
-So, the first step in any similar situation is to build the graph. Ask __'who'__. Who the players in a scenario are, what __their perspectives__. And this is where history comes in, we can examine how the graph has played out previously. Any piece of information involving people doing something can be modelled by this kind of thinking.
+Another skill is _grouping/categorizing_. This refers to categorizing a set of actors according to similar contexts/circumstances/decisions. And we can do this in a hierarchical fashion. Once we do this, it's easier to manage because you whenever you have a new actor, you can categorize it and reference the shared context/circumstance for that particular grouping, rather than creating it again from scratch. Like caching data that is read often.
 
+The next skill is the ability to build graphs explaining how situations between actors play out. This is done by reading history or current events. As to how to build the graph, I'm not entirely sure yet. Sot this is something I need to think about.
 
 
 <blockquote>
