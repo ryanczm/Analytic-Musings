@@ -115,11 +115,11 @@ Being able to see something at lots of levels and <i>go between them smoothly</i
 
 These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's. In this case, the nodes are actors and their edges are decisions.
 
-Now the key skill here is to ask _who_ and _build a context with historical & current data_. The ability to put yourself in the perspective of an actor to understand his/her decisions, to understand the context/circumstance they are in that drives their decision-making. You have to ingest lots of data to build their context/circumstance. What is this data? Past events!
+I believe the key skill is the ability to build graphs explaining how situations between actors play out. First, you build a historical graph of past situations, aka by reading history, and connecting the dots by asking 'why'. 
 
-Another skill is _grouping/categorizing_. This refers to categorizing a set of actors according to similar contexts/circumstances/decisions. And we can do this in a hierarchical fashion. Once we do this, it's easier to manage because you whenever you have a new actor, you can categorize it and reference the shared context/circumstance for that particular grouping, rather than creating it again from scratch. Like caching data that is read often.
+'Why did X do Y'? Basically. And then once you connect the dots of history in your head, you can now have a better idea of how the situation will play out in the future. 
 
-The next skill is the ability to build graphs explaining how situations between actors play out. This is done by reading history or current events. As to how to build the graph, I'm not entirely sure yet. Sot this is something I need to think about.
+And akin to connecting to concepts/variables in the deterministic framework, we connect actions to actions in the humanistic framework. The atomic unit is the action, aka someone did something.
 
 
 <blockquote>
