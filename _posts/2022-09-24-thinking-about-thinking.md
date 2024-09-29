@@ -115,7 +115,7 @@ Being able to see something at lots of levels and <i>go between them smoothly</i
 
 These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's. In this case, the nodes are actors and their edges are decisions.
 
-Now the key skill here is to ask _who_. The ability to put yourself in the perspective of an actor to understand his/her decisions, to understand the context/circumstance they are in that drives their decision-making.
+Now the key skill here is to ask _who_ and _build a context with historical & current data_. The ability to put yourself in the perspective of an actor to understand his/her decisions, to understand the context/circumstance they are in that drives their decision-making. You have to ingest lots of data to build their context/circumstance. What is this data? Past events!
 
 Another skill is _grouping/categorizing_. This refers to categorizing a set of actors according to similar contexts/circumstances/decisions. And we can do this in a hierarchical fashion. Once we do this, it's easier to manage because you whenever you have a new actor, you can categorize it and reference the shared context/circumstance for that particular grouping, rather than creating it again from scratch. Like caching data that is read often.
 
