@@ -8,9 +8,7 @@ category: commodities
 
 # Introduction
 
-We can come up with a framework for thinking about commodity markets based on the humanistic framework (Metacognition: Thinking about Thinking).  I suspect (physical) commodities lends itself more to discretionary modelling over statistical modelling because of how random events cannot be predicted by past data (e.g random shocks, like hurricanes, strikes, revolutions, geopolitics, etc). So it is more reactionary (e.g you hear news, you react and capitalize).
-
-
+We can come up with a framework for thinking about commodity markets. This makes use of the humanistic framework in my other post (Metacognition: Thinking about Thinking). The key idea is to build a mental model of flows across nodes, but with a physical overlay: geography, quantity, etc.
 
 # Value Chain
 
@@ -38,13 +36,12 @@ We can come up with a framework for thinking about commodity markets based on th
   * Flows (goes where). How it evolves over time (e.g historical state, current state).
 * Node Predictors
   * State & future events. Aka predict flows and as a trader capitalize on the logistics premium.
-  * Flows are important! First understand historical and current flows. Then predict future flows.
 
 # Examples
 
 * Trader of crude/products in ME. You make money by spread.
 * Situation - Israel conflict.
-* Analysis - If Israel strikes Iranian oil export terminal (e.g Kharg Island), that wipes out their exports. Where do the flows go?
+* Analysis - If Israel strikes Iranian oil export terminal (e.g Kharg Island), that wipes out their exports. We know crude flows from Iran to China heavily (Orrin). So you say OK, those 'lost barrels' will source more from elsewhere.
 
 # Oil & Gas
 
@@ -61,9 +58,7 @@ We can come up with a framework for thinking about commodity markets based on th
   * Flows (goes where)
 
 
-
-
-# Supply & Demand Quantities/Factors
+### Supply & Demand Quantities/Factors
 
 We can further split each supply or demand quantity into individual quantities in a hierarchical fashion, e.g based on geography (a natural grouping).
 
