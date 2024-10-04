@@ -6,25 +6,64 @@ category: commodities
 
 
 
-### Introduction
+# Introduction
 
-We can come up with a framework for thinking about commodity markets. From Craig Pirrong's 2015 _The Economics of Commodity Trading Firms_.  There exists a _commodity value chain_, and at each stage the commodity passes through the hands of various parties, all the way from beginning to end, where it is consumed.
+We can come up with a framework for thinking about commodity markets based on the humanistic framework (Metacognition: Thinking about Thinking).  I suspect (physical) commodities lends itself more to discretionary modelling over statistical modelling because of how random events cannot be predicted by past data (e.g random shocks, like hurricanes, strikes, revolutions, geopolitics, etc). So it is more reactionary (e.g you hear news, you react and capitalize).
 
-At each step in the chain, the commodity undergoes a combination of logistical transformations: space (transportation), time (storage), form (processing), bringing it one step closer to consumption for utility. The invisible hand driving this movement is profit, at each stage, companies take profit by doing an arbitrage/transformation, buy $\rightarrow$ transform $\rightarrow$ sell The goal is maximize profitability by choosing the 'best' transformations (most profitable), by _processing new information and making decisions_. Making optimal choices from a set of possibilities given current information.
 
-I suspect (physical) commodities lends itself more to discretionary modelling over statistical modelling because of how random events cannot be predicted by past data (e.g random shocks, like hurricanes, strikes, revolutions, geopolitics, etc). So it is more reactionary (e.g you hear news, you react and capitalize).
 
-### Examples of Value Chains
+# Value Chain
 
-The problem is, different commodities have different value chains (different journeys). The trick is to zoom in on one link at a time, and look at it from a _local perspective_.
+* Humanistic framework, we ask who (nodes), then build a nice network.
+* In commodities, we overlay a physical/geographical element over the nodes: what (type), quantity (how much), where (geography).
+* Logistics/necessity premium - The spread captured by the trader, reward for providing liquidity to consumers for utility
+* Need to visualise it in our head: the nodes, their context, and their physical overlay.
+* Build a mental model in your head. React to information, simulate or predict it. Then you act on it to make the trade to capture logistics premium.
+* When reading or studying or interacting with commodities, you really are enhancing your mental model and making it richer (e.g more nodes, more context).
 
-Any single link can be viewed as supply $\rightarrow$ transformation $\rightarrow$ demand. The profit of the transformation is this determined by supply and demand. Then, we can identify 3 categories of players:
+# Format
 
-* Suppliers
-* Arbitrageurs
-* Buyers
+* Node Levels
+  * Country, state, company, facility
+* Node Types
+  * Production
+  * Processing
+  * Storage 
+  * Distribution
+  * Consumption 
+* Node Context Per Node
+  * Location (where)
+  * Ownership (who)
+  * Quantity
+  * Flows (goes where). How it evolves over time (e.g historical state, current state).
+* Node Predictors
+  * State & future events. Aka predict flows and as a trader capitalize on the logistics premium.
+  * Flows are important! First understand historical and current flows. Then predict future flows.
 
-### Supply & Demand Quantities/Factors
+# Examples
+
+* Trader of crude/products in ME. You make money by spread.
+* Situation - Israel conflict.
+* Analysis - If Israel strikes Iranian oil export terminal (e.g Kharg Island), that wipes out their exports. Where do the flows go?
+
+# Oil & Gas
+
+* Node Types
+  * Production - Fields (production), refineries, terminals, caverns, pipelines, ports, ships, distribution, petrol stations, airports, facilities
+  * Processing - Refineries
+  * Storage - Terminals, caverns
+  * Distribution - Pipelines, ships, ports
+  * Consumption - Airlines, cars, industrial vehicles, burners, power plants, petrochemical plants, etc.
+* Node Context
+  * Location (where)
+  * Ownership (who)
+  * Quantity/Operations/State
+  * Flows (goes where)
+
+
+
+
+# Supply & Demand Quantities/Factors
 
 We can further split each supply or demand quantity into individual quantities in a hierarchical fashion, e.g based on geography (a natural grouping).
 

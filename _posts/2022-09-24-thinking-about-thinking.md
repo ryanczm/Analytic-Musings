@@ -117,12 +117,9 @@ Being able to see something at lots of levels and <i>go between them smoothly</i
 
 These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's. In this case, the nodes are actors and their edges are decisions.
 
-I believe the key skill is the ability to build graphs explaining how situations between actors play out. First, you build a historical graph of past situations, aka by reading history, and connecting the dots by asking 'why'. You build a context/circumstance/situation for each group of actors that you can refer to.
+Nodes are actors. The trick is to connect as many actors together and understand each actor's context (aka information about them). We ask 'who' and then build a nice network. Aka building a mental model in your head. React to information, simulate it or predict it.
 
-'Why did X do Y'? Basically. And then once you connect the dots of history in your head, you can now have a better idea of how the situation will play out in the future.  And akin to connecting to concepts/variables in the deterministic framework, we connect actions to actions in the humanistic framework. The atomic unit is the action, aka someone did something.
-
-Another skill would be _grouping_ or _categorizing_. In this case, we can sort actors into groups according to similar contexts/circumstances/actions. We can do this in a hierarchical fashion. And this lets us look at things in the aggregate. 
-
+Whenever you are studying or reading about the situation (e.g some news or history), you are enhancing your mental model with 'who' and making it richer (more nodes, more context).
 
 <blockquote>
 <p>My framework is built on two propositions. The first is that in situations that have thinking <i>participants</i>, the participants’ <i>views</i> of the world never perfectly correspond to the actual state of affairs.

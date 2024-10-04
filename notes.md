@@ -19,5 +19,8 @@ There is a large amount of alpha on social media with good domain-specific insig
 
 ## Other
 
+* [🔟 How Processors Work - My Learnings]({{ site.url }}/notes/other/processor)
+* [🔟 How OS (Operating Systems) Work - My Learnings]({{ site.url }}/notes/other/os)
+* [🔟 How Networking Works - My Learnings]({{ site.url }}/notes/other/network)
+
 * [🛤️ Math and Programming (2024-05)]({{ site.url }}/notes/other/math-&-cs)
-* [🔟 Core Dumped - How Processors Run Conditions and Loops (2024-09)]({{ site.url }}/notes/other/processor)
