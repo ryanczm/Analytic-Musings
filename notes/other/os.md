@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How Processors Run Conditions & Loops (Core Dumped)
+title: How Operating Systems Work - My Learnings
 
 ---
 
@@ -45,6 +45,7 @@ I make heavy use of the semi-deterministic framework (see my post on metacogniti
 
 * Scheduling Theory
   * Takes from operations management, e.g queue (FIFO), shortest job first (SJF), round robin time slice (RR), multi-level feedback queue (MLFQ). E.g have a circular buffer/queue (of pointers to PCBs) that RRs through processes, matter of switching current context, and selecting new context.
+  * I'm not sure how correct this is but I guess it helps to have a mental model of a core always running the OS kernel processes. I know it's not accurate but it helps in intuition to explain why the OS can handle process scheduling & context switching so seamlessly.
 * Virtualization
   * The key idea is that programs (instructions/binaries) need their own carefully protected space/memory in the infinitely long list to operate in without fear of outside world
 * Process Control Block (PCB)
@@ -82,7 +83,7 @@ I make heavy use of the semi-deterministic framework (see my post on metacogniti
 
 * Model
   * Multiple processes in memory. 
-  * Async/time slice view (Core view) - One core executes threads from multiple processes in a time-sliced fashion. ALways context switching. Boom boom. In native Python, this is timeslicing.
+  * Async/time slice view (Core view) - One core executes threads from multiple processes in a time-sliced fashion. Always context switching. Boom boom. In native Python, this is timeslicing.
   * Sync/parallel view (Process view) - One process has threads on multiple processors executing. Boom boom. 
 * Why?
   * Why would we want to have one process having threads executing on multiple cores? Simple: reduce CPU bound tasks and IO bound tasks wait time!
@@ -109,6 +110,7 @@ I make heavy use of the semi-deterministic framework (see my post on metacogniti
   * Apparently, you can do this with programming (higher level) or atomic ops (assembly like `lock` or `xchg`), available in a C interface or something.
   * The GIL mechanism in Python interpreter is an example: cannot have multiple threads running across cores synchronously.
   * Multithreading in Python is single core interleave time slice. Multiprocessing in Python is true multicore.
+  * Libraries like `numpy` has C bindings to make use of CPU SIMD vector operations while native Python uses loops. `Polars` calls Rust bindings to do multithreading/multiprocessing to bypass GIL.
 * Sync Primitives
   * Mutex (Binary Lock)
   * Semaphore

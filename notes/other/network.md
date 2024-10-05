@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How Processors Run Conditions & Loops (Core Dumped)
+title: Computer Networking - My Learnings
 
 ---
 
