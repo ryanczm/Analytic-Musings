@@ -56,6 +56,8 @@ A physical commodity trader told me "We don't rely too much on historical data a
 
 * Numerical modelling is what we see in applied math/physics, when we build out a set of laws then derive some model (by simulation or theory) to see how a situation or measurements evolve across a time horizon.
 
+How might we deduce these laws? From what I see on X, physics-trained quants are especially good at this. Empirically doing a quick and dirty estimation, simulating some laws/parameters and them developing a toy model. In this case, there's no statistical element, just some 'rules' that are then applied numerically.
+
 ## Integrating Discretionary Views in Statistical Modelling 
 
 Is it possible to blend or combine discretionary views in statistical modelling in a sensible fashion? Perhaps. One could, get a discretionary analyst to create a feature representing his view of some event as a numerical scale (e.g 1-10), then incorporate it into a statistical model.
