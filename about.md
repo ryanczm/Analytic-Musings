@@ -15,8 +15,7 @@ I enjoy all things data - cleaning, building, analyzing, modelling and using it 
 
 Outside of work, I enjoy sports - floorball (I play competitively in SG's div 2) and football (recreationally).
 
-Here is my [<i class="fa fa-github" aria-hidden="true"></i> Github](https://github.com/ryanczm/).
- 
+Here is my [<i class="fa fa-github" aria-hidden="true"></i> Github](https://github.com/ryanczm/). And on X/Twitter: x.com/ryan_czm. 
 
 
 <!-- <center>
