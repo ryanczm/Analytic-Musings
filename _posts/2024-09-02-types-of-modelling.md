@@ -36,12 +36,24 @@ And:
 
 
 
-Some thoughts:
 
-* For statistical vs discretionary, in the former, the aggregate behavior/thesis of actors is simple. In the latter, the behavior of individual actors is very complex and can only be predicted via reasoning.
-* For predictions that are frequent over short horizons, statistical modelling works better. For predictions that are infrequent over long horizons, discretionary works better. This is just repackaging the _fundamental law of active management_.
-* If actors consider past information to act, statistical modelling works better. If actors only consider current and future information to act, statistical approaches fail (past doesn't predict future). Discretionary works better. 
-* If there are lots of exogenous random shocks that influence outcomes (e.g geopolitical events, natural disasters, unplanned disruptions) that are current and are hard to be predicted via statistical modelling, then discretionary works better.
+
+## Statistical vs Discretioanry
+
+A clear example of the former vs latter and their interplay would be in finance; say quant vs discretionary LS equity. The former might rebalance daily. The latter might rebalance quarterly.
+
+The former uses statistical modelling to model human behavior over a shorter term horizon. The latter uses discretionary modelling or a thesis of how markets would behave to make a decision. But fundamentally, both lead to the same type of action (aka buying or selling an asset).
+
+* Actor Behavior - For statistical vs discretionary, in the former, the aggregate behavior/thesis of actors is simple. In the latter, the behavior of individual actors is very complex and can only be predicted via reasoning.
+* Time Horizon - For predictions that are frequent over short horizons, statistical modelling works better. For predictions that are infrequent over long horizons, discretionary works better. This is just repackaging the _fundamental law of active management_.
+* Past vs Current Info - If actors consider past information to act, statistical modelling works better. If actors only consider current and future information to act, statistical approaches fail (past doesn't predict future). Discretionary works better. 
+* Random Shocks - If there are lots of exogenous random shocks that influence outcomes (e.g geopolitical events, natural disasters, unplanned disruptions) that are current and are hard to be predicted via statistical modelling, then discretionary works better.
+* Sample Size - Since discretionary modelling predicts over a longer time horizon, if we were to take that data and model it statistically, say monthly, with 10 features, to get 240 datapoints or rows would require 20 years of data! And we know the world now has changed so much. So sample size is problematic. 
+
+A physical commodity trader told me "We don't rely too much on historical data as markets evolve too quickly". To me, that is clear evidence that discretionary modelling is prevalent in most physical commodities. All the more so for commodities that have high exposure to the geopolitical factor - a very human-centric thing. What kind of statistical model could predict where Israel is going to hit Iran in response to the missile strikes?
+
+## Numerical
+
 * Numerical modelling is what we see in applied math/physics, when we build out a set of laws then derive some model (by simulation or theory) to see how a situation or measurements evolve across a time horizon.
 
 ## Integrating Discretionary Views in Statistical Modelling 
