@@ -45,16 +45,23 @@ category: commodities
 ## X - Premium (📁), Table Tweets
 
 * Power
-  * Traders - Lucky Luciano | Moses | A Blue Crab | Peg Leg | RTO Nocap | Steve Castle | Paul Morris
-  * Consultants - Andrew Gelston | Max Kantar | Paul Segal | Mark Nelson | Julien Jomaux | Fred Stafford | Nathan Iyer | Jesse Peltan
-  * Engineers - James Watson | Wombat the EE | Matthew Magill | Nick Touran
-  * Academics - Xiao Wang | Cy McGeady | Med Angwin | James Hopf | Stephen Stapczynski
+  * Traders
+    * Lucky Luciano | Moses | A Blue Crab | Peg Leg | RTO Nocap | Steve Castle | Paul Morris
+  * Consultants
+    * Andrew Gelston | Andrew Montford | Max Kantar | Paul Segal | Mark Nelson | Julien Jomaux | Fred Stafford | Nathan Iyer | Jesse Peltan | Peter Wood
+  * Engineers
+    * James Watson | Wombat the EE | Matthew Magill | Nick Touran
+  * Academics
+    * Xiao Wang | Cy McGeady | Med Angwin | James Hopf | Stephen Stapczynski | Adi Imsirovic
 * Gas
-  * Gas Traders - Illini | Paul Saladino | Illusionist | Ben Smith | RAC | Jamie Heard | Paul Phillips 
-  * LNG - He Yiyong | Josh Crumb | LNG Investor
-  * Academics - Seb Kennedy
-* All/Other
-  * Academics - Peter Wood | Chris Martz
+  * Gas Traders
+    * Illini | Paul Saladino | Illusionist | Ben Smith | RAC | Jamie Heard | Paul Phillips 
+  * LNG Guys
+    * He Yiyong | Josh Crumb | LNG Investor
+  * Academics
+    * Seb Kennedy
+* Weather/Mets
+    * Chris Martz | Reed Timmer | Tomer Burg
  
 ## Substacks & Podcasts
 
