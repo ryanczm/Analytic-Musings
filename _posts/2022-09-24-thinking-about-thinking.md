@@ -76,7 +76,7 @@ Another idea is that of _dependency_, whereby to understand or make connections 
 
 ## Semideterministic Framework
 
-For semi-deterministic fields, which is computing, I believe it is about breaking down a system into its parts from a top-down fashion. This is the key trick. Look at the system from the highest level, then go down, recursively. So we would have one input > system > output, then you would break it down recursively from there. I'll call this operation _decomposition_.
+For semi-deterministic fields, which is essentially computing, I believe it is about breaking down a system into its parts from a top-down fashion. This is the key trick. Look at the system from the highest level, then go down, recursively. So we would have one input > system > output, then you would break it down recursively from there. I'll call this operation _decomposition_.
 
 A _system_ can be broken down into its _tools/components_, recursively (that every _component_ can be viewed as _system_ in itself). Tools could be _data_ or _computation_. The nodes are data. A _computation_ arrow is defined by the type(s) of data it receives and type(s) of data it produces. We could even argue an interaction is defined by the type of input it allows and the type of output it generates.
 
