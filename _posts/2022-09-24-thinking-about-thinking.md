@@ -86,7 +86,7 @@ For example, to understand how a particular snippet of Python code, we might hav
 
 Of course, there are too many levels, and there is a depth of abstraction below which the human mind cannot possibly visualise, so the idea would be to get as far down as possible. But the idea is we work with a core set of tools at any abstraction layer, the lowest layer above metal being assembly/machine code, in a computing context.
 
-So, the key idea is to make the connection 'downwards' into the next deeper level of abstraction or under the hood!
+So, the key idea is to make the connection 'downwards' into the next deeper level of abstraction or under the hood.
 
 
 So to summarize:
