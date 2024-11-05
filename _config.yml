@@ -14,8 +14,8 @@ permalink:        /:year/:month/:day/:title/
 
 # Setup
 title:            Analytic Musings
-tagline:          'Always learning. Always improving'
-description:      'Always learning. Always improving'
+tagline:          'Always earned, never given'
+description:      'Always earned, never given'
 url:               'https://analytic-musings.com'
 baseurl:          
 imageurl:       '/assets/images/'
