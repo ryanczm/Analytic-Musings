@@ -53,6 +53,8 @@ Another idea is that of _dependency_, whereby to understand or make connections 
 
 <p>They are linked via connections. These can be direct or latent. Direct connections are obvious. Latent ones are sudden inspirations between seemingly unrelated things. The idea is to build up a dense, well-connected network of things in your head.</p>
 
+Lastly, latent connections. These are connections formed by thinking deeply about simple things. Asking yourself 'what really this thing is'.
+
 <blockquote>
 <p>There are moments where you <i>put something together</i> and realize this is how the story has to go.</p>
 </blockquote>
