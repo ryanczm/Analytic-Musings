@@ -80,9 +80,9 @@ Lastly, latent connections. These are connections formed by thinking deeply abou
 
 For semi-deterministic fields, which is essentially computing, I believe it is about breaking down a system into its parts from a top-down fashion or build complex systems from simple parts in a recursive fashion. This is the key trick. 
 
-A tool is something that takes inputs and produces outputs. A transistor is a tool. It is used to build logic gates. These are tools too. Then logic gates build circuits, etc, etc, etc all the way to processors, memory, etc. Then we use the processor and memory to build out an assembler, which builds compilers, which builds languages, etc etc.
+A tool is something that takes input data and produces output data. A transistor is a tool. It is used to build logic gates. These are tools too. Then logic gates build circuits, etc, etc, etc all the way to processors, memory, etc. Then we use the processor and memory to build out an assembler, which builds compilers, which builds languages, etc etc.
 
-So the idea in computing seems to be building tools from tools in a bottom up fashion. At each step in the process or layer, we are at a layer of abstraction. The key idea is that abstraction lets us build tools from our current set of tools without knowing 'how' our tools work (to an extent) only how to use them! 
+So the idea in computing seems to be building more complex data & tools from elementary building data & tools in a bottom up fashion. At each step in the process or layer, we are at a layer of abstraction. The key idea is that abstraction lets us build tools from our current set of tools without knowing 'how' our tools work (to an extent) only how to use them! 
 
 And as Knuth says below, we need to see something at lots of levels of abstraction and go between them smoothly. So identify these abstraction layers of tools as granular or rich as you possibly can such.
 
