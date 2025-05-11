@@ -8,7 +8,7 @@ category: commodities
 
 Power is an interesting commodity and unique on it's own relative to other commodities. Trafigura's Commodities Trading Demystified says commodity trading is about shifting commodities in time, space and form. In power, there is no form since electrons are electrons (well, ignoring fuel to power), there is no space (well assuming it flows according to a fixed grid topology/physical constraints) and almost no time (except storage). Also, auctions are used a ton.
 
-The key, atomic unit in the power market is the transaction. This is just an agreement to involve a buyer consuming and a seller producing the same quantity, over a coordinated period of fixed time, IN AGGREGATE, over all buyers and sellers. That's literally it. The most important thing to understand.
+The key, atomic unit in the power market is the transaction. This is just an agreement to involve a buyer consuming and a seller producing some varying quantity, over a coordinated period of fixed time, IN AGGREGATE, over all buyers and sellers. That's literally it. The most important thing to understand.
 
 ## Markets and Prices
 
@@ -33,16 +33,16 @@ We can divide the stack/generation mix into a tree structure. Dispatchable (ther
 * Dispatchable 
   * Thermal (Nukes > coal > oil/gas)
 * Non-Dispatchable
-  * Renewables (Solar, wind, pumped hydro)
+  * Renewables (Solar, wind, hydro)
 * Storage
   * Electrical (BESS)
-  * Mechanical (Hydro)
+  * Mechanical (Pumped hydro)
 
 Dispatchables are thermal plants. They run on the same principle: convert fuel to heat and heat to power in a controllable fashion. There is a tradeoff between baseload and peaking (due to startup/shutdown costs and marginal fuel costs) in ascending order: nukes > coal > gas/oil. It is important to remember they work on the same underlying mechanism but under different parameters according to how they convert their differnet fuels to heat to spin the turbine.
 
 Non-dispatchables (VRE) are solar, wind, hydro (run-of-river). These have zero marginal cost but different variability profiles according to the aspect of weather they use as fuel (wind, solar radiation, river flows). There is no heat involved.
 
-Storage bridges the gap between the dispatchables and non-dispatchables, it shifts energy/power in time. It is important to remember BESS vs PH have very different shifting profiles and work on different mechanisms.
+Storage bridges the gap between the dispatchables and non-dispatchables, it shifts energy/power in time. It is important to remember BESS vs PH have very different shifting profiles and work on different mechanisms. For example, for PH, head, penstock width, resevoir capacity, RTE due to friction, etc etc.
 
 ## Dispatch View
 
