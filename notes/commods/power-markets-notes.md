@@ -8,6 +8,8 @@ category: commodities
 
 Power is an interesting commodity and unique on it's own relative to other commodities. Trafigura's Commodities Trading Demystified says commodity trading is about shifting commodities in time, space and form. In power, there is no form since electrons are electrons (well, ignoring fuel to power), there is no space (well assuming it flows according to a fixed grid topology/physical constraints) and almost no time (except storage). Also, auctions are used a ton.
 
+The key, atomic unit in the power market is the transaction. This is just an agreement to involve a buyer consuming and a seller producing the same quantity, over a coordinated period of fixed time, IN AGGREGATE, over all buyers and sellers. That's literally it. The most important thing to understand.
+
 ## Markets and Prices
 
 Price determination (mostly) comes from the uniform price clearing auction, where bids/offers are ranked in (reverse) merit order, a uniform clearing price is assigned and each participant pays (receives) the quantity produced scaled by the uniform price paid.
@@ -29,7 +31,7 @@ The stack is the model used to simulate the bidding curves (marginal cost, merit
 We can divide the stack/generation mix into a tree structure. Dispatchable (thermal), storage, Nondispatchable (VRE):
 
 * Dispatchable 
- * Thermal (Nukes > coal > oil/gas)
+  * Thermal (Nukes > coal > oil/gas)
 * Non-Dispatchable
   * Renewables (Solar, wind, pumped hydro)
 * Storage
