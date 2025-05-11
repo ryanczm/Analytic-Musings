@@ -10,7 +10,7 @@ There is a large amount of alpha on social media with good domain-specific insig
 
 * [🛢️ Trafigura Oil Analyst - Coffee Chat (2024-04)]({{ site.url }}/notes/commods/trafi-analyst)
 * [⛓️‍💥 The Commodity Value Chain - A Discretionary Model (2024-09)]({{ site.url }}/notes/commods/commodity-value-chain)
-* [⚡ Power Syllabus (2024-07)]({{ site.url }}/notes/commods/power-syllabus)
+* [⚡ Power Market Notes (2025-05)]({{ site.url }}/notes/commods/power-market-notes)
 
 ## Quant
 
