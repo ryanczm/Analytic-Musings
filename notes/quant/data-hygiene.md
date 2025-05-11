@@ -21,3 +21,10 @@ For line/time series plots, the line thickness and markers matter. For a high fr
 For scatterplots, if you have a category to subplot or stratify on, always plot BOTH the facetted subplots and a single scatterplot (stratify with color or markers). Both are always better than one as it lets you isolate out the individual scatter patterns AND also see how they all fit together.
 
 Bar charts are overrated except for a histogram - except for a specific use case of stacked barcharts for generation mixes. 
+
+
+# Interactivity
+
+Interactivity (aka offered by `plotly`) is most valuable when the chart is dense or cluttered or you want to inpect individual data points (e.g. outliers). This was especially useful in inspecting bidding curves in the day ahead auction, where majority of bids cluster along the clearing price.
+
+Interactivity allows you to zoom into the 'microstructure' of the data and inspect it properly. So choose interactivity wisely!
