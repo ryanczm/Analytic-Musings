@@ -24,6 +24,10 @@ Alternative Markets
 * Diversify into international commodities/macro markets - 'French electricity, Colombian interest rates, Turkish cross currency swaps, Californian carbon emissions, South African wheat, FFAs, Chinese steel rebar', etc.
 * Use their uncorrelated properties to boost diversification and Sharpe.
 
+Trend Signal
+
+* Medium to long term - a quarterly trend is ideal.
+
 Operational Edge
 
 * SystematicLS talked about operational edge. Doug says the main business is in expanding into these alternative markets and assessing feasibility. Talking to brokers, dealers, markets that trade bilateral OTC and not via electronic exchange.
@@ -54,4 +58,6 @@ Summary
 
 ## Nicolas Mirjolet (Quantica) - A Multivariate Approach to Trend Following
 
-The focus of the podcast was on the unique style of trend following Quantica employs called multivariate trend following, which involves constructing trend signals using not just the asset chosen but of trend of other assets. Of course, cross-correlation comes into play.
+The focus of the podcast was on the unique style of trend following Quantica employs called multivariate trend following, which involves constructing trend signals using not just the asset chosen but of trend of other assets. Of course, cross-correlation comes into play. A concrete example is not given but Quantica Managed Futures fund trades 100 instruments and does medium to long term trend (lookback window of a quarter). So similar frequency to Florin Court but less width of univers, but with the magic multivariate trend following sauce.
+
+
