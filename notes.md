@@ -17,6 +17,7 @@ There is a large amount of alpha on social media with good domain-specific insig
 * [🧙🏽 Systematic LS: My Career Alphas - Article Review (2024-06)]({{ site.url }}/notes/quant/sls-career-alphas)
 * [🔮 Data Hygiene (2025-05)]({{ site.url }}/notes/quant/data-hygiene)
 * [🔎 Life Through a Factor Lens (2025-05)]({{ site.url }}/notes/quant/factors)
+* [🧙🏿 Flirting with Models Podcast (2025-05)]({{ site.url }}/notes/quant/fwm)
 
 
 ## Other
