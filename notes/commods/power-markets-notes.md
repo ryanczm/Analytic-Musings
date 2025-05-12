@@ -44,6 +44,8 @@ Non-dispatchables (VRE) are solar, wind, hydro (run-of-river). These have zero m
 
 Storage bridges the gap between the dispatchables and non-dispatchables, it shifts energy/power in time. It is important to remember BESS vs PH have very different shifting profiles and work on different mechanisms. For example, for PH, head, penstock width, resevoir capacity, RTE due to friction, etc etc.
 
+In the stack model, it's RoR hydro ➡️ thermals ➡️ pumped hydro ➡️ interconnects, while wind/solar are integrated into residual load.
+
 ## Dispatch View
 
 Baseload gets filled by nukes first, then RoR hydro (depending on the aggregated flow profile), then seasonal coal, then peaking gas/oil, then VRE (solar/wind), and storage is layered on top to shift energy in time at different frequencies (think of pumped hydro as LF/MF shifting and batteries as MF/HF shifting).
