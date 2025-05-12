@@ -42,15 +42,16 @@ Portfolio Construction and Capacity
 
 * They run 3bn capacity. Too big and you become not agile. You have to allocate more into developed markets with the liquidity. Obviously too much size in a small alternatives market causes transaction costs to eat the alpha.
 * How do they allocate risk in a portfolio of 500 forward/futures markets?
-* For portfolio construction, it was qutie vague. They use a tree structure to allocate risk such that I guess each node in the tree at that level has equal amount of historical vol/risk. And it takes into account correlations systematically too, like butane and propane being correlated. Interesting. I guess it involves classifying the various assets into a hierarchical format, taking into account their historical vol and correlation to other asset, and dynamically adjust 
+* For portfolio construction, it was quite vague. They use a tree structure to allocate risk such that I guess each node in the tree at that level has equal amount of historical vol/risk. And it takes into account correlations systematically too, like butane and propane being correlated. Interesting. I guess it involves classifying the various assets into a hierarchical format, taking into account their historical vol and correlation to other asset, and dynamically adjust .
 
 Summary
 
 * These guys are just harvesting trend premia off obscure forward curves all over the world. Very cool.
 * I like the connection to SystematicLS talk of edges: an operational edge. Clearly these guys have op alpha in getting access into new markets and onboarding them.
 * As the number of bets you have increases, you can't follow the fundamentals of each market carefully. Constrast to my time at Alpha Cygni where you had a tight range of commodity futures and you could track fundamentals for each set. At 500, you probably look at their beta to macro/geopol as a whole rather than individual. 
-* 
+* If the average CTA has 100 futures/forwards and Florian Court does 500, that is indeed impressive.
+  
 
 ## Nicolas Mirjolet (Quantica) - A Multivariate Approach to Trend Following
 
-The focus of the podcast was on the unique style of trend following Quantica employs called multivariate trend following, which involves constructing trend signals using not just the asset chosen but of other asset's trend.
+The focus of the podcast was on the unique style of trend following Quantica employs called multivariate trend following, which involves constructing trend signals using not just the asset chosen but of trend of other assets. Of course, cross-correlation comes into play.
