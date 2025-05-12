@@ -40,4 +40,4 @@ In our problem, the qualitative setting, we don't care about:
 We care about
 
 * Setting up careful experimnents to isolate out individual factor contributions amongst correlated factors
-* Minimizing idio return (the effect not explained by your factor set) by getting more factors in - you have this large portion of the effect that cannot be explained by your existing factors. You need to figure out what's the missing factor!
+* Minimizing idio return (the effect not explained by your factor set) by getting more factors in - you have this large portion of the effect that cannot be explained by your existing factors. You need to figure out what's the missing factor! The goal, in this case, is to minimize alpha and replace it with beta.
