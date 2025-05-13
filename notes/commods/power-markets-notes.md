@@ -10,6 +10,16 @@ Power is an interesting commodity and unique on it's own relative to other commo
 
 The key, atomic unit in the power market is the transaction. This is just an agreement to involve a buyer consuming and a seller producing some varying quantity, over a coordinated period of fixed time, IN AGGREGATE, over all buyers and sellers. That's literally it. The most important thing to understand.
 
+
+## Alphas
+
+* Grid/Power System Dispatch - Understanding power flows in a nodal system, injections/withdrawals across lines with different capacities/reactance via KVL/KCL solvers
+* Geography - Understanding geography of various country grids.
+* Portfolio/Deals - Different portfolios and deals (PPA/offtakes/etc.) 
+* Auctions - Understanding auction formats, clearing mechanisms.
+* Stack - Understanding power plant microeconomics & bidding behavior in auction markets.
+* Demand - Understanding the breakdown of load in terms of consumer behavior
+
 ## Markets and Prices
 
 Price determination (mostly) comes from the uniform price clearing auction, where bids/offers are ranked in (reverse) merit order, a uniform clearing price is assigned and each participant pays (receives) the quantity produced scaled by the uniform price paid.
