@@ -60,5 +60,15 @@ Summary
 
 The focus of the podcast was on the unique style of trend following Quantica employs called multivariate trend following, which involves constructing trend signals using not just the asset chosen but of trend of other assets. Of course, cross-correlation comes into play. A concrete example is not given but Quantica Managed Futures fund trades 100 instruments and does medium to long term trend (lookback window of a quarter). So similar frequency to Florin Court but less width of univers, but with the magic multivariate trend following sauce.
 
-
 Quantica also publishes research papers on CTA. Might be worth a look for a proejct replication.
+
+Multivariate Trend Following
+
+Trend Following Performance and Statistical Risk Factors
+
+
+## bill Gebhardt (10Dynamics) - Replicating Discretionary Commodity Trading Systematically
+
+The focus of this podcast was on 10Dynamics unique approach to signal construction.
+
+Adding Binary Signals
