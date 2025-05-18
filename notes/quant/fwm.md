@@ -10,7 +10,13 @@ Keeping some notes from Corey Hoffstein's Flirting with Models here. I'm mostly 
 
 ## Doug Greenig (Florin Court) - At the Frontier of Trend Following
 
-Florin Court's strategy is to trade a large number of alternative markets that are as uncorrelated as possible. Doug Greenig wants the firm to be the best alternative markets CTA.
+Florin Court's strategy is to trade a large number of alternative markets that are as uncorrelated as possible. Doug Greenig wants the firm to be the best alternative markets CTA. For me this was the best podcast of all of them given I am interested in CTA/systematic commodities.
+
+Why do Trends Exist?
+
+* "One of the reasons trend works is that when narratives change, there tends to be a burst of volatility. And it happens on many scales and markets - that burst of volatility around narrative shifts and trend reversals is pretty key to how trend following works".
+* The most important statement in the podcast.
+* Of course, trends exist due to fundamental changes, but narrative changes as well. 
 
 CTAs Return Profile
 
@@ -26,7 +32,7 @@ Alternative Markets
 
 Trend Signal
 
-* Medium to long term - a quarterly trend is ideal.
+* Medium to long term - a quarterly trend is ideal. I think I need to switch out 
 
 Operational Edge
 
