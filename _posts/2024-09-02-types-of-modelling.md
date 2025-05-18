@@ -66,7 +66,7 @@ In a regression, for example, this would let us quantify the impact in terms of 
 
 # The Spectrum of Modelling
 
-It's important to remember that all these tpyes of modelling can take place across a spectrum of time horizons - but the speed of execution is constrained by the medium it is done in - a human vs a computer.
+It's important to remember that all these tpyes of modelling can take place across a spectrum of time horizons - but the speed of execution is constrained by whether a human or computer is executing the model.
 
  Statistical Examples
 
