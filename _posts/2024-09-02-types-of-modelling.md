@@ -38,7 +38,7 @@ And:
 
 
 
-## Statistical vs Discretioanry
+## Statistical vs Discretionary
 
 A clear example of the former vs latter and their interplay would be in finance; say quant vs discretionary LS equity. The former might rebalance daily. The latter might rebalance quarterly.
 
@@ -58,6 +58,8 @@ Numerical modelling is what we see in applied math/physics, when we build out a 
 
 How might we deduce these laws? From what I see on X, physics-trained quants are especially good at this. First, they observe the situation. They make assumptions (e.g this phenomenon seems to follow this law) without being too concerned about pinpoint accuracy. They do a quick and dirty estimation, simulating some laws/parameters and them developing a toy model. In this case, there's no statistical element, just some 'rules' that are then applied numerically.
 
+The line between statistical/numerical for DL is blurred but due to a lack of interpretability, let's put it here.
+
 ## Integrating Discretionary Views in Statistical Modelling 
 
 Is it possible to blend or combine discretionary views in statistical modelling in a sensible fashion? Perhaps. One could, get a discretionary analyst to create a feature representing his view of some event as a numerical scale (e.g 1-10), then incorporate it into a statistical model.
@@ -68,29 +70,29 @@ In a regression, for example, this would let us quantify the impact in terms of 
 
 It's important to remember that all these tpyes of modelling can take place across a spectrum of time horizons - but the speed of execution is constrained by whether a human or computer is executing the model.
 
- Statistical Examples
+**Statistical Examples**
 
 * A HFT firm doing market making at nanosecond speed based on fair value.
 * An intraday systematic trading firm doing MFT trading.
 * A quant equity firm doing daily stat arb portfolio rebalancing.
-* A long term trend following CTA following a quarterly trend and sizing up their position as the trend signal increases.
+* A long term trend following CTA following a quarterly trend and sizing up their position.
 * A pharmaceutical researcher doing an RCT to investigate the potential of a drug.
 * A social scientist doing a longitudinal study over several years.
 
-Discretionary Examples
+**Discretionary Examples**
 
-* An intraday/real time power trader making quick decisions at the desk based on the latest status updates on the grid. 
+* An intraday/real time power trader making quick decisions at the desk based on the latest grid data.
 * A day trader looking at a chart pattern and manually placeing a trade.
 * A football manager looking to make subsstitution/tactical change. 
-* A commodity forward curve trader assessing the latest news on his S/D model and calling a movement in the curve.
-* A physical trader opting to execute an arbitrage that could involve months of storage & transportation.
+* A commodity forward curve trader assessing the latest news on his S/D model to call curve changes.
+* A physical trader opting to execute an arbitrage that could involve months of storage/transportation.
 * A podshop LS equity manager rebalancing his portfolio to take into account his view.
 * A shipowner deciding to timecharter out his vessel for the next decade.
 * A private equity firm buying out a company's assets with leverage.
 
-Numerical Examples
+**Numerical Examples**
 
-* A weather model on the ECMWF supercomputer crunching out linear algebra/differential equation solvers to produce a weather forecast across a grid.
+* A weather model on the ECMWF supercomputer crunching out linear algebra/differential equation solvers.
 * A deep learning model at a HFT firm doing inference at lightning speed.
 * A physical trader adjusting his SD balance and tallying up the numbers.
 * An engineer/physicist looking at his numerical simulation of some phenomonon he is studying.
