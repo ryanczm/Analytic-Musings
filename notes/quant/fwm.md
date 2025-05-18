@@ -29,12 +29,13 @@ Alternative Markets
 * Alternative Markets are uncorrelated to general macro themes, like Fed monetary policy and Chinese economy.
 * Diversify into international commodities/macro markets - 'French electricity, Colombian interest rates, Turkish cross currency swaps, Californian carbon emissions, South African wheat, FFAs, Chinese steel rebar', etc.
 * Use their uncorrelated properties to boost diversification and Sharpe.
+* Liquidity - There is a misconception alternative markets are illiquid. Doug says this is not true. It's just that traditional funds don't have access, but the action is going on. For exammple, the Chinese domestic commodity markets.
 
 Trend Signal
 
-* Medium to long term - a quarterly trend is ideal. I think I need to switch out 
+* Medium to long term - a quarterly trend is ideal. 
 
-Operational Edge
+Operational Edge, Onboarding Alternative Markets, OTC Transactions
 
 * SystematicLS talked about operational edge. Doug says the main business is in expanding into these alternative markets and assessing feasibility. Talking to brokers, dealers, markets that trade bilateral OTC and not via electronic exchange.
 * Going into the a new market, they start small in size, gather data on their executed trades, like bid-offer spread width, etc etc to get a feel of liquidity, and they decide whether to continue or not.
@@ -52,7 +53,7 @@ Portfolio Construction and Capacity
 
 * They run 3bn capacity. Too big and you become not agile. You have to allocate more into developed markets with the liquidity. Obviously too much size in a small alternatives market causes transaction costs to eat the alpha.
 * How do they allocate risk in a portfolio of 500 forward/futures markets?
-* For portfolio construction, it was quite vague. They use a tree structure to allocate risk such that I guess each node in the tree at that level has equal amount of historical vol/risk. And it takes into account correlations systematically too, like butane and propane being correlated. Interesting. I guess it involves classifying the various assets into a hierarchical format, taking into account their historical vol and correlation to other asset, and dynamically adjust .
+* For portfolio construction, it was quite vague. They use a tree structure to allocate risk such that I guess each node in the tree at that level has equal amount of historical vol/risk. And it takes into account correlations systematically too, like butane and propane being correlated. Interesting. I guess it involves classifying the various assets into a hierarchical format, taking into account their historical vol and correlation to other asset, and dynamically adjust. Sounds like MLDPs HRP.
 
 Summary
 
