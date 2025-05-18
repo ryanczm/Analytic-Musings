@@ -68,7 +68,7 @@ In a regression, for example, this would let us quantify the impact in terms of 
 
 # The Spectrum of Modelling
 
-It's important to remember that all these tpyes of modelling can take place across a spectrum of time horizons - but the speed of execution is constrained by whether a human or computer is executing the model.
+It's important to remember that all these types of modelling can take place across a spectrum of time horizons - but the speed of execution is constrained by whether a human or computer is executing the model.
 
 **Statistical Examples**
 
@@ -83,7 +83,7 @@ It's important to remember that all these tpyes of modelling can take place acro
 
 * An intraday/real time power trader making quick decisions at the desk based on the latest grid data.
 * A day trader looking at a chart pattern and manually placeing a trade.
-* A football manager looking to make subsstitution/tactical change. 
+* A football manager looking to make substitution/tactical change. 
 * A commodity forward curve trader assessing the latest news on his S/D model to call curve changes.
 * A physical trader opting to execute an arbitrage that could involve months of storage/transportation.
 * A podshop LS equity manager rebalancing his portfolio to take into account his view.
