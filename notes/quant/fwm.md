@@ -57,7 +57,7 @@ Portfolio Construction and Capacity
 
 Summary
 
-* These guys are just harvesting trend premia off obscure forward curves all over the world. Very cool.
+* These guys are just harvesting trend premia off obscure forward curves all over the world. Cool.
 * I like the connection to SystematicLS talk of edges: an operational edge. Clearly these guys have op alpha in getting access into new markets and onboarding them.
 * As the number of bets you have increases, you can't follow the fundamentals of each market carefully. Constrast to my time at Alpha Cygni where you had a tight range of commodity futures and you could track fundamentals for each set. At 500, you probably look at their beta to macro/geopol as a whole rather than individual. 
 * If the average CTA has 100 futures/forwards and Florian Court does 500, that is indeed impressive.
