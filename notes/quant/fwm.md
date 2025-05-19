@@ -72,7 +72,7 @@ Multivariate Trend Following
 Trend Following Performance and Statistical Risk Factors
 
 
-## bill Gebhardt (10Dynamics) - Replicating Discretionary Commodity Trading Systematically
+## William Gebhardt (10Dynamics) - Replicating Discretionary Commodity Trading Systematically
 
 The focus of this podcast was on 10Dynamics unique approach to signal construction. In particular, they add a bunch of binary signals together for each instrument.
 
