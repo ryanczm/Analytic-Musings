@@ -31,8 +31,8 @@ These cover different areas of commodities.
 ## Power
 
 * Glachant - Handbook on Electricity Markets: A high level in-depth overview of the history of markets.
-* Kirschen - Fundamentals of Power System Economics: A very theoretical micro-economic approach.
-* Stoft - Power System Economics: A book on market and policy design.
+* Kirschen - Fundamentals of Power System Economics: A very theoretical micro-economic approach. An example of nodal/congestion pricing I need to go through.
+* Stoft - Power System Economics: A book on market and policy design. An example of nodal/congestion pricing I need to go through.
 * Musgens - Energy Trading and Risk Management: A focus on the trading aspect of power from perspectives of various players in the ecosystem.
 
 ## Ags
