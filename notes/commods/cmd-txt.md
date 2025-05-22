@@ -15,18 +15,18 @@ Very useful books. Not exhaustive but main ones I find useful. Problem - These a
 These cover different areas of commodities. 
 
 * Geman - Commodities and Commodity Derivatives: Everything, but old, written in 08. New version please! Love the ags and metals section. Don't know if any other book covers so much breadth.
-* Kaminski - Energy Markets: Only oil, gas and power.
+* Kaminski - Energy Markets: Only oil, gas and power. However, very USA-centric. Strong focus on domestic American gas and power.
 * Trafigura - Commodity Trading Demystified: Good for understanding the role of physical trading in the commodity supply chain.
 
 
 ## Oil
 
-* Downey - Oil 101
-* Leffler - Non-technical Guides
+* Downey - Oil 101: A nice high level overview.
+* Leffler - Non-technical Guides: More for pure technicals; refineries, pipelines, exploration, etc. Not so much markets.
 
 ## Gas
 
-* Tusiana - LNG - A Non-Technical Guide
+* Tusiana - LNG - A Non-Technical Guide: No complaints here. 
 
 ## Power
 
