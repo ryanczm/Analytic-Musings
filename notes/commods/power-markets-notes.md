@@ -13,24 +13,34 @@ The key, atomic unit in the power market is the transaction. This is just an agr
 
 ## Alphas
 
-* Grid/Power System Dispatch - Understanding power flows in a nodal system, injections/withdrawals across lines with different capacities/reactance via KVL/KCL solvers
+* Grid/Power Systems/Technicals - See below. Not that important in a zonal market but still.
 * Geography - Understanding geography of various country grids.
 * Portfolio/Deals - Different portfolios and deals (PPA/offtakes/etc.) 
 * Auctions - Understanding auction formats, clearing mechanisms.
 * Stack - Understanding power plant microeconomics & bidding behavior in auction markets.
 * Demand - Understanding the breakdown of load in terms of consumer behavior
 
+## Technical Alphas
+
+Not saying I know these well, but one should learn basic intuitions behind this (currently doing so):
+
+* Electron Intuition - Drude model
+* Basic circuits/load types - Resistors, capacitors, inductors, parallel/series, load adjustment (in time series vs cross-section) 
+* AC vs DC - Power triangle, 3P AC, VAR
+* Circuit Laws - KVL/KCL/Ohm/Power
+* Flows Intuition - PTDF/linearization/superposition theorem
+
+Culminating in
+
+* Nodal pricing in a 2 bus system > 3 bus system
+
 ## Markets and Prices
 
-Price determination (mostly) comes from the uniform price clearing auction, where bids/offers are ranked in (reverse) merit order, a uniform clearing price is assigned and each participant pays (receives) the quantity produced scaled by the uniform price paid.
+Price determination (mostly) comes from the uniform price clearing auction, merit order & marginal cost bidding. I don't claim to understand US zonal/SCED style markets.
 
-Offers are ranked from low to high and bids from high to low. Offers are based off (in theory) marginal cost or fuel cost. Bids are based on demand elasticity (must have vs optional). The auction-style market can be quite confusing when people associate markets with order books.
+It turns out that majority of power markets are just creative auctions, with parameters varying on the product sold, the stack order, the time frame, the participants on the demand/supply side.
 
-Within that auction format, in space, the prices can be cleared at a zonal or nodal level, with the former being a more generalized/simpler version of the latter.
-
-Markets are arranged in order of decreasing forwardness: capacity > forward > day ahead > real-time/intraday > balancing/ancillaries.
-
-In the stack, zero marginal cost VRE sources are on the left or transferred into the demand side using residual load instead of load.
+For example, I find the 2-stage balancing/ancillary service auction in European power markets quite interesting.
 
 ## The Stack
 
@@ -53,8 +63,6 @@ Dispatchables are thermal plants. They run on the same principle: convert fuel t
 Non-dispatchables (VRE) are solar, wind, hydro (run-of-river). These have zero marginal cost but different variability profiles according to the aspect of weather they use as fuel (wind, solar radiation, river flows). There is no heat involved.
 
 Storage bridges the gap between the dispatchables and non-dispatchables, it shifts energy/power in time. It is important to remember BESS vs PH have very different shifting profiles and work on different mechanisms. For example, for PH, head, penstock width, resevoir capacity, RTE due to friction, etc etc.
-
-In the stack model, it's RoR hydro ➡️ thermals ➡️ pumped hydro ➡️ interconnects, while wind/solar are integrated into residual load.
 
 ## Dispatch View
 
