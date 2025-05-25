@@ -6,49 +6,48 @@ category: commodities
 
 ## Power
 
-Power is an interesting commodity and unique on it's own relative to other commodities. Trafigura's Commodities Trading Demystified says commodity trading is about shifting commodities in time, space and form. In power, there is no form since electrons are electrons (well, ignoring fuel to power), there is some space (well assuming it flows according to a fixed grid topology/physical constraints) and almost no time (except storage). Also, auctions are used a ton.
+Power is an interesting commodity and unique on it's own relative to other commodities. Trafigura's Commodities Trading Demystified says commodity trading is about shifting commodities in time, space and form. In power, there is no form since electrons are electrons (well, ignoring fuel to power), there is some space (well assuming it flows according to a fixed grid topology/physical constraints) and almost no time (except storage). It is a commodity where microeconomics and auction theory dominates. 
 
 The key, atomic unit in the power market is the transaction. This is just an agreement to involve a buyer consuming and a seller producing some varying quantity, over a coordinated period of fixed time, IN AGGREGATE, over all buyers and sellers. That's literally it. The most important thing to understand.
 
 
-## Alphas
+## Market Alphas
 
-* Grid/Power Systems/Technicals - See below. Not that important in a zonal market but still.
+These alphas concern themself more with market participant behavior and (micro)economics. 
+
 * Geography - Understanding geography of various country grids.
 * Portfolio/Deals - Different portfolios and deals (PPA/offtakes/etc.) 
 * Auctions - Understanding auction formats, clearing mechanisms.
-* Stack - Understanding power plant microeconomics & bidding behavior in auction markets.
-* Demand - Understanding the breakdown of load in terms of consumer behavior
+* Supply Side - Understanding power plant microeconomics & bidding behavior in auction markets.
+* Load Side  - Understanding the breakdown of load in terms of consumer behavior
 
 ## Technical Alphas
 
-Not saying I know these well, but one should learn basic intuitions behind this (currently doing so):
+These alphas are related to basic understanding of introductory EE concepts at a qualitative level.
 
 * Electron Intuition - Drude model
-* Basic circuits/load types - Resistors, capacitors, inductors, parallel/series, load adjustment (XS vs TS) 
-* AC vs DC - Power triangle, 3P AC, VAR
+* Basic circuits & Loads - Resistors, capacitors, inductors, parallel/series, load adjustment (XS vs TS), load type
+* AC vs DC - Power triangle/factor, 3P AC, VAR
 * Circuit Laws - KVL/KCL/Ohm/Power
 * Flows Intuition - PTDF/linearization/superposition theorem
 
-Culminating in
+## Blended Alphas
 
-* Nodal pricing in a 2 bus system > 3 bus system
+These are alphas that combine the two - requiring knowledge from market alphas and technical alphas.
+
+* Supply Side - Understanding types of plants, their mechanics of power production.
+* Demand Side - Understanding the various types of loads on a technical level and an econonomic level.
+* Both - Understanding SCED/nodal pricing - e.g. in a canonical 3 bus system.
 
 ## Markets and Prices
 
 Price determination (mostly) comes from the uniform price clearing auction, merit order & marginal cost bidding. I don't claim to understand US zonal/SCED style markets.
 
-It turns out that majority of power markets are just creative auctions, with parameters varying on the product sold, the stack order, the time frame, the participants on the demand/supply side.
+It turns out that majority of power markets are just creative auctions, with parameters varying on the product sold, the stack order, the time frame, the participants on the demand/supply side. For example, I find the 2-stage balancing/ancillary service auction in European power markets quite interesting.
 
-For example, I find the 2-stage balancing/ancillary service auction in European power markets quite interesting.
+## Stack Order
 
-## The Stack
-
-The stack is the model used to simulate the bidding curves (marginal cost, merit order ranking, uniform clearing etc) and demand to forecast auction prices.
-
-## Plant View
-
-We can divide the stack/generation mix into a tree structure. Dispatchable (thermal), storage, Nondispatchable (VRE):
+The stack is the model used to simulate the bidding curves (marginal cost, merit order ranking, uniform clearing etc) and demand to forecast auction prices. We can divide the stack/generation mix into a tree structure. Dispatchable (thermal), storage, Nondispatchable (VRE):
 
 * Dispatchable 
   * Thermal (Nukes > coal > oil/gas)
