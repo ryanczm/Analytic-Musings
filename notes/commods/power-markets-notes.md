@@ -37,7 +37,7 @@ These are alphas that combine the two - requiring knowledge from market alphas a
 
 * Supply Side - Understanding types of plants, their mechanics of power production.
 * Demand Side - Understanding the various types of loads on a technical level and an econonomic level.
-* Both - Understanding SCED/nodal pricing - e.g. in a canonical 3 bus system.
+* Grid Side - Grid interconnections, congestion, SCED/nodal pricing (e.g. in a 3 bus system)
 
 ## Markets and Prices
 
