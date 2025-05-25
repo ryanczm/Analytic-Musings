@@ -26,7 +26,9 @@ These alphas concern themself more with market participant behavior and (micro)e
 These alphas are related to basic understanding of introductory EE concepts at a qualitative level aka a 'YouTube' level. Some good channels: [Prof Mad](https://www.youtube.com/@Profmad), [Electrician U](https://www.youtube.com/watch?v=GCiVNAwErnQ)
 
 * Electron Intuition - Drude model, water model
-* Basic circuits & Loads - Resistors, capacitors, inductors, parallel/series, load adjustment (XS, TS), load type
+* Elementary circuits & Loads - Resistors, capacitors, inductors, parallel/series. 
+* Load Technicals load adjustment (cross section, time series), load types
+* Basic circuits - Inverters, rectifiers
 * AC vs DC - Impedance, phasors, projection, power triangle, 3P AC, VAR
 * Circuit Laws - KVL/KCL/Ohm/Power
 * Flows Intuition - PTDF/linearization/superposition theorem
