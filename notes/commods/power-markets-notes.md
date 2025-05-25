@@ -6,7 +6,7 @@ category: commodities
 
 ## Power
 
-Power is an interesting commodity and unique on it's own relative to other commodities. Trafigura's Commodities Trading Demystified says commodity trading is about shifting commodities in time, space and form. In power, there is no form since electrons are electrons (well, ignoring fuel to power), there is no space (well assuming it flows according to a fixed grid topology/physical constraints) and almost no time (except storage). Also, auctions are used a ton.
+Power is an interesting commodity and unique on it's own relative to other commodities. Trafigura's Commodities Trading Demystified says commodity trading is about shifting commodities in time, space and form. In power, there is no form since electrons are electrons (well, ignoring fuel to power), there is some space (well assuming it flows according to a fixed grid topology/physical constraints) and almost no time (except storage). Also, auctions are used a ton.
 
 The key, atomic unit in the power market is the transaction. This is just an agreement to involve a buyer consuming and a seller producing some varying quantity, over a coordinated period of fixed time, IN AGGREGATE, over all buyers and sellers. That's literally it. The most important thing to understand.
 
@@ -25,7 +25,7 @@ The key, atomic unit in the power market is the transaction. This is just an agr
 Not saying I know these well, but one should learn basic intuitions behind this (currently doing so):
 
 * Electron Intuition - Drude model
-* Basic circuits/load types - Resistors, capacitors, inductors, parallel/series, load adjustment (in time series vs cross-section) 
+* Basic circuits/load types - Resistors, capacitors, inductors, parallel/series, load adjustment (XS vs TS) 
 * AC vs DC - Power triangle, 3P AC, VAR
 * Circuit Laws - KVL/KCL/Ohm/Power
 * Flows Intuition - PTDF/linearization/superposition theorem
