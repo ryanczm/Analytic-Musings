@@ -43,6 +43,8 @@ These are alphas that combine the two - requiring knowledge from market alphas a
 
 ## Markets and Prices
 
+It turns out that there are two very good textbooks on this. Stoft's *Power System Economics* and Kirschen's *Fundamentals of Power System Economics*.
+
 Price determination (mostly) comes from the uniform price clearing auction, merit order & marginal cost bidding. I don't claim to understand US zonal/SCED style markets.
 
 It turns out that majority of power markets are just creative auctions, with parameters varying on the product sold, the stack order, the time frame, the participants on the demand/supply side. For example, I find the 2-stage balancing/ancillary service auction in European power markets quite interesting.
