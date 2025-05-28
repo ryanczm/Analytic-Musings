@@ -27,7 +27,7 @@ These alphas are related to basic understanding of introductory EE concepts at a
 
 * Electron Intuition - Drude model, water model
 * Elementary circuits & Loads - Resistors, capacitors, inductors, parallel/series. 
-* Load Technicals load adjustment (cross section, time series), load types
+* Load Technicals - Load adjustment (cross section, time series), load types
 * Basic circuits - Inverters, rectifiers
 * AC vs DC - Impedance, phasors, projection, power triangle, 3P AC, VAR
 * Circuit Laws - KVL/KCL/Ohm/Power
@@ -41,31 +41,29 @@ These are alphas that combine the two - requiring knowledge from market alphas a
 * Demand Side - Understanding the various types of loads on a technical level and an econonomic level.
 * Grid Side - Grid interconnections, congestion, SCED/nodal pricing (e.g. in a 3 bus system)
 
+## Power Markets vs Commodity Futures Markets
+
+It is tempting to associate power markets (the most quanty commodity) with commodity futures markets. This is a mistake! 
+
+Financial markets (e.g. what I have some experience in - commodity futures) are very noisy and you need lots of statistical rigour to be able to confirm/disprove hypotheses about markets. For example, a certain fundamental signal of flow of supply/demand might a certain effect on return in a certain scenario on a certain horizon, etc. However, you need to orthogonalize out against other effects.
+
+Power markets on the other hand, are alot less statistically noisy and you don't need the same level of statistical machinery as generators/retailers mostly behave in very predictable fashion. Instead, you need to put yourself in the perspective of the market participant in question (e.g. the generator or retailers) and understand how they would behave.
+
+The power market is then the aggregation/ensemble/dynamical system of these predictable physical participants doing very simple, common sense things to maximize their revenue.
+
+So the key alpha - is to put yourself in their shoes and see what 'common sense behavior' is being done.
+
 ## Markets and Prices
 
 It turns out that there are two very good textbooks on this. Stoft's *Power System Economics* and Kirschen's *Fundamentals of Power System Economics*.
 
-Price determination (mostly) comes from the uniform price clearing auction, merit order & marginal cost bidding. I don't claim to understand US zonal/SCED style markets.
+Price determination (mostly) comes from the uniform price clearing auction, merit order & marginal cost bidding. The cI don't claim to understand US zonal/SCED style markets.
 
-It turns out that majority of power markets are just creative auctions, with parameters varying on the product sold, the stack order, the time frame, the participants on the demand/supply side. For example, I find the 2-stage balancing/ancillary service auction in European power markets quite interesting.
 
-## Stack Order
 
-The stack is the model used to simulate the bidding curves (marginal cost, merit order ranking, uniform clearing etc) and demand to forecast auction prices. We can divide the stack/generation mix into a tree structure. Dispatchable (thermal), storage, Nondispatchable (VRE):
+## Stack
 
-* Dispatchable 
-  * Thermal (Nukes > coal > oil/gas)
-* Non-Dispatchable
-  * Renewables (Solar, wind, hydro)
-* Storage
-  * Electrical (BESS)
-  * Mechanical (Pumped hydro)
-
-Dispatchables are thermal plants. They run on the same principle: convert fuel to heat and heat to power in a controllable fashion. There is a tradeoff between baseload and peaking (due to startup/shutdown costs and marginal fuel costs) in ascending order: nukes > coal > gas/oil. It is important to remember they work on the same underlying mechanism but under different parameters according to how they convert their differnet fuels to heat to spin the turbine.
-
-Non-dispatchables (VRE) are solar, wind, hydro (run-of-river). These have zero marginal cost but different variability profiles according to the aspect of weather they use as fuel (wind, solar radiation, river flows). There is no heat involved.
-
-Storage bridges the gap between the dispatchables and non-dispatchables, it shifts energy/power in time. It is important to remember BESS vs PH have very different shifting profiles and work on different mechanisms. For example, for PH, head, penstock width, resevoir capacity, RTE due to friction, etc etc.
+The stack is the model used to simulate the bidding curves (marginal cost, merit order ranking, uniform clearing etc) and demand to forecast auction prices. 
 
 ## Dispatch View
 
