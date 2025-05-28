@@ -53,6 +53,8 @@ The power market is then the aggregation/ensemble/dynamical system of these pred
 
 So the key alpha - is to put yourself in their shoes and see what 'common sense behavior' is being done.
 
+What makes it even easier is that most of the time the behavior is stationary over a long period - they just do the same thing, over and over and over again. There might be some slow drift as the grid on a whole remodels, or some jumps here and there with policy changes, but it's stationary.
+
 ## Markets and Prices
 
 It turns out that there are two very good textbooks on this. Stoft's *Power System Economics* and Kirschen's *Fundamentals of Power System Economics*.
