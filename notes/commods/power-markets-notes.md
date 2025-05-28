@@ -49,7 +49,7 @@ Financial markets (e.g. what I have some experience in - commodity futures) are 
 
 Power markets on the other hand, are alot less statistically noisy and you don't need the same level of statistical machinery as generators/retailers mostly behave in very predictable fashion. Instead, you need to put yourself in the perspective of the market participant in question (e.g. the generator or retailers) and understand how they would behave.
 
-The power market is then the aggregation/ensemble/dynamical system of these predictable physical participants doing very simple, common sense things to maximize their revenue.
+The power market is then the aggregation/ensemble/dynamical system of these predictable physical participants doing very simple, common sense things to maximize their revenue. For example - you look at generation data, transmission data, price data - and you deduce what common sense, revenue maximizing behavior is going on.
 
 So the key alpha - is to put yourself in their shoes and see what 'common sense behavior' is being done.
 
