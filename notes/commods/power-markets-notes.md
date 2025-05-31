@@ -10,6 +10,8 @@ Power is an interesting commodity and unique on it's own relative to other commo
 
 The key, atomic unit in the power market is the transaction. This is just an agreement to involve a buyer consuming and a seller producing some varying quantity, over a coordinated period of fixed time, IN AGGREGATE, over all buyers and sellers. That's literally it. The most important thing to understand.
 
+And the trader can be the middleman, the agreement need not be bilateral (the seller sells into an aggregate pool, the buyer buys from the aggregate pool), and there can be any number of middlemen/counterparties that do title transfer. At the end of the day, the gate closes, and the power plants produce and the load consumes at the same time. So as a trader - you are functioning as a middleman to provide liquidity between actual producers and consumers of power.
+
 
 ## Market Alphas
 
