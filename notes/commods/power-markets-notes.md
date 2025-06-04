@@ -8,9 +8,7 @@ category: commodities
 
 Power is an interesting commodity and unique on it's own relative to other commodities. Trafigura's Commodities Trading Demystified says commodity trading is about shifting commodities in time, space and form. In power, there is no form since electrons are electrons (well, ignoring fuel to power), there is some space (well assuming it flows according to a fixed grid topology/physical constraints) and almost no time (except storage). It is a commodity where microeconomics and auction theory dominates. 
 
-The key, atomic unit in the power market is the transaction. This is just an agreement to involve a buyer consuming and a seller producing some varying quantity, over a coordinated period of fixed time, IN AGGREGATE, over all buyers and sellers. That's literally it. The most important thing to understand.
-
-And the trader can be the middleman, the agreement need not be bilateral (the seller sells into an aggregate pool, the buyer buys from the aggregate pool), and there can be any number of middlemen/counterparties that do title transfer. At the end of the day, the gate closes, and the power plants produce and the load consumes at the same time. So as a trader - you are functioning as a middleman to provide liquidity between actual producers and consumers of power.
+Any trade in power market is always comes down to an agreement between parties (many-to-one, one-to-many, many-to-many) to generate and load a fixed amount in a given time range. Unlike in other more tangible commodities - say oil, gas, ags, metals, etc - the physical trader is not providing physical liquidity in the logistics/supply chain - it is counterparty liquidity and risk transformation that is being provided - just like a messenger.
 
 
 ## Market Alphas
