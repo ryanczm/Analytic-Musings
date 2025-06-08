@@ -50,6 +50,7 @@ These cover different areas of commodities.
 * Sundaram - The BESS Book
 * Gevorkian - Large Scale Solar Farms
 * Forsund - Hydropower Economics
+* Renewabl - [Complete Guide to PPAs](https://www.renewabl.com/post/ppas-explained-the-complete-guide-to-power-purchase-agreements)
 
 ### Engineering Technicals
 
