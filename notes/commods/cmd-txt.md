@@ -10,6 +10,14 @@ category: commodities
 
 Very useful books. Not exhaustive but main ones I find useful. Problem - These are difficult without any prior knowledge! Some are easier on prior knowledge requirements (e.g. Kaminski). Imagine reading Geman or Glachant with no prior knowledge. Wallahi you're finished.
 
+## Podcasts
+
+* Everything - HC Commodities 
+* Oil & Ags - Strong Source
+* Shipping - Vonheim
+* Power - Transmission (Modo), Energy Gang (WoodMac), Catalyst (Energy Impact Partners)
+
+
 ## Overall 
 
 These cover different areas of commodities. 
