@@ -44,6 +44,7 @@ These cover different areas of commodities.
 * Kirschen - Fundamentals of Power System Economics: A very theoretical micro-economic approach. An example of nodal/congestion pricing I need to go through.
 * Stoft - Power System Economics: A book on market and policy design. An example of nodal/congestion pricing I need to go through.
 * Musgens - Energy Trading and Risk Management: A focus on the trading aspect of power from perspectives of various players in the ecosystem.
+* Mantysaari - EU Electricity Trade Law
 
 ### Economics
 
@@ -51,6 +52,7 @@ These cover different areas of commodities.
 * Gevorkian - Large Scale Solar Farms
 * Forsund - Hydropower Economics
 * Renewabl - [Complete Guide to PPAs](https://www.renewabl.com/post/ppas-explained-the-complete-guide-to-power-purchase-agreements)
+
 
 ### Engineering Technicals
 
