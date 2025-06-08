@@ -10,7 +10,7 @@ Power is an interesting commodity and unique on it's own relative to other commo
 
 Some key intuitions:
 
-* Power trading involves a variable quantity over time. It's always price x quantity across a range of time units. Most other commodities deal with fixed qty over time.
+* Power trading involves a variable quantity over time. It's always price x quantity across a range of time units. Most other commodities deal with more fixed qty over time. What's worse: non-dispatchable gen!
 * Unlike other phys traders, you can do phys trade in power via counterparty matching without owning logistics infrastructure (ships, pipelines, etc) because the grid operator does it for you.
 * Power markets involve a huge amount of legal/economic policy. The laws need to be very rigorously constructed and upheld.
 
