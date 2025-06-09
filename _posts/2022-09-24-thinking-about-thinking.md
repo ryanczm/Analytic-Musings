@@ -76,6 +76,8 @@ Lastly, latent connections. These are connections formed by thinking deeply abou
 <figcaption>—Richard Feynman, <cite><a href="https://www.youtube.com/watch?v=P1ww1IXRfTA&ab_channel=ChristopherSykes&t=3378">Fun to Imagine (56:18)</a></cite></figcaption>
 <p>Feynman is imagining a measurement (the jiggling) and showing how that interacts with another measurement (another bunch of atoms jiggling). </p>
 
+Key prompts - "Connections", "Visualisation"
+
 <br> 
 
 ## Semideterministic Framework
@@ -101,6 +103,8 @@ Being able to see something at lots of levels and <i>go between them smoothly</i
 </blockquote>
 <figcaption>—Donald Knuth, <cite><a href="https://www.youtube.com/watch?v=2BdBfsXbST8&ab_channel=LexFridman&t=553">Donald Knuth | Lex Fridman Podcast #62 (9:13)</a></cite></figcaption>
 
+Key prompts - "How this works", "Under the hood"
+
 <br>
 <h2>Humanistic Framework</h2>
 
@@ -116,7 +120,7 @@ The second proposition is that these imperfect views can influence the situation
 </blockquote>
 <figcaption>—George Soros, <cite><a href="https://www.georgesoros.com/2014/01/13/fallibility-reflexivity-and-the-human-uncertainty-principle-2/">Fallibility, Reflexivity, and the Human Uncertainty Principle</a></cite></figcaption>
 
-
+Key prompts - "From the perspective of xx"
 
 <h2>Visualisation: Dual form</h2>
 
