@@ -10,7 +10,7 @@ Power is an interesting commodity and unique on it's own relative to other commo
 
 ## Key Intuitions
 
-* Power is either PV (photovoltaic), chemical (battery) or spinning (steam/water/gas turbine).
+* Power is either PV (photovoltaic), chemical (battery) or spinning (turbine or async).
 * Power is priced by the contribution to grid reliability over a time interval. 
 * The clearing auction is designed to quantify that value in monetary terms.
 * Production is adjusted by tweaking various control systems on generators (actuators, valves, absorbing rods, bidirectional inverters) to maximize financial exposure to price.
