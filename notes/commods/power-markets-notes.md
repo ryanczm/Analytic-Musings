@@ -19,8 +19,8 @@ Power is an interesting commodity and unique on it's own relative to other commo
 
 ## Trading 
 
-* Primary participants have ownership of direct gen and load. They adopt left skewed (price/cash flow stability) or right-skewed (ancillary services/balancing/peaking) strategies.
-* Secondary participants have no ownership of gen or load. They take on/swap the price risk and provide stability - price risk premia.
+* Primary participants have ownership of direct gen (generators) and load (retailers). They earn revenue via left skewed (price/cash flow stability) or right-skewed (ancillary services/balancing/peaking) strategies.
+* Secondary participants have no ownership of gen or load. They service left skewed participants by taking on variable price risk and provide stability.
 * Providing stable revenue/cost streams lets the market (both primary gen/load) develop - e.g project finance.
 * The amount of EV/premia is net zero (good traders make +EV bets and bad traders make -EV bets), but the service provided is a net positive. Or at least that's what I want to believe. 
 
