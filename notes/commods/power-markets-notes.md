@@ -19,9 +19,11 @@ Power is an interesting commodity and unique on it's own relative to other commo
 
 ## Trading (Secondary Participants)
 
-* Primary participants (gen/load) strongly prefer price stability/cash flow stability. 
-* This is similar to the Sharpe ratio but for prices.
-* Secondary participants (traders) take on/swap the price risk and provide stability.
+* Primary participants (gen/load) strongly prefer price stability/cash flow stability. This is similar to the Sharpe ratio but for prices.
+* Secondary participants (traders) take on/swap the price risk and provide stability - price risk premia.
+* Providing stable revenue/cost streams lets the market (both primary gen/load) develop - e.g project finance.
+* The amount of EV/premia is net zero (good traders make +EV bets and bad traders make -EV bets), but the service provided is a net positive. Or at least that's what I want to believe. 
+
 
 
 
