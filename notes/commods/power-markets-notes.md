@@ -12,15 +12,15 @@ Power is an interesting commodity and unique on it's own relative to other commo
 
 * Power is either PV (photovoltaic), chemical (battery) or spinning (turbine or async).
 * Power is priced by the contribution to grid reliability over a time interval. 
-* The clearing auction is designed to quantify that value in monetary terms.
+* The clearing auction is designed to quantify that value in monetary terms - load/demand sets that value.
 * Production is adjusted by tweaking various control systems on generators (actuators, valves, absorbing rods, bidirectional inverters) to maximize financial exposure to price.
 * Load is adjusted by turning on more loads either in the time series or cross-section.
 
 
-## Trading (Secondary Participants)
+## Trading 
 
-* Primary participants (gen/load) strongly prefer price stability/cash flow stability. This is similar to the Sharpe ratio but for prices.
-* Secondary participants (traders) take on/swap the price risk and provide stability - price risk premia.
+* Primary participants have ownership of direct gen and load. They adopt left skewed (price/cash flow stability) or right-skewed (ancillary services/balancing/peaking) strategies.
+* Secondary participants have no ownership of gen or load. They take on/swap the price risk and provide stability - price risk premia.
 * Providing stable revenue/cost streams lets the market (both primary gen/load) develop - e.g project finance.
 * The amount of EV/premia is net zero (good traders make +EV bets and bad traders make -EV bets), but the service provided is a net positive. Or at least that's what I want to believe. 
 
