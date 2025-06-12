@@ -22,7 +22,7 @@ Power is an interesting commodity and unique on it's own relative to other commo
 * Primary participants have ownership of direct gen (generators) and load (retailers). They earn revenue via left skewed (price/cash flow stability) or right-skewed (ancillary services/balancing/peaking) strategies.
 * Secondary participants have no ownership of gen or load. They service left skewed participants by taking on variable price risk and provide stability.
 * Providing stable revenue/cost streams lets the market (both primary gen/load) develop - e.g project finance.
-* The amount of EV/premia is net zero (good traders make +EV bets and bad traders make -EV bets), but the service provided is a net positive. Or at least that's what I want to believe. 
+* We can imagine a continuous price time series, and a generation time series. The generation time series profile uniquely determines it's exposure to the price factor and revenue profile.
 
 
 
