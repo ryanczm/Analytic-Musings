@@ -16,8 +16,8 @@ The demand for football is pretty high. Look at salaries. But I'm starting to be
 And the data needed would be:
 
 * Competition data - League and cups 
-* Transfer data - Both player and manager
-* Statistics - Both at the team and player level
+* Transfer/Spending/Salary data - Both at for player and managers
+* Statistics - Both at the team and player level.
 
 ## Player Assessment with Stats
 
