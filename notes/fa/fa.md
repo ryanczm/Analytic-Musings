@@ -6,30 +6,33 @@ category: FA
 
 ## Overview
 
-The demand for football is pretty high. Look at salaries. But I'm starting to believe there isn't much intellectual horsepower in it. Why? Probably because nerds don't like football. Well, there is the alpha/arbitrage here. All we need to do is gather data, run a few simple regressions and plot a couple of scatters. The current extent of football analytics is to look at pointless stats like pass completion, xG, all that nonsense.
+The demand for football is pretty high. Look at salaries. But I'm starting to believe there isn't much intellectual horsepower in it. Why? Probably because nerds don't like football. Well, there is the alpha/arbitrage here. I believe there are 3 main problems:
 
-Well the problem with all that is that context matters. Aka factor returns and idio returns. The classic example being a clinical striker always outperforming xG because by definition, he is clinical.
 
-## Player Assessment
+* Overlapping effects - When we see some outcome or effect in football, we know there are a myriad of contributing factors. The question is how to orthogonalize out effects we know to isolate the idiosyncratic return. For example, consider the problem of assessing managers.
+* Counterfactuals (Neyman, Rubin) - When we look at stats, they are context dependent (see first point). The team affects the player's stats and the players individual contributions affects the team.
+* The Eye Test - How do we quantify what we see with our eyes into statistics? And vice versa? For example, from an Arsenal perspective, we can clearly see Max Dowman & Ethan Nwaneri are going to be the two next big things in the attacking midfielder spot, just by watching with our eyes. 
 
-Optimal physical metrics per position (arm movement, touch density, leg to torso, torso uprightness)
+And the data needed would be:
 
-* Idea - Can we measure the physical movements of a player and tell us how good he is? 
-* Applications - Scouting/development
-* Data - Physical measurements of players.
+* Competition data - League and cups 
+* Transfer data - Both player and manager
+* Statistics - Both at the team and player level
 
-## Transfers
+## Player Assessment with Stats
 
-Predicting transfer adaptability cross-league. 
+How do we optimally make use of statistics to scout players? The problem of counterfactuals appears here. Some questions:
 
-* Idea - Can we see how well cross-league transfers generalizes (aka can he do it in a cold windy night in Stoke?) across different leagues? Aka predicting success vs flops.
-* Applications - Transfers
-* Data - Transfer data and a metric of performance.
+* How do we treat/assess statistics of players given the counterfactual problem?
+* What statistics mean the most for different positions?
+
+## Player Assessment with Physical Attributes
+
+Are there optimal physical metrics per position (arm movement, touch density, leg to torso, torso uprightness) that can determine a player's success in scouting? This relates to the eye test. For example, we can see Messi clearly has some interesting different physical attributes when he plays that contributes to his success. But how to quantify these in numbers is a problem.
+
 
 ## Managers
 
-Quantifying manager performance. We know managers have alpha and beta. Alpha being their idio return and beta being their factor returns (current squad, budget, support). Unfortunately, football fans are not too good at distinguishing alpha from beta.
+Quantifying manager performance. We know managers have alpha and beta. Alpha being their idio return and beta being their factor returns (current squad, budget, support).
 
-* Idea - You can find out undervalued managers by those with really poor factor return but super high idio return. 
-* Applications - Judging managers, manager transfers
-* Data - Standard stuff.
+* Can we isolate the alpha or idio returns of each manager, netting off the effects of their current squad wages and net spend?
