@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Commodity Value Chain
+title: The Commodity Supply Chain
 category: commodities
 ---
 
@@ -8,16 +8,7 @@ category: commodities
 
 # Introduction
 
-We can come up with a framework for thinking about commodity markets. This makes use of the humanistic framework in my other post (Metacognition: Thinking about Thinking). The key idea is to build a mental model of flows across nodes, but with a physical overlay: geography, quantity, etc.
-
-# Value Chain
-
-* Humanistic framework, we ask who (nodes), then build a nice network.
-* In commodities, we overlay a physical/geographical element over the nodes: what (type), quantity (how much), where (geography).
-* Logistics/necessity premium - The spread captured by the trader, reward for providing liquidity to consumers for utility
-* Need to visualise it in our head: the nodes, their context, and their physical overlay.
-* Build a mental model in your head. React to information, simulate or predict it. Then you act on it to make the trade to capture logistics premium.
-* When reading or studying or interacting with commodities, you really are enhancing your mental model and making it richer (e.g more nodes, more context).
+I have recently become cognizant of the fact anyone dealing in commmodities needs to have a good understanding of the unique supply chain network of each commodity. This encompasses: geography, technicals, actors, etc. And commodities flow by the invisible hand. But most important of all is geography - understanding the terrain and layout, since geography dictates economics. We can view it as a series of nodes, where commodity flows from supply to demand nodes.
 
 # Format
 
@@ -37,25 +28,6 @@ We can come up with a framework for thinking about commodity markets. This makes
 * Node Predictors
   * State & future events. Aka predict flows and as a trader capitalize on the logistics premium.
 
-# Examples
-
-* Trader of crude/products in ME. You make money by spread.
-* Situation - Israel conflict.
-* Analysis - If Israel strikes Iranian oil export terminal (e.g Kharg Island), that wipes out their exports. We know crude flows from Iran to China heavily (Orrin). So you say OK, those 'lost barrels' will source more from elsewhere.
-
-# Oil & Gas
-
-* Node Types
-  * Production - Fields (production), refineries, terminals, caverns, pipelines, ports, ships, distribution, petrol stations, airports, facilities
-  * Processing - Refineries
-  * Storage - Terminals, caverns
-  * Distribution - Pipelines, ships, ports
-  * Consumption - Airlines, cars, industrial vehicles, burners, power plants, petrochemical plants, etc.
-* Node Context
-  * Location (where)
-  * Ownership (who)
-  * Quantity/Operations/State
-  * Flows (goes where)
 
 
 ### Supply & Demand Quantities/Factors
