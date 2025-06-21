@@ -9,9 +9,10 @@ There is a large amount of alpha on social media with good domain-specific insig
 ## Commodities
 
 * [🛢️ Trafigura Oil Analyst - Coffee Chat (2024-04)]({{ site.url }}/notes/commods/trafi-analyst)
-* [⛓️‍💥 The Commodity Value Chain - A Discretionary Model (2024-09)]({{ site.url }}/notes/commods/commodity-value-chain)
+* [⛓️‍💥 The Commodity Supply Chain (2024-09)]({{ site.url }}/notes/commods/commodity-value-chain)
 * [📚 Commmodity Textbooks (2025-05)]({{ site.url }}/notes/commods/cmd-txt)
-* [⚡ Power Market Notes (2025-05)]({{ site.url }}/notes/commods/power-markets-notes)
+* [⚡ Power Markets (2025-05)]({{ site.url }}/notes/commods/power-markets-notes)
+* [🛰️ Remote Sensing & Satellites (2025-06)]({{ site.url }}/notes/commods/satellite-remote-sensing)
 
 ## Quant
 
@@ -30,4 +31,4 @@ There is a large amount of alpha on social media with good domain-specific insig
 
 ## Football Analytics 
 
-* [🔟 Football Analytics Ideas]({{ site.url }}/notes/fa/fa)
+* [⚽ Football Analytics Ideas]({{ site.url }}/notes/fa/fa)
