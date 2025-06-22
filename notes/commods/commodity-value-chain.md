@@ -10,7 +10,7 @@ category: commodities
 
 I have recently become cognizant of the fact anyone dealing in commmodities needs to have a good understanding of the unique supply chain network of each commodity. This encompasses: geography, technicals, actors, etc. And commodities flow by the invisible hand. But most important of all is geography - understanding the terrain and layout, since geography dictates economics. We can view it as a series of nodes, where commodity flows from supply to demand nodes.
 
-What's even better is that with modern Earth observation/remote sensing satellites you have so much live, real time data on the geography of the supply chains. Now that is cool.
+So TLDR - To understand commodities, understand the supply chain. To do so, understand geography, history, politics & economics.
 
 # Format
 
