@@ -108,7 +108,11 @@ Key prompts - "How this works", "Under the hood"
 <br>
 <h2>Humanistic Framework</h2>
 
-These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's. A node is an actor's decision. We can connect actor's decisions together via edges. One actor can have multiple nodes, since an actor can have multiplier behaviours across different contexts! And you can connect one actors behavior (node) to another actors behavior (another node)!
+These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's. A node is an actor's decision. ''
+
+We can connect actor's decisions together via edges. One actor can have multiple nodes, since an actor can have multiplier behaviours across different contexts! And you can connect one actors behavior (node) to another actors behavior (another node)!
+
+The connection is done via asking 'why'?. Why does an actor behave this way? There is always a reason, and that is the connection.
 
 So, the key skill is to understand a graph of multiple actors decision making, all at once, and see how it relates to each other.
 
