@@ -108,11 +108,9 @@ Key prompts - "How this works", "Under the hood"
 <br>
 <h2>Humanistic Framework</h2>
 
-These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's. In this case, the nodes are actors and their edges are decisions.
+These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's. A node is an actor's decision. We can connect actor's decisions together via edges. One actor can have multiple nodes, since an actor can have multiplier behaviours across different contexts! And you can connect one actors behavior (node) to another actors behavior (another node)!
 
-So, the key skill I believe is to put yourself in the perspective of an actor/entity and do this across all the different nodes/actors in a situation! Putting yourself in their shoes, examining their historical context and past actions. Then, the name of the game is to understand their perspective and predict what they would do next. 
-
-This is basically just understanding history and current events.
+So, the key skill is to understand a graph of multiple actors decision making, all at once, and see how it relates to each other.
 
 <blockquote>
 <p>My framework is built on two propositions. The first is that in situations that have thinking <i>participants</i>, the participants’ <i>views</i> of the world never perfectly correspond to the actual state of affairs.
