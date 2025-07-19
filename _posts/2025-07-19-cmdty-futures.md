@@ -403,7 +403,7 @@ Major Export/Import/Swing Countries: Exporters: Russia (20%), EU (15%), Canada (
 ## Cocoa (CC)
 
 <center>
-<img src="{{ site.imageurl }}/Cmdty-Futures/curve-ZC.png" style="width:100%;"/>
+<img src="{{ site.imageurl }}/Cmdty-Futures/curve-CC.png" style="width:100%;"/>
 </center>
 
 **Calendar** - 2Y out, 3, 5, 7, 9, 12. Last trading day one BD prior to LND, which is 10 BD prior to last BD of M. 8.45am-6.00pm GMT.
@@ -414,7 +414,7 @@ Major Export/Import/Swing Countries: Exporters: Russia (20%), EU (15%), Canada (
 
 Climate - 20-30c  but humid/wet climates, cannot tolerance frost/extreme heat. Hence tropicals.
 
-Crop Cycle - A crop takes 5Y to bear pods, from 5-20 they continuously bear fruit. Two harvest peaks in rainy/monsoon periods: in West Africa, Oct-Mar and Apr-Sep. Sensitive to weather extremes, too hot/drought or too rainy = black pod disease.
+Crop Cycle - A crop takes 5Y to bear pods, from 5-20 they continuously bear fruit. Two harvest peaks in rainy/monsoon periods: in West Africa, Oct-Mar (main crop) and Apr-Sep (mid-crop). Sensitive to weather extremes, too hot/drought or too rainy = black pod disease.
 
 Major Export/Import: Exporters: West Africa (70%), Latam (25%), Asia (5%). Importers: EU (50%), US (20%), Asia (15%), with Malaysia being dominant in Asian bean imports. Roasting in import regions.
 
