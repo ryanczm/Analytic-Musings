@@ -445,6 +445,12 @@ Processing - Cherry > depulping > fermentation > drying > green bean > roasting 
 
 ## Raw Sugar (SB)
 
+
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/curve-SB.png" style="width:100%;"/>
+</center>
+
+
 **Calendar** - 2Y out, 3, 5, 7, 10. 8.45am-6.00pm GMT.
 
 **Delivery** - Raw centrifugal cane sugar FOB at a port in the origin of the growth.
