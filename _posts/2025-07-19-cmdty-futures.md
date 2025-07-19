@@ -243,7 +243,7 @@ More confusing. Power futures have different tenors, listed for advance time per
 Contracts are listed in an advance window. Again, longer tenors = longer advance window. Cascading (breaking of contract in delivery into smaller tenor contracts) can happen due to overlapping delivery periods which affects MTM.
 
 <center>
-<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_Power1.png" style="width:60%;"/>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_Power1.jpg" style="width:60%;"/>
 </center>
 ##  O&G-Adjacent: Fertilizers/Ammonia
 
