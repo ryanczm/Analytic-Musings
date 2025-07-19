@@ -268,7 +268,7 @@ Contracts are listed in an advance window. Again, longer tenors = longer advance
 
 **Supply Chain**
 
-Processing - Ore (brownish rock) > chemical treatment to concentrate (greenish rock) > smelting/leaching/electro-refining > cathode. 
+Processing - Ore (brownish rock) > chemical treatment to concentrate (greenish rock) > treatment/smelting cost (TC) to blister copper > refining cost (RC) to pure copper cathode. 
 
 Export/Import (Ore/Concentrate) - Exporters: Chile (30%), Peru (25%), Indonesia (10%), Australia (5%), Importers: China (65%), Japan (15%), rest. Chinese have huge smelting capacity.
 
