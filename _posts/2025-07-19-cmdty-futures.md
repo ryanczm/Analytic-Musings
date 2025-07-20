@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Commodity Futures Basics (& Supply Chains)
-excerpt: "This is a post to consolidate my own learning on the basics of commodity futures. Especially now with tariffs/TACO, understanding the delivery mechanism, specs and supply chain of each contract is important."
+excerpt: "This is a post to consolidate my own learning on the basics of commodity futures. Especially now with tariffs/TACO, understanding the delivery mechanism, specs and supply chain of each contract is important. Data from FRD 130 most active futures. Covering: B, CL, RB, HO, NG, HG, ALI, HRC, ZC, ZS, ZW, CC, C, SB, LE."
 category: Commods
 ---
 
