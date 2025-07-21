@@ -399,7 +399,7 @@ Curve Structure - Slight premium at May contract, presumably due to last of old 
 
 Use Case: Unlike Soybean and Corn, majority (75%) to FSI. Hard wheat (high protein) = bread/pasta, soft wheat (low protein) = cakes/pastries.
 
-Major Export/Import/Swing Countries: Exporters: Russia (20%), EU (15%), Canada (15%), Australia (10%), US (10%), Ukraine (10%). Importers: Very spread out. Everyone needs wheat.
+Major Export/Import/Swing Countries: Exporters: Russia (20%), EU (15%), Canada (15%), Australia (10%), US (10%), Ukraine (10%). Importers: Very spread out. Everyone needs wheat for food.
 
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_ZW1.png" style="width:50%;"/>
