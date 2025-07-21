@@ -395,7 +395,9 @@ Crop Calendar/Cycle - US: corn but shifted 2M forward (to get summer temps), Bra
 
 Climate - Spring wheat: 20-25c, winter wheat vernalises at 5-15c. Spring wheat grown in Northern Great Plains (Dakota, Montana etc) - winterkill too cold for winter wheat, winter wheat in central states (Kansas).
 
-Use Case: Unlike Soybean and Corn, majority (75%) to FSI. Hard wheat (high protein) = bread/pasta, soft wheat (low protein) = cakes/pastries. 
+Curve Structure - Slight premium at May contract, presumably due to last of old crop before next harvest.
+
+Use Case: Unlike Soybean and Corn, majority (75%) to FSI. Hard wheat (high protein) = bread/pasta, soft wheat (low protein) = cakes/pastries.
 
 Major Export/Import/Swing Countries: Exporters: Russia (20%), EU (15%), Canada (15%), Australia (10%), US (10%), Ukraine (10%). Importers: Very spread out. Everyone needs wheat.
 
