@@ -519,7 +519,7 @@ Markets, labour, prices, trade, money GDP,  government, housing, business, consu
 
 **FX and Bond Markets**
 
-OTC, collection/aggregation of individual MMs quoting/making/fragmented order books: Large banks, non-banks/HFTs: CME EBS, BrokerTec etc. Takers: asset managers, HFs, corporates, retail, other banks.
+OTC, collection/aggregation/network of individual MMs quoting/making/fragmented order books: Large banks, non-banks/HFTs: CME EBS, BrokerTec etc. Takers: asset managers, HFs, corporates, retail, other banks.
 
 # Trade
 
