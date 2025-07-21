@@ -327,6 +327,7 @@ Use Case - Construction (buildings, infrastructure) [(50%)](https://worldsteel.o
 * Single Year Crops - Corn, soybeans, wheat, rice, cotton, sorghum, barley, sunflowers, peanuts
 * Multi-Year Crops - Coffee (2-4), cocoa (3-5), sugarcane, sugar beet
 * Climate - Tropical: coffee, cocoa, rice, sugarcane. Subtropical: soybean. Temperate: wheat, barley, oats, soybean, canola, sugar beet.
+* Futures - Mostly at 2M odd intervals + an Oct/Nov/Dec contract.
 
 ## Corn (ZC)
 
@@ -515,6 +516,10 @@ Government: Oversees consumer/households + industry. US government key branches:
 **Macro Indicators**
 
 Markets, labour, prices, trade, money GDP,  government, housing, business, consumer, taxes, health.
+
+**FX and Bond Markets**
+
+OTC, collection/aggregation of individual MMs quoting/making/fragmented order books: Large banks, non-banks/HFTs: CME EBS, BrokerTec etc. Takers: asset managers, HFs, corporates, retail, other banks.
 
 # Trade
 
