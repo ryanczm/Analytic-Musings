@@ -510,7 +510,7 @@ GICS/3 Sector Model:
 
 Consumer/Households: Interact with tertiary sector and government. Commodities flow into primary sector.
 
-Government: Oversees consumer/households + industry. US government key branches: legislative (congress - laws), executive (treasury - taxes, debt, tariffs, other executive departments), judicial (supreme court), independent (central bank). Congress being senate and house of reps.
+Government: Oversees consumer/households + industry. US government key branches: legislative (congress - laws), executive (treasury - taxes, debt, tariffs, other executive departments), judicial (supreme court), independent (central bank > federal reserve banks > commercial banks). Congress being senate and house of reps.
 
 **Macro Indicators**
 
