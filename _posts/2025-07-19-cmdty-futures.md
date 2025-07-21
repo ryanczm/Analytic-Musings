@@ -156,6 +156,8 @@ Gas dominating due to 2022 being included in the dataset.
 
 Major Export/Import: Export: ME (35%), Russia (10%), US (10%), WAF (8%), SA (8%), North Sea (5%), Caspian (5%). Import: Asia (China 25%, India 10%, Japan 8%, SK 6%, etc) 65%, EU (20%), Americas (5%), Africa (5%) etc.
 
+Worth noting that oil production (due to technical and economic reasons) is 'sticky', it is difficult to quickly increase or decrease production from the drilling/rig/field perspective.
+
 ## Heating Oil / ULSD (HO) 
 
 <center>
