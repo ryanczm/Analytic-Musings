@@ -60,6 +60,20 @@ A broker is responsible for:
 
 Platform = API + GUI to interact with corresponding matching engine/orderbook, regulated by a broker.
 
+# Orders
+
+Set of primitives that defines how you interact with other participants in the orderbook. [CME Globex Order Types](https://cmegroupclientsite.atlassian.net/wiki/spaces/EPICSANDBOX/pages/457087412/Order+Types+for+Futures+and+Options#Limit). Clients communicate with exchange via messaging protocol like FIX.
+
+Orderbook consists of price levels (1c or 0.01c) on either side (where each level has a queue), each level is blocks of one lot of more orders. 
+
+* Limit - Max bid, min offer at limit price. Either executed, cancelled, or expires. Any portion matched immediately executed.
+* Market Limit - Best bid, best offer. If partially filled, becomes limit order at limit price.
+* Market Limit with Protection - Market limit with protection points, matches order at best price without exceeding protection limit.
+* Stop Limit - Only goes into book when trigger price is traded,  then goes into book at limit price. 
+
+Also qualifiers build on duration (required), minimum execution qty (optional), display qty (optional). From there, you have good till cancel, good till date, fill and kill, fill or kill. 
+
+
 # Volume, OI, Calendar
 
 Volume = num transactions over time window. OI = num open contracts.  Given atomic matched transaction (matched by engine/CLOB via price-time priority) gives these scenarios:
