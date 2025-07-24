@@ -416,7 +416,7 @@ Major Export/Import/Swing Countries: Exporters: Russia (20%), EU (15%), Canada (
 <img src="{{ site.imageurl }}/Cmdty-Futures/curve-CC.png" style="width:100%;"/>
 </center>
 
-**Calendar** - 2Y out, 3, 5, 7, 9, 12. Last trading day one BD prior to LND, which is 10 BD prior to last BD of M. 8.45am-6.00pm GMT.
+**Calendar** - 2Y out, 3, 5, 7, 9, 12. Last trading day one BD prior to LND, which is 10 BD prior to last BD of M. 8.45am-6.00pm GMT. Interestingly, cocoa is the only contract in past 2Y where MM got caught flat footed by a large amount, at the start of 2024.
 
 **Delivery** - Delivery is of beans, the dried/fermented seed of cacao fruit from the tree. ICE divides cocoa into groups A (WAF) - +160/ton, B (SA/LATAM) +80, C (Asian) +0 to warehouses at various US ports.
 
