@@ -270,7 +270,7 @@ Contracts are listed in an advance window. Again, longer tenors = longer advance
 * Process - Nitrogen, phosphate (Morocco, China, etc) , potassium/potash (Canada, Russia, etc), sulfur + ammonia synthesis = fertilizer.
 
 
-# Metals
+# Metals/Dry
 
 ## Copper (HG)
 
@@ -286,10 +286,11 @@ Contracts are listed in an advance window. Again, longer tenors = longer advance
 
 Processing - Ore (brownish rock) > chemical treatment to concentrate (greenish rock) > treatment/smelting cost (TC) to blister copper > refining cost (RC) to pure copper cathode. 
 
-Export/Import (Ore/Concentrate) - Exporters: Chile (30%), Peru (25%), Indonesia (10%), Australia (5%), Importers: China (65%), Japan (15%), rest. Chinese have huge smelting capacity.
+Export/Import (Ore/Concentrate) - Exporters: Chile (30%), Peru (25%), Indonesia (10%), Australia (5%), Importers: China (65%), Japan (15%), rest. Chinese have huge smelting capacity. 
 
 Use Case - Buildings/construction - wirings, plumbing [(40%)](https://pubs.usgs.gov/periodicals/mcs2023/mcs2023-copper.pdf), grid infrastructure - transformers, lines, substations, etc (20%), industrial machinery (20%), transportation - wiring (20%). Many conflicting sources..
 
+Routes - Handy and Supramax, Chile (Antofagasta) to China (Yangshan, Qingdao, Shanghai)
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_HG1.png" style="width:100%;"/>
 </center>
@@ -310,8 +311,10 @@ Export/Import (Bauxite) - Exporters: Guinea (60%), Australia (15%), Brazil (10%)
 
 Use Case - Transportation vehicles - airplanes are 80% aluminium by weight, car chassis, etc (30%), construction (25%), packaging (20%), electronics (15%)
 
+Routes - Panamax/Kamsarmax (80kt), Guinea (Conakry), Australia (Port Hedland) to China (Shanghai).
+
 <center>
-<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_ALU1.png" style="width:100%;"/>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_ALU2.jpg" style="width:100%;"/>
 </center>
 
 ## Steel (HRC)
@@ -330,9 +333,13 @@ Exports/Imports (Iron Ore) - Exporters: Australia (50%), Brazil (20%), Canada (5
 
 Use Case - Construction (buildings, infrastructure) [(50%)](https://worldsteel.org/about-steel/facts/steelfacts/), mechanical equipment (15%), automotive/cars (10%), other transport like ships (5%).
 
+Routes - Capesize (120-200 kt), Valemax (380-400kt), Brazil (Tubarao), Australia (Port Hedland/Dampier) to China (Qingdao).
+
 <center>
-<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_HRC1.png" style="width:100%;"/>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_HRC2.png" style="width:100%;"/>
 </center>
+
+## Coal (LQ)
 
 # Grains
 
