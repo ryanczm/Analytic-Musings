@@ -521,23 +521,26 @@ Export/Import (Cattle/Beef) - EU (30%), US (30%), Brazil (25%), Australia (15%),
 
 **Link to Commodities**
 
-GICS/3 Sector Model: 
+Firms, households, capital markets, banks, goverment. 
+
+**Firms** -  GICS 3 sector model, employment. Distributes income to household.
 
 * Primary - Energy, materials
 * Secondary - Industrials
 * Tertiary - Consumer discretionary, consumer staples, health care, financials, IT, comms, utilities, real estate, defence
 
-Consumer/Households: Interact with tertiary sector via transactions and government via policies and taxes. Commodities flow into primary sector.
+**Households** - Spending, saving, taxes, etc.
 
-Government: Oversees consumer/households + industry. US government key branches: legislative (congress - laws), executive (treasury - taxes, debt, tariffs, other executive departments), judicial (supreme court), independent (central bank > federal reserve banks > commercial banks). 
+**Banks** - Central > federal > commercial. Household savers to borrowers (firms, government)
+
+**Capital Markets** - Stocks (central), bonds (OTC), FX (OTC), commodities (central). Links households to firms/goverment.
+
+**Government** - legislative (reps, senate), executive (president, cabinet), judicial. Regulates firms and households.
 
 **Macro Indicators**
 
 Markets, labour, prices, trade, money GDP,  government, housing, business, consumer, taxes, health.
 
-**FX and Bond Markets**
-
-OTC, collection/aggregation/network of individual MMs quoting/making/fragmented order books: Large banks, non-banks/HFTs: CME EBS, BrokerTec etc. Takers: asset managers, HFs, corporates, retail, other banks.
 
 # Trade
 
