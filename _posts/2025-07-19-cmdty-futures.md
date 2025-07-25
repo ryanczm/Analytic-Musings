@@ -189,6 +189,10 @@ Worth noting that oil production (due to technical and economic reasons) is 'sti
 
 Export/Import: Export: ME (20%), India (15%), USGC (15%), Russia (10%), Asia (20%), other. Import: EU (30%), Africa (20%), Latam (20%), other
 
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_HO1.jpeg" style="width:100%;"/>
+</center>
+
 
 ## RBOB Gasoline (RB)
 
@@ -231,6 +235,9 @@ Export/Import - Export: US (20%), Russia (10%), Norway (10%), Qatar (10%), Aus (
 
 Use Case: Power (40%), rescomm heating via furnace (hot air), boiler (hot water), wall heater etc (20%) industrial (30%), feedstock (10%). For feedstock: hydrogen (steam-methane reforming CH4 + H20 > CO + 3H2, hydrogen then used for hydrocracking/hydrodesulfurization, or ammonia creation via Haber Bosch N2 + 3H2 > 2NH3, then fertilizer). 
 
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_NG1.png" style="width:100%;"/>
+</center>
 
 ## TTF (No data)
 
