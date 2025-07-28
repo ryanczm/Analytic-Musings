@@ -138,6 +138,12 @@ To get a feel of vol per lot, I take std of price ($) since 2020 x contract mult
 
 Gas dominating due to 2022 being included in the dataset.
 
+# Use Case
+
+* Lock in revenues/costs (hedging).
+* Take/make delivery
+* Speculate/provide liquidity & price discovery to hedgers.
+
 # Oil
 
 ## Numeracy
@@ -171,6 +177,8 @@ Gas dominating due to 2022 being included in the dataset.
 Major Export/Import: Export: ME (35%), Russia (10%), US (10%), WAF (8%), SA (8%), North Sea (5%), Caspian (5%). Import: Asia (China 25%, India 10%, Japan 8%, SK 6%, etc) 65%, EU (20%), Americas (5%), Africa (5%) etc.
 
 Worth noting that oil production (due to technical and economic reasons) is 'sticky', it is difficult to quickly increase or decrease production from the drilling/rig/field perspective.
+
+Refined Products: Light distillates (LPG, gasoline, naphtha), mid distillates (jet fuel, diesel), heavy distillates (fuel oil, marine fuel, lubricants, asphalt).
 
 ## Heating Oil / ULSD (HO) 
 
@@ -346,7 +354,51 @@ Routes - Capesize (120-200 kt), Valemax (380-400kt), Brazil (Tubarao), Australia
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_HRC2.png" style="width:100%;"/>
 </center>
 
-## Coal (LQ)
+## Coal (NCF)
+
+**Calendar** - 84 consecutive month contracts (7Y out). Weekdays 1am-11pm GMT. LTD on last Friday of M.
+
+**Specs/Delivery** - 1 lot = 1000 tonnes of thermal coal, ICE/IFEU. Financially settled based on loaded coal FOB at Newcastle Coal Terminal (NSW, East Coast, North of Sydney) in Australia. Settled on globalCOAL (owned by consortium of coal trading shareholders) monthly NEWC index. Also have Rotterdam and Richards Bay coal futures.
+
+**Supply Chain**
+
+Use Case - Power gen - thermal (70%), steel/metallurgy - coking (20%). Coking/anthracite coal = higher carbon content (80/90%), higher calorific/heat value, premium to thermal. Used in steelmaking/blast furnaces. Within thermal, black/bituminous and brown/lignite (50-70%). Name from max temp/pressure geologic conditions under coalification.
+
+Exports/Imports - Exports: Indonesia (35%), Australia (30%), Russia (15%), US (5%), SA (5%), Colombia (5%) etc. Imports: China (25%), India (20%), Japan (15%), SK (10%), EU (10%), SEA (8%), Taiwan (5%) 
+
+
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_coal.png" style="width:100%;"/>
+</center>
+
+
+## Freight/FFAs
+
+**Specs/Delivery**
+
+Trading/Daily Settlement - OTC/brokers. Whatsapp chats, voice brokers, broker screens (updated manually by brokers, not executable). Once cleared/filled, broker sends trade to clearer (exchange) who settles the price and publishes for MTM daily at closing time. Daily settle, no intraday OHLC/bars.
+
+Delivery - Trading/MTM/margining happens in delivery month but final settlement after delivery month against monthly average of a voyage/time charter index/route (e.g TD3C MEG to Japan)
+
+Indexes - Freight rates or indices published daily by Baltic Exchange (main freight PRA), derived from spot transactions reported by shipbrokers (Clarksons, Braemar, Gibson etc). Index = weighted basket of freight routes under standardized conditions (vessel, route, cargo: fuel cost, port charges, canal fees, speed, laytime schedules etc). WS100 = standardized flat rate in %, published yearly, of $/t. Shipowners negotiate rates as \% of worldscale then convert to $ basis. 
+
+
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_freight.png" style="width:100%;"/>
+</center>
+
+**Exchanges/Products**
+
+SGX - Dry bulk, tankers, containers, LNG/LPG.
+
+ICE - Select tankers/gas FFAs.
+
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_freight2.png" style="width:100%;"/>
+</center>
+
+
+
 
 # Grains
 
