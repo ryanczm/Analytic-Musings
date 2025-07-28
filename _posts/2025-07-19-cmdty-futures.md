@@ -178,7 +178,9 @@ Major Export/Import: Export: ME (35%), Russia (10%), US (10%), WAF (8%), SA (8%)
 
 Worth noting that oil production (due to technical and economic reasons) is 'sticky', it is difficult to quickly increase or decrease production from the drilling/rig/field perspective.
 
-Refined Products: Light distillates (LPG, gasoline, naphtha), mid distillates (jet fuel, diesel), heavy distillates (fuel oil, marine fuel, lubricants, asphalt).
+Refined Products: Light distillates (LPG, gasoline, naphtha), mid distillates (jet fuel, diesel), heavy distillates (fuel oil, marine fuel, lubricants, asphalt). 
+
+Refineries: Prefer a specific crude slate/composition (taste) due to CDU structure, and produce an optimized product slate, which is adjustable (many moving parts) based on economics/margins.
 
 ## Heating Oil / ULSD (HO) 
 
