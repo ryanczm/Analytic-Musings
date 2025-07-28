@@ -108,7 +108,9 @@ Key prompts - "How this works", "Under the hood"
 <br>
 <h2>Humanistic Framework</h2>
 
-These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's. A node is an actor's decision. Note you can visualise the actor or people involved here, a handy trick.
+These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's. A node is an actor's decision. 
+
+First, we start by asking 'who'. Note you can visualise the actor or people involved here, a handy trick. 
 
 We can connect actor's decisions together via edges. One actor can have multiple nodes, since an actor can have multiplier behaviours across different contexts! And you can connect one actors behavior (node) to another actors behavior (another node)!
 
