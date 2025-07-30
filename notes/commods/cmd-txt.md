@@ -8,7 +8,7 @@ category: commodities
 
 # Overview
 
-Very useful books. Not exhaustive but main ones I find useful. Problem - These are difficult without any prior knowledge! Some are easier on prior knowledge requirements (e.g. Kaminski). Imagine reading Geman or Glachant with no prior knowledge. Wallahi you're finished.
+Very useful books. But as we all know, the real alpha is on $\mathbb{X}$ and not in books.
 
 ## Podcasts
 
