@@ -44,6 +44,14 @@ ICE Group: IFEU, IFAD, IFED, IFUS.
 
 IFEU datacenter called EULC seems to be in Basildon, Essex, East of London, 51.5873, 0.4956. For IFUS (softs orderbook), it's either in Chicago or Atlanta.
 
+## Other
+
+* EU - EEX (Power, gas, carbon credits, freight, ags), LME (same as SHFE), BUCE (Belarius Universal Commodity Exchange - metals, timber, ags), Euronext (Corn, wheat, salmon, rapeseed)
+* APAC China - SHFE/INE (Metals - Copper, ali, zinc, lead, nickel, tin, gold, silver, steel product, crude, LSFO, FO, bitumen, rubber), DCE (Dalian Exchange - Ags: corn, soybean, egg, wood, rice, palm oil, hogs, petchem, plastics, LPG, coal, iron ore), ZCE (Zhengzhou - Ags: cotton, wheat, sugar, rapeseed, fruit, glass, urea, methanol, soda ash, etc)
+* APAC ME - DME (Oman crude), IME
+* APAC RoW - TOCOM, SGX (freight, iron, coal, refined products), MCX/NCDEX (India)
+* LATAM - B3SA (Brazil - Ags: Coffee, corn, ethanol, cattle, soybean)
+
 # Brokers/Execution Engine/Protocols
 
 To trade, you need a broker (FCM - futures commission merchant) and an OMS/EMS/execution platform like TT to send orders to datacenter.
@@ -176,7 +184,7 @@ Gas dominating due to 2022 being included in the dataset.
 
 Major Export/Import: Export: ME (35%), Russia (10%), US (10%), WAF (8%), SA (8%), North Sea (5%), Caspian (5%). Import: Asia (China 25%, India 10%, Japan 8%, SK 6%, etc) 65%, EU (20%), Americas (5%), Africa (5%) etc.
 
-Worth noting that oil production (due to technical and economic reasons) is 'sticky', it is difficult to quickly increase or decrease production from the drilling/rig/field perspective.
+Worth noting that oil production (due to technical and economic reasons) is 'sticky', it is difficult to quickly increase or decrease production from the drilling/rig/field perspective. Pricing/selling done via markets, benchmarks or OSP.
 
 Refined Products: Light distillates (LPG, gasoline, naphtha), mid distillates (jet fuel, diesel), heavy distillates (fuel oil, marine fuel, lubricants, asphalt). 
 
