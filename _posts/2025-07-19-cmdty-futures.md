@@ -617,6 +617,13 @@ Firms, households, capital markets, banks, goverment.
 
 Markets, labour, prices, trade, money GDP,  government, housing, business, consumer, taxes, health.
 
+**Markets**
+
+Credit (future G&S), G&S, FX (intl G&S)
+
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_macro2.png" style="width:100%;"/>
+</center>
 
 # Trade
 
