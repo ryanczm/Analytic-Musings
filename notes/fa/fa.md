@@ -10,8 +10,8 @@ The demand for football is pretty high. Look at salaries. But I'm starting to be
 
 
 * Overlapping effects - When we see some outcome or effect in football, we know there are a myriad of contributing factors. The question is how to orthogonalize out effects we know to isolate the idiosyncratic return. For example, consider the problem of assessing managers.
-* Counterfactuals (Neyman, Rubin) - When we look at stats, they are context dependent (see first point). The team affects the player's stats and the players individual contributions affects the team.
-* The Eye Test - How do we quantify what we see with our eyes into statistics? And vice versa? For example, from an Arsenal perspective, we can clearly see Max Dowman & Ethan Nwaneri are going to be the two next big things in the attacking midfielder spot, just by watching with our eyes. 
+* Counterfactuals (Neyman-Rubin) - When we look at stats, they are context dependent (see first point). The team affects the player's stats and the players individual contributions affects the team.
+* The Eye Test - How do we quantify what we see with our eyes into statistics? And vice versa? 
 
 And the data needed would be:
 
@@ -19,12 +19,16 @@ And the data needed would be:
 * Transfer/Spending/Salary data - Both at for player and managers
 * Statistics - Both at the team and player level.
 
+## Datasets
+
+* Stathead/FBRef ($9/month) - Big tabular database.
+* Statsbomb (Seems expensive)
+
 ## Player Assessment with Stats
 
-How do we optimally make use of statistics to scout players? The problem of counterfactuals appears here. Some questions:
+How do we optimally make use of statistics to scout players? Some ideas:
 
-* How do we treat/assess statistics of players given the counterfactual problem?
-* What statistics mean the most for different positions?
+* Examine successful players - take a look at their stats, extrapolate to scout new players. Like factors driving returns.
 
 ## Player Assessment with Physical Attributes
 
