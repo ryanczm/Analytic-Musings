@@ -171,6 +171,11 @@ Gas dominating due to 2022 being included in the dataset.
 
 **Delivery** - EFP with option cash settle on ICE Brent Index, FOB Sullom Voe in Shetland Islands (excluding WTI Midland). Pipelines in North Sea into various terminals
 
+
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_B1.jpg" style="width:100%;"/>
+</center>
+
 ## WTI (CL)
 
 <center>
@@ -189,6 +194,12 @@ Worth noting that oil production (due to technical and economic reasons) is 'sti
 Refined Products: Light distillates (LPG, gasoline, naphtha), mid distillates (jet fuel, diesel), heavy distillates (fuel oil, marine fuel, lubricants, asphalt). 
 
 Refineries: Prefer a specific crude slate/composition (taste) due to CDU structure, and produce an optimized product slate, which is adjustable (many moving parts) based on economics/margins.
+
+
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_WTI1.png" style="width:100%;"/>
+</center>
+
 
 ## Heating Oil / ULSD (HO) 
 
