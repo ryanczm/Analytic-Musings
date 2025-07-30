@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Commodity Futures Basics (& Supply Chains)
-excerpt: "This is a post to consolidate my own learning on the basics of commodity futures. Especially now with tariffs/TACO, understanding the delivery mechanism, specs and supply chain of each contract is important. Data from FRD 130 most active futures. Covering: B, CL, RB, HO, NG, HG, ALI, HRC, ZC, ZS, ZW, CC, C, SB, LE."
+excerpt: "This is a post to consolidate my own learning on the basics of commodity futures. Especially now with tariffs/TACO, understanding the delivery mechanism, specs and supply chain of each contract is important. Data from FRD 130 most active futures. Covering: B, CL, RB, HO, NG, HG, ALI, HRC, ZC, ZS, ZW, ZR, CC, C, SB, LE."
 category: Commods
 ---
 
@@ -10,8 +10,8 @@ This is a post to consolidate my own learning on the basics of commodity futures
 
 * Energy - B, CL, HO, RB, NG.
 * Metals -  HG, ALI, HRC
-* Ags (Grains) - ZC, ZS, ZW
-* Ags (Softs, Produce) - SB, CC, C/RM, LE, OJ
+* Ags (Grains) - ZC, ZS, ZW, ZR
+* Ags (Softs, Produce) - SB, CC, KC/RM, LE, OJ
 
 Material from X, substack, ChatGPT, etc. 
 
@@ -286,7 +286,8 @@ Contracts are listed in an advance window. Again, longer tenors = longer advance
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_Power1.jpg" style="width:60%;"/>
 </center>
-##  O&G-Adjacent: Fertilizers/Ammonia
+
+## O&G-Adjacent: Fertilizers/Ammonia
 
 **Supply Chain**
 
@@ -408,8 +409,6 @@ ICE - Select tankers/gas FFAs.
 </center>
 
 
-
-
 # Grains
 
 ## Concepts
@@ -495,6 +494,35 @@ Major Export/Import/Swing Countries: Exporters: Russia (20%), EU (15%), Canada (
 
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_ZW1.png" style="width:50%;"/>
+</center>
+
+## Rough Rice (ZR)
+
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/curve-ZR.png" style="width:100%;"/>
+</center>
+
+**Price Action** - A nice post by 2 Quants explaining shorter crop cycle ags futures have more volatility in price action than longer ones. Visible in this rice contract.
+
+**Calendar** - 1Y out, 1, 3, 5, 7, 9, 11 Terminates BD prior to 15th of M. Weekdays 8.30am-1.20pm CT or 2.30pm-7.20pm London
+
+**Delivery** - Deliveries of rough rice shall be made only by delivery of rough rice shipping certificates issued by warehouses located in the Arkansas counties of etc. Chinese rice futures on DCE (Dalian).
+
+**Supply Chain**
+
+Climate - Rice grows in hot wet climates, in US, Arkansas is most suited (45% of US rice prod). China & India dominate. Within China, from USDA map, NE in Heilongjiang and another belt in the South.
+
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_ZR1.jpg" style="width:100%;"/>
+</center>
+
+
+Crop Cycle - Seed to harvest in 6 months. Feb to Nov in China. Early rice and late rice / double season rice.
+
+Use Case - Majority FSI and majority in Asian countries as the staple of course.
+
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_ZR2.png" style="width:100%;"/>
 </center>
 
 
