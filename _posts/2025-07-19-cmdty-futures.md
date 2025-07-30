@@ -599,7 +599,7 @@ Export/Import (Cattle/Beef) - EU (30%), US (30%), Brazil (25%), Australia (15%),
 
 Firms, households, capital markets, banks, goverment. 
 
-**Firms** -  GICS 3 sector model, employment. Distributes income to household.
+**Firms** -  GICS 3 sector model, employment. Circular flow model
 
 * Primary - Energy, materials
 * Secondary - Industrials
@@ -615,14 +615,14 @@ Firms, households, capital markets, banks, goverment.
 
 **Macro Indicators**
 
-Markets, labour, prices, trade, money GDP,  government, housing, business, consumer, taxes, health.
+Statistics measuring health of the economy (below). Markets, labour, prices, trade, money GDP,  government, housing, business, consumer, taxes, health.
 
 **Markets**
 
 Credit (future G&S), G&S, FX (intl G&S)
 
 <center>
-<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_macro2.png" style="width:100%;"/>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_macro2.png" style="width:60%;"/>
 </center>
 
 # Trade
