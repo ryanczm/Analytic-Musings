@@ -664,5 +664,38 @@ Credit (future G&S), G&S, FX (intl G&S)
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_macro2.png" style="width:60%;"/>
 </center>
 
+## 3M SOFR - SR3
+
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/curve-SR3.png" style="width:100%;"/>
+</center>
+
+**Calendar** - 3Y out, 3, 6, 9, 12. Sun-Fri 6pm-5pm ET. Terminates on BD prior to 3rd Wednesday of contract delivery month.
+
+**Delivery** - Transaction value median interest rate on overnight US treasury general collateral repo transactions
+
+**Supply Chain**
+
+Banking System - Central bank links to federal reserve banks links to commercial banks links to savers/borrowers via deposits/loans/reserves. Channel money from savers to borrowers to do productive things.
+
+Rates - Fed funds (rate to which fed reserve banks borrow from each other), discount (bank borrow directly from CB), SOFR (collaterized loans in overnight repo market). FOMC meeting: monthly.
+
+Borrowing - Use cash to do stuff (?), then repay, or roll loan. Very confusing.
+
+Central Bank Actions - Monetary policy (rate changes, money supply changes via buying treasuries/indirect rate changes)
+
+Treasuries - Effective risk-free rate of return, held by institutions. Links goverment spending to institutions.
+
+## EURUSD - E6
+
+**Calendar** - 5Y out, 3, 6, 9, 12. Sun-Fri 6pm-5pm ET. Terminates on 2BD prior to 3rd Wednesday of contract delivery month.
+
+**Price Action** - Climbed from 1.04-1.18 USD/EUR since Trump, tariff fears = hold less USD as US goods now more expensive to buy.
+
+**Supply Chain** 
+
+
+
+
 # Trade
 
