@@ -82,7 +82,7 @@ Orderbook consists of price levels (1c or 0.01c) on either side (where each leve
 
 Also qualifiers build on duration (required), minimum execution qty (optional), display qty (optional). From there, you have good till cancel, good till date, fill and kill, fill or kill. 
 
-Exchanges are massive servers with specific messaging protocols communicating with market participants. For an instrument, no true concurrency, everything is a (very fast) queue. One long deterministic sequence of events at nanosecond frequency.
+Exchanges are massive servers with specific messaging protocols communicating with market participants. For an instrument, no true concurrency, everything is a (very fast) queue. One long deterministic sequence of events at nanosecond frequency, any tiebreakers are resolved with tiebreaking rules to maintain a single queue.
 
 
 # Volume, OI, Calendar
