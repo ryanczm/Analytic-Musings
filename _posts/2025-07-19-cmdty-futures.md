@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Commodity Futures Basics (& Supply Chains)
-excerpt: "This is a post to consolidate my own learning on the basics of commodity futures. Especially now with tariffs/TACO, understanding the delivery mechanism, specs and supply chain of each contract is important. Data from FRD 130 most active futures. Covering: B, CL, RB, HO, NG, HG, ALI, HRC, ZC, ZS, ZW, ZR, CC, C, SB, LE."
+excerpt: "This is a post to consolidate my own learning on the basics of commodity futures. Especially now with tariffs/TACO, understanding the delivery mechanism, specs and supply chain of each contract is important. Data from FRD 130 most active futures. Covering: B, CL, RB, HO, NG, HG, ALI, HRC, ZC, ZS, ZW, ZR, CC, C, SB, LE and some macro: SR, E6, ES"
 category: Commods
 ---
 
@@ -676,7 +676,7 @@ Credit (future G&S), G&S, FX (intl G&S)
 
 **Supply Chain**
 
-Banking System - Central bank links to federal reserve banks links to commercial banks links to savers/borrowers via deposits/loans/reserves. Channel money from savers to borrowers to do productive things.
+Banking System - Central bank links to federal reserve banks links to commercial banks links to savers/borrowers via deposits/loans/reserves. Channel money from savers to borrowers to do productive things. 
 
 Rates - Fed funds (rate to which fed reserve banks borrow from each other), discount (bank borrow directly from CB), SOFR (collaterized loans in overnight repo market). FOMC meeting: monthly.
 
@@ -693,6 +693,10 @@ Treasuries - Effective risk-free rate of return, held by institutions. Links gov
 **Price Action** - Climbed from 1.04-1.18 USD/EUR since Trump, tariff fears = hold less USD as US goods now more expensive to buy.
 
 **Supply Chain** 
+
+Linking Economies - Links economies or groups to one another via trade.
+
+Account - 
 
 
 
