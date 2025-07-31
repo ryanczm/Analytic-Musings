@@ -657,6 +657,14 @@ Firms, households, capital markets, banks, goverment.
 
 BEA (GDP, PCE, Trade), BLS (inflation, employment), US Census Bureau (Retail, housing, orders), FRB (Industrial production), Treasury (Budget, Debt, Flows). Independents: ISM, Conference Board, UMich, NFIB, S&P/CS, Redbook, ADP.
 
+* Inflation - Change in price of G&S. From firm PoV, raise price if: costs increase (supply) or demand increases (more sales) & not too elastic demand. CPI, PCE, PPI, Core, etc.
+* Growth - Final value of G&S (P * Q). From consumer PoV, more = more productive economy, more resources turned into valuable services. GDP, GDI, Industrial Prod, PMI, etc.
+* Labour - Change in jobs/employment to produce G&S. From firm PoV, less sales (decrease demand) = cut jobs and downsize to avoid costs. U3, NFP, JOLTS, claims, wage growth.
+* Monetary - Yields, money supply, etc. From bank PoV, low rates = cheaper borrowing = more growth.
+* Fiscal - Govt indicators. From govt PoV, budget deficit = less spending power. 
+* Trade - Rates, BoP.
+
+
 **Markets**
 
 Credit (future G&S), G&S, FX (intl G&S)
