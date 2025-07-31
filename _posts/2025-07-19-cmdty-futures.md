@@ -82,6 +82,8 @@ Orderbook consists of price levels (1c or 0.01c) on either side (where each leve
 
 Also qualifiers build on duration (required), minimum execution qty (optional), display qty (optional). From there, you have good till cancel, good till date, fill and kill, fill or kill. 
 
+Exchanges are massive servers with specific messaging protocols communicating with market participants.
+
 
 # Volume, OI, Calendar
 
