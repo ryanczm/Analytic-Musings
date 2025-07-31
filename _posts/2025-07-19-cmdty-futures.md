@@ -295,6 +295,10 @@ More confusing. Power futures have different tenors, listed for advance time per
 
 Contracts are listed in an advance window. Again, longer tenors = longer advance window. Cascading (breaking of contract in delivery into smaller tenor contracts) can happen due to overlapping delivery periods which affects MTM.
 
+**Supply Chain**
+
+Markets - Nodal vs zonal. Determined by massive LP solvers and centralized, sealed bid uniform clearing auctions to maximize total welfare (producer + consumer surplus) across MTU. Ensure S==D constantly as much as possible. Retailers pay wholesalers/producers and end customers pay retailers.
+
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_Power1.jpg" style="width:60%;"/>
 </center>
