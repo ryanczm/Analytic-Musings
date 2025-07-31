@@ -692,7 +692,7 @@ Rates - Fed funds (rate to which fed reserve banks borrow from each other), disc
 
 Borrowing - Use cash to do stuff (?), then repay, or roll loan. Very confusing.
 
-Central Bank Actions - Monetary policy (rate changes, money supply changes via buying treasuries/indirect rate changes)
+Central Bank Actions - Monetary policy (rate changes, money supply changes via buying/selling treasuries/indirect rate changes/QE/QT)
 
 Treasuries - Effective risk-free rate of return, held by institutions. Links goverment spending to institutions.
 
@@ -714,7 +714,7 @@ FX Markets - OTC/dealers/banks (spot, forward, swap, options), participants have
 
 Balance of Payments - FX drivers: Current (trade/NX G&S, income), capital, financial (direct investment, portfolio investment, other), etc.
 
-Carry - Earn yield/premia from borrowing at a lower rate currency to invest in instruments (debt, equity, bank deposit) in a higher rate currency. Results in capital in/outflows in financial. Creates convergence/reduces divergence/dispersion, until unwinding.
+Carry - Earn yield/premia from borrowing at a lower rate currency to invest in instruments (debt, equity, bank deposit) in a higher rate currency. Results in capital in/outflows in financial. Creates convergence/reduces divergence/dispersion, until unwinding due to geopol/macro shock?
 
 ## E-Mini S&P - ES
 
