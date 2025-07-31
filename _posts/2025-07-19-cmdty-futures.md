@@ -655,7 +655,7 @@ Firms, households, capital markets, banks, goverment.
 
 **Macro Indicators**
 
-Statistics measuring health of the economy (below). Markets, labour, prices, trade, money GDP,  government, housing, business, consumer, taxes, health.
+BEA (GDP, PCE, Trade), BLS (inflation, employment), US Census Bureau (Retail, housing, orders), FRB (Industrial production), Treasury (Budget, Debt, Flows). 
 
 **Markets**
 
@@ -704,12 +704,11 @@ Treasuries - Effective risk-free rate of return, held by institutions. Links gov
 
 **Supply Chain** 
 
-Linking Economies - Links economies or groups to one another via trade.
+Linking Economies - Links economies or groups to one another via trade. E.g EU, Eurozone 20/27 members adopting euro vs 7 opting out  (BG, CZ, DK, HU, PL, RO, SE) vs non EU members (UK, TK)
 
-Account - 
+FX Markets - OTC/dealers/banks (spot, forward, swap, options), participants have FX reserves. 
+
+Balance of Payments - FX drivers: Current (trade/NX G&S, income), capital, financial (direct investment, portfolio investment, other), etc.
 
 
-
-
-# Trade
 
