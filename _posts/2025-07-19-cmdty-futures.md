@@ -12,6 +12,7 @@ This is a post to consolidate my own learning on the basics of commodity futures
 * Metals -  HG, ALI, HRC
 * Ags (Grains) - ZC, ZS, ZW, ZR
 * Ags (Softs, Produce) - SB, CC, KC/RM, LE, OJ
+* Macro (Selected) - SR, E6, ES
 
 Material from X, substack, ChatGPT, etc. 
 
@@ -663,6 +664,15 @@ Credit (future G&S), G&S, FX (intl G&S)
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_macro2.png" style="width:60%;"/>
 </center>
+
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_macro3.png" style="width:100%;"/>
+</center>
+
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_macro4.png" style="width:100%;"/>
+</center>
+
 
 ## 3M SOFR - SR3
 
