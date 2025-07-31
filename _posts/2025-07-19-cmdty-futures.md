@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Commodity Futures Basics (& Supply Chains)
-excerpt: "This is a post to consolidate my own learning on the basics of commodity futures. Especially now with tariffs/TACO, understanding the delivery mechanism, specs and supply chain of each contract is important. Data from FRD 130 most active futures. Covering: B, CL, RB, HO, NG, HG, ALI, HRC, ZC, ZS, ZW, ZR, CC, C, SB, LE and some macro: SR, E6, ES"
+excerpt: "This is a post to consolidate my own learning on the basics of commodity futures. Especially now with tariffs/TACO, understanding the delivery mechanism, specs and supply chain of each contract is important. Data from FRD 130 most active futures. Covering: B, CL, RB, HO, NG, HG, ALI, HRC, ZC, ZS, ZW, ZR, CC, C, SB, LE and some macro: SR, E6, ES.  "
 category: Commods
 ---
 
@@ -655,7 +655,7 @@ Firms, households, capital markets, banks, goverment.
 
 **Macro Indicators**
 
-BEA (GDP, PCE, Trade), BLS (inflation, employment), US Census Bureau (Retail, housing, orders), FRB (Industrial production), Treasury (Budget, Debt, Flows). 
+BEA (GDP, PCE, Trade), BLS (inflation, employment), US Census Bureau (Retail, housing, orders), FRB (Industrial production), Treasury (Budget, Debt, Flows). Independents: ISM, Conference Board, UMich, NFIB, S&P/CS, Redbook, ADP.
 
 **Markets**
 
@@ -666,7 +666,7 @@ Credit (future G&S), G&S, FX (intl G&S)
 </center>
 
 <center>
-<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_macro3.png" style="width:100%;"/>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_macro3.jpg" style="width:100%;"/>
 </center>
 
 <center>
@@ -682,7 +682,7 @@ Credit (future G&S), G&S, FX (intl G&S)
 
 **Calendar** - 3Y out, 3, 6, 9, 12. Sun-Fri 6pm-5pm ET. Terminates on BD prior to 3rd Wednesday of contract delivery month.
 
-**Delivery** - Transaction value median interest rate on overnight US treasury general collateral repo transactions
+**Delivery** - Transaction value median interest rate on overnight US treasury general collateral repo transactions/CME 3M SOFR Index Average.
 
 **Supply Chain**
 
@@ -698,6 +698,10 @@ Treasuries - Effective risk-free rate of return, held by institutions. Links gov
 
 ## EURUSD - E6
 
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/curve-E6.png" style="width:100%;"/>
+</center>
+
 **Calendar** - 5Y out, 3, 6, 9, 12. Sun-Fri 6pm-5pm ET. Terminates on 2BD prior to 3rd Wednesday of contract delivery month.
 
 **Price Action** - Climbed from 1.04-1.18 USD/EUR since Trump, tariff fears = hold less USD as US goods now more expensive to buy.
@@ -710,5 +714,16 @@ FX Markets - OTC/dealers/banks (spot, forward, swap, options), participants have
 
 Balance of Payments - FX drivers: Current (trade/NX G&S, income), capital, financial (direct investment, portfolio investment, other), etc.
 
+## E-Mini S&P - ES
 
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/curve-ES.png" style="width:100%;"/>
+</center>
 
+**Calendar** - 2Y out, 3, 6, 9, 12. Sun-Fri 6pm-5pm ET. Terminates on 2BD prior to 3rd Fri of contract delivery month.
+
+**Supply Chain** 
+
+Equity Exchanges - US: NYSE, NASDAQ, Canada: TSX, EU: LSE (GB), Euronext, XETRA (DE), Asia: TSE (JPN), SSE (CN), SZSE (SZSE), HKEX (HK), NSE (IN), ASX (AUS).
+
+Metrics - Valuation, profitability, growth, cash flow, behavioral, operational efficiency, etc.
