@@ -320,6 +320,10 @@ Markets - Nodal vs zonal. Determined by massive LP solvers and centralized, seal
 * Process - Nitrogen, phosphate (Morocco, China, etc) , potassium/potash (Canada, Russia, etc), sulfur + ammonia synthesis = fertilizer.
 
 
+
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_fertilizer1.jpeg" style="width:80%;"/>
+</center>
 # Metals/Dry
 
 ## Copper (HG)
