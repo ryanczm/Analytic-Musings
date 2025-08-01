@@ -300,6 +300,11 @@ Contracts are listed in an advance window. Again, longer tenors = longer advance
 
 **Supply Chain**
 
+
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_Power2.jpg" style="width:80%;"/>
+</center>
+
 Markets - Nodal vs zonal. Determined by massive LP solvers and centralized, sealed bid uniform clearing auctions to maximize total welfare (producer + consumer surplus) across MTU. Ensure S==D constantly as much as possible. Retailers pay wholesalers/producers and end customers pay retailers.
 
 <center>
