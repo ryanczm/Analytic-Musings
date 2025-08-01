@@ -330,6 +330,8 @@ Markets - Nodal vs zonal. Determined by massive LP solvers and centralized, seal
 
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_fertilizer1.jpeg" style="width:100%;"/>
+<figcaption>Credit - https://x.com/BenniKim/status/1617203828343934978</figcaption>
+
 </center>
 # Metals/Dry
 
