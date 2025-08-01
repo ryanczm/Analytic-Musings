@@ -204,6 +204,8 @@ Refineries: Prefer a specific crude slate/composition (taste) due to CDU structu
 </center>
 
 
+
+
 ## Heating Oil / ULSD (HO) 
 
 <center>
@@ -213,7 +215,7 @@ Refineries: Prefer a specific crude slate/composition (taste) due to CDU structu
 
 **Calendar** - 3Y ahead monthly contracts. Trading stops last BD of M-1. Weekdays except 11pm-12am GMT.
  
-**Delivery** - This contract represents the domestic east coast US diesel market (population center). Delivery comes by pipeline or barge from PADD3 refiners (USGC) and some Europe/ARA cargoes TA to various terminals in NY harbour. Then distributed out via rail/truck etc to gas stations, industrial uses, power plants.
+**Delivery** - This contract represents the domestic east coast US diesel market (population center). Delivery comes by pipeline say from Gulf or barge from and some Europe/ARA cargoes TA to various terminals in NY harbour. Then distributed out via rail/truck etc to gas stations, industrial uses, power plants.
 
 **Curve Structure** - Some slight seasonality in the winter months but not as much as RBOB Gasoline. Heating demand should explain this.
 
@@ -222,9 +224,8 @@ Refineries: Prefer a specific crude slate/composition (taste) due to CDU structu
 Export/Import: Export: ME (20%), India (15%), USGC (15%), Russia (10%), Asia (20%), other. Import: EU (30%), Africa (20%), Latam (20%), other
 
 <center>
-<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_HO1.jpeg" style="width:100%;"/>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_WTI2.jpg" style="width:100%;"/>
 </center>
-
 
 ## RBOB Gasoline (RB)
 
