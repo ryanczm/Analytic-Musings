@@ -286,6 +286,13 @@ Use Case: Power (40%), rescomm heating via furnace (hot air), boiler (hot water)
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_TTF3.jpg" style="width:100%;"/>
 </center>
 
+
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_TTF4.jpg" style="width:100%;"/>
+<figcaption>Credit - https://x.com/BenniKim/status/1571965841008205827/photo/1</figcaption>
+</center>
+
+
 # Power
 
 <center>
