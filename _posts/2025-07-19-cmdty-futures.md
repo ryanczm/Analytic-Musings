@@ -345,6 +345,7 @@ Export/Import (Ore/Concentrate) - Exporters: Chile (30%), Peru (25%), Indonesia 
 Use Case - Buildings/construction - wirings, plumbing [(40%)](https://pubs.usgs.gov/periodicals/mcs2023/mcs2023-copper.pdf), grid infrastructure - transformers, lines, substations, etc (20%), industrial machinery (20%), transportation - wiring (20%). Many conflicting sources..
 
 Routes - Handy and Supramax, Chile (Antofagasta) to China (Yangshan, Qingdao, Shanghai)
+
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_HG1.png" style="width:100%;"/>
 </center>
