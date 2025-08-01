@@ -322,7 +322,7 @@ Markets - Nodal vs zonal. Determined by massive LP solvers and centralized, seal
 
 
 <center>
-<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_fertilizer1.jpeg" style="width:80%;"/>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_fertilizer1.jpeg" style="width:100%;"/>
 </center>
 # Metals/Dry
 
@@ -391,6 +391,10 @@ Routes - Capesize (120-200 kt), Valemax (380-400kt), Brazil (Tubarao), Australia
 
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_HRC2.png" style="width:100%;"/>
+</center>
+
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_HRC3.png" style="width:100%;"/>
 </center>
 
 ## Coal (NCF)
