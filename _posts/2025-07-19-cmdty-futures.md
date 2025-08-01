@@ -755,7 +755,7 @@ Carry - Earn yield/premia from borrowing at a lower rate currency to invest in i
 <img src="{{ site.imageurl }}/Cmdty-Futures/curve-ES.png" style="width:100%;"/>
 </center>
 
-**Calendar** - 2Y out, 3, 6, 9, 12. Sun-Fri 6pm-5pm ET. Terminates on 2BD prior to 3rd Fri of contract delivery month.
+**Calendar** - 5Y out, 3, 6, 9, 12. Sun-Fri 6pm-5pm ET. Terminates on 2BD prior to 3rd Fri of contract delivery month.
 
 **Supply Chain** 
 
@@ -766,5 +766,5 @@ Common Indices - Weighted groupings/views/linear combinations according to some 
 Metrics - Valuation, profitability, growth, cash flow, behavioral, operational efficiency, etc.
 
 <center>
-<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_ES1.png" style="width:100%;"/>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_ES1.jpeg" style="width:100%;"/>
 </center>
