@@ -266,7 +266,7 @@ Export/Import: Export: SGC (35%), EU (20%), Asia (20%), ME (10%), rest. Import: 
 
 Export/Import - Export: US (20%), Russia (10%), Norway (10%), Qatar (10%), Aus (10%), Canada (5%), Algeria (5%).  Import: EU, Asia, RoW
 
-Use Case: Power (40%), rescomm heating via furnace (hot air), boiler (hot water), wall heater etc (20%) industrial (30%), feedstock (10%). For feedstock: hydrogen (steam-methane reforming CH4 + H20 > CO + 3H2, hydrogen then used for hydrocracking/hydrodesulfurization, or ammonia creation via Haber Bosch N2 + 3H2 > 2NH3, then fertilizer). 
+Use Case: Powerburn (40%), rescomm heating/LDC (20%) industrial - feedstock (30%). For feedstock: industrial fuel, hydrogen (steam-methane reforming CH4 + H20 > CO + 3H2, hydrogen then used for hydrocracking/hydrodesulfurization, or ammonia creation via Haber Bosch N2 + 3H2 > 2NH3, then fertilizer). 
 
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_NG1.png" style="width:100%;"/>
@@ -283,6 +283,8 @@ Use Case: Power (40%), rescomm heating via furnace (hot air), boiler (hot water)
 **Pricing** - Euro/MWH, 1 lot = 1MWh gas delivered hourly over contract month (700h) so 700MWH over month. If one household is 0.3MWH/month at 30% average hourly mix of electricity = 2100 households per lot.
 
 **Storage Cycle** - In non-winter (spring > summer > autumn), supply > demand = storage builds, in winter months (Nov Dec Jan Feb Mar), demand > supply = storage draws then begins to refill, yearly seasonal cycle.
+
+**LNG Flow** - Majority under very complex long/medium term SPAs 80% and remainder spot cargoes.
 
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_TTF2.png" style="width:100%;"/>
