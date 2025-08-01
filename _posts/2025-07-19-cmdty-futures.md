@@ -725,6 +725,10 @@ Central Bank Actions - Monetary policy (rate changes, money supply changes via b
 
 Treasuries - Effective risk-free rate of return, held by institutions. Links goverment spending to institutions.
 
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_SR3.png" style="width:100%;"/>
+</center>
+
 ## EURUSD - E6
 
 <center>
@@ -757,4 +761,10 @@ Carry - Earn yield/premia from borrowing at a lower rate currency to invest in i
 
 Equity Exchanges - US: NYSE, NASDAQ, Canada: TSX, EU: LSE (GB), Euronext, XETRA (DE), Asia: TSE (JPN), SSE (CN), SZSE (SZSE), HKEX (HK), NSE (IN), ASX (AUS).
 
+Common Indices - Weighted groupings/views/linear combinations according to some criteria: S&P500, DJIA, NASDAQ, Russell 2000, Wilshire 5000, FTSE100, DAX40, CAC40, EUROSTOXX 50, Nikkei 225, TOPIX, Hang Seng, Shanghai Composite, Nifty 50, ASX 200, MSCI World, MSCI EM
+
 Metrics - Valuation, profitability, growth, cash flow, behavioral, operational efficiency, etc.
+
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_ES1.png" style="width:100%;"/>
+</center>
