@@ -321,10 +321,14 @@ Contracts are listed in an advance window. Again, longer tenors = longer advance
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_Power2.jpg" style="width:80%;"/>
 </center>
 
-Markets - Nodal vs zonal. Determined by massive LP solvers and centralized, sealed bid uniform clearing auctions to maximize total welfare (producer + consumer surplus) across MTU. Ensure S==D constantly as much as possible. Retailers pay wholesalers/producers and end customers pay retailers.
+Markets - Nodal vs zonal. Determined by massive LP solvers and centralized, sealed bid uniform clearing auctions to maximize total welfare (producer + consumer surplus) across MTU. Ensure S==D constantly as much as possible. Retailers pay wholesalers/producers and end customers pay retailers. Any secondary player does cash swapping in a chain/network.
 
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_Power1.jpg" style="width:60%;"/>
+</center>
+
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_Power3.png" style="width:100%;"/>
 </center>
 
 ## O&G-Adjacent: Fertilizers/Ammonia
