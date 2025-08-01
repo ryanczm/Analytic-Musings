@@ -282,6 +282,13 @@ Use Case: Power (40%), rescomm heating via furnace (hot air), boiler (hot water)
 
 **Pricing** - Euro/MWH, 1 lot = 1MWh gas delivered hourly over contract month (700h) so 700MWH over month. If one household is 0.3MWH/month at 30% average hourly mix of electricity = 2100 households per lot.
 
+**Storage Cycle** - In non-winter (spring > summer > autumn), supply > demand = storage builds, in winter months (Nov Dec Jan Feb Mar), demand > supply = storage draws then begins to refill, yearly seasonal cycle.
+
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_TTF2.png" style="width:100%;"/>
+</center>
+
+
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_TTF3.jpg" style="width:100%;"/>
 </center>
