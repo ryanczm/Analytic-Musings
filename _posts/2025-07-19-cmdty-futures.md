@@ -470,6 +470,9 @@ ICE - Select tankers/gas FFAs.
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_freight2.jpg" style="width:100%;"/>
 </center>
 
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_freight3.jpeg" style="width:100%;"/>
+</center>
 
 # Grains
 
