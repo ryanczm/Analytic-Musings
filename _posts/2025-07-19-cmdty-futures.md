@@ -38,7 +38,8 @@ Venues: Globex = CLOB matching engine, ClearPort = bilateral trades (EFP, block 
 
 ICE Group: IFEU, IFAD, IFED, IFUS.
 
-* IFEU (LIFFE): Brent, TTF, European oil & products
+* IFEU (LIFFE): Brent, European oil & products
+* Ice Endex: TTF, European gas
 * IFUS (NYBOT): Softs (sugar, cocoa, cotton), produce (OJ), intl FX, etc
 * IFAD (Abu Dhabi): East oil & products, etc
 * IFED (US Energy Division): Domestic US gas
@@ -277,6 +278,8 @@ Use Case: Powerburn (40%), rescomm heating/LDC (20%) industrial - feedstock (30%
 **Calendar** - 13Y ahead, monthly contracts. Expires BD prior to first gas day of delivery month. Weekdays 7am-5pm GMT.
 
 **Delivery** - Transfer of rights at TTF Virtual Trading Point operated by Gasunie. "Delivery made equally each hour through delivery month".
+
+**Products** - Many products depending on settlement type, tenor, etc. TFM (TTF monthly futures, physical EUR/MWH), TFU (1st line futures, financial, settles to 1st line index, USD/MMBTU), TTL (daily financial futures, 92D ahead), TFE (daily physical futures, 92D ahead). IFEU and Endex.
 
 **Curve Structure** - Gas balance peaks in Oct and draws down till April as spring enters.
 
