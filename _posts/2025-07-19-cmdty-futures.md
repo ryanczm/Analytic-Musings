@@ -338,6 +338,10 @@ Markets - Nodal vs zonal. Determined by massive LP solvers and centralized, seal
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_Power3.png" style="width:100%;"/>
 </center>
 
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_Power4.png" style="width:100%;"/>
+</center>
+
 ## O&G-Adjacent: Fertilizers/Ammonia
 
 **Supply Chain**
