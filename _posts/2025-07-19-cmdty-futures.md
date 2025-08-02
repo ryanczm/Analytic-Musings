@@ -301,7 +301,7 @@ Use Case: Powerburn (40%), rescomm heating/LDC (20%) industrial - feedstock (30%
 
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_TTF4.jpeg" style="width:100%;"/>
-<figcaption>Credit - https://x.com/BenniKim/status/1571965841008205827/photo/1</figcaption>
+<figcaption>Some arbs spreadsheet from https://x.com/BenniKim/status/1571965841008205827/photo/1</figcaption>
 </center>
 
 
