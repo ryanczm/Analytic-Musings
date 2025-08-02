@@ -568,7 +568,7 @@ Major Export/Import/Swing Countries: Exporters: Russia (20%), EU (15%), Canada (
 </center>
 
 <center>
-<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_ZW2.png" style="width:50%;"/>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_ZW2.png" style="width:100%;"/>
 </center>
 
 ## Rough Rice (ZR)
