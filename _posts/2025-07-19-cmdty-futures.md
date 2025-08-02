@@ -682,7 +682,12 @@ Climate - Beets prefer 15-21c in growing season (temperature) sugarcane prefers 
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_SB2.png" style="width:100%;"/>
 </center>
 
-Crop Cycle - Beets take 2Y to flower but farmers cut the root after 1Y. Planting (Apr, May in spring), growing (June-Sep), harvest (Oct-Nov winter). Cane: harvested 12-15 months after planting per ratoon cycle, 3 ratoons with yields declining after each ratoon. Brazil sugarcane harvest season is in [April](https://www.linkedin.com/pulse/brazils-sugarcane-harvest-best-time-import-sugar-jacimara-da-silva-ow7xf/) extending to November, after rainy summer months. Reflected in March premium in curve structure, implies planting start of year.
+Crop Cycle - Beets take 2Y to flower but farmers cut the root after 1Y. Planting (Apr, May in spring), growing (June-Sep), harvest (Oct-Nov winter). Cane: harvested 12-15 months after planting per ratoon cycle, 3 ratoons with yields declining after each ratoon. Brazil sugarcane harvest season is in [April](https://www.linkedin.com/pulse/brazils-sugarcane-harvest-best-time-import-sugar-jacimara-da-silva-ow7xf/) extending to November, after rainy summer months. Reflected in March premium in curve structure, and harvesting season seen in NDVI drop.
+
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_SB4.png" style="width:100%;"/>
+</center>
+
 
 Export/Import - Brazil C (25%), Thailand C 10%, India C (7%), Germany C (7%), Guatemala C (5%), China C (5%). Brazil crop = 45mn tonnes, US crop = 10mn tonnes. Largest refining capacity: India (35 MMT), EU (25 MMT), China (15 MMT), US (10 MMT). Imports of raw and white sugar are balanced.
 
