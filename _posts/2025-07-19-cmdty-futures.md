@@ -273,6 +273,10 @@ Use Case: Powerburn (40%), rescomm heating/LDC (20%) industrial - feedstock (30%
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_NG1.png" style="width:100%;"/>
 </center>
 
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_NG2.png" style="width:100%;"/>
+</center>
+
 ## TTF (No data)
 
 **Calendar** - 13Y ahead, monthly contracts. Expires BD prior to first gas day of delivery month. Weekdays 7am-5pm GMT.
@@ -301,7 +305,7 @@ Use Case: Powerburn (40%), rescomm heating/LDC (20%) industrial - feedstock (30%
 
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_TTF4.jpeg" style="width:100%;"/>
-<figcaption>Some arbs spreadsheet from https://x.com/BenniKim/status/1571965841008205827/photo/1</figcaption>
+<figcaption>Credit - https://x.com/BenniKim/status/1571965841008205827/photo/1</figcaption>
 </center>
 
 
