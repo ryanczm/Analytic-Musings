@@ -646,7 +646,7 @@ Processing - Cherry > depulping > fermentation > drying > green bean > roasting 
 </center>
 
 <center>
-<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_C1.jpg" style="width:100%;"/>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_KC2.jpg" style="width:100%;"/>
 </center>
 
 
