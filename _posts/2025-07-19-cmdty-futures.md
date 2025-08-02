@@ -617,11 +617,14 @@ Crop Cycle - A crop takes 5Y to bear pods, from 5-20 they continuously bear frui
 
 Major Export/Import: Exporters: West Africa (70%), Latam (25%), Asia (5%). Importers: EU (50%), US (20%), Asia (15%), with Malaysia being dominant in Asian bean imports. Roasting in import regions.
 
-
 <center>
-<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_CC1.png" style="width:100%;"/>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_CC2.jpg" style="width:100%;"/>
 </center>
 
+
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_CC1.jpg" style="width:100%;"/>
+</center>
 
 
 ## Arabica Coffee (C)
