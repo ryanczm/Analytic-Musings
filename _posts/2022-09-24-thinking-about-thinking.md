@@ -49,13 +49,15 @@ And so we can connect concepts together or variables together. But for the latte
 
 For physical variables, we can use these measurements to visualise from a perspective. E.g put yourself in the perspective of a proton in an nucleus (it sounds silly but maybe this works). Physics formalises this: aka how to simulate or think about this 'correctly' and 'accurately'. This idea of visual perspective has an interesting cross-reference to the humanistic framework (down below).
 
-Taking this idea further, we can connect to more visual objects, but not worry about being too precise - connecting nonprecise physical variables. This would just be visualising things in an approximate fashion. This would be valuable where we need to visualise or have spatial knowledge about some system without the precise measurements. For example, this is especialyl useful in commodities. 
-
 Another idea is that of _dependency_, whereby to understand or make connections of certain concepts, there must be a backlog graph of existing concepts that you have to build in sequential fashion, aka prerequisites.
 
 <p>They are linked via connections. These can be direct or latent. Direct connections are obvious. Latent ones are sudden inspirations between seemingly unrelated things. The idea is to build up a dense, well-connected network of things in your head.</p>
 
-Lastly, latent connections. These are connections formed by thinking deeply about simple things. Asking yourself 'what really this thing is'.
+So:
+
+1. Connect concepts/ideas/objects
+2. Connect or visualise variables
+3. Connect or visualise numbers
 
 <blockquote>
 <p>There are moments where you <i>put something together</i> and realize this is how the story has to go.</p>
