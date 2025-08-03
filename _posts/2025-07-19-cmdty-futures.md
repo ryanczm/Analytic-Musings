@@ -199,7 +199,7 @@ Refined Products: Light distillates (LPG, gasoline, naphtha), mid distillates (j
 
 Refineries: Prefer a specific crude slate/composition (taste) due to CDU structure, and produce an optimized product slate, which is adjustable (many moving parts) based on economics/margins.
 
-
+Production: Held steady at % capacity in kbld, left spare capacity, cuts/increases following planned long term schedule (in case of OPEC+). Any residual/excess demand goes to draw/builds in inventory.
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_WTI1.png" style="width:100%;"/>
 </center>
