@@ -291,7 +291,7 @@ Use Case: Powerburn (40%), rescomm heating/LDC (20%) industrial - feedstock (30%
 
 **Storage Cycle** - In non-winter (spring > summer > autumn), supply > demand = storage builds, in winter months (Nov Dec Jan Feb Mar), demand > supply = storage draws then begins to refill, yearly seasonal cycle.
 
-**LNG Flow** - Majority under very complex long/medium term SPAs 80% and remainder spot cargoes depending on the arbs/econs.
+**LNG Flow** - Project structure very complex, flow under very complex long term SPAs (e.g 10Y, 20Y agreements) 80% and remainder spot cargoes depending on the arbs/econs.
 
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_TTF2.png" style="width:100%;"/>
