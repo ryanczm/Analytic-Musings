@@ -293,6 +293,8 @@ Use Case: Powerburn (40%), rescomm heating/LDC (20%) industrial - feedstock (30%
 
 **LNG Flow** - Project structure very complex, flow under very complex long term SPAs (e.g 10Y, 20Y agreements) 80% and remainder spot cargoes depending on the arbs/econs.
 
+**Numeracy** - Qmax = 260k CM (0.5 CBM to MT) = 130k T. Russian exports of LNG to EU in 2024 = 15 MT = 100 Qmax. Russian pipeline gas exports to EU in 2024 = 32b CM = 23 MT (1BCM = 0.73 MT)
+
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_TTF2.png" style="width:100%;"/>
 </center>
