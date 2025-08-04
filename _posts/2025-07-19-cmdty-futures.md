@@ -732,9 +732,9 @@ Firms, households, capital markets, banks, goverment.
 
 **Firms** -  GICS 3 sector model, employment. Circular flow model
 
-* Primary - Energy, materials
-* Secondary - Industrials
-* Tertiary - Consumer discretionary, consumer staples, health care, financials, IT, comms, utilities, real estate, defence
+* Primary - Energy (equipment, O&G), materials (chemicals, construction materals)
+* Secondary - Industrials (capital goods, professional services, transportation)
+* Tertiary - Consumer discretionary (automobiles, consumer durables, consumer services, discretionary retail), consumer staples (staples retail, F&B, household products), healthcare (equipment & services, pharmaceuticals/biotech), financials (banks, financial services, insurance), IT (software, hardware, semicon), comms (telecomms, media), utilities (power, gas, water), real estate (REITs, management & development)
 
 **Households** - Spending, saving, taxes, etc.
 
@@ -838,3 +838,93 @@ Metrics - Valuation, profitability, growth, cash flow, behavioral, operational e
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_ES1.jpeg" style="width:100%;"/>
 </center>
+
+# Trade
+
+<!-- Exports from Comtrade/tradingeconomics.com
+
+**USA**
+
+Population 300m
+
+* Crude & refined products (320b) - Exxon, Chevron, Valero
+* Machinery (252b) - Caterpillar, John Deere, ITW
+* Electronics (213b) - Intel, Texas Instruments, Apple
+* Vehicles (143b) - Ford, GM, Tesla
+* Aviation (134b) - Boeing, Lockheed Martin, Raytheon
+* Medical equipment (106b) - Medtronic, GE Healthcare, Stryker 
+* Pharmaceuticals (95b) - Pfizer, J&J, Merck
+* Other commods (79b) - P&G, Tyson Foods, International Paper
+* Chenmicals (51b) - Dow, DuPont, Eastman
+
+**Canada**
+
+Population 40m
+
+* Crude & refined product (145b) - Suncor, CNRL, Imperial Oil
+* Vehicles (57bn) - Ford Canada, Stellantis Canada, GM Canada
+* Machinery (41bn) - Caterpillar Canada, ATS, MacDon
+* Metals (33bn) - Teck Resources, Hudbay Minerals, First Quantum Minerals 
+* Other commodities (21bn) - Nutrien, Methanex, Canpotex
+* Electronics (17b) - Celestica, Evertz, Norsat
+* Plastics (16b) - Nova, Intertape, IPL
+* Wood (13b) - West Fraser Timber, Canfor, Interfor
+
+
+**UK**
+
+Population 70m
+
+* Machinery (85b) - Rolls Royce, JCB, Renishaw
+* Metals (81b) - Anglo American, Rio Tinto, Liberty Steel
+* Vehicles (50b) - Jaguar, Mini, Nissan
+* Crude & refined product (50b) - BP, Shell, INEOS
+* Electronics (30b) - ARM, Dyson, BAE Systems
+* Pharmaceuticals (27bn) - GSK, AstraZeneca, Hikma
+* Medical equipment (21b) - Smith & Nephew, Owen Mumford, GE Healthcare UK
+* Other commodities (17n) - Unilever, ABF, Tata Steel UK
+
+**France**
+
+Population 70m
+
+* Machinery (73b) - Alstom, CNH, Manitou
+* Vehicles (55b) - Stellantis, Renault, Valeo
+* Electronics (47b) - Thales, Schneider Electric, STMicroelectronics
+* Aviation (40b) - Airbus, Safran, Dassault
+* Pharmaceuticals (38b) - Sanofi, Servier, Ipsen
+* Crude & refined products (28b) - Total, Rubis, Exxon France
+* Cosmetics (27b) - Loreal, LVHM, Chanel
+
+**Germany**
+
+Population 83m
+
+* Vehicles (285b) - Volkswagen, BMW, Mercedes
+* Machinery (272b) - Siemens, Bosch, Trumpf
+* Electronics (181b) - Infineon, Rodhe & Schwarz
+* Pharmaceuticals (126b) - Bayer, Boheringer Ingelheim, Merck Germany
+* Medicals (85b) - Siemens, Dragerwerk, B Braun
+* Plastics (67b) - Covestro, BASF, Evonik
+* Aviation (36b) - Airbus Operations, MTU, Lufthansa
+* Crude and refined products (35b) - Shell De, Total De, OMV Deutschland
+* Chemicals (35b) - BASF, Lanxess, Wacker
+* Iron & Steel (35b)
+
+**Belgium**
+
+**Netherlands**
+
+**China**
+
+**Taiwan**
+
+**India**
+
+**Japan**
+
+**Korea**
+
+**Indonesia**
+
+**Australia** -->
