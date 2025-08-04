@@ -269,6 +269,8 @@ Export/Import - Export: US (20%), Russia (10%), Norway (10%), Qatar (10%), Aus (
 
 Use Case: Powerburn (40%), rescomm heating/LDC (20%) industrial - feedstock (30%). For feedstock: industrial fuel, hydrogen (steam-methane reforming CH4 + H20 > CO + 3H2, hydrogen then used for hydrocracking/hydrodesulfurization, or ammonia creation via Haber Bosch N2 + 3H2 > 2NH3, then fertilizer). 
 
+Seasons - Hurricane season (June-Nov), winter (Nov-Mar)
+
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_NG1.png" style="width:100%;"/>
 </center>
@@ -276,6 +278,11 @@ Use Case: Powerburn (40%), rescomm heating/LDC (20%) industrial - feedstock (30%
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_NG2.png" style="width:100%;"/>
 </center>
+
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_NG3.png" style="width:100%;"/>
+</center>
+
 
 ## TTF (No data)
 
@@ -841,7 +848,7 @@ Metrics - Valuation, profitability, growth, cash flow, behavioral, operational e
 
 # Trade
 
-<!-- Exports from Comtrade/tradingeconomics.com
+Exports from Comtrade/tradingeconomics.com
 
 **USA**
 
@@ -909,7 +916,7 @@ Population 83m
 * Aviation (36b) - Airbus Operations, MTU, Lufthansa
 * Crude and refined products (35b) - Shell De, Total De, OMV Deutschland
 * Chemicals (35b) - BASF, Lanxess, Wacker
-* Iron & Steel (35b)
+* Iron & Steel (35b) - ArcelorMittal, Thyssenkrupp, Salzgitter
 
 **Belgium**
 
@@ -927,4 +934,4 @@ Population 83m
 
 **Indonesia**
 
-**Australia** -->
+**Australia**
