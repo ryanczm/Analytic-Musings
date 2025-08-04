@@ -743,6 +743,10 @@ Firms, households, capital markets, banks, goverment.
 * Secondary - Industrials (capital goods, professional services, transportation)
 * Tertiary - Consumer discretionary (automobiles, consumer durables, consumer services, discretionary retail), consumer staples (staples retail, F&B, household products), healthcare (equipment & services, pharmaceuticals/biotech), financials (banks, financial services, insurance), IT (software, hardware, semicon), comms (telecomms, media), utilities (power, gas, water), real estate (REITs, management & development)
 
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_macro0.png" style="width:100%;"/>
+</center>
+
 **Households** - Spending, saving, taxes, etc.
 
 **Banks** - Central > federal > commercial. Household savers to borrowers (firms, government)
@@ -846,7 +850,7 @@ Metrics - Valuation, profitability, growth, cash flow, behavioral, operational e
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_ES1.jpeg" style="width:100%;"/>
 </center>
 
-# Trade
+<!-- # Trade
 
 Exports from Comtrade/tradingeconomics.com
 
@@ -934,4 +938,4 @@ Population 83m
 
 **Indonesia**
 
-**Australia**
+**Australia** -->
