@@ -40,13 +40,13 @@ Aggregation level: per match > per season
 
 How do we optimally make use of statistics to scout players? Say, examine successful players per position - take a look at their stats, extrapolate to scout new players. Like factors driving returns.
 
-* Find a measure of player success per position. E.g market value/wages normalized by age or players with highest market value increases. 
+* Find a measure of player success per position. E.g market value/wages normalized by age or players, or highest mkt val increase. 
 * For the most successful and least successful players: find statistics that impact that the most.
 * Can be used as scouting tool for transfers by just looking at statistics
 
 Problem:
 
-* Finding the right dependent variable is difficult. Many ways to construct it.c
+* Finding the right dependent variable is difficult. Many ways to construct it. 
 
 ## Player Assessment with Physical Attributes
 
