@@ -13,30 +13,58 @@ The demand for football is pretty high. Look at salaries. But I'm starting to be
 * Counterfactuals (Neyman-Rubin) - When we look at stats, they are context dependent (see first point). The team affects the player's stats and the players individual contributions affects the team.
 * The Eye Test - How do we quantify what we see with our eyes into statistics? And vice versa? 
 
-And the data needed would be:
+# Data Classification 
 
-* Competition data - League and cups 
-* Transfer/Spending/Salary data - Both at for player and managers
-* Statistics - Both at the team and player level.
+Aggregation level: per match > per season
 
-## Datasets
+* Competition Level - league tables, cup tables 
+* Match Level - Match results, match statistics (numerical, spatial) 
+* Team Level - Salaries (player, manager), transfers (player, level) 
+* Player Level - Statistics (per match, per season), physical measurements
 
-* Stathead/FBRef ($9/month) - Big tabular database.
+## Websites
+
+* Stathead/FBRef ($9/month)
 * Statsbomb (Seems expensive)
+
+## APIs
+
+* FBRef API
+    * https://fbrapi.com/
+* Transfermarket API
+    * https://github.com/dcaribou/transfermarkt-datasets (dcaribou)
+    * https://www.kaggle.com/datasets/davidcariboo/player-scores (dcaribou)
+    * https://github.com/felipeall/transfermarkt-api (felipeall) 
 
 ## Player Assessment with Stats
 
-How do we optimally make use of statistics to scout players? Some ideas:
+How do we optimally make use of statistics to scout players? Say, examine successful players per position - take a look at their stats, extrapolate to scout new players. Like factors driving returns.
 
-* Examine successful players - take a look at their stats, extrapolate to scout new players. Like factors driving returns.
+* Take player market value 
 
 ## Player Assessment with Physical Attributes
 
 Are there optimal physical metrics per position (arm movement, touch density, leg to torso, torso uprightness) that can determine a player's success in scouting? This relates to the eye test. For example, we can see Messi clearly has some interesting different physical attributes when he plays that contributes to his success. But how to quantify these in numbers is a problem.
 
+## Managerial Assessment
 
-## Managers
+Quantifying manager performance. We know managers have alpha and beta. Alpha being their idio return and beta being their factor returns (current squad, budget, support). Can we isolate the alpha or idio returns of each manager, netting off the effects of their current squad wages and net spend over their tenure?
 
-Quantifying manager performance. We know managers have alpha and beta. Alpha being their idio return and beta being their factor returns (current squad, budget, support).
+* Regress wages and net spend on league position, across all leagues in cross section, across multiple seasons.
+* Each residual in the datapoint is associated with a manager and that season.
+* Aggregate by summing the residuals per manager tenure.
+* Take the managerial alpha residuals and regress against managerial wages.
+* Now you have a ranking of which managers have the highest alpha, and also which managers are rich/cheap relative to their alpha.
 
-* Can we isolate the alpha or idio returns of each manager, netting off the effects of their current squad wages and net spend?
+Problems
+
+* The residuals or league position is not linear in net spend/wages: from 2 > 1 requires more spending/wages than from 20 > 19. How do we normalize for this? Feature transform?
+* Other factors apart from wages/net spend: for example, sudden breakout seasons by low-wage players, like Gareth Bale at Tottenham or Michu at Swansea. How do we normalize for this? Use player market value instead of wages?
+* Other factors apart from wages/net spend: for example, long term injuries (e.g season ending ligament tears). Add in injury time into the regression? But need to weigh by player impact.. 
+
+## Injuries
+
+Can we predict which teams get the most injuries? 
+
+* Run regression with distance ran and total substitute minutes on injury time per season.
+* Should be able to prove that better substitute management results in less injuries.
