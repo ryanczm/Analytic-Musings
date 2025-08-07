@@ -116,7 +116,7 @@ We can connect actor's decisions together via edges. One actor can have multiple
 
 The connection is done via asking 'why'?. Why does an actor behave this way? There is always a reason, and that is the connection.
 
-So, the key skill is to understand a graph of multiple actors decision making, all at once, and see how it relates to each other. From there, we can understand how organisations emerge, laws and policies, situations, etc. etc.
+So, put together this across time/chronological order, and you have history!
 
 <blockquote>
 <p>My framework is built on two propositions. The first is that in situations that have thinking <i>participants</i>, the participants’ <i>views</i> of the world never perfectly correspond to the actual state of affairs.
