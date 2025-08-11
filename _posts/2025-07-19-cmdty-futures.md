@@ -850,6 +850,8 @@ Metrics - Valuation, profitability, growth, cash flow, behavioral, operational e
 
 Business Model - Use liabiltiies and equity to fund assets to create earnings/income.
 
+Governance - Shareholders > Board of Directors > Executive Management > Middle Management > Staff
+
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_ES1.jpeg" style="width:100%;"/>
 </center>
