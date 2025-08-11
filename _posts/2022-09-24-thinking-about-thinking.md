@@ -110,7 +110,7 @@ Key prompts - "How this works", "Under the hood"
 
 These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's. A node is an actor's decision. 
 
-First, we start by asking 'who' or from who's perspective. Note you can visualise the actor or people involved here, a handy trick. An actor can be a person, or a collection or persons. Who, when, what. So a who can be an aggregation/grouping of people at different levels, say an organisation, company, a department, a branch, etc. And you can drill down. And these 'views' or 'groupings' overlap, one person can be a part of many different views.
+First, we start by asking 'who is' or from who's perspective. Note you can visualise the actor or people involved here, a handy trick. An actor can be a person, or a collection or persons. Who, when, what. So a who can be an aggregation/grouping of people at different levels, say an organisation, company, a department, a branch, etc. And you can drill down. And these 'views' or 'groupings' overlap, one person can be a part of many different views.
 
 We can connect actor's decisions together via edges. One actor can have multiple nodes, since an actor can have multiplier behaviours across different contexts! And you can connect one actors behavior (node) to another actors behavior (another node)!
 
