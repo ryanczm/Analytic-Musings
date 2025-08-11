@@ -743,6 +743,8 @@ Firms, households, capital markets, banks, goverment.
 * Secondary - Industrials (capital goods, professional services, transportation)
 * Tertiary - Consumer discretionary (automobiles, consumer durables, consumer services, discretionary retail), consumer staples (staples retail, F&B, household products), healthcare (equipment & services, pharmaceuticals/biotech), financials (banks, financial services, insurance), IT (software, hardware, semicon), comms (telecomms, media), utilities (power, gas, water), real estate (REITs, management & development)
 
+Alternative classification: Household, corporate/business, manufacturing/industrial, retail & wholesale, government, financial, agricultural, sectors etc.
+
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_macro0.png" style="width:100%;"/>
 </center>
