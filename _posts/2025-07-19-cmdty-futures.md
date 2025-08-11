@@ -846,6 +846,8 @@ Common Indices - Weighted groupings/views/linear combinations according to some 
 
 Metrics - Valuation, profitability, growth, cash flow, behavioral, operational efficiency, etc.
 
+Business Model - Use liabiltiies and equity to fund assets to create earnings/income.
+
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_ES1.jpeg" style="width:100%;"/>
 </center>
