@@ -273,7 +273,7 @@ Seasons - Hurricane season (June-Nov), winter (Nov-Mar)
 
 
 <center>
-<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_NG0.png" style="width:100%;"/>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_NG0.jpg" style="width:100%;"/>
 </center>
 
 <center>
