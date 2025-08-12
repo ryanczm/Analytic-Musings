@@ -271,9 +271,21 @@ Use Case: Powerburn (40%), rescomm heating/LDC (20%) industrial - feedstock (30%
 
 Seasons - Hurricane season (June-Nov), winter (Nov-Mar)
 
+
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_NG0.png" style="width:100%;"/>
+</center>
+
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_NG4.png" style="width:100%;"/>
+</center>
+
+
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_NG1.png" style="width:100%;"/>
 </center>
+
+
 
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_NG2.png" style="width:100%;"/>
