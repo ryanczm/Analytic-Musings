@@ -745,23 +745,13 @@ Export/Import (Cattle/Beef) - EU (30%), US (30%), Brazil (25%), Australia (15%),
 
 # Special Mention: Macro Stuff
 
-
-**GICS** -  GICS 3 sector model, employment. Circular flow model
-
-* Primary - Energy (equipment, O&G), materials (chemicals, construction materals)
-* Secondary - Industrials (capital goods, professional services, transportation)
-* Tertiary - Consumer discretionary (automobiles, consumer durables, consumer services, discretionary retail), consumer staples (staples retail, F&B, household products), healthcare (equipment & services, pharmaceuticals/biotech), financials (banks, financial services, insurance), IT (software, hardware, semicon), comms (telecomms, media), utilities (power, gas, water), real estate (REITs, management & development)
-
-**Alternative classification** 
-
-Household, corporate/business, energy, agricultural, manufacturing/industrial, retail & wholesale, government, financial, sectors etc.
-
-Stages: crude materials > intermediates > finished goods
+**Economy Sector Classification** 
 
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_macro0.png" style="width:100%;"/>
 </center>
 
+Stages: resource allocation > crude materials > intermediates > finished goods
 
 **Financial** - Banks, capital markets, etc. Resource allocation amongst other sectors.
 
@@ -771,7 +761,7 @@ Stages: crude materials > intermediates > finished goods
 
 **Manufacturing/Industrial** - Intermediate physical goods
 
-**Retail/Wholesale** - Final physical goods
+**Retail/Wholesale/Distribution** - Final physical goods
 
 **Corporate/Business** - Non physical goods
 
