@@ -745,17 +745,16 @@ Export/Import (Cattle/Beef) - EU (30%), US (30%), Brazil (25%), Australia (15%),
 
 # Special Mention: Macro Stuff
 
-**Link to Commodities**
 
-Firms, households, capital markets, banks, goverment. 
-
-**Firms** -  GICS 3 sector model, employment. Circular flow model
+**GICS** -  GICS 3 sector model, employment. Circular flow model
 
 * Primary - Energy (equipment, O&G), materials (chemicals, construction materals)
 * Secondary - Industrials (capital goods, professional services, transportation)
 * Tertiary - Consumer discretionary (automobiles, consumer durables, consumer services, discretionary retail), consumer staples (staples retail, F&B, household products), healthcare (equipment & services, pharmaceuticals/biotech), financials (banks, financial services, insurance), IT (software, hardware, semicon), comms (telecomms, media), utilities (power, gas, water), real estate (REITs, management & development)
 
-Alternative classification: Household, corporate/business, manufacturing/industrial, retail & wholesale, government, financial, agricultural, sectors etc.
+**Alternative classification** 
+
+Household, corporate/business, energy, agricultural, manufacturing/industrial, retail & wholesale, government, financial, sectors etc.
 
 Stages: crude materials > intermediates > finished goods
 
@@ -765,27 +764,19 @@ Stages: crude materials > intermediates > finished goods
 
 **Households** - Spending, saving, taxes, etc.
 
-**Banks** - Central > federal > commercial. Household savers to borrowers (firms, government)
+**Corporate/Business** - Non physical goods
 
-**Capital Markets** - Stocks (central), bonds (OTC), FX (OTC), commodities (central). Links households to firms/goverment.
+**Energy/Materials** - Initial/primary physical goods
 
-**Government** - legislative (reps, senate), executive (president, cabinet), judicial. Regulates firms and households.
+**Agricultural** - Perishable physical goods
 
-**Macro Indicators**
+**Manufacturing/Industrial** - Intermediate physical goods
 
-BEA (GDP, PCE, Trade), BLS (inflation, employment), US Census Bureau (Retail, housing, orders), FRB (Industrial production), Treasury (Budget, Debt, Flows). Independents: ISM, Conference Board, UMich, NFIB, S&P/CS, Redbook, ADP.
+**Retail/Wholesale** - Final physical goods
 
-* Inflation - Change in price of G&S. From firm PoV, raise price if: costs increase (supply) or demand increases (more sales) & not too elastic demand. CPI, PCE, PPI, Core, etc.
-* Growth - Final value of G&S (P * Q). From consumer PoV, more = more productive economy, more resources turned into valuable services. GDP, GDI, Industrial Prod, PMI, etc.
-* Labour - Change in jobs/employment to produce G&S. From firm PoV, less sales (decrease demand) = cut jobs and downsize to avoid costs. U3, NFP, JOLTS, claims, wage growth.
-* Monetary - Yields, money supply, etc. From bank PoV, low rates = cheaper borrowing = more growth.
-* Fiscal - Govt indicators. From govt PoV, budget deficit = less spending power. 
-* Trade - Rates, BoP.
+**Financial** - Banks, capital markets, etc.
 
-
-**Markets**
-
-Credit (future G&S), G&S, FX (intl G&S)
+**Government** - Legislative, executive, judicial
 
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_macro2.png" style="width:60%;"/>
