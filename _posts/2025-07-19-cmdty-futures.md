@@ -781,6 +781,10 @@ Stages: resource allocation > crude materials > intermediates > finished goods
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_macro4.png" style="width:100%;"/>
 </center>
 
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_macro5.png" style="width:100%;"/>
+</center>
+
 
 ## 3M SOFR - SR3
 
