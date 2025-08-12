@@ -762,9 +762,8 @@ Stages: crude materials > intermediates > finished goods
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_macro0.png" style="width:100%;"/>
 </center>
 
-**Households** - Spending, saving, taxes, etc.
 
-**Corporate/Business** - Non physical goods
+**Financial** - Banks, capital markets, etc. Resource allocation amongst other sectors.
 
 **Energy/Materials** - Initial/primary physical goods
 
@@ -774,7 +773,9 @@ Stages: crude materials > intermediates > finished goods
 
 **Retail/Wholesale** - Final physical goods
 
-**Financial** - Banks, capital markets, etc.
+**Corporate/Business** - Non physical goods
+
+**Households** - Spending, saving, taxes, etc.
 
 **Government** - Legislative, executive, judicial
 
