@@ -747,7 +747,9 @@ Export/Import (Cattle/Beef) - EU (30%), US (30%), Brazil (25%), Australia (15%),
 
 **Economy Sector Classification** 
 
-Economy/Markets/Money = People specialising, earning money, buying wants. Specialise in a small thing and consume other things via medium of exchange (money).
+Economy = Taking inputs to produce goods and consuming them.
+
+Money = People specialising, earning money, buying wants. Specialise in a small thing and consume other things via medium of exchange (money). Loan out to others in exchange for more money in the future. 
 
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_macro0.png" style="width:100%;"/>
