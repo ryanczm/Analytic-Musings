@@ -757,6 +757,8 @@ Firms, households, capital markets, banks, goverment.
 
 Alternative classification: Household, corporate/business, manufacturing/industrial, retail & wholesale, government, financial, agricultural, sectors etc.
 
+Stages: crude materials > intermediates > finished goods
+
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_macro0.png" style="width:100%;"/>
 </center>
