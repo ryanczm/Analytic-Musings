@@ -110,13 +110,13 @@ Key prompts - "How this works", "Under the hood"
 
 These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's. A node is an actor's decision. 
 
-First, we start by asking 'who is (this person)' or from who's perspective. Note you can visualise the actor or people involved here, a handy trick. An actor is a person. Who, when, what. So a who can be an aggregation/grouping of people at different levels, say an organisation, company, a department, a branch, etc. And you can drill down. And these 'views' or 'groupings' overlap, one person can be a part of many different views.
+First, we start by asking 'who is (this person)' or from who's perspective. Note you can visualise the actor or people involved here, a handy trick. An actor is a person. Who, when, what. So a who can be an aggregation/grouping of people at different levels, say an organisation, company, a department, a branch, etc. And you can drill down. And these 'views' or 'groupings' overlap, one person can be a part of many different views. 
 
 We can connect actor's decisions together via edges. One actor can have multiple nodes, since an actor can have multiplier behaviours across different contexts! And you can connect one actors behavior (node) to another actors behavior (another node)!
 
 The connection is done via asking 'why'?. Why does an actor behave this way? There is always a reason, and that is the connection.
 
-Lastly, this analysis is done point-in-time in the cross section. But go back or forth in the time series, aka put together this across time/chronological order, and you have history/current events/future events!
+Then, this analysis is done point-in-time in the cross section. To make it easier to understand this actors current actions, you need to gain context about the history of the actors past actions. So you go back in time, and you have history.
 
 <blockquote>
 <p>My framework is built on two propositions. The first is that in situations that have thinking <i>participants</i>, the participants’ <i>views</i> of the world never perfectly correspond to the actual state of affairs.
