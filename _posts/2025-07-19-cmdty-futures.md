@@ -478,7 +478,7 @@ Trading/Daily Settlement - OTC/brokers. Whatsapp chats, voice brokers, broker sc
 
 Delivery - Trading/MTM/margining happens in delivery month but final settlement after delivery month against monthly average of a voyage/time charter index/route (e.g TD3C MEG to Japan)
 
-Indexes - Freight rates or indices published daily by Baltic Exchange (main freight PRA), derived from spot transactions reported by shipbrokers (Clarksons, Braemar, Gibson etc). Index = weighted basket of freight routes under standardized conditions (vessel, route, cargo: fuel cost, port charges, canal fees, speed, laytime schedules etc). WS100 = standardized flat rate in %, published yearly, of \$/t. Shipowners negotiate rates with refrerence to % of worldscale then convert to dollar/ton basis. 
+Indexes - Freight rates or indices published daily by Baltic Exchange (main freight PRA), derived from spot transactions reported by shipbrokers (Clarksons, Braemar, Gibson etc). Index = weighted basket of freight routes under standardized conditions (vessel, route, cargo: fuel cost, port charges, canal fees, speed, laytime schedules etc). WS100 = standardized flat rate in %, published yearly, of \$/t. Shipowners negotiate rates with reference to % of worldscale then convert to dollar/ton basis. 
 
 
 <center>
@@ -848,7 +848,7 @@ Common Indices - Weighted groupings/views/linear combinations according to some 
 
 Metrics - Valuation, profitability, growth, cash flow, behavioral, operational efficiency, etc.
 
-Business Model - Use liabiltiies and equity to fund assets to create earnings/income.
+Business Model - Use liabilties/debt and equity to fund assets to create earnings/income and manage cash flow.
 
 Governance - Shareholders > Board of Directors > Executive Management > Middle Management > Staff
 
