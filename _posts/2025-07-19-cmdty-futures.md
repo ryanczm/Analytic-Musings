@@ -598,8 +598,6 @@ Major Export/Import/Swing Countries: Exporters: Russia (20%), EU (15%), Canada (
 <img src="{{ site.imageurl }}/Cmdty-Futures/curve-ZR.png" style="width:100%;"/>
 </center>
 
-**Price Action** - A nice post by 2 Quants explaining shorter crop cycle ags futures have more volatility in price action than longer ones. Visible in this rice contract.
-
 **Calendar** - 1Y out, 1, 3, 5, 7, 9, 11 Terminates BD prior to 15th of M. Weekdays 8.30am-1.20pm CT or 2.30pm-7.20pm London
 
 **Delivery** - Deliveries of rough rice shall be made only by delivery of rough rice shipping certificates issued by warehouses located in the Arkansas counties of etc. Chinese rice futures on DCE (Dalian).
@@ -823,8 +821,6 @@ Treasuries - Effective risk-free rate of return, held by institutions. Links gov
 </center>
 
 **Calendar** - 5Y out, 3, 6, 9, 12. Sun-Fri 6pm-5pm ET. Terminates on 2BD prior to 3rd Wednesday of contract delivery month.
-
-**Price Action** - Climbed from 1.04-1.18 USD/EUR since Trump, tariff fears = hold less USD as US goods now more expensive to buy.
 
 **Supply Chain** 
 
