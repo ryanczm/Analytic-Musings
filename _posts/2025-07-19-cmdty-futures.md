@@ -440,6 +440,8 @@ Routes - Panamax/Kamsarmax (80kt), Guinea (Conakry), Australia (Port Hedland) to
 
 Exports/Imports (Iron Ore) - Exporters: Australia (50%), Brazil (20%), Canada (5%), SA (5%), etc. Importers: China (70%), Japan (10%), SK (10%), etc.
 
+Iron Ore - Hematite (lower iron content) and magnetite (higher iron content). Hematite found in Australia, Brazil, China, magnetite found in US, Canada, etc
+
 Use Case - Construction (buildings, infrastructure) [(50%)](https://worldsteel.org/about-steel/facts/steelfacts/), mechanical equipment (15%), automotive/cars (10%), other transport like ships (5%).
 
 Routes - Capesize (120-200 kt), Valemax (380-400kt), Brazil (Tubarao), Australia (Port Hedland/Dampier) to China (Qingdao).
