@@ -459,7 +459,7 @@ Seasonality - Steel inventory peaks in China in Spring as in cold winter/post LN
 </center>
 
 <center>
-<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_HRC4.png" style="width:100%;"/>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_HRC4.jpg" style="width:100%;"/>
 </center>
 
 ## Coal (NCF)
