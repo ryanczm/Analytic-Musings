@@ -448,6 +448,8 @@ Use Case - Construction (buildings, infrastructure) [(50%)](https://worldsteel.o
 
 Routes - Capesize (120-200 kt), Valemax (380-400kt), Brazil (Tubarao), Australia (Port Hedland/Dampier) to China (Qingdao).
 
+Seasonality - Steel inventory peaks in China in Spring as in cold winter/post LNY construction slows but production continues. 
+
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_HRC2.png" style="width:100%;"/>
 </center>
