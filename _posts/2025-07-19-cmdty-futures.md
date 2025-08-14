@@ -462,6 +462,10 @@ Seasonality - Steel inventory peaks in China in Spring as in cold winter/post LN
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_HRC4.jpeg" style="width:100%;"/>
 </center>
 
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_HRC5.png" style="width:100%;"/>
+</center>
+
 ## Coal (NCF)
 
 **Calendar** - 84 consecutive month contracts (7Y out). Weekdays 1am-11pm GMT. LTD on last Friday of M.
