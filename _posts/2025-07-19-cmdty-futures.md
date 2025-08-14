@@ -456,6 +456,10 @@ Routes - Capesize (120-200 kt), Valemax (380-400kt), Brazil (Tubarao), Australia
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_HRC3.png" style="width:100%;"/>
 </center>
 
+<center>
+<img src="{{ site.imageurl }}/Cmdty-Futures/flavor_HRC4.png" style="width:100%;"/>
+</center>
+
 ## Coal (NCF)
 
 **Calendar** - 84 consecutive month contracts (7Y out). Weekdays 1am-11pm GMT. LTD on last Friday of M.
