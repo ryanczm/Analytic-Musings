@@ -444,6 +444,8 @@ Exports/Imports (Steel) - Exporters: China (25%), Japan (7%), SK (6%), Germany (
 
 Iron Ore - Hematite (lower iron content) and magnetite (higher iron content). Hematite found in Australia, Brazil, China, magnetite found in US, Canada, etc
 
+Steelmaking - Pure iron is very soft and ductile. Steel is higher in strength and hardness, an alloy of iron with carbon (C) and other alloying elements (Mn, Cr, Ni, Mo, V etc). Carbon changes lattice structure. Good for applications where hardness/strength needed (e.g ship hulls cannot collapse under weight of cargo). Made via BOF (blast furnace/basic oxygen furnace) - pet coke / met coal burned, generates CO2, carbon from coke dissolves into molten iron = steel. Oxygen O2 is blown, oxidize excess carbon to 0.02 to 2%. Reduce Fe203 to Fe then add some carbon. Electric arc furnace (EAF): melt scrap steel, inject carbon (coke, carbon powder) into melt.
+
 Use Case - Construction (buildings, infrastructure) [(50%)](https://worldsteel.org/about-steel/facts/steelfacts/), mechanical equipment (15%), automotive/cars (10%), other transport like ships (5%).
 
 Routes - Capesize (120-200 kt), Valemax (380-400kt), Brazil (Tubarao), Australia (Port Hedland/Dampier) to China (Qingdao).
