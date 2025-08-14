@@ -440,6 +440,8 @@ Routes - Panamax/Kamsarmax (80kt), Guinea (Conakry), Australia (Port Hedland) to
 
 Exports/Imports (Iron Ore) - Exporters: Australia (50%), Brazil (20%), Canada (5%), SA (5%), etc. Importers: China (70%), Japan (10%), SK (10%), etc.
 
+Exports/Imports (Steel) - Exporters: China (25%), Japan (7%), SK (6%), Germany (5%), etc. Importers: China (8%), USA (8%), Germany (7%), Italy (6%), Turkey (5%). Diff product type.
+
 Iron Ore - Hematite (lower iron content) and magnetite (higher iron content). Hematite found in Australia, Brazil, China, magnetite found in US, Canada, etc
 
 Use Case - Construction (buildings, infrastructure) [(50%)](https://worldsteel.org/about-steel/facts/steelfacts/), mechanical equipment (15%), automotive/cars (10%), other transport like ships (5%).
