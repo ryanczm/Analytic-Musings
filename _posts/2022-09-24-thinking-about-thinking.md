@@ -88,7 +88,7 @@ For semi-deterministic fields, which is essentially computing, I believe it is a
 
 The idea is input and output. So data gets put as input and transformed as output. The transformation or connection is the operation. You start from input data and ask what your desired output data is then piece together the intermediate steps.
 
-And as Knuth says below, we need to see something at lots of levels of abstraction and go between them smoothly. So identify these abstraction layers of tools as granular or rich as you possibly can such.
+So, input/output, and breaking down a system into parts hierarchically.
 
 <blockquote>
 Input → system (computation) → output. This is my core paradigm for understanding anything.
