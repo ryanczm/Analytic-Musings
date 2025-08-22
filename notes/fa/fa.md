@@ -47,7 +47,7 @@ How do we optimally make use of statistics to scout players? Say, examine succes
 More detailed plan:
 
 * Determine a target variable that is a proxy of player success: For each starting age/year of birth, for each position, for each year, sort players with highest increase in market values forward over next $t$ years. For example.
-* Have some treatment for the statistics per player on a team/league level to take into account the influence of team/league on statistics. Aka orthogonalize out against the team/league factors.
+* Have some treatment for the statistics per player on a team/league level to take into account the influence of team/league on statistics. Aka orthogonalize out against the team/league factors. E.g Wirtz playing in B04, an attacking team, in a farmers league (BuLi).
 * Regress residualized statistics across years/seasons against target.
 * Take the statistics with most impact / highest coefficients
 
