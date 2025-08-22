@@ -114,9 +114,9 @@ First, we start by asking 'who is (this person)' or from who's perspective. Note
 
 So a who can be an aggregation/grouping of people at different levels, say an organisation, company, a department, a branch, etc. And you can drill down. And these 'views' or 'groupings' overlap, one person can be a part of many different views. 
 
-And the key is to be able to put yourself in that actors shoes. Then you say 'who does what'.
+And the key is, given some node, to be able to put yourself in the perspective from multiple actors who are involved, saying 'who does what'.
 
-We can connect actor's decisions together via edges. One actor can have multiple nodes, since an actor can have multiplier behaviours across different contexts! And you can connect one actors behavior (node) to another actors behavior (another node)!
+We can connect actor's decisions together via edges across time.  You connect one actors behavior (node) to another actors behavior (another node), as time progresses.
 
 The connection is done via asking 'why'?. Why does an actor behave this way? There is always a reason, and that is the connection.
 
