@@ -114,13 +114,8 @@ First, we start by asking 'who is (this person)' or from who's perspective. Note
 
 So a who can be an aggregation/grouping of people at different levels, say an organisation, company, a department, a branch, etc. And you can drill down. And these 'views' or 'groupings' overlap, one person can be a part of many different views. 
 
-And the key is, given some node, look at it from multiple actors who are involved, saying 'who does what and why', by putting yourself in their perspective/history.
+Then we ask why. And this is done by understanding history, from the past actions of the person, by putting yourself in that actor's perspective. And you do this from multiple actor's perspectives.
 
-We can connect actor's decisions together via edges across time.  You connect one actors behavior (node) to another actors behavior (another node), as time progresses.
-
-The connection is done via asking 'why'?. Why does an actor behave this way? There is always a reason, and that is the connection.
-
-Then, this analysis is done point-in-time in the cross section. To make it easier to understand this actors current actions, you need to gain context about the history of the actors past actions. So you go back in time, and you have history.
 
 <blockquote>
 <p>My framework is built on two propositions. The first is that in situations that have thinking <i>participants</i>, the participants’ <i>views</i> of the world never perfectly correspond to the actual state of affairs.
