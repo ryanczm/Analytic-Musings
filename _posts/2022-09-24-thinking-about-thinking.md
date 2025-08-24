@@ -116,6 +116,8 @@ So a who can be an aggregation/grouping of people at different levels, say an or
 
 Then we ask why. And this is done by understanding history, from the past actions of the person, by putting yourself in that actor's perspective. And you do this from multiple actor's perspectives.
 
+TLDR - Ask 'who did what, when, and why'.
+
 
 <blockquote>
 <p>My framework is built on two propositions. The first is that in situations that have thinking <i>participants</i>, the participants’ <i>views</i> of the world never perfectly correspond to the actual state of affairs.
