@@ -114,6 +114,8 @@ First, we start by asking 'who is (this person)' or from who's perspective. Note
 
 So a who can be an aggregation/grouping of people at different levels, say an organisation, company, a department, a branch, etc. And you can drill down. And these 'views' or 'groupings' overlap, one person can be a part of many different views. 
 
+This aggregation skill is important when looking at behaviors from a macro perspective. E.g the behavior of a group of people, where the individual level is less important than the aggregate. For example, in macroeconomics, the behavior of an entire group (e.g firms, households, etc). Getting the right aggregation label is important!
+
 Then we ask why. And this is done by understanding history, from the past actions of the person, by putting yourself in that actor's perspective. And you do this from multiple actor's perspectives.
 
 TLDR - Ask 'who did what, when, and why'.
