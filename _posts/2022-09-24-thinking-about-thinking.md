@@ -110,13 +110,15 @@ Key prompts - "How this works", "Under the hood"
 
 These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's. A node is an actor's decision. 
 
-First, we start by asking 'who is (this person)' or from who's perspective. Note you can visualise the actor or people involved here, a handy trick. An actor is a person. 
+A situation is where multiple actors perform actions. An actor is a person or aggregation of persons.
 
-So a who can be an aggregation/grouping of people at different levels, say an organisation, company, a department, a branch, etc. And you can drill down. And these 'views' or 'groupings' overlap, one person can be a part of many different views. 
+We start by trying to understand the multiple actors involved in any situation. Who they are - their background, and their actions - what they did, and their reasoning - why they acted like that.
 
-This aggregation skill is important when looking at behaviors from a macro perspective. E.g the behavior of a group of people, where the individual level is less important than the aggregate. For example, in macroeconomics, the behavior of an entire group (e.g firms, households, etc). Getting the right aggregation label is important!
+The key skill
 
-Then we ask why. And this is done by understanding history, from the past actions of the person, by putting yourself in that actor's perspective. And you do this from multiple actor's perspectives.
+* Holding multiple actors in your head, and connecting actions together in a causal/temporal fashion.
+* Understanding the background/history of the actors to understand their current logic/decisions. This is an application of the first point.
+
 
 TLDR - Ask 'who did what, when, and why'.
 
