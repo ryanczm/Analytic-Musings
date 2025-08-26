@@ -112,15 +112,12 @@ These fields encompass markets, finance, economics, history, etc, any kind of fi
 
 A situation is where multiple actors perform actions. An actor is a person or aggregation of persons.
 
-We start by trying to understand the multiple actors involved in any situation. Who they are - their background, and their actions - what they did, and their reasoning - why they acted like that.
+We start by trying to understand the multiple actors involved in any situation. "Who", "what", and "why".
 
 The key skill
 
 * Holding multiple actors in your head, and connecting actions together in a causal/temporal fashion. Connecting situations together to form the big picture.
 * Understanding the background/history of the actors to understand their current logic/decisions. This is an application of the first point.
-
-
-TLDR - Ask 'who did what, when, and why'.
 
 
 <blockquote>
