@@ -45,9 +45,9 @@ There are two fundamental things: <i>concepts (abstraction)</i> and <i>physical 
 
 A concept (more towards the field of mathematics) and a variable/parameter (more towards the field of physics) are the two main players. The difference is in their treatment: both can be visualised, but the former exists in abstract space whereas the latter exists in physical space (e.g our physical reality). 
 
-And so we can connect concepts together or variables together. But for the latter, we have to visualise them precisely or build a visual simulation. 
+The key skill: Connecting concepts together or variables together into a system. 
 
-For physical variables, we can use these measurements to visualise from a perspective. E.g put yourself in the perspective of a proton in an nucleus (it sounds silly but maybe this works). Physics formalises this: aka how to simulate or think about this 'correctly' and 'accurately'. This idea of visual perspective has an interesting cross-reference to the humanistic framework (down below).
+For physical variables, we can use these measurements to visualise from a perspective. E.g put yourself in the perspective of a proton in an nucleus. Physics formalises this: aka how to simulate or think about this 'correctly' and 'accurately'. 
 
 Another idea is that of _dependency_, whereby to understand or make connections of certain concepts, there must be a backlog graph of existing concepts that you have to build in sequential fashion, aka prerequisites.
 
@@ -108,25 +108,23 @@ Key prompts - "How this works", "Under the hood"
 <br>
 <h2>Humanistic Framework</h2>
 
-These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's. A node is an actor's decision. 
+These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's.
 
-A situation is where multiple actors perform actions. An actor is a person or aggregation of persons.
+A node is an actor's decision. It consists of "who", "what" and "why".
 
-We start by trying to understand the multiple actors involved in any situation. "Who", "what", and "why".
+An edge is a link between two actor's decision. It can be connected on either (or multiple) of a "who", "what", or "why".
 
-The key skill
+The key skills:
 
-* Holding multiple actors in your head, and connecting actions together in a causal/temporal fashion. Connecting situations together to form the big picture.
-* Understanding the background/history of the actors to understand their current logic/decisions. This is an application of the first point.
-
+* Enriching a node via the three avenues: "who" (visualising the people involved), "what" (visualising their actions), "why" (visualising their rationale/objectives).
+* Forming an edge in the past/current: "who" (past actions by the same actor), "what" (similar actions by different actors), "why" (similar rationales/objectives)
+* Forming an edge in the future: figuring out what relevant actors will do in response to the past/current.
 
 <blockquote>
 <p>My framework is built on two propositions. The first is that in situations that have thinking <i>participants</i>, the participants’ <i>views</i> of the world never perfectly correspond to the actual state of affairs.
 The second proposition is that these imperfect views can influence the situation to which they relate through the <i>actions</i> of the participants.</p>
 </blockquote>
 <figcaption>—George Soros, <cite><a href="https://www.georgesoros.com/2014/01/13/fallibility-reflexivity-and-the-human-uncertainty-principle-2/">Fallibility, Reflexivity, and the Human Uncertainty Principle</a></cite></figcaption>
-
-Key prompts - "From the perspective of xx"
 
 <h2>Visualisation: Dual form</h2>
 
@@ -136,7 +134,7 @@ For deterministic fields, we have to precisely visualise things. This means leng
 
 For semideterministic fields, we visualise computations together. This means we only care about seeing how the inputs and outputs get produced or made or changed.
 
-For humanistic fields, we visualise the network of actions of participants in a chain-reaction sort of manner.
+For humanistic fields, we visualise the people actually doing stuff.
 
 <h2>Conclusion </h2>
 
