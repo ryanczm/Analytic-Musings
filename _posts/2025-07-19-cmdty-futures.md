@@ -16,6 +16,10 @@ This is a post to consolidate my own learning on the basics of commodity futures
 
 Material from X, substack, ChatGPT, etc. 
 
+# Supply Chain
+
+Relative to other industries (e.g say chips), quite simple. About optimizing logistics via arbitrage (geographical, temporal, form). 
+
 # Exchanges
 
 Where the matching engine/orderbook lives.  The hierarchy is group, exchange, venue. 
