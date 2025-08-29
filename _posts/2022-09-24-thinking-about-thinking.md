@@ -110,13 +110,13 @@ Key prompts - "How this works", "Under the hood"
 
 These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's.
 
-A node is an actor's decision. It consists of "who", "what" and "why".
+A node is an actor's decision. It consists of "who", "what", "why", "when", "where". 
 
 An edge is a link between two actor's decision. It can be connected on either (or multiple) of a "who", "what", or "why".
 
 The key skills:
 
-* Enriching a node via avenues: "who" (visualising the people involved), "what" (visualising their actions), "why" (visualising their rationale/objectives), "when" (when in time), "where" (where in place)
+* Enriching a node via avenues: "who" (visualising the people involved), "what" (visualising their actions), "why" (understanding their rationale/objectives), "when" (when in time), "where" (where in place). The "why" being most important.
 * Forming an edge in the past/current: "who" (past actions by the same actor), "what" (similar actions by different actors), "why" (similar rationales/objectives), "when" (history), "where" (geography).
 * Forming an edge in the future: figuring out what relevant actors will do in response to the past/current.
 
