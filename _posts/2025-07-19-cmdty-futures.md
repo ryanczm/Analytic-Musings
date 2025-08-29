@@ -844,7 +844,7 @@ Linking Economies - Links economies or groups to one another via trade. E.g EU, 
 
 FX Markets - OTC/dealers/banks (spot, forward, swap, options), participants have FX reserves. 
 
-Balance of Payments - FX drivers: Current (trade/NX G&S, income), capital, financial (direct investment, portfolio investment, other), etc.
+Balance of Payments - Current (trade/NX G&S, income), capital, financial (FDI, portfolios, other), etc.
 
 Carry - Earn yield/premia from borrowing at a lower rate currency to invest in instruments (debt, equity, bank deposit) in a higher rate currency. Results in capital in/outflows in financial. Creates convergence/reduces divergence/dispersion, until unwinding due to geopol/macro shock?
 
