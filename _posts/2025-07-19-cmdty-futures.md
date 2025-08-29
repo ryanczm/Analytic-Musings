@@ -567,7 +567,7 @@ Crop Calendar/Cycle - US: Planting (Spring months: Apr/May), growing/silking (Ju
 
 Climate - 20-35c in growing season. Prefers warmer temps.
 
-Use Cases - Crush (85%) to meal/oil, FSI (10%). 80% meal 20% oil. Meal goes to animal feed, oil goes to cooking and biofuels.
+Use Cases - Crushing (85%) to oil and meal, FSI (10%). 80% meal 20% oil. Meal goes to animal feed, oil goes to cooking and biofuels.
 
 Major Export/Import/Swing Countries - Exporters: Brazil (60%), US (30%), Paraguay (5%), Argentina (5%). Importers: China (66%), EU (10%), Mexico (5%), Thailand (2%) etc.
 
