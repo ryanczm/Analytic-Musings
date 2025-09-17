@@ -116,7 +116,7 @@ An edge is a link between two actor's decision. It can be connected on either (o
 
 The key skills:
 
-* Enriching a node via avenues: **"who" (understanding the multiple actors involved and ability to put yourself in their perspective)**, "what/how" (understanding how the action is done), "why" (understanding the rationale/objectives), "when" (when in time), "where" (where in place). The "why" being most important.
+* Enriching a node via avenues: **"who" (understanding the multiple actors involved and ability to put yourself in their perspective - understanding their background and history)**, "what/how" (understanding how the action is done), "why" (understanding the rationale/objectives), "when" (when in time), "where" (where in place). The "why" being most important.
 * Forming an edge in the past/current: "who" (past actions by the same actor), "what/how" (similar actions by different actors), "why" (similar rationales/objectives), "when" (history), "where" (geography).
 * Forming an edge in the future: figuring out what relevant actors will do in response to the past/current.
 
