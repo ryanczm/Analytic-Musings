@@ -110,15 +110,17 @@ Key prompts - "How this works", "Under the hood"
 
 These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's.
 
-A node is a situation consisting of multiple actors doing stuff. It consists of "who", "what", "why", "when", "where". 
+A node is an actor. An edge is a link between actor's decision.
 
-An edge is a link between two actor's decision. It can be connected on either (or multiple) of a "who", "what", or "why".
+A situation is a graph of actors actions, connecting nodes and edges, consisting of multiple actors doing stuff. It consists of "who", "what", "why", "when", "where". 
 
 The key skills:
 
-* Enriching a node via avenues: **"who" (understanding the multiple actors involved and ability to put yourself in their perspective - understanding their background and history)**, "what/how" (understanding how the action is done), "why" (understanding the rationale/objectives), "when" (when in time), "where" (where in place). The "why" being most important.
-* Forming an edge in the past/current: "who" (past actions by the same actor), "what/how" (similar actions by different actors), "why" (similar rationales/objectives), "when" (history), "where" (geography).
-* Forming an edge in the future: figuring out what relevant actors will do in response to the past/current.
+* Understanding the "who" (understanding the multiple actors involved and ability to put yourself in their perspective - understanding their background and history)**
+* Understanding the "what/how" (understanding how, when and where the action is done)
+* Understanding the "why" (understanding the rationale/objectives)
+
+Then, you can make connections in the past (history) and the future (how the situation unfolds) from different actors perspectives and actions.
 
 <blockquote>
 <p>My framework is built on two propositions. The first is that in situations that have thinking <i>participants</i>, the participants’ <i>views</i> of the world never perfectly correspond to the actual state of affairs.
