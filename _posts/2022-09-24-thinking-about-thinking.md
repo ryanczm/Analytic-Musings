@@ -120,7 +120,7 @@ The key skills:
 * Understanding the "what/how" (understanding how, when and where the action is done)
 * Understanding the "why" (understanding the rationale/objectives)
 
-Then, you can make connections in the past (history) and the future (how the situation unfolds) from different actors perspectives and actions.
+Then, you can make connections in the past (history) and the future (how the situation unfolds) from different actors perspectives and actions by asking who else will do what and why.
 
 <blockquote>
 <p>My framework is built on two propositions. The first is that in situations that have thinking <i>participants</i>, the participants’ <i>views</i> of the world never perfectly correspond to the actual state of affairs.
