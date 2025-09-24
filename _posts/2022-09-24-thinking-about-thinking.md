@@ -116,7 +116,7 @@ A situation is a graph of actors actions, connecting nodes and edges, consisting
 
 The key skills:
 
-* Understanding the "who" (understanding the multiple actors involved and ability to put yourself in their perspective - understanding their background and history)**
+* Understanding the "who" (understanding the multiple actors involved and ability to put yourself in their perspective by visualising them - understanding their background and history)**
 * Understanding the "what/how" (understanding how, when and where the action is done)
 * Understanding the "why" (understanding the rationale/objectives)
 
