@@ -114,6 +114,8 @@ A node is an actor. An edge is a link between actor's decision.
 
 A situation is a graph of actors actions, connecting nodes and edges, consisting of multiple actors doing stuff. It consists of "who", "what", "why", "when", "where". 
 
+So the **trick is to understand/visualize the different actors involved in this situation, their motives and actions.**
+
 The key skills:
 
 * Understanding the "who" (understanding the multiple actors involved and ability to put yourself in their perspective by **visualising** them - understanding their background and history)
