@@ -130,16 +130,14 @@ The second proposition is that these imperfect views can influence the situation
 </blockquote>
 <figcaption>—George Soros, <cite><a href="https://www.georgesoros.com/2014/01/13/fallibility-reflexivity-and-the-human-uncertainty-principle-2/">Fallibility, Reflexivity, and the Human Uncertainty Principle</a></cite></figcaption>
 
-<h2>Visualisation: Dual form</h2>
+## Intelligence and Blending the Frameworks
 
-We have covered the primal form or words. Now for the dual form of visualising. How do we paint a picture/simulation in our head corresponding to the linked things?
+Thus, intelligence is the mastery you have in these frameworks, both in the cross section (the ability to master multiple of these in breadth and blend them together) and depth (mastery into an individual framework), applied to different disciplines.
 
-For deterministic fields, we have to precisely visualise things. This means lengths, angles, distances matter.
+Each person has a different calibration in depth and width, applied to different disciplines, which makes them unique.
 
-For semideterministic fields, we visualise computations together. This means we only care about seeing how the inputs and outputs get produced or made or changed.
-
-For humanistic fields, we visualise the people actually doing stuff.
+Whenever approaching any cognitive task, it is important to remember this idea of blending the frameworks in the cross section and in the time series (or depth-wise).
 
 <h2>Conclusion </h2>
 
-Clearly, complexity or understanding it is about linking things together and having a good mental picture of them. But different discpilines have different ways to approach this. By observing interviews of experts and their thought process, we can put the right words to them and try to adapt them so we can learn faster.
+Clearly, complexity or understanding it is about linking things together and having a good mental picture of them. But different discplines have different ways to approach this. By observing interviews of experts and their thought process, we can put the right words to them and try to adapt them so we can learn faster.
