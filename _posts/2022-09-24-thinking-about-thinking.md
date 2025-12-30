@@ -118,9 +118,9 @@ So the **trick is to understand/visualize the different actors involved in this 
 
 The key skills:
 
-* Understanding the "who" (understanding the multiple actors involved and ability to put yourself in their perspective by **visualising**) them.
-* Understanding the "what/how" (understanding how, when and where the decision is done)
-* Understanding the "why" (understanding the rationale/objectives)
+* Understanding the "who" - Who are the actors in this situation. Visualising them, where they are etc.
+* Understanding the "what/how" - What actions are they taking or have taken? Visualising them performing the action.
+* Understanding the "why" - Why are the actors taking these decisions or actions.
 
 Then, you can make connections in the past (history) and the future (how the situation unfolds) from different actors perspectives and actions by asking who else will do what and why.
 
