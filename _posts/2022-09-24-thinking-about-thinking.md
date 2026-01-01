@@ -114,11 +114,9 @@ A node is an actor. An edge is link connecting a decision between one actor and 
 
 A situation is a graph of actors actions, connecting nodes and edges, consisting of multiple actors doing stuff. It consists of "who", "what", "why", "when", "where". 
 
-So the **trick is to understand/visualize the different actors involved in this situation, their motives and actions.** Literally visualise them doing things. This blends in the deterministic framework using measurements.
-
 The key skills:
 
-* Understanding the "who" - Who are the actors in this situation. Visualising them, where they are etc.
+* Understanding the "who" - Who are the actors in this situation. Now the key trick here is once you identify the actor(s), you try and put yourself **in their shoes**.
 * Understanding the "what/how" - What actions are they taking or have taken? Visualising them performing the action.
 * Understanding the "why" - Why are the actors taking these decisions or actions.
 
