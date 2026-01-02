@@ -116,7 +116,7 @@ A situation is a graph of actors actions, connecting nodes and edges, consisting
 
 The key skills:
 
-* Understanding the "who" - Who are the actors in this situation. Now the key trick here is once you identify the actor(s), you try and put yourself **in their shoes**. Do this by visualising them from a 1st/3rd person perspective, then read about their history - text or data.
+* Understanding the "who" - Who are the actors in this situation. Now the key trick here is once you identify the actor(s), you try and put yourself **in their shoes**. Do this by visualising them from a 1st/3rd person perspective, then read about their history - text or data. The more you connect the dots of past actions, the more the current gets context. 
 * Understanding the "what/how" - What actions are they taking or have taken? Visualising them performing the action.
 * Understanding the "why" - Why are the actors taking these decisions or actions.
 
