@@ -120,7 +120,8 @@ The key skills:
 * Understanding the "what/how" - What actions are they taking or have taken? Visualising them performing the action.
 * Understanding the "why" - Why are the actors taking these decisions or actions.
 
-Then, you can make connections in the past (history) and the future (how the situation unfolds) from different actors perspectives and actions by asking who else will do what and why.
+Another mental trick could be visualising a "map overlay" of the situation, aka a world map. Then populate with various actors.
+
 
 <blockquote>
 <p>My framework is built on two propositions. The first is that in situations that have thinking <i>participants</i>, the participants’ <i>views</i> of the world never perfectly correspond to the actual state of affairs.
