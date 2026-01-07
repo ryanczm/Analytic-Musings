@@ -112,6 +112,8 @@ These fields encompass markets, finance, economics, history, etc, any kind of fi
 
 A node is a situation. An edge is link connecting situations. A situation can be broken down into the actors (more nodes) and their decisions (more edges).
 
+Once you recognise a situation as a node, you can connect it to other situations. Past situations for inspirations. Future situations for predictions. Categorize situations. Etc etc.
+
 A situation is a graph of actors actions, connecting nodes and edges, consisting of multiple actors doing stuff. It consists of "who", "what", "why", "when", "where". 
 
 The key skill is to understand a **"situation"**:
