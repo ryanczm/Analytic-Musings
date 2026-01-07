@@ -110,15 +110,15 @@ Key prompts - "How this works", "Under the hood"
 
 These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's.
 
-A node is a decision made by an actor. A link between nodes is a causal link as one actors decision/action propagates another. A situation is a grouping of nodes and links, that evolves over time.
+A node is a decision made by an actor (who and what). A link between nodes is a causal link as one actors decision/action propagates another (why). A situation is a grouping of nodes and links, that evolves over time.
 
 The key skill is to understand a **"situation"**:
 
 * Understanding the "who" - Identifying the actors in this situation. Done by putting yourself into the perspective of the actors.  
 * Understanding the "what/how" - What actions are they taking or have taken? Visualising them performing the action.
-* Understanding the "why" - Why are the actors taking these decisions or actions.
+* Understanding the "why" - Why are the actors taking these decisions or actions. The connecting glue between nodes.
 
-The trick is to build an understanding of situations by connecting the nodes together across time.
+The trick is to build an understanding of situations by connecting the nodes together across time by asking why.
 
 
 <blockquote>
