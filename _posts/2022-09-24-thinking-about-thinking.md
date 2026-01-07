@@ -110,15 +110,13 @@ Key prompts - "How this works", "Under the hood"
 
 These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's.
 
-A node is a situation. An edge is link connecting situations. A situation can be broken down into the actors (more nodes) and their decisions (more edges).
+A node is a situation. An edge is link connecting situations. A situation a grouping of actors and their decisions (where the subnode is the actor and subnode is their decisions).
 
 Once you recognise a situation as a node, you can connect it to other situations. Past situations for inspirations. Parallel situations. Future situations for predictions. Categorize situations. Etc etc.
 
-A situation is a graph of actors actions, connecting nodes and edges, consisting of multiple actors doing stuff. It consists of "who", "what", "why", "when", "where". 
-
 The key skill is to understand a **"situation"**:
 
-* Understanding the "who" - Who are the actors in this situation. Now the key trick here is once you identify the actor(s), you try and put yourself **in their shoes**. Do this by visualising them from a 1st/3rd person perspective, then read about their history - text or data. The more you connect the dots of past actions, the more the current gets context. 
+* Understanding the "who" - Identifying the grouping of actors in this situation. Done by putting yourself into the perspective of the actors.  
 * Understanding the "what/how" - What actions are they taking or have taken? Visualising them performing the action.
 * Understanding the "why" - Why are the actors taking these decisions or actions.
 
