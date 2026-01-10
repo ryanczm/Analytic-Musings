@@ -114,7 +114,7 @@ A node is a decision made by an actor or a group of actors in collective (who an
 
 The key skill is to understand a **"situation"**:
 
-* Understanding the "who" - Identifying the actors in this situation. Done by putting yourself into the perspective of the actors.  
+* Understanding the "who" - Identifying the actors in this situation. Done by putting yourself into the perspective of the actors. A trick is to visualise the actor(s) themselves.
 * Understanding the "what/how" - What actions are they taking or have taken? Visualising them performing the action.
 * Understanding the "why" - Why are the actors taking these decisions or actions. The connecting glue between nodes.
 
