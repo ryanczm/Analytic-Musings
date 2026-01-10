@@ -118,8 +118,7 @@ The key skill is to understand a **"situation"**:
 * Understanding the "what/how" - What actions are they taking or have taken? Visualising them performing the action.
 * Understanding the "why" - Why are the actors taking these decisions or actions. The connecting glue between nodes.
 
-The trick is to build an understanding of situations by connecting the nodes together across time by asking why. By looking how the situation was in the past and how it evolved to the present. Aka history. What an actor did in the past.
-
+The trick is to connect the nodes across time. Aka past events/history. Then you can understand what the future connections will be.
 
 <blockquote>
 <p>My framework is built on two propositions. The first is that in situations that have thinking <i>participants</i>, the participants’ <i>views</i> of the world never perfectly correspond to the actual state of affairs.
