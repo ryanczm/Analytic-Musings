@@ -120,6 +120,8 @@ The key skill is to understand a **"situation"**:
 
 The trick is to connect the nodes across time. Aka past events/history. Then you can understand what the future connections will be.
 
+So, think of situations, actors and decisions.
+
 <blockquote>
 <p>My framework is built on two propositions. The first is that in situations that have thinking <i>participants</i>, the participants’ <i>views</i> of the world never perfectly correspond to the actual state of affairs.
 The second proposition is that these imperfect views can influence the situation to which they relate through the <i>actions</i> of the participants.</p>
