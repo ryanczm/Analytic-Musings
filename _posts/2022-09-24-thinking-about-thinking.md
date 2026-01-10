@@ -112,6 +112,8 @@ These fields encompass markets, finance, economics, history, etc, any kind of fi
 
 A node is a decision made by an actor or a group of actors in collective (who and what). A link between nodes is a causal link as one actors decision/action propagates another (why). A situation is a grouping of nodes and links, that evolves over time.
 
+The connecting glue is the why.
+
 The key skill is to understand a **"situation"**:
 
 * Understanding the "who" - Identifying the actors in this situation. Done by putting yourself into the perspective of the actors. A trick is to visualise the actor(s) themselves.
