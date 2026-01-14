@@ -84,11 +84,11 @@ Key prompts - "Connections", "Visualisation"
 
 ## Semideterministic Framework
 
-For semi-deterministic fields, which is essentially computing, I believe it is about systems.
+For semi-deterministic fields, which is essentially computing, a system consists of nodes (computations) and edges (connections between nodes)
 
-A system consists of nodes and edges. The nodes are the various inputs and outputs, and the edges are the computations done to get from input to output.
+The node's (computation) job is to inputs and produces outputs. We can then make a connection via an edge of the output of a node to other nodes.
 
-The key is to break down the system into more subsystems in a recursive manner or depth-wise/top-down fashion.
+Then, we can build upwards recursively.
 
 <blockquote>
 Input → system (computation) → output. This is my core paradigm for understanding anything.
