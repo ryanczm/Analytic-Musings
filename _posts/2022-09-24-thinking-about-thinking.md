@@ -86,9 +86,9 @@ Key prompts - "Connections", "Visualisation"
 
 For semi-deterministic fields, which is essentially computing, a system consists of nodes (computations) and edges (connections between nodes)
 
-The node's (computation) job is to inputs and produces outputs. We can then make a connection via an edge of the output of a node to other nodes.
+The node's (computation) job is to inputs and produces outputs. We can then make a connection via an edge of the output of a node to other nodes. We can then wrap this bunch of nodes and edges to form another node.
 
-Then, we can build upwards recursively.
+So we can break down a node into its respective nodes and edges in a top down fashion.
 
 <blockquote>
 Input → system (computation) → output. This is my core paradigm for understanding anything.
