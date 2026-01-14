@@ -86,14 +86,9 @@ Key prompts - "Connections", "Visualisation"
 
 For semi-deterministic fields, which is essentially computing, I believe it is about systems.
 
-A system has two properties:
+A system consists of nodes and edges. The nodes are the various inputs and outputs, and the edges are the computations done to get from input to output.
 
-1. It takes inputs and produces outputs.
-2. It can be broken down into subsystems.
-
-In this case, the inputs/outputs are nodes, and the system is the connecting edge between the two. 
-
-So the key is to ask how I can break this system down into more subsystems and recursively via top-down thinking.
+The key is to break down the system into more subsystems in a recursive manner or depth-wise/top-down fashion.
 
 <blockquote>
 Input → system (computation) → output. This is my core paradigm for understanding anything.
