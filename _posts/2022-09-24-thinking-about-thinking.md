@@ -84,11 +84,16 @@ Key prompts - "Connections", "Visualisation"
 
 ## Semideterministic Framework
 
-For semi-deterministic fields, which is essentially computing, I believe it is about breaking down a system into its parts from a top-down fashion or build complex systems from simple parts in a recursive fashion. 
+For semi-deterministic fields, which is essentially computing, I believe it is about systems.
 
-The idea is input and output. So data gets put as input and transformed as output. The transformation or connection is the operation. You start from input data and ask what your desired output data is then piece together the intermediate steps.
+A system has two properties:
 
-So, input/output, and breaking down a system into parts hierarchically.
+1. It takes inputs and produces outputs.
+2. It can be broken down into subsystems.
+
+In this case, the inputs/outputs are nodes, and the system is the connecting edge between the two. 
+
+So the key is to ask how I can break this system down into more subsystems and recursively via top-down thinking.
 
 <blockquote>
 Input → system (computation) → output. This is my core paradigm for understanding anything.
@@ -103,7 +108,6 @@ Being able to see something at lots of levels and <i>go between them smoothly</i
 </blockquote>
 <figcaption>—Donald Knuth, <cite><a href="https://www.youtube.com/watch?v=2BdBfsXbST8&ab_channel=LexFridman&t=553">Donald Knuth | Lex Fridman Podcast #62 (9:13)</a></cite></figcaption>
 
-Key prompts - "How this works", "Under the hood"
 
 <br>
 <h2>Humanistic Framework</h2>
