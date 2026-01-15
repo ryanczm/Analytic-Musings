@@ -760,7 +760,7 @@ Export/Import (Pork) - Export: EU (30%), US (30%), Brazil (15%), Canada (5%), et
 
 Export/Import (Cattle/Beef) - EU (30%), US (30%), Brazil (25%), Australia (15%), India (7%), Argentina (5%), NZ (4%).
 
-
+<!-- 
 # Special Mention: Macro Stuff
 
 **Economy Sector Classification** 
@@ -874,4 +874,4 @@ Governance - Shareholders > Board of Directors > Executive Management > Middle M
 
 <center>
 <img src="{{ site.imageurl }}/Cmdty-Futures/flavor_ES1.jpeg" style="width:100%;"/>
-</center>
+</center> -->
