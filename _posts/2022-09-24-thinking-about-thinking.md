@@ -123,7 +123,7 @@ The trick is to connect to identify who, and figure out why. Then connect nodes 
 
 Another trick: you don't need to finish/complete each level on its own before proceeding to the next. You can do who, what, why for one party, then move to the next. If you insist on completing each level by itself, you run out of cognitive load.
 
-Thus, it boils down to applying who/what/why in a systematic fashion.
+Thus, it boils down to applying **who/what/why** in a systematic fashion to understand **situations**.
 
 ## Who
 
