@@ -115,11 +115,14 @@ The connecting glue is the why.
 
 The key skill is to understand a **"situation"**:
 
-* Understanding the "who" - Identifying the actors in this situation. Done by putting yourself into the perspective of the actors. A trick is to visualise the actor(s) themselves.
+* Understanding the "who" - Identifying the actors in this situation. Done by putting yourself into the perspective of the actors. This requires alot of cognitive load. But there is a trick. Grouping and hierarchy. Identify the groups, then drill down.
 * Understanding the "what/how" - What actions are they taking or have taken? Visualising them performing the action.
-* Understanding the "why" - Why are the actors taking these decisions or actions. The connecting glue between nodes.
+* Understanding the "why" - Why are the actors taking these decisions or actions. The connecting glue between nodes. This also requires load. But, by understanding more details about the current situation/past situations, the motivations reveal themselves.
 
 The trick is to connect to identify who, and figure out why. Then connect nodes across time. Aka past events/history. 
+
+## Who
+
 
 <blockquote>
 <p>My framework is built on two propositions. The first is that in situations that have thinking <i>participants</i>, the participants’ <i>views</i> of the world never perfectly correspond to the actual state of affairs.
