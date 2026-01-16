@@ -115,7 +115,7 @@ The connecting glue is the why.
 
 The key skill is to understand a **"situation"**:
 
-* Understanding the "who" - Identifying the actors in this situation. Done by putting yourself into the perspective of the actors. This requires alot of cognitive load. But there is a trick. Grouping and hierarchy. Identify the groups, then drill down.
+* Understanding the "who" - Identifying the actors in this situation. Done by putting yourself into the perspective of the actors. This requires alot of cognitive load. But there is a trick. Grouping and hierarchy. Identify the groups (by actions/motives), then recursively split similar to what is done in the SD framework in a top-down fashion.
 * Understanding the "what/how" - What actions are they taking or have taken? Visualising them performing the action.
 * Understanding the "why" - Why are the actors taking these decisions or actions. The connecting glue between nodes. This also requires load. But, by understanding more details about the current situation/past situations, the motivations reveal themselves.
 
