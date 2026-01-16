@@ -121,6 +121,8 @@ The key skill is to understand a **"situation"**:
 
 The trick is to connect to identify who, and figure out why. Then connect nodes across time. Aka past events/history. 
 
+Another trick: you don't need to finish/complete each level on its own before proceeding to the next. You can do who, what, why for one party, then move to the next. If you insist on completing each level by itself, you run out of cognitive load.
+
 ## Who
 
 
