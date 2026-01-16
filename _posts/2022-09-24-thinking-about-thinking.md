@@ -109,7 +109,7 @@ Being able to see something at lots of levels and <i>go between them smoothly</i
 
 These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's.
 
-A node is a decision made by an actor or a group of actors in collective (who and what). A link between nodes is a causal link as one actors decision/action propagates another (why). A situation is a grouping of nodes and links, that evolves over time.
+A node is a decision made by an actor or a group of actors with a motivation. A bundle of who/what/why. A link between nodes is a causal link as one node propagates another (why). A situation is a grouping of nodes and links, that evolves over time.
 
 The connecting glue is the why.
 
