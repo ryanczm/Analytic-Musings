@@ -109,9 +109,7 @@ Being able to see something at lots of levels and <i>go between them smoothly</i
 
 These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's.
 
-A node is a decision made by an actor or a group of actors with a motivation. A bundle of who/what/why. A link between nodes is a causal link as one node propagates another (why). A situation is a grouping of nodes and links, that evolves over time.
-
-The connecting glue is the why.
+A node is a decision made by an actor or a group of actors with a motivation. A bundle of who/what/why. A link between nodes is a temporal/causal link as one node propagates another (why). A situation is a grouping of nodes and links, that evolves over time.
 
 The key skill is to understand a **"situation"**:
 
@@ -119,7 +117,7 @@ The key skill is to understand a **"situation"**:
 * Understanding the "what/how" - What actions are they taking or have taken? Visualising them performing the action.
 * Understanding the "why" - For every action taken, there must be a reason. By understanding more details about the actors in current situations/past situations, you can figure the reason. Equivalent to taking their perspective.
 
-The trick is to connect to identify who, and figure out why. Then connect nodes across time. Aka past events/history. 
+The trick is to connect to identify who, and figure out why. Then connect nodes across time to understand how the situation has evolved.
 
 Thus, it boils down to applying **who/what/why** in a systematic fashion to understand **situations**. Focus on **why/reason** being the glue.
 
