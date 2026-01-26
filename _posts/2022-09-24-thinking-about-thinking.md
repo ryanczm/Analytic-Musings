@@ -115,7 +115,7 @@ The key skill is to understand a **"situation"**:
 
 * Understanding the "who" - Identifying the actors in this situation. Identify the groups (by actions/motives), then recursively split similar to what is done in the SD framework in a top-down fashion.
 * Understanding the "what/how" - What actions are they taking or have taken? Visualising them performing the action.
-* Understanding the "why" - For every action taken, there must be a reason. By understanding more details about the actors in current situations/past situations, you can figure the reason. Equivalent to taking their perspective.
+* Understanding the "why" - For every action taken, there must be a reason. To understand why, understand the history - the past "whats" of the actor. Then their "why" will make sense.
 
 The trick is to connect to identify who, and figure out why. Then connect nodes across time to understand how the situation has evolved.
 
