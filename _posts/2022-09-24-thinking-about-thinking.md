@@ -117,7 +117,7 @@ The key skill is to understand a **"situation"**:
 * Understanding the "what/how" - What actions are they taking or have taken? Visualising them performing the action.
 * Understanding the "why" - For every action taken, there must be a reason. To understand why, understand the history - the past "whats" of the actor. Then their "why" will make sense.
 
-The trick is to connect to identify who, and figure out why. Then connect nodes across time to understand how the situation has evolved.
+The trick is to connect to identify who, and figure out why. Then connect nodes across time to understand how the situation has evolved. Working backwards and forwards.
 
 Thus, it boils down to applying **who/what/why** in a systematic fashion to understand **situations**. Focus on **why/reason** being the glue.
 
