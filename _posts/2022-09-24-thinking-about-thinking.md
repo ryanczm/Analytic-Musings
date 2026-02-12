@@ -109,15 +109,13 @@ Being able to see something at lots of levels and <i>go between them smoothly</i
 
 These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's.
 
-A node is a decision made by an actor or a group of actors with a motivation. A bundle of who/what/why. A link between nodes is a temporal/causal link as one node propagates another (why). A situation is a grouping of nodes and links, that evolves over time.
+A node is a decision/action performed by an actor in a point in time. A situation or history, is the interplay of actors actions over time, as their actions propagate and cause one another. The key skill is to understand a **"situation"** by putting yourself in the actors perspective/shoes and understanding why they did something.
 
-The key skill is to understand a **"situation"**:
+* Understanding the "who" - Identifying the actors in this situation. These can be groups of people. Or people.
+* Understanding the "what/how" - Identifying the action they take. Visualising them performing the action. This can be connected to the deterministic/semi-deterministic frameworks, as any action is a function of these.
+* Understanding the "why" - Identify the previous connecting node/action that propagated the current, and the reasoning/perspective of the actor, aka why the actor performed that action, by putting yourself in their shoes.
 
-* Understanding the "who" - Identifying the actors in this situation. Identify the groups (by actions/motives), then recursively split similar to what is done in the SD framework in a top-down fashion.
-* Understanding the "what/how" - What actions are they taking or have taken? Visualising them performing the action.
-* Understanding the "why" - There are two parts to the why. First is the connectiong action (node) that caused this current one, second is the reason of the actor for the decision. They are the same. We can chain why to work backwards/forwards to connect actions together in a situation.
-
-The trick is to connect to identify who, and figure out why. Then connect nodes across time to understand how the situation has evolved. Working backwards and forwards.
+The trick is to connect to identify who, and figure out why. Then connect nodes across time to understand how the situation/interplay has evolved. Working backwards and forwards.
 
 Thus, it boils down to applying **who/what/why** in a systematic fashion to understand **situations**. Focus on **why/reason** being the glue.
 
