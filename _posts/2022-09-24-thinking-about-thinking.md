@@ -41,23 +41,19 @@ A `textual representation` is how the concept appears on text, or on paper. Aka 
 
 <p>Example Fields: Mathematics, natural sciences, engineering.</p>
 
-There are two fundamental things: <i>concepts (abstraction)</i> and <i>physical objects (physical variable/parameter)</i>. On the underlying side, they are just numbers, quantities that can vary, basically. But what they represent are two different things. Their textual representation is a `symbol` and innate representation is a `visual`. 
+There are two fundamental things: <i>concepts (abstraction)</i> and <i>physical quantities</i>. On the underlying side, they are just numbers, quantities that can vary, basically. But what they represent are two different things. Their textual representation is a `symbol` and innate representation is a `visual`. 
 
-A concept (more towards the field of mathematics) and a variable/parameter (more towards the field of physics) are the two main players. The difference is in their treatment: both can be visualised, but the former exists in abstract space whereas the latter exists in physical space (e.g our physical reality). 
+A concept (more towards the field of mathematics) and a quantity (more towards the field of physics) are the two main players. The difference is in their treatment: both can be visualised, but the former exists in abstract space whereas the latter exists in physical space (e.g our physical reality). 
 
-The key skill: Connecting concepts together or variables together into a system. 
+The key skill:
 
-For physical variables, we can use these measurements to visualise from a perspective. E.g put yourself in the perspective of a proton in an nucleus. Physics formalises this: aka how to simulate or think about this 'correctly' and 'accurately'. 
+* Visualising the concept or quantity
+* Connecting them together in a system.
 
 Another idea is that of _dependency_, whereby to understand or make connections of certain concepts, there must be a backlog graph of existing concepts that you have to build in sequential fashion, aka prerequisites.
 
 <p>They are linked via connections. These can be direct or latent. Direct connections are obvious. Latent ones are sudden inspirations between seemingly unrelated things. The idea is to build up a dense, well-connected network of things in your head.</p>
 
-So:
-
-1. Connect concepts/ideas/objects
-2. Connect or visualise variables
-3. Connect or visualise numbers
 
 <blockquote>
 <p>There are moments where you <i>put something together</i> and realize this is how the story has to go.</p>
@@ -119,14 +115,9 @@ The trick is to connect to identify who, and figure out why. Then connect nodes 
 
 Thus, it boils down to applying **who/what/why** in a systematic fashion to understand **situations**. Focus on **why/reason** being the glue.
 
-## Who
+Emmanuel Derman has the same view:
 
-
-<blockquote>
-<p>My framework is built on two propositions. The first is that in situations that have thinking <i>participants</i>, the participants’ <i>views</i> of the world never perfectly correspond to the actual state of affairs.
-The second proposition is that these imperfect views can influence the situation to which they relate through the <i>actions</i> of the participants.</p>
-</blockquote>
-<figcaption>—George Soros, <cite><a href="https://www.georgesoros.com/2014/01/13/fallibility-reflexivity-and-the-human-uncertainty-principle-2/">Fallibility, Reflexivity, and the Human Uncertainty Principle</a></cite></figcaption>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Intelligence and Blending the Frameworks
 
