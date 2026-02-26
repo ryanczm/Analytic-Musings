@@ -103,17 +103,17 @@ Being able to see something at lots of levels and <i>go between them smoothly</i
 <br>
 <h2>Humanistic Framework</h2>
 
-These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's.
+These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's by putting yourself in their perspective.
 
 A node is a decision/action performed by an actor in a point in time. A situation or history, is the interplay of actors actions over time, as their actions propagate and cause one another. The key skill is to understand a **"situation"** by putting yourself in the actors perspective/shoes and understanding why they did something.
 
 * Understanding the "who" - Identifying the actors in this situation. These can be groups of people. Or people.
 * Understanding the "what/how" - Identifying the action they take. Who, where, when, what. This can be connected to the deterministic/semi-deterministic frameworks, as any action is a function of these.
-* Understanding the "why" - Identify the previous connecting node/action that propagated the current, and the reasoning/perspective of the actor, aka why the actor performed that action, by putting yourself in their shoes.
+* Understanding the "why" - Identify the previous connecting node/action that propagated the current, and the reasoning/perspective of the actor, aka why the actor performed that action, by putting yourself in their shoes. The more information you know about them, the better you understand their perspective/context, and then their why.
 
 The trick is to connect to identify who, and figure out why. Then connect nodes across time to understand how the situation/interplay has evolved. Working backwards and forwards.
 
-Thus, it boils down to applying **who/what/why** in a systematic fashion to understand **situations**. Focus on **why/reason** being the glue.
+Thus, it boils down to applying **who/what/why** in a systematic fashion to understand **situations** from multiple perspectives.
 
 Emmanuel Derman has the same view:
 
