@@ -111,7 +111,9 @@ A node is a decision/action performed by an actor in a point in time. A situatio
 * Understanding the "what/how" - Identifying the action they take. Who, where, when, what. This can be connected to the deterministic/semi-deterministic frameworks, as any action is a function of these.
 * Understanding the "why" - Identify the previous connecting node/action that propagated the current, and the reasoning/perspective of the actor, aka why the actor performed that action, by putting yourself in their shoes. The more information you know about them, the better you understand their perspective/context, and then their why.
 
-First, identify the actions. Connect it to the deterministic/semi-deterministic framework. Then, identify the key actors, their contexts/perspectives, and understand why. Project or evolve the situation in the future, trying to see what relevant actors will do next.
+First, identify the actions. Connect it to the deterministic/semi-deterministic framework. Then, identify the key actors, their contexts/perspectives, and understand why. 
+
+Project or evolve the situation in the future, trying to from multiple perspectives what the actors will do.
 
 Thus, it boils down to applying **who/what/why** in a systematic fashion to understand **situations** from multiple perspectives.
 
