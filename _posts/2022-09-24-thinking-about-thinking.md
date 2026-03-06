@@ -107,7 +107,7 @@ These fields encompass markets, finance, economics, history, etc, any kind of fi
 
 The node is an actor, a decision (action/reaction), or a rationale. Nodes are connected via:
 
-* Binding the Action (Who) - Any action must be bound to a set of actors. 
+* Binding the Action (Who) - Any action must be bound to a set of actors. A useful trick is grouping then drilling down in hierarchical fashion.
 * Visualising the Action (What) - In terms of deterministic or semi-deterministic framework.
 * Understanding the Context/Rationale (Why) - Past events that caused this reaction, done by putting yourself in their perspective.
 * Connecting the Reaction - Connect to future reactions by relevant actors.
