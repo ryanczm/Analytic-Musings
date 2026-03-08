@@ -122,6 +122,12 @@ Another view from my ex-boss - taking a perspective or worldview:
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">I&#39;m trying to understand the MAGA worldview, so I dug a bit into the US immigration stats.<br><br>In 2024, the US issued about 1k immigrant visas (&quot;green cards&quot;) to EU+UK+Norway+Swiss citizens, over a total of 216k. It also only extended about 7k among 400k on non-immigrants visas… <a href="https://t.co/KnXKVXRbM4">pic.twitter.com/KnXKVXRbM4</a></p>&mdash; Kim BENNI (@BenniKim) <a href="https://twitter.com/BenniKim/status/2006820312256561196?ref_src=twsrc%5Etfw">January 1, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+Lastly: an example of projecting a situation forward by going through various actors contexts and their possible decision making:
+
+<blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">A move that would make Vladimir proud for sure. Cutting / embargoing energy is an act of war, so you&#39;d officially be part of the bad guys.<br><br>1/ Europe caps the carbon pricing and runs all the coal plants on domestically produced lignite plus coal imports. No rolling blackouts.…</p>&mdash; Kim BENNI (@BenniKim) <a href="https://twitter.com/BenniKim/status/2030554981271560371?ref_src=twsrc%5Etfw">March 8, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+Not an easy skill to do.
+
 ## Intelligence and Blending the Frameworks
 
 Thus, intelligence is the mastery you have in these frameworks, both in the cross section (the ability to master multiple of these in breadth and blend them together) and depth (mastery into an individual framework), applied to different disciplines.
