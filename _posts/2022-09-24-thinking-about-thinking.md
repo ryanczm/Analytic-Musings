@@ -118,6 +118,8 @@ Emmanuel Derman has the same view:
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+Another view from my ex-boss - taking a perspective or worldview:
+
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">I&#39;m trying to understand the MAGA worldview, so I dug a bit into the US immigration stats.<br><br>In 2024, the US issued about 1k immigrant visas (&quot;green cards&quot;) to EU+UK+Norway+Swiss citizens, over a total of 216k. It also only extended about 7k among 400k on non-immigrants visas… <a href="https://t.co/KnXKVXRbM4">pic.twitter.com/KnXKVXRbM4</a></p>&mdash; Kim BENNI (@BenniKim) <a href="https://twitter.com/BenniKim/status/2006820312256561196?ref_src=twsrc%5Etfw">January 1, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Intelligence and Blending the Frameworks
