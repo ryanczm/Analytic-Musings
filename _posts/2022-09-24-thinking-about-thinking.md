@@ -114,11 +114,7 @@ The node is an actor, a decision (action/reaction), or a rationale. Nodes are co
 
 We can do this recursively and build up and understanding of a situation, and how it evolves in the future. Like the Bene Gesserit or Mentat ability to see into the future in Dune. It's alot of hard work!
 
-The question is: like the D and SD frameworks, can we formalize situations in a systematic manner?
-
-One idea is to classify situations by their similar set of actors or actions. That way, we can categorize them, and compare the target situation to similar historical categories. I suspect it is classifying based on actions more than actors. So you have a set of actions and draw parallels to other situations based on the kind of action.
-
-Then, for a given category, we can enumerate out the actors and their contexts/rationales in a procedural manner, and apply it in a braindead fashion.
+One possible idea is to, given some situation or action, enumerate out all relevant reacting actors and their views. On a piece of paper or in an editor. Then go through each one, and see how they behave.
 
 Emmanuel Derman has the same view:
 
