@@ -109,8 +109,8 @@ The node is an actor, a decision (action/reaction), or a rationale. Nodes are co
 
 * Binding the Action (Who) - Any action must be bound to a set of actors. A useful trick is grouping then drilling down in hierarchical fashion.
 * Visualising the Action (What) - In terms of deterministic or semi-deterministic framework.
-* Understanding the Context/Rationale (Why) - Past events that caused this reaction, done by putting yourself in their perspective.
-* Connecting the Reaction - Connect to future reactions by relevant actors.
+* Understanding the Past Context (Why) - What was the action that this was a reaction to? And why?
+* Projecting the Future Context - Connect to future reactions by relevant actors What reactions will come of this?
 
 We can do this recursively and build up and understanding of a situation, and how it evolves in the future. Like the Bene Gesserit or Mentat ability to see into the future in Dune. It's alot of hard work!
 
