@@ -116,7 +116,7 @@ We can do this recursively and build up and understanding of a situation, and ho
 
 The question is: like the D and SD frameworks, can we formalize situations in a systematic manner?
 
-One idea is to classify situations by their similar set of actors or actions. That way, we can categorize them, and compare the target situation to similar historical categories.
+One idea is to classify situations by their similar set of actors or actions. That way, we can categorize them, and compare the target situation to similar historical categories. I suspect it is classifying based on actions more than actors. So you have a set of actions and draw parallels to other situations based on the kind of action.
 
 Then, for a given category, we can enumerate out the actors and their contexts/rationales in a procedural manner, and apply it in a braindead fashion.
 
