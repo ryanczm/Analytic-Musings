@@ -107,14 +107,18 @@ These fields encompass markets, finance, economics, history, etc, any kind of fi
 
 The node is an actor, a decision (action/reaction), or a rationale. Nodes are connected via:
 
-* Binding the Action (Who) - Any action must be bound to a set of actors. A useful trick is grouping then drilling down in hierarchical fashion.
+* Binding the Action (Who) - Any action must be bound to a set of actors. Useful tricks: grouping/drilling down, visualising being the actor. It's always a bunch of people somewhere!
 * Visualising the Action (What) - In terms of deterministic or semi-deterministic framework.
 * Understanding the Past Context (Why) - What was the action that this was a reaction to? And why?
 * Projecting the Future Context - Connect to future reactions by relevant actors What reactions will come of this?
 
 We can do this recursively and build up and understanding of a situation, and how it evolves in the future. Like the Bene Gesserit or Mentat ability to see into the future in Dune. It's alot of hard work!
 
-One possible idea is to, given some situation or action, try and put yourself in the shoes/perspectives of all relevant reacting actors and their potential reactions. On a piece of paper or in an editor. Then go through each one, and see how they behave.
+Possible framework:
+
+0. Observe some action/reaction.
+1. Group and drill down the various actors in in the situation.
+2. Put yourself in the mind/perspectives of all relevant reacting actors and their potential reactions. Then go through each one, and see how they behave.
 
 
 Emmanuel Derman has the same view:
