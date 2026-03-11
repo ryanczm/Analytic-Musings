@@ -114,7 +114,8 @@ The node is an actor, a decision (action/reaction), or a rationale. Nodes are co
 
 We can do this recursively and build up and understanding of a situation, and how it evolves in the future. Like the Bene Gesserit or Mentat ability to see into the future in Dune. It's alot of hard work!
 
-One possible idea is to, given some situation or action, enumerate out all relevant reacting actors and their views. On a piece of paper or in an editor. Then go through each one, and see how they behave.
+One possible idea is to, given some situation or action, try and put yourself in the shoes/perspectives of all relevant reacting actors and their potential reactions. On a piece of paper or in an editor. Then go through each one, and see how they behave.
+
 
 Emmanuel Derman has the same view:
 
