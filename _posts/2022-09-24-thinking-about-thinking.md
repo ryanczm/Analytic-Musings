@@ -122,8 +122,10 @@ Possible framework:
 
 In addition:
 
-* Connect to past similar situations.
+* Connect to past similar situations - similar actors, different actors, etc.
 * Drawing parallels to project the future.
+
+Thus, the skill is in how complex of a situation you can build in your head and how well you can forecast the evolution of the situation by how much past situation you can hold in your head.
 
 Emmanuel Derman has the same view:
 
