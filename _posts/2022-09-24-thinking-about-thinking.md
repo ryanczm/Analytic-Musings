@@ -116,10 +116,14 @@ We can do this recursively and build up and understanding of a situation, and ho
 
 Possible framework:
 
-0. Observe some action/reaction.
-1. Group and drill down the various actors in in the situation.
-2. Put yourself in the mind/perspectives of all relevant reacting actors and their potential reactions. Then go through each one, and see how they behave.
+* Observe some action/reaction. Aka a situation or news.
+* Group and drill down the various actors in in the situation.
+* Put yourself in the mind/perspectives of all relevant reacting actors and their potential reactions. Then go through each one, and see how they behave.
 
+In addition:
+
+* Connect to past similar situations.
+* Drawing parallels to project the future.
 
 Emmanuel Derman has the same view:
 
