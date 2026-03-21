@@ -107,39 +107,21 @@ These fields encompass markets, finance, economics, history, etc, any kind of fi
 
 The node is an actor, a decision (action/reaction), or a rationale. Nodes are connected via:
 
-* Binding the Action (Who) - Any action must be bound to a set of actors. Useful tricks: grouping/drilling down, visualising being the actor. It's always a bunch of people somewhere!
+* Binding the Action (Who) - Any action must be bound to a set of actors. Useful tricks: grouping/drilling down, visualising being the actor. 
 * Visualising the Action (What) - In terms of deterministic or semi-deterministic framework.
 * Understanding the Past Context (Why) - What was the action that this was a reaction to? And why?
 * Projecting the Future Context - Connect to future reactions by relevant actors What reactions will come of this?
 
-We can do this recursively and build up and understanding of a situation, and how it evolves in the future. Like the Bene Gesserit or Mentat ability to see into the future in Dune. It's alot of hard work!
+We can do this recursively and build up and understanding of a situation, and how it evolves in the future. It helps to be cognizant of:
 
-Possible framework:
+* The (sub)space of situations
+* The (sub)space of actors
+* The (sub)space of actions
 
-* Observe some action/reaction. Aka a situation or news.
-* Group and drill down the various actors in in the situation.
-* Put yourself in the mind/perspectives of all relevant reacting actors and their potential reactions. Then go through each one, and see how they behave.
-
-In addition:
-
-* Connect to past similar situations - similar actors, different actors, etc.
-* Drawing parallels to project the future.
-
-Thus, the skill is in how complex of a situation you can build in your head and how well you can forecast the evolution of the situation by how much past situation you can hold in your head.
-
-Emmanuel Derman has the same view:
+Under the principle that in certain situations, certain actors do certain actions. We can categorize via subspaces.
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Another view from my ex-boss - taking a perspective or worldview:
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">I&#39;m trying to understand the MAGA worldview, so I dug a bit into the US immigration stats.<br><br>In 2024, the US issued about 1k immigrant visas (&quot;green cards&quot;) to EU+UK+Norway+Swiss citizens, over a total of 216k. It also only extended about 7k among 400k on non-immigrants visas… <a href="https://t.co/KnXKVXRbM4">pic.twitter.com/KnXKVXRbM4</a></p>&mdash; Kim BENNI (@BenniKim) <a href="https://twitter.com/BenniKim/status/2006820312256561196?ref_src=twsrc%5Etfw">January 1, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-Lastly: an example of projecting a situation forward by going through various actors contexts and their possible decision making:
-
-<blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">A move that would make Vladimir proud for sure. Cutting / embargoing energy is an act of war, so you&#39;d officially be part of the bad guys.<br><br>1/ Europe caps the carbon pricing and runs all the coal plants on domestically produced lignite plus coal imports. No rolling blackouts.…</p>&mdash; Kim BENNI (@BenniKim) <a href="https://twitter.com/BenniKim/status/2030554981271560371?ref_src=twsrc%5Etfw">March 8, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-Not an easy skill to do.
 
 ## Intelligence and Blending the Frameworks
 
