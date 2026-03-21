@@ -114,9 +114,9 @@ The node is an actor, a decision (action/reaction), or a rationale. Nodes are co
 
 We can do this recursively and build up and understanding of a situation, and how it evolves in the future. It helps to be cognizant of:
 
-* The (sub)spaces of situations
-* The (sub)spaces of actors
-* The (sub)spaces of actions
+* The (sub)spaces (kinds) of situations
+* The (sub)spaces (kinds) of actors within a situation.
+* The (sub)spaces (kinds) of actions that an actor can take.
 
 Under the principle that in certain situations, certain actors do certain actions. We can categorize via subspaces.
 
