@@ -108,10 +108,10 @@ These fields encompass markets, finance, economics, history, etc, any kind of fi
 The node is an actor, a decision (action/reaction), or a rationale. Nodes are connected via:
 
 * Binding the Action (Who) - Any action must be bound to a set of actors. Useful tricks: grouping/drilling down, visualising being the actor. 
-* Visualising the Action (What) - In terms of deterministic or semi-deterministic framework.
-* Understanding the Past Context/Projecting the Future Context - Any action will trigger reactions. Any action is a reaction.
+* Visualising the Action (What) - The key is to visualise the actors performing the action/reaction via non-precise visualisation.
+* Understanding the Past Context/Projecting the Future Context - The key is to understand the why: the previous actions the current action was a reaction to, and the desired reaction.
 
-The main most important skill is identifying the actors and projecting yourself into their minds.
+The main most important skill is identifying the actors and visualising the action performed. You can then connnect across actions to understand the situation.
 
 In any situation, there is a space of actors/reactors, and a space of actions/reactions that each actor can take.
 
