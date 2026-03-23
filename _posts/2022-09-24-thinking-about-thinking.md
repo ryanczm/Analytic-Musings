@@ -105,7 +105,7 @@ Being able to see something at lots of levels and <i>go between them smoothly</i
 
 These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's by putting yourself in their perspective.
 
-The node is an actor, a decision (action/reaction), or a rationale. Nodes are connected via:
+The node is an actor performing an action. The trick is to connect a situation together by connecting the nodes/actions of different actors together across time, past and present. We can do this via these principles:
 
 * Binding the Action (Who) - Any action must be bound to a set of actors. Useful tricks: grouping/drilling down, visualising being the actor. 
 * Visualising the Action (What) - The key is to visualise the actors performing the action/reaction via non-precise visualisation.
