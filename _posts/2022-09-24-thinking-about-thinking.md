@@ -109,18 +109,11 @@ The node is an actor, a decision (action/reaction), or a rationale. Nodes are co
 
 * Binding the Action (Who) - Any action must be bound to a set of actors. Useful tricks: grouping/drilling down, visualising being the actor. 
 * Visualising the Action (What) - In terms of deterministic or semi-deterministic framework.
-* Understanding the Past Context (Why) - What was the action that this was a reaction to? And why?
-* Projecting the Future Context - Connect to future reactions by relevant actors What reactions will come of this?
+* Understanding the Past Context/Projecting the Future Context - Any action will trigger reactions. Any action is a reaction.
 
-We can do this recursively and build up and understanding of a situation, and how it evolves in the future. 
+The main most important skill is identifying the actors and projecting yourself into their minds.
 
-* The (sub)spaces (kinds) of situations
-* The (sub)spaces (kinds) of actors within a situation.
-* The (sub)spaces (kinds) of actions that an actor can take.
-
-Under the principle that in certain situations, certain actors do certain actions. We can categorize via subspaces.
-
-The main most important skill is identifying the actors and "flying" into their minds.
+In any situation, there is a space of actors/reactors, and a space of actions/reactions that each actor can take.
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
