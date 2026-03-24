@@ -80,11 +80,15 @@ Key prompts - "Connections", "Visualisation"
 
 ## Semideterministic Framework
 
-For semi-deterministic fields, which is essentially computing, a system consists of nodes (tools) and edges (information/data flow)
+For semi-deterministic fields, which is essentially computing, a system consists of nodes (tools/operations) and edges (information/data flow)
 
-The job of a tool is to input information, transform it, and produce output information of a different kind. We can then make a connection via an edge of the output of a tool to other tools. We can then wrap this bunch of tools and edges to form another tool.
+The job of a tool/operations is to input information, perform an operation on it, and produce output information of a different kind. We can then make a connection via an edge of the output of a tool/operations to others. We can then wrap this bunch of operations and edges to form another operations.
 
-So we can break down a tool into its respective tools and edges of information in a top down fashion.
+So, at each abstraction layer, lies the set/space of operations and space of information/data.
+
+There are multiple abstraction layers, and the each operation in the space/layer in the current layer is composed/made of operations/edges of the layer below.
+
+And it gets extremely complex! Maybe twenty layers. Maybe a hundred. Maybe a thousand. Etc.
 
 <blockquote>
 Input → system (computation) → output. This is my core paradigm for understanding anything.
