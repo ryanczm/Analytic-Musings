@@ -121,6 +121,8 @@ In any situation, there is a space of actors/reactors, and a space of actions/re
 
 Quick note: Precise vs non precise visualisation (former which was referred to above), the key difference is in the former you are focused on the precise variables or quantities and getting a visually accurate simulation of whatever phenomena you are trying to understand. In the latter you are doing it to get a feel for the situations/action taken by a person.
 
+In markets, the actors (who) in the situation is anchored to the asset/contract price in question.
+
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
