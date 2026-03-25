@@ -115,9 +115,11 @@ The node is an actor performing an action. The trick is to connect a situation t
 * Visualising the Action (What) - The key is to visualise the actors performing the action/reaction via non-precise visualisation.
 * Understanding the Past Context/Projecting the Future Context - The key is to understand the why: the previous actions the current action was a reaction to, and the desired reaction.
 
-The main most important skill is identifying the actors, going into their perspective/heads and visualising the action performed. You can then connnect across actions to understand the situation.
+The main most important skill is identifying the actors, going into their perspective/heads and visualising the action performed. You can then connnect across actions to understand the situation. Maybe brainstorming a mind map on paper might help?
 
 In any situation, there is a space of actors/reactors, and a space of actions/reactions that each actor can take.
+
+Quick note: Precise vs non precise visualisation (former which was referred to above), the key difference is in the former you are focused on the precise variables or quantities and getting a visually accurate simulation of whatever phenomena you are trying to understand. In the latter you are doing it to get a feel for the situations/action taken by a person.
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
