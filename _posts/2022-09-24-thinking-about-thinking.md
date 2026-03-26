@@ -112,7 +112,7 @@ These fields encompass markets, finance, economics, history, etc, any kind of fi
 The node is an actor performing an action. The trick is to connect a situation together by connecting the nodes/actions of different actors together across time, past and present. We can do this via these principles:
 
 * Binding the Action (Who) - Any action must be bound to a set of actors. Useful tricks: grouping/drilling down, visualising being the actor. 
-* Visualising the Action (What) - The key is to visualise the actors performing the action/reaction via non-precise visualisation.
+* Visualising/quantifying the Action (What) - The key is to visualise the actors performing the action/reaction via non-precise visualisation and *quantify the action*.
 * Understanding the Past Context/Projecting the Future Context - The key is to understand the why: the previous actions the current action was a reaction to, and the desired reaction.
 
 The main most important skill is identifying the actors, going into their perspective/heads and visualising the action performed. You can then connnect across actions to understand the situation. Maybe brainstorming a mind map on paper might help?
