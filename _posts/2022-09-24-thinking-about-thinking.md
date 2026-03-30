@@ -113,11 +113,16 @@ The node is an actor performing an action. The trick is to connect a situation t
 
 * Binding the Action (Who) - Any action must be bound to a set of actors. Useful tricks: grouping/drilling down, visualising being the actor. 
 * Visualising/quantifying the Action (What) - The key is to visualise the actors performing the action/reaction via non-precise visualisation and *quantify the action*.
-* Understanding the Past Context/Projecting the Future Context - The key is to understand the why: the previous actions the current action was a reaction to, and the desired reaction.
+* Understanding the Past Context/Mind Reading - To put yourself into the mind of the actor (see below), one must connect the past context, aka history of the actor (in similar situations). 
+* Projecting the Future - Once you understand the past context, you can put yourself into their mind effectively, and project their actions into the future.
 
-The main most important skill is identifying the actors, going into their perspective/heads and visualising the action performed. You can then connnect across actions to understand the situation. Maybe brainstorming a mind map on paper might help?
+Framework: 
 
-In any situation, there is a space of actors/reactors, and a space of actions/reactions that each actor can take. We can categorize situations/actors/actions and make connections across them - the idea that certain actions get performed by certain actors in certain situations - so the past repeats itself and we can use the past to predict the future.
+1. Visualising the action/actors
+2. Mind reading/context building (history)
+3. Future projection (future)
+
+With the idea that the past repeats itself (time is a flat circle): aka certain actors in certain situations perform the same actions over and over again.
 
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
