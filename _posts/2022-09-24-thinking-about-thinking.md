@@ -109,16 +109,12 @@ Being able to see something at lots of levels and <i>go between them smoothly</i
 
 These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's by putting yourself in their perspective.
 
-The node is an actor performing an action. The trick is to connect a situation together by connecting the nodes/actions of different actors together across time, past and present. We can do this via these principles:
+The node is an actor performing an action. Every action is a reaction and causes a reaction. The trick is to connect a situation together by connecting the nodes/actions of different actors together across time, past and present. We can do this via these principles:
 
 * Identify the situation: what type of situation does this action belong to?
 * Identify the actors: what kind of actors are involved?
-* Identify the past context/actions: Understand the causal chain of events/how the situation has unfolded so far. Go into their minds and visualise them performing the action
-* Identify the future projection: put yourself into their heads/minds, and project what they might do next: how the situation evolves.
-
-One Sentence Summary:
-
-Therefore, the key idea is to, given any action, understand the past situation and predict how the situation evolves by placing yourself into the perspective of various actors.
+* Identify the past context/actions: Understand the causal chain of events/how the situation has unfolded so far. This is done by two things: going into their minds/perspective, and visualising them performing actions.
+* Identify the future reactions: put yourself into their heads/minds, and project what they might do next: how the situation evolves.
 
 Time is a flat circle:
 
