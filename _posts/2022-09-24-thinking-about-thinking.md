@@ -118,7 +118,7 @@ The node is an actor performing an action. Every action is a reaction and causes
 
 Time is a flat circle:
 
-Lastly, another idea is that certain actors in certain situations perform the same actions over and over again, so you can generalize/categorize based on the past: The more you learn about past situations, the more you can apply it to similar situations in the future.
+Lastly, another idea is that certain actors in certain situations perform the same actions over and over again, so you can generalize/categorize based on the past: The more you learn about past situations, the more you can apply it to similar situations in the future. It can repeat directly (same setting/routine) or indirectly (diff setting, same underlying idea/theme)
 
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
