@@ -113,7 +113,7 @@ The node is an actor performing an action. The trick is to connect a situation t
 
 * Identify the situation: what type of situation does this action belong to?
 * Identify the actors: what kind of actors are involved?
-* Identify the past context/actions: what is the context involving these actors?
+* Identify the past context/actions: Understand the causal chain of events/how the situation has unfolded so far. Go into their minds and visualise them performing the action
 * Identify the future projection: put yourself into their heads/minds, and project what they might do next: how the situation evolves.
 
 One Sentence Summary:
