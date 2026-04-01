@@ -116,13 +116,10 @@ The node is an actor performing an action. The trick is to connect a situation t
 * Understanding the Past Context/Mind Reading - To put yourself into the mind of the actor (see below), one must connect the past context, aka history of the actor (in similar situations). 
 * Projecting the Future - Once you understand the past context, you can put yourself into their mind effectively, and project their actions into the future.
 
-Framework: 
 
-1. Visualising the action/actors
-2. Mind reading/context building (history)
-3. Future projection (future)
+Therefore, the key idea is to, given any action, understand the past situation and predict how the situation evolves by placing yourself into the perspective of various actors.
 
-With the idea that the past repeats itself (time is a flat circle): aka certain actors in certain situations perform the same actions over and over again.
+Lastly, another idea is that certain actors in certain situations perform the same actions over and over again, so you can generalize/categorize based on the past.
 
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
