@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hormuz and the Interconnectedness of Commodity Supply Chains
-excerpt: "This is a post to apply the humanistic framework set out in my first post to understand the Iran war situation and the causal chain of reactions/effects propagating through energy, agriculture, geopolitics etc. The idea is to identify the causal chain of effects, but not quantify their size/path, as I don't have enough skill/resources to do that (e.g quantifying S/D balances/forecasts). Mainly from reading commentary on X."
+excerpt: "This is a post to apply the humanistic framework set out in my first post to understand the Iran war situation and the causal chain of reactions/effects propagating through energy, agriculture, geopolitics etc. The idea is to identify the causal chain of effects, but not quantify their size/path, as I don't have enough skill/resources to do that. Mainly from reading commentary on X."
 category: Commods
 ---
 
