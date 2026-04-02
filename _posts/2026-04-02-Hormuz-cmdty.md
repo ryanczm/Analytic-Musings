@@ -180,7 +180,7 @@ There was news of Ukrainian weapons aid from the US being diverted to fund the I
 
 ## Summary
 
-So, from what I see on X, and I agree with, the general idea of Trump being so adversarial instead of cooperative eventually will backfire for the US in the long run in terms of trade and economy. Alienation over cooperation is not a good thing.
+So, from what I see on X, and I agree with, the general idea of Trump being so adversarial instead of cooperative eventually will backfire for the US in the long run in terms of trade and economy. Alienation over cooperation is not a good thing. Why he is doing so, I have no idea - obviously he believes in being adversarial, but why is another question. Maybe it's just the way he operates.
 
 ## General Learnings
 
