@@ -53,11 +53,11 @@ From a markets perspective, the key would be to somehow predict in the military 
 ## Crude
 
 <center>
-<img src="{{ site.imageurl }}/Hormuz/1-CrudeOil.jpg" style="width:100%;"/>
+<img src="{{ site.imageurl }}/Hormuz/1-CrudeOil.png" style="width:100%;"/>
 </center>
 
 
-We can see the market starts pricing in the geopolitical risk premium the moment the Operation happened. Also interesting to see the divergence between the ME oil benchmark, and the subsequent drop due to **??**
+We can see the market starts pricing in the geopolitical risk premium the moment the Operation happened. Also interesting to see the divergence between the ME oil benchmark and WTI/Brent.
 
 
 ## Refined Products
@@ -196,7 +196,7 @@ This exercise is an ex-post application of the humanistic framework to practice 
 
 The challenge is to forecast or project any situation and actors reactions ex-ante, early on as possible.
 
-And lastly, another challenge is to quantify these effects (in terms of numbers, dollars, price, quantities in time).
+And lastly, another challenge is to quantify these effects (in terms of numbers, dollars, price, quantities in time). To precisely understand the actions and reactions in terms of concrete numbers and details.
 
 
 
