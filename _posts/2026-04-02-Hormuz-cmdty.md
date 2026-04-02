@@ -135,7 +135,7 @@ There is apparently physical intuition for which crops are sensitive to which ty
 
 From another tweet, sugarcane is likely to be the most affected by the urea/nitrogen fertilizer export loss due to losses in Brazil, India and Thailand. What's worse is China also has implemented a fertilizer export ban in addition and there is a tweet of India's fertilizer plants that use urea to go round. 
 
-Brazil and India dominate sugarcane production/export and USA and Brazil dominate ethanol production.
+Brazil and India dominate sugarcane production/export and USA and Brazil dominate ethanol production from corn and sugar respectively. 
 
 
 <center>
