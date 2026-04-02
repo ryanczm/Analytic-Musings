@@ -6,7 +6,7 @@ category: Commods
 ---
 
 
-This is a post to apply the humanistic framework set out in my first post to understand the Iran war situation and the causal chain of reactions/effects propagating through energy, agriculture, geopolitics etc. The idea is to identify the causal chain of effects, but not quantify their size/path, as I don't have enough skill/resources to do that. 
+This is a post to apply the [humanistic framework](https://analytic-musings.com/2022/09/24/thinking-about-thinking/) set out in my first post to understand the Iran war situation and the causal chain of reactions/effects propagating through energy, agriculture, geopolitics etc. The idea is to identify the causal chain of effects, but not quantify their size/path, as I don't have enough skill/resources to do that. 
 
 I am aware that establishing the chain of effects is one thing but quantifying their exact path in scale and time is another matter entirely.
 
