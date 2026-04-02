@@ -12,14 +12,14 @@ I am aware that establishing the chain of effects is one thing but quantifying t
 
 Mainly summarizing from experts on X:
 
-* [Yet Another Commodity Guy](https://x.com/tleilax___) - Everything
-* [Rory Johnson](https://x.com/Rory_Johnston) - Oil
-* [Stephen Stapczynski](https://x.com/SStapczynski) - Gas
-* [June Goh](https://x.com/JuneGoh_Sparta) - Oil
-* [ABCampbell](https://x.com/abcampbell) - Macro
-* [KKGB](https://x.com/INArteCarloDoss) - Politics
-* [OSINTDefender](https://x.com/sentdefender) - OSINT
-* [Ole Hansen](https://x.com/Ole_S_Hansen) - General commodities
+* [Yet Another Commodity Guy](https://x.com/tleilax___) 
+* [Rory Johnson](https://x.com/Rory_Johnston) 
+* [Stephen Stapczynski](https://x.com/SStapczynski) 
+* [June Goh](https://x.com/JuneGoh_Sparta) 
+* [ABCampbell](https://x.com/abcampbell) 
+* [KKGB](https://x.com/INArteCarloDoss) 
+* [OSINTDefender](https://x.com/sentdefender) 
+* [Ole Hansen](https://x.com/Ole_S_Hansen)
 * Many, many others (non exhaustive!)
 
 # The Situation
