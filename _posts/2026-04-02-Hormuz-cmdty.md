@@ -53,8 +53,7 @@ From a markets perspective, the key would be to somehow predict in the military 
 ## Crude
 
 <center>
-<img src="{{ site.imageurl }}/Hormuz/1-Crude
-Oil.jpg" style="width:100%;"/>
+<img src="{{ site.imageurl }}/Hormuz/1-CrudeOil.jpg" style="width:100%;"/>
 </center>
 
 
