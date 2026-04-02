@@ -178,6 +178,10 @@ Nobody has a clue how the post war Hormuz situation will look like. A tolling bo
 
 There was news of Ukrainian weapons aid from the US being diverted to fund the Iranian effort and easing of Russian sanctions to clear the floating storage buffer and increasing Europe energy dependence on Russia looks like the war is very beneficial for Putin, especially if the situations drags on longer and longer.
 
+## Summary
+
+So, from what I see on X, and I agree with, the general idea of Trump being so adversarial instead of cooperative eventually will backfire for the US in the long run in terms of trade and economy. Alienation over cooperation is not a good thing.
+
 ## General Learnings
 
 One key idea of the humanistic framework I proposed is that time is a flat circle. Aka certain situations occur involving the same actors and same actions being taken. So we can draw parallels to the last commodity shock due to war, the ongoing Russian-Ukraine war and gas crisis in 2022.
