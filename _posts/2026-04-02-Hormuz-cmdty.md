@@ -36,7 +36,7 @@ The events followed like so: military build up in February, initial strikes and 
 
 Aside from military response, the response by Administration or by Trump on Truth Social to damage control the energy crisis was things like the EIA SPR RFP barrel loan, 60 day Jones act waiver for domestic damage control, naval escort claims which didn't happen, suspected Treasury intervention in oil futures, counterproductive easing of sanctions on Iranian/Russian oil.
 
-Then was the 48 hour ultimatum which got TACO'd, the Iranian policy to selectively allow a small amount of certain vessels through with permission, some escalation to power plant/desalination strikes (on Iran by US and on Kuwait by Iran), some crazy trolling by Ghalibaf and Araghchi X, some OSINT rumours about another military buildup for a land invasion, then the nationwide address by Trump which did not confirm a land invasion or withdrawal but prolonged the detente state of war, the letter to the American people by Pezeshkian to ask them to think about this war carefully, etc. Now the main question for this situation is if another escalation wave will come (and the degree of it) or peace talks will be happening.
+Then was the 48 hour ultimatum which got TACO'd, the Iranian policy to selectively allow a small amount of certain vessels through with permission, some escalation to power plant/desalination strikes (on Iran by US and on Kuwait by Iran), some crazy trolling by Ghalibaf and Araghchi X, some OSINT rumours about another military buildup for a land invasion, then the nationwide address by Trump and letter by Pezeshkian, etc. Now the main question for this situation is if another escalation wave will come (and the degree of it) or peace talks will be happening.
 
 ## Response
 
@@ -53,7 +53,8 @@ From a markets perspective, the key would be to somehow predict in the military 
 ## Crude
 
 <center>
-<img src="{{ site.imageurl }}/Hormuz/1-Crude Oil.jpg" style="width:100%;"/>
+<img src="{{ site.imageurl }}/Hormuz/1-Crude
+Oil.jpg" style="width:100%;"/>
 </center>
 
 
@@ -129,23 +130,32 @@ There is apparently physical intuition for which crops are sensitive to which ty
 
 ## Agriculture
 
-**Sugar and ethanol future price image**
+<center>
+<img src="{{ site.imageurl }}/Hormuz/5-Sugar.png" style="width:100%;"/>
+</center>
 
 From another tweet, sugarcane is likely to be the most affected by the urea/nitrogen fertilizer export loss due to losses in Brazil, India and Thailand. What's worse is China also has implemented a fertilizer export ban in addition and there is a tweet of India's fertilizer plants that use urea to go round. 
 
 Brazil and India dominate sugarcane production/export and USA and Brazil dominate ethanol production.
 
+
+<center>
+<img src="{{ site.imageurl }}/Hormuz/6-Ethanol.png" style="width:100%;"/>
+</center>
+
 Given that governments around the world are increasing ethanol blend % policies into gasoline, this would drive up demand for ethanol exports to alleviate the gasoline crisis.
 
 Of course, I am aware that this is a second order effect and first order effects like the existing situation in the current crop cycle in each country per crop plays a big role, but I do not have information on that.
 
-From a humanitarian, non-markets perspective, developing countries in SEA and India would face rising food costs and the poorer people in these economies suffer most in a reducing in QoL. Thanks Trump!
+From a humanitarian, non-markets perspective, developing countries in SEA and India would face rising food costs and the poorer people in these economies suffer most in a reducing in QoL.
+
+However, it seems the supply shock to sugar/ethanol will be in delayed fashion.
 
 # Other
 
 ## Macroeconomy
 
-I don't know much about this but my guess is there will be some expression in the economies of the more impacted countries like Korea and Japan in their stock and bond markets.
+I don't know much about this but my guess is there will be some expression in the economies of the more impacted countries like Korea and Japan in their stock and bond markets as inflation sets in due to rising energy costs.
 
 ## Domestic Politics
 
