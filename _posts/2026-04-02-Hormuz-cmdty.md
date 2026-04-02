@@ -36,7 +36,7 @@ The events followed like so: military build up in February, initial strikes and 
 
 Aside from military response, the response by Administration or by Trump on Truth Social to damage control the energy crisis was things like the EIA SPR RFP barrel loan, 60 day Jones act waiver for domestic damage control, naval escort claims which didn't happen, suspected Treasury intervention in oil futures, counterproductive easing of sanctions on Iranian/Russian oil.
 
-Then was the 48 hour ultimatum which got TACO'd, the Iranian policy to selectively allow a small amount of certain vessels through with permission, some escalation to power plant/desalination strikes (on Iran by US and on Kuwait by Iran), some crazy trolling by Ghalibaf and Araghchi X, some OSINT rumours about another military buildup for a land invasion, then the nationwide address by Trump and letter by Pezeshkian, etc. Now the main question for this situation is if another escalation wave will come (and the degree of it) or peace talks will be happening.
+Then was the 48 hour ultimatum which got TACO'd, the Iranian policy to selectively allow a small amount of certain vessels through with permission, some escalation to power plant/desalination strikes (on Iran by US and on Kuwait by Iran), some crazy trolling by Ghalibaf on X, some OSINT rumours about another military buildup for a land invasion, then the nationwide address by Trump and letter by Pezeshkian, etc. Now the main question for this situation is if another escalation wave will come (and the degree of it) or peace talks will be happening.
 
 ## Response
 
