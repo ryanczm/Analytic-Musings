@@ -22,7 +22,7 @@ Mainly summarizing from experts on X:
 * [Ole Hansen](https://x.com/Ole_S_Hansen)
 * Many, many others (non exhaustive!)
 
-# The Situation
+# "Monitoring" The Situation
 
 ## Timeline
 
