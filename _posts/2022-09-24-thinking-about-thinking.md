@@ -114,7 +114,7 @@ The node is an actor performing an action. Every action is a reaction and causes
 * Identify the situation: what type of situation does this action belong to?
 * Identify the actors: what kind of actors are involved?
 * Identify the past context/actions: Understand the causal chain of events/how the situation has unfolded so far. This is done by two things: going into their minds/perspective, and visualising them performing actions.
-* Understanding reactions: put yourself into their heads/minds, and understand how they might react/their reaction.
+* Understanding reactions: put yourself into their heads/minds, and understand how they might react/their reaction and visualising it.
 
 Time is a flat circle:
 
