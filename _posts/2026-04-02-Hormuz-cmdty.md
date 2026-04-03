@@ -193,6 +193,8 @@ To that, these points follow:
 * Commodity supply shock, due to logistics and transport time on ships/tankers, propagates with a lag, could be weeks or months, depending on distance, and any market might show delayed price impact.
 * The impact of one decision or one person can propagate through time in a domino effect and grow in size and scale.
 
+Lastly, as of the start of April Iran seems to be moving towards a controlled toll booth style solution where countries can negotatiate to get access - probably to try and reduce the blockade impact and also turn countries against the US/Israel.ch
+
 ## The Humanistic Framework
 
 
