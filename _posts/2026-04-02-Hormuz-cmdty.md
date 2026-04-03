@@ -146,7 +146,7 @@ Given that governments around the world are increasing ethanol blend % policies 
 
 Of course, I am aware that this is a second order effect and first order effects like the existing situation in the current crop cycle in each country per crop plays a big role, but I do not have information on that.
 
-From a humanitarian, non-markets perspective, developing countries in SEA and India would face rising food costs and the poorer people in these economies suffer most in a reducing in QoL.
+While the ethanol situation should play out fairly quickly, there will be a timelag before the fertilizer impact hits as crops need time to crop. So similar to when the LNG price impact hits Japan, it depends on the behavior of the buyer of the product (Asian/Brazilian farmers and Japanese utilities).
 
 However, it seems the supply shock to sugar/ethanol will be in delayed fashion.
 
