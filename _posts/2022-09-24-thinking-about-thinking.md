@@ -111,10 +111,10 @@ These fields encompass markets, finance, economics, history, etc, any kind of fi
 
 The node is an actor performing an action. Every action is a reaction and causes a reaction. The trick is to connect a situation together by connecting the nodes/actions of different actors together across time, past and present. We can do this via these principles:
 
-* Identify the situation: what type of situation does this action belong to?
-* Identify the actors: what kind of actors are involved?
-* Identify the past context/actions: Understand the causal chain of events/how the situation has unfolded so far. This is done by two things: going into their minds/perspective, and visualising them performing actions, and understanding why. There are two why's: why the action is being performed and what this is a reaction to.
-* Understanding reactions: put yourself into their heads/minds, and understand how they might react/their reaction and visualising it.
+* Connect to the **situation**: what type of situation does this action belong to?
+* Connect to the **actors**: what kind of actors are involved?
+* Connect to the **past context**/actions: Understand the causal chain of events/how the situation has unfolded so far. This is done by two things: going into their minds/perspective, and visualising them performing actions, and understanding why. There are two why's: why the action is being performed and what this is a reaction to.
+* Connect to the **reactions**: put yourself into their heads/minds, and understand how they might react/their reaction and visualising it.
 
 Time is a flat circle:
 
