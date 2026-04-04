@@ -109,21 +109,21 @@ Being able to see something at lots of levels and <i>go between them smoothly</i
 
 These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's by putting yourself in their perspective.
 
-The node is an actor performing an action. Every action is a reaction and causes a reaction. The trick is to connect a situation together by connecting the nodes/actions of different actors together across time, past and present. We connect different situations together.
+The node is an actor performing an action. Every action is a reaction and causes a reaction. A grouping of nodes or actions by actors is called a situation or plot.
 
-* Connect to the **situation**: What kind of situation is this action belonging to? 
-* Connect to the **actors**: What kind of actors are involved and what type of actors are they?
-* Visualise the **action**: Visualising the actions performed and what type of action it is?
-* Connect to the **past context**/actions: Understand the causal chain of actions and reactions that led up to this action by understanding context/motivations.
-* Connect to the **reactions**: Project the reaction of various actors to this action.
+We can then break down a situation hierarchically over time into subplots or subsituations.
 
-This is done by the atomic operation of:
+* Connect to the **situation**: What kind of subplot is this?
+* Connect to the **actors**: What kind of actors are involved in this subplot?
+* Visualise the **action**: What actions are the actors performing?
+* Connect to the **past context**/actions: Understand the previous subplots that led up to this subplot.
+* Connect to the **reactions**: Try and forecast how the next subplot evolves or subplots as a reaction to the current frame of reference.
 
-* Putting yourself into the mind of an actor.
+This is done by the atomic operations:
 
-Lastly, we can add a layer of categorization to situations, actors and actions to make connections between past and present situations of similar kind:
-
-The idea is that certain actors in certain situations perform the same actions over and over again, so you can generalize/categorize based on the past: The more you learn about past situations, the more you can apply it to similar situations in the future.
+* Putting yourself into the mind/perspective of an actor.
+* Visualising their actions and past actions in similar subplots.
+* Understanding their motivations.
 
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
