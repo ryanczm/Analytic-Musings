@@ -114,13 +114,12 @@ The node is an actor performing an action. Every action is a reaction and causes
 * Connect to the **situation**: What kind of situation is this action belonging to? 
 * Connect to the **actors**: What kind of actors are involved and what type of actors are they?
 * Visualise the **action**: Visualising the actions performed and what type of action it is?
-* Connect to the **past context**/actions: Understand the causal chain of actions and reactions that led up to this action
-* Connect to the **reactions**: Project what the actors might do next.
+* Connect to the **past context**/actions: Understand the causal chain of actions and reactions that led up to this action by understanding context/motivations.
+* Connect to the **reactions**: Project the reaction of various actors to this action.
 
-This is done by two atomic generators or drivers:
+This is done by the atomic operation of:
 
-* Visualising an action being performed.
-* Putting yourself into the mind of actors, then visualising their past actions to understand context and motivation.
+* Putting yourself into the mind of an actor.
 
 Lastly, we can add a layer of categorization to situations, actors and actions to make connections between past and present situations of similar kind:
 
