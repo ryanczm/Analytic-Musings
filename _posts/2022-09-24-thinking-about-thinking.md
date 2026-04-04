@@ -109,7 +109,7 @@ Being able to see something at lots of levels and <i>go between them smoothly</i
 
 These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's by putting yourself in their perspective.
 
-The node is an actor performing an action. Every action is a reaction and causes a reaction. The trick is to connect a situation together by connecting the nodes/actions of different actors together across time, past and present. We can do this via these principles:
+The node is an actor performing an action. Every action is a reaction and causes a reaction. The trick is to connect a situation together by connecting the nodes/actions of different actors together across time, past and present. We connect different situations together.
 
 * Connect to the **situation**: What kind of situation is this action belonging to? 
 * Connect to the **actors**: What kind of actors are involved and what type of actors are they?
