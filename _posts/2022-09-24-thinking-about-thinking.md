@@ -116,7 +116,7 @@ We can then break down a situation hierarchically over time into subplots or sub
 * Connect to the **situation**: What kind of subplot is this? Certain subplots have the same set of actors doing the same set of actions.
 * Connect to the **actors**: What kind of actors are involved in this subplot?
 * Visualise the **action**: What actions are the actors performing?
-* Connect to the **past context**/actions: Figuring out which was the previous actions that triggered the current reaction.
+* Connect to the **past context**/actions: Figuring out which was the previous actions that triggered the current reaction aka "why".
 * Connect to the **reactions**: Try and forecast how the next subplot evolves or subplots as a reaction to the current frame of reference.
 
 This is done by the atomic operations:
