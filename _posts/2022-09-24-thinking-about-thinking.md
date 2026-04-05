@@ -113,7 +113,7 @@ The node is an actor performing an action. Every action is a reaction and causes
 
 We can then break down a situation hierarchically over time into subplots or subsituations.
 
-* Connect to the **situation**: What kind of subplot is this?
+* Connect to the **situation**: What kind of subplot is this? Certain subplots have the same set of actors doing the same set of actions.
 * Connect to the **actors**: What kind of actors are involved in this subplot?
 * Visualise the **action**: What actions are the actors performing?
 * Connect to the **past context**/actions: Understand the previous subplots that led up to this subplot.
