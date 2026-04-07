@@ -120,8 +120,11 @@ We can then break down a situation hierarchically over time into subplots or sub
 This is done by the atomic operations:
 
 * Putting yourself into the mind/perspective of an actor.
-* Visualising their actions and past actions in similar subplots.
+* Visualising the current/future actions and past actions in similar subplots.
 * Understanding their motivations.
+
+Lastly, the effect of certain actions can be quantified, via numbers. This lets you aggregate (add/substract/etc) into a single larger effect.
+
 
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
