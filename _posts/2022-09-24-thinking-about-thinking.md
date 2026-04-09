@@ -123,7 +123,7 @@ This is done by the atomic operations:
 * Visualising the current/future actions and past actions in similar subplots.
 * Understanding their motivations.
 
-Lastly, the effect of certain actions can be quantified, via numbers. This lets you aggregate (add/substract/etc) into a single larger effect.
+Lastly, the effect of certain actions can be quantified, via numbers. Two operations can be done: aggregation (collapse into a single effect) or comparison (how much is this effect vis-a-vis others?)
 
 
 
