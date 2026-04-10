@@ -193,7 +193,7 @@ To that, these points follow:
 * Commodity supply shock, due to logistics and transport time on ships/tankers, propagates with a lag, could be weeks or months, depending on distance, and any market might show delayed price impact.
 * The impact of one decision or one person can propagate through time in a domino effect and grow in size and scale.
 
-As of today, past the ultimatum subplot the narrative seems that there will be a ground invasion coming. Reports of military buildup again are going on OSINT. Meanwhile the Hormuz subplot has seen a trickle of carriers go through, some with and without permission.
+As of today, start of April, peace talks / ceasefire agreement for couple of weeks seems to have not done much, as bombings and strikes of infrastructure continue, neither has traffic opened up, and the military buildup is still ongoing. So... 
 
 ## The Humanistic Framework
 
