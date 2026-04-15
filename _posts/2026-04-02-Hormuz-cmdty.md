@@ -139,7 +139,7 @@ From another tweet, sugarcane is likely to be the most affected by the urea/nitr
 
 Brazil and India dominate sugarcane production/export and USA and Brazil dominate ethanol production from corn and sugar respectively.  
 
-Thus, the question is how farmers buy fertilizer for the next crop cycles, the impact of each time of fertilizer shortage/prices on yield and where this impacts the futures curve.
+Thus, the question is how farmers buy fertilizer for the next crop cycles, the impact of each time of fertilizer shortage/prices on yield/supply demand models and where this impacts the futures curve.
 
 
 <center>
