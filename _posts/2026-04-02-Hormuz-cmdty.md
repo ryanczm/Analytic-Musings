@@ -6,7 +6,7 @@ category: Commods
 ---
 
 
-This is a post to apply the [humanistic framework](https://analytic-musings.com/2022/09/24/thinking-about-thinking/) set out in my first post to understand the Iran war situation and the causal chain of reactions/effects propagating through energy, agriculture, geopolitics etc. The idea is to identify the causal chain of effects, but not quantify their size/path, as I don't have enough skill/resources to do that. 
+This is a post to apply the [humanistic framework](https://analytic-musings.com/2022/09/24/thinking-about-thinking/) set out in my first post to understand the Iran war situation and the causal chain of reactions/effects propagating through energy, agriculture, geopolitics etc. As per the framework, an action can have an effect, which we can quantify in numbers, then we can compare, aggregate or model how one effect affects another. However, we are not going to do that here (e.g quantifying the effect of the actions of the war on supply losses and flow losses) - to keep things simple.
 
 I am aware that establishing the chain of effects is one thing but quantifying their exact path in scale and time is another matter entirely.
 
@@ -127,6 +127,8 @@ Urea goes to India, SEA, Brazil and urea sensitive crops are sugar, rice, wheat,
 
 There is apparently physical intuition for which crops are sensitive to which type of fertilizer component the most (N, P, K) etc. Leaf intensive crops are more N dependent while seed intensive crops are more P dependent, except soybeans which have lots of leaves but can somehow fix their own nitrogen due to biology.
 
+Sulfuric acid is used in leaching of in metal ores where concentration is low in base/battery metals like copper, nickel, cobalt, zinc and lithium. Given the loss of sulfur exports out of the gulf and the banning of sulfuric acid exports by China, miners might face increased leaching costs reflecting in prices. However the question is how these effects can be quantified.
+
 ## Agriculture
 
 <center>
@@ -135,7 +137,9 @@ There is apparently physical intuition for which crops are sensitive to which ty
 
 From another tweet, sugarcane is likely to be the most affected by the urea/nitrogen fertilizer export loss due to losses in Brazil, India and Thailand. What's worse is China also has implemented a fertilizer export ban in addition and there is a tweet of India's fertilizer plants that use urea to go round. 
 
-Brazil and India dominate sugarcane production/export and USA and Brazil dominate ethanol production from corn and sugar respectively. 
+Brazil and India dominate sugarcane production/export and USA and Brazil dominate ethanol production from corn and sugar respectively.  
+
+Thus, the question is how farmers buy fertilizer for the next crop cycles and where this impacts the futures curve.
 
 
 <center>
