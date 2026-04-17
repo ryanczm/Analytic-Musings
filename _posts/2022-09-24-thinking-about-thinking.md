@@ -113,7 +113,7 @@ We can then break down a situation hierarchically over time into subplots or sub
 
 * Connect to the **situation**: What kind of subplot is this? Certain subplots have the same set of actors doing the same set of actions.
 * Connect to the **actors**: Who are the actors are involved in this subplot? Visualise them.
-* Visualise the **action**: What actions are the actors performing?
+* Visualise the **action**: What actions are the actors performing? Use **non-precise visualisation**
 * Connect to the **past context**/actions: Figuring out which was the previous actions by other actors that triggered the current reaction aka "why".
 * Connect to the **reactions**: Try and forecast how the next subplot evolves or subplots as a reaction to the current frame of reference.
 
