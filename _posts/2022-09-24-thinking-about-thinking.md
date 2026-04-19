@@ -123,6 +123,8 @@ This is done by the atomic operations:
 * Visualising the current/future actions and past actions in similar subplots.
 * Understanding their motivations.
 
+**Connecting across situations/subplots** - The key idea is to see how subplots or situations connect across time and space, with the key idea being - certain situations tend to play out in certain ways similar to the past. So we can connect past situations to the present to understand how the current one unfolds better.
+
 **Quantification of actions** - the effect of certain actions can be quantified, via numbers. Once you assing numbers, you can do things like: aggregation (collapse into a single effect) or comparison (how much is this effect vis-a-vis others by connecting to other numbers) or modelling (how much does change in these numbers from this action result in change in numbers in another action?)
 
 
