@@ -82,3 +82,15 @@ Can we predict which teams get the most injuries?
 
 * Run regression with distance ran and total substitute minutes on injury time per season.
 * Should be able to prove that better substitute management results in less injuries.
+
+## Results Betting
+
+The traditional sports betting avenue. What models can we use? Regression, tree, bayesian.
+
+Andrew Mack wrote some books on sports betting. Worth looking into. He wrote Statistical/Bayesian Models for Sports Betting in Excel and R.
+
+* Previous H2H, scores & xg - Idea being previous H2H should give some signal. Problem - past circumstances were different!
+* Manager H2H, scores & xg - Idea being managerial effect should give some signal. Problem - different teams!
+* Past form, scores & xg - Idea being momentum plays a role. 
+* Subreddit/community sentiment analysis  - Idea being the teams own fans should have a good idea of their teams performance. 
+* Discretionary approach - From reading the subreddit, watching games. Problem - concentration and attention! You can't do deep research on a high breadth/xs of teams across leagues. One is tiring enough!
