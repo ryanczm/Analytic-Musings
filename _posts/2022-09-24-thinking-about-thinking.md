@@ -119,9 +119,8 @@ We can then break down a situation hierarchically over time into subplots or sub
 
 This is done by the atomic operations:
 
-* Putting yourself into the mind/perspective of an actor.
-* Visualising the current/future actions and past actions in similar subplots.
-* Understanding their motivations.
+* **Mind reading** - Putting yourself into the mind/perspective of an actor in a situation.
+* **Context Building** - Visualising their current and past actions in a situation.
 
 **Connecting across situations/subplots** - The key idea is to see how subplots or situations connect across time and space, with the key idea being - certain situations tend to play out in certain ways similar to the past. So we can connect past situations to the present to understand how the current one unfolds better.
 
