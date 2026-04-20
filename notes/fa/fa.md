@@ -92,5 +92,6 @@ Andrew Mack wrote some books on sports betting. Worth looking into. He wrote Sta
 * Previous H2H, scores & xg - Idea being previous H2H should give some signal. Problem - past circumstances were different!
 * Manager H2H, scores & xg - Idea being managerial effect should give some signal. Problem - different teams!
 * Past form, scores & xg - Idea being momentum plays a role. 
+* Injuries - Player importance metric scaled by num injuries.
 * Subreddit/community sentiment analysis  - Idea being the teams own fans should have a good idea of their teams performance. 
 * Discretionary approach - From reading the subreddit, watching games. Problem - concentration and attention! You can't do deep research on a high breadth/xs of teams across leagues. One is tiring enough!
