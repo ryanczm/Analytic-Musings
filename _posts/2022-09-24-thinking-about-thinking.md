@@ -124,6 +124,7 @@ This can be done via the **action framework**:
 * Space - Place on a map
 * Action - Visualise the action, bootstrap from action space (a category of actor performs actions from their action space)
 * Effect - Quantify the effect
+* Motivation - Understand the reasoning behind it, the intended outcome
 * Cause/Reaction - What other action/actor caused it, how actors react with actions.
 
 **Connecting across situations/subplots** - The key idea is to see how subplots or situations connect across time and space, with the key idea being - certain situations tend to play out in certain ways similar to the past. So we can connect past situations to the present to understand how the current one unfolds better.
