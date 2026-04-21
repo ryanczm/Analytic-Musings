@@ -122,7 +122,7 @@ This can be done via the **action framework**:
 * Owner - Visualise the actor 
 * Time - Place on a timeline
 * Space - Place on a map
-* Action - Visualise the action
+* Action - Visualise the action, bootstrap from action space (a category of actor performs actions from their action space)
 * Effect - Quantify the effect
 * Cause/Reaction - What other action/actor caused it, how actors react with actions.
 
