@@ -117,10 +117,14 @@ We can then break down a situation hierarchically over time into subplots or sub
 * Connect to the **past context**/actions: Figuring out which was the previous actions by other actors that triggered the current reaction aka "why".
 * Connect to the **reactions**: Try and forecast how the next subplot evolves or subplots as a reaction to the current frame of reference.
 
-This is done by the atomic operations:
+This can be done via the **action framework**:
 
-* **Mind reading** - Putting yourself into the mind/perspective of an actor in a situation.
-* **Action Visualisation** - Visualising the actions performed at a given time and space. The key is that each actor based on their category bootstraps actions from their action space. Recognise the action space an actor can operate in. 
+* Owner - Visualise the actor 
+* Time - Place on a timeline
+* Space - Place on a map
+* Action - Visualise the action
+* Effect - Quantify the effect
+* Cause/Reaction - What other action/actor caused it, how actors react with actions.
 
 **Connecting across situations/subplots** - The key idea is to see how subplots or situations connect across time and space, with the key idea being - certain situations tend to play out in certain ways similar to the past. So we can connect past situations to the present to understand how the current one unfolds better.
 
