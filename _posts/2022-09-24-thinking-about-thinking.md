@@ -120,7 +120,7 @@ The node is an actor performing an action. Every action is a reaction and causes
 This can be done via the **action framework**:
 
 * Situation - Which situation/subplot the action belongs to.
-* Owner(s) - Visualise the actor 
+* Owner(s) - From their perspective, visualise the actorc
 * Time(s) - Place on a timeline
 * Space(s) - Place on a map
 * Action(s) - Visualise the action, bootstrap from action space (a category of actor performs actions from their action space)
