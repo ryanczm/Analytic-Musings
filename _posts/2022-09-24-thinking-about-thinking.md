@@ -109,23 +109,25 @@ These fields encompass markets, finance, economics, history, etc, any kind of fi
 
 The node is an actor performing an action. Every action is a reaction and causes a reaction. A grouping of nodes or actions by actors is called a situation or plot.
 
-We can then break down a situation hierarchically over time into subplots or subsituations.
+<!-- We can then break down a situation hierarchically over time into subplots or subsituations.
 
 * Connect to the **situation**: What kind of subplot is this? Certain subplots have the same set of actors doing the same set of actions.
 * Connect to the **actors**: Who are the actors are involved in this subplot? Visualise them and put yourself in their perspective.
 * Visualise the **action**: What actions are the actors performing? Use **visualisation** via the deterministic framework.
 * Connect to the **past context**/actions: Figuring out which was the previous actions by other actors that triggered the current reaction aka "why".
-* Connect to the **reactions**: Try and forecast how the next subplot evolves or subplots as a reaction to the current frame of reference.
+* Connect to the **reactions**: Try and forecast how the next subplot evolves or subplots as a reaction to the current frame of reference. -->
 
 This can be done via the **action framework**:
 
-* Owner - Visualise the actor 
-* Time - Place on a timeline
-* Space - Place on a map
-* Action - Visualise the action, bootstrap from action space (a category of actor performs actions from their action space)
-* Effect - Quantify the effect
-* Motivation - Understand the reasoning behind it, the intended outcome
-* Cause/Reaction - What other action/actor caused it, how actors react with actions.
+* Situation - Which situation/subplot the action belongs to.
+* Owner(s) - Visualise the actor 
+* Time(s) - Place on a timeline
+* Space(s) - Place on a map
+* Action(s) - Visualise the action, bootstrap from action space (a category of actor performs actions from their action space)
+* Effect(s) - Quantify the effect
+* Motivation(s) - Understand the reasoning behind it, the intended outcome
+* Cause/Context(s) - What other action/actor caused it.
+* Reaction(s) - What other actions will this trigger as reactions? 
 
 **Connecting across situations/subplots** - The key idea is to see how subplots or situations connect across time and space, with the key idea being - certain situations tend to play out in certain ways similar to the past. So we can connect past situations to the present to understand how the current one unfolds better.
 
