@@ -85,13 +85,15 @@ Can we predict which teams get the most injuries?
 
 ## Results Betting
 
-The traditional sports betting avenue. What models can we use? Regression, tree, bayesian.
+The traditional sports betting avenue. What models can we use? 
 
-Andrew Mack wrote some books on sports betting. Worth looking into. He wrote Statistical/Bayesian Models for Sports Betting in Excel and R.
+Andrew Mack wrote some books on sports betting. Worth looking into. 
+
+Some ideas:
 
 * Previous H2H, scores & xg - Idea being previous H2H should give some signal. Problem - past circumstances were different!
 * Manager H2H, scores & xg - Idea being managerial effect should give some signal. Problem - different teams!
 * Past form, scores & xg - Idea being momentum plays a role. 
 * Injuries - Player importance metric scaled by num injuries.
 * Subreddit/community sentiment analysis  - Idea being the teams own fans should have a good idea of their teams performance. Problem - how do we extract informed opinions vs noise?
-* Discretionary approach - From reading the subreddit, watching games. Problem - concentration and attention! You can't do deep research on a high breadth/xs of teams across leagues. One is tiring enough!
+* Discretionary approach - From reading sources of informed participants (e.g club subreddits/forums/channels) and understanding the situation. The question is, how do you do **fundamental** research in football? 
