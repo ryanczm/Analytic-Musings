@@ -131,6 +131,8 @@ This can be done via the **action framework**:
 
 The first 5 steps are the groundwork/foundation needed to be laid out before you move on to the latter.
 
+**Mind Reading** - Combining the first 5 steps effectively lets you mind read, really putting yourself into their situation and visualising them performing actions. It builds empathy/understanding from their view.
+
 **Connecting across situations/subplots** - The key idea is to see how subplots or situations connect across time and space, with the key idea being - certain situations tend to play out in certain ways similar to the past. So we can connect past situations to the present to understand how the current one unfolds better.
 
 **Quantification of actions** - the effect of certain actions can be quantified, via numbers. Once an effect is assigned numbers, you can do **comparison** (how much is this effect vis-a-vis others by connecting to other numbers) or **modelling** (building a causal chain of effects)
