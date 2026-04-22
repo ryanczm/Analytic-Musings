@@ -89,11 +89,13 @@ The traditional sports betting avenue. What models can we use?
 
 Andrew Mack wrote some books on sports betting. Worth looking into. 
 
-Some ideas:
+Some ideas for **short term betting** (e.g fixture results):
 
 * Previous H2H, scores & xg - Idea being previous H2H should give some signal. Problem - past circumstances were different!
 * Manager H2H, scores & xg - Idea being managerial effect should give some signal. Problem - different teams!
-* Past form, scores & xg - Idea being momentum plays a role. 
+* Past form/results, scores & xg - Idea being momentum and current form plays a role.  
 * Injuries - Player importance metric scaled by num injuries.
 * Subreddit/community sentiment analysis  - Idea being the teams own fans should have a good idea of their teams performance. Problem - how do we extract informed opinions vs noise?
 * Discretionary approach - From reading sources of informed participants (e.g club subreddits/forums/channels) and understanding the situation. The question is, how do you do **fundamental** research in football? 
+
+Lastly, **long term betting** can utilize some ideas from the above, like managerial assessment, squad strength with salaries and budgets, etc. These would be useful for betting on longer term outcomes like league positioning and managerial outcomes like getting fired or hired. 
