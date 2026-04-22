@@ -120,14 +120,16 @@ The node is an actor performing an action. Every action is a reaction and causes
 This can be done via the **action framework**:
 
 * **Situation/subplot** - Which situation/subplot the action belongs to.
-* **Owner(s)** - From their perspective, visualise the actorc
-* **Time(s)** - Place on a timeline
-* **Space(s)** - Place on a map
-* **Action(s)** - Visualise the action, bootstrap from action space (a category of actor performs actions from their action space)
-* **Effect(s)** - Quantify the effect
+* **Owner(s)[*]** - From their perspective, visualise the actor
+* **Time(s)[*]** - Place on a timeline
+* **Space(s)[*]** - Place on a map
+* **Action(s)[*]** - Visualise the action, bootstrap from action space (a category of actor performs actions from their action space)
+* **Effect(s)** - Quantify the effect (numbers)
 * **Motivation(s)** - Understand the reasoning behind it, the intended outcome
 * **Cause/Context(s)** - What other action/actor caused it.
 * **Reaction(s)** - What other actions will this trigger as reactions? 
+
+The first 5 steps are the groundwork/foundation needed to be laid out before you move on to the latter.
 
 **Connecting across situations/subplots** - The key idea is to see how subplots or situations connect across time and space, with the key idea being - certain situations tend to play out in certain ways similar to the past. So we can connect past situations to the present to understand how the current one unfolds better.
 
