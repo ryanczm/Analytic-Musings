@@ -33,8 +33,12 @@ Aggregation level: per match > per season
     * https://fbrapi.com/
 * Transfermarket API
     * https://github.com/dcaribou/transfermarkt-datasets (dcaribou)
-    * https://www.kaggle.com/datasets/davidcariboo/player-scores (dcaribou)
     * https://github.com/felipeall/transfermarkt-api (felipeall) 
+* Kaggle
+    * https://www.kaggle.com/datasets/davidcariboo/player-scores (dcaribou)
+    * https://www.kaggle.com/datasets/armin2080/premier-league-matches-dataset-2021-to-2025 (armin2080)
+    
+
 
 ## Player Assessment with Stats
 
