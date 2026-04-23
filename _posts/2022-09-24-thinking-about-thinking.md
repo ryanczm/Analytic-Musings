@@ -123,7 +123,7 @@ This can be done via the **action framework**:
 * **Owner(s)[*]** - From their perspective, visualise the actors in this situation/subplot, go into their mind.
 * **Time(s)[*]** - Place on a timeline
 * **Space(s)[*]** - Place on a map
-* **Action(s)[*]** - Visualise the actions done by actors, bootstrap from action space (a category of actor performs actions from their action space)
+* **Action(s)[*]** - Visualise the actions done by actors, bootstrap from their action space
 * **Motivation(s)[*]** - What is the motivation of the actor?
 * **Effect(s)** - Quantify the effects (numbers)
 * **Cause/Context(s)** - What other actions/actors caused this.
