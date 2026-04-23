@@ -128,13 +128,15 @@ This can be done via the **action framework**:
 * **Effect(s)** - Quantify the effect (numbers)
 * **Cause/Context(s)** - What other action/actor caused it.
 * **Reaction(s)** - What other actions will this trigger as reactions? 
+* **Assumptions** -
 
 The first 6 [*] are the **core/foundation** links. They need to be laid out before you move on to the next steps. Depending on nature of action, different actions have different importance weightings on their links. E.g one action could be important to figure out in space/time, others could be important on effect, motivation, etc.
 
-**Connecting across situations/subplots** - The key idea is to see how subplots or situations connect across time and space, with the key idea being - certain situations tend to play out in certain ways similar to the past. So we can connect past situations to the present to understand how the current one unfolds better.
-
 **Quantification of actions** - the effect of certain actions can be quantified, via numbers. Once an effect is assigned numbers, you can do **comparison** (how much is this effect vis-a-vis others by connecting to other numbers) or **modelling** (building a causal chain of effects)
 
+**Assumptions** - To model nth order reactions far into the future (e.g X does A, causing Y do to B, causing Z to do C), we need **assumptions**. Aka assume an action is taken, quantify the effect with a number, and run with it.
+
+**Connecting across situations/subplots** - The key idea is to see how subplots or situations connect across time and space, with the key idea being - certain situations tend to play out in certain ways similar to the past. So we can connect past situations to the present to understand how the current one unfolds better.
 
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
