@@ -128,9 +128,9 @@ This can be done via the **action framework**:
 * **Effect(s)** - Quantify the effects (numbers)
 * **Cause/Context(s)** - What other actions/actors caused this.
 * **Reaction(s)** - What other actions will this trigger as reactions? 
-* **Assumptions** -
 
-Together, the key skill is to be so good at this you can effectively put yourself in the mind of the actors in question and live their experience in a detailed, visually accurate manner. 
+
+**Key Idea** - Together, the key skill is to be so good at this you can effectively put yourself in the mind of the actors in question and live their experience in a detailed, visually accurate manner. 
 
 **Quantification of actions** - the effect of certain actions can be quantified, via numbers. Once an effect is assigned numbers, you can do **comparison** (how much is this effect vis-a-vis others by connecting to other numbers) or **modelling** (building a causal chain of effects)
 
