@@ -110,12 +110,12 @@ These fields encompass markets, finance, economics, history, etc, any kind of fi
 The node is an actor performing an action. Every action is a reaction and causes a reaction. A grouping of nodes or actions by actors is called a situation or plot.
 
 We can then break down a situation hierarchically over time into subplots or subsituations.
-
+<!-- 
 * Connect to the **situation**: What kind of subplot is this? Certain subplots have the same set of actors doing the same set of actions.
 * Connect to the **actors**: Who are the actors are involved in this subplot? Visualise them and put yourself in their perspective.
 * Visualise the **action**: What actions are the actors performing? Use **visualisation** via the deterministic framework.
 * Connect to the **past context**/actions: Figuring out which was the previous actions by other actors that triggered the current reaction aka "why".
-* Connect to the **reactions**: Try and forecast how the next subplot evolves or subplots as a reaction to the current frame of reference.
+* Connect to the **reactions**: Try and forecast how the next subplot evolves or subplots as a reaction to the current frame of reference. -->
 
 This can be done via the **action framework**:
 
