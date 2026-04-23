@@ -109,24 +109,24 @@ These fields encompass markets, finance, economics, history, etc, any kind of fi
 
 The node is an actor performing an action. Every action is a reaction and causes a reaction. A grouping of nodes or actions by actors is called a situation or plot.
 
-<!-- We can then break down a situation hierarchically over time into subplots or subsituations.
+We can then break down a situation hierarchically over time into subplots or subsituations.
 
 * Connect to the **situation**: What kind of subplot is this? Certain subplots have the same set of actors doing the same set of actions.
 * Connect to the **actors**: Who are the actors are involved in this subplot? Visualise them and put yourself in their perspective.
 * Visualise the **action**: What actions are the actors performing? Use **visualisation** via the deterministic framework.
 * Connect to the **past context**/actions: Figuring out which was the previous actions by other actors that triggered the current reaction aka "why".
-* Connect to the **reactions**: Try and forecast how the next subplot evolves or subplots as a reaction to the current frame of reference. -->
+* Connect to the **reactions**: Try and forecast how the next subplot evolves or subplots as a reaction to the current frame of reference.
 
 This can be done via the **action framework**:
 
-* **Situation/subplot[*]** - Which situation/subplot the action belongs to.
-* **Owner(s)[*]** - From their perspective, visualise the actor, put yourself into their situation.
+* **Situations/subplots[*]** - Which situation/subplot the action belongs to.
+* **Owner(s)[*]** - From their perspective, visualise the actors in this situation/subplot, go into their mind.
 * **Time(s)[*]** - Place on a timeline
 * **Space(s)[*]** - Place on a map
-* **Action(s)[*]** - Visualise the action, bootstrap from action space (a category of actor performs actions from their action space)
-* **Motivation(s)[*]** - The why. Why are they behaving like this?
-* **Effect(s)** - Quantify the effect (numbers)
-* **Cause/Context(s)** - What other action/actor caused it.
+* **Action(s)[*]** - Visualise the actions done by actors, bootstrap from action space (a category of actor performs actions from their action space)
+* **Motivation(s)[*]** - What is the motivation of the actor?
+* **Effect(s)** - Quantify the effects (numbers)
+* **Cause/Context(s)** - What other actions/actors caused this.
 * **Reaction(s)** - What other actions will this trigger as reactions? 
 * **Assumptions** -
 
