@@ -130,7 +130,7 @@ This can be done via the **action framework**:
 * **Reaction(s)** - What other actions will this trigger as reactions? 
 * **Assumptions** -
 
-The first 6 [*] are the **core/foundation** links. They need to be laid out before you move on to the next steps. Depending on nature of action, different actions have different importance weightings on their links. E.g one action could be important to figure out in space/time, others could be important on effect, motivation, etc.
+Together, the key skill is to be so good at this you can effectively put yourself in the mind of the actors in question and live their experience in a detailed fashion. 
 
 **Quantification of actions** - the effect of certain actions can be quantified, via numbers. Once an effect is assigned numbers, you can do **comparison** (how much is this effect vis-a-vis others by connecting to other numbers) or **modelling** (building a causal chain of effects)
 
