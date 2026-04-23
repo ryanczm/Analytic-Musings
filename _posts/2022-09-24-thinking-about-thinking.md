@@ -119,17 +119,17 @@ The node is an actor performing an action. Every action is a reaction and causes
 
 This can be done via the **action framework**:
 
-* **Situation/subplot** - Which situation/subplot the action belongs to.
+* **Situation/subplot[*]** - Which situation/subplot the action belongs to.
 * **Owner(s)[*]** - From their perspective, visualise the actor
 * **Time(s)[*]** - Place on a timeline
 * **Space(s)[*]** - Place on a map
 * **Action(s)[*]** - Visualise the action, bootstrap from action space (a category of actor performs actions from their action space)
+* **Motivation(s)[*]** - The why. Why are they behaving like this?
 * **Effect(s)** - Quantify the effect (numbers)
-* **Motivation(s)** - Understand the reasoning behind it, the intended outcome
 * **Cause/Context(s)** - What other action/actor caused it.
 * **Reaction(s)** - What other actions will this trigger as reactions? 
 
-The first 5 steps are the groundwork/foundation needed to be laid out before you move on to the latter.
+The first 6 [*] are the **core/foundation** steps. They need to be laid out before you move on to the next steps.
 
 **Mind Reading** - Combining the first 5 steps effectively lets you mind read, really putting yourself into their situation and visualising them performing actions. It builds empathy/understanding from their view.
 
