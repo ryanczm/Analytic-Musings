@@ -125,7 +125,7 @@ This can be done via the **action framework**:
 * **Space(s)** - Place on a map
 * **Action(s)** - Visualise the actions done by actors, bootstrap from their action space
 * **Motivation(s)** - What is the motivation of the actor?
-* **Effect(s)** - Quantify the effects (numbers)
+* **Effect(s)** - Quantify the effects by connecting numbers and names to the effect.
 * **Cause/Context(s)** - What other actions/actors caused this.
 * **Reaction(s)** - What other actions will this trigger as reactions? 
 
