@@ -119,8 +119,8 @@ We can then break down a situation hierarchically over time into subplots or sub
 
 This can be done via the **action framework**:
 
-* **Situations/subplots** - Which situation/subplot the action belongs to.
 * **Owner(s)** - From their perspective, visualise the actors in this situation/subplot, go into their mind.
+* **Situations/subplots** - Which situation/subplot the action belongs to.
 * **Time(s)** - Place on a timeline
 * **Space(s)** - Place on a map
 * **Action(s)** - Visualise the actions done by actors, bootstrap from their action space
@@ -134,7 +134,7 @@ This can be done via the **action framework**:
 
 **Quantification of actions** - the effect of certain actions can be quantified, via numbers. Once an effect is assigned numbers, you can do **comparison** (how much is this effect vis-a-vis others by connecting to other numbers) or **modelling** (building a causal chain of effects)
 
-**Assumptions** - To model nth order reactions far into the future (e.g X does A, causing Y do to B, causing Z to do C), we need **assumptions**. Aka assume an action is taken, quantify the effect with a number, and run with it.
+<!-- **Assumptions** - To model nth order reactions far into the future (e.g X does A, causing Y do to B, causing Z to do C), we need **assumptions**. Aka assume an action is taken, quantify the effect with a number, and run with it. -->
 
 **Connecting across situations/subplots** - The key idea is to see how subplots or situations connect across time and space, with the key idea being - certain situations tend to play out in certain ways similar to the past. So we can connect past situations to the present to understand how the current one unfolds better.
 
