@@ -120,8 +120,8 @@ We can then break down a situation hierarchically over time into subplots or sub
 
 This can be done via the **action framework**:
 
-* **Owner(s)** - From their perspective, visualise the actors in this situation/subplot, go into their mind.
-* **Situations/subplots** - Which situation/subplot the action belongs to.
+* **Owner(s)** - From the current information, visualise the actor(s) in this situation/subplot, go into their mind.
+* **Situations/subplots** - Which situation/subplot the action belongs to. GOTO previous and visualise more actors involved.
 * **Time(s)** - Place on a timeline
 * **Space(s)** - Place on a map
 * **Action(s)** - Visualise the actions done by actors, bootstrap from their action space
