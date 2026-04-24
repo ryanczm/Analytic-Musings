@@ -127,7 +127,8 @@ This can be done via the **action framework**:
 * **Action(s)** - Visualise the actions done by actors, bootstrap from their action space
 * **Motivation(s)** - What is the motivation of the actor?
 * **Effect(s)** - Quantify the effects by connecting numbers and names to the effect.
-* **Cause/Context(s)** - What other actions/actors caused this.
+* **Cause(s)** - What was the action that caused this?
+* **Context(s)** - How the situation has unfolded, aka past relevant actions.
 * **Reaction(s)** - What other actions will this trigger as reactions? 
 
 
