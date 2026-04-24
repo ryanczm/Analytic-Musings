@@ -80,11 +80,12 @@ Key prompts - "Connections", "Visualisation"
 
 ## Semideterministic Framework
 
-For semi-deterministic fields, which is essentially computing, a system consists of nodes (data/information) and edges (operations/tools). Together, they form a graph.
+For semi-deterministic fields, which is essentially computing, a system consists of **nodes (data/information)** and **edges (operations/tools)**. Together, they form a graph operating at an **abstraction level**.
 
-However, the key skill is we can decompose/break down a system into simpler systems: aka a node or edge into more graphs in a recursive, top-down or bottom-up fashion.
+However, the key skill is we can
 
-So, there are different types of nodes and edges. We can connect them together (to go up to a higher abstraction layer) or break them down (go down).
+* **Decompose/break** down a node/edge in a system into another system of nodes and edges, going to a deeper level of abstraction.
+* **Build up** a node and edge system to be a node or edge in a higher abstraction level system.
 
 The key is to recognise the different types of nodes and edges, see how they connect together or break them down by understanding the landscape of abstraction layers.
 
