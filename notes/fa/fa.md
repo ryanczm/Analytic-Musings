@@ -125,5 +125,5 @@ In terms of football tropes we see often:
 
 In terms of the core momentum feature:
 
-* League-weighted is a proxy the problem of odds: a higher placed team should beat a lower placed team. 
+* League-weighted is a proxy the problem of odds: a higher placed team should beat a lower placed team. Problem is this feature only gains predictive power as the league progresses, at the start its basically useless.
 * EWMA or some windowing function should solve the decay problem: recent data is higher weighted because things tend to change.
