@@ -89,17 +89,41 @@ Can we predict which teams get the most injuries?
 
 ## Results Betting
 
-The traditional sports betting avenue. What models can we use? 
+The traditional sports betting avenue. 
 
-Andrew Mack wrote some books on sports betting. Worth looking into. 
+Andrew Mack wrote some sports betting books. Also, knowledge from systematic equity trading should be applicable here.
 
-Some ideas for **short term betting** (e.g fixture results):
+The core would be a **predictive model** that takes in features and outputs signals/predictions, feeding into another **trading layer (risk management/bet sizing)** to output trades, and we **rebalance/bet weekly**.
 
-* Previous H2H, scores & xg - Idea being previous H2H should give some signal. Problem - past circumstances were different!
-* Manager H2H, scores & xg - Idea being managerial effect should give some signal. Problem - different teams!
-* Past form/results, scores & xg - Idea being momentum and current form plays a role.  
-* Injuries - Player importance metric scaled by num injuries.
-* Subreddit/community sentiment analysis  - Idea being the teams own fans should have a good idea of their teams performance. Problem - how do we extract informed opinions vs noise?
-* Discretionary approach - From reading sources of informed participants (e.g club subreddits/forums/channels) and understanding the situation. The question is, how do you do **fundamental** research in football? 
+The key idea is: how much signal does past information of football matches have in the outcome of the next match?
 
-Lastly, **long term betting** can utilize some ideas from the above, like managerial assessment, squad strength with salaries and budgets, etc. These would be useful for betting on longer term outcomes like league positioning and managerial outcomes like getting fired or hired. 
+In terms of features:
+
+* **Core momentum feature**
+    * EWMA window of league weighted XG differentials - prior XG differentials should encode performance, XG mean reverts to true performance (another hypothesis that needs testing). 
+    * EMWA window of league weighted goal differentials - The true realized outcomes of matches, in case teams can consistently outperform/underperform XG due to structural reasons.
+* Informed fan feature
+    * Some sentiment indicator of reddit/forum results - only if the informed fans have predictive power.
+* Injury feature
+    * An injury score where player injuries imply the squad is weakened for the next match. This would be tricky because of player importance and substitutability. 
+* Manager H2H feature
+    * Some kind of H2H manager score, hypothesis being certain managers just tactically have each others number.
+* Referee feature
+    * Idea being that sometimes referees have biases against certain teams.
+
+In terms of data:
+
+* Fixture results - Just two numbers per fixture
+* XG results - Just two numbers per fixture
+* Injury data - who is available for the next game, who is injured for the next game. Not numerical.
+* Referee data - who referees which fixture.
+
+In terms of football tropes we see often:
+
+* There is this expectation that if you play well, but you lose, you should in theory win more in the future, vice versa. This should be encoded in XG.
+* Big chances or big saves define games. If a shot goes in just a few inches, the whole outcome changes and your whole bet is fried.
+
+In terms of the core momentum feature:
+
+* League-weighted is a proxy the problem of odds: a higher placed team should beat a lower placed team. 
+* EWMA or some windowing function should solve the decay problem: recent data is higher weighted because things tend to change.
