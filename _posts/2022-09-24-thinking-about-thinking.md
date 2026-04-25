@@ -109,7 +109,7 @@ Being able to see something at lots of levels and <i>go between them smoothly</i
 These fields encompass markets, finance, economics, history, etc, any kind of field where the aim is to model decisions made by actor's by putting yourself in their perspective.
 
 The node is an actor performing an action. Every action is a reaction and causes a reaction. A grouping of nodes or actions by actors is called a situation or plot.
-
+io
 We can then break down a situation hierarchically over time into subplots or subsituations.
 
 <!-- * Connect to the **situation**: What kind of subplot is this? Certain subplots have the same set of actors doing the same set of actions.
@@ -126,7 +126,7 @@ This can be done via the **action framework**:
 * **Space(s)** - Place on a map
 * **Action(s)** - Visualise the actions done by actors, bootstrap from their action space
 * **Motivation(s)** - What is the motivation of the actor?
-* **Effect(s)** - Quantify the effects by connecting numbers and names to the effect.
+* **Effect(s)** - Quantify the effects by connecting with numbers. This is done by looking at data.
 * **Cause(s)** - What was the action that caused this?
 * **Context(s)** - How the situation has unfolded, aka past relevant actions.
 * **Reaction(s)** - What other actions will this trigger as reactions? 
