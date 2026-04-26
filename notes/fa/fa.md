@@ -111,6 +111,7 @@ In terms of features:
     * We would have to quantify player importance. Ratings maybe?
 * Manager H2H feature
     * Some kind of H2H manager score, hypothesis being certain managers just tactically have each others number.
+    * This would be isolated to bigger games, and also managers who have a track record of H2H with the same team.
 * Referee feature
     * Idea being that sometimes referees have biases against certain teams.
 * Informed fan feature
