@@ -97,33 +97,47 @@ The core would be a **predictive model** that takes in features and outputs sign
 
 The key idea is: how much signal does past information of football matches have in the outcome of the next match?
 
+The core problem is: You can outplay a team on XG but still lose, and vice versa, and this can happen for streaks - making XG a problem.
+
 In terms of features:
 
 * **Core momentum feature**
-    * EWMA window of league weighted XG differentials - prior XG differentials should encode performance, XG mean reverts to true performance (another hypothesis that needs testing). 
-    * EMWA window of league weighted goal differentials - The true realized outcomes of matches, in case teams can consistently outperform/underperform XG due to structural reasons.
-* Informed fan feature
-    * Some sentiment indicator of reddit/forum results - only if the informed fans have predictive power.
+    * EWMA window of league/point-weighted time-weighted XG differentials - prior XG differentials should encode performance, XG mean reverts to true performance (another hypothesis that needs testing). 
+    * EMWA window of league/point-weighted time-weighted goal differentials - The true realized outcomes of matches, in case teams can consistently outperform/underperform XG due to structural reasons.
+* Home and away feature
+    * Idea being certain teams have more home advantage than others. How to quantify? Can we fuse it into core momentum features.
 * Injury feature
     * An injury score where player injuries imply the squad is weakened for the next match. This would be tricky because of player importance and substitutability. 
 * Manager H2H feature
     * Some kind of H2H manager score, hypothesis being certain managers just tactically have each others number.
 * Referee feature
     * Idea being that sometimes referees have biases against certain teams.
+* Informed fan feature
+    * Some sentiment indicator of reddit/forum results - only if the informed fans have predictive power.
 
-In terms of data:
-
-* Fixture results - Just two numbers per fixture
-* XG results - Just two numbers per fixture
-* Injury data - who is available for the next game, who is injured for the next game. Not numerical.
-* Referee data - who referees which fixture.
 
 In terms of football tropes we see often:
 
-* There is this expectation that if you play well, but you lose, you should in theory win more in the future, vice versa. This should be encoded in XG.
+* There is this expectation that if you play well, but you lose, you should in theory win more in the future, vice versa. This should be encoded in XG. For example, Liverpool led the 25/26 season for the first 5-10 games scraping last minute winners etc.
 * Big chances or big saves define games. If a shot goes in just a few inches, the whole outcome changes and your whole bet is fried.
 
 In terms of the core momentum feature:
 
-* League-weighted is a proxy the problem of odds: a higher placed team should beat a lower placed team. Problem is this feature only gains predictive power as the league progresses, at the start its basically useless.
-* EWMA or some windowing function should solve the decay problem: recent data is higher weighted because things tend to change.
+* Again the fundamental problem is that you can have games where one team wallops the other on XG but still loses by a margin. Is there some feature that was missing?
+* League/point-weighted is a proxy the problem of odds: a higher placed team should beat a lower placed team. An XG against a low point team is less than an XG against a high point team. So you need to calibrate your XG by points differential. Problem is this feature only gains predictive power as the league progresses, at the start its basically useless.
+* Time-weighted is a proxy of the idea that last minute winners are not very sustainable. So you weigh your XG by when the goals are scored: a 1-0 in the 1st half and set up shop in the 2nd is much less close than a match with same XG from a last minute winner.
+* EWMA or some windowing function should solve the decay problem: recent data is higher weighted because things tend to change. Problem: we know Liverpool 25/26 went on a winning streak in the first few games of the league with last minute winners. They kept winning until they didn't. So how could a model capture when they break the streak and lose?
+
+In terms of research:
+
+* Look at match threads/data from the most XG-failed matches and try and figure out the pattern.
+
+In terms of data:
+
+* Fixture results - Just two numbers per fixture - 
+* Additional fixture details - Referee, managers.
+* XG results - Just two numbers per fixture - UnderStat
+* Injury data - Injury list -
+* Referee data - who referees which fixture.
+
+
