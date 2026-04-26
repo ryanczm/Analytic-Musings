@@ -120,7 +120,7 @@ A grouping of nodes or actions by actors is called a situation or subplot. We ca
 
 This can be done via the **action framework**:
 
-* **Owner(s)** - Get a feel for the actors in the situation: their names (names anchor information!), visualise them. Write out an **actor mindmap**.
+* **Actors(s)** - Get a feel for the actors in the situation: their names (names anchor information!), visualise them. Write out an **actor mindmap**.
 * **Situations/subplots** - Which situation/subplot the action belongs to. GOTO previous and visualise more actors involved.
 * **Time(s)** - Place on a timeline
 * **Space(s)** - Place on a map
@@ -133,7 +133,7 @@ This can be done via the **action framework**:
 
 **Key Idea** - Together, the key skill is to be so good at this you can effectively put yourself in the **mind/perspective** of the actors in question and **live their experience with empathy** in a detailed, visually accurate manner. 
 
-**Quantification of actions** - the effect of certain actions can be quantified, via numbers or data. Once an effect is assigned numbers, you can do **comparison** (how much is this effect vis-a-vis others by connecting to other numbers) or **modelling** (building a causal chain of effects)
+**Quantification of actions** - the effect of certain actions can be quantified, via numbers or data. Then, you can connect them to one another.
 
 <!-- **Assumptions** - To model nth order reactions far into the future (e.g X does A, causing Y do to B, causing Z to do C), we need **assumptions**. Aka assume an action is taken, quantify the effect with a number, and run with it. -->
 
