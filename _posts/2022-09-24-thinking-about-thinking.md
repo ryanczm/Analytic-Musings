@@ -120,7 +120,7 @@ A grouping of nodes or actions by actors is called a situation or subplot. We ca
 
 This can be done via the **action framework**:
 
-* **Owner(s)** - Get a feel for the actors in the situation: visualise the actor(s), go into their mind. Write out an **actor mindmap**.
+* **Owner(s)** - Get a feel for the actors in the situation: their names (names anchor information!). Write out an **actor mindmap**.
 * **Situations/subplots** - Which situation/subplot the action belongs to. GOTO previous and visualise more actors involved.
 * **Time(s)** - Place on a timeline
 * **Space(s)** - Place on a map
