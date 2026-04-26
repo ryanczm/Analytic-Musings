@@ -124,7 +124,6 @@ In terms of football tropes we see often:
 
 In terms of the core momentum feature:
 
-* Again the fundamental problem is that you can have games where one team wallops the other on XG but still loses by a margin. Is there some feature that was missing?
 * League/point-weighted is a proxy the problem of odds: a higher placed team should beat a lower placed team. An XG against a low point team is less than an XG against a high point team. So you need to calibrate your XG by points differential. Problem is this feature only gains predictive power as the league progresses, at the start its basically useless.
 * Time-weighted is a proxy of the idea that last minute winners are not very sustainable. So you weigh your XG by when the goals are scored: a 1-0 in the 1st half and set up shop in the 2nd is much less close than a match with same XG from a last minute winner.
 * EWMA or some windowing function should solve the decay problem: recent data is higher weighted because things tend to change. Problem: we know Liverpool 25/26 went on a winning streak in the first few games of the league with last minute winners. They kept winning until they didn't. So how could a model capture when they break the streak and lose?
@@ -132,6 +131,7 @@ In terms of the core momentum feature:
 In terms of research:
 
 * Look at match threads/data from the most XG-failed matches and try and figure out the pattern.
+* Look at data where teams go on streaks while conflicting their XG. Figure out why the streak happens and why it breaks.
 
 In terms of data:
 
