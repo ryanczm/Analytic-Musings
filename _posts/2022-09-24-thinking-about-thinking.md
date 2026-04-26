@@ -120,11 +120,11 @@ We can then break down a situation hierarchically over time into subplots or sub
 
 This can be done via the **action framework**:
 
-* **Owner(s)** - From the current information, ask who are the actors in the situation: visualise the actor(s), go into their mind. Write out an **actor mindmap**.
+* **Owner(s)** - Get a feel for the actors in the situation: visualise the actor(s), go into their mind. Write out an **actor mindmap**.
 * **Situations/subplots** - Which situation/subplot the action belongs to. GOTO previous and visualise more actors involved.
 * **Time(s)** - Place on a timeline
 * **Space(s)** - Place on a map
-* **Action(s)** - Visualise the actions done by actors, bootstrap from their action space
+* **Action(s)** - Get a feel for visualising the actions done by actors, bootstrapped from their action space
 * **Motivation(s)** - What is the motivation of the actor?
 * **Effect(s)** - What effect does this action have. Look at figures, data (a figure represents a magnitude of an effect by an action), and connect effects together.
 * **Context/Cause(s)** - What was the sequence of events that led up to this? 
