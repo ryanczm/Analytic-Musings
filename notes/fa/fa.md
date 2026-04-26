@@ -93,7 +93,7 @@ The traditional sports betting avenue.
 
 Andrew Mack wrote some sports betting books. Also, knowledge from systematic equity trading should be applicable here.
 
-The core would be a **predictive model** that takes in features and outputs signals/predictions, feeding into another **trading layer (risk management/bet sizing)** to output trades, and we **rebalance/bet weekly**.
+The core would be a **predictive model** that takes in features and outputs signals/predictions, feeding into another **trading layer (risk management/bet sizing)** + a dicsretionary layer of adjustments (e.g from watching games + reading fan forums to understand the situation) to output trades, and we **rebalance/bet weekly**.
 
 The key idea is: how much signal does past information of football matches have in the outcome of the next match?
 
