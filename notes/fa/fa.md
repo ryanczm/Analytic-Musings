@@ -137,9 +137,9 @@ In terms of research:
 In terms of data:
 
 * Fixture results - Just two numbers per fixture - 
-* Additional fixture details - Referee, managers.
+* Fixture personnel - Referee, managers.
+* Fixture events - Goals timings, red/yellow timings
 * XG results - Just two numbers per fixture - UnderStat
-* Injury data - Injury list -
-* Referee data - who referees which fixture.
+* Injury data - Injury list per game
 
 
