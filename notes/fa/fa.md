@@ -131,8 +131,19 @@ In terms of the core momentum feature:
 
 In terms of research:
 
-* Look at match threads/data from the most XG-failed matches and try and figure out the pattern.
-* Look at data where teams go on streaks while conflicting their XG. Figure out why the streak happens and why it breaks.
+* XG/Momentum 
+    * Look at match threads/data from the most XG-failed matches and try and figure out the pattern.
+    * Look at data where teams go on streaks while conflicting their XG. Figure out why the streak happens and why it breaks.
+    * Watch the matches with boots on the ground
+* Home and Away
+    * Backtest this too. Question is how to combine.
+* Injury 
+    * Backtest this too. Question is how to combine.
+* Referee 
+    * Backtest
+* Sentiment/Informed Fan Factor
+    * Backtest this too. Question is how to combine.
+
 
 In terms of data:
 
