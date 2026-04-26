@@ -108,6 +108,7 @@ In terms of features:
     * Idea being certain teams have more home advantage than others. How to quantify? Can we fuse it into core momentum features.
 * Injury feature
     * An injury score where player injuries imply the squad is weakened for the next match. This would be tricky because of player importance and substitutability. 
+    * We would have to quantify player importance. Ratings maybe?
 * Manager H2H feature
     * Some kind of H2H manager score, hypothesis being certain managers just tactically have each others number.
 * Referee feature
