@@ -75,6 +75,8 @@ In terms of the **core momentum feature**:
 In terms of **research**:
 
 * XG/Momentum 
+    * Plot out points/XG as a time series for all teams in the league and see how it evolves over time.
+    * Are there cases where winning streaks or runs suddenly break? Then dive in and try to figure out why.
     * Look at match threads/data from the most XG-failed matches and try and figure out the pattern.
     * Look at data where teams go on streaks while conflicting their XG. Figure out why the streak happens and why it breaks.
     * Watch the matches with boots on the ground
