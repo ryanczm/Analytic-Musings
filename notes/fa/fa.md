@@ -40,6 +40,7 @@ In terms of features:
     * A home team score and a away team score.
     * Idea being certain teams have more home advantage than others.
     * Certain teams have more away advantage than others.
+    * The problem is do you want to model this as an aggregate thing or a pairwise thing - aka a home/away advantage against any team in general, or against specific setups?
 * **Injury feature**
     * An injury score where player injuries imply the squad is weakened for the next match. This would be tricky because of player importance and substitutability. 
     * We know injuries to a key player can derail an entire season. So this is really important.
@@ -47,13 +48,15 @@ In terms of features:
     * Problem is, need to factor how good the replacement is: aka Nico Gonzalez in for Rodri = no problem. Madueke in for Saka = disaster.
 * **Manager H2H feature**
     * Some kind of H2H manager score based on past fixtures over a long period with the same team.
-    * hypothesis being certain managers just tactically have each others number.
+    * Hypothesis being certain managers just tactically have each others number.
     * This would be isolated to bigger games, and also managers who have a track record of H2H with the same team.
+    * We know for example Pep has Arteta's number at the Etihad. How does this relate to the home and away feature?
 * **Referee feature**
     * Some kind of league/point-weighted referee score based on past fixtures over a long period of time with the same time.
     * Idea being that sometimes referees have biases against certain teams.
 * **Informed fan feature**
     * Some sentiment indicator of reddit/forum results - only if the informed fans have predictive power.
+    * The problem is filtering out emotional sentiment to tactical opinions. And then you have opposing fan predictions. How do you filter the smart fans from the dumb ones? Especially on reddit, where upvotes go to the most popular opinion, not the "best". Maybe... the most downvoted opinions have the best predictive power? Stuff nobody wants to hear.
 
 
 In terms of **football tropes** we see often:
