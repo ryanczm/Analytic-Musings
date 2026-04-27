@@ -33,6 +33,7 @@ In terms of features:
 * **Points/League Difference**
     * The fundamental feature that a higher placed team should beat a lower placed team. An expanding sum window over a discretized score outcome.
     * As the league starts, the expanding window is useless, so we should use the past season + a transfer/wage budget adjustment in offseason to weigh.
+    * We've seen Liverpool winning 24/25 under Slot debut season and then do well at the start of the season then choke dramatically.
 * **Core momentum feature**
     * Window of league/point-weighted time-weighted XG differentials - prior XG differentials should encode performance, XG mean reverts to true performance (another hypothesis that needs testing). 
     * Window of league/point-weighted time-weighted goal differentials - The true realized outcomes of matches, in case teams can consistently outperform/underperform XG due to structural reasons.
