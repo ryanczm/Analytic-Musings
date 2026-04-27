@@ -83,8 +83,8 @@ In terms of **data**:
 * Fixture details - Score, home, away, referee, manager, lineups - FBREF
 * Fixture XG - Understat
 * Fixture events - Goals timings, red/yellow timings - FBREF
-* Injury data - ??
-* Player ratings - WhoScored - need to scrape. Only current season match ratings but season level ratings over past 5Y.
+* Injury data - Transfermarket - by player ID. Need to scrape.
+* Player ratings - WhoScored - by player ID. Need to scrape. Only current season match ratings but season level ratings over past 5Y.
 
 Quick **ChatGPT data sourcing table**:
 
