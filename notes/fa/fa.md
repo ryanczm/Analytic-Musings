@@ -53,6 +53,7 @@ In terms of features:
     * Idea being certain teams have more home advantage than others.
     * Certain teams have more away advantage than others.
     * The problem is do you want to model this as an aggregate thing or a pairwise thing - aka a home/away advantage against any team in general, or against specific setups?
+    * I suspect a aggregate approach is better, as a pairwise advantage would really be more down to the managers.
 * **Referee feature**
     * Some kind of league/point-weighted referee score based on past fixtures over a long period of time with the same time.
     * Idea being that sometimes referees have biases against certain teams.
