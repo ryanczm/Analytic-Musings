@@ -29,6 +29,7 @@ The core problem is: You can outplay a team on XG but still lose, and vice versa
 There is a situation where the UK bookmakers like Bet365 price odds. To beat those guys, we have to beat the quants from Manchester, Liverpool and London working there.
 
 In terms of features:
+
 * **Points/League Difference**
     * The fundamental feature that a higher placed team should beat a lower placed team. An expanding sum window over a discretized score outcome.
 * **Core momentum feature**
@@ -57,7 +58,7 @@ In terms of features:
 
 In terms of **football tropes** we see often:
 
-* There is this expectation that if you play well, but you lose, you should in theory win more in the future, vice versa. This should be encoded in XG. For example, Liverpool led the 25/26 season for the first 5-10 games scraping last minute winners etc. We all remember than Szobo dummy and Ngumoha's finish to win vs Newcastle. Then the next game, Crystal Palace tonked them with a last minute winner.
+* There is this expectation that if you play well, but you lose, you should in theory win more in the future, vice versa. This should be encoded in XG. For example, Liverpool led the 25/26 season for the first 5-10 games scraping last minute winners etc. We all remember the Szobo dummy and Ngumoha's finish to win vs Newcastle. Then the next game, Crystal Palace tonked them with a last minute winner.
 * Big chances or big saves define games. If a shot goes in just a few inches, the whole outcome changes and your whole bet is fried.
 
 In terms of the **core momentum feature**:
