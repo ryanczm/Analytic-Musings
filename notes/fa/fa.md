@@ -31,8 +31,9 @@ There is a situation where the UK bookmakers like Bet365 price odds. To beat tho
 In terms of features:
 
 * **Core momentum feature**
-    * EWMA window of league/point-weighted time-weighted XG differentials - prior XG differentials should encode performance, XG mean reverts to true performance (another hypothesis that needs testing). 
-    * EMWA window of league/point-weighted time-weighted goal differentials - The true realized outcomes of matches, in case teams can consistently outperform/underperform XG due to structural reasons.
+    * Window of league/point-weighted time-weighted XG differentials - prior XG differentials should encode performance, XG mean reverts to true performance (another hypothesis that needs testing). 
+    * Window of league/point-weighted time-weighted goal differentials - The true realized outcomes of matches, in case teams can consistently outperform/underperform XG due to structural reasons.
+    * Window function... that depends. For example, using current league position difference to predict essentially is a sum window over a discretized score outcome.
 * **Home and away feature**
     * Idea being certain teams have more home advantage than others. How to quantify? Can we fuse it into core momentum features.
 * **Injury feature**
