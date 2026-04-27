@@ -32,13 +32,14 @@ In terms of features:
 
 * **Points/League Difference**
     * The fundamental feature that a higher placed team should beat a lower placed team. An expanding sum window over a discretized score outcome.
+    * As the league starts, the expanding window is useless, so we should use the past season + a transfer/wage budget adjustment in offseason to weigh.
 * **Core momentum feature**
     * Window of league/point-weighted time-weighted XG differentials - prior XG differentials should encode performance, XG mean reverts to true performance (another hypothesis that needs testing). 
     * Window of league/point-weighted time-weighted goal differentials - The true realized outcomes of matches, in case teams can consistently outperform/underperform XG due to structural reasons.
     * Window function... that depends. For example, using current league position difference to predict essentially is an expanding sum window over a discretized score outcome.
 * **Injury feature**
     * An injury score where player injuries imply the squad is weakened for the next match. This would be tricky because of player importance and substitutability. 
-    * We know injuries to a key player can derail an entire season. So this is really important.
+    * We know injuries to a key player can derail an entire season. So this is really important. We've seen Arsenal without Saliba collapsing in the tail end of 22/23, and City without Rodri collapsing mid 25/26 before recovering.
     * Player importance: number of matches started and average rating. High starter + high rating out = disaster. Which means we need starting lineups and player ratings.
     * Problem is, need to factor how good the replacement is: aka Nico Gonzalez in for Rodri = no problem. Madueke in for Saka = disaster.
 * **Manager H2H feature**
