@@ -110,9 +110,11 @@ In terms of features:
     * An injury score where player injuries imply the squad is weakened for the next match. This would be tricky because of player importance and substitutability. 
     * We would have to quantify player importance. Ratings maybe?
 * Manager H2H feature
-    * Some kind of H2H manager score, hypothesis being certain managers just tactically have each others number.
+    * Some kind of H2H manager score based on past fixtures over a long period with the same team.
+    * hypothesis being certain managers just tactically have each others number.
     * This would be isolated to bigger games, and also managers who have a track record of H2H with the same team.
 * Referee feature
+    * Some kind of league/point-weighted referee score based on past fixtures over a long period of time with the same time.
     * Idea being that sometimes referees have biases against certain teams.
 * Informed fan feature
     * Some sentiment indicator of reddit/forum results - only if the informed fans have predictive power.
@@ -165,3 +167,9 @@ Quick **ChatGPT data sourcing table**:
 | SofaScore     | ✅ Yes               | ❌ No                           | ✅ Yes                           | ❌ No               | ❌ Limited              | ✅ Yes (0–10 ratings)  | ⚠️ Unofficial API      | ⭐⭐⭐⭐     | JSON          | **Best API-style ratings source**                 |
 | API-Football  | ✅ Yes               | ✅ Yes                          | ✅ Yes                           | ❌ No xG            | ✅ Yes                  | ❌ No true ratings     | ✅ API (paid/free tier) | ⭐⭐⭐⭐     | JSON          | Clean pipeline, but no ratings                    |
 | Sportmonks    | ✅ Yes               | ✅ Yes                          | ✅ Yes                           | ❌ No xG            | ✅ Yes                  | ❌ No ratings          | ✅ API (paid)           | ⭐⭐⭐⭐     | JSON          | Enterprise-level, no ratings                      |
+
+**Python API scrapers**:
+
+* https://github.com/collinb9/understatAPI - 23 stars
+* https://soccerdata.readthedocs.io/en/latest/index.html - 1.7k stars
+* https://github.com/dkjorling/FbrefAPI - Deprecated? Worth a try
