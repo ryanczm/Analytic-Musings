@@ -108,7 +108,7 @@ In terms of features:
     * Idea being certain teams have more home advantage than others. How to quantify? Can we fuse it into core momentum features.
 * Injury feature
     * An injury score where player injuries imply the squad is weakened for the next match. This would be tricky because of player importance and substitutability. 
-    * We would have to quantify player importance. Ratings maybe?
+    * We know injuries to a key player can derail an entire season. So this is really important.
 * Manager H2H feature
     * Some kind of H2H manager score based on past fixtures over a long period with the same team.
     * hypothesis being certain managers just tactically have each others number.
@@ -170,6 +170,6 @@ Quick **ChatGPT data sourcing table**:
 
 **Python API scrapers**:
 
+* https://github.com/dkjorling/FbrefAPI
 * https://github.com/collinb9/understatAPI - 23 stars
-* https://soccerdata.readthedocs.io/en/latest/index.html - 1.7k stars
 * https://github.com/dkjorling/FbrefAPI - Deprecated? Worth a try
