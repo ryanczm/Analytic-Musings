@@ -153,4 +153,14 @@ In terms of data:
 * XG results - Just two numbers per fixture - UnderStat
 * Injury data - Injury list per game
 
+Quick ChatGPT data sourcing table:
 
+| **Source**    | **Fixture Results** | **Personnel (Ref + Managers)** | **Events (Goals/Cards Timing)** | **xG (2 numbers)** | **Injury Data**        | **Player Ratings**    | **API Access**         | **Ease** | **Format**    | **Comments**                                      |
+| ------------- | ------------------- | ------------------------------ | ------------------------------- | ------------------ | ---------------------- | --------------------- | ---------------------- | -------- | ------------- | ------------------------------------------------- |
+| FBref         | ✅ Yes               | ✅ Yes                          | ✅ Yes                           | ✅ Yes (own model)  | ❌ No                   | ❌ No (raw stats only) | ✅ CSV export           | ⭐⭐⭐⭐⭐    | Clean tables  | **Best backbone**. Use for structure, not ratings |
+| Understat     | ✅ Yes               | ❌ No                           | ❌ No                            | ✅ Yes (best xG)    | ❌ No                   | ❌ No                  | ❌ No official API      | ⭐⭐⭐      | JSON (scrape) | Use purely for xG                                 |
+| Transfermarkt | ✅ Yes               | ✅ Yes                          | ❌ Limited                       | ❌ No               | ✅ Yes (injury periods) | ❌ No                  | ❌ No                   | ⭐⭐⭐      | HTML tables   | **Best injury source**                            |
+| WhoScored     | ✅ Yes               | ❌ No                           | ✅ Yes (very detailed)           | ❌ No               | ❌ No                   | ✅ Yes (0–10 ratings)  | ❌ No                   | ⭐⭐       | JSON in page  | **Best ratings source**, but scraping required    |
+| SofaScore     | ✅ Yes               | ❌ No                           | ✅ Yes                           | ❌ No               | ❌ Limited              | ✅ Yes (0–10 ratings)  | ⚠️ Unofficial API      | ⭐⭐⭐⭐     | JSON          | **Best API-style ratings source**                 |
+| API-Football  | ✅ Yes               | ✅ Yes                          | ✅ Yes                           | ❌ No xG            | ✅ Yes                  | ❌ No true ratings     | ✅ API (paid/free tier) | ⭐⭐⭐⭐     | JSON          | Clean pipeline, but no ratings                    |
+| Sportmonks    | ✅ Yes               | ✅ Yes                          | ✅ Yes                           | ❌ No xG            | ✅ Yes                  | ❌ No ratings          | ✅ API (paid)           | ⭐⭐⭐⭐     | JSON          | Enterprise-level, no ratings                      |
