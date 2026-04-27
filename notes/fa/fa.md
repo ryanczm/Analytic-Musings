@@ -118,18 +118,18 @@ In terms of features:
     * Some sentiment indicator of reddit/forum results - only if the informed fans have predictive power.
 
 
-In terms of football tropes we see often:
+In terms of **football tropes** we see often:
 
 * There is this expectation that if you play well, but you lose, you should in theory win more in the future, vice versa. This should be encoded in XG. For example, Liverpool led the 25/26 season for the first 5-10 games scraping last minute winners etc.
 * Big chances or big saves define games. If a shot goes in just a few inches, the whole outcome changes and your whole bet is fried.
 
-In terms of the core momentum feature:
+In terms of the **core momentum feature**:
 
 * League/point-weighted is a proxy the problem of odds: a higher placed team should beat a lower placed team. An XG against a low point team is less than an XG against a high point team. So you need to calibrate your XG by points differential. Problem is this feature only gains predictive power as the league progresses, at the start its basically useless.
 * Time-weighted is a proxy of the idea that last minute winners are not very sustainable. So you weigh your XG by when the goals are scored: a 1-0 in the 1st half and set up shop in the 2nd is much less close than a match with same XG from a last minute winner.
 * EWMA or some windowing function should solve the decay problem: recent data is higher weighted because things tend to change. Problem: we know Liverpool 25/26 went on a winning streak in the first few games of the league with last minute winners. They kept winning until they didn't. So how could a model capture when they break the streak and lose?
 
-In terms of research:
+In terms of **research**:
 
 * XG/Momentum 
     * Look at match threads/data from the most XG-failed matches and try and figure out the pattern.
@@ -145,15 +145,16 @@ In terms of research:
     * Backtest this too. Question is how to combine.
 
 
-In terms of data:
+In terms of **data**:
 
-* Fixture results - Just two numbers per fixture - 
+* Fixture results - Just two numbers per fixture 
 * Fixture personnel - Referee, managers.
 * Fixture events - Goals timings, red/yellow timings
 * XG results - Just two numbers per fixture - UnderStat
-* Injury data - Injury list per game
+* Injury data - Injury list per fixture
+* Player ratings - Numbers per fixture
 
-Quick ChatGPT data sourcing table:
+Quick **ChatGPT data sourcing table**:
 
 | **Source**    | **Fixture Results** | **Personnel (Ref + Managers)** | **Events (Goals/Cards Timing)** | **xG (2 numbers)** | **Injury Data**        | **Player Ratings**    | **API Access**         | **Ease** | **Format**    | **Comments**                                      |
 | ------------- | ------------------- | ------------------------------ | ------------------------------- | ------------------ | ---------------------- | --------------------- | ---------------------- | -------- | ------------- | ------------------------------------------------- |
