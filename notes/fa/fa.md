@@ -26,6 +26,8 @@ The key idea is: how much signal does past information of football matches have 
 
 The core problem is: You can outplay a team on XG but still lose, and vice versa, and this can happen for streaks - making XG a problem.
 
+There is a situation where the UK bookmakers like Bet365 price odds. To beat those guys, we have to beat the quants from Manchester, Liverpool and London working there.
+
 In terms of features:
 
 * **Core momentum feature**
