@@ -109,6 +109,7 @@ In terms of features:
 * Injury feature
     * An injury score where player injuries imply the squad is weakened for the next match. This would be tricky because of player importance and substitutability. 
     * We know injuries to a key player can derail an entire season. So this is really important.
+    * Player importance: number of matches started and average rating. High starter + high rating out = disaster. Which means we need starting lineups and player ratings.
 * Manager H2H feature
     * Some kind of H2H manager score based on past fixtures over a long period with the same team.
     * hypothesis being certain managers just tactically have each others number.
