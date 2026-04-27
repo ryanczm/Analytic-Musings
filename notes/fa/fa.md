@@ -26,7 +26,7 @@ The key idea is: how much signal does past information of football matches have 
 
 The core problem is: How do we translate football wisdom or tropes into statistical signals?
 
-There is a situation where the UK bookmakers like Bet365 price odds. To beat those guys, we have to beat the quants from Manchester, Liverpool and London working there.
+There is a situation where the UK bookmakers like Bet365 price odds. To beat those guys, we have to beat the quants from Manchester, Liverpool and London working there. Scott Phillip's said on Odds on Open (Ethan Kho) - table selection is important in trading. Do you want to compete with the XTX autist from Holland or the guy with an ape as his profile picture?
 
 In terms of features:
 
