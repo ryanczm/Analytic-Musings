@@ -96,8 +96,7 @@ Quick **ChatGPT data sourcing table**:
 | Sportmonks    | ✅ Yes               | ✅ Yes                          | ✅ Yes                           | ❌ No xG            | ✅ Yes                  | ❌ No ratings          | ✅ API (paid)           | ⭐⭐⭐⭐     | JSON          | Enterprise-level, no ratings                      |
 
 **Python API scrapers**:
-
-* https://github.com/dkjorling/FbrefAPI
+* https://github.com/probberechts/soccerdata - 1.7k stars
 * https://github.com/collinb9/understatAPI - 23 stars
 * https://github.com/dkjorling/FbrefAPI - Deprecated? Worth a try
 
