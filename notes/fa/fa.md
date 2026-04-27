@@ -24,7 +24,7 @@ The core would be a **predictive model** that takes in features and outputs sign
 
 The key idea is: how much signal does past information of football matches have in the outcome of the next match?
 
-The core problem is: You can outplay a team on XG but still lose, and vice versa, and this can happen for streaks - making XG a problem.
+The core problem is: How do we translate football wisdom or tropes into statistical signals?
 
 There is a situation where the UK bookmakers like Bet365 price odds. To beat those guys, we have to beat the quants from Manchester, Liverpool and London working there.
 
@@ -36,11 +36,6 @@ In terms of features:
     * Window of league/point-weighted time-weighted XG differentials - prior XG differentials should encode performance, XG mean reverts to true performance (another hypothesis that needs testing). 
     * Window of league/point-weighted time-weighted goal differentials - The true realized outcomes of matches, in case teams can consistently outperform/underperform XG due to structural reasons.
     * Window function... that depends. For example, using current league position difference to predict essentially is an expanding sum window over a discretized score outcome.
-* **Home and away feature**
-    * A home team score and a away team score.
-    * Idea being certain teams have more home advantage than others.
-    * Certain teams have more away advantage than others.
-    * The problem is do you want to model this as an aggregate thing or a pairwise thing - aka a home/away advantage against any team in general, or against specific setups?
 * **Injury feature**
     * An injury score where player injuries imply the squad is weakened for the next match. This would be tricky because of player importance and substitutability. 
     * We know injuries to a key player can derail an entire season. So this is really important.
@@ -51,6 +46,11 @@ In terms of features:
     * Hypothesis being certain managers just tactically have each others number.
     * This would be isolated to bigger games, and also managers who have a track record of H2H with the same team.
     * We know for example Pep has Arteta's number at the Etihad. How does this relate to the home and away feature?
+* **Home and away feature**
+    * A home team score and a away team score.
+    * Idea being certain teams have more home advantage than others.
+    * Certain teams have more away advantage than others.
+    * The problem is do you want to model this as an aggregate thing or a pairwise thing - aka a home/away advantage against any team in general, or against specific setups?
 * **Referee feature**
     * Some kind of league/point-weighted referee score based on past fixtures over a long period of time with the same time.
     * Idea being that sometimes referees have biases against certain teams.
