@@ -33,21 +33,21 @@ In terms of features:
 * **Core momentum feature**
     * EWMA window of league/point-weighted time-weighted XG differentials - prior XG differentials should encode performance, XG mean reverts to true performance (another hypothesis that needs testing). 
     * EMWA window of league/point-weighted time-weighted goal differentials - The true realized outcomes of matches, in case teams can consistently outperform/underperform XG due to structural reasons.
-* Home and away feature
+* **Home and away feature**
     * Idea being certain teams have more home advantage than others. How to quantify? Can we fuse it into core momentum features.
-* Injury feature
+* **Injury feature**
     * An injury score where player injuries imply the squad is weakened for the next match. This would be tricky because of player importance and substitutability. 
     * We know injuries to a key player can derail an entire season. So this is really important.
     * Player importance: number of matches started and average rating. High starter + high rating out = disaster. Which means we need starting lineups and player ratings.
     * Problem is, need to factor how good the replacement is: aka Nico Gonzalez in for Rodri = no problem. Madueke in for Saka = disaster.
-* Manager H2H feature
+* **Manager H2H feature**
     * Some kind of H2H manager score based on past fixtures over a long period with the same team.
     * hypothesis being certain managers just tactically have each others number.
     * This would be isolated to bigger games, and also managers who have a track record of H2H with the same team.
-* Referee feature
+* **Referee feature**
     * Some kind of league/point-weighted referee score based on past fixtures over a long period of time with the same time.
     * Idea being that sometimes referees have biases against certain teams.
-* Informed fan feature
+* **Informed fan feature**
     * Some sentiment indicator of reddit/forum results - only if the informed fans have predictive power.
 
 
