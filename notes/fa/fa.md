@@ -29,13 +29,16 @@ The core problem is: You can outplay a team on XG but still lose, and vice versa
 There is a situation where the UK bookmakers like Bet365 price odds. To beat those guys, we have to beat the quants from Manchester, Liverpool and London working there.
 
 In terms of features:
-
+* **Points/League Difference**
+    * The fundamental feature that a higher placed team should beat a lower placed team. An expanding sum window over a discretized score outcome.
 * **Core momentum feature**
     * Window of league/point-weighted time-weighted XG differentials - prior XG differentials should encode performance, XG mean reverts to true performance (another hypothesis that needs testing). 
     * Window of league/point-weighted time-weighted goal differentials - The true realized outcomes of matches, in case teams can consistently outperform/underperform XG due to structural reasons.
-    * Window function... that depends. For example, using current league position difference to predict essentially is a sum window over a discretized score outcome.
+    * Window function... that depends. For example, using current league position difference to predict essentially is an expanding sum window over a discretized score outcome.
 * **Home and away feature**
-    * Idea being certain teams have more home advantage than others. How to quantify? Can we fuse it into core momentum features.
+    * A home team score and a away team score.
+    * Idea being certain teams have more home advantage than others.
+    * Certain teams have more away advantage than others.
 * **Injury feature**
     * An injury score where player injuries imply the squad is weakened for the next match. This would be tricky because of player importance and substitutability. 
     * We know injuries to a key player can derail an entire season. So this is really important.
@@ -54,7 +57,7 @@ In terms of features:
 
 In terms of **football tropes** we see often:
 
-* There is this expectation that if you play well, but you lose, you should in theory win more in the future, vice versa. This should be encoded in XG. For example, Liverpool led the 25/26 season for the first 5-10 games scraping last minute winners etc.
+* There is this expectation that if you play well, but you lose, you should in theory win more in the future, vice versa. This should be encoded in XG. For example, Liverpool led the 25/26 season for the first 5-10 games scraping last minute winners etc. We all remember than Szobo dummy and Ngumoha's finish to win vs Newcastle. Then the next game, Crystal Palace tonked them with a last minute winner.
 * Big chances or big saves define games. If a shot goes in just a few inches, the whole outcome changes and your whole bet is fried.
 
 In terms of the **core momentum feature**:
