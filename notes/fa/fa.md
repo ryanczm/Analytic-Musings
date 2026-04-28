@@ -41,7 +41,9 @@ In terms of features:
     * Window of league/point-weighted time-weighted XG differentials - prior XG differentials should encode performance, XG mean reverts to true performance (another hypothesis that needs testing). 
     * Window of league/point-weighted time-weighted goal differentials - The true realized outcomes of matches, in case teams can consistently outperform/underperform XG due to structural reasons.
     * Window function... that depends. For example, using current league position difference to predict essentially is an expanding sum window over a discretized score outcome.
-* **Injury feature**
+    * League/point weighting - Scale the xg difference by points differential. To account for team strength differences.
+    * Time weighting - For goals, scale them by goal timing: 2-0 with 90' 95' is not the same as 2-0 30' 40'. For XG, create a discretized XG curve and apply a time decay.
+* **Injury/Red Card feature**
     * An injury score where player injuries imply the squad is weakened for the next match. This would be tricky because of player importance and substitutability. 
     * We know injuries to a key player can derail an entire season. So this is really important. We've seen Arsenal without Saliba collapsing in the tail end of 22/23, and City without Rodri collapsing mid 25/26 before recovering.
     * Player importance: number of matches started and average rating. High starter + high rating out = disaster. Which means we need starting lineups and player ratings.
@@ -71,12 +73,6 @@ In terms of **football tropes** we see often:
 
 * There is this expectation that if you play well, but you lose, you should in theory win more in the future, vice versa. This should be encoded in XG. For example, Liverpool led the 25/26 season for the first 5-10 games scraping last minute winners etc. We all remember the Szobo dummy and Ngumoha's finish to win vs Newcastle. Then the next game, Crystal Palace tonked them with a last minute winner.
 * Big chances or big saves define games. If a shot goes in just a few inches, the whole outcome changes and your whole bet is fried.
-
-In terms of the **core momentum feature**:
-
-* League/point-weighted is a proxy the problem of odds: a higher placed team should beat a lower placed team. An XG against a low point team is less than an XG against a high point team. So you need to calibrate your XG by points differential. Problem is this feature only gains predictive power as the league progresses, at the start its basically useless.
-* Time-weighted is a proxy of the idea that last minute winners are not very sustainable. So you weigh your XG by when the goals are scored: a 1-0 in the 1st half and set up shop in the 2nd is much less close than a match with same XG from a last minute winner.
-* EWMA or some windowing function should solve the decay problem: recent data is higher weighted because things tend to change. Problem: we know Liverpool 25/26 went on a winning streak in the first few games of the league with last minute winners. They kept winning until they didn't. So how could a model capture when they break the streak and lose?
 
 In terms of **research**:
 
