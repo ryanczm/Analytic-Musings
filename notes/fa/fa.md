@@ -30,6 +30,9 @@ There is a situation where the UK bookmakers like Bet365 price odds. To beat tho
 
 In terms of features:
 
+
+* **Cold Start Problem**
+    * Any points/league weighted feature suffers from the lack of data at the start of a season. Use a weighting scheme from past season.
 * **Points/League Difference**
     * The fundamental feature that a higher placed team should beat a lower placed team. An expanding sum window over a discretized score outcome.
     * As the league starts, the expanding window is useless, so we should use the past season + a transfer/wage budget adjustment in offseason to weigh.
@@ -50,10 +53,12 @@ In terms of features:
     * We know for example Pep has Arteta's number at the Etihad. How does this relate to the home and away feature?
 * **Home and away feature**
     * A home team score and a away team score.
-    * Idea being certain teams have more home advantage than others.
-    * Certain teams have more away advantage than others.
-    * The problem is do you want to model this as an aggregate thing or a pairwise thing - aka a home/away advantage against any team in general, or against specific setups?
-    * I suspect a aggregate approach is better, as a pairwise advantage would really be more down to the managers.
+    * Idea being certain teams have more home/away advantage than others.
+    * Andrew Mack's SSMIE book talks about a ZSD model for this.
+    * Window of points/league weighted home points vs away points difference
+* **Fatigue/Congestion feature**
+    * Idea being playing too many games in a tight schedule does impact performance vs well-rested.
+    * Some kind of EMWA window of game count + distance ran?
 * **Referee feature**
     * Some kind of league/point-weighted referee score based on past fixtures over a long period of time with the same time.
     * Idea being that sometimes referees have biases against certain teams.
