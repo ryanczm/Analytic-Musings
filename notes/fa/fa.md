@@ -118,7 +118,12 @@ Quick **ChatGPT data sourcing table**:
 * https://github.com/dkjorling/FbrefAPI - Deprecated? Worth a try
 
 
+**TODOS**
 
+* Manager dataset 
+* Injuries dataset
+* Historical season rating dataset
+* Fixture results dataset
 
 ## Player Assessment with Stats
 
@@ -166,3 +171,4 @@ Can we predict which teams get the most injuries?
 
 * Run regression with distance ran and total substitute minutes on injury time per season.
 * Should be able to prove that better substitute management results in less injuries.
+
