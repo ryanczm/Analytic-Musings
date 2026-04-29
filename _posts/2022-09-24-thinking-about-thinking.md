@@ -87,7 +87,7 @@ However, the key skill is we can
 * **Decompose/break** down a node/edge in a system into another system of nodes and edges, going to a deeper level of abstraction.
 * **Build up** a node and edge system to be a node or edge in a higher abstraction level system.
 
-The key is to recognise the different types of nodes and edges, see how they connect together or break them down by understanding the landscape of abstraction layers.
+The key is to recognise the different types of nodes and edges as **parts**, see how they connect together or break them down by understanding the landscape of abstraction layers.
 
 <blockquote>
 Input → system (computation) → output. This is my core paradigm for understanding anything.
