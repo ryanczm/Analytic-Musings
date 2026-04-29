@@ -121,6 +121,8 @@ Quick **ChatGPT data sourcing table**:
 * Injury dataset - Transfermarkt scraper
 * Historical ratings dataset - Whoscored scraper
 * Schedule dataset - A master schedule of all competitions: so EPL, UCL, UEL, ConfL, FA, Carabao.
+* Aggregate Game dataset - With results, XG, referees
+* Specific Game dataset - with score timings, XG timings, etc.
 
 ## Player Assessment with Stats
 
