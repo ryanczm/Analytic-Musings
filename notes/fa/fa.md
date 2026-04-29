@@ -124,12 +124,12 @@ Quick **ChatGPT data sourcing table**:
 * https://github.com/dkjorling/FbrefAPI - Deprecated? Worth a try
 
 
-**TODOS**
+**Dataset/Database Schema Construction**
 
-* Manager dataset 
-* Injuries dataset
-* Historical season rating dataset
-* Fixture results dataset
+* Manager dataset - Soccerbase scraper
+* Injury dataset - Transfermarkt scraper
+* Historical ratings dataset - Whoscored scraper
+* Schedule dataset - A master schedule of all competitions: so EPL, UCL, UEL, ConfL, FA, Carabao.
 
 ## Player Assessment with Stats
 
