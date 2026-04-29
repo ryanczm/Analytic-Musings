@@ -64,6 +64,12 @@ In terms of features:
 * **Referee feature**
     * Some kind of league/point-weighted referee score based on past fixtures over a long period of time with the same time.
     * Idea being that sometimes referees have biases against certain teams.
+* **Motivation feature**
+    * Some kind of motivation score differential.
+    * Idea being that nearing end of season, say last 5 games (GW34), we have teams with increased and decreased motivation.
+    * Relegation teams fighting end of the season.
+    * Mid table teams with no ability to leapfrog in the table or cannot qualify for the next tier competition (CL, UEL, Conference)
+    * Title winners having won already end of season (doesn't happen often in EPL though unlike BL or L1)
 * **Informed fan feature**
     * Some sentiment indicator of reddit/forum results - only if the informed fans have predictive power.
     * The problem is filtering out emotional sentiment to tactical opinions. And then you have opposing fan predictions. How do you filter the smart fans from the dumb ones? Especially on reddit, where upvotes go to the most popular opinion, not the "best". Maybe... the most downvoted opinions have the best predictive power? Stuff nobody wants to hear.
