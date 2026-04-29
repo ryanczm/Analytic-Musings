@@ -129,6 +129,7 @@ This can be done via the **action framework**:
 * **Effect(s)** - What effect does this action have. Look at figures, data (a figure represents a magnitude of an effect by an action), and connect effects together.
 * **Context/Cause(s)** - What was the sequence of events that led up to this? 
 * **Reaction(s)** - What other actions will this trigger as reactions? 
+* **Similarities** - What kind of other situations does this current on bear similarities/draw parallels to?
 
 
 **Key Idea** - Together, the key skill is to be so good at this you can effectively put yourself in the **mind/perspective** of the actors in question and **live their experience with empathy** in a detailed, visually accurate manner. 
