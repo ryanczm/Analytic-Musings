@@ -58,10 +58,9 @@ In terms of features:
     * Idea being certain teams have more home/away advantage than others.
     * Andrew Mack's SSMIE book talks about a ZSD model for this.
     * Window of points/league weighted home points vs away points difference
-* **Fatigue/Congestion feature**
+* **Fatigue/Congestion/Rotation feature**
     * Idea being playing too many games in a tight schedule does impact performance vs well-rested. 
-    * Some kind of EMWA window of game count + distance ran? Congestion score.
-    * Problem is live competitions we don't know who progresses and also fixture rescheduling due to clashes (E.g City 25/26 in FA/Carabao postponing EPL matches).
+    * Fixture count, distance ran, degree of rotation/substitutions, all impact fatigue. Especially deep in cup runs.
 * **Referee feature**
     * Some kind of league/point-weighted referee score based on past fixtures over a long period of time with the same time.
     * Idea being that sometimes referees have biases against certain teams.
