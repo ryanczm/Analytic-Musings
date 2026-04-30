@@ -55,7 +55,7 @@ In terms of features:
     * We know for example Pep has Arteta's number at the Etihad. How does this relate to the home and away feature?
 * **Fatigue/Congestion/Rotation feature**
     * Idea being playing too many games in a tight schedule does impact performance vs well-rested. 
-    * Fixture count, distance ran, degree of rotation/substitutions, all impact fatigue. Especially deep in cup runs.
+    * Fixture count, distance ran, degree of rotation/substitutions/minutes played dispersion, all impact fatigue. Especially deep in cup runs.
 * **Home and away feature**
     * A home team score and a away team score.
     * Idea being certain teams have more home/away advantage than others.
@@ -78,9 +78,10 @@ In terms of features:
 
 What **cannot** be modelled:
 
-**Transfer Impact**
+* **Transfer Impact**
     * We know sometimes a good transfer window can provide a boost to seasons.
-    * E.g PSG signing Kvara in the January window etc.
+    * E.g PSG signing Kvara in the January window etc
+    * A big summer window but all flopping, see Liverpool 25/26 in Slot's second season. They replaced both fullbacks with Kerkez and Frimpong, lost Diaz, lost Darwin, replaced with Isak, Ekitike, Wirtz and didn't really kick on.
     * Worth having a transfer list history?
 
 In terms of **football tropes** we see often:
