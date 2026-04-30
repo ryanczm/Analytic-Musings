@@ -53,14 +53,15 @@ In terms of features:
     * Hypothesis being certain managers just tactically have each others number.
     * This would be isolated to bigger games, and also managers who have a track record of H2H with the same team.
     * We know for example Pep has Arteta's number at the Etihad. How does this relate to the home and away feature?
+* **Fatigue/Congestion/Rotation feature**
+    * Idea being playing too many games in a tight schedule does impact performance vs well-rested. 
+    * Fixture count, distance ran, degree of rotation/substitutions, all impact fatigue. Especially deep in cup runs.
 * **Home and away feature**
     * A home team score and a away team score.
     * Idea being certain teams have more home/away advantage than others.
     * Andrew Mack's SSMIE book talks about a ZSD model for this.
     * Window of points/league weighted home points vs away points difference
-* **Fatigue/Congestion/Rotation feature**
-    * Idea being playing too many games in a tight schedule does impact performance vs well-rested. 
-    * Fixture count, distance ran, degree of rotation/substitutions, all impact fatigue. Especially deep in cup runs.
+    * Interaction effect with referee, we know sometimes referees get swayed by the home crowd and skew decisions.
 * **Referee feature**
     * Some kind of league/point-weighted referee score based on past fixtures over a long period of time with the same time.
     * Idea being that sometimes referees have biases against certain teams.
@@ -74,6 +75,13 @@ In terms of features:
     * Some sentiment indicator of reddit/forum results - only if the informed fans have predictive power.
     * The problem is filtering out emotional sentiment to tactical opinions. And then you have opposing fan predictions. How do you filter the smart fans from the dumb ones? Especially on reddit, where upvotes go to the most popular opinion, not the "best". Maybe... the most downvoted opinions have the best predictive power? Stuff nobody wants to hear.
 
+
+What **cannot** be modelled:
+
+**Transfer Impact**
+    * We know sometimes a good transfer window can provide a boost to seasons.
+    * E.g PSG signing Kvara in the January window etc.
+    * Worth having a transfer list history?
 
 In terms of **football tropes** we see often:
 
