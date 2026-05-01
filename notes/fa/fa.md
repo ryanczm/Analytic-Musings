@@ -33,6 +33,7 @@ In terms of features:
 
 * **Cold Start Problem**
     * Any points/league weighted feature suffers from the lack of data at the start of a season. Use a weighting scheme from past season.
+    * Plus take into account squad value? Difficult due to lookahead bias of squad/wages
 * **Points/League Difference**
     * The fundamental feature that a higher placed team should beat a lower placed team. An expanding sum window over a discretized score outcome.
     * As the league starts, the expanding window is useless, so we should use the past season + a transfer/wage budget adjustment in offseason to weigh.
@@ -43,7 +44,7 @@ In terms of features:
     * Window function... that depends. For example, using current league position difference to predict essentially is an expanding sum window over a discretized score outcome.
     * League/point weighting - Scale the xg difference by points differential. To account for team strength differences.
     * Time weighting - For goals, scale them by goal timing: 2-0 with 90' 95' is not the same as 2-0 30' 40'. For XG, create a discretized XG curve and apply a time decay.
-* **Injury/Red Card feature**
+* **Availability feature (injuries + reds + afcon)**
     * An injury score where player injuries imply the squad is weakened for the next match. This would be tricky because of player importance and substitutability. 
     * We know injuries to a key player can derail an entire season. So this is really important. We've seen Arsenal without Saliba collapsing in the tail end of 22/23, and City without Rodri collapsing mid 25/26 before recovering.
     * Player importance: number of matches started and average rating. High starter + high rating out = disaster. Which means we need starting lineups and player ratings.
@@ -53,7 +54,7 @@ In terms of features:
     * Hypothesis being certain managers just tactically have each others number.
     * This would be isolated to bigger games, and also managers who have a track record of H2H with the same team.
     * We know for example Pep has Arteta's number at the Etihad. How does this relate to the home and away feature?
-* **Fatigue/Congestion/Rotation feature**
+* **Fatigue/Congestion/Rotation feature (minutes dispersion)**
     * Idea being playing too many games in a tight schedule does impact performance vs well-rested. 
     * Fixture count, distance ran, degree of rotation/substitutions/minutes played dispersion, all impact fatigue. Especially deep in cup runs.
 * **Home and away feature**
