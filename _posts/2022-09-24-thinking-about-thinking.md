@@ -80,7 +80,7 @@ Key prompts - "Connections", "Visualisation"
 
 ## Semideterministic Framework
 
-For semi-deterministic fields, which is essentially computing, a system consists of **nodes (data/information)** and **edges (operations/tools)**. Together, they form a graph operating at an **abstraction level**.
+For semi-deterministic fields, which is essentially computing, a system consists of **nodes (operations/tools/parts)** and **edges (information)**. Together, they form a graph operating at an **abstraction level**.
 
 However, the key skill is we can
 
