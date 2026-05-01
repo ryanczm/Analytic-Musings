@@ -129,8 +129,8 @@ This can be done via the **action framework**. For each action, we can connect t
 * **Motivation(s)** - What is the motivation of the actor?
 * **Effect(s)** - What effect does this action have. Look at figures, data (a figure represents a magnitude of an effect by an action), and connect effects together.
 * **Context/Cause(s)[*]** - What was the sequence of actions by actors that led up to this point? Then, go back to the start of the framework and begin the process again.
-* **Reaction(s)[*]** - What other actions will this trigger as reactions? Then, go back to the start of the framework and begin the process again.
-* **Similarities[*]** - What kind of other situations does this current on bear similarities/draw parallels to? Then, go back to the start of the framework and begin the process again.
+* **Reaction(s)[*]** - What other actions will this trigger as reactions?
+* **Similarities[*]** - What kind of other situations does this current on bear similarities/draw parallels to?
 
 
 
