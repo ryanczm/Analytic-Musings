@@ -119,7 +119,7 @@ A grouping of nodes or actions by actors is called a situation or subplot. We ca
 * Connect to the **past context**/actions: Figuring out which was the previous actions by other actors that triggered the current reaction aka "why".
 * Connect to the **reactions**: Try and forecast how the next subplot evolves or subplots as a reaction to the current frame of reference. -->
 
-This can be done via the **action framework**:
+This can be done via the **action framework**. For each action, we can connect these nodes to it:
 
 * **Actors(s)** - Get a feel for the actors in the situation: their names (names anchor information!), visualise them. Write out an **actor mindmap**.
 * **Situations/subplots** - Which situation/subplot the action belongs to. Goto previous and visualise more actors involved.
@@ -128,7 +128,7 @@ This can be done via the **action framework**:
 * **Action(s)** - Get a feel for visualising the actions done by actors, bootstrapped from their action space
 * **Motivation(s)** - What is the motivation of the actor?
 * **Effect(s)** - What effect does this action have. Look at figures, data (a figure represents a magnitude of an effect by an action), and connect effects together.
-* **Context/Cause(s)** - What was the sequence of events that led up to this? 
+* **Context/Cause(s)** - What was the sequence of actions by actors that led up to this point?
 * **Reaction(s)** - What other actions will this trigger as reactions? 
 * **Similarities** - What kind of other situations does this current on bear similarities/draw parallels to?
 
