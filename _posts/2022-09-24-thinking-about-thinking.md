@@ -135,7 +135,7 @@ This can be done via the **action framework**:
 
 **Key Idea** - Together, the key skill is to be so good at this you can effectively put yourself in the **mind/perspective** of the actors in question and **live their experience with empathy** in a detailed, visually accurate manner. 
 
-**Effects - Quantification of actions** - the effect of certain actions can be quantified, via numbers or data. Then, you can connect them to one another.
+**Effects - Quantification of actions** - the effect of certain actions can be quantified, via numbers or data. We can do two actions here: **comparison** and **connection**. To compare is to get a relative sizing of the scale of the effect of the action. To connect is to model, often with **assumptions** (action happens, effect occurs, quantify), how it will impact some other effect/action.
 
 <!-- **Assumptions** - To model nth order reactions far into the future (e.g X does A, causing Y do to B, causing Z to do C), we need **assumptions**. Aka assume an action is taken, quantify the effect with a number, and run with it. -->
 
