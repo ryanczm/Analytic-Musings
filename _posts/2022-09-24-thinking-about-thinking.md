@@ -128,7 +128,10 @@ This can be done via the **action framework**. For each action, we can connect t
 * **Action(s)** - Get a feel for visualising the actions done by actors, bootstrapped from their action space
 * **Motivation(s)** - What is the motivation of the actor?
 * **Effect(s)** - What effect does this action have. Look at figures, data (a figure represents a magnitude of an effect by an action), and connect effects together.
-* **Context/Cause(s)[*]** - What was the sequence of actions by actors that led up to this point? Then, go back to the start of the framework and begin the process again.
+
+Then, you can look at the **context** and **future** surrounding the events by connecting other actions in:
+
+* **Context/Cause(s)[*]** - What was the sequence of actions by actors that led up to this point? Reconstruct it in time order.
 * **Reaction(s)[*]** - What other actions will this trigger as reactions?
 * **Similarities[*]** - What kind of other situations does this current on bear similarities/draw parallels to?
 
