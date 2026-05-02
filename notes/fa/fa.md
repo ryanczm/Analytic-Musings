@@ -47,8 +47,15 @@ In terms of features:
 * **Availability feature (injuries + reds + afcon)**
     * An injury score where player injuries imply the squad is weakened for the next match. This would be tricky because of player importance and substitutability. 
     * We know injuries to a key player can derail an entire season. So this is really important. We've seen Arsenal without Saliba collapsing in the tail end of 22/23, and City without Rodri collapsing mid 25/26 before recovering.
-    * Player importance: number of matches started and average rating. High starter + high rating out = disaster. Which means we need starting lineups and player ratings.
     * Problem is, need to factor how good the replacement is: aka Nico Gonzalez in for Rodri = no problem. Madueke in for Saka = disaster.
+    * The converse can happen! Sometimes we know as fans managers have favorites who get platformed despite performing poorly.
+    * Injuries can be a blessing in disguise as the replacements are better than the injured starter! E.g Eze vs Odegaard, we know Eze is superior but Odegaard starts over him.
+    * Player ratings could be used to quantify quality. If the injured starters have worse ratings than the replacements.. maybe injury becomes a boost.
+* **Starting XI feature (must bet after 1h before kickoff)**
+    * The idea that as a fan, sometimes you know based on a starting lineup put out by the manager whether it's gonna be a long game. We've all seen it. Havertz, Madueke, Odegaard - we are finished.
+    * But we know this because we watch the players and we know who's good or not.
+    * Use historical player ratings to measure effectiveness of the XI - do these capture the information?
+    * Feature is only available 1h or 1h15 min before games! So have to bet after lineup is out. Have some kind of lineup scraper from social media/X accounts of club X.
 * **Manager H2H feature**
     * Some kind of H2H manager score based on past fixtures over a long period with the same team.
     * Hypothesis being certain managers just tactically have each others number.
@@ -72,11 +79,7 @@ In terms of features:
     * Relegation teams fighting end of the season.
     * Mid table teams with no ability to leapfrog in the table or cannot qualify for the next tier competition (CL, UEL, Conference)
     * Title winners having won already end of season (doesn't happen often in EPL though unlike BL or L1)
-* **Starting XI feature (must bet after 1h before kickoff)**
-    * The idea that as a fan, sometimes you know based on a starting lineup put out by the manager whether it's gonna be a long game. We've all seen it. Havertz, Madueke, Odegaard - we are finished.
-    * But we know this because we watch the players and we know who's good or not.
-    * Use historical player ratings to measure effectiveness of the XI - do these capture the information?
-    * Feature is only available 1h or 1h15 min before games! So have to bet after lineup is out. Have some kind of lineup scraper from social media/X accounts of club X.
+
 * **Informed fan feature**
     * Some sentiment indicator of reddit/forum results - only if the informed fans have predictive power.
     * The problem is filtering out emotional sentiment to tactical opinions. And then you have opposing fan predictions. How do you filter the smart fans from the dumb ones? Especially on reddit, where upvotes go to the most popular opinion, not the "best". Maybe... the most downvoted opinions have the best predictive power? Stuff nobody wants to hear.
