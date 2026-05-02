@@ -44,6 +44,8 @@ In terms of features:
     * Window function... that depends. For example, using current league position difference to predict essentially is an expanding sum window over a discretized score outcome.
     * League/point weighting - Scale the xg difference by points differential. To account for team strength differences.
     * Time weighting - For goals, scale them by goal timing: 2-0 with 90' 95' is not the same as 2-0 30' 40'. For XG, create a discretized XG curve and apply a time decay.
+    * Confounding with Starting XI - Sometimes by luck manager picks a good XI (e.g injuries) who outperform and win. But when injured starting favorites come back, the performance drops.
+    * So the starting XI player rating feature plays a huge role.
 * **Availability feature (injuries + reds + afcon)**
     * An injury score where player injuries imply the squad is weakened for the next match. This would be tricky because of player importance and substitutability. 
     * We know injuries to a key player can derail an entire season. So this is really important. We've seen Arsenal without Saliba collapsing in the tail end of 22/23, and City without Rodri collapsing mid 25/26 before recovering.
