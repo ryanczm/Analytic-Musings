@@ -72,6 +72,11 @@ In terms of features:
     * Relegation teams fighting end of the season.
     * Mid table teams with no ability to leapfrog in the table or cannot qualify for the next tier competition (CL, UEL, Conference)
     * Title winners having won already end of season (doesn't happen often in EPL though unlike BL or L1)
+* **Starting XI feature (must bet after 1h before kickoff)**
+    * The idea that as a fan, sometimes you know based on a starting lineup put out by the manager whether it's gonna be a long game. We've all seen it. Havertz, Madueke, Odegaard - we are finished.
+    * But we know this because we watch the players and we know who's good or not.
+    * Use historical player ratings to measure effectiveness of the XI - do these capture the information?
+    * Feature is only available 1h or 1h15 min before games! So have to bet after lineup is out. Have some kind of lineup scraper from social media/X accounts of club X.
 * **Informed fan feature**
     * Some sentiment indicator of reddit/forum results - only if the informed fans have predictive power.
     * The problem is filtering out emotional sentiment to tactical opinions. And then you have opposing fan predictions. How do you filter the smart fans from the dumb ones? Especially on reddit, where upvotes go to the most popular opinion, not the "best". Maybe... the most downvoted opinions have the best predictive power? Stuff nobody wants to hear.
