@@ -44,7 +44,8 @@ In terms of features:
     * Window function... that depends. For example, using current league position difference to predict essentially is an expanding sum window over a discretized score outcome.
     * League/point weighting - Scale the xg difference by points differential. To account for team strength differences.
     * Time weighting - For goals, scale them by goal timing: 2-0 with 90' 95' is not the same as 2-0 30' 40'. For XG, create a discretized XG curve and apply a time decay.
-    * Confounding with Starting XI - Sometimes by luck manager picks a good XI (e.g injuries) who outperform and win. But when injured starting favorites come back, the performance drops.
+    * Confounding with Starting XI - Remember, starting XI generates the XG. And starting XI varies from game to game. 
+    * Sometimes by luck manager picks a good XI (e.g injuries) who outperform and win. But when injured starting favorites come back, the performance drops.
     * So the starting XI player rating feature plays a huge role.
 * **Availability feature (injuries + reds + afcon)**
     * An injury score where player injuries imply the squad is weakened for the next match. This would be tricky because of player importance and substitutability. 
@@ -53,6 +54,7 @@ In terms of features:
     * The converse can happen! Sometimes we know as fans managers have favorites who get platformed despite performing poorly.
     * Injuries can be a blessing in disguise as the replacements are better than the injured starter! E.g Eze vs Odegaard, we know Eze is superior but Odegaard starts over him.
     * Player ratings could be used to quantify quality. If the injured starters have worse ratings than the replacements.. maybe injury becomes a boost.
+    * Maybe starting XI is a better proxy? 
 * **Starting XI feature (must bet after 1h before kickoff)**
     * The idea that as a fan, sometimes you know based on a starting lineup put out by the manager whether it's gonna be a long game. We've all seen it. Havertz, Madueke, Odegaard - we are finished.
     * But we know this because we watch the players and we know who's good or not.
