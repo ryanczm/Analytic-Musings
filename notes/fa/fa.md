@@ -51,6 +51,7 @@ In terms of features:
     * How much the starting XI contributes to XG and XGA. The idea that sometimes the managers don't always put out the best starting XI. We know this as fans - e.g Havertz and Odegaard sucking.
     * Use historical player ratings to measure effectiveness of the XI - do these capture the information or need hand craft metrics form player stats. We can weigh it by position importance. E.g CM more important than RB/LB.
     * Feature is only available 1h or 1h15 min before games! So have to bet after lineup is out. Have some kind of lineup scraper from social media/X accounts of club X.
+    * For example, MLS started in midfield vs Fulham on 2nd May, replacing Zubi. The algo would rate him low due to poor performances at LB. But at CM, different story (MOTM). So need to scrape and compare historical positions with ratings.
 * **Availability feature (injuries + reds + afcon)**
     * An injury score where player injuries imply the squad is weakened for the next match. This would be tricky because of player importance and substitutability. 
     * We know injuries to a key player can derail an entire season. So this is really important. We've seen Arsenal without Saliba collapsing in the tail end of 22/23, and City without Rodri collapsing mid 25/26 before recovering.

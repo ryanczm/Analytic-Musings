@@ -137,7 +137,7 @@ Then, you can look at the **context** and **future** surrounding the events by c
 
 
 
-**Key Idea** - Together, the key skill is to be so good at this you can effectively put yourself in the **mind/perspective** of the actors in question **(using "from the perspective of ... what have they done, what will they do" as a verbal trigger)** and **live their experience with empathy** in a detailed, visually accurate manner. 
+**Key Idea** - Together, the key skill is to be so good at this you can effectively put yourself in the **mind/perspective** of the actors in question **(using "from the perspective of a verbal trigger)**. Once you are in their perspective, you can apply the framework.
 
 **Effects - Quantification of actions** - the effect of certain actions can be quantified, via numbers or data. We can do two actions here: **comparison** and **connection**. To compare is to get a relative sizing of the scale of the effect of the action. To connect is to model, often with **assumptions** (action happens, effect occurs, quantify), how it will impact some other effect/action.
 
