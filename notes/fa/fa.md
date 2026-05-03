@@ -49,7 +49,7 @@ In terms of features:
     * So the starting XI player rating feature plays a huge role.
 * **Starting XI feature (must bet after 1h before kickoff)**
     * How much the starting XI contributes to XG and XGA. The idea that sometimes the managers don't always put out the best starting XI. We know this as fans - e.g Havertz and Odegaard sucking.
-    * Use historical player ratings to measure effectiveness of the XI - do these capture the information? Or do we need to craft our own ratings from player match stats? Is quality even quantifiable?
+    * Use historical player ratings to measure effectiveness of the XI - do these capture the information or need hand craft metrics form player stats. We can weigh it by position importance. E.g CM more important than RB/LB.
     * Feature is only available 1h or 1h15 min before games! So have to bet after lineup is out. Have some kind of lineup scraper from social media/X accounts of club X.
 * **Availability feature (injuries + reds + afcon)**
     * An injury score where player injuries imply the squad is weakened for the next match. This would be tricky because of player importance and substitutability. 
