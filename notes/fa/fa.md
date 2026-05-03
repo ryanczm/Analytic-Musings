@@ -47,6 +47,10 @@ In terms of features:
     * Confounding with Starting XI - Remember, starting XI generates the XG. And starting XI varies from game to game. 
     * Sometimes by luck manager picks a good XI (e.g injuries) who outperform and win. But when injured starting favorites come back, the performance drops.
     * So the starting XI player rating feature plays a huge role.
+* **Starting XI feature (must bet after 1h before kickoff)**
+    * How much the starting XI contributes to XG and XGA. The idea that sometimes the managers don't always put out the best starting XI. We know this as fans - e.g Havertz and Odegaard sucking.
+    * Use historical player ratings to measure effectiveness of the XI - do these capture the information? Or do we need to craft our own ratings from player match stats? Is quality even quantifiable?
+    * Feature is only available 1h or 1h15 min before games! So have to bet after lineup is out. Have some kind of lineup scraper from social media/X accounts of club X.
 * **Availability feature (injuries + reds + afcon)**
     * An injury score where player injuries imply the squad is weakened for the next match. This would be tricky because of player importance and substitutability. 
     * We know injuries to a key player can derail an entire season. So this is really important. We've seen Arsenal without Saliba collapsing in the tail end of 22/23, and City without Rodri collapsing mid 25/26 before recovering.
@@ -55,10 +59,6 @@ In terms of features:
     * Injuries can be a blessing in disguise as the replacements are better than the injured starter! E.g Eze vs Odegaard, we know Eze is superior but Odegaard starts over him.
     * Player ratings could be used to quantify quality. If the injured starters have worse ratings than the replacements.. maybe injury becomes a boost.
     * Maybe starting XI is a better proxy? 
-* **Starting XI feature (must bet after 1h before kickoff)**
-    * How much the starting XI contributes to XG and XGA. The idea that sometimes the managers don't always put out the best starting XI. We know this as fans - e.g Havertz and Odegaard sucking.
-    * Use historical player ratings to measure effectiveness of the XI - do these capture the information? Or do we need to craft our own ratings from player match stats? Is quality even quantifiable?
-    * Feature is only available 1h or 1h15 min before games! So have to bet after lineup is out. Have some kind of lineup scraper from social media/X accounts of club X.
 * **Manager H2H feature**
     * Some kind of H2H manager score based on past fixtures over a long period with the same team.
     * Hypothesis being certain managers just tactically have each others number.
@@ -92,9 +92,12 @@ What **cannot** be modelled:
 
 * **Transfer Impact**
     * We know sometimes a good transfer window can provide a boost to seasons.
+    * It is impossible to quantify how good a signing will be with statistics. However, I have an idea about this below.
     * E.g PSG signing Kvara in the January window etc
     * A big summer window but all flopping, see Liverpool 25/26 in Slot's second season. They replaced both fullbacks with Kerkez and Frimpong, lost Diaz, lost Darwin, replaced with Isak, Ekitike, Wirtz and didn't really kick on.
     * Worth having a transfer list history?
+** **Ingame Tactics**
+    * Managerial impact via smart tactical changes be it inter game switches or intra game switches can change the course of a game, but we cannot capture this with past data.
 
 In terms of **football tropes** we see often:
 
