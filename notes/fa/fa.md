@@ -56,8 +56,7 @@ In terms of features:
     * Player ratings could be used to quantify quality. If the injured starters have worse ratings than the replacements.. maybe injury becomes a boost.
     * Maybe starting XI is a better proxy? 
 * **Starting XI feature (must bet after 1h before kickoff)**
-    * The idea that as a fan, sometimes you know based on a starting lineup put out by the manager whether it's gonna be a long game. We've all seen it. Havertz, Madueke, Odegaard - we are finished.
-    * But we know this because we watch the players and we know who's good or not.
+    * How much the starting XI contributes to XG and XGA. The idea that sometimes the managers don't always put out the best starting XI. We know this as fans - e.g Havertz and Odegaard sucking.
     * Use historical player ratings to measure effectiveness of the XI - do these capture the information?
     * Feature is only available 1h or 1h15 min before games! So have to bet after lineup is out. Have some kind of lineup scraper from social media/X accounts of club X.
 * **Manager H2H feature**
