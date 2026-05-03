@@ -57,7 +57,7 @@ In terms of features:
     * Maybe starting XI is a better proxy? 
 * **Starting XI feature (must bet after 1h before kickoff)**
     * How much the starting XI contributes to XG and XGA. The idea that sometimes the managers don't always put out the best starting XI. We know this as fans - e.g Havertz and Odegaard sucking.
-    * Use historical player ratings to measure effectiveness of the XI - do these capture the information?
+    * Use historical player ratings to measure effectiveness of the XI - do these capture the information? Or do we need to craft our own ratings from player match stats? Is quality even quantifiable?
     * Feature is only available 1h or 1h15 min before games! So have to bet after lineup is out. Have some kind of lineup scraper from social media/X accounts of club X.
 * **Manager H2H feature**
     * Some kind of H2H manager score based on past fixtures over a long period with the same team.
