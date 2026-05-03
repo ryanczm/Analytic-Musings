@@ -121,7 +121,7 @@ A grouping of nodes or actions by actors is called a situation or subplot. We ca
 
 This can be done via the **action framework**. For each action, we can connect these nodes to it:
 
-* **Actors(s)** - Get a feel for the actors in the situation: their names (names anchor information!), visualise them. Write out an **actor mindmap**.
+* **Actors(s)** - Get a feel for the actors in the situation: their names (names anchor information!), visualise them. "From the perspective of ..." is the trigger.
 * **Situations/subplots** - Which situation/subplot the action belongs to. Goto previous and visualise more actors involved.
 * **Time(s)** - Place on a timeline
 * **Space(s)** - Place on a map
@@ -137,7 +137,7 @@ Then, you can look at the **context** and **future** surrounding the events by c
 
 
 
-**Key Idea** - Together, the key skill is to be so good at this you can effectively put yourself in the **mind/perspective** of the actors in question and **live their experience with empathy** in a detailed, visually accurate manner. 
+**Key Idea** - Together, the key skill is to be so good at this you can effectively put yourself in the **mind/perspective** of the actors in question **(using "from the perspective of ..." as a verbal trigger)** and **live their experience with empathy** in a detailed, visually accurate manner. 
 
 **Effects - Quantification of actions** - the effect of certain actions can be quantified, via numbers or data. We can do two actions here: **comparison** and **connection**. To compare is to get a relative sizing of the scale of the effect of the action. To connect is to model, often with **assumptions** (action happens, effect occurs, quantify), how it will impact some other effect/action.
 
