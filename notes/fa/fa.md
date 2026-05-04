@@ -26,85 +26,75 @@ The key idea is: how much signal does past information of football matches have 
 
 The core problem is: How do we translate football wisdom or tropes into statistical signals? Tropes that we see play out in matches, before games, across seasons etc. From being a dedicated fan of a team.
 
-In terms of features:
 
+### Features
 
 * **Cold Start Problem**
-    * Any points/league weighted feature suffers from the lack of data at the start of a season. Use a weighting scheme from past season.
-    * Plus take into account squad value? Difficult due to lookahead bias of squad/wages
+    * Key Idea - Any points/league weighted feature suffers from the lack of data at the start of a season. Use a weighting scheme from past season.
+    * Problems - Plus take into account squad value? Difficult due to lookahead bias of squad/wages
 * **Points/League Difference**
-    * The fundamental feature that a higher placed team should beat a lower placed team. An expanding sum window over a discretized score outcome.
-    * As the league starts, the expanding window is useless, so we should use the past season + a transfer/wage budget adjustment in offseason to weigh.
-    * We've seen Liverpool winning 24/25 under Slot debut season and then do well at the start of the season then choke dramatically.
+    * Key Idea - The fundamental feature that a higher placed team should beat a lower placed team. An expanding sum window over a discretized score outcome.
+    * Problems - As the league starts, the expanding window is useless, so we should use the past season + a transfer/wage budget adjustment in offseason to weigh. Also, a team can have upsets.
 * **Core momentum feature**
-    * Window of league/point-weighted time-weighted XG differentials - prior XG differentials should encode performance, XG mean reverts to true performance (another hypothesis that needs testing). 
-    * Window of league/point-weighted time-weighted goal differentials - The true realized outcomes of matches, in case teams can consistently outperform/underperform XG due to structural reasons.
-    * Window function... that depends. For example, using current league position difference to predict essentially is an expanding sum window over a discretized score outcome.
-    * League/point weighting - Scale the xg difference by points differential. To account for team strength differences.
-    * Time weighting - For goals, scale them by goal timing: 2-0 with 90' 95' is not the same as 2-0 30' 40'. For XG, create a discretized XG curve and apply a time decay.
-    * Confounding with Starting XI - Remember, starting XI generates the XG. And starting XI varies from game to game. 
-    * Sometimes by luck manager picks a good XI (e.g injuries) who outperform and win. But when injured starting favorites come back, the performance drops.
-    * So the starting XI player rating feature plays a huge role.
-* **Lineup/player selection feature feature (must bet after 1h before kickoff)**
-    * How much the starting XI contributes to XG and XGA. The idea that sometimes the managers don't always put out the best starting XI. We know this as fans - e.g Havertz and Odegaard sucking.
-    * Use historical player ratings to measure effectiveness of the XI - do these capture information? Need to scale player ratings by team strength?
-    * Feature is only available 1h or 1h15 min before games! So have to bet after lineup is out. Have some kind of lineup scraper from social media/X accounts of club X.
-    * For example, MLS started in midfield vs Fulham on 2nd May, replacing Zubi. The algo would rate him low due to poor performances at LB. But at CM, different story (MOTM). So need to scrape and compare historical positions with ratings.
+    * Feature - Window of league/point-weighted time-weighted XG differentials - prior XG differentials should encode performance, XG mean reverts to true performance (another hypothesis that needs testing). 
+    * Feature - Window of league/point-weighted time-weighted goal differentials - The true realized outcomes of matches, in case teams can consistently outperform/underperform XG due to structural reasons.
+    * Feature - Window function... that depends. For example, using current league position difference to predict essentially is an expanding sum window over a discretized score outcome.
+    * Feature - League/point weighting - Scale the xg difference by points differential. To account for team strength differences.
+    * Feature - Time weighting - For goals, scale them by goal timing: 2-0 with 90' 95' is not the same as 2-0 30' 40'. For XG, create a discretized XG curve and apply a time decay.
+    * Problem - Confounding with Starting XI - Remember, starting XI generates the XG. And starting XI varies from game to game. 
+* **Lineup/player selection feature**
+    * Key Idea - How alpha in picking the "best" starting XI for that opponent contributes to XG and XGA. 
+    * Key Idea - The idea that sometimes the managers don't always put out the best starting XI. 
+    * Feature - Use historical player ratings to measure effectiveness of the XI - do these capture information? Need to scale player ratings by team strength? 
+    * Data - Lineup scrapers from social media
+    * Example - Arteta consistently choosing Havertz, Odegaard and Zubimendi and having poor performances despite wins Towards EOS, due to injuries, puts in MLS, Eze, Trossard, the team bangs vs Fulham.
+    * Example - For example, MLS started in midfield vs Fulham on 2nd May, replacing Zubi. The algo would rate him low due to poor performances at LB. But at CM, different story (MOTM). So need to scrape and compare historical positions with ratings.
 * **Availability feature (injuries + reds + afcon)**
-    * An injury score where player injuries imply the squad is weakened for the next match. This would be tricky because of player importance and substitutability. 
-    * We know injuries to a key player can derail an entire season. So this is really important. We've seen Arsenal without Saliba collapsing in the tail end of 22/23, and City without Rodri collapsing mid 25/26 before recovering.
-    * Problem is, need to factor how good the replacement is: aka Nico Gonzalez in for Rodri = no problem. Madueke in for Saka = disaster.
-    * The converse can happen! Sometimes we know as fans managers have favorites who get platformed despite performing poorly.
-    * Injuries can be a blessing in disguise as the replacements are better than the injured starter! E.g Eze vs Odegaard, we know Eze is superior but Odegaard starts over him.
-    * Player ratings could be used to quantify quality. If the injured starters have worse ratings than the replacements.. maybe injury becomes a boost.
-    * Maybe starting XI is a better proxy? 
+    * Feature - An injury score where player injuries imply the squad is weakened for the next match. This would be tricky because of player importance and substitutability. 
+    * Key Idea - We know injuries to a key player can derail an entire season. So this is really important. We've seen Arsenal without Saliba collapsing in the tail end of 22/23, and City without Rodri collapsing mid 25/26 before recovering.
+    * Problem - Problem is, need to factor how good the replacement is: aka Nico Gonzalez in for Rodri = no problem. Madueke in for Saka = disaster.
+    * Key Idea - The converse can happen! Sometimes we know as fans managers have favorites who get platformed despite performing poorly.
+    * Example - Injuries can be a blessing in disguise as the replacements are better than the injured starter! E.g Eze vs Odegaard, we know Eze is superior but Odegaard starts over him.
+    * Feature - Player ratings could be used to quantify quality. If the injured starters have worse ratings than the replacements.. maybe injury becomes a boost.
+    * Problem - Maybe starting XI is a better proxy? 
 * **Manager H2H feature**
-    * Some kind of H2H manager score based on past fixtures over a long period with the same team.
-    * Hypothesis being certain managers just tactically have each others number.
-    * This would be isolated to bigger games, and also managers who have a track record of H2H with the same team.
-    * We know for example Pep has Arteta's number at the Etihad. How does this relate to the home and away feature?
+    * Key Idea - Some kind of H2H manager score based on past fixtures over a long period with the same team. Hypothesis being certain managers just tactically have each others number.
+    * Feature - This would be isolated to bigger games, and also managers who have a track record of H2H with the same team.
+    * Example - We know for example Pep has Arteta's number at the Etihad. How does this relate to the home and away feature?
 * **Fatigue/Congestion/Rotation feature (minutes dispersion)**
-    * Idea being playing too many games in a tight schedule does impact performance vs well-rested. 
-    * Fixture count, distance ran, degree of rotation/substitutions/minutes played dispersion, all impact fatigue. Especially deep in cup runs.
+    * Key Idea - Idea being playing too many games in a tight schedule does impact performance vs well-rested. 
+    * Feature - Fixture count, distance ran, degree of rotation/substitutions/minutes played dispersion, all impact fatigue. Especially deep in cup runs.
 * **Home and away feature**
-    * A home team score and a away team score.
-    * Idea being certain teams have more home/away advantage than others.
-    * Andrew Mack's SSMIE book talks about a ZSD model for this.
-    * Window of points/league weighted home points vs away points difference
-    * Interaction effect with referee, we know sometimes referees get swayed by the home crowd and skew decisions.
+    * Feature - A home team score and a away team score.
+    * Key Idea - Idea being certain teams have more home/away advantage than others. Andrew Mack's SSMIE book talks about a ZSD model for this. Window of points/league weighted home points vs away points difference
+    * Example - Interaction effect with referee, we know sometimes referees get swayed by the home crowd and skew decisions.
 * **Referee feature**
     * Some kind of league/point-weighted referee score based on past fixtures over a long period of time with the same time.
     * Idea being that sometimes referees have biases against certain teams.
 * **Motivation feature**
-    * Some kind of motivation score differential.
-    * Idea being that nearing end of season, say last 5 games (GW34), we have teams with increased and decreased motivation.
-    * Relegation teams fighting end of the season.
-    * Mid table teams with no ability to leapfrog in the table or cannot qualify for the next tier competition (CL, UEL, Conference)
-    * Title winners having won already end of season (doesn't happen often in EPL though unlike BL or L1)
-    * Some kind of score that increases or decreases depending on the position in table and number of games left
+    * Key Idea - Some kind of motivation score differential. Idea being that nearing end of season, say last 5 games (GW34), we have teams with increased and decreased motivation.
+    * Example - Relegation teams fighting end of the season.
+    * Example - Mid table teams with no ability to leapfrog in the table or cannot qualify for the next tier competition (CL, UEL, Conference)
+    * Example - Title winners having won already end of season (doesn't happen often in EPL though unlike BL or L1)
+    * Feature - Some kind of score that increases or decreases depending on the position in table and number of games left
 * **Informed fan feature**
-    * Some sentiment indicator of reddit/forum results - only if the informed fans have predictive power.
-    * Confounds with starting XI feature - sometimes fans know better than the manager if a starting lineup sucks or will win the game.
-    * Possible scraping starting XI reactions for alpha?
+    * Key Idea - Some sentiment indicator of reddit/forum results - only if the informed fans have predictive power.
+    * Key Idea - Confounds with starting XI feature - sometimes fans know better than the manager if a starting lineup sucks or will win the game.
+    * Feature - Possible scraping starting XI reactions for alpha?
  
 
-What **cannot** be modelled:
+### Non-Modellable Variables
 
-* **Transfer Impact**
+* **Transfer Impacts**
     * We know sometimes a good transfer window can provide a boost to seasons.
     * It is impossible to quantify how good a signing will be with statistics. However, I have an idea about this below.
     * E.g PSG signing Kvara in the January window etc
     * A big summer window but all flopping, see Liverpool 25/26 in Slot's second season. They replaced both fullbacks with Kerkez and Frimpong, lost Diaz, lost Darwin, replaced with Isak, Ekitike, Wirtz and didn't really kick on.
     * Worth having a transfer list history?
-** **Ingame Tactics**
+* **Ingame Tactics**
     * Managerial impact via smart tactical changes be it inter game switches or intra game switches can change the course of a game, but we cannot capture this with past data.
 
-In terms of **football tropes** we see often:
-
-* There is this expectation that if you play well, but you lose, you should in theory win more in the future, vice versa. This should be encoded in XG. For example, Liverpool led the 25/26 season for the first 5-10 games scraping last minute winners etc. We all remember the Szobo dummy and Ngumoha's finish to win vs Newcastle. Then the next game, Crystal Palace tonked them with a last minute winner.
-* Big chances or big saves define games. If a shot goes in just a few inches, the whole outcome changes and your whole bet is fried.
-
-In terms of **research**:
+### Research 
 
 * **XG/Momentum** 
     * EDA
@@ -112,32 +102,11 @@ In terms of **research**:
     * Research
         * Basically, look at matches where the model predicts a big win, but in reality a big loss or upset happened, and understand the context around that game. Maybe the model missed something. Fan forums/reddit to understand.
 
-Quick **ChatGPT data sourcing table**:
+### Feature Normalisation
 
-| **Source**    | **Fixture Results** | **Personnel (Ref + Managers)** | **Events (Goals/Cards Timing)** | **xG (2 numbers)** | **Injury Data**        | **Player Ratings**    | **API Access**         | **Ease** | **Format**    | **Comments**                                      |
-| ------------- | ------------------- | ------------------------------ | ------------------------------- | ------------------ | ---------------------- | --------------------- | ---------------------- | -------- | ------------- | ------------------------------------------------- |
-| FBref         | ✅ Yes               | ✅ Yes                          | ✅ Yes                           | ✅ Yes (own model)  | ❌ No                   | ❌ No (raw stats only) | ✅ CSV export           | ⭐⭐⭐⭐⭐    | Clean tables  | **Best backbone**. Use for structure, not ratings |
-| Understat     | ✅ Yes               | ❌ No                           | ❌ No                            | ✅ Yes (best xG)    | ❌ No                   | ❌ No                  | ❌ No official API      | ⭐⭐⭐      | JSON (scrape) | Use purely for xG                                 |
-| Transfermarkt | ✅ Yes               | ✅ Yes                          | ❌ Limited                       | ❌ No               | ✅ Yes (injury periods) | ❌ No                  | ❌ No                   | ⭐⭐⭐      | HTML tables   | **Best injury source**                            |
-| WhoScored     | ✅ Yes               | ❌ No                           | ✅ Yes (very detailed)           | ❌ No               | ❌ No                   | ✅ Yes (0–10 ratings)  | ❌ No                   | ⭐⭐       | JSON in page  | **Best ratings source**, but scraping required    |
-| SofaScore     | ✅ Yes               | ❌ No                           | ✅ Yes                           | ❌ No               | ❌ Limited              | ✅ Yes (0–10 ratings)  | ⚠️ Unofficial API      | ⭐⭐⭐⭐     | JSON          | **Best API-style ratings source**                 |
-| API-Football  | ✅ Yes               | ✅ Yes                          | ✅ Yes                           | ❌ No xG            | ✅ Yes                  | ❌ No true ratings     | ✅ API (paid/free tier) | ⭐⭐⭐⭐     | JSON          | Clean pipeline, but no ratings                    |
-| Sportmonks    | ✅ Yes               | ✅ Yes                          | ✅ Yes                           | ❌ No xG            | ✅ Yes                  | ❌ No ratings          | ✅ API (paid)           | ⭐⭐⭐⭐     | JSON          | Enterprise-level, no ratings                      |
-
-**Python API scrapers**:
-* https://github.com/probberechts/soccerdata - 1.7k stars
-* https://github.com/collinb9/understatAPI - 23 stars
-* https://github.com/dkjorling/FbrefAPI - Deprecated? Worth a try
-
-
-**Dataset/Database Schema Construction**
-
-* Manager dataset - Soccerbase scraper
-* Injury dataset - Transfermarkt scraper
-* Historical ratings dataset - Whoscored scraper
-* Schedule dataset - A master schedule of all competitions: so domestic league (EPL), European comps (UCL, UEL, Conference), Domestic Cups (FA, Carabao). For congestion.
-* Aggregate Game dataset - With results, XG, referees
-* Specific Game dataset - with score timings, XG timings, etc.
+* **Team Strength Adjustment**
+    * Key Idea - The idea that certain statistics from matches must be adjusted for to take into account the strength delta between teams.
+    * Example - XG/XGa, player ratings against a weak team vs a strong team
 
 ## Player Assessment with Stats
 
