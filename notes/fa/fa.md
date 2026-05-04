@@ -45,9 +45,9 @@ In terms of features:
     * Confounding with Starting XI - Remember, starting XI generates the XG. And starting XI varies from game to game. 
     * Sometimes by luck manager picks a good XI (e.g injuries) who outperform and win. But when injured starting favorites come back, the performance drops.
     * So the starting XI player rating feature plays a huge role.
-* **Starting XI feature (must bet after 1h before kickoff)**
+* **Lineup/player selection feature feature (must bet after 1h before kickoff)**
     * How much the starting XI contributes to XG and XGA. The idea that sometimes the managers don't always put out the best starting XI. We know this as fans - e.g Havertz and Odegaard sucking.
-    * Use historical player ratings to measure effectiveness of the XI - do these capture the information or need hand craft metrics form player stats. We can weigh it by position importance. E.g CM more important than RB/LB.
+    * Use historical player ratings to measure effectiveness of the XI - do these capture information? Need to scale player ratings by team strength?
     * Feature is only available 1h or 1h15 min before games! So have to bet after lineup is out. Have some kind of lineup scraper from social media/X accounts of club X.
     * For example, MLS started in midfield vs Fulham on 2nd May, replacing Zubi. The algo would rate him low due to poor performances at LB. But at CM, different story (MOTM). So need to scrape and compare historical positions with ratings.
 * **Availability feature (injuries + reds + afcon)**
@@ -81,6 +81,7 @@ In terms of features:
     * Relegation teams fighting end of the season.
     * Mid table teams with no ability to leapfrog in the table or cannot qualify for the next tier competition (CL, UEL, Conference)
     * Title winners having won already end of season (doesn't happen often in EPL though unlike BL or L1)
+    * Some kind of score that increases or decreases depending on the position in table and number of games left
 * **Informed fan feature**
     * Some sentiment indicator of reddit/forum results - only if the informed fans have predictive power.
     * Confounds with starting XI feature - sometimes fans know better than the manager if a starting lineup sucks or will win the game.
