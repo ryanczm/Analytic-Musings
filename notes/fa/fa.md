@@ -108,6 +108,15 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * Key Idea - The idea that certain statistics from matches must be adjusted for to take into account the strength delta between teams.
     * Example - XG/XGa, player ratings against a weak team vs a strong team
 
+
+### Target
+
+* Poissons.. or something.
+
+### Bet Sizing
+
+* How to size bets and spread capital out? Concentrate on a few games or spread? How to weigh in depth and cross section? If signal is weak, you spread bets. 
+
 ## Player Assessment with Stats
 
 How do we optimally make use of statistics to scout players? Say, examine successful players per position - take a look at their stats, extrapolate to scout new players. Like factors driving returns.
