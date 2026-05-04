@@ -108,11 +108,10 @@ In terms of **football tropes** we see often:
 In terms of **research**:
 
 * **XG/Momentum** 
-    * Plot out points/XG as a time series for all teams in the league and see how it evolves over time.
-    * Are there cases where winning streaks or runs suddenly break? Then dive in and try to figure out why.
-    * Look at match threads/data from the most XG-failed matches and try and figure out the pattern.
-    * Look at data where teams go on streaks while conflicting their XG. Figure out why the streak happens and why it breaks.
-    * Watch the matches with boots on the ground
+    * EDA
+        * Plot out points/XG as a time series for all teams in the league and see how it evolves over time.
+    * Research
+        * Basically, look at matches where the model predicts a big win, but in reality a big loss or upset happened, and understand the context around that game. Maybe the model missed something. Fan forums/reddit to understand.
 
 Quick **ChatGPT data sourcing table**:
 
