@@ -115,7 +115,13 @@ The core problem is: How do we translate football wisdom or tropes into statisti
 
 ### Bet Sizing
 
-* How to size bets and spread capital out? Concentrate on a few games or spread? How to weigh in depth and cross section? If signal is weak, you spread bets. 
+* How to size bets and spread capital out? Concentrate on a few games or spread? How to weigh in depth and cross section? Probably from quantitative trading.
+
+
+### Other Data Sources
+
+* Statsbomb API - Paid API from Hudl, covers very extensive match events, up to the coordinates of each pass, each carry/dribble.
+* SportsMonk API - Paid API, of interest is the player statistics section, which could be used to handroll custom player ratings if needed. E.g for attackers, G/A, shots on/off target, successful dribbles, key passes, big chances created and missed.
 
 ## Player Assessment with Stats
 
