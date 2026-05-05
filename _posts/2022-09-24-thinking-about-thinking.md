@@ -127,15 +127,13 @@ This can be done via the **action framework**. For each action, we can connect t
 * **Space(s)** - Place on a map
 * **Action(s)** - Who is doing what and what does it look like? Actors taking actions, bootstrapped from their action space
 * **Motivation(s)** - What do they hope to achieve?
-* **Effect(s)** - What effect does this action have. Look at figures, data (a figure represents a magnitude of an effect by an action), and connect effects together.
+* **Effect(s)** - How do we quantify this action with numbers?
 
 Then, you can look at the **context** and **future** surrounding the events by connecting other actions in:
 
-* **Context/Cause(s)[*]** - Who did what that led up to this event?
-* **Reaction(s)[*]** - Who will react to to this and what will they do?
-* **Similarities[*]** - Who has done something similar in the past?
-
-
+* **Context/Cause(s)** - Who did what that led up to this event?
+* **Reaction(s)** - Who will react to to this and what will they do?
+* **Similarities** - Who has done something similar in the past?
 
 **Key Idea** - Together, the key skill is to be so good at this you can effectively put yourself in the **mind/perspective** of the actors in question **(using "from the perspective of"" as a verbal trigger)** where they **perform past, current or future actions**.
 
