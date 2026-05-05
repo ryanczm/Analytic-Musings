@@ -111,7 +111,7 @@ The core problem is: How do we translate football wisdom or tropes into statisti
 
 ### Target
 
-* Poissons.. or something.
+* Poissons and odds... or something. Probably need to read Mack's SSMIE
 
 ### Bet Sizing
 
