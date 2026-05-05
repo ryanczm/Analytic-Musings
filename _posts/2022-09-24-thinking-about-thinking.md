@@ -121,19 +121,19 @@ A grouping of nodes or actions by actors is called a situation or subplot. We ca
 
 This can be done via the **action framework**. For each action, we can connect these nodes to it:
 
-* **Actors(s)** - Get a feel for the actors in the situation: their names (names anchor information!), visualise them. "From the perspective of ..." is the trigger.
-* **Situations/subplots** - Which situation/subplot the action belongs to. Goto previous and visualise more actors involved.
+* **Actors(s)** - Get a feel for the actors in the situation: their names
+* **Situations/subplots** - Which situation/subplot the action belongs to
 * **Time(s)** - Place on a timeline
 * **Space(s)** - Place on a map
-* **Action(s)** - Get a feel for visualising the actions done by actors, bootstrapped from their action space
-* **Motivation(s)** - What is the motivation of the actor?
+* **Action(s)** - Who is doing what and what does it look like? Actors taking actions, bootstrapped from their action space
+* **Motivation(s)** - What do they hope to achieve?
 * **Effect(s)** - What effect does this action have. Look at figures, data (a figure represents a magnitude of an effect by an action), and connect effects together.
 
 Then, you can look at the **context** and **future** surrounding the events by connecting other actions in:
 
-* **Context/Cause(s)[*]** - What was the sequence of actions by actors that led up to this point? Reconstruct it in time order.
-* **Reaction(s)[*]** - What other actions will this trigger as reactions?
-* **Similarities[*]** - What kind of other situations does this current on bear similarities/draw parallels to?
+* **Context/Cause(s)[*]** - Who did what that led up to this event?
+* **Reaction(s)[*]** - Who will react to to this and what will they do?
+* **Similarities[*]** - Who has done something similar in the past?
 
 
 
