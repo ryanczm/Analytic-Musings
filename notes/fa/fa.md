@@ -45,7 +45,7 @@ The core problem is: How do we translate football wisdom or tropes into statisti
 * **Lineup/player selection feature**
     * Key Idea - How alpha in picking the "best" starting XI for that opponent contributes to XG and XGA. 
     * Key Idea - The idea that sometimes the managers don't always put out the best starting XI. 
-    * Feature - Use historical player ratings to measure effectiveness of the XI - do these capture information? Need to scale player ratings by team strength? Also stats vs eye test example. For example: against Atletico 2nd leg, Gyokeres was fantastic. However, algo ratings like whoscored rated 5.7. Human ratings like BBC rated 8.2. Solution: use both algo and human ratings.  
+    * Feature - Use historical player ratings to measure effectiveness of the XI - do these capture information? Need to scale player ratings by team strength? Also stats vs eye test example. For example: against Atletico 2nd leg, Gyokeres was fantastic. However, algo ratings like whoscored rated 5.7. The crowdsourced ratings like BBC rated 8.2. Solution: use both algo and human ratings.  
     * Data - Lineup scrapers from social media
     * Example - Arteta consistently choosing Havertz, Odegaard and Zubimendi and having poor performances despite wins Towards EOS, due to injuries, puts in MLS, Eze, Trossard, the team bangs vs Fulham.
     * Example - For example, MLS started in midfield vs Fulham on 2nd May, replacing Zubi. The algo would rate him low due to poor performances at LB. But at CM, different story (MOTM). So need to scrape and compare historical positions with ratings.
