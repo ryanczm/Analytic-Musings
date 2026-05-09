@@ -32,9 +32,9 @@ The core problem is: How do we translate football wisdom or tropes into statisti
 * **Cold Start Problem**
     * Key Idea - Any points/league weighted feature suffers from the lack of data at the start of a season. Use a weighting scheme from past season.
     * Problems - Plus take into account squad value? Difficult due to lookahead bias of squad/wages
-* **Points/League Difference**
-    * Key Idea - The fundamental feature that a higher placed team should beat a lower placed team. An expanding sum window over a discretized score outcome.
-    * Problems - As the league starts, the expanding window is useless, so we should use the past season + a transfer/wage budget adjustment in offseason to weigh. Also, a team can have upsets.
+* **Core Strength Feature*
+    * Key Idea - The fundamental feature at the start of each season, a team has an innate ranking/strength level from it's players and the manager. 
+    * Key Idea - Last season data + transfer/waage budget adjustment to carry over, expanding league pos/points window, Bradley-Terry-Davidson model, etc. Core rankings.
 * **Core momentum feature**
     * Feature - Window of league/point-weighted time-weighted XG differentials - prior XG differentials should encode performance, XG mean reverts to true performance (another hypothesis that needs testing). 
     * Feature - Window of league/point-weighted time-weighted goal differentials - The true realized outcomes of matches, in case teams can consistently outperform/underperform XG due to structural reasons.
