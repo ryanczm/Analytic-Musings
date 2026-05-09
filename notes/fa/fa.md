@@ -32,7 +32,7 @@ The core problem is: How do we translate football wisdom or tropes into statisti
 * **Cold Start Problem**
     * Key Idea - Any points/league weighted feature suffers from the lack of data at the start of a season. Use a weighting scheme from past season.
     * Problems - Plus take into account squad value? Difficult due to lookahead bias of squad/wages
-* **Core Strength Feature*
+* **Core Strength Feature**
     * Key Idea - The fundamental feature at the start of each season, a team has an innate ranking/strength level from it's players and the manager. 
     * Key Idea - Last season data + transfer/waage budget adjustment to carry over, expanding league pos/points window, Bradley-Terry-Davidson model, etc. Core rankings.
 * **Core momentum feature**
