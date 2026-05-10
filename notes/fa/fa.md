@@ -95,35 +95,6 @@ The core problem is: How do we translate football wisdom or tropes into statisti
 * **Ingame Tactics**
     * Managerial impact via smart tactical changes be it inter game switches or intra game switches can change the course of a game, but we cannot capture this with past data.
 
-### Research 
-
-* **XG/Momentum** 
-    * EDA
-        * Plot out points/XG as a time series for all teams in the league and see how it evolves over time.
-    * Research
-        * Basically, look at matches where the model predicts a big win, but in reality a big loss or upset happened, and understand the context around that game. Maybe the model missed something. Fan forums/reddit to understand.
-
-### Feature Normalisation
-
-* **Team Strength Adjustment**
-    * Key Idea - The idea that certain statistics from matches must be adjusted for to take into account the strength delta between teams.
-    * Example - XG/XGa, player ratings against a weak team vs a strong team
-
-
-### Target
-
-* Poissons and odds... or something. Probably need to read Mack's SSMIE
-
-### Bet Sizing
-
-* How to size bets and spread capital out? Concentrate on a few games or spread? How to weigh in depth and cross section? Probably from quantitative trading.
-
-
-### Other Data Sources
-
-* Statsbomb API - Paid API from Hudl, covers very extensive match events, up to the coordinates of each pass, each carry/dribble.
-* SportsMonk API - Paid API, of interest is the player statistics section, which could be used to handroll custom player ratings if needed. E.g for attackers, G/A, shots on/off target, successful dribbles, key passes, big chances created and missed.
-
 ## Player Assessment with Stats
 
 How do we optimally make use of statistics to scout players? Say, examine successful players per position - take a look at their stats, extrapolate to scout new players. Like factors driving returns.
