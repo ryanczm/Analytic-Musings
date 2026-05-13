@@ -127,7 +127,7 @@ This can be done via the **action framework**. For each action, we can connect t
 * **Space(s)** - Place on a map
 * **Action(s)** - Who is doing what and what does it look like? Actors taking actions, bootstrapped from their action space
 * **Motivation(s)** - What do they hope to achieve?
-* **Effect(s)** - How do we quantify this action with numbers?
+* **Effect(s)** - Anchoring or connecting the action to quantifying numbers to understand scale?
 
 Then, you can look at the **context** and **future** surrounding the events by connecting other actions in:
 
