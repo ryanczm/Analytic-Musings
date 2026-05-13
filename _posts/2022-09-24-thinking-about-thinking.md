@@ -131,11 +131,11 @@ This can be done via the **action framework**. For each action, we can connect t
 
 Then, you can look at the **context** and **future** surrounding the events by connecting other actions in:
 
-* **Context/Cause(s)** - Who did what that led up to this event?
-* **Reaction(s)** - Who will react to to this and what will they do?
+* **Context/Cause(s)** - Anchor to the actors that did the previous action that triggered the current one
+* **Reaction(s)** - Anchor to who will react to this and what they will do
 * **Similarities** - Who has done something similar in the past?
 
-**Key Idea** - Together, the key skill is to be so good at this you can effectively put yourself in the **mind/perspective** of the actors in question **(using "from the perspective of"" as a verbal trigger)** where they **perform past, current or future actions**.
+**Key Idea** - Together, the key skill is anchor yourself to the **who** of multiple actors in the situation. This is equivalent to placing yourself in **mind/perspective** of the actors in question **(using "from the perspective of"" as a verbal trigger)** where they **perform past, current or future actions**.
 
 **Effects - Quantification of actions** - the effect of certain actions can be quantified, via numbers or data. We can do two actions here: **comparison** and **connection**. To **compare** is to get a relative sizing of the scale of the effect of the action (currency is the ultimate comparison tool) To **connect** is to model, often with **assumptions** (action happens, effect occurs, quantify), how it will impact some other effect/action.
 
