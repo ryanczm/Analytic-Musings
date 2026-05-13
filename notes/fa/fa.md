@@ -46,7 +46,7 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * Key Idea - How alpha in picking the "best" starting XI for that opponent contributes to XG and XGA. 
     * Key Idea - The idea that sometimes the managers don't always put out the best starting XI. 
     * Feature - Use historical player ratings to measure effectiveness of the XI - do these capture information? Need to scale player ratings by team strength? Also stats vs eye test example. For example: against Atletico 2nd leg, Gyokeres was fantastic. However, algo ratings like whoscored rated 5.7. The crowdsourced ratings like BBC rated 8.2. Solution: use both algo and human ratings.  
-    * Feature - Consistency of starting XI - maybe a consistent 11 is a signal?
+    * Feature - Consistency of starting XI - maybe a consistent 11 is a signal? But some managers rotate like Pep.
     * Data - Lineup scrapers from social media or websites
     * Example - Arteta consistently choosing Havertz, Odegaard and Zubimendi and having poor performances despite wins Towards EOS, due to injuries, puts in MLS, Eze, Trossard, the team bangs vs Fulham.
     * Example - For example, MLS started in midfield vs Fulham on 2nd May, replacing Zubi. The algo would rate him low due to poor performances at LB. But at CM, different story (MOTM). So need to scrape and compare historical positions with ratings.
@@ -76,14 +76,21 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * Key Idea - Some kind of motivation score differential. Idea being that nearing end of season, say last 5 games (GW34), we have teams with increased and decreased motivation.
     * Example - Relegation teams fighting end of the season.
     * Example - Mid table teams with no ability to leapfrog in the table or cannot qualify for the next tier competition (CL, UEL, Conference)
-    * Example - Title winners having won already end of season (doesn't happen often in EPL though unlike BL or L1)
+    * Example - Title winners having won already end of season (doesn't happen often in EPL though unlike BL or L1) with no motivation.
+    * Example - Sometimes, teams with nothing to play for rest players for a big game. 
     * Feature - Some kind of score that increases or decreases depending on the position in table and number of games left
 * **Informed fan feature**
     * Key Idea - Some sentiment indicator of reddit/forum results - only if the informed fans have predictive power.
     * Key Idea - Confounds with starting XI feature - sometimes fans know better than the manager if a starting lineup sucks or will win the game.
     * Feature - Possible scraping starting XI reactions for alpha?
  **Bookie odds feature**
-    * Key Idea - Integrate the betting odds from bookies into your final prediction either as part of the model or as an ensemble. Mack calls it the Benter Boost in SSMIE.
+    * Key Idea - Integrate the betting odds from bookies into your final prediction either as part of the model or as an ensemble. Aka what William Benter did in Hong Kong. Blended his probs with devigged bookie probs in a logit estimated on true outcomes.
+
+
+### Random Feature Ideas I Don't See Any Link To
+
+* Goal/assist history - E.g A hot streak player on top form (e.g lots of past goals assists) relative to the average can carry a team to win?
+* 
 
 ### Non-Modellable Variables
 
