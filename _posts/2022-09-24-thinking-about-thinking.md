@@ -119,7 +119,7 @@ A grouping of nodes or actions by actors is called a situation or subplot. We ca
 * Connect to the **past context**/actions: Figuring out which was the previous actions by other actors that triggered the current reaction aka "why".
 * Connect to the **reactions**: Try and forecast how the next subplot evolves or subplots as a reaction to the current frame of reference. -->
 
-This can be done via the **action framework**. For each action, we can connect these nodes to it:
+This can be done via the **action framework**. For each action, we can connect these nodes to it. Then, we **categorize** them. 
 
 * **Actors(s)** - Anchor the situation and actions to the actors/participants (who?) involved before understanding the action. For a situation, you can write out an **actor map** - hierarchically breaking down the groups involved.
 * **Situations/subplots** - Which situation/subplot the action belongs to
@@ -128,20 +128,18 @@ This can be done via the **action framework**. For each action, we can connect t
 * **Action(s)** - Who is doing what and what does it look like? Actors taking actions, bootstrapped from their action space
 * **Motivation(s)** - What do they hope to achieve?
 * **Effect(s)** - Anchoring or connecting the action to quantifying numbers to understand scale?
-
-Then, you can look at the **context** and **future** surrounding the events by connecting other actions in:
-
 * **Context/Cause(s)** - Anchor to the actors that did the previous action that triggered the current one
 * **Reaction(s)** - Anchor to who will react to this and what they will do
-* **Similarities** - Who has done something similar in the past?
 
-**Key Idea** - Together, the key skill is anchor yourself to the **who** of multiple actors in the situation. This is equivalent to placing yourself in **mind/perspective** of the actors in question **(using "from the perspective of"" as a verbal trigger)** where they **perform past, current or future actions**.
+**Categorization** - By categorizing each node, aka what type of situation, actor, time/space, action, motivation, effect, context, reaction, we can assign labels to them which lets us connect to other nodes in the same category.
+
+**Perspective** - Together, the key skill is anchor yourself to the **who** of multiple actors in the situation. This is equivalent to placing yourself in **mind/perspective** of the actors in question **(using "from the perspective of"" as a verbal trigger)** where they **perform past, current or future actions**.
 
 **Effects - Quantification of actions** - the effect of certain actions can be quantified, via numbers or data. We can do two actions here: **comparison** and **connection**. To **compare** is to get a relative sizing of the scale of the effect of the action (currency is the ultimate comparison tool) To **connect** is to model, often with **assumptions** (action happens, effect occurs, quantify), how it will impact some other effect/action.
 
 **Assumptions** - To model nth order reactions far into the future (e.g X does A, causing Y do to B, causing Z to do C), we need **assumptions**. Aka assume an action is taken, quantify the effect with a number, and run with it.
 
-**Connecting across situations/subplots** - The key idea is to see how subplots or situations connect across time and space, with the key idea being - certain situations tend to play out in certain ways similar to the past. So we can connect past situations to the present to understand how the current one unfolds better.
+
 
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>

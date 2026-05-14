@@ -85,12 +85,13 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * Feature - Possible scraping starting XI reactions for alpha?
  **Bookie odds feature**
     * Key Idea - Integrate the betting odds from bookies into your final prediction either as part of the model or as an ensemble. Aka what William Benter did in Hong Kong. Blended his probs with devigged bookie probs in a logit estimated on true outcomes.
+    * Other Ideas - Odds dispersion, wrongness, opening vs closing delta. Need to do EDA on odds.
 
 
 ### Random Feature Ideas I Don't See Any Link To
 
-* Goal/assist history - E.g A hot streak player on top form (e.g lots of past goals assists) relative to the average can carry a team to win?
-* 
+* Goal/assist History - E.g A hot streak player on top form (e.g lots of past goals assists) relative to the average can carry a team to win?
+* Fine Grained Odds - Odds time series (The Odds API - paid). Any signal in how odds evolve over time before gate closure?
 
 ### Non-Modellable Variables
 
