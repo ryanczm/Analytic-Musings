@@ -88,10 +88,15 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * Other Ideas - Odds dispersion, wrongness, opening vs closing delta. Need to do EDA on odds.
 
 
-### Random Feature Ideas I Don't See Any Link To
+### Other Features
 
-* Goal/assist History - E.g A hot streak player on top form (e.g lots of past goals assists) relative to the average can carry a team to win?
-* Fine Grained Odds - Odds time series (The Odds API - paid). Any signal in how odds evolve over time before gate closure?
+* **Goal/assist Stats**
+    * E.g A hot streak player on top form (e.g lots of past goals assists) relative to the average can carry a team to win?
+    * Goal/assist spread/dispersion as a predictive feature?
+* **Odds Time Series/Evolution**
+    Odds time series (The Odds API - paid). Any signal in how odds evolve over time before gate closure? How did odds jump due to some news?
+* **Team Level Match Statistics (non-XG)**
+    * Possession, defensive line height, etc. The idea being some tactical/style setups can beat others. But managers change tactics game-to-game?
 
 ### Non-Modellable Variables
 
