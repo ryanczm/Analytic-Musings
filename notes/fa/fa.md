@@ -60,6 +60,7 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * Problem - Maybe starting XI is a better proxy? 
 * **Manager H2H feature**
     * Key Idea - Some kind of H2H manager score based on past fixtures over a long period with the same team. Hypothesis being certain managers just tactically have each others number.
+    * Key Idea - New manager bounce, another trope in football. Can this add a boost to certain matches with a new manager bounce? Problem is the skill of the manager plays a role. For example, Carrick in 25/26. Utd in downfall until he came in Jan, now they are top 4 race. 
     * Feature - This would be isolated to bigger games, and also managers who have a track record of H2H with the same team.
     * Example - We know for example Pep has Arteta's number at the Etihad. How does this relate to the home and away feature?
 * **Fatigue/Congestion/Rotation feature (minutes dispersion)**
@@ -96,7 +97,10 @@ The core problem is: How do we translate football wisdom or tropes into statisti
 * **Odds Time Series/Evolution**
     Odds time series (The Odds API - paid). Any signal in how odds evolve over time before gate closure? How did odds jump due to some news?
 * **Team Level Match Statistics (non-XG)**
-    * Possession, defensive line height, etc. The idea being some tactical/style setups can beat others. But managers change tactics game-to-game?
+    * Key idea is that certain teams/managers have certain tactics/styles. And certain styles will have advantage over the other. So we want to quantify this. For example: 
+    * Possession - Play possession or sit and counter
+    * Def line height - sit deep in low/midblock vs high press
+    * PPDA - Press high or sit tight
 
 ### Non-Modellable Variables
 
