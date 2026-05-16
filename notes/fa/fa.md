@@ -83,8 +83,8 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * Key Idea - Some sentiment indicator of reddit/forum results - only if the informed fans have predictive power.
     * Key Idea - Confounds with starting XI feature - sometimes fans know better than the manager if a starting lineup sucks or will win the game.
     * Feature - Possible scraping starting XI reactions for alpha?
- **Bookie odds feature**
-    * Key Idea - Integrate the betting odds from bookies into your final prediction either as part of the model or as an ensemble. Aka what William Benter did in Hong Kong. Blended his probs with devigged bookie probs in a logit estimated on true outcomes.
+ * **Bookie odds feature**
+    * Key Idea - Integrate the betting odds from bookies into your final prediction either as part of the model or as an ensemble. Aka what William Benter did. He found blending his odds/probs with bookies increased his model R2 from below bookie R2 to above it! Wow.
     * Other Ideas - Odds dispersion, wrongness, opening vs closing delta. Need to do EDA on odds.
 
 
