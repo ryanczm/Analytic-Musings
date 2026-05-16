@@ -101,6 +101,7 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * Possession - Play possession or sit and counter
     * Def line height - sit deep in low/midblock vs high press
     * PPDA - Press high or sit tight
+    * Offsides - Some teams play an offside trap. Some teams have fast runners that punish a high line, etc.
 
 ### Non-Modellable Variables
 
