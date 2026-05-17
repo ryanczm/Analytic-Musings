@@ -123,9 +123,7 @@ This can be done via the **action framework**. For each action, we can connect t
 
 * **Actors(s)** - Anchor the situation and actions to the actors/participants (who?) involved before understanding the action. For a situation, you can write out an **actor map** - hierarchically breaking down the groups involved.
 * **Situations/subplots** - Which situation/subplot the action belongs to
-* **Time(s)** - Place on a timeline
-* **Space(s)** - Place on a map
-* **Action(s)** - Who is doing what and what does it look like? Actors taking actions, bootstrapped from their action space
+* **Action(s)** - Who does what, where (space) and when (time)? Actors taking actions, bootstrapped from their action space
 * **Motivation(s)** - What do they hope to achieve?
 * **Effect(s)** - Anchoring or connecting the action to quantifying numbers to understand scale?
 * **Context/Cause(s)** - Anchor to the actors that did the previous action that triggered the current one
