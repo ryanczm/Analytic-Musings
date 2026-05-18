@@ -80,15 +80,16 @@ Key prompts - "Connections", "Visualisation"
 
 ## Semideterministic Framework
 
-For semi-deterministic fields, which is essentially computing, a system consists of **nodes (operations/tools/parts)** and **edges (information)**. Together, they form a graph operating at an **abstraction level**.
+For semi-deterministic fields, which is essentially computing, a system consists of **edges/pipes (operations/tools/parts)** and **nodes (information)**. Together, they form a graph operating at an **abstraction level**.
 
-However, the key skill is we can
+The key idea is to start top down. A problem here is defined as a set of target nodes and a set of destination nodes. You want to build a system using edges/pipes to get from the target nodes to the destination nodes.
 
-* **Decompose/break** down a node/edge in a system into another system of nodes and edges, going to a deeper level of abstraction.
+And you do this via:
+
+* **Decomposing/break** down a edge in a system into another system of nodes and edges, going to a deeper level of abstraction. 
 * **Build up** a node and edge system to be a node or edge in a higher abstraction level system.
 
-The key is to categorize the different types of nodes and edges as **types/parts** - certain types connect to certain parts; see how they connect together or break them down by understanding the landscape of abstraction layers, and **visualising it as a graph**.
-
+This would be top-down thinking.
 
 <blockquote>
 Input → system (computation) → output. This is my core paradigm for understanding anything.
