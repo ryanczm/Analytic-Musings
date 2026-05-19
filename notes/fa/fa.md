@@ -58,9 +58,10 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * Example - Injuries can be a blessing in disguise as the replacements are better than the injured starter! E.g Eze vs Odegaard, we know Eze is superior but Odegaard starts over him.
     * Feature - Player ratings could be used to quantify quality. If the injured starters have worse ratings than the replacements.. maybe injury becomes a boost.
     * Problem - Maybe starting XI is a better proxy? 
-* **Manager H2H feature**
+* **Manager H2H/Bounce/Alpha feature**
     * Key Idea - Some kind of H2H manager score based on past fixtures over a long period with the same team. Hypothesis being certain managers just tactically have each others number.
-    * Key Idea - New manager bounce, another trope in football. Can this add a boost to certain matches with a new manager bounce? Problem is the skill of the manager plays a role. For example, Carrick in 25/26. Utd in downfall until he came in Jan, now they are top 4 race. 
+    * Key Idea - New manager bounce, another trope in football. Can this add a boost to certain matches with a new manager bounce? Problem is the skill of the manager plays a role. For example, Carrick in 25/26. Utd in downfall until he came in Jan, now they are top 4 race.
+    * Key Idea - Does the idea of managerial alpha (aka a midseason switch) and suddenly the manager does well be modelled? 
     * Feature - This would be isolated to bigger games, and also managers who have a track record of H2H with the same team.
     * Example - We know for example Pep has Arteta's number at the Etihad. How does this relate to the home and away feature?
 * **Fatigue/Congestion/Rotation feature (minutes dispersion)**
