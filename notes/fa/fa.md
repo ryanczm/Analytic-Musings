@@ -114,6 +114,14 @@ The core problem is: How do we translate football wisdom or tropes into statisti
 * **Ingame Tactics**
     * Managerial impact via smart tactical changes be it inter game switches or intra game switches can change the course of a game, but we cannot capture this with past data.
 
+## Research Directions
+
+* Correlative research
+    * Standard signal/model research. Based on a hypothesis, quantify the hypothesis, test the idea. Is there predictive power?
+* Anti-Correlative Research
+    * The key idea here is to find situations/matches where the feature, model (be it yours or bookie) failed or diverged dramatically. 
+    * Then do investigative research. What happened there? Could the feature/model have priced it in? If so, what did we miss? If not, how can we neutralize this risk? 
+
 ## Player Assessment with Stats
 
 How do we optimally make use of statistics to scout players? Say, examine successful players per position - take a look at their stats, extrapolate to scout new players. Like factors driving returns.
