@@ -134,7 +134,7 @@ This can be done via the **action framework**. For each action, we can connect t
 
 **Perspective** - Together, the key skill is anchor yourself to the **who** of multiple actors in the situation. This is equivalent to placing yourself in **mind/perspective** of the actors in question **(using "from the perspective of"" as a verbal trigger)** where they **perform past, current or future actions**.
 
-**Effects - Quantification of actions** - the effect of certain actions can be quantified, via numbers or data. We can do two actions here: **comparison** and **connection**. To **compare** is to get a relative sizing of the scale of the effect of the action (currency is the ultimate comparison tool) To **connect** is to model, often with **assumptions** (action happens, effect occurs, quantify), how it will impact some other effect/action.
+**Effects - Quantification of actions** - the effect of certain actions can be quantified, via numbers or data. This is to precisely assign a **where**, **when**, and **how much**. We can do two actions here: **comparison** and **connection**. To **compare** is to get a relative sizing of the scale of the effect of the action (currency is the ultimate comparison tool) To **connect** is to model, often with **assumptions** (action happens, effect occurs, quantify), how it will impact some other effect/action.
 
 **Assumptions** - To model nth order reactions far into the future (e.g X does A, causing Y do to B, causing Z to do C), we need **assumptions**. Aka assume an action is taken, quantify the effect with a number, and run with it.
 
