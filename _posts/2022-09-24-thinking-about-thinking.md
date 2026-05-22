@@ -122,7 +122,7 @@ A grouping of nodes or actions by actors is called a situation or subplot. We ca
 
 This can be done via the **action framework**. For each action, we can connect these nodes to it. Then, we **categorize** them. 
 
-* **Actors(s)** - Anchor the situation and actions to the actors/participants (who?) involved before understanding the action. For a situation, you can write out an **actor map** - hierarchically breaking down the groups involved.
+* **Actors(s)** - Anchor the situation and actions to the actors/participants (who?) involved before understanding the action. 
 * **Situations/subplots** - Which situation/subplot the action belongs to
 * **Action/Effects(s)** - Visualise the actor doing what, where (space) and when (time) with an effect (how much). Actors taking actions, bootstrapped from their action space
 * **Motivation(s)** - What do they hope to achieve?
@@ -131,7 +131,7 @@ This can be done via the **action framework**. For each action, we can connect t
 
 **Categorization** - By categorizing each node, aka what type of situation, actor, time/space, action, motivation, effect, context, reaction, we can assign labels to them which lets us connect to other nodes in the same category.
 
-**Perspective** - Together, the key skill is anchor yourself to the **who** of multiple actors in the situation. This is equivalent to placing yourself in **mind/perspective** of the actors in question **(using "from the perspective of"" as a verbal trigger)** where they **perform past, current or future actions**.
+**Perspective** - Together, the key skill is anchor yourself to the **who** of multiple actors in the situation. This is equivalent to placing yourself in **mind/perspective** of the actors in question **(using "from the perspective of" as a verbal trigger)** where they **perform past, current or future actions**.
 
 **Effects - Quantification of actions** - we can quantify effects of actions by **precisely assigning** a path in **space**, **time**, and **quantity**. We can do two actions here: **comparison** and **connection**. To **compare** is to get a relative sizing of the scale of the effect of the action (currency is the ultimate comparison tool) To **connect** is to model, often with **assumptions** (action happens, effect occurs, quantify), how it will impact some other effect/action.
 
