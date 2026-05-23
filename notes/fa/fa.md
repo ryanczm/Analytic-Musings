@@ -63,7 +63,6 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * Connection to Availability feature - Injured or unavailable players do not start.
     * Example - Arteta consistently choosing Havertz, Odegaard and Zubimendi and having poor performances despite wins Towards EOS, due to injuries, puts in MLS, Eze, Trossard, the team bangs vs Fulham.
     * Example - For example, MLS started in midfield vs Fulham on 2nd May, replacing Zubi. The algo would rate him low due to poor performances at LB. But at CM, different story (MOTM). So need to scrape and compare historical positions with ratings.
-
 * **Availability feature (injuries + reds + afcon)**
     * Feature - An injury score where player injuries imply the squad is weakened for the next match. This would be tricky because of player importance and substitutability. 
     * Key Idea - We know injuries to a key player can derail an entire season. So this is really important. We've seen Arsenal without Saliba collapsing in the tail end of 22/23, and City without Rodri collapsing mid 25/26 before recovering.
