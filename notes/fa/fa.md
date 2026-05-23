@@ -39,7 +39,9 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * Any summarized match/game metric like XG/XA, PPDA, field tilt, xT are aggregated.
     * These variables fluctuate by game state. Hence, we need time series metrics within game to weigh these metrics.
     * For example, a team going 2-0 up and dominating on XG will sit back in the 70th while the opposing team attacks more. 
-    * This reflects in a field-tilt time series. The net effect is XG will drop after 70th and dilute the whole game XG.
+    * Idea - Sofascores attacking momentum time series chart.
+    * Idea - Possession/ field tilt time series
+    * Idea - Score timings as a game state proxy. If we can't get time series possession or field tilt.
 
 ### Features
 
