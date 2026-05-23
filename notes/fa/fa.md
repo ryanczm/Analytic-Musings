@@ -99,7 +99,7 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * Pre match sentiment - Some sentiment indicator of reddit/forum results - only if the informed fans have predictive power.
     * Starting XI reaction sentiment - For example, a bad lineup comes out. Fans on X or the pre-match thread or lineup thread going "wallahi we're finished". How do I know? Because I am the one commenting too that we are finished...
  * **Bookie odds feature**
-    * Key Idea - Integrate the betting odds from bookies into your final prediction either as part of the model or as an ensemble. Aka what William Benter did. He found blending his odds/probs with bookies increased his model R2 from below bookie R2 to above it! Wow.
+    * Key Idea - The Benter boost as per Mack. Benter in his paper blended his odds/probs with bookie odds/probs in a logit model. Acts as a form of regularization/shrinkage.
     * Other Ideas - Odds dispersion, wrongness, opening vs closing delta. Need to do EDA on odds.
 
 
