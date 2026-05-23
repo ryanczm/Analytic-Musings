@@ -27,11 +27,22 @@ The key idea is: how much signal does past information of football matches have 
 The core problem is: How do we translate football wisdom or tropes into statistical signals? Tropes that we see play out in matches, before games, across seasons etc. From being a dedicated fan of a team.
 
 
-### Features
+### Problems
 
 * **Cold Start Problem**
     * Key Idea - Any points/league weighted feature suffers from the lack of data at the start of a season. Use a weighting scheme from past season.
     * Problems - Plus take into account squad value? Difficult due to lookahead bias of squad/wages
+* **Team Strength Problem**
+    * Any summarized match/game metric is inflated/deflated by the delta of team strength.
+    * For example, a strong team is naturally expected to generate high XG against a weaker team.
+* **Game State Weighing Problem**
+    * Any summarized match/game metric like XG/XA, PPDA, field tilt, xT are aggregated.
+    * These variables fluctuate by game state. Hence, we need time series metrics within game to weigh these metrics.
+    * For example, a team going 2-0 up and dominating on XG will sit back in the 70th while the opposing team attacks more. 
+    * This reflects in a field-tilt time series. The net effect is XG will drop after 70th and dilute the whole game XG.
+
+### Features
+
 * **Core Strength Feature**
     * Key Idea - The fundamental feature at the start of each season, a team has an innate ranking/strength level from it's players and the manager. This feature should remain relatively stable across the season.
     * Key Idea - Last season data (ranking/points/BTD) + transfer/waage budget adjustment to carry over.
@@ -40,8 +51,7 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * Feature - Window of league/point-weighted time-weighted goal differentials - The true realized outcomes of matches, in case teams can consistently outperform/underperform XG due to structural reasons.
     * Feature - Window function... that depends. For example, using current league position difference to predict essentially is an expanding sum window over a discretized score outcome.
     * Feature - League/point weighting - Scale the xg difference by points differential. To account for team strength differences.
-    * Feature - Time weighting - For goals, scale them by goal timing: 2-0 with 90' 95' is not the same as 2-0 30' 40'. For XG, create a discretized XG curve and apply a time decay.
-    * Problem - Confounding with Starting XI - Remember, starting XI generates the XG. And starting XI varies from game to game. 
+    * Feature - Game state weighting - For goals, scale them by goal timing: 2-0 with 90' 95' is not the same as 2-0 30' 40'. For XG, create a discretized XG curve and apply a time decay.
 * **Lineup/player selection feature**
     * Key Idea - How alpha in picking the "best" starting XI for that opponent contributes to XG and XGA. 
     * Key Idea - The idea that sometimes the managers don't always put out the best starting XI. 
@@ -50,6 +60,8 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * Data - Lineup scrapers from social media or websites
     * Example - Arteta consistently choosing Havertz, Odegaard and Zubimendi and having poor performances despite wins Towards EOS, due to injuries, puts in MLS, Eze, Trossard, the team bangs vs Fulham.
     * Example - For example, MLS started in midfield vs Fulham on 2nd May, replacing Zubi. The algo would rate him low due to poor performances at LB. But at CM, different story (MOTM). So need to scrape and compare historical positions with ratings.
+    * Connection to Congestion feature - Teams rotating or playing weaker plays to rest for upcoming big games. E.g cup finals.
+    * Connection to Availability feature - Injured or unavailable players do not start.
 * **Availability feature (injuries + reds + afcon)**
     * Feature - An injury score where player injuries imply the squad is weakened for the next match. This would be tricky because of player importance and substitutability. 
     * Key Idea - We know injuries to a key player can derail an entire season. So this is really important. We've seen Arsenal without Saliba collapsing in the tail end of 22/23, and City without Rodri collapsing mid 25/26 before recovering.
