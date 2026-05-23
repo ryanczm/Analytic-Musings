@@ -59,11 +59,11 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * Key Idea - The idea that sometimes the managers don't always put out the best starting XI. 
     * Feature - Use historical player ratings to measure effectiveness of the XI - do these capture information? Need to scale player ratings by team strength? Also stats vs eye test example. For example: against Atletico 2nd leg, Gyokeres was fantastic. However, algo ratings like whoscored rated 5.7. The crowdsourced ratings like BBC rated 8.2. Solution: use both algo and human ratings.  
     * Feature - Consistency of starting XI - maybe a consistent 11 is a signal? But some managers rotate like Pep.
-    * Data - Lineup scrapers from social media or websites
-    * Example - Arteta consistently choosing Havertz, Odegaard and Zubimendi and having poor performances despite wins Towards EOS, due to injuries, puts in MLS, Eze, Trossard, the team bangs vs Fulham.
-    * Example - For example, MLS started in midfield vs Fulham on 2nd May, replacing Zubi. The algo would rate him low due to poor performances at LB. But at CM, different story (MOTM). So need to scrape and compare historical positions with ratings.
     * Connection to Congestion feature - Teams rotating or playing weaker plays to rest for upcoming big games. E.g cup finals.
     * Connection to Availability feature - Injured or unavailable players do not start.
+    * Example - Arteta consistently choosing Havertz, Odegaard and Zubimendi and having poor performances despite wins Towards EOS, due to injuries, puts in MLS, Eze, Trossard, the team bangs vs Fulham.
+    * Example - For example, MLS started in midfield vs Fulham on 2nd May, replacing Zubi. The algo would rate him low due to poor performances at LB. But at CM, different story (MOTM). So need to scrape and compare historical positions with ratings.
+
 * **Availability feature (injuries + reds + afcon)**
     * Feature - An injury score where player injuries imply the squad is weakened for the next match. This would be tricky because of player importance and substitutability. 
     * Key Idea - We know injuries to a key player can derail an entire season. So this is really important. We've seen Arsenal without Saliba collapsing in the tail end of 22/23, and City without Rodri collapsing mid 25/26 before recovering.
@@ -96,9 +96,8 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * Example - Sometimes, teams with nothing to play for rest players for a big game. 
     * Feature - Some kind of score that increases or decreases depending on the position in table and number of games left
 * **Informed fan feature**
-    * Key Idea - Some sentiment indicator of reddit/forum results - only if the informed fans have predictive power.
-    * Key Idea - Confounds with starting XI feature - sometimes fans know better than the manager if a starting lineup sucks or will win the game.
-    * Feature - Possible scraping starting XI reactions for alpha?
+    * Pre match sentiment - Some sentiment indicator of reddit/forum results - only if the informed fans have predictive power.
+    * Starting XI reaction sentiment - For example, a bad lineup comes out. Fans on X or the pre-match thread or lineup thread going "wallahi we're finished". How do I know? Because I am the one commenting too that we are finished...
  * **Bookie odds feature**
     * Key Idea - Integrate the betting odds from bookies into your final prediction either as part of the model or as an ensemble. Aka what William Benter did. He found blending his odds/probs with bookies increased his model R2 from below bookie R2 to above it! Wow.
     * Other Ideas - Odds dispersion, wrongness, opening vs closing delta. Need to do EDA on odds.
