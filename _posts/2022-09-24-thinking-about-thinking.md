@@ -120,7 +120,7 @@ A grouping of nodes or actions by actors is called a situation or subplot. We ca
 * Connect to the **past context**/actions: Figuring out which was the previous actions by other actors that triggered the current reaction aka "why".
 * Connect to the **reactions**: Try and forecast how the next subplot evolves or subplots as a reaction to the current frame of reference. -->
 
-This can be done via the **action framework**. For each action, we can connect these nodes to it. Then, we **categorize** them. 
+This can be done via the **action framework**. For a situation, we identify the actors, then connect them together via actions and reactions.
 
 * **Situations/subplots** - Which situation/subplot this belongs to. A situation or subplot is defined by a category of actors doing actions.
 * **Actors(s)** - Anchor the situation and actions to the actors/participants (who?) involved before understanding the action. 
