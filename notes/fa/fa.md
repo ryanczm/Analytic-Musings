@@ -109,11 +109,12 @@ The core problem is: How do we translate football wisdom or tropes into statisti
 ### The Discretionary Angle  - Open Problems
 
 * **The Player/Transfer Problem**
-    * Key Idea - A team brings in some players in a window. They perform really well, adapt really well. A team brings in some players, they flop. How do we quantify this? Scrape forum/reddit/scouting opinions on the player and turn into a sentiment score?c
-    * A big summer window but all flopping, see Liverpool 25/26 in Slot's second season. They replaced both fullbacks with Kerkez and Frimpong, lost Diaz, lost Darwin, replaced with Isak, Ekitike, Wirtz and didn't really kick on.
-    * Worth having a transfer list history?
+    * Key Idea - A team brings in some players in a window. They perform really well, adapt really well. A team brings in some players, they flop. How do we quantify this? Scrape forum/reddit/scouting opinions on the player and turn into a sentiment score?
+    * Example - Kvara signed in Jan 24/25 for PSG for 70m euros. He then made a HUGE impact in PSG for 24/25 and 25/26 CL runs, responsible for their CL dominance.
+    * Example - Wirtz signed in July for 25/26 for Liverpool for 120m euros. He then played a HUGE role in flopping (Flopian Wirtz as they call him) and is a reason why Liverpool sucked in 25/26. He couldn't cut it.
 * **The Manager Problem**
-    * We know certain managers have skill or alpha. They build legacies, they outperform. How can we quantify this, especially if they have limited track records?
+    * Key Idea - We know certain managers have skill or alpha. They build legacies, they outperform. How can we quantify this, especially if they have limited track records?
+    * Example - Carrick signing January to replace a flopping Amorim. They then finish top 4 after Amorim choking.
 
 ## Research Directions
 
