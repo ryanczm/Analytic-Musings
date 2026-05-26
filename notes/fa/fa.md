@@ -102,33 +102,20 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * For example, apparently I read on X Hull City who got promoted for 26/27 to EPL really outperformed their XG, and this was a result of their counterattacking style. Possible interaction with XG feature?
  * **Bookie odds feature**
     * Key Idea - The Benter boost as per Mack. Benter in his paper blended his odds/probs with bookie odds/probs in a logit model. Acts as a form of regularization/shrinkage.
-    * Other Ideas - Odds dispersion, wrongness, opening vs closing delta. Need to do EDA on odds.
+    * Other Ideas - Odds dispersion, wrongness, opening vs closing delta. Need to do EDA on odds. Odds time series from bettingiscool (49euro/month).
 
 
-### Other Features
 
-* **Goal/assist Stats**
-    * E.g A hot streak player on top form (e.g lots of past goals assists) relative to the average can carry a team to win?
-    * Goal/assist spread/dispersion as a predictive feature?
-* **Odds Time Series/Evolution**
-    Odds time series (The Odds API - paid). Any signal in how odds evolve over time before gate closure? How did odds jump due to some news?
-* **Team Level Match Statistics (non-XG)**
-    * Key idea is that certain teams/managers have certain tactics/styles. And certain styles will have advantage over the other. So we want to quantify this. For example: 
-    * Possession - Play possession or sit and counter
-    * Def line height - sit deep in low/midblock vs high press
-    * PPDA - Press high or sit tight
-    * Offsides - Some teams play an offside trap. Some teams have fast runners that punish a high line, etc.
+### The Discretionary Angle  - Open Problems
 
-### Non-Modellable Variables
-
-* **Transfer Impacts**
+* **The Player/Transfer Problem**
     * We know sometimes a good transfer window can provide a boost to seasons.
-    * It is impossible to quantify how good a signing will be with statistics. However, I have an idea about this below.
+    * It is impossible to quantify how good a signing will be with statistics.
     * E.g PSG signing Kvara in the January window etc
     * A big summer window but all flopping, see Liverpool 25/26 in Slot's second season. They replaced both fullbacks with Kerkez and Frimpong, lost Diaz, lost Darwin, replaced with Isak, Ekitike, Wirtz and didn't really kick on.
     * Worth having a transfer list history?
-* **Ingame Tactics**
-    * Managerial impact via smart tactical changes be it inter game switches or intra game switches can change the course of a game, but we cannot capture this with past data.
+* **The Manager Problem**
+    * We know certain managers have skill or alpha. They build legacies, they outperform. How can we quantify this, especially if they have limited track records?
 
 ## Research Directions
 
