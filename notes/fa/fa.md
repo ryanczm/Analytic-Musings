@@ -109,9 +109,7 @@ The core problem is: How do we translate football wisdom or tropes into statisti
 ### The Discretionary Angle  - Open Problems
 
 * **The Player/Transfer Problem**
-    * We know sometimes a good transfer window can provide a boost to seasons.
-    * It is impossible to quantify how good a signing will be with statistics.
-    * E.g PSG signing Kvara in the January window etc
+    * Key Idea - A team brings in some players in a window. They perform really well, adapt really well. A team brings in some players, they flop. How do we quantify this? Scrape forum/reddit/scouting opinions on the player and turn into a sentiment score?c
     * A big summer window but all flopping, see Liverpool 25/26 in Slot's second season. They replaced both fullbacks with Kerkez and Frimpong, lost Diaz, lost Darwin, replaced with Isak, Ekitike, Wirtz and didn't really kick on.
     * Worth having a transfer list history?
 * **The Manager Problem**
