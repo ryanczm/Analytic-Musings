@@ -97,6 +97,7 @@ The core problem is: How do we translate football wisdom or tropes into statisti
 * **Informed fan feature**
     * Pre match sentiment - Some sentiment indicator of reddit/forum results - only if the informed fans have predictive power.
     * Starting XI reaction sentiment - For example, a bad lineup comes out. Fans on X or the pre-match thread or lineup thread going "wallahi we're finished". How do I know? Because I am the one commenting too that we are finished...
+    * Key Idea - Official club pages will always release XI on X and Instagram. Does the data there have any predictive power as a signal? Perhaps some kind of sentiment score? On Instagram and X.
 * **Style feature**
     * The idea that certain teams styles e.g high pressing, possession, counterattack, can neutralize or be (dis) advantaged versus another style. We will use match aggregate statistics for this. But it is subjected to the game state problem: a match statistic is aggregated across the game state time series. 
     * For example, apparently I read on X Hull City who got promoted for 26/27 to EPL really outperformed their XG, and this was a result of their counterattacking style. Possible interaction with XG feature?
