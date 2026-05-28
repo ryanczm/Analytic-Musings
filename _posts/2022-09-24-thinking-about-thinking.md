@@ -129,6 +129,8 @@ This can be done via the **action framework**. For a situation, we identify the 
 * **Context/Cause(s)** - Anchor to the actors that did the previous action that triggered the current one
 * **Reaction(s)** - Anchor to who will react to this and what they will do
 
+**Context** - How to make these connections well? The answer seems to be context. Aka the past situations. The more history you cram into your own context window, the better you make the current connections.
+
 **Categorization** - By categorizing each node, aka what type of situation, actor, time/space, action, motivation, effect, context, reaction, we can assign labels to them which lets us connect to other nodes in the same category.
 
 **Perspective** - Together, the key skill is anchor yourself to the **who** of multiple actors in the situation. This is equivalent to placing yourself in **mind/perspective** of the actors in question **(using "from the perspective of" as a verbal trigger)** where they **perform past, current or future actions**.
