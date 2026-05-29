@@ -116,6 +116,9 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * Example - Kvara signed in Jan 24/25 for PSG for 70m euros. He then made a HUGE impact in PSG for 24/25 and 25/26 CL runs, responsible for their CL dominance.
     * Example - Wirtz signed in July for 25/26 for Liverpool for 120m euros. He then played a HUGE role in flopping (Flopian Wirtz as they call him) and is a reason why Liverpool sucked in 25/26. He couldn't cut it. 120m budget would score high in our feature.
     * Reflections - This is related to player ratings somehow. A new signing performing really well or flopping should in theory reflect in player ratings, assuming they are "perfect".
+    * Feature - Transfer Coefficient - Some have suggested a "transfer coefficient". Basically quantifying how well players for each position have done in cross-leagues. Then apply that coefficient into a transfer score feature across the season.  
+    * Feature - Discretionary Blend - Scout the transfers and assign a score to each squad. Then apply that to a transfer score across the whole season. Score by: quality of players, diversity of positions covered, improvement over replacement etc.
+    * Data - Assuming player ratings are perfect, we can regress season ratings ex-post of transfers against the budget spent get a sense of over/underperformance cross-league per position.
 * **The Manager Problem**
     * Key Idea - We know certain managers have skill or alpha. They build legacies, they outperform. How can we quantify this, especially if they have limited track records?
     * Example - Carrick signing January to replace a flopping Amorim. They then finish top 4 after Amorim choking.
