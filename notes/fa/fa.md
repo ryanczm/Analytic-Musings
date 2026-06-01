@@ -6,7 +6,9 @@ category: FA
 
 ## Overview
 
-The demand for football is pretty high. Look at salaries. But I'm starting to believe there isn't much intellectual horsepower in it. Why? Probably because nerds don't like football. Well, there is the alpha/arbitrage here. I believe there are 3 main problems:
+Note: as of May 26 I am building out my data pipelines/datasets/scrapers first which are almost done (though it will expand on a rolling basis as I have more ideas). I am then going to do signal research to test my ideas which are below. My aim is to start by 26/27 (aka September), fundamental 2x1 across big 5 leagues.
+
+For football analytics - I believe there are 3 main problems:
 
 
 * Overlapping effects - When we see some outcome or effect in football, we know there are a myriad of contributing factors. The question is how to orthogonalize out effects we know to isolate the idiosyncratic return. For example, consider the problem of assessing managers.
