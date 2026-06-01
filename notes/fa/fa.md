@@ -6,7 +6,7 @@ category: FA
 
 ## Overview
 
-Note: as of May 26 I am building out my data pipelines/datasets/scrapers first which are almost done (though it will expand on a rolling basis as I have more ideas). I am then going to do signal research to test my ideas which are below. My aim is to start by 26/27 (aka September), fundamental 2x1 across big 5 leagues.
+Note: as of May 26 I am building out my data pipelines/datasets/scrapers first which are almost done (though it will expand on a rolling basis as I have more ideas). I am then going to do signal research to test my ideas which are below. My aim is to start by 26/27 (aka September), fundamental 2x1 across big 5 leagues. So, the research and backtesting will be done across the World Cup and pre-season.
 
 For football analytics - I believe there are 3 main problems:
 
