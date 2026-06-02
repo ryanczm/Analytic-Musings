@@ -30,7 +30,7 @@ future: TRUE
 version:          2.1.0
 
 github:
-  repo:           https://github.com/ryanczm
+  repo:           https://github.com
 
 social:
     linkedin: https://www.linkedin.com/in/ryan-chew-49272a19a/
