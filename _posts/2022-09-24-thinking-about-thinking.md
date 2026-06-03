@@ -123,7 +123,7 @@ A grouping of nodes or actions by actors is called a situation or subplot. We ca
 This can be done via the **action framework**. For a situation, we identify the actors as nodes, then connect them together via actions and reactions.
 
 * **Situations/subplots** - Which situation/subplot this belongs to. A situation or subplot is defined by a category of actors doing actions.
-* **Actors(s)** - Anchor the situation and actions to the actors/participants (who?) involved before understanding the action. 
+* **Actors(s)** - Anchor the situation and actions to the actors/participants (who, where and when) involved before understanding the action. 
 * **Action/Effects(s)** - Visualise the actor doing what, where (space) and when (time) with an effect (how much). Actors taking actions, bootstrapped from their action space
 * **Motivation(s)** - What do they hope to achieve?
 * **Context/Cause(s)** - Anchor to the actors that did the previous action that triggered the current one

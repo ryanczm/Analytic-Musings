@@ -98,7 +98,7 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * Feature - Some kind of score that increases or decreases depending on the position in table and number of games left
 * **Informed fan feature**
     * Pre match sentiment - Some sentiment indicator of reddit/forum results - only if the informed fans have predictive power.
-    * Starting XI reaction sentiment - For example, a bad lineup comes out. Fans on X or the pre-match thread or lineup thread going "wallahi we're finished". How do I know? Because I am the one commenting too that we are finished...
+    * Starting XI reaction sentiment - For example, a bad lineup comes out. Fans on X or the pre-match thread or lineup thread complaining. How do I know? Because I would go immediately to the lineup and start complaining...
     * Key Idea - Official club pages will always release XI on X and Instagram. Does the data there have any predictive power as a signal? Perhaps some kind of sentiment score? On Instagram and X.
     * Key Idea - Sentiment score differential against closing odds residual. Or some kind of discount adjustment to the final prediction odds.
     * Key Idea - This is effectively the fan's / wisdom of the crowd view on the starting XI alpha feature. For example, if fans think it is a bad lineup choice, they will be complaining the release thread. 
