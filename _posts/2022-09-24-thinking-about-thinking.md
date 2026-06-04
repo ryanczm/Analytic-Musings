@@ -129,6 +129,8 @@ This can be done via the **action framework**. For a situation, we identify the 
 * **Context/Cause(s)** - Anchor to the actors that did the previous action that triggered the current one
 * **Reaction(s)** - Anchor to who will react to this and what they will do
 
+**Non-precise visualisation** - I mentioned visualisation in the deterministic framework. That is precise. In this case, visualising the myriad of actors doing stuff is non-precise.
+
 **Context** - How to make these connections well? The answer seems to be context. Aka the past situations. The more history you cram into your own context window, the better you make the current connections. Your mind is model, the past is the context.
 
 **Categorization** - By categorizing each node, aka what type of situation, actor, time/space, action, motivation, effect, context, reaction, we can assign labels to them which lets us connect to other nodes in the same category.
