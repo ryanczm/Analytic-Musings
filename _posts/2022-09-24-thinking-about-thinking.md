@@ -124,7 +124,7 @@ This can be done via the **action framework**. For a situation, we identify the 
 
 * **Situations/subplots** - Which situation/subplot this belongs to. A situation or subplot is defined by a category of actors doing actions.
 * **Actors(s)** - Anchor the situation and actions to the actors/participants (who, where and when) involved before understanding the action. 
-* **Action/Effects(s)** - Visualise the actor performing actions. What, where (space) and when (time) with an effect (how much). 
+* **Action/Effects(s)** - Visualise the actor performing actions. What, where (space) and when (time) with an effect (how much). Non-precise visualisation.
 * **Motivation(s)** - What do they hope to achieve?
 * **Context/Cause(s)** - Anchor to the actors that did the previous action that triggered the current one
 * **Reaction(s)** - Anchor to who will react to this and what they will do
