@@ -160,6 +160,8 @@ Are there optimal physical metrics per position (arm movement, touch density, le
 
 Quantifying manager performance. We know managers have alpha and beta. Alpha being their idio return and beta being their factor returns (current squad, budget, support). Can we isolate the alpha or idio returns of each manager, netting off the effects of their current squad wages and net spend over their tenure?
 
+The idea would be to see if a manager, over his journey across different clubs, consistently outperforms his budget and wages.
+
 * Regress wages and net spend on league position, across all leagues in cross section, across multiple seasons.
 * Each residual in the datapoint is associated with a manager and that season.
 * Aggregate by summing the residuals per manager tenure.
