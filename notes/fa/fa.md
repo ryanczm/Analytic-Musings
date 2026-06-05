@@ -77,8 +77,7 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * H2H - Some kind of H2H manager score based on past fixtures over a long period with the same team. Hypothesis being certain managers just tactically have each others number.
     * New manager bounce - Another trope in football. Can this add a boost to certain matches with a new manager bounce? But this is confounded to manager skill
     * Managerial alpha - We know some managers are good. For example, Carrick in 25/26 took United to top 4. How do we account for managerial alpha if we have a manager with no track record? 
-    * Feature - This would be isolated to bigger games, and also managers who have a track record of H2H with the same team.
-    * Example - We know for example Pep has Arteta's number at the Etihad. How does this relate to the home and away feature?
+    * Idea - We can quantify managerial alpha in a possible way. I write about it below. We just need lots of leagues points data, wages and transfer budget in a very wide cross-section.
 * **Fatigue/Congestion/Rotation feature (minutes dispersion)**
     * Key Idea - Idea being playing too many games in a tight schedule does impact performance vs well-rested. 
     * Feature - Fixture count, distance ran, degree of rotation/substitutions/minutes played dispersion, all impact fatigue. Especially deep in cup runs.
@@ -167,11 +166,16 @@ Quantifying manager performance. We know managers have alpha and beta. Alpha bei
 * Take the managerial alpha residuals and regress against managerial wages.
 * Now you have a ranking of which managers have the highest alpha, and also which managers are rich/cheap relative to their alpha.
 
-Problems
+Data
 
-* The residuals or league position is not linear in net spend/wages: from 2 > 1 requires more spending/wages than from 20 > 19. How do we normalize for this? Feature transform?
-* Other factors apart from wages/net spend: for example, sudden breakout seasons by low-wage players, like Gareth Bale at Tottenham or Michu at Swansea. How do we normalize for this? Use player market value instead of wages?
-* Other factors apart from wages/net spend: for example, long term injuries (e.g season ending ligament tears). Add in injury time into the regression? But need to weigh by player impact.. 
+* A very wide cross-section of wages, transfer spend and league tables across many seasons across many leagues.
+* Manager history for a wide cross section
+* Managers often jump from lower leagues to higher leagues in their career. For example, Iraola went from AEK Larnaca (Cyprus) to Mirandes (Segunda) to Rayo  Vallecano (Segunda) to Bournemouth and now to Liverpool.
+
+Problem
+
+* Past performance is of course not indicative of future results. A manager can perform well his whole career, move to a new club and flop. That is again a problem in football betting in general...past results != future performance.
+
 
 ## Injuries
 
