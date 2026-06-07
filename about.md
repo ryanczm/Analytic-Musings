@@ -4,16 +4,11 @@ title: About
 order: 4
 ---
 
-I'm Ryan. I'm interested in commodities, data science & finance. I like learning and 
-[meta-learning]({{ site.url }}/2022/09/24/thinking-about-thinking/) (improving my learning systems).
+I'm Ryan. I'm interested in commodities, data science & finance. I like learning and meta learning.
 
-I enjoy all things data - cleaning, building, analyzing, modelling and using it to derive insights, be it in a quantitative or qualitative fashion. I quite like this quote, originally from Abraham Lincoln but quoted by Ken Griffin:
+Outside of work, I enjoy sports - floorball (I play competitively in SG's div 2) and football (recreationally). 
 
-<p class="message" style="text-align: center;">
-<i>"Good things come to those who wait, but only things left behind by those who hustle."</i>
-</p>
-
-Outside of work, I enjoy sports - floorball (I play competitively in SG's div 2) and football (recreationally). Due to a health problem, I cannot play sports anymore.
+Sadly due to a health problem in 2025, I cannot play sports anymore.
 
 
 <!-- <center>
