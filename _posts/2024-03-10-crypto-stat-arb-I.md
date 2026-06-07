@@ -11,7 +11,7 @@ I look at some alphas for a crypto stat arb strategy on Crypto perpetual futures
 
 Having done several paper replications and realizing they are too theoretical, I decided to implement a trading project in Python, to get familiar with basic concepts & workflow of research & backtesting a strategy. I split this two separate posts, research and backtest. 
 
-In particular, I've learned Pandas techniques to do quant work on cross-sectional data of a dynamic universe of stocks/tickers. My code can be found [_here_](https://github.com/ryanczm/Crypto-Stat-Arb). This project is adapted off a [series](https://robotwealth.com/quantifying-and-combining-crypto-alphas/) by RobotJames & Kris: two well-known quants in the QuantTwit community.
+In particular, I've learned Pandas techniques to do quant work on cross-sectional data of a dynamic universe of stocks/tickers. This project is adapted off a [series](https://robotwealth.com/quantifying-and-combining-crypto-alphas/) by RobotJames & Kris: two well-known quants in the QuantTwit community.
 
 ## Universe Selection
 
