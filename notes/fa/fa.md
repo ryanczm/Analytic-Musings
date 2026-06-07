@@ -31,6 +31,11 @@ The core problem is: How do we translate football wisdom or tropes into statisti
 
 ### Problems
 
+
+* **Outlier Problem**
+    * A team projected to perform well at the start of a season chokes. Tottenham this season, Liverpool this season. Vice versa: the Bournemouth bull run. In the past, the Leicester bull run. These are outliers.
+    * How do you account for outliers in a model? My guess is, if you can't predict them, then don't fight against them. Let the model pick it up and ride the trend.
+    * Easier said than done...
 * **Cold Start Problem**
     * Key Idea - Any points/league weighted feature suffers from the lack of data at the start of a season. Use a weighting scheme from past season.
     * Problems - Plus take into account squad value? Difficult due to lookahead bias of squad/wages
@@ -52,7 +57,7 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * Key Idea - Last season data - aka how well you performed last season + a differential, things that happened in offseason that modify your level. 
     * Examples - Good transfers (getting really good players in), bad transfers (selling key players without good replacements), new manager, etc. Obviously you get some outliers aka Liverpool after Slot's title winning season, but in the aggregate....
     * Research - The baseline feature, in both season outcomes and baseline odds.
-    * Research - Baseline + differential, in both season outcomes and baseline odds. 
+    * Research - Baseline + differential, in both season outcomes and baseline odds. Does that improve predictive power?
 * **Core momentum feature**
     * XG - Window of league/point-weighted gamestate-weighted XG differentials - prior XG differentials should encode performance, XG mean reverts to true performance (another hypothesis that needs testing). 
     * XG Over/underperformance of goal diff - Window of league/point-weighted gamestate-weighted goal differentials - Some teams structurally over/underperform their xG, based on style factors (need to research this) or just player power (e.g outrageous goals like PSG)
