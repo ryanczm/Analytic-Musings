@@ -74,9 +74,9 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * Feature - Player ratings could be used to quantify quality. If the injured starters have worse ratings than the replacements.. maybe injury becomes a boost.
     * Problem - Maybe starting XI is a better proxy? 
 * **Manager Feature**
+    * Managerial alpha - We know some managers are good. For example, Carrick in 25/26 took United to top 4. How do we account for managerial alpha if we have a manager with no 
     * H2H - Some kind of H2H manager score based on past fixtures over a long period with the same team. Hypothesis being certain managers just tactically have each others number.
-    * New manager bounce - Another trope in football. Can this add a boost to certain matches with a new manager bounce? But this is confounded to manager skill
-    * Managerial alpha - We know some managers are good. For example, Carrick in 25/26 took United to top 4. How do we account for managerial alpha if we have a manager with no track record? 
+    * New manager bounce - Another trope in football. Can this add a boost to certain matches with a new manager bounce? But this is confounded to manager skill track record? 
     * Idea - We can quantify managerial alpha in a possible way. I write about it below. We just need lots of leagues points data, wages and transfer budget in a very wide cross-section.
 * **Fatigue/Congestion/Rotation feature (minutes dispersion)**
     * Key Idea - Idea being playing too many games in a tight schedule does impact performance vs well-rested. 
@@ -123,6 +123,7 @@ The core problem is: How do we translate football wisdom or tropes into statisti
 * **The Manager Problem**
     * Key Idea - We know certain managers have skill or alpha. They build legacies, they outperform. How can we quantify this, especially if they have limited track records?
     * Example - Carrick signing January to replace a flopping Amorim. They then finish top 4 after Amorim choking.
+    * Okay so we do have a possible solution, not perfect, but logical, to kind of assess manager skill over his many tenures. See "managerial assessment" below.
 
 ## Research Directions
 
@@ -131,6 +132,29 @@ The core problem is: How do we translate football wisdom or tropes into statisti
 * Anti-Correlative Research
     * The key idea here is to find situations/matches where the feature, model (be it yours or bookie) failed or diverged dramatically. 
     * Then do investigative research. What happened there? Could the feature/model have priced it in? If so, what did we miss? If not, how can we neutralize this risk? 
+
+## Managerial Assessment
+
+Quantifying manager performance. We know managers have alpha and beta. Alpha being their idio return and beta being their factor returns (current squad, budget, support). Can we isolate the alpha or idio returns of each manager, netting off the effects of their current squad wages and net spend over their tenure?
+
+The idea would be to see if a manager, over his journey across different clubs, consistently outperforms his budget and wages.
+
+* Regress wages and net spend on league position, across all leagues in cross section, across multiple seasons.
+* Again, you can only compare within-league and across time, so you need some relative metric. For example, the net spend of a relegation club in EPL will dwarf the league leaders in, say, the Hong Kong league.
+* Each residual in the datapoint is associated with a manager and that season.
+* If a manager consistently has a high ranked residual, across tenures, then you have to say maybe...that's the skill.
+* Take the managerial alpha residuals and regress against managerial wages.
+* Now you have a ranking of which managers have the highest alpha, and also which managers are rich/cheap relative to their alpha.
+
+Data
+
+* A very wide cross-section of wages, transfer spend and league tables across many seasons across many leagues.
+* Manager history for a wide cross section
+* Managers often jump from lower leagues to higher leagues in their career. For example, Iraola went from AEK Larnaca (Cyprus) to Mirandes (Segunda) to Rayo  Vallecano (Segunda) to Bournemouth and now to Liverpool.
+
+Problem
+
+* Past performance is of course not indicative of future results. A manager can perform well his whole career, move to a new club and flop. That is again a problem in football betting in general...past results != future performance.
 
 ## Player Assessment with Stats
 
@@ -156,27 +180,7 @@ Problem:
 
 Are there optimal physical metrics per position (arm movement, touch density, leg to torso, torso uprightness) that can determine a player's success in scouting? This relates to the eye test. For example, we can see Messi clearly has some interesting different physical attributes when he plays that contributes to his success. But how to quantify these in numbers is a problem.
 
-## Managerial Assessment
 
-Quantifying manager performance. We know managers have alpha and beta. Alpha being their idio return and beta being their factor returns (current squad, budget, support). Can we isolate the alpha or idio returns of each manager, netting off the effects of their current squad wages and net spend over their tenure?
-
-The idea would be to see if a manager, over his journey across different clubs, consistently outperforms his budget and wages.
-
-* Regress wages and net spend on league position, across all leagues in cross section, across multiple seasons.
-* Each residual in the datapoint is associated with a manager and that season.
-* Aggregate by summing the residuals per manager tenure.
-* Take the managerial alpha residuals and regress against managerial wages.
-* Now you have a ranking of which managers have the highest alpha, and also which managers are rich/cheap relative to their alpha.
-
-Data
-
-* A very wide cross-section of wages, transfer spend and league tables across many seasons across many leagues.
-* Manager history for a wide cross section
-* Managers often jump from lower leagues to higher leagues in their career. For example, Iraola went from AEK Larnaca (Cyprus) to Mirandes (Segunda) to Rayo  Vallecano (Segunda) to Bournemouth and now to Liverpool.
-
-Problem
-
-* Past performance is of course not indicative of future results. A manager can perform well his whole career, move to a new club and flop. That is again a problem in football betting in general...past results != future performance.
 
 
 ## Injuries
