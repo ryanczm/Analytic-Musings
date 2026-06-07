@@ -133,6 +133,13 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * The key idea here is to find situations/matches where the feature, model (be it yours or bookie) failed or diverged dramatically. 
     * Then do investigative research. What happened there? Could the feature/model have priced it in? If so, what did we miss? If not, how can we neutralize this risk? 
 
+## Modelling Directions
+
+* Rolling window
+    * In this approach, the season-fixed features like the manager skill, core strength would remain constant over the season goes but in theory the model should weigh them less naturally as the season goes. A rolling window does this
+* Train-Val-Test
+    * Not really a big fan of this ...
+
 ## Managerial Assessment
 
 Quantifying manager performance. We know managers have alpha and beta. Alpha being their idio return and beta being their factor returns (current squad, budget, support). Can we isolate the alpha or idio returns of each manager, netting off the effects of their current squad wages and net spend over their tenure?
