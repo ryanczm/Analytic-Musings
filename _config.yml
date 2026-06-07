@@ -14,8 +14,8 @@ permalink:        /:year/:month/:day/:title/
 
 # Setup
 title:            Analytic Musings
-tagline:          'Always earned, never given'
-description:      'Always earned, never given'
+# tagline:          'Always earned, never given'
+# description:      'Always earned, never given'
 url:               'https://analytic-musings.com'
 baseurl:          
 imageurl:       '/assets/images/'
