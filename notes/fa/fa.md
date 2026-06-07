@@ -51,6 +51,8 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * Key Idea - The fundamental feature at the start of each season, a team has an innate ranking/strength level from it's players and the manager. This feature should remain relatively stable across the season.
     * Key Idea - Last season data - aka how well you performed last season + a differential, things that happened in offseason that modify your level. 
     * Examples - Good transfers (getting really good players in), bad transfers (selling key players without good replacements), new manager, etc. Obviously you get some outliers aka Liverpool after Slot's title winning season, but in the aggregate....
+    * Research - The baseline feature, in both season outcomes and baseline odds.
+    * Research - Baseline + differential, in both season outcomes and baseline odds. 
 * **Core momentum feature**
     * XG - Window of league/point-weighted gamestate-weighted XG differentials - prior XG differentials should encode performance, XG mean reverts to true performance (another hypothesis that needs testing). 
     * XG Over/underperformance of goal diff - Window of league/point-weighted gamestate-weighted goal differentials - Some teams structurally over/underperform their xG, based on style factors (need to research this) or just player power (e.g outrageous goals like PSG)
