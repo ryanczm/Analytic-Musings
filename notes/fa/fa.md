@@ -32,10 +32,11 @@ The core problem is: How do we translate football wisdom or tropes into statisti
 ### Problems
 
 
-* **Outlier Problem**
+* **Outlier/Anti-Narrative Problem**
     * A team projected to perform well at the start of a season chokes. Tottenham this season, Liverpool this season. Vice versa: the Bournemouth bull run. In the past, the Leicester bull run. These are outliers.
     * How do you account for outliers in a model? My guess is, if you can't predict them, then don't fight against them. Let the model pick it up and ride the trend.
-    * Easier said than done...
+    * A good test for any model is how well it picks up on the anti-narratives or outliers playing out in real time. For example, if you see the fan channels in 25/26 pre-season, everyone and their mother was glazing Liverpool. Wirtz and Isak are going to destroy the league! Literally nobody could have predicted this. Just like 100 days into the war and oil at 90s... who would have thought?
+    * So a model needs to be able to identify these anti-narratives happening in real time and pick up on the trend. 
 * **Cold Start Problem**
     * Key Idea - Any points/league weighted feature suffers from the lack of data at the start of a season. Use a weighting scheme from past season.
     * Problems - Plus take into account squad value? Difficult due to lookahead bias of squad/wages
