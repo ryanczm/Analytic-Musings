@@ -129,7 +129,7 @@ This can be done via the **action framework**. For a situation, we identify the 
 * **Context/Cause(s)** - Anchor to the actors that did the previous action that triggered the current one
 * **Reaction(s)** - Anchor to who will react to this and what they will do
 
-**Non-precise visualisation** - I mentioned visualisation in the deterministic framework. That is precise. In this case, visualising the myriad of actors doing stuff is non-precise.
+**Non-precise visualisation** - Compared to precise visualisation in the deterministic framework, the objective of this is to visualise who, when, where, what as effectively as possible. To that end, consider a top-down map view.
 
 **Context** - How to make these connections well? The answer seems to be context. Aka the past situations. The more history you cram into your own context window, the better you make the current connections. Your mind is model, the past is the context.
 
