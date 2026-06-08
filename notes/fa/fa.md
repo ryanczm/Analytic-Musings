@@ -57,7 +57,9 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * Key Idea - The fundamental feature at the start of each season, a team has an innate ranking/strength level from it's players and the manager. This feature should remain relatively stable across the season.
     * Key Idea - Last season data - aka how well you performed last season + a differential, things that happened in offseason that modify your level. 
     * Baseline - The baseline feature, in both season outcomes and baseline odds, and Baseline + differential, in both season outcomes and baseline odds. Does that improve predictive power?
-    * Differential - The differential problem is equivalent to the transfer problem. In other words, quantifying how good the transfer window is, ex-ante, beyond using net spend as a proxy. This is an open problem. Whereby transfer window effectiveness = impact of incomings (ex-ante) and impact of outgoings (ex-post)
+    * Differential - The differential problem is equivalent to the transfer problem. In other words, quantifying how effective the transfer window is, ex-ante, beyond using net spend as a proxy. This is an open problem. A good transfer window provides a big boost to the players.
+    * Transfer window effectiveness - impact of incomings (ex-ante) and impact of outgoings (ex-post).
+    * Net spend - Captures the financial factor, aka spending power. But says nothing about the quality of signings.
 * **Core momentum feature**
     * XG - Window of league/point-weighted gamestate-weighted XG differentials - prior XG differentials should encode performance, XG mean reverts to true performance (another hypothesis that needs testing). 
     * XG Over/underperformance of goal diff - Window of league/point-weighted gamestate-weighted goal differentials - Some teams structurally over/underperform their xG, based on style factors (need to research this) or just player power (e.g outrageous goals like PSG)
