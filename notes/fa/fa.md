@@ -61,6 +61,7 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * Transfer window effectiveness - impact of incomings (ex-ante) and impact of outgoings (ex-post).
     * Net spend - Captures the financial factor, aka spending power. But says nothing about the quality of signings.
     * Discretionary Transfer Score Adjustment - Discount or increase the overall transfer score/feature by a factor just by doing YouTube scouting and following transfer windows. Cannot backtest this so must be for upcoming live season.
+    * The January/Structural Breakpoint Problem - Do we evaluate at season start and Jan window separately? Then we assume the good transfer impact is priced into squad values. What if a team doesn't sign anyone in January?
 * **Core momentum feature**
     * XG - Window of league/point-weighted gamestate-weighted XG differentials - prior XG differentials should encode performance, XG mean reverts to true performance (another hypothesis that needs testing). 
     * XG Over/underperformance of goal diff - Window of league/point-weighted gamestate-weighted goal differentials - Some teams structurally over/underperform their xG, based on style factors (need to research this) or just player power (e.g outrageous goals like PSG)
