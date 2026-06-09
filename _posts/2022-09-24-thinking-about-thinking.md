@@ -137,7 +137,6 @@ This can be done via the **action framework**. For a situation, we identify the 
 
 **Context** - How to make these connections well? The answer seems to be context. Aka the past situations. The more history you cram into your own context window, the better you make the current connections. Your mind is model, the past is the context.
 
-
 **Effects - Quantification of actions** - we can quantify effects of actions by **precisely assigning** a path in **space**, **time**, and **quantity**. We can do two actions here: **comparison** and **connection**. To **compare** is to get a relative sizing of the scale of the effect of the action (currency is the ultimate comparison tool) To **connect** is to model, often with **assumptions** (action happens, effect occurs, quantify), how it will impact some other effect/action.
 
 **Assumptions** - To model nth order reactions far into the future (e.g X does A, causing Y do to B, causing Z to do C), we need **assumptions**. Aka assume an action is taken, quantify the effect with a number, and run with it.
