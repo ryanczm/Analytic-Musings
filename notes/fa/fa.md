@@ -57,7 +57,7 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * Key Idea - The fundamental feature at the start of each season, a team has an innate ranking/strength level from it's players and the manager. This feature should remain relatively stable across the season.
     * Key Idea - Last season data - aka how well you performed last season + a differential, things that happened in offseason that modify your level. 
     * Baseline - The baseline feature, in both season outcomes and baseline odds, and Baseline + differential, in both season outcomes and baseline odds. Does that improve predictive power?
-    * Differential - The differential problem is equivalent to the transfer problem. In other words, quantifying how effective the transfer window is, ex-ante, beyond using net spend as a proxy. This is an open problem. A good transfer window provides a big boost to the players.
+    * Differential - The differential problem is equivalent to the transfer problem. In other words, quantifying how effective the transfer window is, ex-ante, beyond using net spend as a proxy. This is an open problem. A good transfer window provides a big boost to the players. In summer and in winter, maybe the baseline/diff changes?
     * Transfer window effectiveness - impact of incomings (ex-ante) and impact of outgoings (ex-post).
     * Net spend - Captures the financial factor, aka spending power. But says nothing about the quality of signings.
     * Discretionary Transfer Score Adjustment - Discount or increase the overall transfer score/feature by a factor just by doing YouTube scouting and following transfer windows. Cannot backtest this so must be for upcoming live season.
