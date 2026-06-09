@@ -122,16 +122,12 @@ A grouping of nodes or actions by actors is called a situation or subplot. We ca
 
 This can be done via the **action framework**. For a situation, we identify the actors as nodes, then connect them together via actions and reactions.
 
-* **Situations/subplots** - Which situation/subplot this belongs to. A situation or subplot is defined by a category of actors doing actions.
-* **Actors(s)** - Anchor the situation and actions to the actors/participants (who, where and when) involved before understanding the action. 
-* **Action/Effects(s)** - Visualise the actor performing actions. What, where (space) and when (time) with an effect (how much). Non-precise visualisation.
-* **Motivation(s)** - What do they hope to achieve?
+* **Situations/subplots** - Categorize the situation.
+* **Actors(s)** - Categorize the actors by interests/motivation/action.
+* **Action/Effects(s)** - Use non precise visualisation (see below) to understand the actions.
 * **Context/Cause(s)** - Anchor to the actors that did the previous action that triggered the current one
 * **Reaction(s)** - Anchor to who will react to this and what they will do
 
-
-
-**Who - Perspective (Most Important!!!)** - Together, the key skill is anchor yourself to the **who** of multiple actors in the situation. This is equivalent to placing yourself in **mind/perspective** of the actors in question **(using "from the perspective of" as a verbal trigger)** where they **perform past, current or future actions**.
 
 **Non-precise visualisation** - Compared to precise visualisation in the deterministic framework, the objective of this is to visualise who, when, where, what as effectively as possible. To that end, consider a **top-down map view**, then zoom in accordingly. A map view lends itself to the where, when and what very nicely. Who comes in with some imagination as an additional layer.
 
