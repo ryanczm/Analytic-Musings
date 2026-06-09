@@ -150,6 +150,7 @@ The core problem is: How do we translate football wisdom or tropes into statisti
     * In this approach, the season-fixed features like the manager skill, core strength would remain constant over the season goes but in theory the model should weigh them less naturally as the season goes. A rolling window does this
 * Train-Val-Test
     * Not really a big fan of this ...
+  
 
 ## Managerial Assessment
 
