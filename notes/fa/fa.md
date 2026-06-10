@@ -52,7 +52,7 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
 
 * **Core Strength Feature**
     * Key Idea - The fundamental feature at the start of each season, a team has an innate ranking/strength level from it's players and the manager. This feature should remain relatively stable across the season.
-    * Key Idea - core_strength(team) = baseline (existing squad strength last season) + differential(strength of incomings less strength of outgoings).
+    * Key Idea - core_strength(team) = baseline (existing squad strength last season) + differential (strength of incomings less strength of outgoings).
     * Evaluation - In season outcomes and baseline win rates/odds (not residual odds), since this is a "beta" feature, not "alpha".
     * Baseline - Past squad strength.  
     * Differential - Strength of incomings (aka the ex-ante transfer problem) and strength of outgoings (this is ex-post).
