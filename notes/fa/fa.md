@@ -53,9 +53,10 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
 * **Core Strength Feature**
     * Key Idea - The fundamental feature at the start of each season, a team has an innate ranking/strength level from it's players and the manager. This feature should remain relatively stable across the season.
     * Key Idea - core_strength(team) = baseline (existing squad strength last season) + differential(strength of incomings less strength of outgoings).
-    * Baseline - The baseline feature, in both season outcomes and baseline odds. Then, you add a differential, and predictive power should improve. 
+    * Evaluation - In season outcomes and baseline win rates/odds (not residual odds), since this is a "beta" feature, not "alpha".
+    * Baseline - Past squad strength.  
     * Differential - Strength of incomings (aka the ex-ante transfer problem) and strength of outgoings (this is ex-post).
-    * Example - Liverpool's 25/26 window summed it up. Losing Darwin, Diaz, Trent, Jota (RIP), replacing with Frimpong, Kerkez, Wirtz, Ekitike, Isak. Combined with Salah underperfomance, the replacements in reality just failed to fill the gaps of the leavers. They had a high baseline, but such a huge negative differential that it hurt their core strength badly.
+    * Example - Liverpool's 25/26 window summed it up. Losing Darwin, Diaz, Trent, Jota (RIP), replacing with Frimpong, Kerkez, Wirtz, Ekitike, Isak. Combined with Salah underperfomance, the replacements in reality just failed to fill the gaps of the leavers. They had a high baseline, but such a huge negative differential that it hurt their core strength badly. The question is how we quantify that.
 * **Core momentum feature**
     * XG - Window of league/point-weighted gamestate-weighted XG differentials - prior XG differentials should encode performance, XG mean reverts to true performance (another hypothesis that needs testing). 
     * XG Over/underperformance of goal diff - Window of league/point-weighted gamestate-weighted goal differentials - Some teams structurally over/underperform their xG, based on style factors (need to research this) or just player power (e.g outrageous goals like PSG)
