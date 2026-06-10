@@ -52,10 +52,10 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
 
 * **Core Strength Feature**
     * Key Idea - The fundamental feature at the start of each season, a team has an innate ranking/strength level from it's players and the manager. This feature should remain relatively stable across the season.
-    * Key Idea - core_strength(team) = baseline (how good was the squad last season) + differential(how much you strengthen or weaken the overall squad in the window).
+    * Key Idea - core_strength(team) = baseline (existing squad strength last season) + differential(strength of incomings less strength of outgoings).
     * Baseline - The baseline feature, in both season outcomes and baseline odds. Then, you add a differential, and predictive power should improve. 
-    * Differential - Volume (the more you spend, the better players you get) and quality adjustment (for each unit of spending, how much over/under performance do you get?)
-    * Example - Liverpool's 25/26 window summed it up. Losing Darwin, Diaz, Trent, Jota (RIP), replacing with Frimpong, Kerkez, Wirtz, Ekitike, Isak. Combined with Salah underperfomance, the replacements in reality just failed to perform and the leavers were sorely missed. Therefore, they underperformed expectations across the season. 
+    * Differential - Strength of incomings (aka the ex-ante transfer problem) and strength of outgoings (this is ex-post).
+    * Example - Liverpool's 25/26 window summed it up. Losing Darwin, Diaz, Trent, Jota (RIP), replacing with Frimpong, Kerkez, Wirtz, Ekitike, Isak. Combined with Salah underperfomance, the replacements in reality just failed to fill the gaps of the leavers. They had a high baseline, but such a huge negative differential that it hurt their core strength badly.
 * **Core momentum feature**
     * XG - Window of league/point-weighted gamestate-weighted XG differentials - prior XG differentials should encode performance, XG mean reverts to true performance (another hypothesis that needs testing). 
     * XG Over/underperformance of goal diff - Window of league/point-weighted gamestate-weighted goal differentials - Some teams structurally over/underperform their xG, based on style factors (need to research this) or just player power (e.g outrageous goals like PSG)
@@ -119,7 +119,7 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
 ### The Discretionary Angle  - Open Problems
 
 * **The Player/Transfer Problem**
-    * Key Idea - A team brings in some players in a window. They perform really well, adapt really well. A team brings in some players, they flop. How do we quantify this? Scrape forum/reddit/scouting opinions on the player and turn into a sentiment score?
+    * Key Idea - How much strength do incoming players contribute to core squad strength?
     * Example - Kvara signed in Jan 24/25 for PSG for 70m euros. He then made a HUGE impact in PSG for 24/25 and 25/26 CL runs, responsible for their CL dominance.
     * Example - Wirtz signed in July for 25/26 for Liverpool for 120m euros. He then played a HUGE role in flopping (Flopian Wirtz as they call him) and is a reason why Liverpool sucked in 25/26. He couldn't cut it. 120m budget would score high in our feature.
     * Idea: Transfer Coefficient - Some have suggested a "transfer coefficient". Basically quantifying how well players for each position have done in cross-leagues. Then apply that coefficient into a transfer score feature across the season. Market value returns? What about age confounding. Problem: De Bruyne vs Wirtz. Perfect counterexamples.
