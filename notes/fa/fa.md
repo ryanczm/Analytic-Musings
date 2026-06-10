@@ -56,6 +56,7 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
     * Evaluation - In season outcomes and baseline win rates/odds (not residual odds), since this is a "beta" feature, not "alpha".
     * Baseline - Past squad strength.  
     * Differential - Strength of incomings (aka the ex-ante transfer problem) and strength of outgoings (this is ex-post).
+    * Problem - Both baseline and differential must be comparable within league and the same units! In other words, the relative strength of incomings at Liverpool must be comparable to relative strength of incomings at Bournemouth, for example.
     * Example - Liverpool's 25/26 window summed it up. Losing Darwin, Diaz, Trent, Jota (RIP), replacing with Frimpong, Kerkez, Wirtz, Ekitike, Isak. Combined with Salah underperfomance, the replacements in reality just failed to fill the gaps of the leavers. They had a high baseline, but such a huge negative differential (weak ins and strong outs) that it hurt their core strength badly. The question is how we quantify that.
 * **Core momentum feature**
     * XG - Window of league/point-weighted gamestate-weighted XG differentials - prior XG differentials should encode performance, XG mean reverts to true performance (another hypothesis that needs testing). 
