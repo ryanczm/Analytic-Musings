@@ -57,6 +57,8 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
     * Modelling - All separate features (e.g their own units/dimensions) or single (additive, but projecting diff feature spaces onto a common unit line)
     * Baseline - Past squad strength.  
     * Differential - Strength of incomings (aka the ex-ante transfer problem) and strength of outgoings (this is ex-post).
+    * Incomings - I talk about possible approaches to the ex-ante transfer problem below.
+    * Outgoings - Relative player performance per game, accumulated across a season, scaled to baseline or points as a measure of contribution.
     * Problem - Both baseline and differential (ins and outs) must be comparable within league and the same units! In other words, the relative strength of incomings at Liverpool must be comparable to relative strength of incomings at Bournemouth, for example. Same for relative strength of outgoings at Liverpool and Bournemouth.
     * Example - Liverpool's 25/26 window summed it up. Losing Darwin, Diaz, Trent, Jota (RIP), replacing with Frimpong, Kerkez, Wirtz, Ekitike, Isak. Combined with Salah underperfomance, the replacements in reality just failed to fill the gaps of the leavers. They had a high baseline, but such a huge negative differential (weak ins and strong outs) that it hurt their core strength badly. The question is how we quantify that.
 * **Core momentum feature**
