@@ -65,8 +65,8 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
 * **Lineup/player selection feature**
     * Key Idea - How alpha in picking the "best" starting XI for that opponent contributes to XG and XGA. 
     * Key Idea - The idea that sometimes the managers don't always put out the best starting XI. 
-    * Feature - Use historical player ratings to measure effectiveness of the XI - do these capture information? Need to scale player ratings by team strength? Also stats vs eye test example (e.g Gyok vs Atletico rated really low by Whoscored but high by BBC). For each league, we have sports journals covering for human ratings (BBC, L'Equipe, Marca, Gazetta, Kicker). 
-    * Feature - Win rates with/without. A simple proxy calculation. Could this work? Many confounders
+    * Feature - Use historical player ratings to measure effectiveness of the XI - do these capture information? Ratings are within-team relative performance metrics, hence need to scale within team. Also stats vs eye test example (e.g Gyok vs Atletico rated really low by Whoscored but high by BBC). For each league, we have sports journals covering for human ratings (BBC, L'Equipe, Marca, Gazetta, Kicker). 
+    * Feature - Win rates with/without. A simple proxy calculation. But of course, need to account for team strength.
     * Connection to Congestion feature - Teams rotating or playing weaker plays to rest for upcoming big games. E.g cup finals.
     * Connection to Availability feature - Injured or unavailable players do not start.
     * Example - Arteta consistently choosing Havertz, Odegaard and Zubimendi and having poor performances despite wins Towards EOS, due to injuries, puts in MLS, Eze, Trossard, the team bangs vs Fulham.
