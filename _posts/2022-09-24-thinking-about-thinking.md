@@ -133,13 +133,13 @@ This can be modelled via the **action framework**. For a situation, we identify 
 
 **Non-precise visualisation** - Compared to precise visualisation in the deterministic framework, the objective of this is to visualise who, when, where, what as effectively as possible. To that end, consider a **top-down map view**, then zoom in accordingly. A map view lends itself to the where, when and what very nicely. Who comes in with some imagination as an additional layer.
 
-**Context** - How to make these connections well? The answer seems to be context. Aka the past situations. The more history you cram into your own context window, the better you make the current connections. Your mind is model, the past is the context.
+**Context** - How to make these connections well? The answer seems to be context. Aka the past situations. The more history you cram into your own context window, the better you make the current connections. Your mind is model, the past is the context. The more context, the better your thesis.
 
 **Effects - Quantification of actions** - we can quantify effects of actions by **precisely assigning** a path in **space**, **time**, and **quantity**. We can do two actions here: **comparison** and **connection**. To **compare** is to get a relative sizing of the scale of the effect of the action (currency is the ultimate comparison tool) To **connect** is to model, often with **assumptions** (action happens, effect occurs, quantify), how it will impact some other effect/action.
 
 **Assumptions** - To model nth order reactions far into the future (e.g X does A, causing Y do to B, causing Z to do C), we need **assumptions**. Aka assume an action is taken, quantify the effect with a number, and run with it.
 
-
+**Thesis** - Essentially, projecting reactions down the road of actors, aka how the situation plays out, how the chess game evolves... is called a thesis.
 
 
 <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">The most interesting thing in the world is trying to see if you can understand what drives other people, putting yourself in their place and mind</p>&mdash; Emanuel Derman @emanuelderman.bsky (@EmanuelDerman) <a href="https://twitter.com/EmanuelDerman/status/2013085648203239619?ref_src=twsrc%5Etfw">January 19, 2026</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
