@@ -54,9 +54,10 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
     * Key Idea - The fundamental feature at the start of each season, a team has an innate ranking/strength level from it's players and the manager. This feature should remain relatively stable across the season.
     * Key Idea - core_strength(team) = baseline (existing squad strength last season) + differential (ex-ante expected contribution/strength of incomings less ex-post contribution/strength of outgoings).
     * Evaluation - In season outcomes and baseline win rates/odds (not residual odds), since this is a "beta" feature, not "alpha".
-    * Modelling - All separate features (e.g their own units/dimensions) or single (additive, but projecting diff feature spaces onto a common unit line)
+    * Modelling - All separate features (e.g their own units/dimensions) or single (better for interpretation but harder to do)
     * Baseline - Past squad strength.  
     * Differential - Strength of incomings (aka the ex-ante transfer problem) and strength of outgoings (this is ex-post).
+    * Spending Power - Within league relative or past-position relative (for this position, say midtable, how much is usually spent?), total spent or net spend
     * Incomings - I talk about possible approaches to the ex-ante transfer problem below. For ex-ante, we have market value, prices, player ratings at past clubs. But...
     * Outgoings - Relative player performance per game, accumulated across a season, scaled to baseline or points as a measure of contribution.
     * Problem - Both baseline and differential (ins and outs) must be comparable within league and the same units! In other words, the relative strength of incomings at Liverpool must be comparable to relative strength of incomings at Bournemouth, for example. Same for relative strength of outgoings at Liverpool and Bournemouth.
