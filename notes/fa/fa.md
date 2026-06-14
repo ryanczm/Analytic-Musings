@@ -55,7 +55,7 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
     * Key Idea - core_strength(team) = baseline (existing squad strength last season) + differential (ex-ante expected contribution/strength of incomings less ex-post contribution/strength of outgoings).
     * Evaluation - In season outcomes and baseline win rates/odds (not residual odds), since this is a "beta" feature, not "alpha".
     * Modelling - All separate features (e.g their own units/dimensions) or single (better for interpretation but harder to do)
-    * Baseline - Past squad strength.  
+    * Baseline - Past squad strength. Past position/points, squad value, strength scores, etc.
     * Differential - Strength of incomings (aka the ex-ante transfer problem) and strength of outgoings (this is ex-post).
     * Spending Power - Within league relative or past-position relative (for this position, say midtable, how much is usually spent?), total spent or net spend
     * Incomings - I talk about possible approaches to the ex-ante transfer problem below. For ex-ante, we have market value, prices, player ratings at past clubs. But...
