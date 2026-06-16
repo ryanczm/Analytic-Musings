@@ -70,7 +70,7 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
     * Feature - Game state weighting - For goals, scale them by goal timing: 2-0 with 90' 95' is not the same as 2-0 30' 40'. For XG, create a discretized XG curve and apply a time decay.
 * **Lineup/player selection feature**
     * Key Idea - How alpha in picking the "best" starting XI for that opponent contributes to XG and XGA. 
-    * Key Idea - The idea that sometimes the managers don't always put out the best starting XI. 
+    * Key Idea - The idea that sometimes the managers don't always put out the best starting XI. Remember, browse ANY pre-match thread and watch the lineup come out. The fans will start complaining or judging based on their rough intuition of how the XI will perform. That is what we want to capture.
     * Feature - Use historical player ratings to measure effectiveness of the XI - do these capture information? Ratings are within-team relative performance metrics, hence need to scale within team. Also stats vs eye test example (e.g Gyok vs Atletico rated really low by Whoscored but high by BBC). For each league, we have sports journals covering for human ratings (BBC, L'Equipe, Marca, Gazetta, Kicker). 
     * Feature - Win rates with/without. A simple proxy calculation. But of course, need to account for team strength.
     * Connection to Congestion feature - Teams rotating or playing weaker plays to rest for upcoming big games. E.g cup finals.
