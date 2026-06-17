@@ -137,7 +137,7 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
     * Example - Wirtz signed in July for 25/26 for Liverpool for 120m euros. He then played a HUGE role in flopping (Flopian Wirtz as they call him) and is a reason why Liverpool sucked in 25/26. He couldn't cut it. 120m budget would score high in our feature.
     * Idea: Transfer Coefficient - Some have suggested a "transfer coefficient". Basically quantifying how well players for each position have done in cross-leagues. Then apply that coefficient into a transfer score feature across the season. Market value returns? What about age confounding. Problem: De Bruyne vs Wirtz. Perfect counterexamples.
     * Idea - Discretionary Blend - Scout the transfers and assign a score to each squad. Then apply that to a transfer score across summer/winter. Make intential lookahead bias by forming transfer score feature for teams by looking at ex-post EOS grades (e.g market value). Test if it improves performance. Then if live season, scout and make discretionary scores from YouTube.
-    Idea - On the Fly Weighting - Move the transfer problem into the player selection feature. Heavily weigh the new signings ratings more in the strength of squad
+    * Idea - On the Fly Weighting - Move the transfer problem into the player selection feature. Heavily weigh the new signings ratings more in the strength of squad
 * **The Manager Problem**
     * Key Idea - We know certain managers have skill or alpha. They build legacies, they outperform. How can we quantify this, especially if they have limited track records?
     * Example - Carrick signing January to replace a flopping Amorim. They then finish top 4 after Amorim choking.
