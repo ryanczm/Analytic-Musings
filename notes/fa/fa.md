@@ -47,6 +47,12 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
     * Idea - Sofascores attacking momentum time series chart.
     * Idea - Possession/ field tilt time series
     * Idea - Score timings as a game state proxy. If we can't get time series possession or field tilt.
+**XI Release Timing Problem**
+    * Do you go in before the XI is realised or right after?
+    * You can have two variants of timings/approaches where in the former you take injuries to forecast availability.
+    * Or you can wait for the XI to release and have that information then go in.
+    * If you price XI information better than the market, then you should go in after. 
+    * So there are two timing approaches for any fundamental strategy. Which one makes more money?
 
 ### Features
 
