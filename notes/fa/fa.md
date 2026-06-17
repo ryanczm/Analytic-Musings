@@ -53,6 +53,10 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
     * Or you can wait for the XI to release and have that information then go in.
     * If you price XI information better than the market, then you should go in after. 
     * So there are two timing approaches for any fundamental strategy. Which one makes more money?
+* **Counterexample Problem**
+    * No matter how much you can find a trend or signal, there are always counterexamples.
+    * E.g transfer coefficient. Wirtz vs DeBruyne, Buli CAM to EPL. One flops, the other becomes a legend.
+ 
 
 ### Features
 
