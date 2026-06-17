@@ -193,6 +193,12 @@ Problem
 
 * Past performance is of course not indicative of future results. A manager can perform well his whole career, move to a new club and flop. That is again a problem in football betting in general...past results != future performance.
 
+
+## Datasets Not Spanned
+
+* Complex in-game play-by-play events data, from StatsBomb or Opta. Proprietary, used by scouts, expensive.
+* PLayer in-game statistics. Per game, aggregated from the former. Do these have any use? It tells you how a player performed / what he did in a game, beyond just the player ratings. Ratings are a function of this.
+
 ## Player Assessment with Stats
 
 How do we optimally make use of statistics to scout players? Say, examine successful players per position - take a look at their stats, extrapolate to scout new players. Like factors driving returns.
