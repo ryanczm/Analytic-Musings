@@ -163,6 +163,8 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
 * **Discretionary Research**
     * Discretionary Overlay
         * For EPL, since I'm an Arsenal fan anyway, I might extend to watch all EPL games and understand what the fans of each club are thinking at each point in time across a season. Then, I would consider doing a semi-systematic blend with discretionary betting. Aka I watch games, read fan forums, form my views, and also use my model outputs in a discretionary way to inform betting decisions.
+    * Transfer Scouting
+        * Good old YouTube scouting to tell if a transfer prospect is any good.
     * Game Watching
         * Obviously, we will aim to watch as many games as possible. I can cover EPL and watch every game, but to cover big 5 is a stretch. 
     * Fan forums and media 
