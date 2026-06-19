@@ -61,8 +61,8 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
 ### Features
 
 * **Core Strength Feature**
-    * Key Idea - The fundamental feature at the start of each season, a team has an innate ranking/strength level from it's players and the manager. This feature should remain relatively stable across the season.
-    * Key Idea - core_strength(team) = baseline (existing squad strength last season) + differential (ex-ante expected contribution/strength of incomings less ex-post contribution/strength of outgoings).
+    * Idea - The fundamental feature at the start of each season, a team has an innate ranking/strength level from it's players and the manager. This feature should remain relatively stable across the season.
+    * Core Strength Equation - core_strength(team) = baseline (existing squad strength last season) + differential (ex-ante expected contribution/strength of incomings less ex-post contribution/strength of outgoings).
     * Evaluation - In season outcomes and baseline win rates/odds (not residual odds), since this is a "beta" feature, not "alpha".
     * Modelling - All separate features (e.g their own units/dimensions) or single (better for interpretation but harder to do)
     * Baseline - Past squad strength. Past position/points, squad value, strength scores, etc.
@@ -73,40 +73,43 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
     * Problem - Both baseline and differential (ins and outs) must be comparable within league and the same units! In other words, the relative strength of incomings at Liverpool must be comparable to relative strength of incomings at Bournemouth, for example. Same for relative strength of outgoings at Liverpool and Bournemouth.
     * Example - Liverpool's 25/26 window summed it up. Losing Darwin, Diaz, Trent, Jota (RIP), replacing with Frimpong, Kerkez, Wirtz, Ekitike, Isak. Combined with Salah underperfomance, the replacements in reality just failed to fill the gaps of the leavers. They had a high baseline, but such a huge negative differential (weak ins and strong outs) that it hurt their core strength badly. The question is how we quantify that. Remember - consensus ex-ante 25/26 was the ins were really really strong.
 * **Core momentum feature**
-    * XG - Window of league/point-weighted gamestate-weighted XG differentials - prior XG differentials should encode performance, XG mean reverts to true performance (another hypothesis that needs testing). 
-    * XG Over/underperformance of goal diff - Window of league/point-weighted gamestate-weighted goal differentials - Some teams structurally over/underperform their xG, based on style factors (need to research this) or just player power (e.g outrageous goals like PSG)
-    * Feature - Window function... that depends. For example, using current league position difference to predict essentially is an expanding sum window over a discretized score outcome.
-    * Feature - League/point weighting - Scale the xg difference by points differential. To account for team strength differences.
-    * Feature - Game state weighting - For goals, scale them by goal timing: 2-0 with 90' 95' is not the same as 2-0 30' 40'. For XG, create a discretized XG curve and apply a time decay.
+    * Idea - Window of league/point-weighted gamestate-weighted XG differentials - prior XG differentials should encode performance, XG mean reverts to true performance (another hypothesis that needs testing). 
+    * XG Over/underperformance of Goal Diff - Window of league/point-weighted gamestate-weighted goal differentials - Some teams structurally over/underperform their xG, based on style factors (need to research this) or just player power (e.g outrageous goals like PSG)
+    * Window Function - Equal weight (SMA), exponential decay (EMWA). For example, using current league position difference to predict essentially is an expanding sum window over a discretized score outcome.
+    * Team Strength Delta - Marginal XG value varies in opponent strength. Scale the XG difference by team strength deltas. To account for team strength differences.
+    * Game State Weighting - Marginal XG value varies in time. E.g for goals, scale them by goal timing: 2-0 with 90' 95' is not the same as 2-0 30' 40'. For XG, create a discretized XG curve and apply a time decay.
 * **Lineup/player selection feature**
-    * Key Idea - How alpha in picking the "best" starting XI for that opponent contributes to XG and XGA. 
-    * Key Idea - The idea that sometimes the managers don't always put out the best starting XI. Remember, browse ANY pre-match thread and watch the lineup come out. The fans will start complaining or judging based on their rough intuition of how the XI will perform. That is what we want to capture.
-    * Feature - Use historical player ratings to measure effectiveness of the XI - do these capture information? Ratings are within-team relative performance metrics, hence need to scale within team. Also stats vs eye test example (e.g Gyok vs Atletico rated really low by Whoscored but high by BBC). For each league, we have sports journals covering for human ratings (BBC, L'Equipe, Marca, Gazetta, Kicker). 
-    * Feature - Win rates with/without. A simple proxy calculation. But of course, need to account for team strength.
-    * Feature - Assuming player ratings are indicative (need to test this hypothesis somehow), we can set up a hypothetical best team strength/selection score from past player ratings.
-    * Feature - Team strength deviation from optimal + bench strength deviation from optimal for home and away. 
-    * Feature - When the lineup comes out, we can calculate the delta between the observed team strength and hypothetical best team strength. If the manager selects a lineup far below the theoretical optimal team strength, then that is a disadvantage. If it is full strength, then good. Home and away deltas as features. This hinges on 1. How informative are statistical or journal player ratings of past performance on future performance and 2. How to handle non-stationarity of player strength, aka if a player is coming into good form, do we weight that more than say a historically good player having a few bad games in a row? 
-    * Problem - The bench. Having a good bench with your high-impact substitutes can be a game changer. For example, Dowman played a key role in the run-in for Arsenal's 25/26 title win. He did the pre-assist for Gyokeres in the 2-0 win where we scored in the 90th to take the 3 points in the title race.
-    * Connection to Congestion feature - Teams rotating or playing weaker plays to rest for upcoming big games. E.g cup finals.
-    * Connection to Availability feature - Injured or unavailable players do not start.
-    * Example - Arteta consistently choosing Havertz, Odegaard and Zubimendi and having poor performances despite wins Towards EOS, due to injuries, puts in MLS, Eze, Trossard, the team bangs vs Fulham.
-    * Example - For example, MLS started in midfield vs Fulham on 2nd May, replacing Zubi. The algo would rate him low due to poor performances at LB. But at CM, different story (MOTM). So need to scrape and compare historical positions with ratings.
-* **Availability feature (injuries + reds + afcon)**
-    * Feature - An injury score where player injuries imply the squad is weakened for the next match. This would be tricky because of player importance and substitutability. 
-    * Key Idea - We know injuries to a key player can derail an entire season. So this is really important. We've seen Arsenal without Saliba collapsing in the tail end of 22/23, and City without Rodri collapsing mid 25/26 before recovering.
-    * Problem - Problem is, need to factor how good the replacement is: aka Nico Gonzalez in for Rodri = no problem. Madueke in for Saka = disaster.
-    * Key Idea - The converse can happen! Sometimes we know as fans managers have favorites who get platformed despite performing poorly.
-    * Example - Injuries can be a blessing in disguise as the replacements are better than the injured starter! E.g Eze vs Odegaard, we know Eze is superior but Odegaard starts over him.
-    * Feature - Player ratings could be used to quantify quality. If the injured starters have worse ratings than the replacements.. maybe injury becomes a boost.
-    * Problem - Maybe starting XI is a better proxy? 
+    * Idea - How much alpha in picking the selected starting XI / subs for that opponent contributes relative to the theoretical ideal/maximum starting XI/subs. The idea sometimes managers do not pick the best
+    * Ratings - Use historical player ratings to measure effectiveness of the XI. Statistical/algo ratings vs journal ratings.  
+    * Variant - Weighing new transfers more, as existing players have already a baseline strength from last season.
+    * Variant - Weighing recent form more vs past historical form (e.g past seasons ratings with large $n$). Important for not-nailed on starters (aka Skelly in midfield banged vs Fulham replacing Zubimendi, but was poorly rated at LB in the past)
+    * Variant - Weighing z-scores by position group (attackers, midfielders, defenders, GK). Relative performance to your position group instead of your squad.
+    * Variant - Weighing journal vs algo.
+    * Variant - Theoretical ideal lineup construction algorithm
+* **Availability/injury feature**
+    * Idea - In theory, injuries to key players can damage outcomes. Afcon is basically an injury.
+    * Idea - Should be captured in player selection, but what if the ratings price a key player lower?
+    * Injury Separation from Player Selection - For that reason, should have an injury feature that quantifies the importance of injured players. And we would use player ratings over historical seasons (if there any) to get this importance. What if it's a new transfer?
+    * Replacement Quality Problem - In theory, a separate injury score and a player selection feature should solve the problem of the injury replacement quality option.
 * **Manager Feature**
-    * Managerial alpha - We know some managers are good. For example, Carrick in 25/26 took United to top 4. How do we account for managerial alpha if we have a manager with no 
+    * Managerial Alpha - We know some managers are good. For example, Carrick in 25/26 took United to top 4. How do we account for managerial alpha if we have a manager with no 
     * H2H - Some kind of H2H manager score based on past fixtures over a long period with the same team. Hypothesis being certain managers just tactically have each others number.
-    * New manager bounce - Another trope in football. Can this add a boost to certain matches with a new manager bounce? But this is confounded to manager skill track record? 
-    * Idea - We can quantify managerial alpha in a possible way. I write about it below. We just need lots of leagues points data, wages and transfer budget in a very wide cross-section.
+    * New Manager Bounce - Another trope in football. Can this add a boost to certain matches with a new manager bounce? But this is confounded to manager skill track record? Usually happens as a firing manager is underperforming, by definition.
 * **Fatigue/Congestion/Rotation feature (minutes dispersion)**
-    * Key Idea - Idea being playing too many games in a tight schedule does impact performance vs well-rested. 
-    * Feature - Fixture count, distance ran, degree of rotation/substitutions/minutes played dispersion, all impact fatigue. Especially deep in cup runs.
+    * Idea - Idea being playing too many games in a tight schedule does impact performance vs well-rested. 
+    * Example - Need to find examples where teams bust a gut early in the season, and towards the tail end, they collapse (e.g Arteta & Klopp Arsenal April collapse). Usually accompanied by a congested schedule and injury pileup.
+    * Feature - Fixture count, distance ran, pressing intensity, degree of rotation/substitutions/minutes played dispersion, all impact fatigue. Especially deep in cup runs.
+* **Motivation feature**
+    * Idea - Some kind of motivation score differential. Idea being that nearing end of season, say last 5 games (GW34), we have teams with increased and decreased motivation.
+    * Example - Relegation teams fighting end of the season.
+    * Example - Mid table teams with no ability to leapfrog in the table or cannot qualify for the next tier competition (CL, UEL, Conference)
+    * Example - Title winners having won already end of season (doesn't happen often in EPL though unlike BL or L1) with no motivation.
+    * Example - Sometimes, teams with nothing to play for rest players for a big game. 
+    * Feature - Some kind of score that increases or decreases depending on the position in table and number of games left
+* **Style feature**
+    * Idea - The idea that certain teams styles e.g high pressing, possession, counterattack, can neutralize or be (dis) advantaged versus another style. We will use match aggregate statistics for this. But it is subjected to the game state problem: a match statistic is aggregated across the game state time series.
+    * Bogey Matchups - The football trope of the bogey team. Commonly found on fan forums (e.g reddit) as "folk wisdom" from watching games. E.g City somehow always roll over to Spurs... Why? A stylistic mismatch (possession vs counterattack specialists). E.g  City vs United 0-2, a weakness to counterattacks (1st goal) and crossing (2nd goal).
+    * Example - For example, apparently I read on X Hull City who got promoted for 26/27 to EPL really outperformed their XG, and this was a result of their counterattacking style. Possible interaction with XG feature?
 * **Home and away feature**
     * Feature - A home team score and a away team score.
     * Key Idea - Idea being certain teams have more home/away advantage than others. Andrew Mack's SSMIE book talks about a ZSD model for this. Window of points/league weighted home points vs away points difference
@@ -114,22 +117,12 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
 * **Referee feature**
     * Some kind of league/point-weighted referee score based on past fixtures over a long period of time with the same time.
     * Idea being that sometimes referees have biases against certain teams.
-* **Motivation feature**
-    * Key Idea - Some kind of motivation score differential. Idea being that nearing end of season, say last 5 games (GW34), we have teams with increased and decreased motivation.
-    * Example - Relegation teams fighting end of the season.
-    * Example - Mid table teams with no ability to leapfrog in the table or cannot qualify for the next tier competition (CL, UEL, Conference)
-    * Example - Title winners having won already end of season (doesn't happen often in EPL though unlike BL or L1) with no motivation.
-    * Example - Sometimes, teams with nothing to play for rest players for a big game. 
-    * Feature - Some kind of score that increases or decreases depending on the position in table and number of games left
 * **Informed fan feature**
     * Pre match sentiment - Some sentiment indicator of reddit/forum results - only if the informed fans have predictive power.
     * Starting XI reaction sentiment - For example, a bad lineup comes out. Fans on X or the pre-match thread or lineup thread complaining. How do I know? Because I would go immediately to the lineup and start complaining... or at least I would go there to see if other people are complaining.
     * Key Idea - Official club pages will always release XI on X and Instagram. Does the data there have any predictive power as a signal? Perhaps some kind of sentiment score? On Instagram and X.
     * Key Idea - Sentiment score differential against closing odds residual. Or some kind of discount adjustment to the final prediction odds.
     * Key Idea - This is effectively the fan's / wisdom of the crowd view on the starting XI alpha feature. For example, if fans think it is a bad lineup choice, they will be complaining the release thread. 
-* **Style feature**
-    * The idea that certain teams styles e.g high pressing, possession, counterattack, can neutralize or be (dis) advantaged versus another style. We will use match aggregate statistics for this. But it is subjected to the game state problem: a match statistic is aggregated across the game state time series. 
-    * For example, apparently I read on X Hull City who got promoted for 26/27 to EPL really outperformed their XG, and this was a result of their counterattacking style. Possible interaction with XG feature?
  * **Bookie odds feature**
     * Key Idea - The Benter boost as per Mack. Benter in his paper blended his odds/probs with bookie odds/probs in a logit model. Acts as a form of regularization/shrinkage.
     * Other Ideas - Odds dispersion, wrongness, opening vs closing delta. Need to do EDA on odds. Odds time series from bettingiscool (49euro/month).
@@ -148,9 +141,10 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
     * Idea - On the Fly Weighting - Move the transfer problem into the player selection feature. Heavily weigh the new signings ratings more in the strength of squad
     * The Wirtz Problem - So if you check [this link](https://www.reddit.com/r/soccer/comments/1l89qfn/romano_florian_wirtz_to_liverpool_here_we_go/), you have fans glazing that mfer. But scroll down, at -7 downvotes, a comment says "He has good league numbers, but most of his production came against teams like Bremen, Freiburg, and Wolfsburg. He was disappointing in the Europa league final as well as the Euros. In last two seasons he hasn't scored or assisted against Bayern in the league as well. Then in UCL didn't play well vs Atleti, Liverpool, Bayern, with his best perfs against Brest and Feyenoord". At -7. So this guy, has successfully ex-ante made the Wirtz call. The footballing equivalent of calling the US/Iran MoU in April during peak oil. This comment says he doesn't show up in big games therefore flop. Now this gets me thinking.... can we quantify this?
 * **The Manager Problem**
-    * Key Idea - We know certain managers have skill or alpha. They build legacies, they outperform. How can we quantify this, especially if they have limited track records?
-    * Example - Carrick signing January to replace a flopping Amorim. They then finish top 4 after Amorim choking.
-    * Okay so we do have a possible solution, not perfect, but logical, to kind of assess manager skill over his many tenures. See "managerial assessment" below.
+    * Key Idea - Quantifying manager performance. We know managers have alpha and beta. Alpha being their idio return and beta being their factor returns (current squad, budget, support). Can we isolate the alpha or idio returns of each manager, netting off the effects of their current squad wages and net spend over their tenure?
+    * Key Idea - Regress wages and net spend on league position, across all leagues in cross section, across multiple seasons.  If a manager consistently has a high ranked residual, across tenures, then you have to say maybe...that's the skill.
+    * Key Idea - However, important to remember when you include managerial alpha in the model, the alpha must be re-calculated to exclude everything after and the current season you are modelling! If not, lookahead bias. 
+    * Problem - Does not take into account the intrinsic value of transfers over/under their budget. E.g was Iraola carrying Bournemouth or was Rayan carrying Iraola?
 
 ## Research Directions
 
@@ -168,35 +162,17 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
 
 ## Modelling Directions
 
-* Rolling window
-    * In this approach, the season-fixed features like the manager skill, core strength would remain constant over the season goes but in theory the model should weigh them less naturally as the season goes. A rolling window does this
-* Train-Val-Test
-    * Not really a big fan of this ...
-  
+* **Setup** 
+    * Rolling window
+        * In this approach, the season-fixed features like the manager skill, core strength would remain constant over the season goes but in theory the model should weigh them less naturally as the season goes. A rolling window does this
+    * Train-Val-Test
+        * Not really a big fan of this ...
+* **Features**
+    * Aggregation/score rollup vs individual - What if instead of putting features individually, we come out with a score/index from modelling groups of features, then feed it into the final model?
+    * Interpretability - Much better and we what see on the pitch.
+    * Rollup scores - Manager score, squad strength score (baseline + differential), momentum/form score, player selection/injury score, fatigue/congestion score, style score.
+    * Attribution - E.g lose game because of big injuries. Lose game because looking tired in the 2nd half due to season-accumulating fatigue. Lose game because tactically outmatched by a style.
 
-## Managerial Assessment
-
-Quantifying manager performance. We know managers have alpha and beta. Alpha being their idio return and beta being their factor returns (current squad, budget, support). Can we isolate the alpha or idio returns of each manager, netting off the effects of their current squad wages and net spend over their tenure?
-
-The idea would be to see if a manager, over his journey across different clubs, consistently outperforms his budget and wages.
-
-* Regress wages and net spend on league position, across all leagues in cross section, across multiple seasons.
-* Again, you can only compare within-league and across time, so you need some relative metric. For example, the net spend of a relegation club in EPL will dwarf the league leaders in, say, the Hong Kong league.
-* Each residual in the datapoint is associated with a manager and that season.
-* If a manager consistently has a high ranked residual, across tenures, then you have to say maybe...that's the skill.
-* Take the managerial alpha residuals and regress against managerial wages.
-* Now you have a ranking of which managers have the highest alpha, and also which managers are rich/cheap relative to their alpha.
-* However, important to remember when you include managerial alpha in the model, the alpha must be re-calculated to exclude everything after and the current season you are modelling! If not, lookahead bias. 
-
-Data
-
-* A very wide cross-section of wages, transfer spend and league tables across many seasons across many leagues.
-* Manager history for a wide cross section
-* Managers often jump from lower leagues to higher leagues in their career. For example, Iraola went from AEK Larnaca (Cyprus) to Mirandes (Segunda) to Rayo  Vallecano (Segunda) to Bournemouth and now to Liverpool.
-
-Problem
-
-* Past performance is of course not indicative of future results. A manager can perform well his whole career, move to a new club and flop. That is again a problem in football betting in general...past results != future performance.
 
 
 ## Datasets Not Spanned
@@ -204,7 +180,10 @@ Problem
 * Complex in-game play-by-play events data, from StatsBomb or Opta. Proprietary, used by scouts, expensive.
 * PLayer in-game statistics. Per game, aggregated from the former. Do these have any use? It tells you how a player performed / what he did in a game, beyond just the player ratings. Ratings are a function of this.
 
-## Player Assessment with Stats
+
+## Non-Betting Ideas
+
+### Player Assessment with Stats
 
 How do we optimally make use of statistics to scout players? Say, examine successful players per position - take a look at their stats, extrapolate to scout new players. Like factors driving returns.
 
@@ -224,14 +203,11 @@ Problem:
 * Finding the right dependent variable is difficult. Many ways to construct it. 
 * Statistics generated by players in matches are dependent on their team and league. For example, the argument that Portugese league strikers score tonnes of goals but flop in the higher leagues when they transfer.
 
-## Player Assessment with Physical Attributes
+### Player Assessment with Physical Attributes
 
 Are there optimal physical metrics per position (arm movement, touch density, leg to torso, torso uprightness) that can determine a player's success in scouting? This relates to the eye test. For example, we can see Messi clearly has some interesting different physical attributes when he plays that contributes to his success. But how to quantify these in numbers is a problem.
 
-
-
-
-## Injuries
+### Injuries
 
 Can we predict which teams get the most injuries? 
 
