@@ -79,7 +79,8 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
     * Team Strength Delta - Marginal XG value varies in opponent strength. Scale the XG difference by team strength deltas. To account for team strength differences.
     * Game State Weighting - Marginal XG value varies in time. E.g for goals, scale them by goal timing: 2-0 with 90' 95' is not the same as 2-0 30' 40'. For XG, create a discretized XG curve and apply a time decay.
 * **Lineup/player selection feature**
-    * Idea - How much alpha in picking the selected starting XI / subs for that opponent contributes relative to the theoretical ideal/maximum starting XI/subs. The idea sometimes managers do not pick the best
+    * Idea - How much alpha in picking the selected starting XI / subs for that opponent contributes relative to the theoretical ideal/maximum starting XI/subs. The idea sometimes managers do not pick the "best" lineup.
+    * Idea - These are all (creative) functions of player ratings, assuming they are indicative of performance and past performance carries into future performance. Player ratings are proprietary functions of events/tracking data in the algo sense, and journalist human views (eye tests).
     * Ratings - Use historical player ratings to measure effectiveness of the XI. Statistical/algo ratings vs journal ratings.  
     * Variant - Weighing new transfers more, as existing players have already a baseline strength from last season.
     * Variant - Weighing recent form more vs past historical form (e.g past seasons ratings with large $n$). Important for not-nailed on starters (aka Skelly in midfield banged vs Fulham replacing Zubimendi, but was poorly rated at LB in the past)
