@@ -91,7 +91,7 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
     * Idea - In theory, injuries to key players can damage outcomes. Afcon is basically an injury.
     * Idea - Should be captured in player selection, but what if the ratings price a key player lower?
     * Injury Separation from Player Selection - For that reason, should have an injury feature that quantifies the importance of injured players. And we would use player ratings over historical seasons (if there any) to get this importance. What if it's a new transfer?
-    * Replacement Quality Problem - In theory, a separate injury score and a player selection feature should solve the problem of the injury replacement quality option.
+    * Replacement Quality Problem - In theory, a separate injury score and a player selection feature should solve the problem of the injury replacement quality option. (E.g when Ruben Dias got injured, City brought in Max Alleyne and choked out some losses on the tape before bringing Guehi in January. Arsenal's Saliba injury in 22/23 where Rob Holding stepped up caused a title collapse. In other words - the quality of the replacement can mitigate or exacerbate the injury loss.)
 * **Manager Feature**
     * Managerial Alpha - We know some managers are good. For example, Carrick in 25/26 took United to top 4. How do we account for managerial alpha if we have a manager with no 
     * H2H - Some kind of H2H manager score based on past fixtures over a long period with the same team. Hypothesis being certain managers just tactically have each others number.
