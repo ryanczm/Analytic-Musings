@@ -85,7 +85,7 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
     * Variant - Weighing new transfers more, as existing players have already a baseline strength from last season.
     * Variant - Weighing recent form more vs past historical form (e.g past seasons ratings with large $n$). Important for not-nailed on starters (aka Skelly in midfield banged vs Fulham replacing Zubimendi, but was poorly rated at LB in the past)
     * Variant - Weighing z-scores by position group (attackers, midfielders, defenders, GK). Relative performance to your position group instead of your squad.
-    * Variant - Weighing journal vs algo.
+    * Variant - Weighing journal vs algo. How much weight do you put in a journalist view vs an algo view? Stat padders might get artificially boosted by algos (see Gyokeres in Arsenal Atletico UCL Semi 1st leg 25/26, rated highly by BBC/Sky and fans but poorly by the algorithm. Not good.)
     * Variant - Theoretical ideal lineup construction algorithm
 * **Availability/injury feature**
     * Idea - In theory, injuries to key players can damage outcomes. Afcon is basically an injury.
