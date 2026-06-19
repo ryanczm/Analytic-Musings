@@ -148,13 +148,13 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
 
 ## Research Directions
 
-* Correlation Directions 
+* **Correlation Directions**
     * Correlative research
         * Standard signal/model research. Based on a hypothesis, quantify the hypothesis, test the idea. Is there predictive power?
     * Anti-Correlative Research
         * The key idea here is to find situations/matches where the feature, model (be it yours or bookie) failed or diverged dramatically. 
         * Then do investigative research. What happened there? Could the feature/model have priced it in? If so, what did we miss? If not, how can we neutralize this risk? 
-* Correlation Types
+* **Correlation Types**
     * Season correlations
         * For season-level features, we have the extra option of scattering against season outcomes (e.g points or league ranking)
     * Fixture correlations
