@@ -160,6 +160,16 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
         * For season-level features, we have the extra option of scattering against season outcomes (e.g points or league ranking)
     * Fixture correlations
         * Where we take the difference in two scores of a feature for home and away and use that is a predictor of win probabilities.
+* **Discretionary Research**
+    * Discretionary Overlay
+        * For EPL, since I'm an Arsenal fan anyway, I might extend to watch all EPL games and understand what the fans of each club are thinking at each point in time across a season. Then, I would consider doing a semi-systematic blend with discretionary betting. Aka I watch games, read fan forums, form my views, and also use my model outputs in a discretionary way to inform betting decisions.
+    * Game Watching
+        * Obviously, we will aim to watch as many games as possible. I can cover EPL and watch every game, but to cover big 5 is a stretch. 
+    * Fan forums and media 
+        * Reddits, forums etc. It is important to keep track what the fans are saying, how they complain about lineup choices, what they think of transfers, how they think the team or players performed in a game.
+    * Limitation
+        * Breadth in the cross section is problematic - I probably only have time to cover extensively one league. Fan forums in non-English is a challenge also. 
+
 
 ## Modelling Directions
 
