@@ -24,7 +24,7 @@ The key idea is: how much signal does past information of football matches have 
 
 The core problem is: How do we translate football wisdom or tropes into statistical signals? Tropes that we see play out in matches, before games, across seasons etc. From being a dedicated fan of a team.
 
-The bottom line is, I believe we can see with our eyes and common sense, we know there are certain things that affect the outcomes of matches. My question is - can they be quantified?
+The bottom line is, I believe we can see with our eyes and common sense, we know there are certain things that affect the outcomes of matches. We can observe certain **narratives** or **subplots** playing out over the course of a season My question is - can they be quantified?
 
 ### Problems
 
