@@ -98,7 +98,7 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
 * **Fatigue/Congestion/Rotation feature (minutes dispersion)**
     * Idea - Idea being playing too many games in a tight schedule does impact performance vs well-rested. 
     * Example - Need to find examples where teams bust a gut early in the season, and towards the tail end, they collapse (e.g Arteta & Klopp Arsenal April collapse). Usually accompanied by a congested schedule and injury pileup.
-    * Feature - Fixture count, distance ran, pressing intensity, degree of rotation/substitutions/minutes played dispersion, all impact fatigue. Especially deep in cup runs.
+    * Feature - Fixture count, distance ran, pressing intensity, degree of rotation/substitutions/minutes played dispersion, all impact fatigue. Especially deep in cup runs. Kind of kicks in the last months of a season with a drastic collapse. Hence the birth of the April collapse.
 * **Motivation feature**
     * Idea - Some kind of motivation score differential. Idea being that nearing end of season, say last 5 games (GW34), we have teams with increased and decreased motivation.
     * Example - Relegation teams fighting end of the season.
