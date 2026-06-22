@@ -6,6 +6,8 @@ category: Commods
 ---
 Update: As of May 2026, I am long oil at 90 via BNO. I made some profit from going it at 80 and exiting at 105 at the start of the conflict. I have read opinions from commodity experts on X, and with the exception of a few bears (AyusoValue, Jeremie, Andreas Steno Larsen), most experts are very bullish (CrudeOil321, Tleilax, GavMcKracken). I also read a research note from Goehring & Rozencwajg which convinced me. The key idea being the inventory/SPR depletion is simply not sustainable, and demand destruction has not happened yet. Energy Aspects thinks DD has not shown up yet in the data. The bears counter that on absolute terms, the depletion is not much, and demand destruction has already happened.
 
+Well anyway, I guess I got burned this time round. Calvinfroedge and Gavin have descended into madness and apparently nothing ever matters. Maybe the G&R thesis will be right in the end but I can't take the drawdowns emotionally. Should have shorted on MoU drop but hindsight is perfect...
+
 So, I am going to wait a few months to see if the operational minimums/demand destruction plays out over the summer. 
 
 This is a post to apply the [humanistic framework](https://analytic-musings.com/2022/09/24/thinking-about-thinking/) set out in my first post to understand the Iran war situation and the causal chain of reactions/effects propagating through energy, agriculture, geopolitics etc. As per the framework, an action can have an effect, which we can quantify in numbers, then we can compare, aggregate or model how one effect affects another. However, we are not going to do that here (e.g quantifying the effect of the actions of the war on supply losses and flow losses) - to keep things simple.
