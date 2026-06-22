@@ -136,6 +136,7 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
     * Key Idea - How much strength do incoming players contribute to core squad strength?
     * Example - Kvara signed in Jan 24/25 for PSG for 70m euros. He then made a HUGE impact in PSG for 24/25 and 25/26 CL runs, responsible for their CL dominance.
     * Example - Wirtz signed in July for 25/26 for Liverpool for 120m euros. He then played a HUGE role in flopping (Flopian Wirtz as they call him) and is a reason why Liverpool sucked in 25/26. He couldn't cut it. 120m budget would score high in our feature.
+    * Idea - Opponent-strength weighted average player ratings - If we have past WhoScored ratings, we can discount them for opponent strength. Inspired by the -7 Wirtz comment. However, problem is, need to adjust by league position and league strength!
     * Idea - Transfer Coefficient - Some have suggested a "transfer coefficient" + UEFA coefficients.
     * Idea - Discretionary Blend - Scout the transfers and assign a score to each squad. Then apply that to a transfer score across summer/winter. Make intential lookahead bias by forming transfer score feature for teams by looking at ex-post EOS grades (e.g market value). Test if it improves performance. Then if live season, scout and make discretionary scores from YouTube.
     * Idea - On the Fly Weighting - Move the transfer problem into the player selection feature. Heavily weigh the new signings ratings more in the strength of squad
