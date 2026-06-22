@@ -129,7 +129,7 @@ This can be modelled via the **action framework**. For a situation, we identify 
 * **Reaction(s)** - Anchor to who will react to this and what they will do
 
 
-**Who** - Categorizing the actors involved, their motivations and actions and names, is the first part of the process.
+**Understanding the Situation** - Basically, holding a mental model of all the actors in your head, simultaneously, performing actions and interacting in time and space. This is the hardest thing to do.
 
 **Non-precise visualisation** - Compared to precise visualisation in the deterministic framework, the objective of this is to visualise who, when, where, what as effectively as possible. To that end, consider a **top-down map view**, then zoom in accordingly. A map view lends itself to the where, when and what very nicely. Who comes in with some imagination as an additional layer.
 
