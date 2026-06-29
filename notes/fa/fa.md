@@ -109,11 +109,14 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
     * Example - Sometimes, teams with nothing to play for rest players for a big game. 
     * Feature - Some kind of score that increases or decreases depending on the position in table and number of games left
 * **Style feature**
-    * Idea - The idea that certain teams styles e.g high pressing, possession, counterattack, can neutralize or be (dis) advantaged versus another style. We will use match aggregate statistics for this. But it is subjected to the game state problem: a match statistic is aggregated across the game state time series. The football trope of a "bogey team" seems to imply the existence of style advantage and disadvantage. A comment from ["Why is Spurs of all teams our Kryptonite" from reddit](https://www.reddit.com/r/MCFC/comments/1ip9wuk/why_is_spurs_of_all_teams_our_kryptonite_cant/) - Says "Rock Paper Scissors innit". There must be some wisdom in this trope if fans latently express it.
+    * Idea - The idea that certain teams styles e.g high pressing, possession, counterattack, can neutralize or be (dis) advantaged versus another style. 
+    * Idea - This style matchup more or less overpowers any strength-difference features to produce a contrarian result that is "unexpected". We will use match aggregate statistics for this. But it is subjected to the game state problem: a match statistic is aggregated across the game state time series. 
+    * Bogey Team Trope - The football trope of a "bogey team" seems to imply the existence of style advantage and disadvantage. A comment from ["Why is Spurs of all teams our Kryptonite" from reddit](https://www.reddit.com/r/MCFC/comments/1ip9wuk/why_is_spurs_of_all_teams_our_kryptonite_cant/) - Says "Rock Paper Scissors innit". There must be some wisdom in this trope if fans latently express it.
     * Example - Counterattack vs Possession/Pressing - Matchups of City vs Spurs (GW12 24/25, 23-11-24, 4-0), United vs City (GW21 25/26, 17-01-26, 2-0) come to mind.
     * Example - Low Block vs Dominant Team - Many of Arsenal's games in 25/26 come to mind. Sunderland vs Arsenal (GW11 25/26, 08-11-25, 2-2).
     * Example - Short Backline vs Crossing - Can't think of an example for this. 
     * Problem - Quantifying a style matchup that disadvantages a team or provides a big advantage is difficult. Match stats, either wholesale or custom-aggregated from events data, probably encode this in a very noisy fashion.
+    * Idea - Once having a good model without style, back out any strange or outlier results. Infer the style mismatch from them. Problem - needs a decent model first. Also outlier matches may not be due to style mismatch.
 * **Home and away feature**
     * Feature - A home team score and a away team score.
     * Key Idea - Idea being certain teams have more home/away advantage than others. Andrew Mack's SSMIE book talks about a ZSD model for this. Window of points/league weighted home points vs away points difference
