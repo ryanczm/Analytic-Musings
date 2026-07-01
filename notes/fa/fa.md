@@ -187,6 +187,7 @@ The bottom line is, I believe we can see with our eyes and common sense, we know
 * **Setup** 
     * Rolling window
         * In this approach, the season-fixed features like the manager skill, core strength would remain constant over the season goes but in theory the model should weigh them less naturally as the season goes. A rolling window does this
+        * However, for a short rolling window, for first time effects, like a style mismatch, it will not have any past data to predict/learn on. So minimum needs to be one full season. Then expanding window. After round robin, aka GW19, can switch to rolling/expanding on current season.
     * Train-Val-Test
         * Not really a big fan of this ...
 * **Features**
